@@ -2,18 +2,25 @@
 
 ## 1. Role & Architecture
 - You are an automated content creation and multi-platform distribution agent.
-- **Hub:** Google Blogger (SEO & GEO optimized, auto-published via Blogger API).
-- **Branch 1:** Tistory (Health/Medical deep-dive, manual linking).
-- **Branch 2:** Threads (Short-form hook, auto-published via Threads API).
+- **Writing order matters:** Tistory main article first → Blogger version is a rewrite of it → Threads hook last. Never write Blogger first and pad it out — that produces a thin, generic piece.
+- **Main:** Tistory (deep-dive, long-form, manual publish — no API integration, by policy).
+- **Hub:** Google Blogger (SEO & GEO optimized rewrite of the Tistory piece, auto-published via Blogger API).
+- **Branch:** Threads (short-form hook derived from either piece, manual publish for now).
 
 ## 2. Content Generation Rules
-- **Blogger Post Structure:**
-  1. **Introduction:** Empathy and core summary (2-3 lines).
-  2. **Body Part 1:** H2/H3 headings, HTML info boxes, and core facts.
-  3. **Body Part 2:** Detailed info, exceptions, and tips.
-  4. **Conclusion & Media:**
-     - Search for a high-view/high-like YouTube video related to the topic and embed it using an `<iframe>`.
-     - **Exception Rule:** If no relevant or high-quality video is available, omit the video section entirely and provide a neat, comprehensive closing statement instead.
+- **Tistory Main Article (write this first):**
+  - A genuine deep-dive in Korean: thorough, specific, more detailed than the Blogger version — this is the authoritative long-form piece, not a byproduct.
+  - Structure: title, intro, several H2/H3 sections covering the topic in depth, a closing wrap-up. Plain, readable Markdown (Tistory's own editor handles formatting) — no Blogger-specific HTML info boxes or metadata needed here.
+  - Save as `tistory_drafts/<slug>.md` (same slug as the Blogger post). This is never auto-published — Tistory has no API access — so it only needs to be committed to the repo for the human to copy into Tistory's editor manually.
+- **Blogger Post (rewrite of the Tistory article, not a copy):**
+  - Must differ meaningfully in wording and structure from the Tistory piece — same facts, different phrasing/organization/length. Identical text on two domains hurts both pages' SEO.
+  - Structure:
+    1. **Introduction:** Empathy and core summary (2-3 lines).
+    2. **Body Part 1:** H2/H3 headings, HTML info boxes, and core facts.
+    3. **Body Part 2:** Detailed info, exceptions, and tips.
+    4. **Conclusion & Media:**
+       - Search for a high-view/high-like YouTube video related to the topic and embed it using an `<iframe>`.
+       - **Exception Rule:** If no relevant or high-quality video is available, omit the video section entirely and provide a neat, comprehensive closing statement instead.
 - **Thumbnail Image (Crucial, mandatory — never skip):**
   - Blogger has no dedicated thumbnail field — it auto-generates the post's thumbnail/preview image from the first `<img>` tag found in the content. Every post MUST include one near the top (right after the introduction).
   - The content-generation environment's network access is restricted, so a real photo URL found via search cannot be verified to actually exist — do not use WebSearch results or hand-written photo-hosting guesses for this.
@@ -34,8 +41,12 @@
   - **Search Description:** 100–150 characters summary containing core keywords. Note: the Blogger API has no field for this — it must be pasted manually into the post's search-description setting in the Blogger UI after publishing.
 
 ## 3. Extension & Linking Rules
-- For health/medical topics, include a natural internal link pointing to the Tistory blog deep-dive post.
-- Generate a companion short-form hook text for Instagram Threads.
+- Do not hard-code a link from the Blogger post to the Tistory post — the Tistory post doesn't exist yet at automation time (it's published manually, later). Instead, the Kakao notification reminds the human to add that internal link manually once the Tistory piece is live.
+- Generate a companion short-form hook text for Instagram Threads (auto-published later once Threads API integration is set up; for now it's delivered via the Kakao notification for manual posting).
 
 ## 4. Execution Rule
-- When a topic or keyword is given, automatically generate the structured Blogger post, metadata, and Threads hook text according to these guidelines.
+- When a topic or keyword is given (or found via trend research), generate in this order: (1) the Tistory main article → `tistory_drafts/<slug>.md`, (2) the rewritten Blogger post + metadata, (3) the thumbnail SVG, (4) the Threads hook. Include a `tistory_url` field in the `pending_posts/<slug>.json` pointing to the Tistory draft's GitHub blob URL:
+  ```
+  https://github.com/leoleo0813/blog-automation/blob/main/tistory_drafts/<slug>.md
+  ```
+  so the Kakao notification carries a direct, easy-to-copy link to it (repo is public, so this is viewable without login).
