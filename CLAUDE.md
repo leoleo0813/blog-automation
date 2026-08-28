@@ -42,10 +42,26 @@
 
 ## 3. Extension & Linking Rules
 - Do not hard-code a link from the Blogger post to the Tistory post — the Tistory post doesn't exist yet at automation time (it's published manually, later). Instead, the Kakao notification reminds the human to add that internal link manually once the Tistory piece is live.
-- Generate a companion short-form hook text for Instagram Threads (auto-published later once Threads API integration is set up; for now it's delivered via the Kakao notification for manual posting).
+- Generate a companion short-form hook text for Instagram Threads, following the guidelines below (auto-published later once Threads API integration is set up; for now it's delivered via the Kakao notification for manual posting).
 
-## 4. Execution Rule
-- When a topic or keyword is given (or found via trend research), generate in this order: (1) the Tistory main article → `tistory_drafts/<slug>.md`, (2) the rewritten Blogger post + metadata, (3) the thumbnail SVG, (4) the Threads hook. Include a `tistory_url` field in the `pending_posts/<slug>.json` pointing to the Tistory draft's GitHub blob URL:
+## 4. Threads Hook Guidelines
+The goal is to pull blog traffic and views simultaneously — write for the feed, not like a blog intro.
+
+- **Structure & layout:**
+  - First line is the headline hook — the one line that stops the scroll. Leave the second line blank (an actual line break) for visual breathing room before the rest.
+  - Summarize the core content as a numbered list of 3-4 items max, not prose paragraphs. Use emoji numbering (1️⃣ 2️⃣ 3️⃣, or 📌) with short keyword phrases, not full sentences.
+  - **Never put a URL in the body text** — Threads' algorithm suppresses reach for posts with outbound links in the body. End the post with only a pointer line like `(자세한 내용은 댓글 링크 참고 👇)` — the actual URL goes in the first reply instead (see Publishing Process below).
+- **Hook & voice:**
+  - No warm greetings or scene-setting ("안녕하세요", "선선해진 바람이 불어오는 가을입니다" style openers) — these read as blog/Instagram voice and get skipped instantly in a feed.
+  - Lean into scarcity and loss-aversion language — phrasing like "지금 안 보면 1년 기다려야 함", "남들 다 시작한", "모르면 손해" that creates urgency.
+  - Front-load the single most attention-grabbing concrete number or fact from the post directly into the hook line itself (e.g. "언급량 79% 증가", "트렌드 컬러 4가지") rather than saving it for later.
+- **Publishing process** (applies once Threads posting — manual now, automated later — actually happens):
+  1. Post the body text first.
+  2. Immediately self-reply on the new post with the blog post URL — this is where the link actually lives.
+  3. Attach exactly one image: a single curiosity-driving visual, not a multi-panel card summarizing the whole post.
+
+## 5. Execution Rule
+- When a topic or keyword is given (or found via trend research), generate in this order: (1) the Tistory main article → `tistory_drafts/<slug>.md`, (2) the rewritten Blogger post + metadata, (3) the thumbnail SVG, (4) the Threads hook per Section 4. Include a `tistory_url` field in the `pending_posts/<slug>.json` pointing to the Tistory draft's GitHub blob URL:
   ```
   https://github.com/leoleo0813/blog-automation/blob/main/tistory_drafts/<slug>.md
   ```
