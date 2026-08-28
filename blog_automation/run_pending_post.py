@@ -29,10 +29,12 @@ def main():
     if threads_hook:
         print(f"\nThreads 훅 텍스트:\n{threads_hook}")
 
-    _notify_kakao(data['title'], response.get('url', ''), data['search_description'], threads_hook)
+    # 초안은 블로그 앞단 URL이 아직 안 열리므로, Blogger 관리 화면의 편집 링크로 보낸다.
+    edit_url = f"https://www.blogger.com/blog/post/edit/{response['blog']['id']}/{response['id']}"
+    _notify_kakao(data['title'], response.get('url', ''), edit_url, data['search_description'], threads_hook)
 
 
-def _notify_kakao(title, url, search_description, threads_hook):
+def _notify_kakao(title, url, edit_url, search_description, threads_hook):
     """카카오 시크릿이 설정되어 있으면 발행 요약을 '나에게 보내기'로 전송한다.
 
     아직 설정 전이라 실패하더라도 Blogger 발행 자체는 이미 끝난 뒤이므로
@@ -48,7 +50,7 @@ def _notify_kakao(title, url, search_description, threads_hook):
         message += f"\n\nThreads 훅:\n{threads_hook}"
 
     try:
-        send_kakao_message(message)
+        send_kakao_message(message, link_url=edit_url)
     except Exception as e:
         print(f"카카오톡 알림 전송 실패 (Blogger 발행 자체는 성공): {e}")
 

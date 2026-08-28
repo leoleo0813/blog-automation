@@ -22,13 +22,16 @@ def _get_access_token():
     return resp.json()['access_token']
 
 
-def send_kakao_message(text):
-    """카카오톡 '나에게 보내기'로 텍스트 메시지를 전송한다."""
+def send_kakao_message(text, link_url=''):
+    """카카오톡 '나에게 보내기'로 텍스트 메시지를 전송한다.
+
+    link_url을 넘기면 메시지의 '자세히 보기' 버튼이 그 URL로 이동한다.
+    """
     access_token = _get_access_token()
     template_object = {
         'object_type': 'text',
         'text': text,
-        'link': {'web_url': '', 'mobile_web_url': ''},
+        'link': {'web_url': link_url, 'mobile_web_url': link_url},
     }
     resp = requests.post(
         SEND_URL,
