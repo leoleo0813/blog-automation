@@ -24,6 +24,10 @@ def main():
         is_draft=data.get('is_draft', True),
     )
 
+    threads_hook = data.get('threads_hook')
+    if threads_hook:
+        print(f"\nThreads 훅 텍스트:\n{threads_hook}")
+
 
 if __name__ == '__main__':
     main()
