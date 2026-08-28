@@ -17,12 +17,13 @@
 - **Thumbnail Image (Crucial, mandatory — never skip):**
   - Blogger has no dedicated thumbnail field — it auto-generates the post's thumbnail/preview image from the first `<img>` tag found in the content. Every post MUST include one near the top (right after the introduction).
   - The content-generation environment's network access is restricted, so a real photo URL found via search cannot be verified to actually exist — do not use WebSearch results or hand-written photo-hosting guesses for this.
-  - Instead, generate a decorated gradient SVG thumbnail locally (no network needed — it's built from plain text/color parameters, so it always works):
+  - Instead, generate a simple Korean-language infographic-style card SVG thumbnail locally (no network needed — it's built from plain text/color parameters, so it always works):
     ```
-    python -m blog_automation.make_thumbnail <slug> "<영문 제목 2~5단어>" <hex색상1> <hex색상2> <이모지>
+    python -m blog_automation.make_thumbnail <slug> "<한글 제목/짧은 문구>" <배경hex> <포인트색hex> "<짧은 카테고리 태그>" ["<포인트1>" "<포인트2>" "<포인트3>"]
     ```
-    e.g. `python -m blog_automation.make_thumbnail autumn-immunity-tips "Autumn Immunity Tips" 4a7ab5 2f4f7f 🍂`
-    Pick two hex colors (a gradient pair) matching the topic's mood, and one emoji that represents it. This writes `assets/thumbnails/<slug>.svg` — commit and push this file *together with* the `pending_posts/*.json` in the same commit, then reference it in the post content via jsDelivr (NOT raw.githubusercontent.com — GitHub serves raw files with a content-type that browsers refuse to render as an `<img>`, so it shows as broken):
+    e.g. `python -m blog_automation.make_thumbnail autumn-immunity-tips "환절기 면역력 지키는 법" 2f4f7f 4a90d9 "건강 팁" "체온관리" "수면" "비타민C"`
+    Pick a background hex color and an accent hex color matching the topic's mood, a short Korean category tag, and up to 3 short (4-6자) core keywords from the post as points — these render as numbered items for an infographic feel. Points are optional; omit them for a plain title card.
+    This writes `assets/thumbnails/<slug>.svg` — commit and push this file *together with* the `pending_posts/*.json` in the same commit, then reference it in the post content via jsDelivr (this repo is public, so both jsDelivr and raw.githubusercontent.com work, but jsDelivr is the standard choice):
     ```
     https://cdn.jsdelivr.net/gh/leoleo0813/blog-automation@main/assets/thumbnails/<slug>.svg
     ```
