@@ -22,9 +22,9 @@
     python -m blog_automation.make_thumbnail <slug> "<영문 제목 2~5단어>" <hex색상1> <hex색상2> <이모지>
     ```
     e.g. `python -m blog_automation.make_thumbnail autumn-immunity-tips "Autumn Immunity Tips" 4a7ab5 2f4f7f 🍂`
-    Pick two hex colors (a gradient pair) matching the topic's mood, and one emoji that represents it. This writes `assets/thumbnails/<slug>.svg` — commit and push this file *together with* the `pending_posts/*.json` in the same commit, then reference it in the post content as:
+    Pick two hex colors (a gradient pair) matching the topic's mood, and one emoji that represents it. This writes `assets/thumbnails/<slug>.svg` — commit and push this file *together with* the `pending_posts/*.json` in the same commit, then reference it in the post content via jsDelivr (NOT raw.githubusercontent.com — GitHub serves raw files with a content-type that browsers refuse to render as an `<img>`, so it shows as broken):
     ```
-    https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/thumbnails/<slug>.svg
+    https://cdn.jsdelivr.net/gh/leoleo0813/blog-automation@main/assets/thumbnails/<slug>.svg
     ```
   - Because this is generated locally from parameters (not fetched or guessed), there is no exception case — every post must include one.
 - **Metadata Rules (Crucial):**
