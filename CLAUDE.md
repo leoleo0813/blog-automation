@@ -14,11 +14,26 @@
   - Save as `tistory_drafts/<slug>.md` (same slug as the Blogger post). This is never auto-published — Tistory has no API access — so it only needs to be committed to the repo for the human to copy into Tistory's editor manually.
 - **Blogger Post (rewrite of the Tistory article, not a copy):**
   - Must differ meaningfully in wording and structure from the Tistory piece — same facts, different phrasing/organization/length. Identical text on two domains hurts both pages' SEO.
-  - Structure:
-    1. **Introduction:** Empathy and core summary (2-3 lines).
-    2. **Body Part 1:** H2/H3 headings, HTML info boxes, and core facts.
-    3. **Body Part 2:** Detailed info, exceptions, and tips.
-    4. **Conclusion & Media:**
+  - **Never write a wall of text.** No paragraph may run longer than 3 sentences. Anything enumerable (steps, causes, examples, tips) MUST be an `<ul>`/`<ol>` list, never comma-spliced prose or "첫째, 둘째, 셋째" run into a paragraph. This is a readability/SEO/GEO requirement, not a style preference — long undifferentiated paragraphs are the #1 complaint about past posts.
+  - Structure (every element below is required, not optional decoration):
+    1. **Introduction:** Empathy + core summary, 2-3 short sentences.
+    2. **TL;DR box** — immediately after the intro, before any H2. 3 bullet points, the reader's key takeaways, in a highlighted box:
+       ```html
+       <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:20px 0;">
+         <strong style="color:#2f4f7f;font-size:18px;">📌 핵심 요약</strong>
+         <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;">
+           <li>...</li><li>...</li><li>...</li>
+         </ul>
+       </div>
+       ```
+    3. **Body Part 1 & 2** — 2-4 `<h2>` sections, each styled with an accent left-border (pick a hex to match the thumbnail's accent color), each containing:
+       - `<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">섹션 제목</h2>`
+       - Short paragraphs (≤3 sentences each) with the single most important sentence per section wrapped in a highlight span: `<span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">핵심 문장</span>`
+       - At least one `<ul>`/`<ol>` list per section wherever there's enumerable content
+       - At least 2 info/tip boxes total across the post (reuse the existing box style), spaced out — not just one near the top
+    4. **Closing recap box** — same visual style as the TL;DR box, 2-3 bullets restating the key action items, right before the closing paragraph.
+    5. **Optional short FAQ** (2-3 Q&A) before the closing — good for SEO/GEO (AI Overview / "people also ask" citation): `<h3>Q. ...?</h3><p>A. ...</p>`
+    6. **Conclusion & Media:**
        - Search for a high-view/high-like YouTube video related to the topic and embed it using an `<iframe>`.
        - **Exception Rule:** If no relevant or high-quality video is available, omit the video section entirely and provide a neat, comprehensive closing statement instead.
 - **Thumbnail Image (Crucial, mandatory — never skip):**
