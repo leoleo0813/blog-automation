@@ -35,10 +35,13 @@ def main():
 
     # 초안은 블로그 앞단 URL이 아직 안 열리므로, Blogger 관리 화면의 편집 링크로 보낸다.
     edit_url = f"https://www.blogger.com/blog/post/edit/{response['blog']['id']}/{response['id']}"
-    _notify_kakao(data['title'], response.get('url', ''), edit_url, data['search_description'], threads_hook, tistory_url)
+    _notify_kakao(
+        data['title'], response.get('url', ''), edit_url, data['search_description'],
+        threads_hook, tistory_url, data.get('slug', ''),
+    )
 
 
-def _notify_kakao(title, url, edit_url, search_description, threads_hook, tistory_url):
+def _notify_kakao(title, url, edit_url, search_description, threads_hook, tistory_url, slug):
     """카카오 시크릿이 설정되어 있으면 발행 요약을 '나에게 보내기'로 전송한다.
 
     아직 설정 전이라 실패하더라도 Blogger 발행 자체는 이미 끝난 뒤이므로
@@ -49,7 +52,12 @@ def _notify_kakao(title, url, edit_url, search_description, threads_hook, tistor
 
     from blog_automation.kakao_notify import send_kakao_message
 
-    message = f"[블로그 초안 발행]\n제목: {title}\nURL: {url}\n\n검색 설명(수동 입력 필요):\n{search_description}"
+    message = f"[블로그 초안 발행]\n제목: {title}\nURL: {url}"
+    if slug:
+        # 실제 Blogger 자동 URL이 의도한 슬러그와 다르게 나올 수 있어(과거 버그 이력),
+        # 의도한 값을 같이 남겨 비교할 수 있게 한다.
+        message += f"\n의도한 슬러그: {slug}"
+    message += f"\n\n검색 설명(수동 입력 필요):\n{search_description}"
     if threads_hook:
         message += f"\n\nThreads 훅:\n{threads_hook}"
     if tistory_url:
