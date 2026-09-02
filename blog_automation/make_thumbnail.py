@@ -1,10 +1,13 @@
-"""뉴스 매거진 스타일의 한글 인포그래픽 카드 SVG 썸네일을 만들어 assets/thumbnails/에 저장한다.
+"""심플한 플랫 에디토리얼 스타일 SVG 썸네일을 만들어 assets/thumbnails/에 저장한다.
 
     python -m blog_automation.make_thumbnail <slug> "<한글 제목/짧은 문구>" <배경hex> <포인트색hex> "<짧은 카테고리 태그>" ["<포인트1>" "<포인트2>" "<포인트3>"]
 
-포인트(핵심 키워드, 최대 3개, 각 4~6자 이내)를 추가하면 하단 다크 티커 바에
-번호가 매겨진 칩 형태로 표시되어 뉴스 그래픽 느낌이 강해진다. 포인트 없이
-4개 인자만 넘기면 제목 카드만 나온다.
+포인트(핵심 키워드, 최대 3개, 각 4~6자 이내)를 추가하면 하단 인덱스 바에
+"01 키워드" 형태로 표시된다. 포인트 없이 4개 인자만 넘기면 제목 카드만 나온다.
+
+의도적으로 그라디언트/드롭섀도우/카드 테두리 같은 전형적인 "AI 생성 SaaS
+카드" 느낌의 장식은 배제했다 — 평평한 단색 배경 + 굵은 타이틀 + 얇은 액센트
+라인 위주의, 실제 에디터가 손으로 만든 것 같은 담백한 구성이 목표다.
 
 예:
     python -m blog_automation.make_thumbnail autumn-immunity-tips "환절기 면역력 지키는 법" 2f4f7f 4a90d9 "건강 팁" "체온관리" "수면" "비타민C"
@@ -20,58 +23,32 @@ from pathlib import Path
 FONT_STACK = "'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"
 
 BASE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="{bg_light}"/>
-      <stop offset="100%" stop-color="{bg_dark}"/>
-    </linearGradient>
-    <radialGradient id="vignette" cx="80%" cy="90%" r="75%">
-      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dotGrid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="2" fill="{accent}"/>
-    </pattern>
-    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
-    </filter>
-  </defs>
+  <rect width="1200" height="630" fill="{bg}"/>
+  <rect x="0" y="0" width="14" height="630" fill="{accent}"/>
 
-  <rect width="1200" height="630" fill="url(#bgGrad)"/>
-  <polygon points="700,0 1200,0 1200,420" fill="{accent}" opacity="0.10"/>
-  <rect x="840" y="50" width="300" height="230" fill="url(#dotGrid)" opacity="0.35"/>
-  <rect width="1200" height="630" fill="url(#vignette)"/>
-
-  <circle cx="106" cy="107" r="7" fill="{accent}" filter="url(#softShadow)"/>
-  <rect x="122" y="80" width="{tag_width}" height="54" rx="27" fill="{accent}" filter="url(#softShadow)"/>
-  <text x="152" y="116" font-family="{font}" font-size="28" font-weight="bold" fill="#ffffff">{tag}</text>
-  <rect x="90" y="152" width="220" height="4" rx="2" fill="{accent}" opacity="0.85"/>
+  <rect x="90" y="86" width="{tag_width}" height="44" fill="{accent}"/>
+  <text x="112" y="115" font-family="{font}" font-size="24" font-weight="bold" fill="#ffffff">{tag}</text>
+  <rect x="90" y="148" width="150" height="3" fill="{accent}"/>
 
   {title_lines}
-  {points_block}
-
-  <rect x="24" y="24" width="1152" height="582" rx="26" fill="none" stroke="{accent}" stroke-width="4" opacity="0.55"/>
+  {bottom_block}
 </svg>"""
 
 TITLE_LINE = (
-    '<text x="90" y="{y}" font-family="{font}" font-size="66" font-weight="bold" '
-    'fill="#ffffff" filter="url(#softShadow)">{text}</text>'
+    '<text x="90" y="{y}" font-family="{font}" font-size="64" font-weight="bold" fill="#ffffff">{text}</text>'
 )
 
-TICKER_BAR = '<rect x="0" y="502" width="1200" height="128" fill="#0d1420" opacity="0.62"/>' \
-             '<rect x="0" y="500" width="1200" height="4" fill="{accent}"/>'
+BOTTOM_BAR = '<rect x="0" y="520" width="1200" height="110" fill="{bar_fill}"/>'
 
-HASHTAG = (
-    '<text x="600" y="576" font-family="{font}" font-size="26" fill="#ffffff" '
-    'opacity="0.55" text-anchor="middle">#{tag}</text>'
+DIVIDER = '<rect x="{x}" y="550" width="2" height="30" fill="#ffffff" opacity="0.3"/>'
+
+POINT_ITEM = (
+    '<text x="{x}" y="582" font-family="{font}" font-size="24" font-weight="bold" fill="{accent}">{num}</text>'
+    '<text x="{label_x}" y="582" font-family="{font}" font-size="26" fill="#ffffff">{label}</text>'
 )
 
-POINT_CHIP = (
-    '<circle cx="{cx}" cy="{cy}" r="24" fill="{accent}" filter="url(#softShadow)"/>'
-    '<text x="{cx}" y="{text_y}" font-family="{font}" font-size="22" font-weight="bold" '
-    'fill="#ffffff" text-anchor="middle">{num}</text>'
-    '<text x="{label_x}" y="{text_y}" font-family="{font}" font-size="27" font-weight="bold" '
-    'fill="#ffffff">{label}</text>'
+TAGLINE = (
+    '<text x="90" y="582" font-family="{font}" font-size="24" fill="#ffffff" opacity="0.75">{tag} 더 알아보기</text>'
 )
 
 
@@ -90,12 +67,8 @@ def _rgb_to_hex(r, g, b):
 
 
 def _shade(c, factor):
-    """factor < 1 어둡게, factor > 1 밝게(흰색 쪽으로 보간)."""
     r, g, b = _hex_to_rgb(c)
-    if factor <= 1:
-        return _rgb_to_hex(r * factor, g * factor, b * factor)
-    t = factor - 1
-    return _rgb_to_hex(r + (255 - r) * t, g + (255 - g) * t, b + (255 - b) * t)
+    return _rgb_to_hex(r * factor, g * factor, b * factor)
 
 
 def _wrap_title(title, max_chars=13):
@@ -115,18 +88,21 @@ def _wrap_title(title, max_chars=13):
     return title[:max_chars], title[max_chars:max_chars * 2]
 
 
-def _build_points_block(points, accent, tag):
+def _build_points_block(points, accent, bg):
     n = len(points)
     slot_width = 1020 / n
     items = []
+    dividers = []
     for i, label in enumerate(points):
-        cx = 90 + slot_width * i + 28
-        label_x = cx + 38
-        items.append(POINT_CHIP.format(
-            cx=cx, cy=566, text_y=574, num=i + 1, label=label,
-            label_x=label_x, accent=accent, font=FONT_STACK,
+        x = 90 + slot_width * i
+        label_x = x + 42
+        items.append(POINT_ITEM.format(
+            x=x, label_x=label_x, num=f"{i + 1:02d}", label=label, accent=accent, font=FONT_STACK,
         ))
-    return TICKER_BAR.format(accent=accent) + '\n  ' + '\n  '.join(items)
+        if i > 0:
+            dividers.append(DIVIDER.format(x=x - 30))
+    bar = BOTTOM_BAR.format(bar_fill=_shade(bg, 0.62))
+    return bar + '\n  ' + '\n  '.join(dividers + items)
 
 
 def main():
@@ -136,30 +112,29 @@ def main():
     accent = _normalize_color(accent)
 
     line1, line2 = _wrap_title(title)
-    tag_width = len(tag) * 32 + 60
+    tag_width = len(tag) * 30 + 44
 
     if line2:
         title_lines = '\n  '.join([
-            TITLE_LINE.format(y=290, font=FONT_STACK, text=line1),
-            TITLE_LINE.format(y=370, font=FONT_STACK, text=line2),
+            TITLE_LINE.format(y=280, font=FONT_STACK, text=line1),
+            TITLE_LINE.format(y=356, font=FONT_STACK, text=line2),
         ])
     else:
-        title_lines = TITLE_LINE.format(y=330, font=FONT_STACK, text=line1)
+        title_lines = TITLE_LINE.format(y=320, font=FONT_STACK, text=line1)
 
     if points:
-        points_block = _build_points_block(points, accent, tag)
+        bottom_block = _build_points_block(points, accent, bg)
     else:
-        points_block = TICKER_BAR.format(accent=accent) + '\n  ' + HASHTAG.format(font=FONT_STACK, tag=tag)
+        bottom_block = BOTTOM_BAR.format(bar_fill=_shade(bg, 0.62)) + '\n  ' + TAGLINE.format(font=FONT_STACK, tag=tag)
 
     svg = BASE_TEMPLATE.format(
-        bg_light=_shade(bg, 1.18),
-        bg_dark=_shade(bg, 0.55),
+        bg=bg,
         accent=accent,
         font=FONT_STACK,
         tag=tag,
         tag_width=tag_width,
         title_lines=title_lines,
-        points_block=points_block,
+        bottom_block=bottom_block,
     )
 
     out_dir = Path('assets/thumbnails')
