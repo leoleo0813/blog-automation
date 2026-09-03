@@ -29,6 +29,16 @@ ACCESS_LICENSE_ENV = 'NAVER_AD_ACCESS_LICENSE'
 SECRET_KEY_ENV = 'NAVER_AD_SECRET_KEY'
 
 
+def _env(name):
+    """시크릿에 딸려 들어온 공백·줄바꿈·따옴표를 제거한다.
+
+    GitHub Secrets에 값을 붙여넣을 때 끝에 줄바꿈이 들어가거나 .env 형식의
+    따옴표(KEY="값")가 그대로 복사되는 일이 잦다. 줄바꿈이 남아 있으면
+    HTTP 헤더 값으로 쓸 수 없어 요청 자체가 실패한다.
+    """
+    return os.environ[name].strip().strip('"').strip("'").strip()
+
+
 def _signature(timestamp, method, uri, secret_key):
     message = f"{timestamp}.{method}.{uri}"
     digest = hmac.new(secret_key.encode('utf-8'), message.encode('utf-8'), hashlib.sha256).digest()
@@ -39,9 +49,9 @@ def _headers(method, uri):
     timestamp = str(int(time.time() * 1000))
     return {
         'X-Timestamp': timestamp,
-        'X-API-KEY': os.environ[ACCESS_LICENSE_ENV],
-        'X-Customer': str(os.environ[CUSTOMER_ID_ENV]),
-        'X-Signature': _signature(timestamp, method, uri, os.environ[SECRET_KEY_ENV]),
+        'X-API-KEY': _env(ACCESS_LICENSE_ENV),
+        'X-Customer': _env(CUSTOMER_ID_ENV),
+        'X-Signature': _signature(timestamp, method, uri, _env(SECRET_KEY_ENV)),
     }
 
 

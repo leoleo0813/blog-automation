@@ -12,11 +12,20 @@ TOKEN_URL = 'https://kauth.kakao.com/oauth/token'
 SEND_URL = 'https://kapi.kakao.com/v2/api/talk/memo/default/send'
 
 
+def _env(name):
+    """시크릿에 딸려 들어온 공백·줄바꿈·따옴표를 제거한다.
+
+    GitHub Secrets 등록 시 값 끝에 줄바꿈이 붙거나 .env 형식의 따옴표
+    (KEY="값")가 그대로 복사되는 일이 잦아, 인증이 조용히 실패한다.
+    """
+    return os.environ[name].strip().strip('"').strip("'").strip()
+
+
 def _get_access_token():
     resp = requests.post(TOKEN_URL, data={
         'grant_type': 'refresh_token',
-        'client_id': os.environ[REST_API_KEY_ENV],
-        'refresh_token': os.environ[REFRESH_TOKEN_ENV],
+        'client_id': _env(REST_API_KEY_ENV),
+        'refresh_token': _env(REFRESH_TOKEN_ENV),
     })
     resp.raise_for_status()
     return resp.json()['access_token']
