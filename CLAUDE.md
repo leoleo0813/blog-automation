@@ -36,7 +36,12 @@
     5. **Optional short FAQ** (2-3 Q&A) before the closing — good for SEO/GEO (AI Overview / "people also ask" citation): `<h3>Q. ...?</h3><p>A. ...</p>`
     6. **Conclusion & Media:**
        - Search for a high-view/high-like YouTube video related to the topic and embed it using an `<iframe>`.
-       - **Exception Rule:** If no relevant or high-quality video is available, omit the video section entirely and provide a neat, comprehensive closing statement instead.
+       - **The video must be a Korean-language video from a Korean channel** — never embed a foreign-language video just because it has high views, even if no good Korean option is found (see Exception Rule below).
+       - **A source line is mandatory directly under every embedded video** — the channel name, linked to the video's YouTube URL:
+         ```html
+         <p style="font-size:13px;color:#888;margin-top:6px;">출처: <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank" rel="noopener">채널명</a></p>
+         ```
+       - **Exception Rule:** If no relevant, high-quality, Korean-language video is available, omit the video section entirely and provide a neat, comprehensive closing statement instead. Never substitute a non-Korean video to fill this slot.
 - **Thumbnail Image (Crucial, mandatory — never skip):**
   - Blogger has no dedicated thumbnail field — it auto-generates the post's thumbnail/preview image from the first `<img>` tag found in the content. Every post MUST include one near the top (right after the introduction).
   - The content-generation environment's network access is restricted, so a real photo URL found via search cannot be verified to actually exist — do not use WebSearch results or hand-written photo-hosting guesses for this.
