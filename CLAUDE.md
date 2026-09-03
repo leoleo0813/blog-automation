@@ -76,8 +76,24 @@ The goal is to pull blog traffic and views simultaneously — write for the feed
   3. Attach exactly one image: a single curiosity-driving visual, not a multi-panel card summarizing the whole post.
 
 ## 5. Execution Rule
-- When a topic or keyword is given (or found via trend research), generate in this order: (1) the Tistory main article → `tistory_drafts/<slug>.md`, (2) the rewritten Blogger post + metadata, (3) the thumbnail SVG, (4) the Threads hook per Section 4. Include a `tistory_url` field in the `pending_posts/<slug>.json` pointing to the Tistory draft's GitHub blob URL:
+- **Step 0 — check the stock beginner series queue first.** Read `stock_beginner_series.json`. If it contains any item with `"status": "pending"`, that item (lowest `id` first) is this run's topic — skip trend research (Section 5 step below) entirely and go straight to Section 6's process. Only when every item is `"done"` does this repo fall back to ad-hoc trend research.
+- Otherwise, when a topic or keyword is given (or found via trend research), generate in this order: (1) the Tistory main article → `tistory_drafts/<slug>.md`, (2) the rewritten Blogger post + metadata, (3) the thumbnail SVG, (4) the Threads hook per Section 4. Include a `tistory_url` field in the `pending_posts/<slug>.json` pointing to the Tistory draft's GitHub blob URL:
   ```
   https://github.com/leoleo0813/blog-automation/blob/main/tistory_drafts/<slug>.md
   ```
   so the Kakao notification carries a direct, easy-to-copy link to it (repo is public, so this is viewable without login).
+
+## 6. Stock Beginner Series (Blogspot-only priority category)
+- Tracked entirely in `stock_beginner_series.json` — 44 posts across 9 clusters (A–J), a Korean stock-investing-for-beginners series. This is a **new Blogger category, separate from the health Tistory blog** (leoleo0813/tistory-blog) and unrelated to this repo's own `tistory_drafts/` step.
+- **Priority:** while any item in the queue is `"pending"`, it takes precedence over general trend research every run (see Section 5 Step 0). Process items in `id` order, one per run.
+- **No Tistory draft for this series** — it publishes to Blogger only. Skip the `tistory_drafts/<slug>.md` step and the Tistory-rewrite framing; write the Blogger post directly as the complete, authoritative piece. Leave `tistory_url` out of `pending_posts/<slug>.json` (or empty string).
+- **Still follow Section 2's Blogger Post structure requirements** (TL;DR box, accent-bordered H2s, highlight spans, info boxes, closing recap, thumbnail, metadata) and Section 4's Threads hook guidelines — those apply regardless of category.
+- **Label:** every post in this series must include the Blogger label `주식초보` (in addition to 1-2 topic-specific labels), so the series can be filtered/browsed as one category.
+- **Writing principles (mandatory, do not soften — financial YMYL, same spirit as health YMYL):**
+  1. Plain language a middle-schooler could follow; short sentences.
+  2. Consistent `~습니다` sentence-ending style throughout.
+  3. Never recommend or name a specific stock ticker, brokerage, or fund — use generic phrasing ("어떤 기업의 주식") instead of real names/examples.
+  4. Never use absolute/certainty claims ("반드시 오릅니다", "무조건 수익") — describe possibilities and general principles only.
+  5. Every post must end with this exact disclaimer line: "이 글은 정보 제공을 목적으로 하며, 투자 판단과 그 책임은 전적으로 본인에게 있습니다."
+  6. Cite authoritative public sources where relevant (금융감독원, 한국거래소, 한국예탁결제원, etc.) — if a fact can't be verified via WebSearch, state it as general/common knowledge rather than attributing it to an unverified source.
+- **After successfully publishing an item:** update its entry in `stock_beginner_series.json` — set `"status": "done"` and add a `"published_slug"` field with the post's slug — and commit that change together with the usual `pending_posts/*.json` + thumbnail files.
