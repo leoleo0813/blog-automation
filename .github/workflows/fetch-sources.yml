@@ -35,12 +35,18 @@ jobs:
 
       - name: Commit fetched sources
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A
-            git commit -m "1차 출처 원문 수집: ${{ inputs.name }}"
-            git push
-          else
+          if [ -z "$(git status --porcelain)" ]; then
             echo "변경 없음"
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "1차 출처 원문 수집: ${{ inputs.name }}"
+          # 다른 세션(Routine 등)이 동시에 push 하면 rejected 되므로 rebase 후 재시도한다.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push 거절됨 — rebase 후 재시도 ($i/3)"
+            git pull --rebase origin main || exit 1
+          done
+          exit 1

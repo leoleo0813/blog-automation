@@ -31,15 +31,21 @@ jobs:
 
       - name: Commit filled search volume
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A
-            git commit -m "게이트 1: 네이버 키워드도구 검색량 자동 기입"
-            git push
-          else
+          if [ -z "$(git status --porcelain)" ]; then
             echo "검색량 변경 없음 - 커밋 생략"
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "게이트 1: 네이버 키워드도구 검색량 자동 기입"
+          # 다른 세션(Routine 등)이 동시에 push 하면 rejected 되므로 rebase 후 재시도한다.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push 거절됨 — rebase 후 재시도 ($i/3)"
+            git pull --rebase origin main || exit 1
+          done
+          exit 1
 
       - name: Send Kakao notification
         run: python -m blog_automation.notify_repo_only "${{ inputs.post_file }}"
