@@ -16,7 +16,7 @@
   "execution_note": "이 시리즈 항목을 쓸 때는 CLAUDE.md Section 2의 'Blogger Post' 구조 요건(TL;DR 박스, 섹션별 강조, 정보박스, 마무리 요약, 썸네일 등)을 그대로 따르되, Tistory 원고 작성 단계(Section 2의 'Tistory Main Article', Section 5의 1번 단계)는 건너뛴다. tistory_url 필드는 pending_posts/<slug>.json에 넣지 않는다(또는 빈 문자열로 둔다).",
   "items": [
     {"id": 1, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)", "status": "done", "published_slug": "what-is-a-stock-complete-beginner-guide"},
-    {"id": 2, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)", "status": "pending"},
+    {"id": 2, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)", "status": "done", "published_slug": "stock-profit-capital-gains-vs-dividends"},
     {"id": 3, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식 투자 위험한가요? 원금 잃을 수도 있나요", "status": "pending"},
     {"id": 4, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식 시작하기 전에 꼭 알아야 할 마음가짐", "status": "pending"},
     {"id": 5, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식 얼마부터 시작해야 할까요 (소액 투자)", "status": "pending"},
