@@ -4,81 +4,118 @@
   "target_blog": "https://sensitiveboss3.tistory.com",
   "platform": "tistory_manual_only",
   "platform_note": "Tistory Open API가 종료되어 자동 등록이 불가능합니다. 자동화는 stock_drafts/<slug>.md 초안만 저장소에 저장하고, 게시는 항상 사람이 티스토리 편집기에 직접 붙여넣어 합니다. Blogger 발행 워크플로도 Threads 훅도 이 카테고리에는 사용하지 않습니다.",
-  "cadence": "생성 주기 12시간, 발행 상한 하루 2편. 8편을 얕게 만드는 것보다 2편을 깊게 만든다.",
-  "gate_note": "게이트 1(월간 검색량)은 네이버 검색광고 키워드도구 API가 연동되어 있지 않아 자동 확인이 불가능합니다. 자동화는 monthly_search_volume을 '확인필요'로 기록하고 gate_pass를 스스로 true로 만들지 않습니다 — 사람이 키워드도구에서 실제 수치를 확인한 뒤 발행 여부를 판단합니다.",
-  "verification_note": "첫 5편을 쓴 뒤 4주를 기다려 서치콘솔 실적(3일 색인 / 2주 노출 / 4주 순위·CTR)을 보고 확장 여부를 판단합니다. 그 전에는 6번 이후 항목을 추가하지 않습니다.",
-  "superseded": "이전 44편 Blogger 시리즈 기획은 이 지침으로 대체되었습니다. 아래 archive 항목은 옛 방식으로 이미 Blogger에 올라간 기록이며, 건드리지 않습니다.",
+  "cadence": "생성 주기 12시간, 발행 상한 하루 2편.",
+  "gate1_checked_at": "2026-09-03 (네이버 검색광고 키워드도구 실측)",
+  "gate1_finding": "꼬리를 붙일수록 검색량이 급감한다. '배당소득세 계산' 40회 vs '배당소득세' 3,860회, '해외주식 양도소득세 신고' 560회 vs '해외주식 양도소득세' 8,750회. 따라서 keyword 필드에는 짧은 코어를 쓰고, 수식어는 제목에서만 붙인다.",
+  "verification_note": "첫 5편을 쓴 뒤 4주를 기다려 서치콘솔 실적(3일 색인 / 2주 노출 / 4주 순위·CTR)을 보고 확장 여부를 판단합니다. 그 전에는 backlog 항목으로 넘어가지 않습니다.",
+  "excluded_permanently": {
+    "note": "성능이 아니라 성격 문제라 시간이 지나도 바뀌지 않습니다. 전부 투자 판단 조언이라 '특정 종목·상품 추천 금지' 원칙과 충돌하고, 댓글이 개별 상담으로 번지기 가장 쉬운 주제입니다.",
+    "titles": [
+      "주식 팔 타이밍 어떻게 정하나요",
+      "개별주 살까 ETF 살까",
+      "초보자를 위한 포트폴리오 짜는 법",
+      "주식 물렸을 때 대처법",
+      "손절은 언제 해야 하나요",
+      "배당주 고르는 기준",
+      "차트만 보고 투자해도 될까"
+    ]
+  },
   "items": [
     {
       "id": 1,
+      "order": 1,
       "title": "증권사 수수료 비교 2026",
-      "slug": "brokerage-fee-comparison-2026",
-      "unique_asset_plan": "증권사별 실제 수수료율 표 (온라인 매매수수료 + 유관기관 제비용)",
+      "slug": "broker-fee-comparison-2026",
+      "keyword": "증권사 수수료 비교",
+      "type": "비용",
+      "monthly_search_volume": "4980 (PC 950 / 모바일 4030)",
+      "gate1_pass": true,
+      "unique_asset_plan": "주요 증권사 국내·해외 수수료율 실측표",
       "primary_source_plan": "금융투자협회 공시",
-      "monthly_search_volume": "확인필요",
-      "gate_pass": false,
       "status": "pending"
     },
     {
       "id": 2,
+      "order": 2,
       "title": "주식 매도 세금 얼마",
-      "slug": "stock-sale-tax-amount",
-      "unique_asset_plan": "100만 원 매도 기준 증권거래세·수수료 실계산 예시",
-      "primary_source_plan": "국세청 / 한국거래소",
-      "monthly_search_volume": "확인필요",
-      "gate_pass": false,
+      "slug": "stock-sell-tax-amount",
+      "keyword": "주식 매도 세금",
+      "type": "세금",
+      "monthly_search_volume": "1250 (PC 290 / 모바일 960)",
+      "gate1_pass": true,
+      "unique_asset_plan": "100만·1,000만 원 매도 시 실제 차감액 계산",
+      "primary_source_plan": "국세청 / 기획재정부",
       "status": "pending"
     },
     {
       "id": 3,
-      "title": "ISA 연금저축 일반계좌 세제 차이",
-      "slug": "isa-pension-general-account-tax",
-      "unique_asset_plan": "계좌별 납입한도·세액공제·과세방식 비교표",
-      "primary_source_plan": "국세청 / 금융감독원",
-      "monthly_search_volume": "확인필요",
-      "gate_pass": false,
+      "order": 3,
+      "title": "ISA 계좌 한도와 세제혜택",
+      "slug": "isa-limit-benefit",
+      "keyword": "ISA 계좌 한도",
+      "type": "제도",
+      "monthly_search_volume": "3360 (PC 920 / 모바일 2440)",
+      "gate1_pass": true,
+      "unique_asset_plan": "유형별 납입한도·비과세 한도 비교표",
+      "primary_source_plan": "금융위원회 / 금융투자협회",
       "status": "pending"
     },
     {
       "id": 4,
-      "title": "배당소득세 계산 방법",
-      "slug": "dividend-income-tax-calculation",
-      "unique_asset_plan": "2,000만 원 종합과세 기준 구간별 계산 예시",
+      "order": 4,
+      "title": "배당소득세 얼마 떼나",
+      "slug": "dividend-income-tax",
+      "keyword": "배당소득세",
+      "type": "세금",
+      "monthly_search_volume": "3860 (PC 1160 / 모바일 2700)",
+      "gate1_pass": true,
+      "unique_asset_plan": "원천징수 세율 적용 계산 예시",
       "primary_source_plan": "국세청",
-      "monthly_search_volume": "확인필요",
-      "gate_pass": false,
-      "status": "pending"
+      "status": "pending",
+      "revision_note": "원안 '배당소득세 계산 방법'은 키워드 검색량 40회로 게이트 1 미달. 코어 키워드 '배당소득세'(3,860회)로 교체."
     },
     {
       "id": 5,
-      "title": "ETF 운용보수 비교하는 법",
-      "slug": "etf-expense-ratio-comparison",
-      "unique_asset_plan": "실제 상품군별 총보수율 비교표 + 보수 확인 절차",
-      "primary_source_plan": "금융투자협회 / 한국거래소",
-      "monthly_search_volume": "확인필요",
-      "gate_pass": false,
-      "status": "pending"
+      "order": 5,
+      "title": "해외주식 양도소득세 신고 방법",
+      "slug": "overseas-stock-tax-filing",
+      "keyword": "해외주식 양도소득세",
+      "type": "세금·절차",
+      "monthly_search_volume": "8750 (PC 1640 / 모바일 7110)",
+      "gate1_pass": true,
+      "unique_asset_plan": "홈택스 신고 화면 순서 + 250만원 공제 적용 전후 계산 비교",
+      "primary_source_plan": "국세청 홈택스",
+      "status": "pending",
+      "season_note": "5월이 연중 최대 시즌. 색인을 쌓아두려면 3월 이전 발행이 유리."
     }
   ],
+  "backlog": {
+    "note": "게이트 1은 통과했으나 첫 5편 4주 검증 이후로 미룹니다.",
+    "verified": [
+      {"title": "금융소득 종합과세 기준", "keyword": "금융소득 종합과세", "monthly_search_volume": "13210", "note": "후보 중 검색량 최대"},
+      {"title": "주식 양도소득세 대상", "keyword": "주식 양도소득세", "monthly_search_volume": "5560"},
+      {"title": "연금저축 세액공제 한도", "keyword": "연금저축 세액공제", "monthly_search_volume": "3400"},
+      {"title": "주식 수수료 얼마", "keyword": "주식 수수료", "monthly_search_volume": "3450"},
+      {"title": "배당금 세금", "keyword": "배당금 세금", "monthly_search_volume": "2890"},
+      {"title": "금융소득세 기준", "keyword": "금융소득세", "monthly_search_volume": "1750"},
+      {"title": "배당소득세율", "keyword": "배당소득세율", "monthly_search_volume": "1600"},
+      {"title": "증권거래세 세율 2026", "keyword": "증권거래세 세율", "monthly_search_volume": "1030"},
+      {"title": "ETF 수수료 비교", "keyword": "ETF 수수료", "monthly_search_volume": "890"},
+      {"title": "ISA 계좌 장단점", "keyword": "ISA 계좌 장단점", "monthly_search_volume": "460"},
+      {"title": "ISA 연금저축 일반계좌 차이", "keyword": "ISA 연금저축 차이", "monthly_search_volume": "160"}
+    ],
+    "failed_gate1": [
+      {"keyword": "해외주식 양도세 공제", "monthly_search_volume": "20"},
+      {"keyword": "해외주식 환전 수수료", "monthly_search_volume": "120"},
+      {"keyword": "ETF 운용보수", "monthly_search_volume": "210"},
+      {"keyword": "공모주 균등배정", "monthly_search_volume": "20"},
+      {"keyword": "배당소득세 계산", "monthly_search_volume": "40"}
+    ]
+  },
+  "deferred_concept_topics": "개념 설명형(PER·PBR 뜻, 호가창, 캔들차트, 이동평균선, ETF란, 시가총액 등 21편)은 폐기가 아니라 보류입니다. 제도형 5편이 4주 검증을 통과해 사이트에 신뢰가 쌓이면 출발선이 달라집니다.",
   "archive": [
-    {
-      "title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)",
-      "published_slug": "what-is-a-stock-complete-beginner-guide",
-      "platform": "blogger (구 방식)",
-      "note": "새 제목 규칙의 금지어(완전 기초/총정리형)에 해당 — 기록으로만 둡니다."
-    },
-    {
-      "title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)",
-      "published_slug": "stock-profit-capital-gains-vs-dividends",
-      "platform": "blogger (구 방식)",
-      "note": "개념 설명형 — 새 지침에서는 후순위 유형입니다."
-    },
-    {
-      "title": "주식 투자 위험한가요? 원금 잃을 수도 있나요",
-      "published_slug": "stock-investment-risk-principal-loss-guide",
-      "platform": "blogger (구 방식)",
-      "note": "제목에 조사·의문형이 포함되어 새 제목 규칙 위반 — 기록용."
-    }
-  ],
-  "deferred_topics": "개념 설명형(PER·PBR 뜻, 호가창 보는 법, 캔들차트, 이동평균선, ETF란, 시가총액 등)은 경쟁이 극심하고 정보 이득을 만들기 어려워 첫 5편 검증 이후로 미룹니다."
+    {"title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)", "published_slug": "what-is-a-stock-complete-beginner-guide", "platform": "blogger (구 방식)"},
+    {"title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)", "published_slug": "stock-profit-capital-gains-vs-dividends", "platform": "blogger (구 방식)"},
+    {"title": "주식 투자 위험한가요? 원금 잃을 수도 있나요", "published_slug": "stock-investment-risk-principal-loss-guide", "platform": "blogger (구 방식)"}
+  ]
 }
