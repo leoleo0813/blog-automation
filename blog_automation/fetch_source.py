@@ -11,6 +11,8 @@
 저장 위치: sources/<이름>.md (원문 URL과 수집 시각을 머리말에 남긴다)
 """
 import re
+import shutil
+import subprocess
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -40,11 +42,59 @@ def _html_to_text(html):
     return BLANKS.sub('\n\n', '\n'.join(line for line in lines if line))
 
 
+def _find_chrome():
+    import os
+    browsers_path = os.environ.get('PLAYWRIGHT_BROWSERS_PATH', '/opt/pw-browsers')
+    for candidate in sorted(Path(browsers_path).glob('chromium-*/chrome-linux/chrome'), reverse=True):
+        if candidate.is_file():
+            return str(candidate)
+    for name in ('google-chrome', 'google-chrome-stable', 'chromium', 'chromium-browser'):
+        found = shutil.which(name)
+        if found:
+            return found
+    return None
+
+
+def _fetch_rendered(url):
+    """헤드리스 Chrome으로 JS를 실행한 뒤의 DOM을 가져온다.
+
+    국세청·법제처·금융투자협회 등 국내 공공기관 사이트는 대부분 JS로 본문을
+    그리기 때문에, 단순 GET으로는 껍데기만 돌아온다.
+    """
+    chrome = _find_chrome()
+    if not chrome:
+        return None
+    try:
+        result = subprocess.run(
+            [
+                chrome, '--headless', '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
+                '--virtual-time-budget=20000', '--dump-dom', url,
+            ],
+            capture_output=True, timeout=90, text=True,
+        )
+    except Exception:
+        return None
+    return result.stdout or None
+
+
 def fetch(url):
+    """먼저 단순 GET을 시도하고, 결과가 껍데기로 보이면 브라우저 렌더링으로 재시도한다."""
     resp = requests.get(url, headers={'User-Agent': UA}, timeout=45)
     resp.raise_for_status()
     resp.encoding = resp.apparent_encoding or resp.encoding
-    return _html_to_text(resp.text)
+    text = _html_to_text(resp.text)
+
+    if len(text) >= 800:
+        return text
+
+    rendered = _fetch_rendered(url)
+    if not rendered:
+        return text + "\n\n[주의] 본문이 매우 짧습니다. JS로 그려지는 페이지인데 브라우저 렌더링에 실패했습니다."
+
+    rendered_text = _html_to_text(rendered)
+    if len(rendered_text) > len(text):
+        return rendered_text + "\n\n[수집 방식] 헤드리스 브라우저 렌더링"
+    return text
 
 
 def main():
