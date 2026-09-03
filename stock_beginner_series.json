@@ -1,72 +1,84 @@
 {
-  "category": "주식 초보자 시리즈",
-  "platform": "blogger_only",
-  "note": "이 시리즈는 블로그스팟(Blogger) 전용 신규 카테고리입니다. 건강 티스토리 블로그(leoleo0813/tistory-blog)와는 완전히 별개이고, blog-automation 저장소의 tistory_drafts/ 원고 단계와도 무관합니다 — 이 시리즈는 Tistory 원고를 만들지 않고 Blogger 글 하나로 완결합니다.",
-  "priority": "이 파일에 status:\"pending\"인 항목이 하나라도 있으면, 매 발행 주기마다 일반 트렌드 리서치보다 이 시리즈를 최우선으로 처리한다. 번호(id) 순서대로 하나씩 처리하고, 발행 완료 후 해당 항목의 status를 \"done\"으로 바꾸고 published_slug를 채워 커밋한다. 모든 44편이 done이 되면 그 다음부터는 기존 트렌드 리서치 방식으로 돌아간다.",
-  "label": "모든 포스트에 Blogger 라벨로 \"주식초보\"를 공통으로 포함시켜 시리즈로 묶는다 (그 외 1~2개는 클러스터별로 자유롭게 추가).",
-  "writing_principles": [
-    "중학생도 이해할 수 있는 쉬운 말로, 문장은 짧게 쓴다.",
-    "문체는 ~습니다체로 통일한다.",
-    "특정 종목명, 특정 증권사, 특정 펀드/상품을 추천하거나 지목하지 않는다 (예시가 필요하면 일반 명사로: '어떤 기업의 주식' 등).",
-    "\"반드시 오릅니다\", \"무조건 수익\" 같은 단정적 표현을 쓰지 않는다. 가능성/일반론으로 서술한다.",
-    "포스트 하단에 반드시 다음 문구를 포함한다: \"이 글은 정보 제공을 목적으로 하며, 투자 판단과 그 책임은 전적으로 본인에게 있습니다.\"",
-    "가능한 경우 금융감독원, 한국거래소(KRX), 한국예탁결제원 등 공신력 있는 공공기관 출처를 본문에 명시한다 (사실 확인이 안 되면 출처 없이 단정하지 말고 일반적 설명으로 대체한다).",
-    "이 원칙들은 건강 블로그의 YMYL(Your Money Your Life) 원칙을 재무 영역에 동일하게 적용한 것이다 — 절대 완화하지 않는다."
-  ],
-  "execution_note": "이 시리즈 항목을 쓸 때는 CLAUDE.md Section 2의 'Blogger Post' 구조 요건(TL;DR 박스, 섹션별 강조, 정보박스, 마무리 요약, 썸네일 등)을 그대로 따르되, Tistory 원고 작성 단계(Section 2의 'Tistory Main Article', Section 5의 1번 단계)는 건너뛴다. tistory_url 필드는 pending_posts/<slug>.json에 넣지 않는다(또는 빈 문자열로 둔다).",
+  "category": "주식 초보 콘텐츠 (재무 YMYL)",
+  "guideline": "CLAUDE.md Section 7 — 주식 초보 콘텐츠 발행 지침 v1 (2026-09-03 개정)",
+  "target_blog": "https://sensitiveboss3.tistory.com",
+  "platform": "tistory_manual_only",
+  "platform_note": "Tistory Open API가 종료되어 자동 등록이 불가능합니다. 자동화는 stock_drafts/<slug>.md 초안만 저장소에 저장하고, 게시는 항상 사람이 티스토리 편집기에 직접 붙여넣어 합니다. Blogger 발행 워크플로도 Threads 훅도 이 카테고리에는 사용하지 않습니다.",
+  "cadence": "생성 주기 12시간, 발행 상한 하루 2편. 8편을 얕게 만드는 것보다 2편을 깊게 만든다.",
+  "gate_note": "게이트 1(월간 검색량)은 네이버 검색광고 키워드도구 API가 연동되어 있지 않아 자동 확인이 불가능합니다. 자동화는 monthly_search_volume을 '확인필요'로 기록하고 gate_pass를 스스로 true로 만들지 않습니다 — 사람이 키워드도구에서 실제 수치를 확인한 뒤 발행 여부를 판단합니다.",
+  "verification_note": "첫 5편을 쓴 뒤 4주를 기다려 서치콘솔 실적(3일 색인 / 2주 노출 / 4주 순위·CTR)을 보고 확장 여부를 판단합니다. 그 전에는 6번 이후 항목을 추가하지 않습니다.",
+  "superseded": "이전 44편 Blogger 시리즈 기획은 이 지침으로 대체되었습니다. 아래 archive 항목은 옛 방식으로 이미 Blogger에 올라간 기록이며, 건드리지 않습니다.",
   "items": [
-    {"id": 1, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)", "status": "done", "published_slug": "what-is-a-stock-complete-beginner-guide"},
-    {"id": 2, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)", "status": "done", "published_slug": "stock-profit-capital-gains-vs-dividends"},
-    {"id": 3, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식 투자 위험한가요? 원금 잃을 수도 있나요", "status": "done", "published_slug": "stock-investment-risk-principal-loss-guide"},
-    {"id": 4, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식 시작하기 전에 꼭 알아야 할 마음가짐", "status": "pending"},
-    {"id": 5, "cluster": "A. 주식 시작 전 마음가짐 & 기초 개념", "title": "주식 얼마부터 시작해야 할까요 (소액 투자)", "status": "pending"},
-
-    {"id": 6, "cluster": "B. 계좌 개설 & 앱 사용법", "title": "증권 계좌 만드는 방법 (비대면 개설 순서)", "status": "pending"},
-    {"id": 7, "cluster": "B. 계좌 개설 & 앱 사용법", "title": "증권사 고르는 기준 (수수료·사용성·이벤트)", "status": "pending"},
-    {"id": 8, "cluster": "B. 계좌 개설 & 앱 사용법", "title": "사회초년생도 주식 계좌 만들 수 있나요", "status": "pending"},
-    {"id": 9, "cluster": "B. 계좌 개설 & 앱 사용법", "title": "증권 앱(MTS) 화면 보는 법", "status": "pending"},
-    {"id": 10, "cluster": "B. 계좌 개설 & 앱 사용법", "title": "일반 계좌·ISA·연금저축 계좌 차이", "status": "pending"},
-
-    {"id": 11, "cluster": "C. 주식 용어 완전정복", "title": "시가 종가 고가 저가 뜻 쉽게 알아보기", "status": "pending"},
-    {"id": 12, "cluster": "C. 주식 용어 완전정복", "title": "호가창 보는 법 (매수호가 매도호가)", "status": "pending"},
-    {"id": 13, "cluster": "C. 주식 용어 완전정복", "title": "PER PBR ROE 뜻 쉽게 알아보기", "status": "pending"},
-    {"id": 14, "cluster": "C. 주식 용어 완전정복", "title": "시가총액이 뭔가요", "status": "pending"},
-    {"id": 15, "cluster": "C. 주식 용어 완전정복", "title": "상한가 하한가 뜻과 계산법", "status": "pending"},
-    {"id": 16, "cluster": "C. 주식 용어 완전정복", "title": "액면분할 유상증자 무상증자 뜻", "status": "pending"},
-
-    {"id": 17, "cluster": "D. 첫 매매 실전", "title": "주식 첫 매수 어떻게 하나요 (주문 넣는 법)", "status": "pending"},
-    {"id": 18, "cluster": "D. 첫 매매 실전", "title": "지정가 주문과 시장가 주문 차이", "status": "pending"},
-    {"id": 19, "cluster": "D. 첫 매매 실전", "title": "주식 팔 타이밍 어떻게 정하나요", "status": "pending"},
-    {"id": 20, "cluster": "D. 첫 매매 실전", "title": "주식 수수료와 세금 얼마나 나가나요", "status": "pending"},
-    {"id": 21, "cluster": "D. 첫 매매 실전", "title": "주식 거래 시간과 동시호가 뜻", "status": "pending"},
-
-    {"id": 22, "cluster": "E. 분산투자 & 포트폴리오 기초", "title": "계란을 한 바구니에 담지 말라는 말, 무슨 뜻인가요", "status": "pending"},
-    {"id": 23, "cluster": "E. 분산투자 & 포트폴리오 기초", "title": "개별주 살까 ETF 살까 고민된다면", "status": "pending"},
-    {"id": 24, "cluster": "E. 분산투자 & 포트폴리오 기초", "title": "내 투자 성향 알아보는 법 (안정형 공격형)", "status": "pending"},
-    {"id": 25, "cluster": "E. 분산투자 & 포트폴리오 기초", "title": "초보자를 위한 포트폴리오 짜는 법", "status": "pending"},
-
-    {"id": 26, "cluster": "F. ETF 기초", "title": "ETF가 뭔가요 쉽게 설명", "status": "pending"},
-    {"id": 27, "cluster": "F. ETF 기초", "title": "ETF 종류 얼마나 많나요 (국내 해외 섹터)", "status": "pending"},
-    {"id": 28, "cluster": "F. ETF 기초", "title": "ETF 운용보수 비교하는 법", "status": "pending"},
-    {"id": 29, "cluster": "F. ETF 기초", "title": "코스피200 ETF와 나스닥 ETF 차이", "status": "pending"},
-
-    {"id": 30, "cluster": "G. 리스크 관리 & 투자 심리", "title": "주식 물렸을 때 대처법", "status": "pending"},
-    {"id": 31, "cluster": "G. 리스크 관리 & 투자 심리", "title": "손절은 언제 해야 하나요", "status": "pending"},
-    {"id": 32, "cluster": "G. 리스크 관리 & 투자 심리", "title": "한 종목 몰빵이 위험한 이유", "status": "pending"},
-    {"id": 33, "cluster": "G. 리스크 관리 & 투자 심리", "title": "주식 투자에서 흔히 하는 실수 정리", "status": "pending"},
-
-    {"id": 34, "cluster": "H. 배당주 투자 기초", "title": "배당금이 뭔가요 언제 받나요", "status": "pending"},
-    {"id": 35, "cluster": "H. 배당주 투자 기초", "title": "배당주 고르는 기준 알아보기", "status": "pending"},
-    {"id": 36, "cluster": "H. 배당주 투자 기초", "title": "배당락일이 뭔가요", "status": "pending"},
-    {"id": 37, "cluster": "H. 배당주 투자 기초", "title": "배당소득세 얼마나 떼가나요", "status": "pending"},
-
-    {"id": 38, "cluster": "I. 차트 보는 법 기초", "title": "캔들차트 보는 법 (양봉 음봉)", "status": "pending"},
-    {"id": 39, "cluster": "I. 차트 보는 법 기초", "title": "이동평균선이 뭔가요", "status": "pending"},
-    {"id": 40, "cluster": "I. 차트 보는 법 기초", "title": "거래량 보는 법", "status": "pending"},
-    {"id": 41, "cluster": "I. 차트 보는 법 기초", "title": "지지선 저항선 뜻 쉽게 알아보기", "status": "pending"},
-    {"id": 42, "cluster": "I. 차트 보는 법 기초", "title": "차트만 보고 투자해도 될까요", "status": "pending"},
-
-    {"id": 43, "cluster": "J. 세금 & 제도", "title": "주식 양도소득세 내야 하나요", "status": "pending"},
-    {"id": 44, "cluster": "J. 세금 & 제도", "title": "ISA 계좌로 주식하면 뭐가 좋나요", "status": "pending"}
-  ]
+    {
+      "id": 1,
+      "title": "증권사 수수료 비교 2026",
+      "slug": "brokerage-fee-comparison-2026",
+      "unique_asset_plan": "증권사별 실제 수수료율 표 (온라인 매매수수료 + 유관기관 제비용)",
+      "primary_source_plan": "금융투자협회 공시",
+      "monthly_search_volume": "확인필요",
+      "gate_pass": false,
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "title": "주식 매도 세금 얼마",
+      "slug": "stock-sale-tax-amount",
+      "unique_asset_plan": "100만 원 매도 기준 증권거래세·수수료 실계산 예시",
+      "primary_source_plan": "국세청 / 한국거래소",
+      "monthly_search_volume": "확인필요",
+      "gate_pass": false,
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "title": "ISA 연금저축 일반계좌 세제 차이",
+      "slug": "isa-pension-general-account-tax",
+      "unique_asset_plan": "계좌별 납입한도·세액공제·과세방식 비교표",
+      "primary_source_plan": "국세청 / 금융감독원",
+      "monthly_search_volume": "확인필요",
+      "gate_pass": false,
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "title": "배당소득세 계산 방법",
+      "slug": "dividend-income-tax-calculation",
+      "unique_asset_plan": "2,000만 원 종합과세 기준 구간별 계산 예시",
+      "primary_source_plan": "국세청",
+      "monthly_search_volume": "확인필요",
+      "gate_pass": false,
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "title": "ETF 운용보수 비교하는 법",
+      "slug": "etf-expense-ratio-comparison",
+      "unique_asset_plan": "실제 상품군별 총보수율 비교표 + 보수 확인 절차",
+      "primary_source_plan": "금융투자협회 / 한국거래소",
+      "monthly_search_volume": "확인필요",
+      "gate_pass": false,
+      "status": "pending"
+    }
+  ],
+  "archive": [
+    {
+      "title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)",
+      "published_slug": "what-is-a-stock-complete-beginner-guide",
+      "platform": "blogger (구 방식)",
+      "note": "새 제목 규칙의 금지어(완전 기초/총정리형)에 해당 — 기록으로만 둡니다."
+    },
+    {
+      "title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)",
+      "published_slug": "stock-profit-capital-gains-vs-dividends",
+      "platform": "blogger (구 방식)",
+      "note": "개념 설명형 — 새 지침에서는 후순위 유형입니다."
+    },
+    {
+      "title": "주식 투자 위험한가요? 원금 잃을 수도 있나요",
+      "published_slug": "stock-investment-risk-principal-loss-guide",
+      "platform": "blogger (구 방식)",
+      "note": "제목에 조사·의문형이 포함되어 새 제목 규칙 위반 — 기록용."
+    }
+  ],
+  "deferred_topics": "개념 설명형(PER·PBR 뜻, 호가창 보는 법, 캔들차트, 이동평균선, ETF란, 시가총액 등)은 경쟁이 극심하고 정보 이득을 만들기 어려워 첫 5편 검증 이후로 미룹니다."
 }
