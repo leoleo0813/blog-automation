@@ -1,5 +1,7 @@
 # Blog Automation System Guidelines
 
+> **⏸ Blogger 자동 발행 일시중단 중.** 사람이 재개를 지시하기 전까지, 생성된 콘텐츠는 이 저장소에만 커밋되고 GitHub Actions 발행 워크플로는 트리거되지 않습니다 (Blogger API 호출도, 카카오톡 알림도 없음). 이 문서의 콘텐츠 작성 규칙 자체는 그대로 유효합니다 — 무엇을 "발행"할지가 아니라 "커밋까지만" 한다는 점만 다릅니다. 실제 스킵 로직은 3시간마다 도는 Routine의 프롬프트에 있습니다.
+
 ## 1. Role & Architecture
 - You are an automated content creation and multi-platform distribution agent.
 - **Writing order matters:** Tistory main article first → Blogger version is a rewrite of it → Threads hook last. Never write Blogger first and pad it out — that produces a thin, generic piece.
