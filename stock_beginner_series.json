@@ -32,7 +32,9 @@
       "gate1_pass": true,
       "unique_asset_plan": "주요 증권사 국내·해외 수수료율 실측표",
       "primary_source_plan": "금융투자협회 공시",
-      "status": "pending"
+      "status": "drafted",
+      "draft_path": "stock_drafts/broker-fee-comparison-2026.md",
+      "gate3_note": "증권사별 요율 실측표는 미포함 — 금융투자협회 비교공시가 JS 앱이라 자동 수집 불가. 사람이 공시 화면에서 값을 채우면 추가 가능."
     },
     {
       "id": 2,
@@ -92,30 +94,102 @@
   "backlog": {
     "note": "게이트 1은 통과했으나 첫 5편 4주 검증 이후로 미룹니다.",
     "verified": [
-      {"title": "금융소득 종합과세 기준", "keyword": "금융소득 종합과세", "monthly_search_volume": "13210", "note": "후보 중 검색량 최대"},
-      {"title": "주식 양도소득세 대상", "keyword": "주식 양도소득세", "monthly_search_volume": "5560"},
-      {"title": "연금저축 세액공제 한도", "keyword": "연금저축 세액공제", "monthly_search_volume": "3400"},
-      {"title": "주식 수수료 얼마", "keyword": "주식 수수료", "monthly_search_volume": "3450"},
-      {"title": "배당금 세금", "keyword": "배당금 세금", "monthly_search_volume": "2890"},
-      {"title": "금융소득세 기준", "keyword": "금융소득세", "monthly_search_volume": "1750"},
-      {"title": "배당소득세율", "keyword": "배당소득세율", "monthly_search_volume": "1600"},
-      {"title": "증권거래세 세율 2026", "keyword": "증권거래세 세율", "monthly_search_volume": "1030"},
-      {"title": "ETF 수수료 비교", "keyword": "ETF 수수료", "monthly_search_volume": "890"},
-      {"title": "ISA 계좌 장단점", "keyword": "ISA 계좌 장단점", "monthly_search_volume": "460"},
-      {"title": "ISA 연금저축 일반계좌 차이", "keyword": "ISA 연금저축 차이", "monthly_search_volume": "160"}
+      {
+        "title": "금융소득 종합과세 기준",
+        "keyword": "금융소득 종합과세",
+        "monthly_search_volume": "13210",
+        "note": "후보 중 검색량 최대"
+      },
+      {
+        "title": "주식 양도소득세 대상",
+        "keyword": "주식 양도소득세",
+        "monthly_search_volume": "5560"
+      },
+      {
+        "title": "연금저축 세액공제 한도",
+        "keyword": "연금저축 세액공제",
+        "monthly_search_volume": "3400"
+      },
+      {
+        "title": "주식 수수료 얼마",
+        "keyword": "주식 수수료",
+        "monthly_search_volume": "3450"
+      },
+      {
+        "title": "배당금 세금",
+        "keyword": "배당금 세금",
+        "monthly_search_volume": "2890"
+      },
+      {
+        "title": "금융소득세 기준",
+        "keyword": "금융소득세",
+        "monthly_search_volume": "1750"
+      },
+      {
+        "title": "배당소득세율",
+        "keyword": "배당소득세율",
+        "monthly_search_volume": "1600"
+      },
+      {
+        "title": "증권거래세 세율 2026",
+        "keyword": "증권거래세 세율",
+        "monthly_search_volume": "1030"
+      },
+      {
+        "title": "ETF 수수료 비교",
+        "keyword": "ETF 수수료",
+        "monthly_search_volume": "890"
+      },
+      {
+        "title": "ISA 계좌 장단점",
+        "keyword": "ISA 계좌 장단점",
+        "monthly_search_volume": "460"
+      },
+      {
+        "title": "ISA 연금저축 일반계좌 차이",
+        "keyword": "ISA 연금저축 차이",
+        "monthly_search_volume": "160"
+      }
     ],
     "failed_gate1": [
-      {"keyword": "해외주식 양도세 공제", "monthly_search_volume": "20"},
-      {"keyword": "해외주식 환전 수수료", "monthly_search_volume": "120"},
-      {"keyword": "ETF 운용보수", "monthly_search_volume": "210"},
-      {"keyword": "공모주 균등배정", "monthly_search_volume": "20"},
-      {"keyword": "배당소득세 계산", "monthly_search_volume": "40"}
+      {
+        "keyword": "해외주식 양도세 공제",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "해외주식 환전 수수료",
+        "monthly_search_volume": "120"
+      },
+      {
+        "keyword": "ETF 운용보수",
+        "monthly_search_volume": "210"
+      },
+      {
+        "keyword": "공모주 균등배정",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "배당소득세 계산",
+        "monthly_search_volume": "40"
+      }
     ]
   },
   "deferred_concept_topics": "개념 설명형(PER·PBR 뜻, 호가창, 캔들차트, 이동평균선, ETF란, 시가총액 등 21편)은 폐기가 아니라 보류입니다. 제도형 5편이 4주 검증을 통과해 사이트에 신뢰가 쌓이면 출발선이 달라집니다.",
   "archive": [
-    {"title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)", "published_slug": "what-is-a-stock-complete-beginner-guide", "platform": "blogger (구 방식)"},
-    {"title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)", "published_slug": "stock-profit-capital-gains-vs-dividends", "platform": "blogger (구 방식)"},
-    {"title": "주식 투자 위험한가요? 원금 잃을 수도 있나요", "published_slug": "stock-investment-risk-principal-loss-guide", "platform": "blogger (구 방식)"}
+    {
+      "title": "주식이 뭔지 하나도 모르겠어요 (완전 기초 편)",
+      "published_slug": "what-is-a-stock-complete-beginner-guide",
+      "platform": "blogger (구 방식)"
+    },
+    {
+      "title": "주식으로 돈 버는 원리 (시세차익과 배당금 차이)",
+      "published_slug": "stock-profit-capital-gains-vs-dividends",
+      "platform": "blogger (구 방식)"
+    },
+    {
+      "title": "주식 투자 위험한가요? 원금 잃을 수도 있나요",
+      "published_slug": "stock-investment-risk-principal-loss-guide",
+      "platform": "blogger (구 방식)"
+    }
   ]
 }
