@@ -1,5 +1,7 @@
 # Blog Automation System Guidelines
 
+> **📌 주식 콘텐츠 자동 생성은 `RULES.md`만 본다.** 글 1편 만드는 데 이 문서 전체를 다시 읽느라 시간이 걸린다는 지적에 따라, 주식 초보 콘텐츠 작성 시 컨텍스트에 올리는 건 저장소 루트의 `RULES.md` 하나뿐이다 — 제목/슬러그/구조/문장/HTML/JSON-LD/게이트/면책/1차출처 접근성을 압축해 담았다. 아래 Section 7과 `stock_beginner_series.json`의 배경 메모, 착수 목록 문서는 사람이 볼 참고·이력용이며 자동화는 읽지 않는다. RULES.md를 고칠 땐 이 문서와 결이 어긋나지 않게 같이 갱신한다.
+
 > **⏸ Blogger 자동 발행 일시중단 중.** 사람이 재개를 지시하기 전까지, 생성된 콘텐츠는 이 저장소에만 커밋되고 GitHub Actions 발행 워크플로는 트리거되지 않습니다 (Blogger API 호출도, 카카오톡 알림도 없음). 이 문서의 콘텐츠 작성 규칙 자체는 그대로 유효합니다 — 무엇을 "발행"할지가 아니라 "커밋까지만" 한다는 점만 다릅니다. 실제 스킵 로직은 3시간마다 도는 Routine의 프롬프트에 있습니다.
 
 ## 1. Role & Architecture
@@ -112,7 +114,9 @@ These are blog-level (Blogger theme / static page) changes, not something a per-
 - **Person schema:** the blog currently emits only Organization JSON-LD (if any). Adding a Person schema (author identity, even a pen name/persona) requires editing the Blogger theme's HTML (테마 > HTML 편집) to inject a sitewide or per-post `<script type="application/ld+json">` block — this repo's automation only creates individual posts/pages via API, it doesn't touch the theme.
 - Both items are tracked here as a known gap, not forgotten — ask the human operator before automating either, since a Page create or theme edit is a live, harder-to-undo action unlike a Blogger draft post.
 
-## 7. 주식 초보 콘텐츠 발행 지침 v1 (재무 YMYL)
+## 7. 주식 초보 콘텐츠 발행 지침 v1 (재무 YMYL) — 사람 참고용, 자동화는 `RULES.md` 사용
+
+> 이하는 왜 이런 규칙이 생겼는지의 배경과 상세 근거다. 실제 콘텐츠 생성 세션은 이 섹션을 읽지 않고 `RULES.md`만 읽는다. 규칙을 바꿀 때는 여기서 논의/근거를 남기고, 실행 가능한 형태로 압축한 결과를 RULES.md에 반영한다.
 
 **대상 블로그:** sensitiveboss3.tistory.com (주식 초보 카테고리) — Blogger가 아니다.
 **최종 개정:** 2026-09-03
