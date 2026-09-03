@@ -16,8 +16,22 @@
 아래 형태의 jsDelivr URL을 <img src>로 쓴다:
 
     https://cdn.jsdelivr.net/gh/leoleo0813/blog-automation@main/assets/thumbnails/<slug>.svg
+
+내부적으로는: 텍스트가 포함된 벡터 SVG를 만든 뒤, 이 샌드박스에 있는
+헤드리스 Chromium으로 한 번 렌더링해서 PNG로 구운(rasterize) 다음, 그
+PNG를 다시 <svg><image href="data:image/png;base64,...">로 감싸서 같은
+.svg 파일명으로 저장한다. 이렇게 하면 파일명/URL은 그대로인데, 텍스트가
+더 이상 폰트가 아니라 픽셀이라서 뷰어(블로그 방문자의 브라우저)에 한글
+폰트가 없어도 안 깨진다 — 실제로 <img>로 삽입된 SVG는 브라우저가 시스템
+폰트 대체(fallback)를 제대로 안 해줘서 한글이 네모(tofu)로 깨지는 경우가
+흔하다. Chromium/Pillow를 못 찾거나 렌더링이 실패하면 원래의 벡터 SVG를
+그대로 저장한다(항상 무언가는 만들어지도록 하는 안전장치).
 """
+import base64
+import shutil
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 FONT_STACK = "'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"
@@ -105,6 +119,75 @@ def _build_points_block(points, accent, bg):
     return bar + '\n  ' + '\n  '.join(dividers + items)
 
 
+def _find_chrome():
+    import os
+    browsers_path = os.environ.get('PLAYWRIGHT_BROWSERS_PATH', '/opt/pw-browsers')
+    for candidate in sorted(Path(browsers_path).glob('chromium-*/chrome-linux/chrome'), reverse=True):
+        if candidate.is_file():
+            return str(candidate)
+    for name in ('chromium', 'chromium-browser', 'google-chrome', 'google-chrome-stable'):
+        found = shutil.which(name)
+        if found:
+            return found
+    return None
+
+
+def _ensure_pillow():
+    try:
+        from PIL import Image
+        return Image
+    except ImportError:
+        pass
+    try:
+        subprocess.run(
+            [sys.executable, '-m', 'pip', 'install', '--quiet', 'pillow'],
+            check=True, timeout=60, capture_output=True,
+        )
+        from PIL import Image
+        return Image
+    except Exception:
+        return None
+
+
+def _rasterize_to_png_bytes(svg_text):
+    """svg_text를 헤드리스 Chromium으로 렌더링해 1200x630 PNG 바이트로 반환한다.
+    Chromium/Pillow를 못 찾거나 렌더링이 실패하면 None을 반환한다."""
+    chrome = _find_chrome()
+    if not chrome:
+        return None
+    Image = _ensure_pillow()
+    if Image is None:
+        return None
+
+    with tempfile.TemporaryDirectory() as td:
+        svg_path = Path(td) / 'thumb.svg'
+        svg_path.write_text(svg_text, encoding='utf-8')
+        raw_png = Path(td) / 'raw.png'
+        try:
+            subprocess.run(
+                [
+                    chrome, '--headless', '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
+                    '--window-size=1200,900', '--virtual-time-budget=3000',
+                    f'--screenshot={raw_png}', f'file://{svg_path}',
+                ],
+                check=True, timeout=30, capture_output=True,
+            )
+            cropped = Path(td) / 'cropped.png'
+            Image.open(raw_png).crop((0, 0, 1200, 630)).save(cropped)
+            return cropped.read_bytes()
+        except Exception:
+            return None
+
+
+def _wrap_png_as_svg(png_bytes):
+    b64 = base64.b64encode(png_bytes).decode('ascii')
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
+        f'<image href="data:image/png;base64,{b64}" width="1200" height="630"/>'
+        '</svg>'
+    )
+
+
 def main():
     slug, title, bg, accent, tag = sys.argv[1:6]
     points = sys.argv[6:9]
@@ -137,11 +220,16 @@ def main():
         bottom_block=bottom_block,
     )
 
+    png_bytes = _rasterize_to_png_bytes(svg)
+    final_content = _wrap_png_as_svg(png_bytes) if png_bytes else svg
+
     out_dir = Path('assets/thumbnails')
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{slug}.svg"
-    out_path.write_text(svg, encoding='utf-8')
+    out_path.write_text(final_content, encoding='utf-8')
     print(out_path)
+    if not png_bytes:
+        print("(참고: 래스터화 실패 — 폰트 기반 벡터 SVG로 저장됨. 뷰어 환경에 한글 폰트가 없으면 깨질 수 있음)", file=sys.stderr)
 
 
 if __name__ == '__main__':
