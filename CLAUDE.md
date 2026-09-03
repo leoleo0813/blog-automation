@@ -14,6 +14,7 @@
   - Save as `tistory_drafts/<slug>.md` (same slug as the Blogger post). This is never auto-published — Tistory has no API access — so it only needs to be committed to the repo for the human to copy into Tistory's editor manually.
 - **Blogger Post (rewrite of the Tistory article, not a copy):**
   - Must differ meaningfully in wording and structure from the Tistory piece — same facts, different phrasing/organization/length. Identical text on two domains hurts both pages' SEO.
+  - **Title must reflect the H2 sections' actual topics** — write the H2 structure first, then compose a title that summarizes what those sections cover (not a generic hook or empathy line only). A reader should be able to guess most of the H2 topics from the title alone; this also keeps the title keyword-aligned with the body for SEO/GEO.
   - **Never write a wall of text.** No paragraph may run longer than 3 sentences. Anything enumerable (steps, causes, examples, tips) MUST be an `<ul>`/`<ol>` list, never comma-spliced prose or "첫째, 둘째, 셋째" run into a paragraph. This is a readability/SEO/GEO requirement, not a style preference — long undifferentiated paragraphs are the #1 complaint about past posts.
   - Structure (every element below is required, not optional decoration):
     1. **Introduction:** Empathy + core summary, 2-3 short sentences.
