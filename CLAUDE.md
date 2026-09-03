@@ -17,6 +17,11 @@
   - **Title must reflect the H2 sections' actual topics** — write the H2 structure first, then compose a title that summarizes what those sections cover (not a generic hook or empathy line only). A reader should be able to guess most of the H2 topics from the title alone; this also keeps the title keyword-aligned with the body for SEO/GEO.
   - **Never write a wall of text.** No paragraph may run longer than 3 sentences. Anything enumerable (steps, causes, examples, tips) MUST be an `<ul>`/`<ol>` list, never comma-spliced prose or "첫째, 둘째, 셋째" run into a paragraph. This is a readability/SEO/GEO requirement, not a style preference — long undifferentiated paragraphs are the #1 complaint about past posts.
   - Structure (every element below is required, not optional decoration):
+    0. **Last-reviewed date line** — directly under the title, before the introduction, visible to readers (not just Blogger's own hidden `dateModified` metadata):
+       ```html
+       <p style="font-size:13px;color:#888;">최종 검토일: YYYY-MM-DD</p>
+       ```
+       Use today's actual generation date. This is an E-E-A-T signal — a reader (and a crawler) should see at a glance that the page was recently checked, not just when it was first published.
     1. **Introduction:** Empathy + core summary, 2-3 short sentences.
     2. **TL;DR box** — immediately after the intro, before any H2. 3 bullet points, the reader's key takeaways, in a highlighted box:
        ```html
@@ -42,6 +47,16 @@
          <p style="font-size:13px;color:#888;margin-top:6px;">출처: <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank" rel="noopener">채널명</a></p>
          ```
        - **Exception Rule:** If no relevant, high-quality, Korean-language video is available, omit the video section entirely and provide a neat, comprehensive closing statement instead. Never substitute a non-Korean video to fill this slot.
+    7. **References block (mandatory, last element of the post)** — an E-E-A-T signal, not decoration. List 1-3 primary/authoritative sources for the topic's domain, each a real linked source (verify the URL via WebSearch; never fabricate a link):
+       ```html
+       <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
+         참고 출처:
+         <ul style="margin:6px 0 0 0;padding-left:20px;">
+           <li><a href="..." target="_blank" rel="noopener">기관명 - 자료명</a></li>
+         </ul>
+       </div>
+       ```
+       Pick sources matching the topic's domain — health topics: 질병관리청, 대한내과학회(또는 관련 전문 학회), 건강보험심사평가원; financial/stock topics: 금융감독원, 한국거래소(KRX), 한국예탁결제원; consumer/policy topics: 관련 정부 부처나 공공기관. If no genuine primary source is verifiable for a general lifestyle/trend topic, it's fine to omit this block for that post rather than inventing one.
 - **Thumbnail Image (Crucial, mandatory — never skip):**
   - Blogger has no dedicated thumbnail field — it auto-generates the post's thumbnail/preview image from the first `<img>` tag found in the content. Every post MUST include one near the top (right after the introduction).
   - The content-generation environment's network access is restricted, so a real photo URL found via search cannot be verified to actually exist — do not use WebSearch results or hand-written photo-hosting guesses for this.
@@ -82,14 +97,20 @@ The goal is to pull blog traffic and views simultaneously — write for the feed
   3. Attach exactly one image: a single curiosity-driving visual, not a multi-panel card summarizing the whole post.
 
 ## 5. Execution Rule
-- **Step 0 — check the stock beginner series queue first.** Read `stock_beginner_series.json`. If it contains any item with `"status": "pending"`, that item (lowest `id` first) is this run's topic — skip trend research (Section 5 step below) entirely and go straight to Section 6's process. Only when every item is `"done"` does this repo fall back to ad-hoc trend research.
+- **Step 0 — check the stock beginner series queue first.** Read `stock_beginner_series.json`. If it contains any item with `"status": "pending"`, that item (lowest `id` first) is this run's topic — skip trend research (Section 5 step below) entirely and go straight to Section 7's process. Only when every item is `"done"` does this repo fall back to ad-hoc trend research.
 - Otherwise, when a topic or keyword is given (or found via trend research), generate in this order: (1) the Tistory main article → `tistory_drafts/<slug>.md`, (2) the rewritten Blogger post + metadata, (3) the thumbnail SVG, (4) the Threads hook per Section 4. Include a `tistory_url` field in the `pending_posts/<slug>.json` pointing to the Tistory draft's GitHub blob URL:
   ```
   https://github.com/leoleo0813/blog-automation/blob/main/tistory_drafts/<slug>.md
   ```
   so the Kakao notification carries a direct, easy-to-copy link to it (repo is public, so this is viewable without login).
 
-## 6. Stock Beginner Series (Blogspot-only priority category)
+## 6. Site-Wide E-E-A-T Setup (one-time, outside per-post automation)
+These are blog-level (Blogger theme / static page) changes, not something a per-post content-generation run can do through the Blogger API's `posts()` resource — they need a one-time manual (or separately-scripted) setup, done once by the human operator:
+- **About/소개 page:** a standalone Blogger Page (not a Post) explaining who runs the blog and why, the writing/fact-checking principles, and a contact method — without necessarily disclosing a real name. This answers "why should I trust this page" for both readers and crawlers.
+- **Person schema:** the blog currently emits only Organization JSON-LD (if any). Adding a Person schema (author identity, even a pen name/persona) requires editing the Blogger theme's HTML (테마 > HTML 편집) to inject a sitewide or per-post `<script type="application/ld+json">` block — this repo's automation only creates individual posts/pages via API, it doesn't touch the theme.
+- Both items are tracked here as a known gap, not forgotten — ask the human operator before automating either, since a Page create or theme edit is a live, harder-to-undo action unlike a Blogger draft post.
+
+## 7. Stock Beginner Series (Blogspot-only priority category)
 - Tracked entirely in `stock_beginner_series.json` — 44 posts across 9 clusters (A–J), a Korean stock-investing-for-beginners series. This is a **new Blogger category, separate from the health Tistory blog** (leoleo0813/tistory-blog) and unrelated to this repo's own `tistory_drafts/` step.
 - **Priority:** while any item in the queue is `"pending"`, it takes precedence over general trend research every run (see Section 5 Step 0). Process items in `id` order, one per run.
 - **No Tistory draft for this series** — it publishes to Blogger only. Skip the `tistory_drafts/<slug>.md` step and the Tistory-rewrite framing; write the Blogger post directly as the complete, authoritative piece. Leave `tistory_url` out of `pending_posts/<slug>.json` (or empty string).
