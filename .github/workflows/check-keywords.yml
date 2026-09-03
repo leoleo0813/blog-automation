@@ -1,0 +1,35 @@
+name: Check keyword search volumes (gate 1)
+
+on:
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: '조회할 키워드 (쉼표 구분). 비우면 stock_beginner_series.json의 후보를 조회'
+        required: false
+        type: string
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Check search volumes
+        run: |
+          if [ -n "${{ inputs.keywords }}" ]; then
+            IFS=',' read -ra KWS <<< "${{ inputs.keywords }}"
+            ARGS=()
+            for kw in "${KWS[@]}"; do
+              ARGS+=("$(echo "$kw" | sed 's/^ *//;s/ *$//')")
+            done
+            python -m blog_automation.check_keywords "${ARGS[@]}"
+          else
+            python -m blog_automation.check_keywords
+          fi
+        env:
+          NAVER_AD_CUSTOMER_ID: ${{ secrets.NAVER_AD_CUSTOMER_ID }}
+          NAVER_AD_ACCESS_LICENSE: ${{ secrets.NAVER_AD_ACCESS_LICENSE }}
+          NAVER_AD_SECRET_KEY: ${{ secrets.NAVER_AD_SECRET_KEY }}
