@@ -19,17 +19,36 @@ THUMBNAIL_CDN_BASE = 'https://cdn.jsdelivr.net/gh/leoleo0813/blog-automation@mai
 
 
 def _parse_front_matter(text):
-    """--- 로 감싼 평평한 YAML 머리말을 dict로 읽는다 (pyyaml 의존성 없이)."""
+    """--- 로 감싼 평평한 YAML 머리말을 dict로 읽는다 (pyyaml 의존성 없이).
+
+    `key: value` 한 줄 필드와 `key: |` 블록 스칼라(다음 줄부터 들여쓰기된 줄을
+    줄바꿈으로 이어붙인 값) 둘 다 지원한다. self_check/capture_guide처럼 여러
+    줄로 쓰는 필드는 후자 형태라야 값이 제대로 채워진다.
+    """
     lines = text.splitlines()
     if not lines or lines[0].strip() != '---':
         return {}
     fields = {}
-    for line in lines[1:]:
+    i = 1
+    while i < len(lines):
+        line = lines[i]
         if line.strip() == '---':
             break
         if ':' in line and not line.startswith((' ', '\t', '-')):
             key, _, value = line.partition(':')
-            fields[key.strip()] = value.strip()
+            key, value = key.strip(), value.strip()
+            if value == '|':
+                block = []
+                i += 1
+                while i < len(lines) and (lines[i][:1] in (' ', '\t') or not lines[i].strip()):
+                    if lines[i].strip() == '---':
+                        break
+                    block.append(lines[i].lstrip())
+                    i += 1
+                fields[key] = '\n'.join(block).strip()
+                continue
+            fields[key] = value
+        i += 1
     return fields
 
 
@@ -51,6 +70,12 @@ def _build_draft_message(fields, file_url):
     header = "✅ 게이트 통과" if gate_pass.lower() == 'true' else "⏸ 게이트 미통과 - 발행 보류"
 
     message = f"[주식 초안 작성 완료 - 티스토리 수동 발행]\n{header}\n"
+
+    # 캡처가 필요해 막힌 글은 "무엇을, 어디서, 어떻게" 캡처할지부터 맨 위에 보여준다.
+    # 자체 점검 문구만으로는 사람이 뭘 해야 할지 알기 어려워서 별도 필드로 관리한다.
+    if fields.get('gate_pass', 'false').lower() != 'true' and fields.get('capture_guide'):
+        message += f"\n📋 지금 필요한 조치:\n{fields['capture_guide']}\n"
+
     message += f"\n제목: {fields.get('title', '(제목 없음)')}"
     if fields.get('keyword'):
         message += f"\n키워드: {fields['keyword']}"
