@@ -1,123 +1,57 @@
 ---
 keyword: ISA 계좌 한도
-title: ISA 계좌 한도 확인하는 법
+title: ISA 계좌 한도와 비과세 혜택
 slug: isa-limit-benefit
-keyword_class: human-assisted
-publish_effort: capture
+keyword_class: 자동화 가능
+publish_effort: oneclick
 monthly_search_volume: 3140 (PC 870 / 모바일 2270)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — "ISA 계좌 한도" 상위 5개 중 공식·언론·백과 0개(미래에셋/농협 등 증권사·은행 안내 페이지 2개, 나머지 개인 재테크 블로그). 5개 미만이라 게이트2는 통과.
-unique_asset_plan: 유형별(일반형/서민형/농어민형 등) 연간 납입한도·계좌 총한도·비과세 한도 실측표 + 공식 출처 확인 절차. 표 값은 1차 출처 캡처 전까지 비워둠.
-primary_source: 미확보 — fsc.go.kr(금융위원회), kofia.or.kr(금융투자협회), nts.go.kr(국세청), easylaw.go.kr(법제처) 전부 이번 세션에서 WebFetch가 EGRESS_BLOCKED로 실패. 상세 기록: sources/isa-limit-access-note.md
-기준일: 미확정 — 캡처 시 원문에 명시된 기준일을 그대로 기입할 것
-tags: ISA계좌, ISA한도, ISA비과세, 개인종합자산관리계좌, 절세계좌, 서민형ISA, 일반형ISA, 주식초보, 재테크초보, ISA가입조건
-gate_pass: false
-capture_guide: |
-  왜 필요한가: "2026년부터 연 4천만원(비과세 500/1000만원)으로 상향"이라는 주장과 기존 수치
-  (연 2천만원, 비과세 200/400만원)가 충돌하는데 둘 다 공식 출처로 확인 못 했습니다. 아래 화면에
-  "연간 납입한도·계좌 총한도·유형별 비과세 한도·시행일"이 나오는 부분을 캡처해서 보내주시면
-  표를 채우고 게이트를 다시 판정하겠습니다.
-
-  1순위 — 법제처 찾기쉬운 생활법령정보: https://easylaw.go.kr 접속 → 검색창에 "ISA" 입력 →
-  "개인종합자산관리계좌(ISA)" 관련 항목 열기 → 한도·비과세 표와 "이 정보는 OOOO년 O월 O일
-  기준" 문구가 같이 보이도록 화면 캡처.
-  2순위 — 국세청: https://www.nts.go.kr 접속 → 검색창에 "ISA" 또는 "개인종합자산관리계좌
-  비과세" 입력 → 안내 페이지에서 한도 관련 내용 캡처.
-  3순위 — 금융위원회 보도자료: https://www.fsc.go.kr 접속 → 보도자료 검색에 "ISA" 입력 →
-  가장 최근 보도자료(한도 개정 관련이면 우선) 캡처.
-  참고용(한도 명시 여부 불확실) — 금융투자협회 ISA 다모아: https://isa.kofia.or.kr (수수료
-  비교 위주 사이트라 한도 자체는 안 나올 수 있음, 위 3곳에서 못 찾았을 때만 시도).
-
-  캡처했으면: 스크린샷을 이 대화에 그대로 올려주세요. 그걸로 표를 채우고 재판정하겠습니다.
+unique_asset: 유형별(일반형/서민형/농어민형) 연간 납입한도·계좌 총한도·비과세 한도 실측표(1차 출처 확인) + "왜 블로그마다 한도가 다르게 나오는지"를 해소하는 정보: 2026년 세제개편안(정부안, 2026-09-01 국무회의 확정·2026-09-03 국회 제출)에 "생산적금융 ISA"라는 별도 신상품(연 2천만원/총 2억원, 2027-01-01 신규가입분부터)이 담겨 있어, 기존 ISA의 한도가 오른 것으로 오인·확산된 것임을 확인.
+primary_source: 조세특례제한법 제91조의18 (국세법령정보시스템 taxlaw.nts.go.kr, 최신 개정 2025.12.23 반영·2026.07.01 시행 확인, 2026-09-04 화면 확인) + 금융위원회 "ISA(개인종합자산관리계좌) 주요정책문답" (fsc.go.kr/po020201/27339, 2026-09-04 화면 확인) + 기획재정부 "2026년 세제개편안" 상세본 18페이지 (2026-09-01 국무회의 확정 정부안, 2026-09-03 국회 제출 — 아직 국회 통과 전)
+기준일: 2026년 9월 기준 (조세특례제한법 최신 개정 2025-12-23 / 세제개편안 정부안 확정 2026-09-01)
+tags: ISA계좌, ISA한도, ISA비과세, 개인종합자산관리계좌, 절세계좌, 서민형ISA, 일반형ISA, 생산적금융ISA, 주식초보, 재테크초보
+gate_pass: true
 self_check: |
-  게이트1 미확인 — monthly_search_volume을 확인필요로 기록. 커밋 후 notify-repo-only.yml이 네이버 키워드도구로 자동 조회해 채울 예정. (참고: 2026-09-03 예비 조사 당시 큐에는 월 3,360회로 기록되어 있었으나, 이 초안 자체의 게이트 판정은 자동 재조회 결과를 기다린다.)
-  게이트2 통과 — WebSearch 상위 5개 중 공식·언론·백과 0개.
-  게이트3 미충족 — 실측표가 정보 이득의 핵심인데 1차 출처 캡처 전이라 표 값이 비어 있음. 캡처 없이는 정보 이득 없음.
-  게이트4 미충족 — 1차 출처 원문에 접근하지 못했다. fsc.go.kr/kofia.or.kr/nts.go.kr/easylaw.go.kr 네 도메인 모두 WebFetch가 EGRESS_BLOCKED. RULES.md는 kofia/nts/easylaw를 "열림"으로 기록하고 있으나 이번 세션에서는 재현되지 않았다 — 세션별 프록시 허용 목록 차이로 추정.
-  추가 사실확인: WebSearch로 확인한 여러 비공식 출처가 "2026년 조세특례제한법 개정으로 ISA 한도가 연 4천만원(비과세 500만/1000만원)으로 상향, 2026-01-01 시행"이라고 주장하는 반면, 다른 자료는 기존 수치(연 2천만원, 비과세 200만/400만원)를 그대로 쓴다. 두 수치가 충돌하고 1차 출처로 검증하지 못했으므로 본문에는 어느 쪽 수치도 확정값으로 쓰지 않았다 — 표는 "확인 필요"로 비워둠.
-  제목 14자·금지어 없음·조사 없음(절차형 제목으로 조정: "한도" 표에 실제 값이 없는 상태이므로 RULES.md "비교/한도형 제목은 표가 있어야 하고, 없으면 절차형으로 바꾼다" 원칙에 따라 "확인하는 법"으로 작성).
+  게이트1 통과(3,140회). 게이트2 통과(WebSearch 확인, 공식·언론·백과 0/5).
+  게이트3 충족 — 유형별 실측표(연간 납입한도·계좌 총한도·비과세 한도) + "한도가 다르게 알려진 이유"를
+  밝히는 정보이득(생산적금융 ISA 신설안과의 혼동 해소). 표 값과 신설안 내용 모두 사람이 직접 연 화면을
+  캡처해 확인(국세법령정보시스템, 금융위원회, 기획재정부 세제개편안 상세본).
+  게이트4 충족 — 1차 출처 3곳 모두 화면으로 직접 확인. 세제개편안은 "아직 국회 통과 전 정부안"임을
+  WebSearch로 별도 확인해 명확히 구분 표기(확정 법령과 혼동되지 않도록 본문·FAQ 모두에 명시).
+  제목 12자·금지어 없음·조사 없음. 실제 비교표가 있어 절차형이 아닌 정보형 제목으로 복원.
   슬러그 영문 소문자+하이픈 3단어. FAQ 6개와 JSON-LD 1:1 일치. @id를 티스토리 entry 패턴으로 지정.
-  이미지 없음 — human-assisted/capture 유형이라 공식 자료 화면 캡처 이미지도 사람이 함께 준비해야 함(og:image 겸용 권장).
-  캡처 필요 항목: (1) 유형별 연간 납입한도·계좌 총한도·비과세 한도 표의 실제 값, (2) 캡처한 공식 페이지의 URL과 기준일, (3) 가능하면 화면 캡처 이미지 1장.
+  keyword_class/publish_effort를 human-assisted/capture에서 자동화 가능/oneclick으로 복원 — 애초
+  세율·한도형 주제라 자동화 가능 대상이었으나, 이번 세션 한정으로 자동화의 정부 도메인 접근이 막혀
+  일시적으로 사람이 화면을 캡처해 대신 확인한 것뿐, 정보 자체의 성격이 바뀐 것은 아님.
+  이미지 없음 — 캡처 화면은 표 값 확인용으로만 쓰고 본문에는 삽입하지 않음(수치가 텍스트 표로 이미
+  충분히 전달됨). og:image 필요하면 make_thumbnail 카드로 대체 가능.
 ---
 
-<p>ISA 계좌 한도는 최근 세제 개편 관련 논의로 자료마다 서로 다른 수치가 돌고 있어, 지금 시점의 정확한 한도는 반드시 공식 출처로 직접 확인해야 합니다. 이 글은 어떤 기관에서 무엇을 확인해야 하는지 정리했습니다.</p>
+<p>ISA 계좌의 연간 납입한도는 <mark>2,000만원, 계좌 총한도는 1억원</mark>이며, 비과세 한도는 가입 유형에 따라 200만원 또는 400만원입니다. 최근 "한도가 올랐다"는 이야기가 많은데, 정확히는 별도의 새 상품이 생기는 것이지 기존 한도가 바뀐 게 아닙니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>ISA 계좌 납입한도·비과세 한도는 <mark>제도 개편 시점에 따라 수치가 바뀔 수 있어</mark> 블로그 글마다 다르게 안내되는 경우가 많습니다.</li>
-    <li>정확한 현재 한도는 국세청·금융위원회·금융투자협회 등 <b>공식 자료</b>로 확인해야 합니다.</li>
-    <li>가입 유형(일반형·서민형·농어민형 등)에 따라 조건과 혜택이 다르므로, 본인이 어떤 유형에 해당하는지부터 확인해야 합니다.</li>
-    <li>의무 가입기간을 채우지 못하고 중도 해지하면 세제 혜택을 받지 못할 수 있습니다.</li>
+    <li>기존 ISA는 <b>연간 납입한도 2,000만원, 계좌 총한도 1억원</b>으로 유형과 무관하게 동일합니다.</li>
+    <li>비과세 한도는 <b>일반형 200만원, 서민형·농어민형 400만원</b>이며 초과분은 9.9% 분리과세됩니다.</li>
+    <li>"연 4천만원·비과세 1000만원으로 상향"이라는 이야기는 기존 ISA가 아니라 <mark>2027년 신설 예정인 별도 상품(생산적금융 ISA)</mark> 이야기입니다.</li>
+    <li>이 신설안은 2026년 세제개편안에 담긴 <b>정부안</b>으로, 아직 국회 심의 중이며 확정되지 않았습니다.</li>
   </ul>
 </div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
+  <li>ISA 계좌 한도는 얼마인가요</li>
   <li>ISA 계좌란 무엇인가요</li>
-  <li>ISA 계좌 한도는 왜 지금 다시 확인해야 하나요</li>
-  <li>ISA 계좌 유형별로 무엇이 다른가요</li>
-  <li>ISA 계좌 한도는 어디서 확인하나요</li>
-  <li>ISA 계좌 유형별 한도 (확인 중)</li>
+  <li>왜 한도가 다르게 알려져 있나요</li>
+  <li>생산적금융 ISA는 무엇인가요</li>
+  <li>비과세 한도를 넘으면 세금은 어떻게 되나요</li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌란 무엇인가요</h2>
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 한도는 얼마인가요</h2>
 
-<p>ISA(개인종합자산관리계좌)는 예금, 펀드, ETF 등 여러 금융상품을 <b>하나의 계좌</b>에 담아 운용하고, 만기 시 발생한 손익을 통산해 세금 혜택을 받을 수 있는 절세 계좌입니다.</p>
-
-<p>2016년에 도입된 이후 지금까지 개인 투자자의 대표적인 절세 수단 중 하나로 꼽힙니다. <mark>계좌 안에서 발생한 이익과 손실을 합쳐 계산한다는 점</mark>이 일반 위탁계좌와 가장 큰 차이입니다.</p>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 한도는 왜 지금 다시 확인해야 하나요</h2>
-
-<p>ISA 계좌의 연간 납입한도, 계좌 총한도, 비과세 한도는 세법 개정에 따라 조정될 수 있는 수치입니다. <mark>같은 검색어로 찾은 글이라도 작성 시점에 따라 서로 다른 한도를 안내하고 있을 수 있습니다.</mark></p>
-
-<div style="background:#fff8e6;border-left:4px solid #e0a800;padding:14px 18px;margin:20px 0;">
-  <b>확인이 필요한 이유</b>
-  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>납입한도·비과세 한도는 조세특례제한법 등 관련 법 개정 시 바뀔 수 있습니다.</li>
-    <li>오래된 글이 개정 전 수치를 그대로 싣고 있는 경우가 있습니다.</li>
-    <li>반대로 아직 시행되지 않은 개편안을 이미 적용된 것처럼 쓰는 글도 있을 수 있습니다.</li>
-  </ul>
-</div>
-
-<p>그래서 이 글은 특정 숫자를 단정해 알려주는 대신, <b>어디서 최신 수치를 직접 확인할 수 있는지</b>를 안내하는 데 집중했습니다.</p>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 유형별로 무엇이 다른가요</h2>
-
-<p>ISA는 가입자의 소득 수준이나 조건에 따라 <b>일반형, 서민형, 농어민형</b> 등 여러 유형으로 나뉘어 운영되어 왔습니다. 유형마다 비과세 한도와 가입 조건이 다르게 적용됩니다.</p>
-
-<ul style="line-height:1.9;">
-  <li>일반형: 별도 소득 조건 없이 가입 가능한 기본 유형입니다.</li>
-  <li>서민형: 총급여나 종합소득금액이 일정 기준 이하인 경우 가입할 수 있으며, 비과세 혜택이 더 큽니다.</li>
-  <li>농어민형: 농어업인을 대상으로 한 유형입니다.</li>
-</ul>
-
-<p>본인이 어떤 유형에 해당하는지, 그리고 각 유형의 정확한 소득 기준은 가입하려는 금융회사나 국세청 안내에서 확인하는 것이 정확합니다.</p>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 한도는 어디서 확인하나요</h2>
-
-<p>정확한 한도는 아래 공식 경로에서 직접 확인하는 것이 가장 안전합니다.</p>
-
-<ol style="line-height:1.9;">
-  <li><b>국세청</b> 홈페이지 또는 홈택스 안내 자료에서 ISA 관련 세제 안내를 확인합니다.</li>
-  <li><b>금융위원회</b> 보도자료·정책문답에서 제도 개편 여부와 시행일을 확인합니다.</li>
-  <li><b>금융투자협회</b> ISA 비교공시(다모아) 페이지에서 상품별 안내를 확인합니다.</li>
-  <li>실제 가입할 <b>증권사·은행 앱</b>의 ISA 상품 안내 화면에서 현재 적용되는 한도를 확인합니다. 금융회사는 법 개정 즉시 반영하는 경우가 많아 실무적으로 가장 빠르게 최신 수치를 볼 수 있습니다.</li>
-</ol>
-
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>확인할 때 함께 메모해 둘 것</b>
-  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>확인한 페이지의 <b>기준일 또는 시행일</b></li>
-    <li>본인이 해당하는 <b>가입 유형</b></li>
-    <li>연간 납입한도 / 계좌 총한도 / 비과세 한도 <b>세 가지 숫자를 각각 따로</b> 기록 (혼동하기 쉬운 항목입니다)</li>
-  </ul>
-</div>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 유형별 한도 (확인 중)</h2>
-
-<p>아래 표는 유형별 한도를 정리하는 틀입니다. 공식 출처로 확인되는 대로 실제 수치를 채울 예정입니다.</p>
+<p>ISA 계좌의 연간 납입한도와 계좌 총한도는 가입 유형과 관계없이 <b>동일하게 적용</b>됩니다. 유형에 따라 달라지는 것은 비과세 한도입니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
@@ -129,24 +63,80 @@ self_check: |
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">일반형</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">서민형</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">농어민형</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">일반형</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1억원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>200만원</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">서민형<br><span style="font-size:12px;color:#888;">(총급여 5천만원 이하 등)</span></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1억원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>400만원</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">농어민형</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1억원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>400만원</mark></td></tr>
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;">위 표는 1차 출처(국세청·금융위원회·금융투자협회) 원문을 캡처해 채운 뒤에만 발행합니다. 캡처 전에는 발행하지 않습니다.</p>
+<p style="font-size:13px;color:#888;">출처: 조세특례제한법 제91조의18(국세법령정보시스템, 2025-12-23 최신 개정 반영) · 금융위원회 ISA 주요정책문답. 2026-09-04 화면 확인 기준.</p>
+
+<p>연간 납입한도를 다 채우지 못한 해가 있어도, 남은 한도는 이후 연도로 이월해 <b>가입 기간 동안 총 1억원</b>까지 납입할 수 있습니다.</p>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌란 무엇인가요</h2>
+
+<p>ISA(개인종합자산관리계좌)는 예금, 펀드, ETF 등 여러 금융상품을 <b>하나의 계좌</b>에 담아 운용하고, 계좌 안에서 발생한 손익을 통산해 세금 혜택을 받을 수 있는 절세 계좌입니다.</p>
+
+<p>2016년에 도입된 이후 개인 투자자의 대표적인 절세 수단으로 꼽힙니다. <mark>여러 상품의 이익과 손실을 합쳐 계산한다는 점</mark>이 일반 위탁계좌와 가장 큰 차이입니다.</p>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 한도가 다르게 알려져 있나요</h2>
+
+<p>최근 "ISA 한도가 연 4천만원, 비과세는 500만원·1000만원으로 오른다"는 내용을 접했다면, <mark>기존 ISA 이야기가 아니라 2027년에 신설되는 별도 상품 이야기가 섞인 것</mark>입니다.</p>
+
+<div style="background:#fff8e6;border-left:4px solid #e0a800;padding:14px 18px;margin:20px 0;">
+  <b>혼동이 생긴 이유</b>
+  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
+    <li>2026년 세제개편안에 <b>"생산적금융 ISA"</b>라는 완전히 새로운 상품 신설 계획이 포함되어 있습니다.</li>
+    <li>이 신상품의 한도(연 2천만원, 총 2억원)와 기존 일반 ISA의 한도가 <b>구분 없이 섞여서</b> "한도가 올랐다"는 식으로 퍼졌습니다.</li>
+    <li>기존 일반형·서민형·농어민형 ISA의 한도 자체는 <b>이번 개편안으로 바뀌지 않습니다.</b></li>
+  </ul>
+</div>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">생산적금융 ISA는 무엇인가요</h2>
+
+<p>생산적금융 ISA는 국내 상장주식·국내 주식형 펀드·국민성장펀드 등에 투자하는 계좌에 <b>이자·배당소득을 전액 비과세</b>하는, 기존 ISA와는 별개의 신설 상품입니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">항목</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">납입한도</td><td style="border:1px solid #ccd;padding:10px;">연 2,000만원 / 총 2억원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">계약기간</td><td style="border:1px solid #ccd;padding:10px;">최초 3년, 최장 10년까지 연장 가능</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">가입 대상 기한</td><td style="border:1px solid #ccd;padding:10px;">2029년 12월 31일까지 가입분</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">적용 시기</td><td style="border:1px solid #ccd;padding:10px;">2027년 1월 1일 이후 신규 가입분부터</td></tr>
+  </tbody>
+</table>
+
+<div style="background:#fdeaea;border-left:4px solid #d9534f;padding:14px 18px;margin:20px 0;">
+  <b>주의 — 아직 확정된 법이 아닙니다</b>
+  <p style="margin:8px 0 0 0;">생산적금융 ISA는 2026년 세제개편안에 담긴 <b>정부안</b>입니다. 2026년 9월 1일 국무회의에서 정부안으로 확정되어 9월 3일 국회에 제출됐지만, 정기국회 심의 과정에서 내용이 바뀌거나 무산될 수 있습니다. 실제 시행 여부와 최종 조건은 국회 통과 이후 다시 확인해야 합니다.</p>
+</div>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">비과세 한도를 넘으면 세금은 어떻게 되나요</h2>
+
+<p>비과세 한도(일반형 200만원, 서민형·농어민형 400만원)를 넘는 순소득에 대해서는 <mark>9.9%(지방소득세 포함) 분리과세</mark>가 적용됩니다.</p>
+
+<p>일반 금융소득종합과세 대상이 되면 최고 49.5%까지 세율이 올라갈 수 있는 것과 비교하면, ISA의 분리과세 9.9%는 상당히 낮은 세율입니다. 이 부분이 ISA의 핵심 절세 효과입니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:28px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">정리</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>ISA 한도는 지금 이 순간에도 바뀔 수 있는 수치이므로 반드시 공식 출처로 확인해야 합니다.</li>
-    <li>본인의 가입 유형(일반형/서민형/농어민형)에 따라 한도와 비과세 혜택이 다릅니다.</li>
-    <li>국세청, 금융위원회, 금융투자협회, 가입 금융회사 앱 순으로 확인하면 가장 정확합니다.</li>
+    <li>기존 ISA 한도: 연 2,000만원 납입 / 총 1억원 / 비과세 200만원(일반형)·400만원(서민형·농어민형).</li>
+    <li>"연 4천만원 상향"은 기존 ISA가 아니라 2027년 신설 예정인 생산적금융 ISA(정부안, 미확정) 이야기입니다.</li>
+    <li>비과세 한도 초과분은 9.9% 분리과세로, 일반 금융소득종합과세보다 유리합니다.</li>
   </ul>
 </div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+
+<details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">ISA 계좌 한도는 얼마인가요</summary>
+  <p style="margin:10px 0 0 0;">연간 납입한도 2,000만원, 계좌 총한도 1억원입니다. 유형(일반형·서민형·농어민형)과 관계없이 동일하게 적용됩니다.</p>
+</details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ISA 계좌란 무엇인가요</summary>
@@ -154,41 +144,40 @@ self_check: |
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">ISA 계좌에는 어떤 유형이 있나요</summary>
-  <p style="margin:10px 0 0 0;">소득 수준이나 조건에 따라 일반형, 서민형, 농어민형 등으로 나뉘며 유형마다 비과세 한도와 가입 조건이 다릅니다. 본인이 해당하는 유형은 가입 금융회사나 국세청 안내에서 확인해야 합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">ISA 비과세 한도는 얼마인가요</summary>
+  <p style="margin:10px 0 0 0;">일반형은 200만원, 서민형·농어민형은 400만원입니다. 초과분에는 9.9% 분리과세가 적용됩니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">ISA 계좌 납입한도는 얼마인가요</summary>
-  <p style="margin:10px 0 0 0;">연간 납입한도와 계좌 총한도가 정해져 있지만 제도 개편에 따라 수치가 달라질 수 있어 이 글에서 단정하지 않았습니다. 국세청, 금융위원회, 금융투자협회의 최신 공식 자료로 확인해야 합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">왜 ISA 한도가 다르게 알려져 있나요</summary>
+  <p style="margin:10px 0 0 0;">2027년 신설 예정인 별도 상품 "생산적금융 ISA"의 한도(연 2천만원·총 2억원)가 기존 ISA 한도와 구분 없이 섞여 퍼졌기 때문입니다. 기존 ISA 한도 자체는 바뀌지 않습니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">비과세 한도를 넘으면 어떻게 되나요</summary>
-  <p style="margin:10px 0 0 0;">비과세 한도를 넘는 이익에는 일반 금융소득세율보다 낮은 분리과세가 적용되는 구조입니다. 정확한 세율과 한도는 국세청 공식 자료로 확인해야 합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">생산적금융 ISA는 확정된 건가요</summary>
+  <p style="margin:10px 0 0 0;">아니요, 2026년 세제개편안에 담긴 정부안으로 2026년 9월 국회에 제출된 상태이며 아직 통과되지 않았습니다. 정기국회 심의 결과에 따라 내용이 달라질 수 있습니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">ISA 계좌를 중도 해지하면 어떻게 되나요</summary>
-  <p style="margin:10px 0 0 0;">의무 가입기간을 채우지 못하고 중도 해지하면 세제 혜택을 받지 못할 수 있습니다. 정확한 의무 가입기간은 가입 시 금융회사 안내를 확인해야 합니다.</p>
-</details>
-
-<details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">ISA 한도는 어디서 확인하는 게 가장 정확한가요</summary>
-  <p style="margin:10px 0 0 0;">국세청, 금융위원회, 금융투자협회 같은 공식 기관 자료가 가장 정확합니다. 실무적으로는 가입하려는 증권사·은행 앱의 ISA 상품 안내 화면이 법 개정을 가장 빠르게 반영하는 경우가 많습니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">비과세 한도를 넘으면 세금은 어떻게 되나요</summary>
+  <p style="margin:10px 0 0 0;">비과세 한도를 넘는 순소득에는 9.9%(지방소득세 포함) 분리과세가 적용됩니다. 일반 금융소득종합과세보다 낮은 세율입니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>1차 출처 캡처 대기 — 국세청 / 금융위원회 / 금융투자협회 중 확인된 페이지로 채울 예정 (sources/isa-limit-access-note.md 참고)</li>
+    <li>조세특례제한법 제91조의18 (국세법령정보시스템, taxlaw.nts.go.kr, 최신 개정 2025-12-23)</li>
+    <li>금융위원회 "ISA(개인종합자산관리계좌) 주요정책문답" (fsc.go.kr/po020201/27339)</li>
+    <li>기획재정부 "2026년 세제개편안" 상세본 — 생산적금융 ISA 신설 부분 (정부안, 2026-09-01 국무회의 확정, 2026-09-03 국회 제출)</li>
+    <li>기준일: 2026년 9월 (화면 확인일 2026-09-04)</li>
   </ul>
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
 이 글은 정보 제공을 목적으로 하며 특정 종목이나 상품의 매수·매도를 권유하지 않습니다.
 투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
-세율·수수료·한도는 변경될 수 있으므로 반드시 원출처에서 최신 내용을 확인하시기 바랍니다.
+세율·한도는 법 개정에 따라 변경될 수 있으므로, 특히 생산적금융 ISA 관련 내용은 국회 통과 후
+최신 내용을 다시 확인하시기 바랍니다.
 </p>
 
 <script type="application/ld+json">
@@ -196,6 +185,14 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ISA 계좌 한도는 얼마인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "연간 납입한도 2,000만원, 계좌 총한도 1억원입니다. 유형(일반형·서민형·농어민형)과 관계없이 동일하게 적용됩니다."
+      }
+    },
     {
       "@type": "Question",
       "name": "ISA 계좌란 무엇인가요",
@@ -206,42 +203,34 @@ self_check: |
     },
     {
       "@type": "Question",
-      "name": "ISA 계좌에는 어떤 유형이 있나요",
+      "name": "ISA 비과세 한도는 얼마인가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "소득 수준이나 조건에 따라 일반형, 서민형, 농어민형 등으로 나뉘며 유형마다 비과세 한도와 가입 조건이 다릅니다. 본인이 해당하는 유형은 가입 금융회사나 국세청 안내에서 확인해야 합니다."
+        "text": "일반형은 200만원, 서민형·농어민형은 400만원입니다. 초과분에는 9.9% 분리과세가 적용됩니다."
       }
     },
     {
       "@type": "Question",
-      "name": "ISA 계좌 납입한도는 얼마인가요",
+      "name": "왜 ISA 한도가 다르게 알려져 있나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "연간 납입한도와 계좌 총한도가 정해져 있지만 제도 개편에 따라 수치가 달라질 수 있어 이 글에서 단정하지 않았습니다. 국세청, 금융위원회, 금융투자협회의 최신 공식 자료로 확인해야 합니다."
+        "text": "2027년 신설 예정인 별도 상품 생산적금융 ISA의 한도(연 2천만원·총 2억원)가 기존 ISA 한도와 구분 없이 섞여 퍼졌기 때문입니다. 기존 ISA 한도 자체는 바뀌지 않습니다."
       }
     },
     {
       "@type": "Question",
-      "name": "비과세 한도를 넘으면 어떻게 되나요",
+      "name": "생산적금융 ISA는 확정된 건가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "비과세 한도를 넘는 이익에는 일반 금융소득세율보다 낮은 분리과세가 적용되는 구조입니다. 정확한 세율과 한도는 국세청 공식 자료로 확인해야 합니다."
+        "text": "아니요, 2026년 세제개편안에 담긴 정부안으로 2026년 9월 국회에 제출된 상태이며 아직 통과되지 않았습니다. 정기국회 심의 결과에 따라 내용이 달라질 수 있습니다."
       }
     },
     {
       "@type": "Question",
-      "name": "ISA 계좌를 중도 해지하면 어떻게 되나요",
+      "name": "비과세 한도를 넘으면 세금은 어떻게 되나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "의무 가입기간을 채우지 못하고 중도 해지하면 세제 혜택을 받지 못할 수 있습니다. 정확한 의무 가입기간은 가입 시 금융회사 안내를 확인해야 합니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "ISA 한도는 어디서 확인하는 게 가장 정확한가요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "국세청, 금융위원회, 금융투자협회 같은 공식 기관 자료가 가장 정확합니다. 실무적으로는 가입하려는 증권사·은행 앱의 ISA 상품 안내 화면이 법 개정을 가장 빠르게 반영하는 경우가 많습니다."
+        "text": "비과세 한도를 넘는 순소득에는 9.9%(지방소득세 포함) 분리과세가 적용됩니다. 일반 금융소득종합과세보다 낮은 세율입니다."
       }
     }
   ]
@@ -252,8 +241,8 @@ self_check: |
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "ISA 계좌 한도 확인하는 법",
-  "description": "ISA 계좌의 납입한도와 비과세 한도를 정확하게 확인할 수 있는 공식 출처와 절차를 정리했습니다.",
+  "headline": "ISA 계좌 한도와 비과세 혜택",
+  "description": "ISA 계좌의 연간 납입한도·계좌 총한도·비과세 한도를 유형별로 정리하고, 생산적금융 ISA 신설안과 혼동되는 이유를 설명합니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-04",
