@@ -69,6 +69,14 @@
 - publish_effort: capture   → 사람이 공시 캡처+값 입력 필요 (수수료 환전 ETF보수)
   → capture 글은 캡처 준비될 때까지 stock_drafts/에 대기. 원클릭 글을 먼저 발행
 
+## 카카오 알림용 썸네일 (초안 커밋과 같이 처리)
+- 초안(stock_drafts/*.md)을 커밋하기 전에 `python -m blog_automation.ensure_thumbnail <경로>`를
+  실행해 assets/thumbnails/<slug>.png를 같이 만들어 커밋한다. 이 자동화 세션(Claude Code)에는
+  헤드리스 Chromium이 있어 여기서 만들면 PNG가 확실히 생긴다.
+  → notify-repo-only.yml에도 같은 단계가 안전망으로 있지만, GitHub Actions 러너는 Chromium을
+    매번 새로 설치해야 해서 느리고 실패 가능성도 있다. 초안 작성 시점에 미리 만들어 두면 그 안전망은
+    "이미 있음"으로 건너뛰기만 하면 된다.
+
 ## 게이트 (초안 상단 YAML로 기록. 하나라도 false면 gate_pass:false → 발행금지)
 - search_volume: 주식 월500+/제도 월100+/건강 월300+ (미확인=탈락)
 - competition: 공식·언론·백과 5개 이상이면 탈락 (미확인=false, 발행금지)
