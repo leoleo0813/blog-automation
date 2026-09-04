@@ -81,7 +81,8 @@
 
 ## 1차 출처 접근 (실측, 반복 시도로 시간 끌지 말 것)
 - 열림: kofia.or.kr(단, dis.kofia는 JS 앱이라 렌더링해도 수치 없음 → human-assisted 캡처로 처리)
+- 열림: nts.go.kr(국세청), easylaw.go.kr(법제처 찾기쉬운 생활법령정보) — 2026-09-04 실측 확인. easylaw.go.kr은 특히 세율·공제액이 조문 인용과 함께 정리되어 있고 "이 정보는 YYYY년 M월 D일 기준" 표기가 있어 출처 신선도 확인에 좋다. 세금·제도 주제는 이쪽을 우선 시도.
 - 막힘(connect timeout): moef.go.kr, korea.kr — 재시도해도 안 열림, 1회 시도 후 바로 사람에게 원문 요청
-- 막힘(iframe): law.go.kr — 렌더링해도 본문 없음, 시도하지 말 것
-- 미확인: nts.go.kr(국세청) — "자동화 가능" 분류 항목(매도세금·배당소득세 등)의 실제 출처라 다음 착수 시 최초 1회 접근성 확인 필요. 여기도 막히면 해당 항목도 human-assisted/capture로 재분류한다.
+- 막힘(iframe): law.go.kr(국가법령정보센터, easylaw.go.kr과는 다른 사이트) — 렌더링해도 본문 없음, 시도하지 말 것
+- 미확인: hometax.go.kr(홈택스) — 로그인·공동인증 기반이라 화면 캡처 자체가 불가능할 가능성이 높음. 필요하면 human-assisted로 분류.
 - 원문을 못 얻으면 수치를 만들지 말고 gate_pass:false로 저장만 하고 다음으로 넘어간다

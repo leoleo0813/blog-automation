@@ -54,8 +54,13 @@
       "gate1_pass": true,
       "unique_asset_plan": "100만·1,000만 원 매도 시 실제 차감액 계산",
       "primary_source_plan": "국세청 / 기획재정부",
-      "access_note": "기획재정부(moef.go.kr)는 Actions에서도 connect timeout 확인됨(RULES.md 1차출처 접근 참고). 국세청(nts.go.kr)은 미확인 — 착수 시 최초 1회 접근성 확인, 막히면 human-assisted/capture로 재분류.",
-      "status": "pending"
+      "access_note": "moef.go.kr은 connect timeout 확인됨. 대신 법제처 생활법령정보(easylaw.go.kr)와 국세청(nts.go.kr) 페이지가 둘 다 열려서 실제 세율 원문을 확보함 — access_note 목적 달성.",
+      "serp_check": "WebSearch 확인(2026-09-04) — 상위 5개 중 공식·금융사·백과 2~3개(kbthink/kbcapital 계열, namu.wiki), 나머지 개인 커뮤니티/세무서비스. 5개 미만이라 통과.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/stock-sell-tax-amount.md",
+      "gate3_note": "해결됨 — 증권거래세(코스피 0.05%/코스닥 0.2%/코넥스 0.1%)와 양도소득세(대주주 20~30%, 해외주식 10~20%) 공식 세율을 법제처 원문에서 확인해 100만·1,000만원 매도 및 대주주·해외주식 계산 예시로 반영. 캡처 불필요(oneclick).",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-04): 검색량 1,250회 / 경쟁 2~3/5 / 계산예시 반영 / 법제처 원문(2026-08-15 기준, 3주 이내 신선) + 국세청. 사람 최종 확인 후 티스토리 발행 대기 중."
     },
     {
       "id": 3,
