@@ -5,17 +5,15 @@ slug: broker-fee-comparison-2026
 monthly_search_volume: 4980 (PC 950 / 모바일 4030)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: 미확인 — 사람이 구글 상위 10개 구성 확인 필요
-unique_asset: 금융투자협회 비교공시 조회 조건 구조(주문방식 6구분·조회금액 6구간)와 인하/인상 공시 비대칭. 1차 출처 보도자료 근거.
-primary_source: 금융투자협회 보도자료 "증권회사 위탁수수료 등 비교공시 개선" (2011-11-30) / sources/broker-fee-kofia.md
-기준일: 2026년 9월 기준
+unique_asset: 금융투자협회 비교공시 실측표(9개 증권사, 거래금액 100만원·변경후 기준, 온라인/오프라인 수수료) + 조회 조건 구조·인하/인상 공시 비대칭 설명. 사람이 화면에서 직접 확인해 캡처.
+primary_source: 금융투자협회 전자공시 "증권사 주식거래 수수료 비교" (2026-09-04 화면 직접 확인, 거래금액 100만원·변경후 기준) + 보도자료 "증권회사 위탁수수료 등 비교공시 개선" (2011-11-30) / sources/broker-fee-kofia.md
+기준일: 2026년 9월 기준 (표의 각 증권사 기준일자는 회사마다 다름 — 본문 표 참고)
 tags: 증권사수수료, 주식수수료, 수수료비교, 위탁매매수수료, 금융투자협회, 주식거래비용, 증권사비교, 주식초보, 온라인수수료
 gate_pass: false
 self_check: |
-  게이트1 통과(4,980회). 게이트2 미확인(사람 확인 필요). 게이트3 충족(공시 조회 절차 + 공시 구조 분석).
-  게이트4 충족(금융투자협회 보도자료 1차 출처, 기준일 명시).
-  ⚠️ 증권사별 실제 수수료율 표는 넣지 못함 — 금융투자협회 비교공시 페이지가 JavaScript 기반이라
-  자동 수집으로 수치를 얻을 수 없었고, 지침상 원문에 없는 수치는 생성하지 않음.
-  실측표를 넣으려면 사람이 공시 화면에서 값을 확인해 표를 채워야 함.
+  게이트1 통과(4,980회). 게이트2 미확인(사람 확인 필요 — 구글 상위 10개 구성).
+  게이트3 충족 — 금융투자협회 공시 화면을 사람이 직접 확인해 캡처한 실측표(9개사) 추가.
+  게이트4 충족(1차 출처 원문 확인, 기준일 명시).
   제목 13자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈. FAQ 6개와 JSON-LD 1:1 일치.
 ---
 
@@ -37,6 +35,7 @@ self_check: |
 <ol style="line-height:1.9;">
   <li>증권사 수수료는 어디서 비교하나요</li>
   <li>같은 증권사인데 수수료가 왜 다르게 나오나요</li>
+  <li>실제 수수료는 얼마나 차이 날까요</li>
   <li>공시 화면을 볼 때 무엇을 확인해야 하나요</li>
   <li>수수료가 가장 싼 곳을 고르면 되나요</li>
 </ol>
@@ -89,6 +88,39 @@ self_check: |
 </table>
 
 <p>스마트폰으로 주문하는 초보 투자자라면 오프라인 조건의 수수료는 참고 대상이 아닙니다. 조건을 잘못 놓고 비교하면 실제와 다른 숫자를 보게 됩니다.</p>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 수수료는 얼마나 차이 날까요</h2>
+
+<p>금융투자협회 전자공시에서 <b>거래금액 100만 원, 변경후 기준</b>으로 직접 조회한 값입니다. 스마트폰(온라인) 주문 기준으로 낮은 순서로 정렬했습니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">증권사</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">스마트폰(온라인)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">오프라인</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">기준일자</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">우리투자증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>100원</mark></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,980원</td><td style="border:1px solid #ccd;padding:10px;">2025.09.08</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">토스증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">150원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">-</td><td style="border:1px solid #ccd;padding:10px;">2021.01.21</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">상상인증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,900원</td><td style="border:1px solid #ccd;padding:10px;">2026.02.19</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">미래에셋증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,360원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,860원</td><td style="border:1px solid #ccd;padding:10px;">2025.03.04</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">비엔케이투자증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,500원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,492원</td><td style="border:1px solid #ccd;padding:10px;">2020.08.24</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">유진투자증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,500원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">5,000원</td><td style="border:1px solid #ccd;padding:10px;">2020.06.17</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">신한투자증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,890원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">-</td><td style="border:1px solid #ccd;padding:10px;">2026.03.06</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">대신증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,973원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,973원</td><td style="border:1px solid #ccd;padding:10px;">2021.01.01</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">유화증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">-</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,490원</td><td style="border:1px solid #ccd;padding:10px;">2012.05.02</td></tr>
+  </tbody>
+</table>
+
+<p>스마트폰 주문만 놓고 보면 <mark>가장 낮은 곳과 가장 높은 곳의 차이가 약 20배</mark>입니다. 반면 오프라인(지점 방문·전화 주문)은 대체로 4,500~5,000원대로 회사 간 차이가 크지 않습니다.</p>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
+  <b>기준일자가 회사마다 다른 이유</b>
+  <p style="margin:8px 0 0 0;">표의 기준일자는 2012년부터 2026년까지 걸쳐 있습니다. 이는 각 증권사가 지금 공시된 수수료를 마지막으로 바꾼 시점이 다르다는 뜻입니다. 기준일자가 오래됐다고 해서 값을 못 믿는다는 뜻은 아니고, 그 이후로 해당 회사가 수수료를 바꾸지 않았다는 의미입니다.</p>
+</div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공시 화면을 볼 때 무엇을 확인해야 하나요</h2>
 
@@ -255,7 +287,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-03",
-  "dateModified": "2026-09-03",
+  "dateModified": "2026-09-04",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/"
