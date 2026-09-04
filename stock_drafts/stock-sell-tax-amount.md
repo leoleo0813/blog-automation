@@ -4,7 +4,7 @@ title: 주식 매도 세금 얼마
 slug: stock-sell-tax-amount
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1250 (PC 290 / 모바일 960)
+monthly_search_volume: 1240 (PC 290 / 모바일 950)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — 상위 5개 중 공식·금융사·백과 2~3개(kbthink/kbcapital 같은 계열, namu.wiki), 나머지 개인 커뮤니티/세무서비스 마케팅. 5개 미만이라 통과.
 unique_asset: 국내 상장주식 매도 시 증권거래세 실제 계산(코스피/코스닥/코넥스 요율별 100만원·1,000만원 매도 예시) + 양도소득세 과세 여부 판단 기준 + 대주주·해외주식 양도소득세 계산 예시. 전부 1차 출처의 공식 세율·공제액을 그대로 적용한 계산.
