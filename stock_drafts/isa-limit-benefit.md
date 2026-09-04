@@ -4,8 +4,8 @@ title: ISA 계좌 한도 확인하는 법
 slug: isa-limit-benefit
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 3140 (PC 870 / 모바일 2270)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — "ISA 계좌 한도" 상위 5개 중 공식·언론·백과 0개(미래에셋/농협 등 증권사·은행 안내 페이지 2개, 나머지 개인 재테크 블로그). 5개 미만이라 게이트2는 통과.
 unique_asset_plan: 유형별(일반형/서민형/농어민형 등) 연간 납입한도·계좌 총한도·비과세 한도 실측표 + 공식 출처 확인 절차. 표 값은 1차 출처 캡처 전까지 비워둠.
 primary_source: 미확보 — fsc.go.kr(금융위원회), kofia.or.kr(금융투자협회), nts.go.kr(국세청), easylaw.go.kr(법제처) 전부 이번 세션에서 WebFetch가 EGRESS_BLOCKED로 실패. 상세 기록: sources/isa-limit-access-note.md
