@@ -12,8 +12,10 @@ GitHub Actions 워크플로(.github/workflows/notify-repo-only.yml)에서 호출
 import json
 import os
 import sys
+from pathlib import Path
 
 REPO_BLOB_BASE = 'https://github.com/leoleo0813/blog-automation/blob/main'
+THUMBNAIL_CDN_BASE = 'https://cdn.jsdelivr.net/gh/leoleo0813/blog-automation@main/assets/thumbnails'
 
 
 def _parse_front_matter(text):
@@ -70,23 +72,56 @@ def _build_draft_message(fields, file_url):
     return message + f"\n\n초안 파일(자세히 보기):\n{file_url}"
 
 
+def _thumbnail_url(fields):
+    """주식 초안의 slug에 해당하는 썸네일이 이미 저장소에 있으면 jsDelivr URL을 준다.
+
+    (notify-repo-only.yml의 ensure_thumbnail 단계가 이 스크립트보다 먼저 실행되어
+    커밋·푸시까지 마쳐 둔다는 전제. 파일이 없으면 None을 돌려주고 조용히 생략한다.)
+    """
+    slug = fields.get('slug')
+    if not slug or not (Path('assets/thumbnails') / f"{slug}.png").exists():
+        return None
+    return f"{THUMBNAIL_CDN_BASE}/{slug}.png"
+
+
 def main():
     path = sys.argv[1]
     file_url = f"{REPO_BLOB_BASE}/{path}"
+    is_stock_draft = not path.endswith('.json')
 
     with open(path, encoding='utf-8') as f:
         raw = f.read()
 
     if path.endswith('.json'):
-        message = _build_json_message(json.loads(raw), file_url)
+        fields = json.loads(raw)
+        message = _build_json_message(fields, file_url)
     else:
-        message = _build_draft_message(_parse_front_matter(raw), file_url)
+        fields = _parse_front_matter(raw)
+        message = _build_draft_message(fields, file_url)
 
     if not os.environ.get('KAKAO_REST_API_KEY') or not os.environ.get('KAKAO_REFRESH_TOKEN'):
         print("카카오 시크릿 미설정 - 알림 전송 생략")
         return
 
-    from blog_automation.kakao_notify import send_kakao_message
+    from blog_automation.kakao_notify import send_kakao_feed_message, send_kakao_message
+
+    # 썸네일 카드(feed)는 주식 초안(.md)에만 붙인다 - 일반 트렌드 모드(json)는 대상 아님.
+    if is_stock_draft:
+        thumb_url = _thumbnail_url(fields)
+        if thumb_url:
+            gate_pass = fields.get('gate_pass', 'false').lower() == 'true'
+            status = "✅ 게이트 통과" if gate_pass else "⏸ 게이트 미통과 - 발행 보류"
+            description = f"{status} · 검색량 {fields.get('monthly_search_volume', '확인필요')}"
+            try:
+                send_kakao_feed_message(
+                    title=fields.get('title', '(제목 없음)'),
+                    description=description,
+                    image_url=thumb_url,
+                    link_url=file_url,
+                )
+            except Exception as e:
+                print(f"카카오톡 썸네일 카드 전송 실패: {e}")
+
     try:
         send_kakao_message(message, link_url=file_url)
     except Exception as e:

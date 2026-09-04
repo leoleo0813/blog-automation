@@ -228,7 +228,11 @@ def main():
     out_path = out_dir / f"{slug}.svg"
     out_path.write_text(final_content, encoding='utf-8')
     print(out_path)
-    if not png_bytes:
+    if png_bytes:
+        png_path = out_dir / f"{slug}.png"
+        png_path.write_bytes(png_bytes)
+        print(png_path)
+    else:
         print("(참고: 래스터화 실패 — 폰트 기반 벡터 SVG로 저장됨. 뷰어 환경에 한글 폰트가 없으면 깨질 수 있음)", file=sys.stderr)
 
 

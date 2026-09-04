@@ -31,22 +31,51 @@ def _get_access_token():
     return resp.json()['access_token']
 
 
-def send_kakao_message(text, link_url=''):
-    """카카오톡 '나에게 보내기'로 텍스트 메시지를 전송한다.
-
-    link_url을 넘기면 메시지의 '자세히 보기' 버튼이 그 URL로 이동한다.
-    """
+def _send_template(template_object):
     access_token = _get_access_token()
-    template_object = {
-        'object_type': 'text',
-        'text': text,
-        'link': {'web_url': link_url, 'mobile_web_url': link_url},
-    }
     resp = requests.post(
         SEND_URL,
         headers={'Authorization': f'Bearer {access_token}'},
         data={'template_object': json.dumps(template_object, ensure_ascii=False)},
     )
     resp.raise_for_status()
-    print("카카오톡 알림 전송 완료!")
     return resp.json()
+
+
+def send_kakao_message(text, link_url=''):
+    """카카오톡 '나에게 보내기'로 텍스트 메시지를 전송한다.
+
+    link_url을 넘기면 메시지의 '자세히 보기' 버튼이 그 URL로 이동한다.
+    """
+    template_object = {
+        'object_type': 'text',
+        'text': text,
+        'link': {'web_url': link_url, 'mobile_web_url': link_url},
+    }
+    result = _send_template(template_object)
+    print("카카오톡 알림 전송 완료!")
+    return result
+
+
+def send_kakao_feed_message(title, description, image_url, link_url=''):
+    """썸네일 이미지가 있는 카드형('feed') 메시지를 전송한다.
+
+    text 템플릿과 달리 본문 길이 제한이 있어 요약용으로만 쓴다 — 전체 상세는
+    이어지는 send_kakao_message(text)로 별도 전송한다.
+    """
+    link = {'web_url': link_url, 'mobile_web_url': link_url}
+    template_object = {
+        'object_type': 'feed',
+        'content': {
+            'title': title[:200],
+            'description': description[:150],
+            'image_url': image_url,
+            'image_width': 1200,
+            'image_height': 630,
+            'link': link,
+        },
+        'buttons': [{'title': '자세히 보기', 'link': link}],
+    }
+    result = _send_template(template_object)
+    print("카카오톡 썸네일 카드 전송 완료!")
+    return result
