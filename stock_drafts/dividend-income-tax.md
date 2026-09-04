@@ -4,8 +4,8 @@ title: 배당소득세 얼마 떼나
 slug: dividend-income-tax
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 확인필요
-gate1_pass: false (자동 조회 대기 — 커밋 후 notify-repo-only.yml이 네이버 키워드도구로 채울 예정. 큐 예비조사 당시 월 3,860회로 기록되어 있었으나 최종 판정은 자동 재조회 결과를 기다림)
+monthly_search_volume: 3760 (PC 1120 / 모바일 2640)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — "배당소득세" 관련 상위 7개 중 공식·언론·백과류 4개(kbthink.com 금융사 콘텐츠, kcmi.re.kr 자본시장연구원, namu.wiki 2건), 개인/서비스형 블로그 3개(taxcalc.co.kr 세금계산기, jiwonfund.kr 개인블로그, hometax-go.kr 개인 사이트·공식 홈택스 도메인 아님). 5개 미만이라 게이트2는 통과. 다만 이 결과는 WebSearch 요약 기반 추정치이며 구글 상위 10개 전체를 직접 스크롤 확인한 것은 아님.
 unique_asset_plan: 배당금 원천징수 계산 예시 + 금융소득종합과세 판단 절차 (세율·기준금액은 1차 출처 캡처 전까지 표에서 비워둠)
 primary_source: 미확보 — easylaw.go.kr(법제처 찾기쉬운 생활법령정보), nts.go.kr(국세청), kofia.or.kr 전부 이번 세션에서 WebFetch가 EGRESS_BLOCKED로 실패. www.google.com 대조군도 동일하게 차단되어 이번 세션은 WebFetch 자체가 전면 차단된 상태로 판단. 상세 기록: sources/dividend-income-tax-access-note.md
