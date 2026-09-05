@@ -62,8 +62,12 @@ def send_kakao_feed_message(title, description, image_url, link_url=''):
 
     text 템플릿과 달리 본문 길이 제한이 있어 요약용으로만 쓴다 — 전체 상세는
     이어지는 send_kakao_message(text)로 별도 전송한다.
+
+    '자세히 보기' 버튼은 일부러 넣지 않는다. 이 앱의 카카오 콘솔에는 초기 OAuth
+    설정 때 쓴 http://localhost:5000만 등록되어 있어서, feed 템플릿의 버튼을
+    누르면 실제 링크 대신 그 주소로 연결돼 "연결할 수 없음"이 뜬다(2026-09-05 실측).
+    링크는 뒤이어 오는 text 메시지 본문의 URL로 전달한다 — 그쪽은 정상 동작한다.
     """
-    link = {'web_url': link_url, 'mobile_web_url': link_url}
     template_object = {
         'object_type': 'feed',
         'content': {
@@ -72,9 +76,8 @@ def send_kakao_feed_message(title, description, image_url, link_url=''):
             'image_url': image_url,
             'image_width': 1200,
             'image_height': 630,
-            'link': link,
+            'link': {'web_url': link_url, 'mobile_web_url': link_url},
         },
-        'buttons': [{'title': '자세히 보기', 'link': link}],
     }
     result = _send_template(template_object)
     print("카카오톡 썸네일 카드 전송 완료!")

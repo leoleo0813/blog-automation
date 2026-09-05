@@ -94,7 +94,9 @@ def _build_draft_message(fields, file_url):
         message += f"\n\n티스토리 태그:\n{fields['tags']}"
 
     message += "\n\n👉 네이버 검색광고 키워드도구로 검색량을 확인한 뒤 발행 여부를 판단하세요."
-    return message + f"\n\n초안 파일(자세히 보기):\n{file_url}"
+    # 앞서 온 썸네일 카드에는 버튼이 없다(카카오 콘솔의 localhost 리다이렉트 문제).
+    # 초안 전문으로 가는 통로는 아래 이 링크 하나뿐이므로 눈에 띄게 남긴다.
+    return message + f"\n\n📄 초안 전문 보기 (아래 주소를 누르세요):\n{file_url}"
 
 
 def _thumbnail_url(fields):
