@@ -4,7 +4,7 @@ title: 배당소득세 얼마 떼나
 slug: dividend-income-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 3760 (PC 1120 / 모바일 2640)
+monthly_search_volume: 3710 (PC 1110 / 모바일 2600)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — "배당소득세" 관련 상위 7개 중 공식·언론·백과류 4개(kbthink.com 금융사 콘텐츠, kcmi.re.kr 자본시장연구원, namu.wiki 2건), 개인/서비스형 블로그 3개. 5개 미만이라 게이트2는 통과.
 unique_asset: 배당금 원천징수 실제 계산 예시(3개 구간) + 금융소득종합과세 판단 절차 + 2026년 배당소득 분리과세 특례(조특법 개정, 한시 3년) 신설 사실을 정리해, 이 세율 개편이 "모든 배당"이 아니라 고배당 상장기업 배당에 한정된 선택적 제도임을 명확히 구분.
