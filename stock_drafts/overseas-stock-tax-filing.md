@@ -4,8 +4,8 @@ title: 해외주식 양도소득세 신고 방법
 slug: overseas-stock-tax-filing
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 8750 (PC 1640 / 모바일 7110)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요 — 이미 확인된 값)
+monthly_search_volume: 7840 (PC 1420 / 모바일 6420)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-05) — "해외주식 양도소득세" / "해외주식 양도소득세 신고 방법" 두 쿼리 상위 결과를 합쳐 보면 유안타증권(myasset.com), 신한투자증권(shinhansec.com), 한국투자증권(securities.koreainvestment.com 공지 및 file.koreainvestment.com PDF), 하나증권(hanaw.com), 토스뱅크(tossbank.com), KB(kbthink.com/kbcapital.co.kr) 등 증권사·은행 공식 안내 페이지가 최소 6~7개 확인됨. RULES.md 게이트2 기준("공식·언론·백과 5개 이상이면 재선정")을 넘어서는 것으로 판단 — 이 키워드는 경쟁 강도 기준에서 미달일 가능성이 높다. 다만 실제 구글 상위 10개를 직접 스크롤 확인한 것은 아니고 WebSearch 요약 기반 추정치이므로, 사람이 구글 검색으로 재확인 후 최종 판정 필요.
 unique_asset_plan: 홈택스 신고 화면(로그인 후 세금신고>양도소득세신고>확정신고) 캡처 + 250만원 공제 적용 전후 계산 비교. 세율·공제액·신고기한 수치와 화면 캡처 모두 사람 확인 필요
 primary_source: 미확보 — hometax.go.kr, nts.go.kr, easylaw.go.kr 전부 이번 세션에서 WebFetch가 EGRESS_BLOCKED로 실패. www.google.com 대조군도 동일하게 차단되어 이번 세션은 WebFetch 자체가 전면 차단된 상태로 판단(dividend-income-tax, isa-limit-benefit 초안과 동일 증상, 세 번째 재현). 게다가 hometax.go.kr은 로그인·공동인증 기반이라 접근이 가능해지더라도 실제 신고 화면은 사람이 직접 로그인해야만 캡처 가능. 상세 기록: sources/overseas-stock-tax-filing-access-note.md
