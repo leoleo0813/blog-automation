@@ -118,8 +118,15 @@
       "gate1_pass": true,
       "unique_asset_plan": "홈택스 신고 화면 순서 + 250만원 공제 적용 전후 계산 비교",
       "primary_source_plan": "국세청 홈택스",
-      "access_note": "홈택스는 로그인·공동인증 기반 서비스라 화면 순서 자체가 자동화로 캡처 불가능할 가능성이 높음 — 착수 시 재검토, 필요하면 human-assisted/capture로 재분류.",
-      "status": "pending",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "access_note": "2026-09-05 이번 실행에서 hometax.go.kr/nts.go.kr/easylaw.go.kr WebFetch 전부 EGRESS_BLOCKED, 대조군 google.com도 동일하게 차단되어 세션 전면 차단으로 판단(dividend-income-tax·isa-limit-benefit과 동일 증상, 세 번째 재현). 또한 hometax.go.kr은 로그인·공동인증 기반이라 접근이 열려도 실제 신고 화면은 사람이 직접 로그인해야 캡처 가능 — keyword_class/publish_effort를 human-assisted/capture로 재분류. 상세: sources/overseas-stock-tax-filing-access-note.md",
+      "serp_check": "WebSearch 확인(2026-09-05): '해외주식 양도소득세' / '해외주식 양도소득세 신고 방법' 상위 결과에 유안타·신한투자·한국투자·하나증권·토스뱅크·KB 등 증권사·은행 공식 자료가 6~7개 확인됨 — RULES.md 게이트2 기준(5개 이상 시 재선정)을 넘어설 가능성 높음. 사람이 구글 상위 10개를 직접 재확인 필요.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/overseas-stock-tax-filing.md",
+      "gate3_note": "미해결 — 세율·공제액·신고기한을 1차 출처로 확인하지 못해 표 값이 비어 있고, 홈택스 신고 화면도 로그인이 필요해 자동화로는 캡처 불가.",
+      "gate_pass": false,
+      "gate_pass_note": "게이트1만 통과(검색량 8,750). 게이트2는 공식 자료 다수로 재선정 우려, 게이트3(계산예시·화면 캡처 대기)·게이트4(1차출처 미확보) 미충족. 사람이 (1) 구글 상위 10개로 게이트2 재확인, (2) 국세청/법제처 원문에서 세율·공제액·신고기한 확인, (3) 홈택스 로그인 후 신고 화면 캡처를 진행해야 발행 검토 가능.",
       "season_note": "5월이 연중 최대 시즌. 색인을 쌓아두려면 3월 이전 발행이 유리."
     }
   ],
