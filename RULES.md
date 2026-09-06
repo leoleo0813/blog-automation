@@ -92,8 +92,8 @@
 - 주식: 종목추천·목표가·매도시점. 건강: 진단·치료법·효능단정.
 
 ## 1차 출처 접근 (실측, 반복 시도로 시간 끌지 말 것)
-- 열림: kofia.or.kr(단, dis.kofia는 JS 앱이라 렌더링해도 수치 없음 → human-assisted 캡처로 처리)
-- 열림: nts.go.kr(국세청), easylaw.go.kr(법제처 찾기쉬운 생활법령정보) — 2026-09-04 실측 확인. easylaw.go.kr은 특히 세율·공제액이 조문 인용과 함께 정리되어 있고 "이 정보는 YYYY년 M월 D일 기준" 표기가 있어 출처 신선도 확인에 좋다. 세금·제도 주제는 이쪽을 우선 시도.
+- 열림(불안정): kofia.or.kr(단, dis.kofia는 JS 앱이라 렌더링해도 수치 없음 → human-assisted 캡처로 처리)
+- 열림(불안정): nts.go.kr(국세청), easylaw.go.kr(법제처 찾기쉬운 생활법령정보) — 2026-09-04 최초 실측 확인 당시엔 열렸으나, 같은 날 이후 세션(isa-limit-benefit, dividend-income-tax)부터 2026-09-05(overseas-stock-tax-filing), 2026-09-06(financial-income-comprehensive-tax)까지 **4회 연속으로 같은 자동화 세션에서 WebFetch가 EGRESS_BLOCKED**(구글 등 무관한 도메인까지 함께 차단 — 세션별 프록시 허용 목록 차이로 추정). **따라서 자동화 세션에서는 이 두 도메인도 "열림"을 신뢰하지 말고, 1회 시도해서 막히면 바로 human-assisted/capture로 재분류한다** (kofia.or.kr·google.com 등 무관 도메인 대조군으로 1회만 더 확인해 세션 전면 차단인지 구분해도 되지만, 그 이상 반복 시도는 하지 않는다). easylaw.go.kr은 사람이 직접 열면 세율·공제액이 조문 인용과 "이 정보는 YYYY년 M월 D일 기준" 표기와 함께 정리되어 있어 여전히 capture_guide의 1순위 후보로는 유효하다.
 - 막힘(connect timeout): moef.go.kr, korea.kr — 재시도해도 안 열림, 1회 시도 후 바로 사람에게 원문 요청
 - 막힘(iframe): law.go.kr(국가법령정보센터, easylaw.go.kr과는 다른 사이트) — 렌더링해도 본문 없음, 시도하지 말 것
 - 미확인: hometax.go.kr(홈택스) — 로그인·공동인증 기반이라 화면 캡처 자체가 불가능할 가능성이 높음. 필요하면 human-assisted로 분류.

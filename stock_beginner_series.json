@@ -141,18 +141,22 @@
     {
       "id": 6,
       "order": 6,
-      "title": "금융소득 종합과세 2천만원 기준, 나도 해당되나",
+      "title": "금융소득종합과세 2천만원 기준 확인법",
       "slug": "financial-income-comprehensive-tax",
       "keyword": "금융소득 종합과세",
       "type": "세금",
-      "keyword_class": "자동화 가능",
-      "publish_effort": "oneclick",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
       "monthly_search_volume": "13210",
       "gate1_pass": true,
       "unique_asset_plan": "이자+배당 합산해 2천만원 초과 여부를 직접 세어보는 판단 절차 + 초과분에만 누진세율이 붙는다는 오해 해소(전액이 아니라 초과분 기준) + 실제 구간별 계산 예시",
       "primary_source_plan": "국세청(nts.go.kr) 금융소득종합과세 안내 / 이미 확보한 sources/nts-overseas-stock-tax-2024.md의 2천만원 기준",
       "cannibalization_note": "4편(배당소득세)은 '원천징수 15.4%가 얼마인가'가 중심. 이 글은 '합산해서 2천만원을 넘으면 어떻게 되나'는 종합과세 판단이 중심이라 검색 의도가 다르다. 본문에서 4편으로 내부 링크를 건다.",
-      "status": "pending"
+      "status": "drafted",
+      "serp_check": "WebSearch 확인(2026-09-06) — 상위 8개 중 공식·언론·백과 5개(standardchartered.co.kr, call.nts.go.kr, pwc.com, namu.wiki, skhybank.com). RULES.md 게이트2 기준(5개 이상=탈락) 초과 — 키워드 재선정 검토 필요.",
+      "access_note": "nts.go.kr/easylaw.go.kr/google.com/kofia.or.kr 전부 이번 세션 WebFetch가 EGRESS_BLOCKED(세션 전면 차단, 4회 연속 재현). sources/financial-income-comprehensive-tax-access-note.md 참고. RULES.md 1차 출처 접근 표 갱신함.",
+      "gate_pass": false,
+      "draft_file": "stock_drafts/financial-income-comprehensive-tax.md"
     },
     {
       "id": 7,
