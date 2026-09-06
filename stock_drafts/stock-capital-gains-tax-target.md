@@ -4,8 +4,8 @@ title: 주식 양도소득세 대주주 요건 2026
 slug: stock-capital-gains-tax-target
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: 확인필요 (네이버 검색광고 키워드도구 자동 조회 대기 — notify-repo-only.yml이 채움)
+monthly_search_volume: 4240 (PC 940 / 모바일 3300)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-06) — 핵심 키워드 "주식 양도소득세" 상위 6개 중 공식·금융사·준공식 5개(nts.go.kr 국세청, kbthink.com KB국민은행, kbcapital.co.kr KB캐피탈, toss.im 토스, kcie.or.kr 한국경제교육원)가 확인됨. RULES.md 게이트2 기준(5개 이상=탈락) 충족 — 게이트2 탈락 확정. 재선정 검토 대상 키워드로 기록.
 unique_asset: 시장별(코스피/코스닥/코넥스/비상장) 대주주 판정 기준(지분율·시가총액) 실측표 + 2016~2024년 기준 변화 이력표(종목당 10억원→50억원 상향 등) + 판정 시점(직전 사업연도 종료일) 설명. 국세청 원문에서 그대로 가져온 표라 경쟁 콘텐츠 대비 구체성이 높음.
 primary_source: 국세청 "주식등 양도소득세 - 세액계산요령" 페이지(sources/stock-sell-tax-nts.md, 2026-09-04 수집, https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&mi=12274) + 법제처 찾기쉬운 생활법령정보(sources/stock-sell-tax-law.md, 2026-08-15 기준) — id=2(주식 매도 세금 얼마) 초안에서 이미 사용한 것과 같은 1차 출처를 재사용
