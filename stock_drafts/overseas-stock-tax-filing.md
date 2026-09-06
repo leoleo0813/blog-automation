@@ -4,8 +4,8 @@ title: 해외주식 양도소득세 신고 방법
 slug: overseas-stock-tax-filing
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 7840 (PC 1420 / 모바일 6420)
-gate1_pass: true
+monthly_search_volume: 7530 (PC 1340 / 모바일 6190)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: 게이트2 탈락 확정(2026-09-05, 사람 확인) — WebSearch로 재검증 결과 상위 결과 절반 이상이 증권사·은행 공식 콘텐츠. RULES.md 게이트2 기준(공식·언론·백과 5개 이상=탈락) 초과.
 unique_asset: 국세청 공식 책자 「2024년 해외주식과 세금」 기반 세율·공제 실제 계산 예시(3구간) + 신고 절차
 primary_source: 국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」(2024-05 발간, sources/nts-overseas-stock-tax-2024.md) + 소득세법 제94조·제118조의2~8
