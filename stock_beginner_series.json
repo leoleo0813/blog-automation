@@ -147,7 +147,7 @@
       "type": "세금",
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
-      "monthly_search_volume": "13210",
+      "monthly_search_volume": "12270 (PC 2590 / 모바일 9680)",
       "gate1_pass": true,
       "unique_asset_plan": "이자+배당 합산해 2천만원 초과 여부를 직접 세어보는 판단 절차 + 초과분에만 누진세율이 붙는다는 오해 해소(전액이 아니라 초과분 기준) + 실제 구간별 계산 예시",
       "primary_source_plan": "국세청(nts.go.kr) 금융소득종합과세 안내 / 이미 확보한 sources/nts-overseas-stock-tax-2024.md의 2천만원 기준",

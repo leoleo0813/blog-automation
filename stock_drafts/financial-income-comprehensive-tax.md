@@ -4,8 +4,8 @@ title: 금융소득종합과세 2천만원 기준 확인법
 slug: financial-income-comprehensive-tax
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 12270 (PC 2590 / 모바일 9680)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: WebSearch 확인(2026-09-06) — "금융소득종합과세 2천만원 기준" 상위 8개 중 공식·언론·백과 5개(standardchartered.co.kr, call.nts.go.kr 국세청 상담센터, pwc.com 삼일회계법인, namu.wiki, skhybank.com 새마을금고), 개인/서비스형 1개(help.3o3.co.kr). RULES.md 게이트2 기준(5개 이상=탈락) 초과 — 키워드 재선정 검토 필요.
 unique_asset: 이자+배당 합산 판단 절차(4단계) + "전액이 아니라 초과분에만 누진세율" 오해 해소 + 비교과세(최소세부담 보장 장치) 존재 설명. 핵심 계산 예시(종합소득세 세율표·정확한 산출 공식)는 1차 출처 캡처 전까지 표를 비워둠.
 primary_source: 미확보 — nts.go.kr, easylaw.go.kr, google.com, kofia.or.kr 전부 이번 세션 WebFetch가 EGRESS_BLOCKED로 실패(도메인별이 아니라 세션 전면 차단으로 추정, 4회 연속 세션 재현). 이미 저장소에 확보된 sources/nts-overseas-stock-tax-2024.md(2024-05 발간, 2천만원 기준)와 기발행 dividend-income-tax.md가 인용한 easylaw.go.kr(2026-08-15 기준, 15.4% 원천징수·2천만원 기준)만 재사용. 비교과세 계산식과 현재 종합소득세 세율표는 미확인. 상세 기록: sources/financial-income-comprehensive-tax-access-note.md
