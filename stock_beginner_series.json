@@ -161,18 +161,22 @@
     {
       "id": 7,
       "order": 7,
-      "title": "주식 양도소득세, 일반 개인도 내야 하나 (대주주 요건)",
+      "title": "주식 양도소득세 대주주 요건 2026",
       "slug": "stock-capital-gains-tax-target",
       "keyword": "주식 양도소득세",
       "type": "세금",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "5560",
-      "gate1_pass": true,
+      "monthly_search_volume": "확인필요",
+      "gate1_pass": "확인필요 (notify-repo-only.yml 자동 조회 대기)",
       "unique_asset_plan": "'국내 상장주식 소액주주는 애초에 과세 대상이 아니다'를 먼저 못박고, 대주주 요건(지분율·보유액) 판정 기준과 예외(비상장·장외거래)를 표로 정리",
       "primary_source_plan": "국세청(nts.go.kr) 양도소득세 안내 / 이미 확보한 sources/nts-overseas-stock-tax-2024.md",
+      "serp_check": "게이트2 탈락(2026-09-06, WebSearch) — 핵심 키워드 '주식 양도소득세' 상위 6개 중 공식·금융사·준공식 5개(국세청, KB국민은행, KB캐피탈, 토스, 한국경제교육원) 확인, RULES.md 기준(5개 이상=탈락) 충족. 재선정 검토 대상.",
       "cannibalization_note": "5편(해외주식 양도세)은 해외주식 신고 방법이 중심. 이 글은 국내주식 과세 대상 여부 판정이 중심이라 대상이 다르다. 2편(주식 매도 세금)과도 각도가 달라 서로 내부 링크로 연결한다.",
-      "status": "pending"
+      "status": "drafted",
+      "draft_path": "stock_drafts/stock-capital-gains-tax-target.md",
+      "gate_pass": false,
+      "gate_pass_note": "게이트1 미확인(확인필요) / 게이트2 탈락 확정(공식·금융사 5/6) / 게이트3 충족(국세청 원문의 시장별·연도별 대주주 판정표 반영, 캡처 불필요) / 게이트4 충족(id=2와 동일한 국세청·법제처 1차 출처 재사용, 3주 이내 신선). 게이트3·4는 충족했지만 게이트2 탈락이 확정적이라 사람이 키워드 재선정 여부를 먼저 판단해야 발행 가능."
     },
     {
       "id": 8,
