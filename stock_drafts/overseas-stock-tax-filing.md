@@ -5,162 +5,119 @@ slug: overseas-stock-tax-filing
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 7840 (PC 1420 / 모바일 6420)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
-serp_check: WebSearch 확인(2026-09-05) — "해외주식 양도소득세" / "해외주식 양도소득세 신고 방법" 두 쿼리 상위 결과를 합쳐 보면 유안타증권(myasset.com), 신한투자증권(shinhansec.com), 한국투자증권(securities.koreainvestment.com 공지 및 file.koreainvestment.com PDF), 하나증권(hanaw.com), 토스뱅크(tossbank.com), KB(kbthink.com/kbcapital.co.kr) 등 증권사·은행 공식 안내 페이지가 최소 6~7개 확인됨. RULES.md 게이트2 기준("공식·언론·백과 5개 이상이면 재선정")을 넘어서는 것으로 판단 — 이 키워드는 경쟁 강도 기준에서 미달일 가능성이 높다. 다만 실제 구글 상위 10개를 직접 스크롤 확인한 것은 아니고 WebSearch 요약 기반 추정치이므로, 사람이 구글 검색으로 재확인 후 최종 판정 필요.
-unique_asset_plan: 홈택스 신고 화면(로그인 후 세금신고>양도소득세신고>확정신고) 캡처 + 250만원 공제 적용 전후 계산 비교. 세율·공제액·신고기한 수치와 화면 캡처 모두 사람 확인 필요
-primary_source: 미확보 — hometax.go.kr, nts.go.kr, easylaw.go.kr 전부 이번 세션에서 WebFetch가 EGRESS_BLOCKED로 실패. www.google.com 대조군도 동일하게 차단되어 이번 세션은 WebFetch 자체가 전면 차단된 상태로 판단(dividend-income-tax, isa-limit-benefit 초안과 동일 증상, 세 번째 재현). 게다가 hometax.go.kr은 로그인·공동인증 기반이라 접근이 가능해지더라도 실제 신고 화면은 사람이 직접 로그인해야만 캡처 가능. 상세 기록: sources/overseas-stock-tax-filing-access-note.md
-기준일: 미확정 — 캡처 시 원문에 명시된 기준일을 그대로 기입할 것
-tags: 해외주식양도소득세, 해외주식세금, 양도소득세신고, 홈택스신고방법, 해외주식세율, 250만원공제, 서학개미세금, 해외주식확정신고, 양도소득세계산
+gate1_pass: true
+serp_check: 게이트2 탈락 확정(2026-09-05, 사람 확인) — WebSearch로 재검증 결과 상위 결과 절반 이상이 증권사·은행 공식 콘텐츠. RULES.md 게이트2 기준(공식·언론·백과 5개 이상=탈락) 초과.
+unique_asset: 국세청 공식 책자 「2024년 해외주식과 세금」 기반 세율·공제 실제 계산 예시(3구간) + 신고 절차
+primary_source: 국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」(2024-05 발간, sources/nts-overseas-stock-tax-2024.md) + 소득세법 제94조·제118조의2~8
+기준일: 2024년 5월 발간(3년 이내로 신선) 기준 세율·절차. 이후 개정 여부는 미확인 — 독자에게 최신 확인 권고 문구 포함
+tags: 해외주식양도소득세, 해외주식세금, 양도소득세신고, 홈택스신고방법, 해외주식세율, 250만원공제, 서학개미세금, 해외주식확정신고
 gate_pass: false
-capture_guide: |
-  왜 필요한가: 해외주식 양도소득세 세율(20%+지방소득세 2%)과 기본공제 250만원, 확정신고 기간(다음해
-  5월)은 다수 증권사·은행 안내 페이지에서 공통적으로 언급되지만, RULES.md 게이트4(1차 출처만 인정)를
-  이번 세션에서 원문으로 확인하지 못했습니다. 또한 홈택스 신고 화면 자체는 로그인이 필요해 이 자동화
-  세션은 애초에 캡처할 수 없습니다. 아래 두 가지를 캡처해서 보내주시면 표와 절차 설명을 채우고
-  게이트를 다시 판정하겠습니다.
-
-  (1) 세율·공제액 원문 확인
-  1순위 — 국세청: https://www.nts.go.kr 접속 → 검색창에 "해외주식 양도소득세" 또는 "국외주식 양도소득세"
-  입력 → 세율(국세+지방소득세), 기본공제 250만원 여부, 신고기한이 함께 보이는 안내 페이지 캡처.
-  2순위 — 법제처 찾기쉬운 생활법령정보: https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1701&ccfNo=2&cciNo=3&cnpClsNo=1
-  ("주식투자자 > 주식의 거래 > 주식거래에 따른 세금 납부하기") 접속 → 국외 상장주식 양도소득세 항목에서
-  세율·공제액과 "이 정보는 OOOO년 O월 O일 기준" 문구가 함께 보이도록 캡처.
-
-  (2) 홈택스 신고 화면
-  https://www.hometax.go.kr 로그인 후 "세금신고 > 양도소득세 신고 > 확정신고" 메뉴로 들어가
-  국외주식 양도소득 신고 입력 화면(양도가액·취득가액·필요경비·기본공제 입력란이 보이는 단계)을
-  개인정보(주민번호·계좌번호 등)는 가리고 캡처.
-
-  캡처했으면: 스크린샷을 이 대화에 그대로 올려주세요. 그걸로 표와 절차 설명을 채우고 재판정하겠습니다.
-  추가로, serp_check에서 확인된 경쟁 강도(증권사·은행 공식 자료 다수)가 실제로 게이트2 기준을
-  초과하는지도 구글 검색으로 직접 재확인해 주세요 — 초과라면 이 키워드는 캡처와 별개로 재선정 대상입니다.
+human_override: true
+human_override_note: |
+  2026-09-06 — 사용자가 게이트2(경쟁) 탈락 사실을 인지한 상태에서 기존 원고를 그대로 발행하기로
+  직접 결정. RULES.md는 "사람이 false를 수동으로 넘겨 발행하지 않는다"를 원칙으로 두고 있으나,
+  최종 발행 여부는 콘텐츠 소유자의 결정 사항이므로 이 선택 자체를 막지 않는다. 다만 gate_pass는
+  실제 판정(false)을 그대로 유지해 기록의 정직성을 지킨다 — 강제로 true로 바꾸지 않음.
+  발행 시 참고: 이 키워드는 이미 신한투자·한국투자·하나증권·토스뱅크·유안타증권 등 대형 금융사
+  공식 콘텐츠가 상위권을 차지하고 있어 검색 노출·순위 경쟁이 불리할 수 있다는 점을 인지하고 진행.
 self_check: |
-  게이트1 통과 — monthly_search_volume 8,750회(이전 실행에서 이미 확인됨), 일반 주제 기준 월 500 이상 충족.
-  게이트2 미확정/우려 — WebSearch 상위 결과에 증권사·은행 공식 안내가 6~7개로 다수 확인되어 RULES.md
-  기준(5개 이상 시 재선정)을 넘어설 가능성이 높음. 구글 상위 10개 직접 확인 전이라 단정하지 않고
-  "미확정/우려"로 표기했으나, 사람이 재확인 결과 실제로 5개 이상이면 이 키워드는 캡처 여부와 무관하게
-  재선정 대상이 된다는 점을 capture_guide에 함께 남김.
-  게이트3 미충족 — 계산 예시가 정보 이득의 핵심인데 정확한 세율·공제액을 1차 출처로 확인하지 못해
-  표 값이 비어 있고, 홈택스 신고 화면 캡처도 로그인이 필요해 자동화로는 확보 불가.
-  게이트4 미충족 — hometax.go.kr / nts.go.kr / easylaw.go.kr 전부 WebFetch EGRESS_BLOCKED. 대조군인
-  www.google.com도 동일하게 차단되어 이번 세션의 WebFetch 자체가 전면 차단된 것으로 판단
-  (dividend-income-tax·isa-limit-benefit 초안과 동일 증상, 세 번째 재현).
-  출처 신선도: 원문을 못 열어 확인 불가 — 캡처 시 반드시 페이지의 기준일/시행일을 함께 확인해야 함.
-  제목 "해외주식 양도소득세 신고 방법" 15자, 30자 이내, 금지어 없음, 조사·접속사 없음. "절차형"
-  패턴({대상} 신고 방법)에 부합.
-  슬러그 overseas-stock-tax-filing 영문 소문자+하이픈 3단어.
-  FAQ 6개와 JSON-LD 1:1 일치. @id를 티스토리 entry 패턴으로 지정.
-  이미지 없음 — human-assisted/capture 유형이라 홈택스 신고 화면 캡처 이미지를 사람이 함께 준비하는 것을
-  권장(개인정보 가리고, og:image 겸용).
-  캡처 필요 항목: (1) 해외주식 양도소득세 세율(국세+지방소득세), (2) 기본공제 250만원 여부와 적용 방식,
-  (3) 확정신고 기간, (4) 캡처한 공식 페이지의 URL과 기준일, (5) 홈택스 신고 입력 화면 캡처(개인정보 가림).
+  게이트1 통과(7,840회). 게이트2 탈락(사람 확인, 위 human_override_note 참고).
+  게이트3 충족 — 국세청 공식 책자 기반 3구간(200만/1,000만/5,000만원) 실제 세액 계산 반영.
+  게이트4 충족 — 국세청 공식 책자 원문(2024-05 발간, sources/nts-overseas-stock-tax-2024.md) 확인.
+  제목 15자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈. FAQ 6개와 JSON-LD 1:1 일치.
+  @id를 티스토리 entry 패턴으로 지정.
 ---
 
-<p>해외주식을 팔아 이익이 났다면 <b>연 250만 원이 넘는 부분에 양도소득세를 직접 신고·납부</b>해야 합니다. 이 글은 신고 대상과 절차, 그리고 정확한 세율·공제액을 확인하는 방법을 정리했습니다.</p>
+<p>해외주식을 팔아 <mark>연 250만원이 넘는 이익</mark>이 났다면 양도소득세를 직접 신고·납부해야 합니다. 세율은 20%(중소기업 상장주식은 10%)에 지방소득세를 더해 실질 22%(또는 11%)이며, 다음 해 5월에 확정신고합니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>해외주식은 대주주 여부와 상관없이 <mark>연간 순이익이 기본공제를 넘으면</mark> 양도소득세 신고 대상입니다.</li>
-    <li>정확한 세율과 기본공제 금액은 자료마다 표현이 조금씩 달라 <b>공식 출처로 직접 확인</b>하는 것이 안전합니다.</li>
-    <li>신고는 홈택스에서 투자자 본인이 직접 해야 하며, 증권사가 자동으로 대신 신고해주지 않습니다.</li>
-    <li>신고 화면은 로그인이 필요해 이 글만으로는 화면 순서를 끝까지 보여줄 수 없어, 실제 화면 캡처를 함께 확인하는 것을 권장합니다.</li>
+    <li>해외주식은 대주주 여부와 상관없이 <mark>연간 순이익이 250만원을 넘으면</mark> 양도소득세 신고 대상입니다.</li>
+    <li>세율은 <b>20%(해외상장 중소기업 주식은 10%)</b>에 지방소득세를 더해 실질 22%(또는 11%)입니다.</li>
+    <li>예정신고 없이 <b>다음 해 5월 한 달간 확정신고</b>만 하면 됩니다.</li>
+    <li>신고는 증권사가 대신 해주지 않고 투자자 본인이 <b>홈택스</b>에서 직접 해야 합니다.</li>
   </ul>
 </div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
   <li>해외주식 양도소득세는 누가 내야 하나요</li>
-  <li>해외주식 양도소득세 세율은 왜 원문으로 다시 확인해야 하나요</li>
-  <li>해외주식 양도소득세는 언제까지 신고하나요</li>
-  <li>해외주식 양도소득세는 어떤 순서로 신고하나요</li>
-  <li>해외주식 양도소득세 계산 예시 (확인 중)</li>
-  <li>해외주식 양도소득세 관련 수치는 어디서 확인하나요</li>
+  <li>세율과 공제는 얼마인가요</li>
+  <li>실제로 세금이 얼마나 나오나요</li>
+  <li>언제까지, 어떻게 신고하나요</li>
 </ol>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세는 누가 내야 하나요</h2>
 
-<p>국내 상장주식은 <b>대주주가 아니면</b> 양도소득세를 내지 않는 경우가 많습니다. 반면 해외주식은 <mark>보유 지분이나 금액과 상관없이 일반 투자자도 신고 대상</mark>이 될 수 있다는 점이 가장 큰 차이입니다.</p>
+<p>국내 상장주식은 대주주가 아니면 양도소득세를 내지 않는 경우가 많습니다. 반면 해외주식은 <mark>보유 지분이나 금액과 상관없이 일반 투자자도 신고 대상</mark>이 됩니다.</p>
 
-<p>연간 해외주식 양도차익 합계가 기본공제 금액을 넘으면, 그 초과분에 대해 투자자 본인이 직접 세금을 계산해 신고·납부해야 합니다.</p>
+<p>연간 해외주식 양도차익 합계가 기본공제 250만원을 넘으면, 그 초과분에 대해 투자자 본인이 직접 세금을 계산해 신고·납부해야 합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세 세율은 왜 원문으로 다시 확인해야 하나요</h2>
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율과 공제는 얼마인가요</h2>
 
-<p>해외주식 양도소득세의 세율과 기본공제 금액은 여러 증권사·은행 안내 페이지에서 비슷한 숫자로 소개되고 있습니다. 하지만 <mark>정확한 세율·공제액·신고기한은 소득세법에 근거한 수치</mark>이므로, 이 글은 국세청·법제처 같은 1차 출처 원문을 직접 확인하기 전까지 확정 수치를 싣지 않았습니다.</p>
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">구분</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">세율</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">일반 해외상장주식</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>20%</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">해외상장 중소기업 주식</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">10%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">양도소득 기본공제(연간)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">250만원</td></tr>
+  </tbody>
+</table>
 
-<div style="background:#fff8e6;border-left:4px solid #e0a800;padding:14px 18px;margin:20px 0;">
-  <b>확인이 필요한 이유</b>
-  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>세율과 공제액은 세법 개정에 따라 바뀔 수 있는 수치입니다.</li>
-    <li>증권사·은행 콘텐츠마다 작성 시점이 달라 최신 여부를 장담하기 어렵습니다.</li>
-    <li>1차 출처(국세청·법제처) 원문을 직접 확인해야 기준일까지 함께 알 수 있습니다.</li>
-  </ul>
-</div>
+<p style="font-size:13px;color:#888;">출처: 국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」. 기본공제 250만원은 국내·해외주식을 통산해 연 1회만 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세는 언제까지 신고하나요</h2>
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 세금이 얼마나 나오나요</h2>
 
-<p>해외주식 양도소득세는 예정신고 없이, 거래한 해의 <b>다음 해 5월 한 달간 확정신고</b>로 처리하는 방식이 일반적으로 안내됩니다. 다만 정확한 신고 시작일과 마감일은 1차 출처 확인 후 이 글에 확정 수치로 반영합니다.</p>
-
-<p style="font-size:13px;color:#888;">정확한 신고 기간과 세율(%)은 1차 출처 캡처 전까지 이 글에서 확정하지 않습니다. 캡처가 반영되면 아래 표와 계산 예시가 채워집니다.</p>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세는 어떤 순서로 신고하나요</h2>
-
-<p>일반적으로 안내되는 신고 절차의 큰 흐름은 다음과 같습니다. 다만 실제 화면 구성과 메뉴 명칭은 홈택스 로그인 후 확인해야 하며, 이 글은 로그인이 필요한 화면까지 자동으로 확인할 수 없습니다.</p>
-
-<ol style="line-height:1.9;">
-  <li>거래한 증권사에서 <b>연간 해외주식 거래내역(양도소득세 산출 보조자료)</b>을 발급받습니다.</li>
-  <li>홈택스에 로그인해 <b>양도소득세 신고 메뉴</b>로 들어갑니다.</li>
-  <li>양도가액·취득가액·필요경비 등을 입력하고 <b>기본공제</b>를 적용합니다.</li>
-  <li>계산된 세액을 확인하고 <b>신고서를 제출</b>한 뒤 납부합니다.</li>
-</ol>
-
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>실제 화면을 캡처할 때 함께 확인할 것</b>
-  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>거래내역을 <b>합계로 직접 입력</b>하는 방식과 <b>파일로 업로드</b>하는 방식 중 어떤 것을 안내하는지</li>
-    <li>기본공제 금액이 입력란에 자동으로 반영되는지, 직접 입력해야 하는지</li>
-    <li>국세와 별도로 지방소득세를 다른 곳에서 신고해야 하는지 여부</li>
-  </ul>
-</div>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세 계산 예시 (확인 중)</h2>
-
-<p>아래 표는 양도차익별 세금 계산 구조를 정리하는 틀입니다. 공식 출처로 세율과 공제액이 확인되는 대로 실제 수치를 채울 예정입니다.</p>
+<p>양도차익에서 기본공제 250만원을 뺀 금액(과세표준)에 세율을 곱하면 납부세액이 나옵니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
     <tr style="background:#eef6ff;">
       <th style="border:1px solid #ccd;padding:10px;text-align:left;">연간 양도차익</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">기본공제 적용 후</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">적용 세율</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">납부 세액</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">과세표준(-250만원)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">납부세액(20%)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">200만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">1,000만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">5,000만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">200만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">750만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">165만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">5,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,750만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,045만원</td></tr>
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;">위 표는 1차 출처(국세청·법제처) 원문과 홈택스 신고 화면을 캡처해 채운 뒤에만 발행합니다. 캡처 전에는 발행하지 않습니다.</p>
+<p>양도차익이 200만원처럼 기본공제(250만원) 이하이면 <b>납부할 세금이 없습니다.</b> 다만 향후 손익통산을 위해 신고 자체는 해두는 것이 유리할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세 관련 수치는 어디서 확인하나요</h2>
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">언제까지, 어떻게 신고하나요</h2>
 
-<p>정확한 세율·공제액·신고기한은 아래 공식 경로에서 직접 확인하는 것이 가장 안전합니다.</p>
+<p>해외주식 양도소득세는 <b>예정신고 없이, 거래한 해의 다음 해 5월 1일부터 31일까지 확정신고</b>만 하면 됩니다.</p>
 
-<ul style="line-height:1.9;">
-  <li><b>국세청</b> 홈페이지에서 "해외주식 양도소득세" 또는 "국외주식 양도소득세" 안내를 확인합니다.</li>
-  <li><b>법제처 찾기쉬운 생활법령정보</b>에서 "주식거래에 따른 세금 납부하기" 항목을 확인합니다.</li>
-  <li>실제 신고는 <b>홈택스</b>에 로그인해 양도소득세 신고 메뉴에서 화면 안내를 그대로 따릅니다.</li>
-</ul>
+<ol style="line-height:1.9;">
+  <li>거래한 증권사에서 <b>양도소득금액 계산보조자료</b>를 발급받습니다.</li>
+  <li>홈택스(hometax.go.kr)에 로그인해 <b>양도소득세 신고</b> 메뉴로 들어갑니다.</li>
+  <li>증권사 자료를 첨부하면 별도 계산명세서 작성을 생략할 수 있습니다.</li>
+  <li>계산된 세액을 확인하고 신고서를 제출한 뒤 납부합니다.</li>
+</ol>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
+  <b>참고</b>
+  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
+    <li>같은 해 국내주식(대주주·비상장 양도분)과 해외주식은 손익통산이 가능합니다(2020년 이후 양도분부터).</li>
+    <li>동일 종목을 여러 번 사고팔았다면 선입선출법(또는 증권사가 적용해온 이동평균법)으로 양도차익을 계산합니다.</li>
+  </ul>
+</div>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:28px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">정리</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>해외주식은 대주주 여부와 상관없이 이익이 기본공제를 넘으면 신고 대상입니다.</li>
-    <li>신고는 증권사가 대신 해주지 않고 투자자 본인이 홈택스에서 직접 해야 합니다.</li>
-    <li>정확한 세율·공제액·신고기한과 실제 화면 순서는 국세청·법제처 공식 자료와 홈택스 화면으로 확인해야 합니다.</li>
+    <li>해외주식은 연 250만원 넘는 이익에 20%(중소기업 10%) 세율로 양도소득세가 붙습니다.</li>
+    <li>예정신고 없이 다음 해 5월 한 달간 확정신고만 하면 됩니다.</li>
+    <li>증권사 계산보조자료를 활용하면 홈택스 신고가 한결 간단해집니다.</li>
   </ul>
 </div>
 
@@ -168,46 +125,46 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세는 누가 내야 하나요</summary>
-  <p style="margin:10px 0 0 0;">국내 상장주식과 달리 해외주식은 대주주 여부와 상관없이, 연간 양도차익이 기본공제 금액을 넘는 일반 투자자도 신고 대상이 될 수 있습니다.</p>
+  <p style="margin:10px 0 0 0;">국내 상장주식과 달리 해외주식은 대주주 여부와 상관없이, 연간 양도차익이 250만원을 넘는 일반 투자자도 신고 대상이 됩니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세는 증권사가 자동으로 신고해주나요</summary>
-  <p style="margin:10px 0 0 0;">아니요. 배당소득세와 달리 양도소득세는 증권사가 원천징수해주지 않으며, 투자자 본인이 홈택스에서 직접 신고·납부해야 합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세율은 얼마인가요</summary>
+  <p style="margin:10px 0 0 0;">일반 해외상장주식은 20%, 해외상장 중소기업 주식은 10%입니다. 여기에 지방소득세가 더해집니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세 세율과 기본공제는 얼마인가요</summary>
-  <p style="margin:10px 0 0 0;">정확한 세율과 공제액은 소득세법에 근거한 수치이며, 이 글은 1차 출처(국세청·법제처) 원문 확인 전까지 확정 수치를 싣지 않았습니다. 공식 자료로 직접 확인해야 합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">1,000만원 벌면 세금이 얼마인가요</summary>
+  <p style="margin:10px 0 0 0;">기본공제 250만원을 뺀 750만원에 20%를 곱한 165만원이 납부세액입니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세는 언제까지 신고하나요</summary>
-  <p style="margin:10px 0 0 0;">거래한 해의 다음 해 5월 한 달간 확정신고로 처리하는 것이 일반적으로 안내되지만, 정확한 시작일·마감일은 국세청 공식 자료로 확인해야 합니다.</p>
+  <p style="margin:10px 0 0 0;">예정신고 없이, 거래한 해의 다음 해 5월 1일부터 31일까지 확정신고만 하면 됩니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세 신고는 어디서 하나요</summary>
-  <p style="margin:10px 0 0 0;">홈택스에 로그인해 양도소득세 신고 메뉴에서 진행합니다. 증권사에서 발급받은 거래내역(양도소득세 산출 보조자료)을 미리 준비해두면 편리합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">증권사가 자동으로 신고해주나요</summary>
+  <p style="margin:10px 0 0 0;">아니요. 배당소득세와 달리 양도소득세는 증권사가 원천징수해주지 않으며, 투자자 본인이 홈택스에서 직접 신고·납부해야 합니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">해외주식 양도소득세 관련 최신 수치는 어디서 확인하나요</summary>
-  <p style="margin:10px 0 0 0;">국세청과 법제처 찾기쉬운 생활법령정보가 가장 정확합니다. 실제 신고 화면은 홈택스에 로그인해 직접 확인해야 합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">양도차익이 250만원 이하면 신고 안 해도 되나요</summary>
+  <p style="margin:10px 0 0 0;">납부할 세금은 없지만, 향후 다른 해외주식 손실과 통산하려면 신고해두는 것이 유리할 수 있습니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>1차 출처 캡처 대기 — 국세청 / 법제처 찾기쉬운 생활법령정보 중 확인된 페이지로 채울 예정 (sources/overseas-stock-tax-filing-access-note.md 참고)</li>
+    <li>국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」 (2024년 5월 발간)</li>
+    <li>기준일: 2024년 5월 발간 기준 — 이후 세법 개정 여부는 국세청 최신 자료로 재확인 권장</li>
   </ul>
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
 이 글은 정보 제공을 목적으로 하며 특정 종목이나 상품의 매수·매도를 권유하지 않습니다.
 투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
-세율·수수료·한도는 변경될 수 있으므로 반드시 원출처에서 최신 내용을
-확인하시기 바랍니다.
+세율·공제는 변경될 수 있으므로 반드시 원출처에서 최신 내용을 확인하시기 바랍니다.
 </p>
 
 <script type="application/ld+json">
@@ -220,23 +177,23 @@ self_check: |
       "name": "해외주식 양도소득세는 누가 내야 하나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "국내 상장주식과 달리 해외주식은 대주주 여부와 상관없이, 연간 양도차익이 기본공제 금액을 넘는 일반 투자자도 신고 대상이 될 수 있습니다."
+        "text": "국내 상장주식과 달리 해외주식은 대주주 여부와 상관없이, 연간 양도차익이 250만원을 넘는 일반 투자자도 신고 대상이 됩니다."
       }
     },
     {
       "@type": "Question",
-      "name": "해외주식 양도소득세는 증권사가 자동으로 신고해주나요",
+      "name": "해외주식 양도소득세율은 얼마인가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "아니요. 배당소득세와 달리 양도소득세는 증권사가 원천징수해주지 않으며, 투자자 본인이 홈택스에서 직접 신고·납부해야 합니다."
+        "text": "일반 해외상장주식은 20%, 해외상장 중소기업 주식은 10%입니다. 여기에 지방소득세가 더해집니다."
       }
     },
     {
       "@type": "Question",
-      "name": "해외주식 양도소득세 세율과 기본공제는 얼마인가요",
+      "name": "1,000만원 벌면 세금이 얼마인가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "정확한 세율과 공제액은 소득세법에 근거한 수치이며, 이 글은 1차 출처(국세청·법제처) 원문 확인 전까지 확정 수치를 싣지 않았습니다. 공식 자료로 직접 확인해야 합니다."
+        "text": "기본공제 250만원을 뺀 750만원에 20%를 곱한 165만원이 납부세액입니다."
       }
     },
     {
@@ -244,23 +201,23 @@ self_check: |
       "name": "해외주식 양도소득세는 언제까지 신고하나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "거래한 해의 다음 해 5월 한 달간 확정신고로 처리하는 것이 일반적으로 안내되지만, 정확한 시작일·마감일은 국세청 공식 자료로 확인해야 합니다."
+        "text": "예정신고 없이, 거래한 해의 다음 해 5월 1일부터 31일까지 확정신고만 하면 됩니다."
       }
     },
     {
       "@type": "Question",
-      "name": "해외주식 양도소득세 신고는 어디서 하나요",
+      "name": "증권사가 자동으로 신고해주나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "홈택스에 로그인해 양도소득세 신고 메뉴에서 진행합니다. 증권사에서 발급받은 거래내역(양도소득세 산출 보조자료)을 미리 준비해두면 편리합니다."
+        "text": "아니요. 배당소득세와 달리 양도소득세는 증권사가 원천징수해주지 않으며, 투자자 본인이 홈택스에서 직접 신고·납부해야 합니다."
       }
     },
     {
       "@type": "Question",
-      "name": "해외주식 양도소득세 관련 최신 수치는 어디서 확인하나요",
+      "name": "양도차익이 250만원 이하면 신고 안 해도 되나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "국세청과 법제처 찾기쉬운 생활법령정보가 가장 정확합니다. 실제 신고 화면은 홈택스에 로그인해 직접 확인해야 합니다."
+        "text": "납부할 세금은 없지만, 향후 다른 해외주식 손실과 통산하려면 신고해두는 것이 유리할 수 있습니다."
       }
     }
   ]
@@ -272,11 +229,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "해외주식 양도소득세 신고 방법",
-  "description": "해외주식 양도소득세 신고 대상과 절차, 정확한 세율·기본공제·신고기한을 확인할 수 있는 공식 출처를 정리했습니다.",
+  "description": "해외주식 양도소득세 신고 대상, 세율(20%/10%)과 250만원 기본공제, 실제 계산 예시와 신고 절차를 정리했습니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
-  "datePublished": "2026-09-05",
-  "dateModified": "2026-09-05",
+  "datePublished": "2026-09-06",
+  "dateModified": "2026-09-06",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/overseas-stock-tax-filing"
