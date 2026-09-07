@@ -45,10 +45,12 @@ capture_guide: |
   게이트2도 2026-09-07 해결됨 — RULES.md 게이트2가 v3로 재조정된 뒤 그 기준으로 재판정해
   통과(serp_check 참조). 남은 사람 작업은 티스토리에 붙여넣어 발행하는 것뿐이다.
 
-  선택 사항(있으면 더 좋은 자료, 없어도 발행 가능):
-  종합소득세 기본세율 구간표 — https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667
-  현재는 구간표를 본문에 옮기지 않고 국세청 페이지로 링크 안내하는 방식으로 처리했다
-  (해마다 개정될 수 있어 원문을 보게 하는 편이 오히려 안전하다는 판단).
+  [2026-09-07 추가 확보] 종합소득세 기본세율 구간표도 사람이 캡처해 제공 —
+  sources/nts-income-tax-rate.md 에 보존하고 본문에 표로 넣었다. 링크 안내만 하던 것을
+  실제 표로 대체했다. 확인 과정에서 국세청이 게시한 최신 구간이 "2023~2025년 귀속"이고
+  2026년 귀속 표는 아직 없다는 것도 확인해, 본문에 귀속연도를 명시했다.
+  2022년 귀속까지 하위 두 구간 경계가 1,200만/4,600만원이었다가 2023년부터
+  1,400만/5,000만원으로 오른 이력도 함께 넣었다(오래된 글과 갈리는 지점).
   배당가산액(Gross-up) 비율도 위 ① 공식에 등장하지만 본문에서 수치를 쓰지 않아 필수는 아니다.
 self_check: |
   [2026-09-07 사람 캡처 반영 후 재판정]
@@ -62,9 +64,9 @@ self_check: |
   보유자에게 실질적 영향이 있어 5편(해외주식 양도세)과 자연스럽게 연결된다.
   게이트4 충족으로 전환 — 국세청 국세상담센터 원문 캡처 확보(2026-09-07),
   sources/nts-call-financial-income-qna.md에 전문 보존. 근거 조문 소득세법 제14조·제62조.
-  종합소득세 기본세율 구간표는 원문 확인이 안 돼 본문에 옮기지 않고 국세청 세율 페이지로
-  링크 안내하는 방식으로 처리 — 확인 못 한 숫자를 지어 쓰지 않는다는 원칙을 지켰고, 구간표는
-  해마다 개정될 수 있어 원문을 보게 하는 편이 독자에게도 안전하다. 빈 표는 삭제했다.
+  [2026-09-07 보강] 종합소득세 기본세율 구간표를 사람이 캡처해 제공해 본문에 표로 넣었다
+  (sources/nts-income-tax-rate.md). 국세청 최신 게시 구간이 2023~2025년 귀속이고 2026년
+  귀속 표는 아직 없다는 사실도 확인해 캡션에 명시했다 — "2026년 세율"이라고 단정하지 않았다.
   keyword_class를 human-assisted/capture 그대로 유지 — 실제로 사람 캡처가 있어야 완성됐다.
   제목 20자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈 4단어. FAQ 6개와 JSON-LD 1:1 일치.
   @id를 티스토리 entry 패턴으로 지정. 종목·상품 추천/단정 표현 없음. 하단 고정 문구 포함.
@@ -159,7 +161,34 @@ self_check: |
   위 식에서 <b>2천만원까지는 언제나 14%로 계산</b>된다는 점을 눈여겨보세요. 누진세율(기본세율)이 붙는 건 <b>2천만원을 넘은 부분부터</b>입니다. "2천만원을 1원이라도 넘으면 전체 금융소득에 높은 세율이 붙는다"는 이야기가 도는데, 계산식 자체가 그렇게 되어 있지 않습니다.
 </div>
 
-<p>식에 들어가는 <b>기본세율</b>은 종합소득세 누진세율(과세표준 구간별 세율과 누진공제액)입니다. 구간표는 해마다 개정될 수 있어 이 글에 옮겨 적지 않고, 국세청 안내 페이지에서 직접 확인하시길 권합니다 — <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">국세청 › 종합소득세 › 기본정보 › 세율</a>.</p>
+<p>식에 들어가는 <b>기본세율</b>은 종합소득세 누진세율입니다. 계산은 <mark>과세표준 × 세율 − 누진공제액</mark>으로 합니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">과세표준</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">세율</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">누진공제</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1,400만원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">6%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">−</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1,400만원 초과 5,000만원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">15%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">126만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">5,000만원 초과 8,800만원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">24%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">576만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">8,800만원 초과 1억 5,000만원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">35%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,544만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1억 5,000만원 초과 3억원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">38%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,994만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">3억원 초과 5억원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">40%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,594만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">5억원 초과 10억원 이하</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">42%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">3,594만원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">10억원 초과</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">45%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">6,594만원</td></tr>
+  </tbody>
+</table>
+
+<p style="font-size:13px;color:#888;"><b>2023~2025년 귀속 기준</b>입니다. 출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">국세청 › 종합소득세 › 기본정보 › 세율</a>(2026-09-07 확인). 국세청이 게시한 가장 최신 구간이 2023~2025년 귀속분이며, 2026년 귀속 세율표는 아직 올라와 있지 않습니다. 신고 전 원문에서 해당 귀속연도 표를 다시 확인하세요.</p>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
+  <b>구간 경계가 바뀐 적이 있습니다</b>
+  <p style="margin:8px 0 0 0;">2022년 귀속까지는 하위 두 구간 경계가 <b>1,200만원 / 4,600만원</b>이었고, 2023년 귀속부터 <b>1,400만원 / 5,000만원</b>으로 올라갔습니다. 오래된 글의 표에는 예전 경계가 그대로 남아 있을 수 있습니다.</p>
+</div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 이하인데도 종합과세되는 경우가 있습니다</h2>
 
@@ -238,7 +267,7 @@ self_check: |
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li>국세청 국세상담센터 — 금융소득 종합과세 제도, 비교과세 산출세액 계산(소득세법 제62조), 2,000만원 이하 종합과세 예외(소득세법 제14조), 신고 시 기준 자료 (<a href="https://call.nts.go.kr/call/qna/selectQnaInfo.do?mi=1441&amp;ctgId=CTG11775" target="_blank" rel="noopener">call.nts.go.kr</a>, 2026-09-07 확인)</li>
-    <li>국세청 — 종합소득세 기본세율(과세표준 구간별 세율·누진공제) (<a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">nts.go.kr</a>)</li>
+    <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">국세청 — 종합소득세 세율</a> (과세표준 구간별 세율·누진공제, 2023~2025년 귀속 기준, 2026-09-07 확인)</li>
     <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 공식 책자 「2024년 해외주식과 세금(개인투자자용)」 — 금융소득종합과세 2,000만원 기준 (2024년 5월 발간)</li>
     <li><a href="https://easylaw.go.kr" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a> — 배당소득세 원천징수 15.4% (2026-08-15 기준)</li>
     <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> — 종합소득세 확정신고</li>

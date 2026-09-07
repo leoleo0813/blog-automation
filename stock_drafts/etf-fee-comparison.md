@@ -21,70 +21,67 @@ serp_check: |
      조회 경로를 화면으로 보여주는 글은 더 적다.
   → 3개 탈락 조건 모두 미해당, 게이트2 통과.
 unique_asset: |
-  핵심 정보이득은 "표시된 총보수가 실제로 내는 전부가 아니다"라는 점과, 그 실부담을
-  직접 확인하는 경로를 화면 캡처로 보여주는 것이다. ETF 상품 페이지에 크게 적힌 총보수
-  옆에 기타비용과 매매·중개수수료가 따로 붙어, 합산하면 표시 총보수보다 커진다.
-  여기에 (a) 총보수 / 합성총보수(TER) / 실부담비용 용어 구분, (b) 금융투자협회
-  전자공시에서 실제로 조회하는 절차, (c) 보수 차이가 장기 수익에 미치는 영향을 넣는다.
-  ※ 실제 수치와 조회 화면은 사람 캡처가 필요하다(capture_guide 참조).
-primary_source: 미확보 — RULES.md「1차 출처 접근」에 dis.kofia.or.kr(금융투자협회 전자공시)은 JS 앱이라 렌더링해도 수치가 나오지 않는다고 이미 기록돼 있어, 이번에는 WebFetch를 시도하지 않고 곧바로 human-assisted/capture로 분류했다(불필요한 재시도로 시간·토큰을 쓰지 않는다는 RULES.md 방침). WebSearch 요약에 국내 ETF 평균 총보수율과 전체 비용 평균으로 보이는 숫자가 나오지만 검색엔진 합성 문장이라 본문에 쓰지 않았다.
-기준일: 미확정 — 캡처한 공시 화면의 기준일자를 그대로 기입할 것
+  [완성 2026-09-07 — 금융투자협회 공시 원자료 반영]
+  핵심 정보이득은 "표시된 총보수가 실제로 내는 전부가 아니다"를 공시 실측값으로 보여주는 것.
+  파생형 ETF 242개를 집계해 평균 총보수 0.332% → 실부담 0.602%(1.81배), 242개 중 80개(33%)가
+  실부담 2배 초과임을 확인했다. 개별 사례로는 총보수 0.022%인 선물 인버스 2X의 실부담이
+  0.611%(27.8배), 반도체 레버리지가 0.490% → 2.713%다.
+  여기에 왜 상품마다 다른지를 회전율로 설명한다 — 레버리지·인버스 89개와 그 외 153개의
+  총보수는 0.348% vs 0.323%로 거의 같은데 매매·중개수수료가 0.3137% vs 0.0893%로 3.5배
+  차이 난다. 총보수만 비교하면 안 보이는 차이다.
+  상위 경쟁 글은 대부분 총보수 설명에서 그치고 실부담 실측값까지 제시하지 않는다.
+primary_source: |
+  금융투자협회 전자공시서비스(dis.kofia.or.kr) > 펀드공시 > 펀드별 보수비용비교.
+  사람이 직접 조회해 엑셀로 내려받아 제공(2026-09-07). 원본 파일은
+  sources/kofia-etf-fee-comparison-20260907.xls 에 보존, 집계·해석은
+  sources/kofia-etf-fee-comparison.md 에 정리.
+  ※ 범위 한정 — 받은 자료의 ETF 242개가 전부 파생형(주식파생형 177 / 채권파생형 29 /
+    혼합채권파생형 15 / 혼합주식파생형 12 / 재간접파생형 9)이다. 일반 지수형(비파생) ETF는
+    포함되지 않았으므로 "국내 ETF 평균"이라고 쓰면 틀린다. 본문에 범위를 명시했다.
+기준일: 2026-09-07 (공시 조회·다운로드일). 파일 안에 기준일자 표기가 없어 조회일로 기록한다. 공시값 자체의 산정 기준 시점은 조회 화면에서 별도 확인이 필요하다.
 tags: ETF수수료, 총보수, 실부담비용, TER, ETF투자, 운용보수, 매매중개수수료, 주식초보, ETF비교
-gate_pass: false
+gate_pass: true
 capture_guide: |
-  왜 필요한가: 이 글의 정보이득이 "표시 총보수와 실제 부담이 다르다"를 실제 숫자와
-  조회 화면으로 보여주는 것인데, 금융투자협회 전자공시(dis.kofia.or.kr)는 자바스크립트
-  앱이라 자동화가 열어도 화면에 수치가 나오지 않습니다(RULES.md에 이미 기록된 사항이라
-  이번에는 시도하지 않았습니다). 사람이 직접 조회한 화면이 필요합니다.
-
-  1순위 — 금융투자협회 전자공시서비스: https://dis.kofia.or.kr 접속 →
-  「펀드공시」 > 「펀드별 보수비용비교」 메뉴로 이동 → 유형을 ETF로 선택해 조회 →
-  다음이 보이게 캡처해 주세요:
-    (1) 아무 ETF 한두 종목의 **총보수**와 **기타비용**, **매매·중개수수료**가 각각
-        따로 보이는 행 (이 세 항목이 나뉘어 보이는 것이 핵심입니다)
-    (2) 있으면 **실부담비용(TER)** 또는 합계 열
-    (3) 화면에 표시된 **기준일자**
-  ※ 종목은 아무거나 괜찮습니다. 특정 상품을 추천하는 글이 아니라 "이렇게 확인한다"를
-     보여주는 용도라, 가급적 널리 알려진 지수형 ETF 두어 개면 충분합니다.
-
-  2순위 — 증권사 앱/HTS의 ETF 상세 화면: 보유 중이거나 관심 종목인 ETF의 상세 정보에서
-  총보수가 표시된 화면을 캡처. 1순위 화면과 나란히 놓으면 "앱에 적힌 총보수 < 실제 부담"을
-  바로 보여줄 수 있어 정보이득이 커집니다.
-
-  3순위(있으면 좋음) — 운용사 홈페이지의 해당 ETF 상품 페이지에서 보수 항목이 적힌 부분.
-
-  캡처 후: 스크린샷을 대화에 올려주시면 표와 비교 예시를 채우고 게이트를 재판정하겠습니다.
-  캡처 이미지는 본문 이미지로도 함께 씁니다(RULES.md「이미지」— 직접 캡처 우선).
+  [해결됨 2026-09-07] 사람이 금융투자협회 전자공시에서 펀드별 보수비용비교를 조회해
+  엑셀 원본(1,214행)을 내려받아 제공. 그 안의 ETF 242개로 표 세 개를 모두 채웠다.
+  ★ 원자료 덕분에 잡은 것: 받은 데이터의 ETF가 전부 파생형이었다. 조회 결과를 그대로
+    "국내 ETF 평균"이라고 썼으면 틀린 글이 될 뻔했다. 본문에 "파생형 ETF 242개 기준"으로
+    범위를 명시했다.
+  ★ 원자료가 아니면 못 만들었을 수치: 총보수 0.022%짜리 선물 인버스 2X의 실부담이
+    0.611%(27.8배). 검색으로는 이런 개별 격차 사례를 확인할 수 없다.
+  남은 선택 사항(없어도 발행 가능): 일반 지수형(비파생) ETF까지 포함한 조회 결과가 있으면
+  "국내 ETF 전체" 기준 수치로 확장할 수 있다. 조회 조건에서 유형 필터를 바꿔 다시 받으면 된다.
+  조회 화면 스크린샷이 있으면 본문 이미지로 넣어 절차 설명을 보강할 수 있다(현재는 글로만 설명).
 self_check: |
-  게이트1 미확인 — monthly_search_volume 확인필요로 남김. 커밋 후 notify-repo-only.yml이
-  네이버 키워드도구로 실측해 채운다(큐 참고값 890회는 추측해 쓰지 않았다).
-  ※ 890회는 이 시리즈에서 가장 낮은 편이라, 실측값이 RULES.md 게이트1 기준(주식 월 500+)에
-  못 미치면 gate_pass는 그 사유로도 false가 된다. 실측 결과를 보고 판단할 것.
-  게이트2 충족 — RULES.md 게이트2 v3 기준 판정, 3개 탈락 조건 모두 미해당(serp_check 참조).
+  [2026-09-07 공시 원자료 반영 후 최종 판정]
+  게이트1 충족 — 네이버 키워드도구 실측 770회(PC 190 / 모바일 580).
+  게이트2 충족 — RULES.md 게이트2 v3 기준, 3개 탈락 조건 모두 미해당(serp_check 참조).
   브런치·개인 블로그·커뮤니티가 셋이나 상위에 있어 이 시리즈 중 진입 여지가 가장 크다.
-  게이트3 부분 충족 — "표시 총보수 ≠ 실제 부담"이라는 구조와 용어 구분(총보수/합성총보수
-  /실부담비용), 조회 경로 설명은 서술로 넣었으나, 실제 수치와 조회 화면 캡처가 없어
-  비교표가 비어 있다. RULES.md「실측표 자리를 비워두면 false」에 해당한다.
-  게이트4 미충족 — dis.kofia.or.kr은 RULES.md에 "JS 앱이라 렌더링해도 수치 없음 →
-  human-assisted 캡처로 처리"로 이미 기록돼 있어 WebFetch를 시도조차 하지 않았다.
-  막힐 것이 확인된 곳을 다시 두드려 시간·토큰을 쓰지 않는다는 방침을 따랐다.
-  RULES.md「키워드 3분류」가 ETF 총보수를 human-assisted 예시로 직접 명시하고 있어,
-  이 글은 애초에 캡처형으로 설계됐다. 큐 원안(자동화 가능/oneclick)이 잘못 잡혀 있었다.
-  금지 사항 점검 — 특정 ETF 상품 추천으로 흐르지 않도록, 종목명 나열이나 "어떤 ETF가
-  낫다"는 서술을 넣지 않고 "확인하는 방법"에만 집중했다. capture_guide에도 종목은
-  아무거나 괜찮다고 명시했다.
-  카니발라이제이션 점검 — 1편(증권사 수수료 비교)과 "수수료"만 겹치고 대상이 다르다.
-  1편은 증권사가 거래마다 떼는 위탁수수료, 이 글은 상품이 매년 떼는 보수라 성격이 다르다.
-  본문에서 1편으로 내부 링크를 건다.
-  기관 링크 점검(RULES.md「기관 링크 필수」) — 본문 기관 안내 문장과 하단 참고 출처를
-  전부 링크 처리. 금융투자협회 전자공시는 RULES.md URL 표에 있는 주소를 그대로 썼다.
-  target="_blank" rel="noopener", 공공성 기관이라 nofollow 미부착.
-  제목 16자·금지어 없음·조사 없음. 제목이 "비교"가 아니라 "확인법"이라 RULES.md의
-  "비교 제목이면 비교표 필수" 규칙에 걸리지 않는다(큐 원안 제목 "ETF 수수료 비교"는
-  캡처 전까지 비교표가 없어 절차형으로 바꿨다).
-  슬러그는 큐에 등록된 etf-fee-comparison을 유지(이미 커밋된 썸네일·링크와의 일관성).
+  게이트3 충족 — 금융투자협회 공시 원자료로 표를 전부 실측값으로 채웠다. 집계표(평균·중앙값),
+  개별 사례표(0.022%→0.611% 등 4건), 레버리지 대비 그 외 비교표, 장기 누적 비교표.
+  경쟁 글이 총보수 설명에서 그치는 자리에서 실부담 실측값과 그 원인(회전율)까지 제시한다.
+  게이트4 충족 — 1차 출처는 금융투자협회 전자공시 원본 엑셀(1,214행). 사람이 직접 조회해
+  내려받아 제공했고 sources/kofia-etf-fee-comparison-20260907.xls 에 원본을 보존했다.
+  검색 요약에 나온 "국내 ETF 평균 총보수 0.3084% / 전체 비용 0.4982%" 같은 숫자는 끝까지
+  쓰지 않았다. 본문 수치는 전부 원자료를 직접 집계해 얻었다.
+  ★ 범위 한계를 본문에 명시했다 — 받은 자료의 ETF 242개가 전부 파생형이라 "국내 ETF 평균"이
+  아니다. 그대로 일반화했으면 틀린 글이 됐을 자리라, 표 아래 캡션과 본문 문장 양쪽에
+  "파생형 ETF 242개 기준"을 적었다.
+  검산 — 평균 총보수 0.3319% / TER 0.4298% / 실부담 0.6016%, 배수 1.81배.
+  2배 초과 80/242 = 33%. 레버리지·인버스 89개 매매중개 평균 0.3137% vs 그 외 153개
+  0.0893%(3.5배). 개별 사례는 원본 행에서 그대로 옮겼다.
+  장기 누적표는 원금 1,000만원 고정 가정의 단순 계산이며, 그 가정을 캡션에 밝혔다.
+  금지 사항 점검 — 특정 상품 추천으로 읽히지 않도록 개별 사례를 종목명 대신 유형명
+  ("선물 인버스 2X", "반도체 레버리지")으로 표기했다. 레버리지·인버스의 비용이 큰 것은
+  구조상 회전율이 높기 때문이지 상품이 나쁘다는 뜻이 아니라는 단서도 본문에 달았다.
+  카니발라이제이션 점검 — 1편(증권사 수수료 비교)은 거래마다 내는 위탁수수료, 이 글은
+  보유하는 동안 상품에서 빠지는 보수라 대상이 다르다. 본문에서 1편으로 안내한다.
+  기관 링크 점검(RULES.md「기관 링크 필수」) — 금융투자협회 전자공시로 안내하는 문장과
+  하단 참고 출처를 전부 링크 처리. target="_blank" rel="noopener", nofollow 미부착.
+  제목 16자·금지어 없음·조사 없음. "비교"가 아니라 "확인법"이라 비교표 필수 규칙에 걸리지
+  않는다(다만 결과적으로 비교표가 여러 개 들어갔다). 슬러그는 큐 등록값 유지.
   FAQ 6개와 JSON-LD 1:1 일치. @id 티스토리 entry 패턴. 하단 면책 문구 포함.
-  종합 판정: 게이트3·4 미충족 → gate_pass:false. 캡처 후 재판정.
+  종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
 ---
 
 <p>ETF 수수료는 <mark>상품 페이지에 적힌 총보수가 전부가 아닙니다.</mark> 여기에 기타비용과 매매·중개수수료가 따로 붙어서, 실제로 부담하는 비용은 표시된 숫자보다 큽니다.</p>
@@ -99,13 +96,13 @@ self_check: |
   </ul>
 </div>
 
-<p style="background:#fff3cd;border:1px solid #e0a800;border-radius:6px;padding:10px 14px;font-size:14px;color:#7a5c00;">⚠️ 이 초안은 실제 보수 수치와 조회 화면 캡처가 아직 없는 상태입니다(공시 사이트가 자바스크립트 기반이라 자동 수집 불가). 아래 표와 화면 안내는 사람이 조회 화면을 캡처해 준 뒤 채워집니다 — capture_guide 참고.</p>
-
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
   <li>ETF 수수료는 언제 어떻게 빠져나가나요</li>
   <li>총보수 말고 또 무슨 비용이 있나요</li>
   <li>실제 부담은 어디서 확인하나요</li>
+  <li>격차가 얼마나 벌어지나요</li>
+  <li>왜 상품마다 차이가 나나요</li>
   <li>보수 차이가 수익에 얼마나 영향을 주나요</li>
   <li>증권사 거래 수수료와는 다른 건가요</li>
 </ol>
@@ -134,23 +131,26 @@ self_check: |
   </ul>
 </div>
 
+<p>실제 공시 자료로 확인해 보면 격차가 뚜렷합니다. 아래는 <a href="https://dis.kofia.or.kr" target="_blank" rel="noopener">금융투자협회 전자공시</a>에서 <b>파생형 ETF 242개</b>를 내려받아 집계한 결과입니다.</p>
+
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
     <tr style="background:#eef6ff;">
-      <th style="border:1px solid #ccd;padding:10px;text-align:left;">항목</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">연 비율</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:left;">비고</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">구분</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">총보수</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">합성총보수(TER)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">실부담비용</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">총보수</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td><td style="border:1px solid #ccd;padding:10px;">상품 페이지 표시 숫자</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">기타비용</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td><td style="border:1px solid #ccd;padding:10px;">지수 사용료·감사비 등</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">매매·중개수수료</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td><td style="border:1px solid #ccd;padding:10px;">편입 종목 매매 비용</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;"><b>실부담비용 합계</b></td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><b>캡처 필요</b></td><td style="border:1px solid #ccd;padding:10px;">실제로 내는 전체</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">평균</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.332%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.430%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>0.602%</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">중앙값</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.350%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.435%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.561%</td></tr>
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;">위 수치는 <a href="https://dis.kofia.or.kr" target="_blank" rel="noopener">금융투자협회 전자공시</a> 조회 화면 캡처 후 채웁니다.</p>
+<p><mark>평균 실부담비용이 평균 총보수의 1.81배</mark>입니다. 242개 중 <b>80개(33%)</b>는 실부담이 총보수의 2배를 넘습니다.</p>
+
+<p style="font-size:13px;color:#888;">출처: <a href="https://dis.kofia.or.kr" target="_blank" rel="noopener">금융투자협회 전자공시</a> 펀드별 보수비용비교, 2026-09-07 조회. 이 집계는 <b>파생형 ETF 242개</b> 기준이며 일반 지수형 ETF는 포함되지 않았습니다. 공시값은 주기적으로 갱신됩니다.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 부담은 어디서 확인하나요</h2>
 
@@ -163,19 +163,83 @@ self_check: |
   <li>총보수·기타비용·매매중개수수료가 <b>각각 따로</b> 표시된 열을 확인합니다.</li>
 </ol>
 
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>조회 화면 캡처 자리 (캡처 후 삽입)</b>
-  <p style="margin:8px 0 0 0;">실제 조회 화면과, 같은 ETF를 증권사 앱에서 봤을 때 표시되는 총보수를 나란히 놓아 차이를 보여줄 예정입니다.</p>
+<p>조회 결과에는 <b>총보수(합계 A)</b>, <b>기타비용(B)</b>, <b>합성총보수 TER(A+B)</b>, <b>매매·중개수수료율(D)</b>이 각각 다른 열로 나옵니다. 상품 페이지에 크게 적힌 숫자는 대개 첫 번째 열 하나뿐입니다.</p>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">격차가 얼마나 벌어지나요</h2>
+
+<p>실제 공시값으로 보면 상품에 따라 차이가 큽니다. 아래는 위 조회 결과에서 그대로 뽑은 숫자입니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:9px;text-align:left;">유형</th>
+      <th style="border:1px solid #ccd;padding:9px;text-align:right;">총보수</th>
+      <th style="border:1px solid #ccd;padding:9px;text-align:right;">기타비용</th>
+      <th style="border:1px solid #ccd;padding:9px;text-align:right;">매매·중개</th>
+      <th style="border:1px solid #ccd;padding:9px;text-align:right;">실부담</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:9px;">선물 인버스 2X</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.022%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.10%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.4914%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;"><mark>0.611%</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:9px;">반도체 레버리지</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.490%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.06%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">2.1631%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;"><mark>2.713%</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:9px;">국채 선물</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.300%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.06%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.0677%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.428%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:9px;">해외 지수 합성</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.350%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.05%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.0000%</td><td style="border:1px solid #ccd;padding:9px;text-align:right;">0.400%</td></tr>
+  </tbody>
+</table>
+
+<div style="background:#fdeaea;border-left:4px solid #d9534f;padding:14px 18px;margin:20px 0;line-height:1.8;">
+  <b>총보수가 낮다고 안심할 수 없습니다.</b>
+  <p style="margin:8px 0 0 0;">첫 줄을 보세요. 총보수는 <b>0.022%</b>로 이 표에서 가장 낮은데, 매매·중개수수료가 붙자 실부담은 <mark>0.611%로 27.8배</mark>가 됐습니다. 두 번째 줄은 실부담이 <b>2.7%</b>까지 올라갑니다.</p>
 </div>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 상품마다 차이가 나나요</h2>
+
+<p>매매·중개수수료는 <mark>펀드가 편입 종목을 얼마나 자주 사고파는지</mark>에 따라 정해집니다. 그래서 회전율이 높은 구조일수록 이 항목이 커집니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">구분</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">개수</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">평균 총보수</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">평균 매매·중개</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">평균 실부담</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">레버리지·인버스</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">89</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.348%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>0.3137%</mark></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.745%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">그 외</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">153</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.323%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.0893%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.518%</td></tr>
+  </tbody>
+</table>
+
+<p>두 집단의 <b>총보수는 0.348%와 0.323%로 거의 같습니다.</b> 그런데 매매·중개수수료가 3.5배 차이 나면서 실부담이 갈립니다. 총보수만 비교했다면 보이지 않았을 차이입니다.</p>
+
+<p style="font-size:13px;color:#888;">레버리지·인버스는 구조상 매일 기초자산을 재조정해야 해서 회전율이 높습니다. 비용이 크다는 것이 상품이 나쁘다는 뜻은 아니며, 성격이 다른 상품이라는 의미입니다.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보수 차이가 수익에 얼마나 영향을 주나요</h2>
 
 <p>연 몇 %p 차이는 작아 보이지만 <mark>보유 기간이 길수록 누적</mark>됩니다. 매년 자산에서 비율로 빠져나가기 때문에, 원금이 커질수록 절대 금액도 함께 커집니다.</p>
 
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>장기 누적 비교 자리 (캡처 후 작성)</b>
-  <p style="margin:8px 0 0 0;">같은 금액을 같은 기간 넣었을 때, 실부담비용 차이가 최종 금액에서 얼마가 되는지 계산해 넣을 예정입니다.</p>
-</div>
+<p>위 집계의 평균 총보수(0.332%)만 보고 고른 경우와 실부담(0.602%)을 확인하고 고른 경우를 비교해 보겠습니다. <b>1,000만원을 넣고 수익률이 같다고 가정</b>했을 때, 비용으로 빠져나가는 금액의 차이입니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">보유 기간</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">0.332% 부담 시</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">0.602% 부담 시</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">차이</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1년</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">3만 3천원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">6만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2만 7천원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">10년</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">약 33만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">약 60만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>약 27만원</mark></td></tr>
+  </tbody>
+</table>
+
+<p style="font-size:13px;color:#888;">원금 1,000만원이 그대로 유지된다고 단순 가정한 계산입니다. 실제로는 자산이 불어나면 비율로 떼는 금액도 함께 커지므로 차이는 이보다 벌어집니다.</p>
+
+<p>금액만 보면 크지 않아 보일 수 있지만, <mark>확인하는 데 1분이면 되는 정보</mark>라는 점을 생각하면 확인하지 않을 이유가 없습니다.</p>
 
 <p>다만 비용이 낮다고 언제나 유리한 것은 아닙니다. 추종하는 지수가 다르거나 추적오차가 크면 결과가 달라지므로, <b>비용은 여러 판단 기준 중 하나</b>로 보는 편이 맞습니다.</p>
 
