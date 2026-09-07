@@ -4,8 +4,8 @@ title: ETF 수수료 총보수 실부담 확인법
 slug: etf-fee-comparison
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 확인필요
-gate1_pass: 확인필요 (큐 참고값 월 890 — 커밋 후 워크플로가 네이버 API로 실측 기입)
+monthly_search_volume: 770 (PC 190 / 모바일 580)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-07 — 통과]
   WebSearch "ETF 수수료 총보수" 상위 7개:
