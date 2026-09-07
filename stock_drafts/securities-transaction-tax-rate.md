@@ -4,8 +4,8 @@ title: 증권거래세 세율 2026
 slug: securities-transaction-tax-rate
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 확인필요
-gate1_pass: 확인필요 (큐 참고값 월 1,030 — 커밋 후 워크플로가 네이버 API로 실측 기입)
+monthly_search_volume: 920 (PC 620 / 모바일 300)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-07 — 통과]
   WebSearch "증권거래세 세율 2026" 상위 7개:
