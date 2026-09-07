@@ -19,95 +19,76 @@ serp_check: |
      예시까지 정확히 제공하지 않는다. 정보이득 여지 있음.
   → 3개 탈락 조건 모두 미해당, 게이트2 통과. 상세는 sources/pension-savings-tax-credit-access-note.md
 unique_asset: |
-  [일부 완성 / 일부 캡처 대기]
-  (a) 캡처 대기 — 납입액이 아니라 "실제로 얼마 돌려받나"를 소득 구간별로 계산해 보여주는
-      예시 + IRP 합산 한도와의 관계. 계산 재료인 한도·공제율·소득구간 수치가 원문 캡처
-      전이라 표·계산이 뼈대만 있고 값이 비어 있다.
-  (b) 이미 완성 — 수치 없이도 성립하는 두 가지를 본문 섹션으로 넣었다. 상위 경쟁 글이
-      "최대 148만원 환급"을 앞세우는 자리에서 이쪽이 실질적 차별점이다.
+  [완성 2026-09-07 — 국세청 원문 캡처 반영]
+  (a) 소득 구간별 실제 환급액 계산표(600만원/900만원 × 16.5%/13.2%)와 IRP 합산 한도의
+      포함 관계. 연금저축 계좌 하나로는 900만원을 다 못 쓴다는 점까지 명시.
+  (b) 15% vs 16.5% 혼란 해소 — 국세청 원문은 15%/12%이고 인터넷은 16.5%/13.2%인데,
+      충돌이 아니라 지방소득세 포함 여부의 차이(15%×1.1)다. 상위 글들이 16.5%만 쓰고
+      근거를 설명하지 않는 자리라 이 구분 자체가 정보이득이다.
+  (c) 한도는 두 소득 구간이 600만원(900만원)으로 동일하고 공제율만 갈린다. 예전엔
+      소득별로 한도도 달라서, 오래된 글과 갈리는 지점이다.
+  (d) ISA 만기자금을 연금계좌로 옮기면 전환금액의 10%(최대 300만원)만큼 한도가 확대된다.
+  (e) 수치 없이도 성립하는 두 가지. 상위 경쟁 글이 "최대 148만원 환급"을 앞세우는
+      자리에서 이쪽이 실질적 차별점이다.
       · 결정세액 한계: 세액공제는 현금 지급이 아니라 낼 세금을 깎는 것이라, 결정세액이
         공제액보다 적으면 거기까지만 돌아오고 남은 공제액은 이월 없이 사라진다.
       · 중도해지 추징: 공제받은 원금·운용수익에 기타소득세가 매겨진다(부득이한 사유는 예외).
       둘 다 금융사·핀테크의 상품 안내성 콘텐츠가 앞세우지 않는 부분이다.
 primary_source: |
-  [미확보] 국세청 「연금계좌 세액공제」 안내 페이지로 계획했으나 이번 세션
-  WebFetch가 EGRESS_BLOCKED(대조군 google.com도 동일 차단, 세션 전면 차단으로 판단).
-  WebSearch로 확인한 다수 출처(토스뱅크·뱅크샐러드·삼성증권·미래에셋)가 "연금저축
-  단독 한도 600만원, IRP 합산 900만원, 공제율 16.5%/13.2%(총급여 5,500만원 기준)"로
-  일치하지만, 국세청 자체 페이지 스니펫 중 하나는 이보다 낮은 구법 수치(400만원/700만원
-  등)를 섞어 인용해 두 세트가 충돌한다. 어느 쪽도 원문 캡처 없이 확정하지 않는다.
-  상세: sources/pension-savings-tax-credit-access-note.md
-기준일: 확인필요 (원문 캡처 후 페이지에 표시된 최종수정일 또는 확인일로 기입)
+  국세청 「근로소득 > 세액공제 > 연금계좌 세액공제」 —
+  https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6439
+  사람이 직접 접속해 화면 캡처를 제공(2026-09-07). 전문은
+  sources/nts-pension-account-tax-credit.md 에 보존.
+  확보한 값: 세액공제 대상 납입한도 600만원(퇴직연금 포함 900만원, 두 소득 구간 동일),
+  공제율 15%(종합소득금액 4,500만원·총급여 5,500만원 이하) / 12%(초과),
+  ISA 만기자금 연금계좌 전환 시 전환금액의 10%·300만원 한도로 세액공제 한도 확대.
+기준일: 2026-09-07 (국세청 페이지 확인일 — 페이지에 명시적 기준일 문구는 없으나 같은 화면의 혼인세액공제가 "24년~26년 혼인신고 분"으로 적혀 있어 2026년 기준 유지 페이지임을 확인)
 tags: 연금저축, 세액공제, 연말정산, 연금저축세액공제, IRP세액공제, 연금계좌, 세액공제한도, 노후준비, 절세
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1 미확인(false) — 큐 등록 시 참고값(월 3,400)은 있으나 이번 실행에서
-  네이버 키워드도구로 재확인하지 않았다. notify-repo-only.yml이 커밋 후 자동으로
-  monthly_search_volume/gate1_pass를 채운다.
-  게이트2 통과(serp_check 참조, v3 기준).
-  게이트3 미충족 — 계산 예시의 재료인 한도·공제율 수치가 아직 원문으로 확정되지 않아
-  표와 계산이 뼈대만 있고 비어 있다.
-  게이트4 미충족 — 1차 출처(국세청) 원문을 캡처로 확보하지 못했다. WebSearch 단서만
-  있고, 그마저 신구 수치가 충돌해 원문 대조 없이는 어느 쪽도 쓸 수 없다.
-  4개 게이트 중 하나라도 미충족이면 발행 금지 원칙에 따라 gate_pass:false로 저장.
+  4개 게이트 전부 충족(2026-09-07).
+  게이트1: 네이버 키워드도구 실측 3,180회(PC 800 / 모바일 2,380).
+  게이트2: RULES.md v3 기준 통과(serp_check 참조).
+  게이트3: 소득 구간별 환급액 계산표 + 15%/16.5% 구분 + 한도 동일 사실 + ISA 전환
+    추가한도 + 결정세액 한계 + 중도해지 추징. 상위 경쟁 글이 다루지 않는 항목이 다수다.
+  게이트4: 국세청 원문 사람 캡처 확보(2026-09-07), sources/nts-pension-account-tax-credit.md.
 capture_guide: |
-  (1) 왜 필요한가: 이 글의 핵심 정보이득은 "소득 구간별로 실제 얼마를 돌려받는지"
-  계산해 보여주는 것인데, 계산의 재료인 세액공제 한도(연금저축 단독/IRP 합산)와
-  소득 구간별 공제율(16.5%/13.2%)을 이번 세션에서 국세청 원문으로 확인하지 못했다.
-  WebSearch로 찾은 여러 출처는 "600만원/900만원, 16.5%/13.2%, 총급여 5,500만원
-  기준"으로 일치하지만, 국세청 자체 페이지 스니펫 중 하나는 이보다 낮은 구법 수치
-  (400만원/700만원 등)를 섞어 인용해 신뢰할 수 없다. 원문을 직접 봐야 어느 쪽이
-  현재 유효한 수치인지 확정할 수 있다.
-
-  (2) 시도할 사이트 (우선순위):
-  1순위 — 국세청 「연금계좌 세액공제」 안내:
-    https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6439
-    접속 → 페이지 안에서 "연금계좌 세액공제" 항목을 열어 (a) 총급여/종합소득금액
-    구간별 세액공제 대상 납입한도(연금저축 단독, IRP 합산), (b) 구간별 공제율(%),
-    (c) 페이지 하단이나 상단의 최종수정일/기준일을 화면 그대로 캡처.
-  2순위 — 국세청 국세상담센터 Q&A(연금계좌 세액공제):
-    https://call.nts.go.kr/call/qna/selectQnaInfo.do?mi=1318&ctgId=CTG11905
-    접속 → 목록에서 "연금계좌 세액공제" 관련 질문을 열어 위와 같은 한도·공제율
-    수치를 캡처. 1순위 페이지가 열리지 않을 때 대체용.
-  3순위 — 법제처 찾기쉬운 생활법령정보:
-    https://easylaw.go.kr 접속 → 검색창에 "연금저축 세액공제" 입력 →
-    노후준비와 연금제도 > 개인연금제도 항목을 열어 기준일과 함께 캡처.
-    (단, RULES.md "수치는 소관 부처 원문에서" 규칙에 따라 법제처 수치는 국세청
-    수치와 교차확인 용도로만 쓰고, 충돌 시 국세청 원문을 우선한다.)
-
-  (3) 캡처 후 할 일: 캡처한 화면(스크린샷)을 대화에 올려주세요. 위 (a)(b)(c)
-  수치와 기준일을 알려주시면 이 초안의 표·계산 예시·본문 수치를 채우고
-  gate_pass를 재판정하겠습니다.
+  [해결됨 2026-09-07] 사람이 국세청 「근로소득 > 세액공제」 화면을 직접 캡처해 제공 —
+  한도 600만원/900만원, 공제율 15%/12%, 소득 기준 4,500만원(총급여 5,500만원),
+  ISA 전환 추가한도까지 모두 확보. 표 세 개를 채우고 게이트3·4를 충족으로 전환했다.
+  전문은 sources/nts-pension-account-tax-credit.md.
+  ★ 캡처 덕분에 잡은 것: 검색 결과의 16.5%/13.2%와 국세청 원문의 15%/12%가 달랐다.
+    충돌이 아니라 지방소득세 포함 여부의 차이(15%×1.1=16.5%)임을 확인해, 그 구분 자체를
+    본문 정보이득으로 넣었다. 원문을 안 봤으면 근거 없이 16.5%만 적었을 자리다.
+  ★ 함께 확인한 것: 두 소득 구간의 납입한도가 600만원(900만원)으로 동일하다.
+    예전에는 소득별로 한도도 달랐어서, 오래된 글과 갈리는 지점으로 본문에 명시했다.
 self_check: |
-  [2026-09-07, human-assisted/capture 재분류]
-  게이트1 — 확인필요로 유지, notify-repo-only.yml 워크플로가 자동 기입 예정.
-  게이트2 — v3 기준으로 통과 판정(serp_check 참조).
-  게이트3 — 부분 충족. 계산 예시에 쓸 한도·공제율 수치가 아직 원문 미확정이라 표를
-  채우지 않고 뼈대만 두었다(캡처 없이 gate_pass를 true로 만들지 않았다). 다만 수치 없이도
-  성립하는 정보이득 두 가지를 본문 섹션으로 추가했다 — 결정세액 한계(공제액이 커도
-  낸 세금보다 많이 못 깎고, 남은 공제액은 이월 없이 소멸)와 중도해지 시 기타소득세 추징.
-  상위 경쟁 글이 "최대 148만원 환급"만 앞세우고 다루지 않는 부분이라 이 글의 실질적
-  차별점이며, 표가 채워지면 게이트3이 완성된다.
-  [2026-09-07 병합 기록] 이 초안은 루틴 자동 실행분과 사람 요청으로 만든 수동 초안이
-  같은 시각에 겹쳐 생성됐다. 루틴판을 기준으로 두고(측정된 검색량 3,180회, 구법 수치
-  충돌 발견, access-note 보존이 루틴판에만 있었음), 수동판에서 제목의 조사 제거와
-  위 두 정보이득 섹션, 태그 순서를 가져와 합쳤다. 어느 한쪽을 버리지 않았다.
-  게이트4 — 미충족. nts.go.kr WebFetch가 EGRESS_BLOCKED(대조군 google.com도 차단,
-  세션 전면 차단). WebSearch 단서는 신구 수치가 충돌해 본문 출처로 인용하지 않았다.
-  제목 15자 내외·금지어 없음. 슬러그 영문 소문자+하이픈(pension-savings-tax-credit,
-  4단어). 인트로 문단 최상단. FAQ 6개와 JSON-LD 1:1 일치(문항은 수치 확정 전에도
-  답할 수 있는 개념·절차 위주로 구성). @id를 티스토리 entry 패턴으로 지정.
-  종목·상품 추천 표현, 단정 표현 없음. 하단 고정 문구 포함.
-  3편(ISA 계좌 한도)과의 카니발라이제이션 점검 — 3편은 ISA 계좌의 납입·비과세
-  한도가 중심, 이 글은 연금저축·IRP 계좌의 세액공제가 중심이라 대상 계좌와 세제
-  혜택 종류가 달라 검색 의도가 다르다. 본문에서 3편으로 절세계좌 비교 관점으로
-  내부 링크 안내.
-  기관 링크 점검(RULES.md 「기관 링크 필수」) — 본문에서 국세청·홈택스로 안내하는
-  문장 전부 <a target="_blank" rel="noopener"> 처리, 하단 참고 출처 목록도 전부
-  링크 처리. 정부기관이라 nofollow 미부착. href 안 &는 &amp;로 이스케이프.
-  종합 판정: 게이트3·4 미충족 → gate_pass:false. capture_guide대로 사람이
-  원문을 캡처해 주면 표·계산 예시를 채우고 재판정한다. 그 전까지는 저장만 하고
-  발행하지 않는다.
+  [2026-09-07 캡처 반영 후 최종 판정]
+  게이트1 충족 — 네이버 키워드도구 실측 3,180회(PC 800 / 모바일 2,380).
+  게이트2 충족 — RULES.md 게이트2 v3 기준, 3개 탈락 조건 모두 미해당(serp_check 참조).
+  게이트3 충족 — 국세청 원문 수치로 표 세 개를 모두 채웠다(한도표·공제율표·환급액 계산표).
+  여기에 수치 없이도 성립하는 결정세액 한계와 중도해지 추징 섹션이 더해져 있다.
+  특히 15%(국세청) vs 16.5%(인터넷) 구분은 캡처를 보지 않았으면 만들 수 없었던 정보이득이다.
+  게이트4 충족 — 국세청 「근로소득 > 세액공제」 원문 캡처 확보(2026-09-07).
+  전문 sources/nts-pension-account-tax-credit.md. 검색 요약의 숫자는 끝까지 쓰지 않았고,
+  본문 수치는 전부 원문에서 나왔다.
+  계산 검산 — 600×16.5%=99만원, 600×13.2%=79.2만원, 900×16.5%=148.5만원,
+  900×13.2%=118.8만원, 경계 초과 시 차액 148.5−118.8=29.7만원. 소득세 기준으로는
+  600×15%=90만원, 900×15%=135만원, 900×12%=108만원. 모두 재확인했다.
+  [2026-09-07 병합 기록] 이 초안은 루틴 자동 실행분과 사람 요청 수동 초안이 겹쳐 생성됐다.
+  루틴판을 기준으로 두고(측정 검색량·구법 수치 충돌 발견·access-note가 루틴판에만 있었음),
+  수동판에서 제목 조사 제거와 정보이득 두 섹션, 태그 순서를 가져와 합쳤다.
+  제목 16자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈 4단어. 인트로 최상단.
+  FAQ 6개와 JSON-LD 1:1 일치. @id 티스토리 entry 패턴. 종목·상품 추천 표현 없음.
+  하단 면책 문구 포함.
+  3편(ISA 계좌 한도)과의 카니발라이제이션 점검 — 3편은 ISA 계좌의 납입·비과세 한도가
+  중심, 이 글은 연금계좌 세액공제가 중심이라 검색 의도가 다르다. ISA 전환 추가한도
+  부분에서 3편으로 내부 링크를 건다.
+  기관 링크 점검(RULES.md「기관 링크 필수」) — 본문 기관 안내 문장과 하단 참고 출처를
+  전부 링크 처리. 국세청 연금계좌 세액공제 딥링크는 캡처로 페이지가 확인됐으므로
+  이번에 본문 출처 캡션에 걸었다. target="_blank" rel="noopener", nofollow 미부착,
+  href 안 &는 &amp;로 이스케이프.
+  종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
 ---
 
 <p>연금저축과 IRP(개인형 퇴직연금)에 돈을 넣으면 <mark>연말정산이나 종합소득신고 때 세액공제</mark>를 받을 수 있습니다. 다만 한도를 넘겨 넣어도 세액공제가 늘지 않으므로, 얼마까지 넣어야 하는지 먼저 아는 것이 중요합니다.</p>
@@ -121,8 +102,6 @@ self_check: |
     <li>한도를 넘겨 넣은 금액은 세액공제는 없지만, 인출 전까지 과세가 이연됩니다.</li>
   </ul>
 </div>
-
-<p style="background:#fff3cd;border:1px solid #e0a800;border-radius:6px;padding:10px 14px;font-size:14px;color:#7a5c00;">⚠️ 이 초안은 세액공제 한도·공제율 수치를 국세청 원문으로 아직 확정하지 못한 상태입니다(자동화 세션의 네트워크 접근이 막혀 있음). 아래 표와 계산 예시는 사람이 원문을 캡처해 준 뒤 채워집니다 — capture_guide 참고.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
@@ -147,7 +126,7 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제 한도는 얼마인가요</h2>
 
-<p>세액공제를 받을 수 있는 납입한도는 <b>연금저축 단독</b>인지 <b>IRP를 함께 넣는지</b>에 따라 달라집니다. 정확한 한도는 아래 표가 채워지는 대로 확인하실 수 있습니다.</p>
+<p>세액공제를 받을 수 있는 납입한도는 <b>연금저축 단독</b>인지 <b>IRP를 함께 넣는지</b>에 따라 달라집니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -158,17 +137,22 @@ self_check: |
   </thead>
   <tbody>
     <tr>
-      <td style="border:1px solid #ddd;padding:8px;">연금저축 단독</td>
-      <td style="border:1px solid #ddd;padding:8px;">캡처 필요</td>
+      <td style="border:1px solid #ddd;padding:8px;">연금저축만 납입</td>
+      <td style="border:1px solid #ddd;padding:8px;"><mark>연 600만원</mark></td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd;padding:8px;">연금저축 + IRP 합산</td>
-      <td style="border:1px solid #ddd;padding:8px;">캡처 필요</td>
+      <td style="border:1px solid #ddd;padding:8px;">연금저축 + 퇴직연금(IRP) 합산</td>
+      <td style="border:1px solid #ddd;padding:8px;"><mark>연 900만원</mark></td>
     </tr>
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;margin-top:6px;">※ 위 한도는 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 원문 캡처가 반영되는 대로 확정됩니다. 한도를 넘겨 넣은 금액은 세액공제 대상에서 빠지지만, 인출 전까지 과세는 이연됩니다.</p>
+<p style="font-size:13px;color:#888;margin-top:6px;">출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&amp;mi=6439" target="_blank" rel="noopener">국세청 근로소득 세액공제 안내</a>(2026-09-07 확인). 한도를 넘겨 넣은 금액은 세액공제 대상에서 빠지지만, 인출 전까지 과세는 이연됩니다.</p>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
+  <b>한도는 소득과 무관합니다</b>
+  <p style="margin:8px 0 0 0;">예전에는 소득에 따라 납입한도까지 달랐지만, 현재 국세청 표에서는 <b>두 소득 구간의 한도가 600만원(합산 900만원)으로 같습니다.</b> 소득에 따라 달라지는 것은 한도가 아니라 공제율입니다. 오래된 글에는 소득별로 한도가 다르게 적혀 있을 수 있습니다.</p>
+</div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">소득 구간별 공제율은 어떻게 다른가요</h2>
 
@@ -177,39 +161,78 @@ self_check: |
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#f0f4f8;">
-      <th style="border:1px solid #ddd;padding:8px;text-align:left;">소득 구간</th>
-      <th style="border:1px solid #ddd;padding:8px;text-align:left;">공제율</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">종합소득금액(총급여액)</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:right;">공제율</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:right;">지방소득세 포함</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border:1px solid #ddd;padding:8px;">캡처 필요 이하</td>
-      <td style="border:1px solid #ddd;padding:8px;">캡처 필요</td>
+      <td style="border:1px solid #ddd;padding:8px;">4,500만원(5,500만원) 이하</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;"><mark>15%</mark></td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">16.5%</td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd;padding:8px;">캡처 필요 초과</td>
-      <td style="border:1px solid #ddd;padding:8px;">캡처 필요</td>
+      <td style="border:1px solid #ddd;padding:8px;">4,500만원(5,500만원) 초과</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;"><mark>12%</mark></td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">13.2%</td>
     </tr>
   </tbody>
 </table>
 
+<p style="font-size:13px;color:#888;margin-top:6px;">괄호 밖은 종합소득금액(사업소득자 등), 괄호 안은 총급여액(근로소득자) 기준입니다. 출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&amp;mi=6439" target="_blank" rel="noopener">국세청 근로소득 세액공제 안내</a>(2026-09-07 확인).</p>
+
+<div style="background:#fff8e6;border:2px solid #e0a800;border-radius:10px;padding:16px 20px;margin:24px 0;">
+  <strong style="color:#7a5c00;font-size:17px;">15%인가요, 16.5%인가요</strong>
+  <p style="margin:10px 0 0 0;line-height:1.9;">둘 다 맞습니다. 기준이 다를 뿐입니다.</p>
+  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
+    <li><b>15% / 12%</b> — 국세청이 고시하는 <b>소득세</b> 기준 공제율입니다.</li>
+    <li><b>16.5% / 13.2%</b> — 소득세가 줄면 그에 딸린 <b>지방소득세(소득세의 10%)</b>도 함께 줄어드는 효과까지 더한 값입니다. 15% × 1.1 = 16.5%, 12% × 1.1 = 13.2%.</li>
+  </ul>
+  <p style="margin:10px 0 0 0;">체감상 손에 돌아오는 비율은 <mark>16.5% / 13.2%</mark>가 맞습니다. 다만 세법 조문이나 국세청 표를 직접 보면 15% / 12%로 적혀 있어 혼란스러울 수 있는데, 서로 다른 숫자가 아니라 지방소득세를 포함했는지의 차이입니다.</p>
+</div>
+
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 돌려받나요</h2>
 
-<p>한도를 꽉 채워 납입했을 때 실제로 돌려받는 금액은 <mark>납입한도 × 공제율</mark>로 계산합니다. 이 계산 예시는 위 두 표의 수치가 확정된 뒤 채워집니다.</p>
+<p>한도를 꽉 채워 납입했을 때 돌려받는 금액은 <mark>납입한도 × 공제율</mark>로 계산합니다. 아래는 지방소득세를 포함한 실제 체감 금액 기준입니다.</p>
 
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>계산 예시 자리 (캡처 후 작성)</b>
-  <p style="margin:8px 0 0 0;">예: 연금저축만 한도까지 납입한 경우, IRP까지 합산해 한도까지 납입한 경우를 소득 구간별로 각각 계산해 보여줄 예정입니다.</p>
-</div>
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">납입 방식</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">납입액</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">5,500만원 이하<br>(16.5%)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">5,500만원 초과<br>(13.2%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">연금저축만</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">600만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">99만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">79만 2천원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">연금저축 + IRP</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">900만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>148만 5천원</mark></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">118만 8천원</td></tr>
+  </tbody>
+</table>
+
+<p style="font-size:13px;color:#888;">소득세 기준(15% / 12%)으로만 계산하면 각각 90만원·72만원, 135만원·108만원입니다. 위 표는 지방소득세까지 포함한 금액입니다.</p>
+
+<p>흔히 보이는 <b>"최대 148만원 환급"</b>이라는 문구는 <mark>연금저축과 IRP를 합쳐 900만원을 다 넣고, 총급여가 5,500만원 이하인 경우</mark>의 숫자입니다. 조건이 하나라도 다르면 금액이 달라집니다.</p>
+
+<p>총급여가 5,500만원 경계를 넘으면 같은 900만원을 넣어도 <b>29만 7천원</b>이 줄어듭니다. 경계 근처라면 신경 쓸 만한 차이입니다.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IRP와 함께 넣으면 한도가 어떻게 되나요</h2>
 
 <p>연금저축 단독 한도를 넘는 금액을 IRP에 추가로 넣으면, 합산한도까지 세액공제를 더 받을 수 있습니다. 즉 연금저축과 IRP는 <b>경쟁 관계가 아니라 보완 관계</b>입니다.</p>
 
 <ul style="line-height:1.9;">
-  <li>연금저축만 가입한 경우: 연금저축 단독 한도까지만 공제</li>
-  <li>연금저축 + IRP를 함께 가입한 경우: 합산한도까지 공제 (정확한 한도는 캡처 후 반영)</li>
+  <li>연금저축만 가입한 경우: <b>600만원</b>까지만 공제</li>
+  <li>연금저축 + IRP를 함께 가입한 경우: <b>900만원</b>까지 공제</li>
 </ul>
+
+<p>연금저축에 600만원을 채웠다면, 나머지 <mark>300만원은 IRP에 넣어야</mark> 합산한도를 다 쓸 수 있습니다. 연금저축 계좌 하나에 900만원을 넣어도 공제는 600만원까지만 됩니다.</p>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.8;">
+  <b>ISA 만기자금을 옮기면 한도가 늘어납니다</b>
+  <p style="margin:8px 0 0 0;">ISA 계약기간이 만료된 뒤 그 계좌 잔액을 연금계좌로 옮기면, 옮긴 금액이 그해 연금계좌 납입액에 포함되면서 <b>세액공제 한도가 전환금액의 10%(최대 300만원)만큼 늘어납니다.</b> 이 추가한도는 ISA 만기잔액을 연금계좌에 넣은 해에만 적용됩니다.</p>
+  <p style="margin:8px 0 0 0;">ISA 자체의 한도와 비과세 혜택은 따로 정리한 "ISA 계좌 한도와 비과세 혜택" 글을 참고하세요.</p>
+</div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한도까지 넣으면 그 금액을 다 돌려받나요</h2>
 
@@ -261,7 +284,7 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">연금저축과 IRP를 둘 다 가입해야 하나요</summary>
-  <p style="margin:10px 0 0 0;">아니요. 연금저축만으로도 단독 한도까지 세액공제를 받을 수 있습니다. IRP는 그 한도를 넘겨 더 공제받고 싶을 때 추가로 활용하는 계좌입니다.</p>
+  <p style="margin:10px 0 0 0;">아니요. 연금저축만으로도 600만원까지 세액공제를 받을 수 있습니다. 합산 한도 900만원을 다 쓰려면 나머지 300만원을 IRP에 넣어야 합니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
@@ -321,7 +344,7 @@ self_check: |
       "name": "연금저축과 IRP를 둘 다 가입해야 하나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "아니요. 연금저축만으로도 단독 한도까지 세액공제를 받을 수 있습니다. IRP는 그 한도를 넘겨 더 공제받고 싶을 때 추가로 활용하는 계좌입니다."
+        "text": "아니요. 연금저축만으로도 600만원까지 세액공제를 받을 수 있습니다. 합산 한도 900만원을 다 쓰려면 나머지 300만원을 IRP에 넣어야 합니다."
       }
     },
     {
