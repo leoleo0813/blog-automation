@@ -156,7 +156,11 @@
       "serp_check": "WebSearch 확인(2026-09-06) — 상위 8개 중 공식·언론·백과 5개(standardchartered.co.kr, call.nts.go.kr, pwc.com, namu.wiki, skhybank.com). RULES.md 게이트2 기준(5개 이상=탈락) 초과 — 키워드 재선정 검토 필요.",
       "access_note": "nts.go.kr/easylaw.go.kr/google.com/kofia.or.kr 전부 이번 세션 WebFetch가 EGRESS_BLOCKED(세션 전면 차단, 4회 연속 재현). sources/financial-income-comprehensive-tax-access-note.md 참고. RULES.md 1차 출처 접근 표 갱신함.",
       "gate_pass": false,
-      "draft_file": "stock_drafts/financial-income-comprehensive-tax.md"
+      "draft_file": "stock_drafts/financial-income-comprehensive-tax.md",
+      "primary_source": "국세청 국세상담센터 금융소득 Q&A (call.nts.go.kr, 2026-09-07 사람 캡처) — sources/nts-call-financial-income-qna.md. 근거 조문 소득세법 제14조·제62조.",
+      "gate3_note": "해결됨(2026-09-07) — 캡처로 비교과세 산출세액 공식(①② 중 큰 금액)과 2천만원 이하 종합과세 예외(원천징수되지 않은 국외원천 이자·배당소득, 출자공동사업자 배당소득), 신고 시 금융회사 자료 기준 원칙 확보. 상위 경쟁 콘텐츠가 대체로 빠뜨리는 예외 부분이 이 글의 핵심 차별점.",
+      "gate4_note": "충족(2026-09-07) — 국세청 원문 캡처 확보. 종합소득세 기본세율 구간표는 확인 못 해 본문에 옮기지 않고 국세청 세율 페이지로 링크 안내(확인 못 한 숫자는 쓰지 않는다는 원칙 유지, 빈 표는 삭제).",
+      "gate_pass_note": "게이트 1·3·4 충족, 게이트2(경쟁)만 탈락 — 상위 8개 중 공식·언론·백과 5개. 발행하려면 5편과 같은 human_override 결정 필요. 사람이 키워드 유지/재선정 판단해야 함."
     },
     {
       "id": 7,
@@ -176,7 +180,10 @@
       "status": "drafted",
       "draft_path": "stock_drafts/stock-capital-gains-tax-target.md",
       "gate_pass": false,
-      "gate_pass_note": "게이트1 미확인(확인필요) / 게이트2 탈락 확정(공식·금융사 5/6) / 게이트3 충족(국세청 원문의 시장별·연도별 대주주 판정표 반영, 캡처 불필요) / 게이트4 충족(id=2와 동일한 국세청·법제처 1차 출처 재사용, 3주 이내 신선). 게이트3·4는 충족했지만 게이트2 탈락이 확정적이라 사람이 키워드 재선정 여부를 먼저 판단해야 발행 가능."
+      "gate_pass_note": "게이트 1·3·4 충족, 게이트2(경쟁)만 탈락 — 상위 6개 중 공식·금융사·준공식 5개. 6편과 같은 상황으로, 발행하려면 human_override 결정 필요.",
+      "primary_source": "국세청 「주식등 양도소득세 - 세액계산요령」(sources/stock-sell-tax-nts.md, 2026-09-04 수집 + 2026-09-07 사람 캡처로 표 재확인) + 법제처 백문백답(sources/easylaw-stock-capital-gains-2026-08-15.md, 2026-09-07 캡처)",
+      "gate4_note": "충족·검증완료(2026-09-07) — 사람이 국세청 원문 대주주 요건 표를 캡처해 제공, 본문 두 표를 원문과 대조해 전부 일치 확인(현행 50억원, K-OTC 벤처 40억원 포함).",
+      "source_conflict_resolved": "법제처 백문백답은 2026-08-15 기준 표기에도 대주주 기준을 1%·10억원으로 적어 국세청 원문(50억원)과 충돌했으나, 국세청 원문이 맞고 법제처 요약 페이지가 갱신 누락인 것으로 확정. 본문 수치 변경 없음."
     },
     {
       "id": 8,
