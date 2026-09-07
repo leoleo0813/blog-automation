@@ -16,6 +16,7 @@ from pathlib import Path
 
 REPO_BLOB_BASE = 'https://github.com/leoleo0813/blog-automation/blob/main'
 THUMBNAIL_CDN_BASE = 'https://cdn.jsdelivr.net/gh/leoleo0813/blog-automation@main/assets/thumbnails'
+QUEUE_PATH = 'stock_beginner_series.json'
 
 # 카카오 text 메시지는 길면 뒤가 잘려서 도착한다(3,289자 메시지에서 맨 끝 링크가
 # 통째로 사라진 사례, 2026-09-05). 넉넉히 잡되 우리가 먼저 자르고 표시해준다.
@@ -75,13 +76,36 @@ def _clip(text, limit):
     return text if len(text) <= limit else text[:limit].rstrip() + '…'
 
 
+def _episode_label(fields):
+    """초안의 slug로 큐에서 몇 편인지 찾아 '8편' 같은 라벨을 만든다.
+
+    큐(stock_beginner_series.json)의 items[].id가 편 번호다. 슬러그가 없거나
+    큐에서 못 찾으면 None을 돌려주고 라벨 없이 진행한다 — 알림이 실패하는 것보다
+    번호가 빠지는 편이 낫다.
+    """
+    slug = fields.get('slug')
+    if not slug:
+        return None
+    try:
+        with open(QUEUE_PATH, encoding='utf-8') as f:
+            queue = json.load(f)
+    except (OSError, ValueError):
+        return None
+    for item in queue.get('items', []):
+        if item.get('slug') == slug and item.get('id'):
+            return f"{item['id']}편"
+    return None
+
+
 def _build_draft_message(fields, file_url):
     gate_pass = fields.get('gate_pass', 'false')
     header = "✅ 게이트 통과" if gate_pass.lower() == 'true' else "⏸ 게이트 미통과 - 발행 보류"
 
     # 링크를 맨 위에 둔다. 카카오 text 메시지는 길면 뒤가 잘려서, 아래쪽에 두면
     # 초안 전문으로 가는 유일한 통로가 통째로 사라진다(2026-09-05 실측).
-    message = f"[주식 초안] {header}\n제목: {fields.get('title', '(제목 없음)')}\n"
+    episode = _episode_label(fields)
+    tag = f"주식 {episode}" if episode else "주식 초안"
+    message = f"[{tag}] {header}\n제목: {fields.get('title', '(제목 없음)')}\n"
     message += f"\n📄 초안 전문 보기:\n{file_url}\n"
 
     message += f"\n월간 검색량: {fields.get('monthly_search_volume', '확인필요')}"
@@ -151,9 +175,13 @@ def main():
             gate_pass = fields.get('gate_pass', 'false').lower() == 'true'
             status = "✅ 게이트 통과" if gate_pass else "⏸ 게이트 미통과 - 발행 보류"
             description = f"{status} · 검색량 {fields.get('monthly_search_volume', '확인필요')}"
+            episode = _episode_label(fields)
+            card_title = fields.get('title', '(제목 없음)')
+            if episode:
+                card_title = f"[{episode}] {card_title}"
             try:
                 send_kakao_feed_message(
-                    title=fields.get('title', '(제목 없음)'),
+                    title=card_title,
                     description=description,
                     image_url=thumb_url,
                     link_url=file_url,
