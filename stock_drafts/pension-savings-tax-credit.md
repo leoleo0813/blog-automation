@@ -4,8 +4,8 @@ title: 연금저축 세액공제 한도와 환급액
 slug: pension-savings-tax-credit
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3400 (큐 등록 시 확인값 — 네이버 키워드도구 재확인은 gate1_pass 참조)
-gate1_pass: 확인필요
+monthly_search_volume: 3180 (PC 800 / 모바일 2380)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-07 — 통과]
   WebSearch "연금저축 세액공제" 상위 7개:
