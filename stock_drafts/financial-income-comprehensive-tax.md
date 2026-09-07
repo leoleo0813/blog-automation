@@ -42,11 +42,8 @@ capture_guide: |
   자료 기준 원칙을 모두 확보. 전문은 sources/nts-call-financial-income-qna.md 에 보존했고
   본문에 반영 완료. 게이트3·4 충족으로 전환.
 
-  남은 판단(캡처가 아니라 사람의 결정 사항): 게이트2(경쟁) 탈락이 그대로다.
-  "금융소득종합과세 2천만원 기준" 상위 8개 중 공식·언론·백과가 5개(국세청 상담센터,
-  스탠다드차타드, 삼일PwC, 나무위키, 새마을금고)로 RULES.md 기준(5개 이상=탈락)을 넘는다.
-  이 키워드를 그대로 발행할지(5편처럼 human_override), 아니면 경쟁이 덜한 각도
-  (예: "국외원천 배당 종합과세" 같은 예외 중심 롱테일)로 재선정할지 결정이 필요하다.
+  게이트2도 2026-09-07 해결됨 — RULES.md 게이트2가 v3로 재조정된 뒤 그 기준으로 재판정해
+  통과(serp_check 참조). 남은 사람 작업은 티스토리에 붙여넣어 발행하는 것뿐이다.
 
   선택 사항(있으면 더 좋은 자료, 없어도 발행 가능):
   종합소득세 기본세율 구간표 — https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667
@@ -56,8 +53,8 @@ capture_guide: |
 self_check: |
   [2026-09-07 사람 캡처 반영 후 재판정]
   게이트1 충족 — 네이버 키워드도구 실측 12,270회(PC 2,590 / 모바일 9,680). 시리즈 최대.
-  게이트2 탈락(변동 없음) — WebSearch(2026-09-06) 상위 8개 중 공식·언론·백과 5개(국세청
-  상담센터, 스탠다드차타드, 삼일PwC, 나무위키, 새마을금고). RULES.md 기준(5개 이상=탈락) 충족.
+  게이트2 충족 — RULES.md 게이트2 v3(2026-09-07 재조정) 기준으로 재판정해 통과.
+  판정 근거는 serp_check 참조(소규모 콘텐츠 3곳 상위 진입, SERP 안 잠김).
   게이트3 충족으로 전환 — 캡처로 확보한 비교과세 공식(①② 중 큰 금액)을 국세청 표현 그대로
   제시하고, 상위 경쟁 콘텐츠가 대체로 빠뜨리는 두 가지를 추가했다: (a) 2,000만원 이하인데도
   종합과세되는 예외 — 원천징수되지 않은 금융소득(국외원천 이자·배당)과 출자공동사업자 배당소득,
@@ -73,9 +70,12 @@ self_check: |
   @id를 티스토리 entry 패턴으로 지정. 종목·상품 추천/단정 표현 없음. 하단 고정 문구 포함.
   4편(배당소득세)과의 카니발라이제이션 점검 — 4편은 원천징수 15.4%가 얼마인지가 중심,
   이 글은 합산 2천만원 판단과 비교과세가 중심이라 검색 의도가 다르다. 본문에서 4편으로 안내.
-  종합 판정: 게이트 1·3·4 충족, 게이트 2만 탈락 → gate_pass:false 유지.
-  RULES.md 원칙상 게이트 탈락 글은 발행하지 않으므로, 발행하려면 5편과 같은 human_override
-  결정이 필요하다. 사람이 키워드 유지/재선정을 판단해야 한다.
+  기관 링크 점검(RULES.md 「기관 링크 필수」) — 본문 기관 안내 문장 3곳(홈택스 신고 안내 2,
+  국세청 세율표 안내 1) 전부 링크 처리, 하단 참고 출처 5개 전부 링크 처리. 모두
+  target="_blank" rel="noopener"이며 정부·공공기관이라 nofollow는 붙이지 않았다.
+  href 안의 &는 &amp;로 이스케이프했다.
+  종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 5편식 human_override가 아니라
+  게이트2 기준 자체를 v3로 고친 뒤 정식 통과한 것이다. 발행 가능.
 ---
 
 <p>금융소득종합과세는 <mark>이자소득과 배당소득을 합쳐 연 2,000만원을 넘을 때</mark> 적용되는 제도입니다. 2,000만원까지는 원천징수로 끝나고, 넘은 부분만 다른 소득과 합산해 다시 계산됩니다.</p>
@@ -109,7 +109,7 @@ self_check: |
   <li><b>배당소득 예시:</b> 국내외 주식 배당금, 펀드(집합투자기구) 분배금 등</li>
 </ul>
 
-<p style="font-size:13px;color:#888;">출처: 국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」(2024년 5월 발간) · 법제처 찾기쉬운 생활법령정보(easylaw.go.kr, 2026-08-15 기준).</p>
+<p style="font-size:13px;color:#888;">출처: <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 공식 책자 「2024년 해외주식과 세금(개인투자자용)」(2024년 5월 발간) · <a href="https://easylaw.go.kr" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a>(2026-08-15 기준).</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 기준은 어떻게 계산하나요</h2>
 
@@ -159,7 +159,7 @@ self_check: |
   위 식에서 <b>2천만원까지는 언제나 14%로 계산</b>된다는 점을 눈여겨보세요. 누진세율(기본세율)이 붙는 건 <b>2천만원을 넘은 부분부터</b>입니다. "2천만원을 1원이라도 넘으면 전체 금융소득에 높은 세율이 붙는다"는 이야기가 도는데, 계산식 자체가 그렇게 되어 있지 않습니다.
 </div>
 
-<p>식에 들어가는 <b>기본세율</b>은 종합소득세 누진세율(과세표준 구간별 세율과 누진공제액)입니다. 구간표는 해마다 개정될 수 있어 이 글에 옮겨 적지 않고, 국세청 안내 페이지에서 직접 확인하시길 권합니다 — <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="nofollow noopener">국세청 › 종합소득세 › 기본정보 › 세율</a>.</p>
+<p>식에 들어가는 <b>기본세율</b>은 종합소득세 누진세율(과세표준 구간별 세율과 누진공제액)입니다. 구간표는 해마다 개정될 수 있어 이 글에 옮겨 적지 않고, 국세청 안내 페이지에서 직접 확인하시길 권합니다 — <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">국세청 › 종합소득세 › 기본정보 › 세율</a>.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 이하인데도 종합과세되는 경우가 있습니다</h2>
 
@@ -184,11 +184,11 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종합소득세 신고는 어떻게 하나요</h2>
 
-<p>금융소득이 2,000만원을 넘은 해가 있다면, <b>다음 해 5월 1일부터 31일까지</b> 홈택스에서 종합소득세 확정신고를 해야 합니다.</p>
+<p>금융소득이 2,000만원을 넘은 해가 있다면, <b>다음 해 5월 1일부터 31일까지</b> <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 종합소득세 확정신고를 해야 합니다.</p>
 
 <ol style="line-height:1.9;">
   <li>증권사·은행에서 발급하는 이자·배당소득 지급명세서를 확인합니다.</li>
-  <li>홈택스(hometax.go.kr)에 로그인해 <b>종합소득세 신고</b> 메뉴로 들어갑니다.</li>
+  <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스(hometax.go.kr)</a>에 로그인해 <b>종합소득세 신고</b> 메뉴로 들어갑니다.</li>
   <li>금융소득 2,000만원 초과분과 다른 종합소득(근로·사업소득 등)을 함께 입력합니다.</li>
   <li>계산된 세액을 확인하고 신고서를 제출한 뒤 납부합니다.</li>
 </ol>
@@ -237,10 +237,11 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>국세청 국세상담센터 — 금융소득 종합과세 제도, 비교과세 산출세액 계산(소득세법 제62조), 2,000만원 이하 종합과세 예외(소득세법 제14조), 신고 시 기준 자료 (<a href="https://call.nts.go.kr/call/qna/selectQnaInfo.do?mi=1441&amp;ctgId=CTG11775" target="_blank" rel="nofollow noopener">call.nts.go.kr</a>, 2026-09-07 확인)</li>
-    <li>국세청 — 종합소득세 기본세율(과세표준 구간별 세율·누진공제) (<a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="nofollow noopener">nts.go.kr</a>)</li>
-    <li>국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」 — 금융소득종합과세 2,000만원 기준 (2024년 5월 발간)</li>
-    <li>법제처 찾기쉬운 생활법령정보 — 배당소득세 원천징수 15.4% (easylaw.go.kr, 2026-08-15 기준)</li>
+    <li>국세청 국세상담센터 — 금융소득 종합과세 제도, 비교과세 산출세액 계산(소득세법 제62조), 2,000만원 이하 종합과세 예외(소득세법 제14조), 신고 시 기준 자료 (<a href="https://call.nts.go.kr/call/qna/selectQnaInfo.do?mi=1441&amp;ctgId=CTG11775" target="_blank" rel="noopener">call.nts.go.kr</a>, 2026-09-07 확인)</li>
+    <li>국세청 — 종합소득세 기본세율(과세표준 구간별 세율·누진공제) (<a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">nts.go.kr</a>)</li>
+    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 공식 책자 「2024년 해외주식과 세금(개인투자자용)」 — 금융소득종합과세 2,000만원 기준 (2024년 5월 발간)</li>
+    <li><a href="https://easylaw.go.kr" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a> — 배당소득세 원천징수 15.4% (2026-08-15 기준)</li>
+    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> — 종합소득세 확정신고</li>
     <li>기준일: 2026-09-07 (국세청 국세상담센터 확인일)</li>
   </ul>
 </div>

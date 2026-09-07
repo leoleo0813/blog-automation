@@ -22,7 +22,7 @@ serp_check: |
   → 3개 탈락 조건 모두 미해당, 게이트2 통과.
   (참고: 2026-09-06 구 기준 판정에서는 "공식·금융사·준공식 5개"로 탈락 처리됐었다.)
 unique_asset: 시장별(코스피/코스닥/코넥스/비상장) 대주주 판정 기준(지분율·시가총액) 실측표 + 2016~2024년 기준 변화 이력표(종목당 10억원→50억원 상향 등) + 판정 시점(직전 사업연도 종료일) 설명. 국세청 원문에서 그대로 가져온 표라 경쟁 콘텐츠 대비 구체성이 높음.
-primary_source: 국세청 "주식등 양도소득세 - 세액계산요령" 페이지(sources/stock-sell-tax-nts.md, 2026-09-04 수집, https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&mi=12274) + 법제처 찾기쉬운 생활법령정보(sources/stock-sell-tax-law.md, 2026-08-15 기준) — id=2(주식 매도 세금 얼마) 초안에서 이미 사용한 것과 같은 1차 출처를 재사용
+primary_source: 국세청 "주식등 양도소득세 - 세액계산요령" 페이지(sources/stock-sell-tax-nts.md, 2026-09-04 수집, https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274) + 법제처 찾기쉬운 생활법령정보(sources/stock-sell-tax-law.md, 2026-08-15 기준) — id=2(주식 매도 세금 얼마) 초안에서 이미 사용한 것과 같은 1차 출처를 재사용
 source_verified: |
   [2026-09-07] 사람이 국세청 원문 화면을 직접 캡처해 제공 — 본문의 두 표(현행 대주주 기준표,
   2016~2024 연도별 이력표, K-OTC 벤처 40억원 각주 포함)를 원문과 한 줄씩 대조해 전부 일치함을
@@ -47,11 +47,10 @@ gate_pass_note: |
   게이트4: 국세청 원문(2026-09-04 수집 + 2026-09-07 사람 캡처로 표 대조 확인). 법제처
     백문백답과의 수치 충돌(10억 vs 50억)도 국세청 원문 기준으로 해결 완료.
 self_check: |
-  게이트1 미확인 — monthly_search_volume을 확인필요로 남김. 커밋 후 notify-repo-only.yml이
-  네이버 키워드도구로 자동 조회해 채운다(큐 메모의 5,560회는 참고용 추정치일 뿐 추측해 쓰지 않음).
-  게이트2 탈락 — WebSearch로 핵심 키워드 "주식 양도소득세" 상위 6개를 확인한 결과 국세청(정부
-  공식)·KB국민은행·KB캐피탈·토스(금융사 공식 콘텐츠)·한국경제교육원(준공식) 5개가 확인돼
-  RULES.md 기준(5개 이상=탈락)을 충족했다. 이 키워드는 재선정 검토 대상이다.
+  게이트1 충족 — 네이버 키워드도구 실측 4,240회(PC 940 / 모바일 3,300).
+  게이트2 충족 — RULES.md 게이트2 v3(2026-09-07 재조정) 기준으로 재판정해 통과.
+  판정 근거는 serp_check 참조(소규모 세무·핀테크 콘텐츠 3곳 상위 진입, SERP 안 잠김,
+  경쟁 글에 연도 노후화·수치 오류 실재).
   게이트3 충족 — 국세청 원문의 시장별(코스피/코스닥/코넥스/비상장) 대주주 판정 기준표와
   2016~2024년 기준 변화 이력표를 그대로 가져와 반영. "소액주주는 애초에 비과세"라는 원칙을
   먼저 못박고, 판정 시점(직전 사업연도 종료일)까지 명시해 계산예시형·실측표형 정보이득을
@@ -61,9 +60,12 @@ self_check: |
   재사용. 국세청 페이지 수집일 2026-09-04, 법제처 페이지 기준일 2026-08-15로 둘 다 3주 이내
   신선. 대주주 시가총액 기준(10억원→50억원 상향, 2023년 시행)은 KDI 경제교육·정보센터
   자료로도 교차 확인됐으나 본문 출처로는 국세청 원문만 인용했다.
-  종합적으로 gate_pass:false — 게이트3·4는 충족했지만 게이트2 탈락이 확정적이라 사람이
-  키워드 재선정 여부를 먼저 판단해야 발행 가능. keyword_class는 자동화 가능/oneclick 그대로
-  유지 — 이미 확보된 1차 출처만으로 표·계산예시가 완성돼 캡처가 필요 없다.
+  기관 링크 점검(RULES.md 「기관 링크 필수」) — 본문 출처 캡션 2곳과 하단 참고 출처 2개를
+  전부 링크 처리. target="_blank" rel="noopener", 정부·공공기관이라 nofollow 미사용,
+  href 안의 &는 &amp;로 이스케이프.
+  종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 게이트2는 v3 기준 정식 통과이며
+  human_override가 아니다. keyword_class는 자동화 가능/oneclick 유지 — 이미 확보된 1차
+  출처만으로 표가 완성돼 캡처가 필요 없었다(다만 2026-09-07 사람 캡처로 표를 교차 검증했다).
   제목 20자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈 5단어. FAQ 6개와 JSON-LD 1:1
   일치. @id를 티스토리 entry 패턴으로 지정. 종목·상품 추천/단정 표현 없음. 하단 고정 문구 포함.
   id=2(주식 매도 세금 얼마)·id=5(해외주식 양도소득세)와 카니발라이제이션 없음 — 이 글은
@@ -104,7 +106,7 @@ self_check: |
   </ul>
 </div>
 
-<p style="font-size:13px;color:#888;">출처: 국세청 「주식등 양도소득세 - 세액계산요령」(2026-09-04 확인). 증권거래세·세율·신고 방법은 별도로 정리한 "주식 매도 세금 얼마" 글을 참고하세요.</p>
+<p style="font-size:13px;color:#888;">출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 「주식등 양도소득세 - 세액계산요령」</a>(2026-09-04 확인). 증권거래세·세율·신고 방법은 별도로 정리한 "주식 매도 세금 얼마" 글을 참고하세요.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">대주주는 정확히 어떤 기준으로 판정하나요</h2>
 
@@ -138,7 +140,7 @@ self_check: |
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;">출처: 국세청 「주식등 양도소득세 - 세액계산요령」, 2024-01-01 이후 양도분 기준(2026-09-04 확인). K-OTC 벤처기업 주식은 지분율 4% 또는 시가총액 40억원으로 별도 기준이 적용됩니다.</p>
+<p style="font-size:13px;color:#888;">출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 「주식등 양도소득세 - 세액계산요령」</a>, 2024-01-01 이후 양도분 기준(2026-09-07 원문 재확인). K-OTC 벤처기업 주식은 지분율 4% 또는 시가총액 40억원으로 별도 기준이 적용됩니다.</p>
 
 <p>지분율과 시가총액 둘 중 <mark>하나만 넘어도</mark> 대주주가 됩니다. 예를 들어 코스피 종목을 지분율 0.5%만 보유했더라도, 그 주식의 시가총액이 50억원을 넘으면 대주주로 분류됩니다.</p>
 
@@ -223,8 +225,8 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&mi=12274" target="_blank" rel="noopener">국세청 — 주식등 양도소득세 세액계산요령 (2026-09-04 확인)</a></li>
-    <li><a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1701&ccfNo=2&cciNo=3&cnpClsNo=1" target="_blank" rel="noopener">찾기쉬운 생활법령정보(법제처) — 양도소득세·증권거래세 및 배당소득세 (2026-08-15 기준)</a></li>
+    <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 — 주식등 양도소득세 세액계산요령 (2026-09-04 확인)</a></li>
+    <li><a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&amp;csmSeq=1701&amp;ccfNo=2&amp;cciNo=3&amp;cnpClsNo=1" target="_blank" rel="noopener">찾기쉬운 생활법령정보(법제처) — 양도소득세·증권거래세 및 배당소득세 (2026-08-15 기준)</a></li>
   </ul>
 </div>
 
