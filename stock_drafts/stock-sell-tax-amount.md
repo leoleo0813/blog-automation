@@ -19,6 +19,18 @@ self_check: |
   제목 8자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈. FAQ 6개와 JSON-LD 1:1 일치.
   @id를 티스토리 entry 패턴으로 지정. 자동화 가능(oneclick) — 사람은 검토 후 붙여넣기+발행만 하면 됨.
   이미지는 별도 캡처 불필요(oneclick 유형) — 다만 og:image 확보를 위해 참고용 도표 이미지를 원하면 직접 추가 가능.
+correction_2026_09_08: |
+  ★ 이미 발행된 이 글에 오류가 있어 정정했다. 9편(증권거래세 세율) 작업 중 발견 —
+  코스피 증권거래세를 "0.05%"로만 적고 본문 전체에서 농어촌특별세를 한 번도 언급하지
+  않았다. 코스피 매도에는 증권거래세(0.05%) 외에 농어촌특별세(0.15%)가 별도로 붙어
+  실제 부담은 0.2%다(농어촌특별세법 제5조제1항제5호, 증권거래세법 시행령 제5조 —
+  둘 다 법령 원문으로 확인, sources/act-rural-special-tax.md·
+  decree-securities-transaction-tax.md). 100만원 매도 시 원래 계산은 500원이었지만
+  실제 부담은 2,000원 — 4배 차이다.
+  정정 내용: 핵심 요약 불릿, 세율표(농특세·합계 열 추가), 계산 예시 표(코스피=코스닥
+  0.2%로 재계산), FAQ 1개, JSON-LD FAQ 답변, 참고 출처 2개 추가, dateModified 갱신.
+  이 파일(로컬 소스)은 수정 완료. **티스토리에 이미 발행된 본문도 사람이 직접 교체해야
+  실제로 정정된다** — 사용자에게 정정된 섹션을 별도로 전달.
 ---
 
 <p>주식을 팔면 <mark>증권거래세는 누구나 내지만, 양도소득세는 대부분의 개인 투자자가 내지 않습니다.</mark> 국내 상장주식을 증권시장에서 파는 소액주주라면 원칙적으로 양도소득세 대상이 아니기 때문입니다. 이 글에서는 실제 세율로 계산한 예시를 정리했습니다.</p>
@@ -26,7 +38,7 @@ self_check: |
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>증권거래세는 매도 금액에 <b>코스피 0.05%, 코스닥·협회장외 0.2%, 코넥스 0.1%</b>가 자동으로 붙습니다.</li>
+    <li>증권거래세는 매도 금액에 <b>코스피 0.05%, 코스닥·협회장외 0.2%, 코넥스 0.1%</b>가 자동으로 붙습니다. <mark>코스피는 여기에 농어촌특별세 0.15%가 더 붙어 실제 부담은 0.2%로 코스닥과 같습니다.</mark></li>
     <li>양도소득세는 <b>대주주, 비상장주식, 해외주식</b>을 파는 경우에만 냅니다.</li>
     <li>대주주가 아니고 국내 상장주식을 증권시장 안에서 팔면 <b>양도소득세는 0원</b>입니다.</li>
     <li>해외주식은 대주주 여부와 상관없이 <b>연 250만원을 넘는 차익</b>에 세금이 붙습니다.</li>
@@ -58,21 +70,25 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권거래세는 얼마나 내나요</h2>
 
-<p>증권거래세는 <b>주식의 양도가액에 시장별 세율을 곱해</b> 계산합니다. 시장에 따라 세율이 다릅니다.</p>
+<p>증권거래세는 <b>주식의 양도가액에 시장별 세율을 곱해</b> 계산합니다. 시장에 따라 세율이 다릅니다. <mark>코스피는 증권거래세 외에 농어촌특별세가 따로 붙는다는 점에 주의하세요.</mark></p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
     <tr style="background:#eef6ff;">
       <th style="border:1px solid #ccd;padding:10px;text-align:left;">시장 구분</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">세율</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">증권거래세</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">농어촌특별세</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">합계(실제 부담)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">유가증권시장(코스피)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>0.05%</mark></td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">코넥스시장</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.1%</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">코스닥시장 · 금융투자협회 장외 양도</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.2%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">유가증권시장(코스피)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.05%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.15%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>0.2%</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">코넥스시장</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.1%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">−</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.1%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">코스닥시장 · 금융투자협회 장외 양도</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.2%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">−</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.2%</td></tr>
   </tbody>
 </table>
+
+<p style="font-size:13px;color:#888;">코스피 매도자는 증권거래세(0.05%)와 별도로 농어촌특별세(0.15%)를 함께 냅니다. 두 세금이 함께 부과되는 근거와 시장별 세율의 법적 출처는 별도로 정리한 "증권거래세 세율 2026" 글을 참고하세요.</p>
 
 <p>이 세율을 실제 매도 금액에 적용하면 다음과 같습니다.</p>
 
@@ -80,17 +96,19 @@ self_check: |
   <thead>
     <tr style="background:#eef6ff;">
       <th style="border:1px solid #ccd;padding:10px;text-align:left;">매도 금액</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스피(0.05%)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스피(0.2%)</th>
       <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스닥(0.2%)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">100만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">500원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">1,000만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">5,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">20,000원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">100만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1,000만 원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">20,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">20,000원</td></tr>
   </tbody>
 </table>
 
-<p>증권거래세는 <b>매도할 때 증권사가 자동으로 징수</b>합니다. 따로 신고하거나 납부할 필요가 없습니다.</p>
+<p style="font-size:13px;color:#888;">코스피 금액은 증권거래세와 농어촌특별세를 합친 것입니다. 세금 구성만 다를 뿐 코스피와 코스닥의 실제 부담은 같습니다.</p>
+
+<p>증권거래세와 농어촌특별세 모두 <b>매도할 때 증권사가 자동으로 징수</b>합니다. 따로 신고하거나 납부할 필요가 없습니다.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세도 내야 하나요</h2>
 
@@ -159,7 +177,7 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">코스피와 코스닥의 증권거래세율이 다른가요</summary>
-  <p style="margin:10px 0 0 0;">네, 다릅니다. 코스피(유가증권시장)는 0.05%, 코스닥과 금융투자협회 장외 양도는 0.2%, 코넥스는 0.1%입니다.</p>
+  <p style="margin:10px 0 0 0;">증권거래세율 자체는 다릅니다. 코스피(유가증권시장)는 0.05%, 코스닥과 금융투자협회 장외 양도는 0.2%, 코넥스는 0.1%입니다. 다만 코스피는 여기에 농어촌특별세 0.15%가 별도로 붙어, 실제 부담은 코스피와 코스닥이 똑같이 0.2%입니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
@@ -187,6 +205,8 @@ self_check: |
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1701&ccfNo=2&cciNo=3&cnpClsNo=1" target="_blank" rel="noopener">찾기쉬운 생활법령정보(법제처) — 양도소득세·증권거래세 및 배당소득세</a></li>
     <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&mi=12274" target="_blank" rel="noopener">국세청 — 양도소득세 안내</a></li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">증권거래세법 시행령</a>(대통령령 제35947호, 2026-01-01 시행) — 시장별 증권거래세율(탄력세율)</li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">농어촌특별세법</a>(법률 제21611호) — 코스피 농어촌특별세율 0.15% (2026-09-08 정정 반영)</li>
   </ul>
 </div>
 
@@ -214,7 +234,7 @@ self_check: |
       "name": "코스피와 코스닥의 증권거래세율이 다른가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "네, 다릅니다. 코스피(유가증권시장)는 0.05%, 코스닥과 금융투자협회 장외 양도는 0.2%, 코넥스는 0.1%입니다."
+        "text": "증권거래세율 자체는 다릅니다. 코스피(유가증권시장)는 0.05%, 코스닥과 금융투자협회 장외 양도는 0.2%, 코넥스는 0.1%입니다. 다만 코스피는 여기에 농어촌특별세 0.15%가 별도로 붙어, 실제 부담은 코스피와 코스닥이 똑같이 0.2%입니다."
       }
     },
     {
@@ -258,11 +278,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "주식 매도 세금 얼마",
-  "description": "주식을 팔 때 내는 증권거래세와 양도소득세를 법제처·국세청 공식 세율로 계산한 예시로 정리했습니다.",
+  "description": "주식을 팔 때 내는 증권거래세와 양도소득세를 법제처·국세청 공식 세율로 계산한 예시로 정리했습니다. 코스피 매도 시 함께 붙는 농어촌특별세까지 반영했습니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-04",
-  "dateModified": "2026-09-04",
+  "dateModified": "2026-09-08",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/stock-sell-tax-amount"

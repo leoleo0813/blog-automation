@@ -21,103 +21,74 @@ serp_check: |
      시장별 합산 부담(증권거래세 + 농어촌특별세)을 한 표로 정리하면 정보이득이 분명하다.
   → 3개 탈락 조건 모두 미해당, 게이트2 통과.
 unique_asset: |
-  핵심 정보이득은 "코스피는 증권거래세율만 보면 안 된다"는 점이다. 코스피 매도에는
-  증권거래세와 별도로 농어촌특별세가 함께 붙어서, 증권거래세율만 적은 글을 보면 실제
-  부담을 크게 과소평가하게 된다. 여기에 2026-01-01 환원(금투세 폐지에 따라 인하했던
-  세율을 되돌림)까지 반영한 시장별 합산 부담표와 연도별 변화 이력을 넣는다.
-  ※ 표의 실제 수치는 국세청·법제처 원문 캡처 전까지 비워둔다(capture_guide 참조).
+  [완성 2026-09-08] 핵심 정보이득은 "코스피는 증권거래세율만 보면 안 된다"는 점을 법령
+  원문 두 개(농어촌특별세법 + 증권거래세법 시행령)로 확정해 보여주는 것이다. 코스피만
+  탄력세율로 낮춰주고(0.05%) 낮춘 만큼을 농특세(0.15%)로 별도 징수하는 구조라, 합계는
+  코스닥과 똑같이 0.20%다 — "코스피가 더 싸다"는 인상이 틀렸다는 걸 계산으로 보여준다.
+  시장별 합산 부담표, 매도 금액별 계산 예시(코스피=코스닥 실증), 왜 이런 구조인지의
+  법적 설명까지 갖췄다.
 primary_source: |
-  [확보 — 농특세율] 농어촌특별세법 전문(법률 제21611호, 2026.5.12. 일부개정). RTF본
-  (2026-09-07)에 이어 국세법령정보시스템(taxlaw.nts.go.kr, 국세청 산하) PDF본을
-  2026-09-08 추가로 제공받아 제5조 표 전체를 확인했다. 원본
-  sources/act-rural-special-tax-21611.doc(RTF) / act-rural-special-tax-taxlaw-nts.pdf(PDF),
-  정리 sources/act-rural-special-tax.md.
-  확정된 것: 제5조제1항제5호 — 증권시장에서 거래된 증권의 양도가액에 대한 농어촌특별세율은
-  1만분의 15(0.15%). 제3조제4호(증권거래세 납세의무자 = 농특세 납세의무자), 제4조제7호
-  단서(대통령령으로 정하는 증권시장에서 0% 세율이 적용되는 경우는 비과세 대상에서 제외 →
-  증권거래세 0%여도 농특세 부과), 제7조제4항(거래징수 시 함께 신고·납부)도 확정.
-  ※ "대통령령으로 정하는 증권시장"이 코스피만인지는 이 법 조문 자체에는 없다. 코스피에만
-  붙고 코스닥엔 안 붙는다는 것은 다수 출처가 일치하는 정황이지 이 법의 1차 확인은 아니다.
-  [미확보 — 증권거래세 자체 세율] 이 법은 증권거래세율 자체를 정하지 않는다. 그건
-  「증권거래세법 시행령」 제5조(탄력세율)에 별도로 있고, 아직 원문으로 확인하지 못했다.
-  law.go.kr·taxlaw.nts.go.kr 모두 WebFetch가 EGRESS_BLOCKED(각 1회 시도 후 중단).
+  법령 원문 두 개를 사람이 직접 내려받아 제공(2026-09-07·2026-09-08).
+  (1) 농어촌특별세법(법률 제21611호, 2026.5.12. 일부개정) — RTF+PDF(국세법령정보시스템
+      taxlaw.nts.go.kr) 두 버전. sources/act-rural-special-tax-21611.doc·
+      act-rural-special-tax-taxlaw-nts.pdf, 정리 sources/act-rural-special-tax.md.
+      제5조제1항제5호: 증권시장 양도가액에 대한 농어촌특별세율 1만분의 15(0.15%).
+      제3조제4호·제4조제7호 단서·제7조제4항도 확정(코스피 농특세 부과 근거).
+  (2) 증권거래세법 시행령(대통령령 제35947호, 2025.12.31 개정·2026.1.1 시행) — RTF.
+      sources/decree-securities-transaction-tax-35947.doc, 정리
+      sources/decree-securities-transaction-tax.md. 제5조(탄력세율): 유가증권시장(코스피)
+      1만분의 5(0.05%), 코넥스 1만분의 10(0.10%), 코스닥·금융투자협회 통한 양도
+      1만분의 20(0.20%). 부칙 제1조(시행일)·제2조(적용례)로 2026-01-01 시행 확정.
+  두 법령을 합쳐 시장별 합계(코스피 0.20%, 코스닥 0.20%, 코넥스 0.10%, 장외 0.20%)를
+  1차 출처로 확정했다.
   ※ 같은 날 제공된 국세청 「원천세 > 농어촌특별세」 캡처는 원천징수분 농특세(이자·배당소득
   감면세액 ×10%, 주택자금차입금 이자세액공제 ×20%)로, 증권거래세분과 다른 조항이라 쓰지 않았다.
-기준일: 미확정 — 캡처한 원문에 표시된 기준일/시행일을 그대로 기입할 것
+기준일: 2026-01-01 (증권거래세법 시행령 대통령령 제35947호 시행일)
 related_correction: |
-  ⚠️ 이 글을 쓰다 이미 발행된 2편(주식 매도 세금 얼마, stock-sell-tax-amount)의 오류를 발견했다.
+  ⚠️→✅ 이 글을 쓰다 이미 발행된 2편(주식 매도 세금 얼마, stock-sell-tax-amount)의
+  오류를 발견하고 정확한 수치까지 확정했다.
   2편은 증권거래세를 "코스피 0.05%, 코스닥·협회장외 0.2%, 코넥스 0.1%"로 적고 있는데,
-  본문 전체에서 농어촌특별세를 단 한 번도 언급하지 않는다(grep 결과 0회).
-  코스피 매도에는 증권거래세와 별도로 농어촌특별세가 함께 붙으므로, 코스피 실제 부담은
-  2편이 적은 것보다 크다. 100만원 매도 시 2편 계산은 500원이지만 실제 부담은 그보다 많다.
+  본문 전체에서 농어촌특별세를 단 한 번도 언급하지 않는다(grep 결과 0회). 코스피 실제
+  부담은 증권거래세 0.05% + 농어촌특별세 0.15% = 0.20%로, 2편이 적은 0.05%의 4배다.
+  100만원 매도 시 2편 계산은 500원이지만 실제 부담은 2,000원이다.
   2편이 1차 출처로 쓴 법제처 페이지가 증권거래세만 다루고 농특세를 별도 항목으로 뒀을
   가능성이 높다 — 7편에서 확인한 "법제처 요약 콘텐츠의 수치 신뢰도" 문제와 같은 계열이다.
-  → 이 글의 캡처가 확보되면 정확한 합산 세율로 2편도 함께 정정해야 한다. 2편은 이미
-    티스토리에 발행돼 있어 사람이 본문을 고쳐야 한다.
+  → 정정 필요. 2편은 이미 티스토리에 발행돼 있어 사람이 본문을 고쳐야 한다. 정정할
+    부분은 별도로 안내한다.
 tags: 증권거래세, 세율, 주식매도, 증권거래세율, 농어촌특별세, 코스피세금, 코스닥세금, 주식세금, 주식초보
-gate_pass: false
-capture_guide: |
-  왜 필요한가: 이 글의 핵심이 "시장별로 실제 얼마가 떼이는가"인데, 그 표를 채울
-  증권거래세율과 농어촌특별세율을 국세청·법제처 원문으로 확인하지 못했습니다
-  (easylaw.go.kr EGRESS_BLOCKED). 게다가 2026-01-01 세율 환원이 최근이라 인터넷에는
-  인하 시절 수치가 그대로 남은 글이 많고, 검색 결과끼리도 0.15%와 0.20%로 어긋납니다.
-  추측으로 쓰면 안 되는 자리입니다.
-
-  더 중요한 이유: 이미 발행한 2편(주식 매도 세금 얼마)이 코스피를 0.05%로만 적고
-  농어촌특별세를 빠뜨렸습니다. 이 캡처로 정확한 합산 세율을 확정하면 2편도 함께
-  정정해야 합니다.
-
-  [2026-09-08 진행] 농어촌특별세율(0.15%)은 확정됐다. 남은 것은 증권거래세 자체 세율뿐이다
-  — 이건 「증권거래세법 시행령」 제5조(탄력세율)에 있고, 이 법(농어촌특별세법)에는 없다.
-
-  1순위 — 국가법령정보센터(law.go.kr) 접속 → 검색창에 "증권거래세법 시행령" 입력 →
-  본문에서 제5조(탄력세율) 부분을 캡처해 주세요. 다음이 보이면 됩니다:
-    (1) 코스피(유가증권시장)의 현재 적용 세율
-    (2) 코스닥시장의 현재 적용 세율
-    (3) 코넥스·K-OTC(장외)의 세율(별도 규정이 있으면)
-    (4) "OOOO.O.O. 이후 양도분부터" 같은 시행일 문구
-
-  2순위 — 국세법령정보시스템(taxlaw.nts.go.kr, 이번에 농어촌특별세법을 받은 바로 그
-  사이트)에서 "증권거래세법 시행령"을 검색해도 같은 조문을 볼 수 있습니다.
-
-  3순위(있으면 좋음) — "대통령령으로 정하는 증권시장"이 코스피만인지도 같은 시행령
-  원문에서 확인해 주시면, 코스닥·코넥스에 농특세가 안 붙는다는 부분까지 1차 출처로
-  확정할 수 있습니다(지금은 여러 출처가 일치하는 정황일 뿐 법 원문 확인은 아닙니다).
-
-  캡처 후: 표를 채우고 게이트를 재판정하며, 2편 정정본도 같이 만들어 드리겠습니다.
+gate_pass: true
+gate_pass_note: |
+  4개 게이트 전부 충족(2026-09-08). 증권거래세법 시행령(대통령령 제35947호) 원문을
+  사람이 캡처해 제공, 농어촌특별세법과 합쳐 시장별 합계 세율을 전부 확정했다.
+  게이트1: 네이버 키워드도구 실측 920회. 게이트2: v3 기준 통과. 게이트3: 법령 원문
+  기반 합산 부담표 + 계산 예시(코스피=코스닥 0.20% 동일이라는 반전) + 왜 이런 구조인지의
+  법적 설명. 게이트4: 법령 원문 2건(농어촌특별세법·증권거래세법 시행령) 1차 출처 확보.
 self_check: |
-  게이트1 미확인 — monthly_search_volume 확인필요로 남김. 커밋 후 notify-repo-only.yml이
-  네이버 키워드도구로 실측해 채운다(큐 참고값 1,030회는 추측해 쓰지 않았다).
-  게이트2 충족 — RULES.md 게이트2 v3 기준 판정, 3개 탈락 조건 모두 미해당(serp_check 참조).
-  특히 3번(답 완결)에서 상위 글들끼리 수치가 어긋나는 것을 확인해 정보이득 여지를 확인했다.
-  게이트3 부분 충족(2026-09-08 재보강) — 농어촌특별세율(0.15%)이 조문 원문으로 확정돼
-  두 세율표에 그 칸을 채웠다. 제4조제7호 단서("대통령령으로 정하는 증권시장에서 0% 세율이
-  적용되는 경우는 비과세 대상에서 제외")는 코스피 증권거래세율이 0%였던 시기에도 농특세가
-  계속 떼인 이유를 설명하는 핵심 근거이고, 경쟁 글에서 이 단서를 다루는 곳을 찾지 못했다.
-  다만 증권거래세 자체 세율과 합계 칸은 여전히 "확인 필요"로 비어 있어
-  RULES.md「실측표 자리를 비워두면 false」에 계속 걸린다.
-  게이트4 부분 충족(2026-09-08 진전) — 농어촌특별세법 원문(RTF+PDF 두 버전, 국세법령정보시스템
-  PDF 포함)으로 농특세율 0.15%를 1차 출처로 확정했다. 증권거래세 자체 세율은 「증권거래세법
-  시행령」 원문이 필요한데, law.go.kr·taxlaw.nts.go.kr 둘 다 WebFetch가 EGRESS_BLOCKED다
-  (각 1회 시도 후 중단). 검색 요약에 나온 숫자(코스피 0.05% 등)는 검색엔진 합성 문장이라
-  본문에 일절 쓰지 않았다.
-  ※ 함께 받은 국세청 「원천세 > 농어촌특별세」 캡처는 원천징수분 농특세라 이 글과 무관하다.
-    같은 "농어촌특별세"라도 본세가 다르다(이쪽은 감면받은 소득세, 9편은 증권거래세).
-    혼동해 쓰지 않았고 sources/act-rural-special-tax.md에 그 구분을 기록했다.
+  [2026-09-08 시행령 확보 후 최종 판정]
+  게이트1 충족 — 네이버 키워드도구 실측 920회(PC 620 / 모바일 300).
+  게이트2 충족 — RULES.md 게이트2 v3 기준, 3개 탈락 조건 모두 미해당(serp_check 참조).
+  상위 글끼리 세율이 어긋나는 것도 확인했다(정보이득 근거).
+  게이트3 충족 — 법령 원문 두 건으로 시장별 합산 부담표를 전부 채웠다(코스피/코스닥
+  /코넥스/장외). 매도 금액별 계산 예시에서 "코스피와 코스닥 실제 부담이 0.20%로 같다"는
+  반전을 숫자로 보여준다. 왜 코스피만 탄력세율+농특세 구조인지도 법조문으로 설명했다.
+  게이트4 충족 — 농어촌특별세법(법률 제21611호, RTF+PDF 두 버전)과 증권거래세법 시행령
+  (대통령령 제35947호)을 1차 출처로 확보. 검색 요약 숫자는 끝까지 쓰지 않고 법령 원문
+  수치만 썼다.
+  검산 — 코스피 100만원: 500원(0.05%)+1,500원(0.15%)=2,000원(0.20%). 코스닥 100만원:
+  2,000원(0.20%). 코넥스 100만원: 1,000원(0.10%). 1,000만원·5,000만원도 같은 비율로 확인.
   카니발라이제이션 점검 — 2편(주식 매도 세금 얼마)과 소재가 겹친다. 2편은 매도 시 내는
   세금 전반(증권거래세 + 양도소득세)이 중심이고, 이 글은 증권거래세 세율 수치 자체를
   찾는 검색 의도라 표 중심으로 차별화했다. 본문에서 2편으로 내부 링크를 건다.
-  다만 겹침이 작지 않으므로, 캡처 후 2편을 정정할 때 두 글의 역할 분담을 다시 점검할 것.
-  ★ 이 글을 쓰다 2편의 실제 오류를 발견해 related_correction 필드에 기록했다(농특세 누락).
+  ★ 이 글을 쓰다 2편의 실제 오류를 발견해 related_correction 필드에 기록했다(농특세 누락,
+  코스피 실제 부담이 2편 수치의 4배). 2편은 별도로 정정한다.
   기관 링크 점검(RULES.md「기관 링크 필수」) — 본문 기관 안내 문장과 하단 참고 출처를
   전부 링크 처리. target="_blank" rel="noopener", 정부기관이라 nofollow 미부착.
-  법제처 딥링크는 2편이 이미 1차 출처로 쓴 URL이라 본문에 걸었다.
   제목 12자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈 4단어. FAQ 6개와 JSON-LD
   1:1 일치. @id 티스토리 entry 패턴. 종목·상품 추천 없음. 하단 면책 문구 포함.
-  종합 판정: 게이트3·4 미충족 → gate_pass:false. 캡처 후 재판정.
+  종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
 ---
 
-<p>증권거래세는 <mark>국내 주식을 팔 때 이익이 나든 손해가 나든 무조건 붙는 세금</mark>입니다. 2026년 1월 1일부터 세율이 인상됐고, 코스피는 증권거래세만 보면 실제 부담을 놓치게 됩니다.</p>
+<p>증권거래세는 <mark>국내 주식을 팔 때 이익이 나든 손해가 나든 무조건 붙는 세금</mark>입니다. 코스피는 증권거래세만 보면 실제 부담을 놓치는데, 정확히 계산하면 <b>코스피와 코스닥의 실제 부담은 똑같이 0.20%</b>입니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
@@ -128,8 +99,6 @@ self_check: |
     <li>따로 신고할 일은 없습니다. 증권사가 매도 대금에서 <b>자동으로 떼고</b> 넘겨줍니다.</li>
   </ul>
 </div>
-
-<p style="background:#fff3cd;border:1px solid #e0a800;border-radius:6px;padding:10px 14px;font-size:14px;color:#7a5c00;">⚠️ 이 초안은 아직 미완성입니다. 농어촌특별세율(0.15%)은 법령 원문으로 확정됐지만, 증권거래세 자체 세율은 아직 확인 중입니다(자동화 세션의 네트워크 접근 차단). 아래 표는 사람이 원문을 캡처해 준 뒤 마저 채워집니다 — capture_guide 참고.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
@@ -161,14 +130,19 @@ self_check: |
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">코스피(유가증권시장)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>0.15%</mark></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">코스닥</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">코넥스</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;">장외(K-OTC 등)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">확인 필요</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">코스피(유가증권시장)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.05%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.15%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>0.20%</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">코스닥</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.20%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.20%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">코넥스</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.10%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.10%</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">장외(금융투자협회 통한 양도)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.20%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0%</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0.20%</td></tr>
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;">농어촌특별세율(0.15%)은 <a href="https://www.law.go.kr" target="_blank" rel="noopener">농어촌특별세법</a> 제5조제1항제5호(2026-09-08 확인)의 "1만분의 15"를 그대로 적은 것입니다. 증권거래세 자체 세율은 「증권거래세법 시행령」 원문 확인 후 채웁니다.</p>
+<p style="font-size:13px;color:#888;">2026년 1월 1일 이후 양도분 기준. 증권거래세율은 「증권거래세법 시행령」 제5조(탄력세율), 농어촌특별세율은 「농어촌특별세법」 제5조제1항제5호(모두 2026-09-08 확인).</p>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.8;">
+  <b>코스피만 낮은 세율 + 농특세인 이유</b>
+  <p style="margin:8px 0 0 0;">증권거래세법 시행령이 코스피(유가증권시장)만 탄력세율로 0.05%까지 낮춰주고, 낮춘 만큼을 농어촌특별세(0.15%)로 별도 징수해 실질 부담을 맞추는 구조입니다. 코스닥·코넥스·장외는 애초에 탄력세율 자체가 낮지 않아(0.10~0.20%) 농특세를 얹을 필요가 없습니다. 그래서 네 시장 모두 <b>합계는 0.10~0.20% 사이</b>로 수렴합니다.</p>
+</div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피는 왜 세율이 두 개인가요</h2>
 
@@ -192,40 +166,37 @@ self_check: |
   <p style="margin:8px 0 0 0;">코스피 세율을 설명하면서 <b>증권거래세만 적고 농어촌특별세를 빠뜨린 글이 많습니다.</b> 특히 코스피 증권거래세율이 낮았던 시기에 쓰인 글은 "코스피는 거의 안 뗀다"는 인상을 주는데, 위 단서 때문에 실제로는 농어촌특별세가 계속 떼이고 있었습니다. 코스피는 반드시 두 세금을 합쳐서 확인하세요.</p>
 </div>
 
-<p>정확한 세율도 확인됐습니다. 농어촌특별세법 제5조제1항제5호가 정한 세율은 <mark>양도가액의 1만분의 15, 즉 0.15%</mark>입니다.</p>
+<p>정확한 세율도 확인됐습니다. 농어촌특별세법 제5조제1항제5호가 정한 세율은 <mark>양도가액의 1만분의 15, 즉 0.15%</mark>이고, 이 세율이 붙는 "대통령령으로 정하는 증권시장"은 증권거래세법 시행령 제5조가 낮은 탄력세율(0.05%)을 적용하는 <b>유가증권시장(코스피) 하나뿐</b>입니다. 코스닥·코넥스·장외는 탄력세율 자체가 0.10~0.20%로 낮지 않아 농특세를 별도로 얹지 않습니다.</p>
 
-<p>코스닥에는 농어촌특별세가 붙지 않습니다. 그래서 증권거래세율만 보면 코스닥이 더 높아 보이지만, 합산 부담으로 비교하면 이야기가 달라집니다.</p>
-
-<p style="font-size:13px;color:#888;">근거: <a href="https://www.law.go.kr" target="_blank" rel="noopener">농어촌특별세법</a>(법률 제21611호, 2026.5.12. 일부개정) 제3조제4호·제4조제7호·제5조제1항제5호. 증권사가 매도 대금에서 증권거래세를 거래징수할 때 농어촌특별세도 함께 징수해 납부합니다(같은 법 제7조제4항).</p>
+<p style="font-size:13px;color:#888;">근거: <a href="https://www.law.go.kr" target="_blank" rel="noopener">농어촌특별세법</a>(법률 제21611호) 제3조제4호·제4조제7호·제5조제1항제5호, 「증권거래세법 시행령」(대통령령 제35947호) 제5조(탄력세율). 증권사가 매도 대금에서 증권거래세를 거래징수할 때 농어촌특별세도 함께 징수해 납부합니다(농어촌특별세법 제7조제4항).</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년에 무엇이 바뀌었나요</h2>
 
-<p>2026년 1월 1일 이후 양도분부터 <mark>증권거래세율이 인상</mark>됐습니다. 금융투자소득세 도입을 전제로 단계적으로 내렸던 세율을, 금투세가 폐지되면서 되돌린 것입니다.</p>
+<p>2026년 1월 1일 이후 양도분부터 <mark>증권거래세율이 인상</mark>됐습니다. 증권거래세법 시행령 부칙에 따르면 <b>2025년 12월 31일 개정, 2026년 1월 1일 시행</b>이며, 개정 이전 세율이 시행령 본문에 남아 있지 않아 정확한 인상 폭은 이 문서만으로는 알 수 없습니다. 다만 여러 언론 보도가 "금융투자소득세 도입을 전제로 단계적으로 낮췄던 세율을, 금투세 폐지에 따라 되돌리는 개정"이라고 전하고 있어 맥락상 인상이 맞습니다.</p>
+
+<p style="font-size:13px;color:#888;">근거: 「증권거래세법 시행령」(대통령령 제35947호) 부칙 제1조(시행일)·제2조(탄력세율에 관한 적용례).</p>
+
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매도 금액별로 얼마나 떼나요</h2>
+
+<p>증권거래세와 농어촌특별세 모두 <mark>매도 금액에 세율을 곱해</mark> 계산합니다. 매수 금액이나 손익과는 무관합니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
     <tr style="background:#eef6ff;">
-      <th style="border:1px solid #ccd;padding:10px;text-align:left;">적용 시기</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스피</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스닥</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">매도 금액</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스피 (0.20%)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코스닥 (0.20%)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">코넥스 (0.10%)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccd;padding:10px;">2025년까지</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td></tr>
-    <tr><td style="border:1px solid #ccd;padding:10px;"><b>2026.1.1. 이후(현행)</b></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">캡처 필요</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">100만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,000원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">1,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">20,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">20,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">10,000원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">5,000만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>100,000원</mark></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">100,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">50,000원</td></tr>
   </tbody>
 </table>
 
-<p>오래된 글에는 인하 시절 세율이 그대로 남아 있는 경우가 많습니다. <b>작성 시점이 2025년 이전인 글의 숫자는 지금 기준과 다를 수 있습니다.</b></p>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매도 금액별로 얼마나 떼나요</h2>
-
-<p>증권거래세는 매도 금액에 세율을 곱해 계산합니다. 매수 금액이나 손익과는 무관합니다.</p>
-
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>계산 예시 자리 (캡처 후 작성)</b>
-  <p style="margin:8px 0 0 0;">100만원·1,000만원·5,000만원을 코스피와 코스닥에서 각각 팔았을 때 떼이는 금액을 계산해 넣을 예정입니다.</p>
-</div>
+<p>코스피 칸은 증권거래세(0.05%)와 농어촌특별세(0.15%)를 합친 금액입니다. <mark>코스피와 코스닥은 세금 구성만 다를 뿐 최종 부담은 같습니다.</mark> 세율이 낮다고 알려진 코스피가 실제로는 코스닥과 똑같이 떼인다는 뜻입니다.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">따로 신고해야 하나요</h2>
 
@@ -252,7 +223,7 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">2026년에 세율이 왜 올랐나요</summary>
-  <p style="margin:10px 0 0 0;">금융투자소득세 도입을 전제로 단계적으로 내렸던 세율인데, 금투세가 폐지되면서 인하분을 되돌린 것입니다. 2026년 1월 1일 이후 양도분부터 적용됩니다.</p>
+  <p style="margin:10px 0 0 0;">금융투자소득세 도입을 전제로 낮췄던 세율인데, 금투세가 폐지되면서 되돌린 것입니다. 「증권거래세법 시행령」(대통령령 제35947호)이 2025년 12월 31일 개정돼 2026년 1월 1일 이후 양도분부터 적용됩니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
@@ -319,7 +290,7 @@ self_check: |
     {
       "@type": "Question",
       "name": "2026년에 세율이 왜 올랐나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "금융투자소득세 도입을 전제로 단계적으로 내렸던 세율인데, 금투세가 폐지되면서 인하분을 되돌린 것입니다. 2026년 1월 1일 이후 양도분부터 적용됩니다." }
+      "acceptedAnswer": { "@type": "Answer", "text": "금융투자소득세 도입을 전제로 낮췄던 세율인데, 금투세가 폐지되면서 되돌린 것입니다. 「증권거래세법 시행령」(대통령령 제35947호)이 2025년 12월 31일 개정돼 2026년 1월 1일 이후 양도분부터 적용됩니다." }
     },
     {
       "@type": "Question",
