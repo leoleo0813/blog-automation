@@ -5,7 +5,7 @@ slug: stock-option-tax
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 130 (PC 40 / 모바일 90)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요, 2026-09-08 네이버 검색광고 API 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-08 — 통과]
   WebSearch "스톡옵션 행사 세금 근로소득세 계산 벤처기업 특례" 상위 8개:
