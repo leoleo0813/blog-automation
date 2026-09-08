@@ -222,7 +222,7 @@
       "type": "세금",
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
-      "monthly_search_volume": "920 (PC 620 / 모바일 300)",
+      "monthly_search_volume": "960 (PC 650 / 모바일 310)",
       "gate1_pass": true,
       "unique_asset_plan": "코스피/코스닥/코넥스/비상장 시장별 현재 세율표 + 연도별 인하 추이(2021~2026)를 한 표로 정리해 '지금 몇 %인지' 혼선을 끝낸다",
       "primary_source_plan": "국세청(nts.go.kr) 증권거래세 / 기획재정부 보도자료(막히면 사람 캡처)",
