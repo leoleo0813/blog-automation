@@ -5,7 +5,7 @@ slug: stock-gift-tax
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 1030 (PC 190 / 모바일 840)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 2026-09-08 네이버 검색광고 API 실측)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-08 — 통과]
   WebSearch "주식 증여세 계산 상장주식 평가방법" + "주식 증여세 증여재산공제 세율"
