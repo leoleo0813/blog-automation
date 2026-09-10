@@ -5,7 +5,7 @@ slug: us-stock-tax
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 6660 (PC 1050 / 모바일 5610)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 2026-09-10 네이버 검색광고 API 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-10 — 통과]
   WebSearch "미국주식 상속세 비거주 외국인 상속세 기초공제" 상위 결과:

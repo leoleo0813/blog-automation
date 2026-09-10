@@ -360,7 +360,7 @@
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
       "monthly_search_volume": "6660 (PC 1050 / 모바일 5610)",
-      "gate1_pass": "true (일반 주제 기준 월 500 이상 필요, 2026-09-10 실측)",
+      "gate1_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/us-stock-tax.md",
       "cannibalization_note": "4편(배당소득세)·5편(해외주식 양도소득세 신고방법)은 요약+내부링크로 위임. 이 글은 미국 연방 상속세라는 별도 세목에 집중, 13·14편(한국 상속세)과도 세목이 다름.",
