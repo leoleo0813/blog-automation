@@ -5,7 +5,7 @@ slug: business-succession-deduction
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 2940 (PC 1270 / 모바일 1670)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요, 2026-09-10 네이버 검색광고 API 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-10 — 통과]
   WebSearch "가업상속공제 한도 계산 요건" 상위 8개:
