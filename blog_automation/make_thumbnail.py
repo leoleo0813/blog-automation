@@ -36,33 +36,45 @@ from pathlib import Path
 
 FONT_STACK = "'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"
 
-BASE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="{bg}"/>
-  <rect x="0" y="0" width="14" height="630" fill="{accent}"/>
+\
+# 16편부터: 캔버스를 1200x630(1.9:1, OG 카드 비율)에서 1200x900(4:3)으로 바꿨다.
+# 티스토리 "전체 글" 목록 카드가 실측 약 1.6~1.7:1로, 기존 1.9:1 이미지를
+# object-fit:cover로 채우면 좌우가 크게 잘려서(예: "배우자"의 "배"가 잘려 "우자"만
+# 보임) 제목 텍스트가 목록에서 깨져 보였다. 캔버스를 더 정사각형에 가깝게 좁히고
+# 좌측 여백도 90→160으로 넓혀서, 목록 카드가 어떤 비율로 크롭하든 텍스트가 잘릴
+# 여지를 줄였다. 11~15편 등 기존 썸네일 PNG는 재생성하지 않는다(ensure_thumbnail.py가
+# 이미 존재하는 slug는 건너뜀).
+WIDTH = 1200
+HEIGHT = 900
+MARGIN = 160
 
-  <rect x="90" y="86" width="{tag_width}" height="44" fill="{accent}"/>
-  <text x="112" y="115" font-family="{font}" font-size="24" font-weight="bold" fill="#ffffff">{tag}</text>
-  <rect x="90" y="148" width="150" height="3" fill="{accent}"/>
+BASE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="{bg}"/>
+  <rect x="0" y="0" width="14" height="900" fill="{accent}"/>
+
+  <rect x="160" y="150" width="{tag_width}" height="44" fill="{accent}"/>
+  <text x="182" y="179" font-family="{font}" font-size="24" font-weight="bold" fill="#ffffff">{tag}</text>
+  <rect x="160" y="212" width="150" height="3" fill="{accent}"/>
 
   {title_lines}
   {bottom_block}
 </svg>"""
 
 TITLE_LINE = (
-    '<text x="90" y="{y}" font-family="{font}" font-size="64" font-weight="bold" fill="#ffffff">{text}</text>'
+    '<text x="160" y="{y}" font-family="{font}" font-size="64" font-weight="bold" fill="#ffffff">{text}</text>'
 )
 
-BOTTOM_BAR = '<rect x="0" y="520" width="1200" height="110" fill="{bar_fill}"/>'
+BOTTOM_BAR = '<rect x="0" y="770" width="1200" height="130" fill="{bar_fill}"/>'
 
-DIVIDER = '<rect x="{x}" y="550" width="2" height="30" fill="#ffffff" opacity="0.3"/>'
+DIVIDER = '<rect x="{x}" y="806" width="2" height="30" fill="#ffffff" opacity="0.3"/>'
 
 POINT_ITEM = (
-    '<text x="{x}" y="582" font-family="{font}" font-size="24" font-weight="bold" fill="{accent}">{num}</text>'
-    '<text x="{label_x}" y="582" font-family="{font}" font-size="26" fill="#ffffff">{label}</text>'
+    '<text x="{x}" y="838" font-family="{font}" font-size="24" font-weight="bold" fill="{accent}">{num}</text>'
+    '<text x="{label_x}" y="838" font-family="{font}" font-size="26" fill="#ffffff">{label}</text>'
 )
 
 TAGLINE = (
-    '<text x="90" y="582" font-family="{font}" font-size="24" fill="#ffffff" opacity="0.75">{tag} 더 알아보기</text>'
+    '<text x="160" y="838" font-family="{font}" font-size="24" fill="#ffffff" opacity="0.75">{tag} 더 알아보기</text>'
 )
 
 
@@ -104,11 +116,11 @@ def _wrap_title(title, max_chars=13):
 
 def _build_points_block(points, accent, bg):
     n = len(points)
-    slot_width = 1020 / n
+    slot_width = (WIDTH - MARGIN * 2) / n
     items = []
     dividers = []
     for i, label in enumerate(points):
-        x = 90 + slot_width * i
+        x = MARGIN + slot_width * i
         label_x = x + 42
         items.append(POINT_ITEM.format(
             x=x, label_x=label_x, num=f"{i + 1:02d}", label=label, accent=accent, font=FONT_STACK,
@@ -150,7 +162,7 @@ def _ensure_pillow():
 
 
 def _rasterize_to_png_bytes(svg_text):
-    """svg_text를 헤드리스 Chromium으로 렌더링해 1200x630 PNG 바이트로 반환한다.
+    """svg_text를 헤드리스 Chromium으로 렌더링해 1200x900 PNG 바이트로 반환한다.
     Chromium/Pillow를 못 찾거나 렌더링이 실패하면 None을 반환한다."""
     chrome = _find_chrome()
     if not chrome:
@@ -167,13 +179,13 @@ def _rasterize_to_png_bytes(svg_text):
             subprocess.run(
                 [
                     chrome, '--headless', '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
-                    '--window-size=1200,900', '--virtual-time-budget=3000',
+                    f'--window-size={WIDTH},{HEIGHT + 300}', '--virtual-time-budget=3000',
                     f'--screenshot={raw_png}', f'file://{svg_path}',
                 ],
                 check=True, timeout=30, capture_output=True,
             )
             cropped = Path(td) / 'cropped.png'
-            Image.open(raw_png).crop((0, 0, 1200, 630)).save(cropped)
+            Image.open(raw_png).crop((0, 0, WIDTH, HEIGHT)).save(cropped)
             return cropped.read_bytes()
         except Exception:
             return None
@@ -182,8 +194,8 @@ def _rasterize_to_png_bytes(svg_text):
 def _wrap_png_as_svg(png_bytes):
     b64 = base64.b64encode(png_bytes).decode('ascii')
     return (
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
-        f'<image href="data:image/png;base64,{b64}" width="1200" height="630"/>'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">'
+        f'<image href="data:image/png;base64,{b64}" width="{WIDTH}" height="{HEIGHT}"/>'
         '</svg>'
     )
 
@@ -199,11 +211,11 @@ def main():
 
     if line2:
         title_lines = '\n  '.join([
-            TITLE_LINE.format(y=280, font=FONT_STACK, text=line1),
-            TITLE_LINE.format(y=356, font=FONT_STACK, text=line2),
+            TITLE_LINE.format(y=460, font=FONT_STACK, text=line1),
+            TITLE_LINE.format(y=556, font=FONT_STACK, text=line2),
         ])
     else:
-        title_lines = TITLE_LINE.format(y=320, font=FONT_STACK, text=line1)
+        title_lines = TITLE_LINE.format(y=510, font=FONT_STACK, text=line1)
 
     if points:
         bottom_block = _build_points_block(points, accent, bg)
