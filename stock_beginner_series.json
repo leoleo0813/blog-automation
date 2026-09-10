@@ -349,6 +349,24 @@
       "primary_source": "13편에서 캡처한 국세청 상속세 항목별 설명 원문 재사용(새 캡처 불필요). sources/nts-inheritance-tax-items.md.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-10). 13편 캡처 자료 재사용으로 신규 캡처 없이 완성."
+    },
+    {
+      "id": 15,
+      "order": 15,
+      "title": "미국주식 세금 종류와 상속세 주의점",
+      "slug": "us-stock-tax",
+      "keyword": "미국주식 세금",
+      "type": "세금",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "6660 (PC 1050 / 모바일 5610)",
+      "gate1_pass": "true (일반 주제 기준 월 500 이상 필요, 2026-09-10 실측)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/us-stock-tax.md",
+      "cannibalization_note": "4편(배당소득세)·5편(해외주식 양도소득세 신고방법)은 요약+내부링크로 위임. 이 글은 미국 연방 상속세라는 별도 세목에 집중, 13·14편(한국 상속세)과도 세목이 다름.",
+      "primary_source": "irs.gov 자동 접근 EGRESS_BLOCKED(1회 시도, 2026-09-10). 독립 다수 전문가 출처(세무매체·미국 회계법인 2곳·로펌) 교차 확인, 상충 없음. sources 문서 없이 self_check에 근거 명시.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족(2026-09-10). IRS 원문 직접 캡처는 못했으나 독립 다수 출처 교차 확인으로 대체, 한계 투명 공개."
     }
   ],
   "backlog": {
