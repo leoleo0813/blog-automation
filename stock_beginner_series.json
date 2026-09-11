@@ -377,6 +377,28 @@
       "gate_pass_note": "4개 게이트 충족(2026-09-10). IRS 원문 직접 캡처는 못했으나 독립 다수 출처 교차 확인으로 대체, 한계 투명 공개.",
       "published_at": "2026-09-11",
       "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
+    },
+    {
+      "id": 16,
+      "order": 16,
+      "title": "배당락일 매수 마감일 계산법",
+      "slug": "dividend-ex-date-buy-deadline",
+      "keyword": "배당락일",
+      "type": "제도",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "3200 (PC 700 / 모바일 2500)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-11 — 통과] WebSearch 상위 7개(brunch.co.kr/kbthink.com/contents.tossinvest.com/modubd.co.kr/m.kbcapital.co.kr/econonews1.com/ttegl.com) 전부 기본 개념(배당기준일 하루 전=배당락일, T+2)만 다루고 2025년 분기배당 확대 개정은 다루지 않음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "T+2 매수마감일 실제 계산 예시 + 2023년 결산배당·2025년 자본시장법 개정(제165조의12)으로 분기배당까지 확대된 '선 배당액 확정, 후 배당기준일 지정' 제도(45일 이내 이사회 결의, 기준일 2주 전 공고).",
+      "primary_source_plan": "nts.go.kr 외 fsc.go.kr/klca.or.kr/kimchang.com/contents.tossinvest.com 4개 도메인 WebFetch 전부 EGRESS_BLOCKED 확인. 8개 독립 출처(금융위/자본시장연구원/로펌 2곳/언론/증권사 리서치/법령정보센터) WebSearch 교차 확인으로 대체.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/dividend-ex-date-buy-deadline.md",
+      "cannibalization_note": "4편(배당소득세 얼마 떼나)은 세금 액수, 이 글은 매수 타이밍·제도 변화를 다뤄 검색 의도가 다르다. 겹침 없음.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-11). 게이트4는 광범위한 EGRESS_BLOCKED 확인 후 8개 독립 출처 교차 검증으로 대체, 한계 투명 공개.",
+      "gate3_note": "T+2 매수마감일 계산 예시 + 2025년 분기배당 확대 개정(구체 절차 포함)으로 정보이득 확보.",
+      "primary_source": "8개 독립 출처(금융위원회 보도자료 스니펫, 자본시장연구원 발간물, 법무법인 김장·신김, 세계일보, IBK투자증권 리서치, 국가법령정보센터 자본시장법 제165조의12 조문번호) WebSearch 교차 확인(2026-09-11). 원문 직접 캡처 불가(EGRESS_BLOCKED) 한계 명시."
     }
   ],
   "backlog": {
@@ -429,6 +451,18 @@
         "keyword": "증여세 신고기한",
         "monthly_search_volume": "5410",
         "hold_reason": "게이트1 통과(5,410회, 2026-09-09 실측, 매우 높은 검색량)하지만 11편이 이미 \"증여받은 날이 속하는 달 말일부터 3개월 이내 신고\"를 다루고 있어 카니벌라이제이션 위험. 가산세·기한후신고 등 11편에 없는 깊이를 확보하면 별도 편으로 재검토."
+      },
+      {
+        "title": "이월과세",
+        "keyword": "이월과세",
+        "monthly_search_volume": "530",
+        "hold_reason": "게이트1 통과(530회, 2026-09-11 실측)하지만 소득세법 제97조의2 주식 이월과세(2025-01-01 신설, 1년 유예기간으로 추정)의 정확한 시행일·기간은 WebSearch 요약에서만 확인, law.go.kr 원문은 EGRESS_BLOCKED로 미확보. 정확한 숫자 확정 전까지는 큐에 올리지 않는다."
+      },
+      {
+        "title": "증여세 기한후신고",
+        "keyword": "증여세 기한후신고",
+        "monthly_search_volume": "600",
+        "hold_reason": "게이트1 통과(600회, 2026-09-11 실측)하지만 무신고·과소신고·기한후신고 가산세율은 국세기본법 원문(정확한 %) 확인이 필요해 사람 캡처 대상. 11편(증여세)과 신고기한이 겹치지 않는 가산세 각도라 차별화는 가능."
       }
     ],
     "failed_gate1": [
@@ -451,6 +485,26 @@
       {
         "keyword": "배당소득세 계산",
         "monthly_search_volume": "40"
+      },
+      {
+        "keyword": "주식 상속세 신고방법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "공모주 청약 방법",
+        "monthly_search_volume": "260"
+      },
+      {
+        "keyword": "주식 액면분할",
+        "monthly_search_volume": "460"
+      },
+      {
+        "keyword": "우선주 보통주 차이",
+        "monthly_search_volume": "300"
+      },
+      {
+        "keyword": "증여세 가산세",
+        "monthly_search_volume": "480"
       }
     ]
   },
