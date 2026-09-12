@@ -473,6 +473,27 @@
       "primary_source": "언론 5곳(fnnews/sisajournal/pointe/jabon/nate)+증권사 공식 6곳(kiwoom/bnkfn/miraeasset/koreainvestment/daolsecurities/wooriib)+KB(kbthink)/법제처(easylaw.go.kr) WebSearch 교차 확인(2026-09-13). moc.krx.co.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시."
     },
     {
+      "id": 21,
+      "order": 21,
+      "title": "증여세 기한후신고 가산세 계산 방법",
+      "slug": "gift-tax-late-filing-penalty",
+      "keyword": "증여세 기한후신고",
+      "type": "세금",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "600 (2026-09-11 실측, backlog.verified 이월)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-12 — 통과] WebSearch 상위(nts.go.kr 공식×2/findsemusa.com 개인상담/casenote.kr 판례/heumtax.com 세무법인/taxly.kr 커뮤니티×2/pkfkorea.com 회계법인/valuetax.co.kr/taxtok.kr) 개인·소규모 세무 콘텐츠 다수 진입, SERP 안 잠김. 상위 글 대부분 구간별 정확한 감면율·계산 예시가 없고, 감면율 구간표 자체가 자료마다 다르게 나오는 혼선까지 확인돼 정보이득 여지 뚜렷함.",
+      "unique_asset_plan": "무신고가산세·과소신고가산세 세율 확정 + 기한후신고 감면율 혼선(수정신고 감면율표와의 혼동 가능성) 정리 + 2026-07-01 납부지연가산세 계산방식 개정 반영.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/gift-tax-late-filing-penalty.md",
+      "cannibalization_note": "11편(주식 증여세 계산 방법)이 신고기한(3개월)은 다루지만 기한후신고·가산세 각도는 다루지 않는다. 본문에서 11편으로 내부 링크. backlog.verified의 '증여세 신고기한'(카니벌라이제이션 우려로 보류)과는 다른 이유로, 이 편은 '늦게 신고하면 어떻게 되는가'라는 별개 각도라 진행했다.",
+      "gate_pass": false,
+      "gate_pass_note": "게이트1·2·3(부분) 충족, 게이트4 미충족. 기한후신고 무신고가산세 감면율 구간이 WebSearch에서 서로 다른 두 표(50/30/20% vs 90/75/50/30/20%, 후자는 수정신고 감면율표와 혼동 가능성)로 나와 원문 대조 없이는 확정 불가. nts.go.kr WebFetch 1회 시도 EGRESS_BLOCKED(google.com 대조군도 차단, 세션 전면 차단 확인). RULES.md 「1차 출처가 막혔을 때」 기준상 '출처마다 수치가 다름' + '세율·감면율 유형 숫자'에 해당해 캡처 요청으로 전환, gate_pass:false로 저장.",
+      "source_conflict": "기한후신고 감면율 구간표가 두 가지로 검색됨: (A) 1개월 이내 50%/1~3개월 30%/3~6개월 20% vs (B) 1개월 이내 90%/1~3개월 75%/3~6개월 50%/6개월~1년 30%/1~1.5년 20%. (B)는 수정신고 감면율표와의 혼동으로 추정되나 국세기본법 제48조 원문 대조 필요.",
+      "capture_guide": "1순위 law.go.kr에서 국세기본법 제48조(가산세 감면 등) 원문 캡처, 2순위 nts.go.kr 「가산세-증여세」(mi=2341&cntntsId=7729), 3순위 같은 사이트 「신고시 유의사항」(mi=2342&cntntsId=7730). 캡처 후 대화에 스크린샷 업로드."
+    },
+    {
       "id": 20,
       "order": 20,
       "title": "반대매매 뜻 미수 신용 상환기한",
@@ -549,12 +570,6 @@
         "keyword": "이월과세",
         "monthly_search_volume": "530",
         "hold_reason": "게이트1 통과(530회, 2026-09-11 실측)하지만 소득세법 제97조의2 주식 이월과세(2025-01-01 신설, 1년 유예기간으로 추정)의 정확한 시행일·기간은 WebSearch 요약에서만 확인, law.go.kr 원문은 EGRESS_BLOCKED로 미확보. 정확한 숫자 확정 전까지는 큐에 올리지 않는다."
-      },
-      {
-        "title": "증여세 기한후신고",
-        "keyword": "증여세 기한후신고",
-        "monthly_search_volume": "600",
-        "hold_reason": "게이트1 통과(600회, 2026-09-11 실측)하지만 무신고·과소신고·기한후신고 가산세율은 국세기본법 원문(정확한 %) 확인이 필요해 사람 캡처 대상. 11편(증여세)과 신고기한이 겹치지 않는 가산세 각도라 차별화는 가능."
       },
       {
         "title": "PER PBR 뜻",
