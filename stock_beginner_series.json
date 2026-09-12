@@ -423,6 +423,28 @@
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-12). 검색량 20,580회로 프로젝트 역대 최고. 게이트4는 fsc.go.kr EGRESS_BLOCKED 확인 후 5개 독립 출처 교차 검증으로 대체, 한계 투명 공개.",
       "gate3_note": "2025년 재개 후 달라진 4가지(상환기간·담보비율 통일, NSDS, 개인 사전교육)로 정보이득 확보.",
       "primary_source": "5개 독립 출처(언론 3곳: asiae.co.kr/mt.co.kr/biz.newdaily.co.kr, 준정부 연구기관 2곳: kcmi.re.kr/eiec.kdi.re.kr) WebSearch 교차 확인(2026-09-12). fsc.go.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시."
+    },
+    {
+      "id": 18,
+      "order": 18,
+      "title": "코스피 코스닥 차이 상장폐지 기준",
+      "slug": "kospi-kosdaq-difference-delisting",
+      "keyword": "코스피 코스닥 차이",
+      "type": "제도",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "2750 (PC 870 / 모바일 1880)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-12 — 통과] WebSearch 상위 7개(kind.krx.co.kr/samsungpop.com/tossbank.com/clobe.ai×2/easylaw.go.kr/namu.wiki) 전부 시장 성격·기본 상장요건 비교까지만 다루고, 2026-07-01 시행 상장폐지 요건 강화(시총·동전주·매출액·공시벌점)는 다루지 않음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "2026-02-12 발표·2026-07-01 시행 「상장폐지 개혁 방안」의 4대 강화 기준(시가총액 코스피300억/코스닥200억, 동전주 신설(30거래일 1,000원 미만→관리종목, 90거래일 중 45거래일 회복 못하면 상장폐지), 매출액 30→50억원, 공시벌점 15→10점)을 코스피/코스닥 비교와 결합.",
+      "primary_source_plan": "fsc.go.kr 1회 WebFetch 시도 EGRESS_BLOCKED 확인(2026-09-12). 법무법인 2곳(daeryunlaw)·법률신문·언론·KB 등 7개 독립 출처 WebSearch 교차 확인으로 대체.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/kospi-kosdaq-difference-delisting.md",
+      "cannibalization_note": "1~17편 어디에도 코스피·코스닥 시장 구조·상장폐지는 다루지 않는다. 겹침 없음.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-12). 게이트4는 fsc.go.kr EGRESS_BLOCKED 확인 후 7개 독립 출처 교차 검증으로 대체, 한계 투명 공개.",
+      "gate3_note": "2026-07-01 시행 상장폐지 요건 강화 4가지(시총·동전주·매출액·공시벌점)로 정보이득 확보.",
+      "primary_source": "7개 독립 출처(법무법인 2곳: daeryunlaw.com/daeryunlaw-comp.com, 법률신문 lawtimes.co.kr, 개인 전문 블로그 brunch.co.kr×2, KB kbthink.com, ebc.com) WebSearch 교차 확인(2026-09-12). fsc.go.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시."
     }
   ],
   "backlog": {
@@ -487,12 +509,6 @@
         "keyword": "증여세 기한후신고",
         "monthly_search_volume": "600",
         "hold_reason": "게이트1 통과(600회, 2026-09-11 실측)하지만 무신고·과소신고·기한후신고 가산세율은 국세기본법 원문(정확한 %) 확인이 필요해 사람 캡처 대상. 11편(증여세)과 신고기한이 겹치지 않는 가산세 각도라 차별화는 가능."
-      },
-      {
-        "title": "코스피 코스닥 차이",
-        "keyword": "코스피 코스닥 차이",
-        "monthly_search_volume": "2750",
-        "hold_reason": "게이트1 통과(2,750회, 2026-09-12 실측). 17편(공매도)에 밀려 대기. 다음 배치에서 우선 검토."
       },
       {
         "title": "PER PBR 뜻",
