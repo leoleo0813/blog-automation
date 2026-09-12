@@ -4,8 +4,8 @@ title: 반대매매 뜻 미수 신용 상환기한
 slug: stock-forced-liquidation-repayment
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 970 (2026-09-12 네이버 키워드도구 실측, backlog.verified에서 승격)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 970회로 충족)
+monthly_search_volume: 970 (PC 150 / 모바일 820)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-12 — 통과]
   WebSearch "반대매매 뜻 미수 신용거래 상환기한" + "반대매매 발생 조건 체결시간 하한가 매도" 상위 종합:

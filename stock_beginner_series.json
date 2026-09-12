@@ -481,7 +481,7 @@
       "type": "제도",
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
-      "monthly_search_volume": "970 (2026-09-12 실측, backlog.verified에서 승격)",
+      "monthly_search_volume": "970 (PC 150 / 모바일 820)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-12 — 통과] WebSearch 상위(kbthink.com×2/v.daum.net/dic.hankyung.com/stockplus.com/namu.wiki/eugenefn.com/clien.net/a-ha.io×3/kakaopaysec.com) 전부 개념 설명까지만 다루고, 미수·신용·담보대출 3종의 기준·상환기한 비교표나 담보유지비율 140%를 실제 숫자에 대입한 계산 예시는 없음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "미수·신용·담보대출 3종 반대매매 기준·상환기한 비교표 + 담보유지비율 140%를 자기담보 400만원+융자금 600만원에 대입해 \"16% 하락하면 반대매매\"를 직접 계산 + 반대매매 회피 타임라인(D+1 추가담보 요구 → D+2 하한가 처분).",
