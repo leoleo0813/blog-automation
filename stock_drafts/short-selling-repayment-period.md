@@ -5,7 +5,7 @@ slug: short-selling-repayment-period
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 20580 (PC 2380 / 모바일 18200)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 프로젝트 역대 최고 검색량)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-12 — 통과]
   WebSearch "공매도 뜻 차입공매도 무차입공매도 초보 설명" 상위 7개:
