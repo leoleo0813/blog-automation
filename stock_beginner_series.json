@@ -401,6 +401,28 @@
       "primary_source": "8개 독립 출처(금융위원회 보도자료 스니펫, 자본시장연구원 발간물, 법무법인 김장·신김, 세계일보, IBK투자증권 리서치, 국가법령정보센터 자본시장법 제165조의12 조문번호) WebSearch 교차 확인(2026-09-11). 원문 직접 캡처 불가(EGRESS_BLOCKED) 한계 명시.",
       "published_at": "2026-09-12",
       "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
+    },
+    {
+      "id": 17,
+      "order": 17,
+      "title": "공매도 뜻과 상환기간 90일",
+      "slug": "short-selling-repayment-period",
+      "keyword": "공매도 뜻",
+      "type": "제도",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "20580 (PC 2380 / 모바일 18200)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-12 — 통과] WebSearch 상위 7개(위키백과/토스뱅크/mofe.go.kr/kbthink.com/ytn.co.kr/kcie.or.kr/나무위키) 전부 사전적 정의(차입·무차입, 업틱룰)까지만 다루고 2025년 재개 후 달라진 4가지(상환기간·담보비율 통일, NSDS, 개인 사전교육)는 다루지 않음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "2025-03-31 공매도 전면 재개와 함께 바뀐 4가지: 상환기간 통일(기관도 개인과 동일 90일, 최대 12개월 연장 — 예전엔 기관에 상환기간 제한이 없어 '기울어진 운동장' 논란), 담보비율 통일, NSDS(공매도 중앙점검시스템) 가동, 개인 최초 참여 시 사전 의무교육.",
+      "primary_source_plan": "fsc.go.kr 1회 WebFetch 시도 EGRESS_BLOCKED 확인(2026-09-12). asiae.co.kr/mt.co.kr/biz.newdaily.co.kr(언론)·kcmi.re.kr/eiec.kdi.re.kr(준정부 연구기관) 5개 독립 출처 WebSearch 교차 확인으로 대체.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/short-selling-repayment-period.md",
+      "cannibalization_note": "1~16편 어디에도 공매도는 다루지 않는다. 겹침 없음.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-12). 검색량 20,580회로 프로젝트 역대 최고. 게이트4는 fsc.go.kr EGRESS_BLOCKED 확인 후 5개 독립 출처 교차 검증으로 대체, 한계 투명 공개.",
+      "gate3_note": "2025년 재개 후 달라진 4가지(상환기간·담보비율 통일, NSDS, 개인 사전교육)로 정보이득 확보.",
+      "primary_source": "5개 독립 출처(언론 3곳: asiae.co.kr/mt.co.kr/biz.newdaily.co.kr, 준정부 연구기관 2곳: kcmi.re.kr/eiec.kdi.re.kr) WebSearch 교차 확인(2026-09-12). fsc.go.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시."
     }
   ],
   "backlog": {
@@ -465,6 +487,30 @@
         "keyword": "증여세 기한후신고",
         "monthly_search_volume": "600",
         "hold_reason": "게이트1 통과(600회, 2026-09-11 실측)하지만 무신고·과소신고·기한후신고 가산세율은 국세기본법 원문(정확한 %) 확인이 필요해 사람 캡처 대상. 11편(증여세)과 신고기한이 겹치지 않는 가산세 각도라 차별화는 가능."
+      },
+      {
+        "title": "코스피 코스닥 차이",
+        "keyword": "코스피 코스닥 차이",
+        "monthly_search_volume": "2750",
+        "hold_reason": "게이트1 통과(2,750회, 2026-09-12 실측). 17편(공매도)에 밀려 대기. 다음 배치에서 우선 검토."
+      },
+      {
+        "title": "PER PBR 뜻",
+        "keyword": "PER PBR 뜻",
+        "monthly_search_volume": "500",
+        "hold_reason": "게이트1 통과(500회, 임계값에 딱 걸침, 2026-09-12 실측). 대기."
+      },
+      {
+        "title": "주식 예수금 뜻",
+        "keyword": "주식 예수금 뜻",
+        "monthly_search_volume": "2470",
+        "hold_reason": "게이트1 통과(2,470회, 2026-09-12 실측). 대기."
+      },
+      {
+        "title": "반대매매 뜻",
+        "keyword": "반대매매 뜻",
+        "monthly_search_volume": "970",
+        "hold_reason": "게이트1 통과(970회, 2026-09-12 실측). 대기."
       }
     ],
     "failed_gate1": [
@@ -507,6 +553,50 @@
       {
         "keyword": "증여세 가산세",
         "monthly_search_volume": "480"
+      },
+      {
+        "keyword": "무상증자 권리락",
+        "monthly_search_volume": "130"
+      },
+      {
+        "keyword": "공모주 청약 증거금 계산",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "상속받은 주식 취득가액",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "신주인수권 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "유상증자 청약 방법",
+        "monthly_search_volume": "170"
+      },
+      {
+        "keyword": "주식 매매수수료 증권거래세 차이",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "양도소득 결손금 이월공제",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "자사주 소각 주가",
+        "monthly_search_volume": "100"
+      },
+      {
+        "keyword": "주식 계좌개설 방법",
+        "monthly_search_volume": "430"
+      },
+      {
+        "keyword": "상한가 하한가 뜻",
+        "monthly_search_volume": "40"
+      },
+      {
+        "keyword": "주식 거래시간 정리",
+        "monthly_search_volume": "20"
       }
     ]
   },
