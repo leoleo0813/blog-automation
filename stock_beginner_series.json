@@ -471,6 +471,26 @@
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 RULES.md 신규 기준(2026-09-12)에 따라 EGRESS_BLOCKED 확인 후 11개 독립 출처 교차 검증으로 진행, 한계 투명 공개.",
       "gate3_note": "종목별 위탁증거금율 차이 + 2026년 5월 시행 예정 증거금 100% 의무 완화 개정으로 정보이득 확보.",
       "primary_source": "언론 5곳(fnnews/sisajournal/pointe/jabon/nate)+증권사 공식 6곳(kiwoom/bnkfn/miraeasset/koreainvestment/daolsecurities/wooriib)+KB(kbthink)/법제처(easylaw.go.kr) WebSearch 교차 확인(2026-09-13). moc.krx.co.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시."
+    },
+    {
+      "id": 20,
+      "order": 20,
+      "title": "반대매매 뜻 미수 신용 상환기한",
+      "slug": "stock-forced-liquidation-repayment",
+      "keyword": "반대매매 뜻",
+      "type": "제도",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "970 (2026-09-12 실측, backlog.verified에서 승격)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-12 — 통과] WebSearch 상위(kbthink.com×2/v.daum.net/dic.hankyung.com/stockplus.com/namu.wiki/eugenefn.com/clien.net/a-ha.io×3/kakaopaysec.com) 전부 개념 설명까지만 다루고, 미수·신용·담보대출 3종의 기준·상환기한 비교표나 담보유지비율 140%를 실제 숫자에 대입한 계산 예시는 없음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "미수·신용·담보대출 3종 반대매매 기준·상환기한 비교표 + 담보유지비율 140%를 자기담보 400만원+융자금 600만원에 대입해 \"16% 하락하면 반대매매\"를 직접 계산 + 반대매매 회피 타임라인(D+1 추가담보 요구 → D+2 하한가 처분).",
+      "status": "drafted",
+      "draft_path": "stock_drafts/stock-forced-liquidation-repayment.md",
+      "cannibalization_note": "19편(주식 예수금 뜻 증거금 100%)과 위탁증거금 개념을 공유하지만, 19편은 \"왜 매수가 거부되는가\"가 중심이고 이 글은 \"빚을 못 갚으면 어떻게 강제매도되는가\"가 중심이라 검색 의도가 다르다. 본문에서 19편으로 내부 링크를 걸었다.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-12). 게이트4는 law.kofia.or.kr 1회 시도 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 증권사 공식 규정설명서 9곳 이상 교차검증으로 진행, 한계 투명 공개.",
+      "primary_source": "law.kofia.or.kr(금융투자협회 법규정보시스템) 원문 1회 시도 EGRESS_BLOCKED(2026-09-12, google.com 대조군도 차단되어 세션 전면 차단으로 판단). 담보유지비율 140%·상환기한 90일/150일은 증권사 공식 규정설명서 9곳(한국투자증권/신한투자증권/미래에셋증권/KB증권/삼성증권/하나증권/교보증권/한양증권/카카오페이증권/유진투자증권) WebSearch 교차 확인, 충돌 없이 일치."
     }
   ],
   "backlog": {
@@ -540,13 +560,7 @@
         "title": "PER PBR 뜻",
         "keyword": "PER PBR 뜻",
         "monthly_search_volume": "500",
-        "hold_reason": "게이트1 통과(500회, 임계값에 딱 걸침, 2026-09-12 실측). 대기."
-      },
-      {
-        "title": "반대매매 뜻",
-        "keyword": "반대매매 뜻",
-        "monthly_search_volume": "970",
-        "hold_reason": "게이트1 통과(970회, 2026-09-12 실측). 대기."
+        "hold_reason": "게이트1 통과(500회, 임계값에 딱 걸침, 2026-09-12 실측). 대기. 개념 설명형이라 CLAUDE.md 7.8의 후순위 방침도 함께 고려할 것."
       }
     ],
     "failed_gate1": [
