@@ -392,13 +392,15 @@
       "serp_check": "[게이트2 v3 판정 2026-09-11 — 통과] WebSearch 상위 7개(brunch.co.kr/kbthink.com/contents.tossinvest.com/modubd.co.kr/m.kbcapital.co.kr/econonews1.com/ttegl.com) 전부 기본 개념(배당기준일 하루 전=배당락일, T+2)만 다루고 2025년 분기배당 확대 개정은 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "T+2 매수마감일 실제 계산 예시 + 2023년 결산배당·2025년 자본시장법 개정(제165조의12)으로 분기배당까지 확대된 '선 배당액 확정, 후 배당기준일 지정' 제도(45일 이내 이사회 결의, 기준일 2주 전 공고).",
       "primary_source_plan": "nts.go.kr 외 fsc.go.kr/klca.or.kr/kimchang.com/contents.tossinvest.com 4개 도메인 WebFetch 전부 EGRESS_BLOCKED 확인. 8개 독립 출처(금융위/자본시장연구원/로펌 2곳/언론/증권사 리서치/법령정보센터) WebSearch 교차 확인으로 대체.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/dividend-ex-date-buy-deadline.md",
       "cannibalization_note": "4편(배당소득세 얼마 떼나)은 세금 액수, 이 글은 매수 타이밍·제도 변화를 다뤄 검색 의도가 다르다. 겹침 없음.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-11). 게이트4는 광범위한 EGRESS_BLOCKED 확인 후 8개 독립 출처 교차 검증으로 대체, 한계 투명 공개.",
       "gate3_note": "T+2 매수마감일 계산 예시 + 2025년 분기배당 확대 개정(구체 절차 포함)으로 정보이득 확보.",
-      "primary_source": "8개 독립 출처(금융위원회 보도자료 스니펫, 자본시장연구원 발간물, 법무법인 김장·신김, 세계일보, IBK투자증권 리서치, 국가법령정보센터 자본시장법 제165조의12 조문번호) WebSearch 교차 확인(2026-09-11). 원문 직접 캡처 불가(EGRESS_BLOCKED) 한계 명시."
+      "primary_source": "8개 독립 출처(금융위원회 보도자료 스니펫, 자본시장연구원 발간물, 법무법인 김장·신김, 세계일보, IBK투자증권 리서치, 국가법령정보센터 자본시장법 제165조의12 조문번호) WebSearch 교차 확인(2026-09-11). 원문 직접 캡처 불가(EGRESS_BLOCKED) 한계 명시.",
+      "published_at": "2026-09-12",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     }
   ],
   "backlog": {
