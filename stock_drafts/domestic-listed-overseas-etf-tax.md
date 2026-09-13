@@ -5,7 +5,7 @@ slug: domestic-listed-overseas-etf-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 1230 (PC 300 / 모바일 930)
-gate1_pass: true (제도·세금 키워드 기준 월 100 이상 필요 — check-keywords.yml 2026-09-13 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-13 — 통과]
   WebSearch "국내상장 해외ETF 세금 배당소득세 종합과세" + "국내상장 해외ETF 세금 계산 예시" +
