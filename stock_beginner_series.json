@@ -614,6 +614,27 @@
       "gate3_note": "할인율 실제 계산 예시 + 상위 검색결과가 다루지 않는 사전공시 의무제도(규모기준·보고시점·허용오차·제재) 정리로 정보이득 확보.",
       "primary_source": "자본시장법 제173조의3·시행령 제200조의3 원문 — law.go.kr/fsc.go.kr/dart.fss.or.kr 3개 도메인 각 1회 시도 EGRESS_BLOCKED(2026-09-13). 법률신문(lawtimes.co.kr)·법무법인 신영(shinkim.com)·Lexology(로펌 클라이언트노트 2건)·경향신문(khan.co.kr) 등 4곳 이상 독립 출처 WebSearch 교차 확인, 핵심 수치 충돌 없이 일치.",
       "backlog_promoted_from": "backlog.verified의 '블록딜 뜻'(650회, 게이트2 미판정으로 대기 중이던 항목, 카니벌라이제이션·게이트1 미달 등 실질 보류 사유 없이 단순 순서 대기였던 유일한 항목)을 이번 편에서 게이트2까지 판정해 승격."
+    },
+    {
+      "id": 27,
+      "order": 27,
+      "title": "숏커버링 뜻과 공매도 잔고 확인법",
+      "slug": "short-covering-balance-check",
+      "keyword": "숏커버링 뜻",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "3,120 (PC 570 / 모바일 2,550)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch \"숏커버링 뜻\" 상위(kbthink.com/esocialtimes.com/namu.wiki/en.wikipedia.org(무관)/dic.hankyung.com/uriphin.com/econowide.com/antfx.kr) 중 uriphin.com·econowide.com·antfx.kr 등 개인/소규모 블로그 3곳 이상 진입, SERP 안 잠김. 상위 결과 전부 \"환매수\" 정의와 숏스퀴즈 비교까지만 다루고, 공매도 순보유잔고 공시 제도(2024-12-01 기준 강화)로 실제 발생 여부를 확인하는 방법은 다루지 않음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "숏커버링/숏스퀴즈 개념 구분(자발적 vs 손실회피 강제성) + 2024-12-01 강화된 공매도 순보유잔고 공시 기준(0.5%→0.01% 이상(1억원 미만 제외) 또는 평가액 10억원 이상)과 data.krx.co.kr 조회 절차, T+2영업일 공시 시차를 상위 검색결과가 다루지 않는 정보이득으로 반영.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/short-covering-balance-check.md",
+      "cannibalization_note": "1~26편 어디에도 숏커버링·공매도 순보유잔고 공시는 다루지 않는다. 17편(공매도 뜻과 상환기간 90일)은 대차거래 상환기한을 다뤄 검색 의도·본문 내용이 겹치지 않는다.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 data.krx.co.kr·fdata.kbsec.com·securities.koreainvestment.com 3개 도메인 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 MBC뉴스·정책브리핑·정부24·금융위원회·KDI·한국투자증권·상상인증권 등 5곳 이상 독립 출처 교차검증으로 진행, 핵심 수치(0.01% 이상(1억원 미만 제외) 또는 평가액 10억원 이상, 시행일 2024-12-01, T+2영업일 공시) 충돌 없이 일치 확인.",
+      "gate3_note": "숏커버링/숏스퀴즈 개념 구분 + 상위 검색결과가 다루지 않는 공매도 순보유잔고 공시 제도(임계값 개정·조회 절차·공시 시차) 정리로 정보이득 확보.",
+      "primary_source": "한국거래소 공매도 순보유잔고 공시 제도 — data.krx.co.kr·fdata.kbsec.com·securities.koreainvestment.com 3개 도메인 각 1회 시도 EGRESS_BLOCKED(2026-09-13). MBC뉴스(imnews.imbc.com)·정책브리핑(korea.kr)·정부24(gov.kr)·금융위원회(fsc.go.kr)·KDI(eiec.kdi.re.kr)·한국투자증권·상상인증권 등 5곳 이상 독립 출처 WebSearch 교차 확인, 핵심 수치 충돌 없이 일치."
     }
   ],
   "backlog": {
@@ -876,6 +897,34 @@
       {
         "keyword": "청약증거금 뜻",
         "monthly_search_volume": "30"
+      },
+      {
+        "keyword": "관리종목 지정 사유",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "신규상장 가격제한폭",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "코넥스 시장 뜻",
+        "monthly_search_volume": "120"
+      },
+      {
+        "keyword": "대차거래 뜻",
+        "monthly_search_volume": "190"
+      },
+      {
+        "keyword": "유통주식수 뜻",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "배당성향 계산법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "리픽싱 뜻",
+        "monthly_search_volume": "160"
       }
     ]
   },
