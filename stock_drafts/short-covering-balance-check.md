@@ -4,8 +4,8 @@ title: 숏커버링 뜻과 공매도 잔고 확인법
 slug: short-covering-balance-check
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 3,120 (PC 570 / 모바일 2,550)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 네이버 키워드도구 실측 2026-09-13)
+monthly_search_volume: 3120 (PC 570 / 모바일 2550)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-13 — 통과]
   WebSearch "숏커버링 뜻" 상위 결과 종합:

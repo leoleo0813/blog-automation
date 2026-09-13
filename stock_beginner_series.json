@@ -624,7 +624,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "3,120 (PC 570 / 모바일 2,550)",
+      "monthly_search_volume": "3120 (PC 570 / 모바일 2550)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch \"숏커버링 뜻\" 상위(kbthink.com/esocialtimes.com/namu.wiki/en.wikipedia.org(무관)/dic.hankyung.com/uriphin.com/econowide.com/antfx.kr) 중 uriphin.com·econowide.com·antfx.kr 등 개인/소규모 블로그 3곳 이상 진입, SERP 안 잠김. 상위 결과 전부 \"환매수\" 정의와 숏스퀴즈 비교까지만 다루고, 공매도 순보유잔고 공시 제도(2024-12-01 기준 강화)로 실제 발생 여부를 확인하는 방법은 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "숏커버링/숏스퀴즈 개념 구분(자발적 vs 손실회피 강제성) + 2024-12-01 강화된 공매도 순보유잔고 공시 기준(0.5%→0.01% 이상(1억원 미만 제외) 또는 평가액 10억원 이상)과 data.krx.co.kr 조회 절차, T+2영업일 공시 시차를 상위 검색결과가 다루지 않는 정보이득으로 반영.",
