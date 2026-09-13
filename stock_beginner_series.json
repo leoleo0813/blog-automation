@@ -557,6 +557,18 @@
       "primary_source": "세율(15.4%/22%/250만원/2천만원)은 4편(배당소득세)·5편(해외주식 양도소득세)·6편(금융소득종합과세)에서 이미 원문 확정한 값 재사용. 계산방식·손익통산·2025년 개편은 KB캐피탈/KB증권(kbcapital.co.kr, kbthink.com)·신한투자증권(shinhansec.com)·키움투자자산운용(kiwoomam.com)·토스(toss.im)·시사저널e(언론)·국제신문(언론)·조세일보(언론)·RISE ETF/하나로ETF/삼성자산운용 공식 고객센터 공지·세무학회 논문(kacpta.or.kr) WebSearch 교차 확인(2026-09-13). nts.go.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시.",
       "batch_candidates_checked": "이번 배치 8개 후보 중 국내상장 해외ETF 세금(1,230회)만 게이트1 통과. 나머지 7개(퇴직연금 IRP 세액공제 20/ETF 상장폐지 요건 20/채권 이자소득세 20/주식 실질주주 확인 20/시간외 단일가매매 220/조각투자 세금 20/선물옵션 양도소득세 20)는 게이트1 미달로 backlog.failed_gate1에 기록.",
       "backlog_reviewed_note": "backlog.verified 중 유일한 '순수 대기' 항목이던 'PER PBR 뜻'(500회)을 먼저 게이트2로 검토했으나, 상위 결과(기획재정부 시사경제용어사전·KB·토스뱅크)가 이미 뜻·계산법·해석법·함정까지 완결된 답을 제공해 정보이득 여지가 없다고 판단, CLAUDE.md 7.8의 개념형 후순위 방침과도 일치해 이번 편 후보에서 제외하고 신규 키워드 브레인스토밍으로 전환. backlog.verified 항목 갱신함."
+    },
+    {
+      "id": 24,
+      "order": 24,
+      "status": "drafted",
+      "keyword": "오버행 뜻",
+      "title": "오버행 뜻 보호예수 해제 확인법",
+      "slug": "overhang-lockup-release-check",
+      "monthly_search_volume": 1000,
+      "gate_pass": true,
+      "draft_path": "stock_drafts/overhang-lockup-release-check.md",
+      "note": "2026-09-13 생성. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후 정부·언론·법무법인(김앤장) 등 5개 이상 독립 출처 교차검증으로 통과."
     }
   ],
   "backlog": {
@@ -621,6 +633,30 @@
         "keyword": "PER PBR 뜻",
         "monthly_search_volume": "500",
         "hold_reason": "게이트1 통과(500회)하나 게이트2 재판정(2026-09-13) — WebSearch \"PER PBR 뜻 계산법\" 상위(기획재정부 시사경제용어사전 mofe.go.kr/KB kbthink.com/토스뱅크/IBK/월급쟁이부자들/lifefin.co.kr) 대부분이 뜻·계산법·해석법·함정까지 이미 완결된 답을 제공해 정보이득 여지를 찾지 못함. CLAUDE.md 7.8의 개념형 후순위 방침과도 일치. 새로운 정보이득 각도(업종별 평균 비교 등)를 찾기 전까지 보류."
+      },
+      {
+        "title": "유상증자 뜻",
+        "keyword": "유상증자 뜻",
+        "monthly_search_volume": "13190",
+        "hold_reason": "게이트1 통과(13,190회, 2026-09-13 실측, 매우 높은 검색량)하지만 게이트2 재판정(2026-09-13) — WebSearch 상위 결과가 kbthink.com(KB, 대형 금융사) x2, 위키백과, 나무위키, help-me.kr(로펌) x2로 완전히 채워져 개인/소규모 콘텐츠 진입 여지가 전혀 없음(탈락조건 1). 새로운 정보이득 각도(실권주 처리, 청약 절차 캡처 등)를 찾기 전까지 보류."
+      },
+      {
+        "title": "무상증자 뜻",
+        "keyword": "무상증자 뜻",
+        "monthly_search_volume": "3020",
+        "hold_reason": "게이트1 통과(3,020회, 2026-09-13 실측)하지만 게이트2 재판정(2026-09-13) — WebSearch 상위 결과가 정책주간지 공감(정부 매체), kbthink.com(KB) x2, help-me.kr(로펌), 증권플러스(핀테크 기업)로 채워져 개인 블로그 진입 여지가 없음(탈락조건 1). 보류."
+      },
+      {
+        "title": "사이드카 뜻",
+        "keyword": "사이드카 뜻",
+        "monthly_search_volume": "1010",
+        "hold_reason": "게이트1 통과(1,010회, 2026-09-13 실측). 게이트2 미판정(24편 오버행 선택으로 이번 배치에서 판정 보류) — 다음 배치에서 상위 SERP 재확인 필요."
+      },
+      {
+        "title": "블록딜 뜻",
+        "keyword": "블록딜 뜻",
+        "monthly_search_volume": "650",
+        "hold_reason": "게이트1 통과(650회, 2026-09-13 실측). 게이트2 미판정(24편 오버행 선택으로 이번 배치에서 판정 보류) — 다음 배치에서 상위 SERP 재확인 필요."
       }
     ],
     "failed_gate1": [
@@ -763,6 +799,50 @@
       {
         "keyword": "선물옵션 양도소득세",
         "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "배우자 증여재산공제",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "공모주 보호예수기간",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "주식대주거래",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "무상감자 유상감자차이",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "전환사채 뜻",
+        "monthly_search_volume": "320"
+      },
+      {
+        "keyword": "자사주소각 세금",
+        "monthly_search_volume": "30"
+      },
+      {
+        "keyword": "배당수익률 계산법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "코스피200 편입요건",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "따상 뜻",
+        "monthly_search_volume": "180"
+      },
+      {
+        "keyword": "자사주 매입 뜻",
+        "monthly_search_volume": "340"
+      },
+      {
+        "keyword": "청약증거금 뜻",
+        "monthly_search_volume": "30"
       }
     ]
   },
