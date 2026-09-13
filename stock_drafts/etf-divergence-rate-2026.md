@@ -4,8 +4,8 @@ title: ETF 괴리율 계산법 관리기준 2026
 slug: etf-divergence-rate-2026
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 850 (PC 320 / 모바일 530, 2026-09-13 실측, check-keywords.yml)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 850회로 충족)
+monthly_search_volume: 850 (PC 320 / 모바일 530)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-13 — 통과]
   WebSearch "ETF 괴리율 뜻 계산 확인하는 방법" 상위 6개:

@@ -522,7 +522,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "850 (PC 320 / 모바일 530, 2026-09-13 실측)",
+      "monthly_search_volume": "850 (PC 320 / 모바일 530)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위 6개(funetf.co.kr/brunch.co.kr/kcie.or.kr/simpleinvest.co.kr/etfdata.net/etflove.com) 전부 괴리율 정의·계산식·기본 해석까지만 다루고, 2026-08-19 시행 괴리율 관리기준 강화(국내 3%→2%, 해외 6%→5%)와 투자유의종목 지정절차 축소는 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "2026-08-19 관리기준 개정 전후 비교표 + 투자유의종목 지정(관리기준 2배 초과)·3거래일 단일가매매·거래정지(3배 초과) 단계표 + NAV·시장가 실제 숫자 계산 예시(31,000원→31,200원, +0.65%) + 한국거래소 KIND에서 괴리율 초과 공시 직접 조회하는 법.",
