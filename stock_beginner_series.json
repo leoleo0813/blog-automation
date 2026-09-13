@@ -565,10 +565,11 @@
       "keyword": "오버행 뜻",
       "title": "오버행 뜻 보호예수 해제 확인법",
       "slug": "overhang-lockup-release-check",
-      "monthly_search_volume": 1000,
+      "monthly_search_volume": "1000 (PC 210 / 모바일 790)",
       "gate_pass": true,
       "draft_path": "stock_drafts/overhang-lockup-release-check.md",
-      "note": "2026-09-13 생성. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후 정부·언론·법무법인(김앤장) 등 5개 이상 독립 출처 교차검증으로 통과."
+      "note": "2026-09-13 생성. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후 정부·언론·법무법인(김앤장) 등 5개 이상 독립 출처 교차검증으로 통과.",
+      "gate1_pass": true
     }
   ],
   "backlog": {
