@@ -570,6 +570,28 @@
       "draft_path": "stock_drafts/overhang-lockup-release-check.md",
       "note": "2026-09-13 생성. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후 정부·언론·법무법인(김앤장) 등 5개 이상 독립 출처 교차검증으로 통과.",
       "gate1_pass": true
+    },
+    {
+      "id": 25,
+      "order": 25,
+      "title": "사이드카 뜻과 발동 조건 2026",
+      "slug": "stock-sidecar-trigger-condition",
+      "keyword": "사이드카 뜻",
+      "type": "제도",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "1010 (2026-09-13 실측, backlog.verified 이월)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위(kbthink.com×2/위키백과/easylaw.go.kr/unanew.com/tossbank.com/namu.wiki/blanclucy.co.kr/easyzetec.com/sidae.com/nice-infomation.com) 중 unanew.com·blanclucy.co.kr·easyzetec.com·sidae.com·nice-infomation.com 등 개인/소규모 콘텐츠 다수 진입, SERP 안 잠김. 상위 글 대부분 기본 정의·발동요건·서킷브레이커 차이까지만 다루고 2026년 이례적으로 급증한 실제 발동 빈도는 다루지 않음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "코스피(±5%)·코스닥(±6%+지수±3%) 발동 요건 비교표 + 실제 숫자 대입 계산 예시(코스피200 선물 350.00pt 가정 시 5%=17.50pt) + 사이드카·서킷브레이커 비교표 + 2026년 실제 발동 빈도(7월 16일 기준 코스피 37회·전체 57회, 예년 대비 이례적 발동이라는 보도).",
+      "status": "drafted",
+      "draft_path": "stock_drafts/stock-sidecar-trigger-condition.md",
+      "cannibalization_note": "1~24편 어디에도 사이드카·프로그램매매 관리제도·서킷브레이커는 다루지 않는다. 겹침 없음.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 law.krx.co.kr 1회 시도 EGRESS_BLOCKED 확인(2026-09-13) 후 RULES.md 2026-09-12 기준에 따라 언론 다수(헤럴드경제/파이낸셜뉴스/서울경제/한국일보 계열/핀포인트뉴스/CBC뉴스)+법제처(공식) 등 8개 이상 독립 출처 교차검증으로 진행, 핵심 수치(±5%/±6%+3%, 1분, 5분 정지, 1일1회, 개장5분·종료40분전 미발동) 충돌 없이 일치 확인. 한계 투명 공개.",
+      "gate3_note": "코스피/코스닥 발동 요건 비교표 + 실제 숫자 계산 예시 + 서킷브레이커 비교표 + 2026년 실제 발동 빈도(코스피 37회·전체 57회, 7/16 기준)로 정보이득 확보.",
+      "primary_source": "한국거래소 유가증권시장업무규정 제16조(law.krx.co.kr) 원문 1회 시도 EGRESS_BLOCKED(2026-09-13). 언론 다수(biz.heraldcorp.com/fnnews.com/hankooki.com/sedaily.com/pinpointnews.co.kr/cbci.co.kr)+법제처(easylaw.go.kr) WebSearch 교차 확인(2026-09-13), 충돌 없이 일치. 2026년 발동 빈도는 파이낸셜뉴스·헤럴드경제·다음뉴스 보도 근거, 계속 갱신되는 수치임을 본문에 명시.",
+      "backlog_promoted_from": "backlog.verified의 '사이드카 뜻'(1,010회, 게이트2 미판정으로 대기 중이던 항목)을 이번 편에서 게이트2까지 판정해 승격."
     }
   ],
   "backlog": {
@@ -646,12 +668,6 @@
         "keyword": "무상증자 뜻",
         "monthly_search_volume": "3020",
         "hold_reason": "게이트1 통과(3,020회, 2026-09-13 실측)하지만 게이트2 재판정(2026-09-13) — WebSearch 상위 결과가 정책주간지 공감(정부 매체), kbthink.com(KB) x2, help-me.kr(로펌), 증권플러스(핀테크 기업)로 채워져 개인 블로그 진입 여지가 없음(탈락조건 1). 보류."
-      },
-      {
-        "title": "사이드카 뜻",
-        "keyword": "사이드카 뜻",
-        "monthly_search_volume": "1010",
-        "hold_reason": "게이트1 통과(1,010회, 2026-09-13 실측). 게이트2 미판정(24편 오버행 선택으로 이번 배치에서 판정 보류) — 다음 배치에서 상위 SERP 재확인 필요."
       },
       {
         "title": "블록딜 뜻",
