@@ -512,6 +512,28 @@
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-12). 게이트4는 law.kofia.or.kr 1회 시도 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 증권사 공식 규정설명서 9곳 이상 교차검증으로 진행, 한계 투명 공개.",
       "primary_source": "law.kofia.or.kr(금융투자협회 법규정보시스템) 원문 1회 시도 EGRESS_BLOCKED(2026-09-12, google.com 대조군도 차단되어 세션 전면 차단으로 판단). 담보유지비율 140%·상환기한 90일/150일은 증권사 공식 규정설명서 9곳(한국투자증권/신한투자증권/미래에셋증권/KB증권/삼성증권/하나증권/교보증권/한양증권/카카오페이증권/유진투자증권) WebSearch 교차 확인, 충돌 없이 일치."
+    },
+    {
+      "id": 22,
+      "order": 22,
+      "title": "ETF 괴리율 계산법 관리기준 2026",
+      "slug": "etf-divergence-rate-2026",
+      "keyword": "ETF 괴리율",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "850 (PC 320 / 모바일 530, 2026-09-13 실측)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위 6개(funetf.co.kr/brunch.co.kr/kcie.or.kr/simpleinvest.co.kr/etfdata.net/etflove.com) 전부 괴리율 정의·계산식·기본 해석까지만 다루고, 2026-08-19 시행 괴리율 관리기준 강화(국내 3%→2%, 해외 6%→5%)와 투자유의종목 지정절차 축소는 다루지 않음. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "2026-08-19 관리기준 개정 전후 비교표 + 투자유의종목 지정(관리기준 2배 초과)·3거래일 단일가매매·거래정지(3배 초과) 단계표 + NAV·시장가 실제 숫자 계산 예시(31,000원→31,200원, +0.65%) + 한국거래소 KIND에서 괴리율 초과 공시 직접 조회하는 법.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/etf-divergence-rate-2026.md",
+      "cannibalization_note": "10편(ETF 수수료 총보수 실부담 확인법)은 매년 떼는 보수 비용이 중심, 이 글은 거래가격과 NAV의 괴리(가격 왜곡) 문제라 검색 의도가 다르다. 본문에서 10편으로 내부 링크.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 fsc.go.kr 1회 시도 EGRESS_BLOCKED 확인(google.com 대조군도 차단) 후 RULES.md 2026-09-12 기준에 따라 언론 7곳+법률신문+정책브리핑 등 9개 이상 독립 출처 교차검증으로 진행, 핵심 수치(2%/5%, 4%/10%, 3거래일, 3배 기준) 충돌 없이 일치 확인. 신뢰도 낮은 실시간 공시 기준(1%/2%, 출처 2곳뿐)은 본문에서 제외해 한계 투명 공개.",
+      "gate3_note": "2026-08-19 관리기준 강화 + 투자유의종목 지정·거래정지 절차를 계산 예시·비교표·단계표로 정리해 정보이득 확보.",
+      "primary_source": "언론 7곳(fnnews.com×2/dt.co.kr×2/heraldcorp.com/joongangenews.com/ajunews.com/ebn.co.kr/seoulfn.com)+법률신문(lawtimes.co.kr)+정책브리핑(korea.kr) WebSearch 교차 확인(2026-09-13). 금융위원회 원문(fsc.go.kr/no010101/87353) 직접 접속 불가(EGRESS_BLOCKED) 한계 명시.",
+      "batch_candidates_checked": "이번 배치 8개 후보 중 ETF 괴리율(850회)만 게이트1 통과. 나머지 7개(서킷브레이커 사이드카 290/대량보유보고 5%룰 20/신용거래융자 이자율 20/주식 명의개서 정지기간 20/리츠 세금 20/스팩 합병 370/주식 동시호가 250)는 게이트1 미달로 backlog.failed_gate1에 기록."
     }
   ],
   "backlog": {
@@ -662,6 +684,34 @@
       {
         "keyword": "주식 거래시간 정리",
         "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "서킷브레이커 사이드카",
+        "monthly_search_volume": "290"
+      },
+      {
+        "keyword": "대량보유보고 5%룰",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "신용거래융자 이자율",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "주식 명의개서 정지기간",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "리츠 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "스팩 합병",
+        "monthly_search_volume": "370"
+      },
+      {
+        "keyword": "주식 동시호가",
+        "monthly_search_volume": "250"
       }
     ]
   },
