@@ -4,7 +4,7 @@ title: 사이드카 뜻과 발동 조건 2026
 slug: stock-sidecar-trigger-condition
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 1010 (2026-09-13 실측, backlog.verified 이월)
+monthly_search_volume: 1010 (PC 240 / 모바일 770)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-13 — 통과]
