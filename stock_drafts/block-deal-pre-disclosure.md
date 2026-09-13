@@ -4,7 +4,7 @@ title: 블록딜 뜻과 사전공시 의무 확인법
 slug: block-deal-pre-disclosure
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 650 (2026-09-13 실측, backlog.verified 이월)
+monthly_search_volume: 650 (PC 130 / 모바일 520)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-13 — 통과]

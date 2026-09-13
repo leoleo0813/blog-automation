@@ -602,7 +602,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "650 (2026-09-13 실측, backlog.verified 이월)",
+      "monthly_search_volume": "650 (PC 130 / 모바일 520)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch \"블록딜 뜻 계산법\" + \"블록딜 주가 영향 할인율 대량매매\" 상위(sgsg.hankyung.com/kbthink.com/mofe.go.kr×2/thescoop.co.kr/namu.wiki/mna.bridgecode.kr/sisajournal-e.com/cookiedeal.io/sedaily.com/a-ha.io) 중 mna.bridgecode.kr·cookiedeal.io·a-ha.io 등 소규모 콘텐츠·커뮤니티 진입, SERP 안 잠김. 상위 글 대부분 정의+\"통상 5~8% 할인\" 일반론까지만 다루고 2024년 도입된 사전공시 의무제도(자본시장법 제173조의3)는 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "블록딜 할인율 실제 계산 예시(가상 종가 대입) + 2024-07-24 시행 임원·주요주주 사전공시 의무제도(공시 대상 1%/50억원 기준, 6개월 합산, 30~90일 전 보고, 30% 이내 허용오차, 위반시 과징금 최대 20억원+형사처벌)를 상위 검색결과가 다루지 않는 정보이득으로 반영. 사전공시 의무와 실제 매수자 협상 단계를 구분해 혼동 해소.",
