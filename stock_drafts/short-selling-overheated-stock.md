@@ -5,7 +5,7 @@ slug: short-selling-overheated-stock
 keyword_class: human-assisted
 publish_effort: capture
 monthly_search_volume: 1040 (PC 150 / 모바일 890)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 네이버 키워드도구 실측 2026-09-14)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-14 — 통과]
   WebSearch "공매도 과열종목 지정 요건 지정 효과" + "공매도 과열종목 뜻 확인하는 법" 상위 종합:
