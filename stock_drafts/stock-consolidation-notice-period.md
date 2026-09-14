@@ -4,7 +4,7 @@ title: 주식병합 뜻과 공고기간 확인법
 slug: stock-consolidation-notice-period
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1760 (PC 110 / 모바일 1650, 2026-09-14 실측, backlog.verified에서 승격)
+monthly_search_volume: 1760 (PC 110 / 모바일 1650)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-14 — 통과]

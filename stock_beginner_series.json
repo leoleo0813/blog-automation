@@ -708,8 +708,9 @@
       "slug": "stock-consolidation-notice-period",
       "draft_path": "stock_drafts/stock-consolidation-notice-period.md",
       "gate_pass": true,
-      "monthly_search_volume": "1760 (PC 110 / 모바일 1650, 2026-09-14 실측)",
-      "note": "backlog.verified 대기 항목(다음 실행 후보 1순위) 승격. 상법 440조 법정 공고기간(1개월 이상) + DART/KIND 공시 확인법 + 병합비율 계산예시로 게이트3 통과. 게이트4는 law.go.kr/help-me.kr WebFetch 각 1회 EGRESS_BLOCKED 후 4곳 교차검증으로 진행."
+      "monthly_search_volume": "1760 (PC 110 / 모바일 1650)",
+      "note": "backlog.verified 대기 항목(다음 실행 후보 1순위) 승격. 상법 440조 법정 공고기간(1개월 이상) + DART/KIND 공시 확인법 + 병합비율 계산예시로 게이트3 통과. 게이트4는 law.go.kr/help-me.kr WebFetch 각 1회 EGRESS_BLOCKED 후 4곳 교차검증으로 진행.",
+      "gate1_pass": true
     }
   ],
   "backlog": {
