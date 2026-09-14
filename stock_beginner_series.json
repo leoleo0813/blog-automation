@@ -657,6 +657,26 @@
       "source_conflict": "공매도 과열종목 지정 기준이 (A) 비중 30%·하락률 3%·증가배율 2배(시장 구분 없음) vs (B) 비중 20%(코스닥·코넥스 15%)·하락률 5%·증가배율 100% 이상 증가, 두 가지로 검색됨. (A)는 2017년 무렵 언론 보도, (B)는 비교적 최근 요약에서 확인돼 개정으로 (A)→(B) 변경 가능성이 있으나 한국거래소 원문 대조 전까지 미확정.",
       "capture_guide": "1순위 data.krx.co.kr '공매도 과열종목 지정기준' 페이지(menuId=MDC02030402)에서 시장별 지정기준 표 캡처, 2순위 같은 사이트 공매도 과열종목 통계 화면(MMCSRTS007.cmd), 3순위 fsc.go.kr에서 '공매도 과열종목' 검색 후 최신 개정 보도자료 캡처. 캡처 후 스크린샷을 대화에 올려주세요.",
       "batch_candidates_checked": "이번 배치 8개 후보(자사주 처분 신고 20/실권주 청약 방법 40/우회상장 뜻 150/매매거래정지 해제 조건 20/공매도 과열종목 지정 1,040/주식배당 뜻 30/ETF 유동성공급자 20/감자 뜻 530) 중 2개가 게이트1 통과. 검색량이 더 높은 '공매도 과열종목 지정'을 이번 편으로 선택하고, '감자 뜻'(530회, 게이트2 미판정)은 backlog.verified에 다음 편 후보로 기록. 나머지 6개는 backlog.failed_gate1에 기록."
+    },
+    {
+      "id": 29,
+      "order": 29,
+      "title": "감자 뜻과 매매정지 기간 확인법",
+      "slug": "capital-reduction-trading-halt",
+      "keyword": "감자 뜻",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "530 (2026-09-14 네이버 키워드도구 실측)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-14 — 통과] WebSearch \"감자 뜻 유상감자 무상감자 주가 영향\" + \"감자 뜻 주식\" 상위(ko.wikipedia.org 백과/kbthink.com KB공식/namu.wiki 백과/support.stockplus.com 핀테크×2/epsa.or.kr 협회/v.daum.net \"딸을 위한 경제 다이어리\" 개인블로그/zuzu.network 스타트업콘텐츠×2/starrich.co.kr 컨설팅칼럼/economy.manual365.co.kr 개인·소규모) 중 개인/소규모 콘텐츠 4곳 이상 진입, SERP 안 잠김. 상위 결과가 유상·무상감자 정의·실시 이유까지만 다루고 매매거래정지 실제 기간·감자비율 계산 예시·DART 공시 조회 절차는 다루지 않아 정보이득 여지 뚜렷. 3개 탈락 조건 모두 미해당.",
+      "unique_asset_plan": "유상·무상감자 구조 비교표 + 10:1 감자 계산 예시(100주→10주, 주가 10배 재산정) + 무상감자 매매거래정지 기간(감자기준일 1거래일전~변경상장일 전일) + DART 주요사항보고서(감자결정) 조회 절차.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/capital-reduction-trading-halt.md",
+      "cannibalization_note": "1~28편 어디에도 감자(유상감자·무상감자)는 다루지 않는다. backlog.failed_gate1의 '무상감자 유상감자차이'(20회, 게이트1 미달)와 키워드는 다르며 이 글이 해당 각도를 포함해 대체한다.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-14). 게이트4는 kind.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 KRX 공식 해설서 스니펫 + 언론 2곳(메디코파마·뉴스토마토) + 개인 콘텐츠 1곳(economy.manual365.co.kr) 교차검증으로 진행. 매매거래정지 기간은 세율·공제한도류 민감 수치가 아니라 거래소 업무 절차상 고정 기간이라 교차검증으로 충분하다고 판단. 한계는 초안 primary_source·self_check에 투명 공개.",
+      "source_note": "backlog.verified의 '감자 뜻'(530회, hold_reason '단순 순서 대기 항목')을 이번 편으로 승격. 다른 backlog.verified 항목은 전부 카니벌라이제이션 또는 게이트2 실패 사유가 있어 신규 브레인스토밍·check-keywords.yml 실행 없이 바로 착수했다."
     }
   ],
   "backlog": {
@@ -733,12 +753,6 @@
         "keyword": "무상증자 뜻",
         "monthly_search_volume": "3020",
         "hold_reason": "게이트1 통과(3,020회, 2026-09-13 실측)하지만 게이트2 재판정(2026-09-13) — WebSearch 상위 결과가 정책주간지 공감(정부 매체), kbthink.com(KB) x2, help-me.kr(로펌), 증권플러스(핀테크 기업)로 채워져 개인 블로그 진입 여지가 없음(탈락조건 1). 보류."
-      },
-      {
-        "title": "감자 뜻",
-        "keyword": "감자 뜻",
-        "monthly_search_volume": "530",
-        "hold_reason": "게이트1 통과(530회, 2026-09-14 실측)하지만 이번 배치에서 '공매도 과열종목 지정'(1,040회)을 우선 선택해 게이트2 미판정 상태로 대기. 단순 순서 대기 항목 — 다음 실행에서 게이트2부터 검토."
       }
     ],
     "failed_gate1": [
