@@ -711,6 +711,19 @@
       "monthly_search_volume": "1760 (PC 110 / 모바일 1650)",
       "note": "backlog.verified 대기 항목(다음 실행 후보 1순위) 승격. 상법 440조 법정 공고기간(1개월 이상) + DART/KIND 공시 확인법 + 병합비율 계산예시로 게이트3 통과. 게이트4는 law.go.kr/help-me.kr WebFetch 각 1회 EGRESS_BLOCKED 후 4곳 교차검증으로 진행.",
       "gate1_pass": true
+    },
+    {
+      "id": 32,
+      "order": 32,
+      "status": "drafted",
+      "keyword": "자본잠식 뜻",
+      "title": "자본잠식 뜻과 관리종목 상장폐지 기준 2026",
+      "slug": "capital-impairment-delisting-2026",
+      "draft_path": "stock_drafts/capital-impairment-delisting-2026.md",
+      "gate_pass": true,
+      "monthly_search_volume": "1400 (PC 480 / 모바일 920, 2026-09-14 실측)",
+      "note": "backlog.verified 대기 항목(다음 실행 후보 1순위) 승격. 자본잠식률 계산예시 + 코스피(상장규정 제47조)·코스닥(제53조) 관리종목 요건 비교표 + 2026년 반기 기준 완전자본잠식 상장폐지 요건 확대(2026.6.1.~) + 29편(감자)과의 상호참조로 게이트3 통과. 게이트4는 law.krx.co.kr/help-me.kr WebFetch 각 1회 EGRESS_BLOCKED 후 금융위원회 공식 보도자료 포함 5곳 이상 교차검증으로 진행.",
+      "gate1_pass": true
     }
   ],
   "backlog": {
@@ -787,12 +800,6 @@
         "keyword": "무상증자 뜻",
         "monthly_search_volume": "3020",
         "hold_reason": "게이트1 통과(3,020회, 2026-09-13 실측)하지만 게이트2 재판정(2026-09-13) — WebSearch 상위 결과가 정책주간지 공감(정부 매체), kbthink.com(KB) x2, help-me.kr(로펌), 증권플러스(핀테크 기업)로 채워져 개인 블로그 진입 여지가 없음(탈락조건 1). 보류."
-      },
-      {
-        "title": "자본잠식 뜻",
-        "keyword": "자본잠식 뜻",
-        "monthly_search_volume": "1400 (PC 480 / 모바일 920, 2026-09-14 실측)",
-        "hold_reason": "게이트1 통과. 이번 실행(2026-09-14, 31편)에서 검색량이 더 높은 \"주식 병합 뜻\"(1,760회)을 31편으로 승격. 카니벌라이제이션·게이트2 문제 없음 — 단순 순서 대기, 다음 실행 후보 1순위. 29편(감자 뜻) 본문에 자본잠식이 감자 사유로 언급되나 이 글의 주제(자본잠식 자체의 정의·완전자본잠식 기준·관리종목 지정 연계)와는 각도가 달라 카니벌라이제이션으로 보지 않음."
       }
     ],
     "failed_gate1": [
