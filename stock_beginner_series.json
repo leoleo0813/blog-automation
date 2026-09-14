@@ -677,6 +677,28 @@
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-14). 게이트4는 kind.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 KRX 공식 해설서 스니펫 + 언론 2곳(메디코파마·뉴스토마토) + 개인 콘텐츠 1곳(economy.manual365.co.kr) 교차검증으로 진행. 매매거래정지 기간은 세율·공제한도류 민감 수치가 아니라 거래소 업무 절차상 고정 기간이라 교차검증으로 충분하다고 판단. 한계는 초안 primary_source·self_check에 투명 공개.",
       "source_note": "backlog.verified의 '감자 뜻'(530회, hold_reason '단순 순서 대기 항목')을 이번 편으로 승격. 다른 backlog.verified 항목은 전부 카니벌라이제이션 또는 게이트2 실패 사유가 있어 신규 브레인스토밍·check-keywords.yml 실행 없이 바로 착수했다."
+    },
+    {
+      "id": 30,
+      "order": 30,
+      "title": "우선주 뜻과 2우B 표기 확인법",
+      "slug": "preferred-stock-code-meaning",
+      "keyword": "우선주 뜻",
+      "type": "용어·구조",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "3930 (PC 700 / 모바일 3230)",
+      "gate1_pass": true,
+      "serp_check": "WebSearch 확인(2026-09-14) — 상위 7개 중 개인/소규모 콘텐츠 3곳(brunch, cookiedeal.io, keyzard.cc) 진입, SERP 안 잠김. 정의형 검색의도. 상위 결과가 종목명 우/우B/2우B 표기 규칙과 괴리율 확인법은 다루지 않아 정보이득 여지 뚜렷 — 게이트2 v3 통과.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/preferred-stock-code-meaning.md",
+      "cannibalization_note": "1~29편 어디에도 우선주·보통주 구분은 다루지 않는다. 겹침 없음.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-14). 게이트4는 law.go.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 상법 제344조 조문(법무법인·판례정리·백과 4곳)과 2우B 표기 규칙(언론사 포함 4곳)을 각각 교차검증으로 확정. 한계는 draft self_check에 투명 공개.",
+      "unique_asset": "보통주-우선주 비교표(의결권/배당/잔여재산분배/유동성) + 종목명 우·우B·2우B 표기 규칙표(실제 사례 미래에셋증권우/2우B 포함) + 한국거래소 정보데이터시스템에서 괴리율 직접 확인하는 절차.",
+      "primary_source": "국가법령정보센터 상법 제344조·제344조의3 (casenote.kr/위키백과/help-me.kr/shinkim.com 4곳 교차검증, 2026-09-14) + 2우B 표기 규칙 (brunch/위키백과/나무위키/시사저널e 4곳 교차검증, 2026-09-14). law.go.kr 원문 WebFetch는 EGRESS_BLOCKED로 미확보.",
+      "gate3_note": "개념형 키워드라 CLAUDE.md 7.8/RULES.md \"사전형 개념은 정보이득 불가\" 원칙에 걸리므로, 종목명 표기 규칙(2우B 뜻)과 괴리율 확인법이라는 실전 확인법을 결합해 통과(17/26/27/29편과 동일 패턴).",
+      "drafted_at": "2026-09-14"
     }
   ],
   "backlog": {
@@ -753,6 +775,18 @@
         "keyword": "무상증자 뜻",
         "monthly_search_volume": "3020",
         "hold_reason": "게이트1 통과(3,020회, 2026-09-13 실측)하지만 게이트2 재판정(2026-09-13) — WebSearch 상위 결과가 정책주간지 공감(정부 매체), kbthink.com(KB) x2, help-me.kr(로펌), 증권플러스(핀테크 기업)로 채워져 개인 블로그 진입 여지가 없음(탈락조건 1). 보류."
+      },
+      {
+        "title": "주식 병합 뜻",
+        "keyword": "주식 병합 뜻",
+        "monthly_search_volume": "1760 (PC 110 / 모바일 1650, 2026-09-14 실측)",
+        "hold_reason": "게이트1 통과. 이번 실행에서 검색량이 더 높은 \"우선주 뜻\"(3,930회)을 30편으로 우선 승격. 카니벌라이제이션·게이트2 문제 없음 — 단순 순서 대기, 다음 실행 후보 1순위."
+      },
+      {
+        "title": "자본잠식 뜻",
+        "keyword": "자본잠식 뜻",
+        "monthly_search_volume": "1400 (PC 480 / 모바일 920, 2026-09-14 실측)",
+        "hold_reason": "게이트1 통과. 이번 실행에서 검색량이 더 높은 \"우선주 뜻\"(3,930회)·\"주식 병합 뜻\"(1,760회)을 우선 검토. 카니벌라이제이션·게이트2 문제 없음 — 단순 순서 대기, 다음 실행 후보 2순위. 29편(감자 뜻) 본문에 자본잠식이 감자 사유로 언급되나 이 글의 주제(자본잠식 자체의 정의·완전자본잠식 기준·관리종목 지정 연계)와는 각도가 달라 카니벌라이제이션으로 보지 않음."
       }
     ],
     "failed_gate1": [
@@ -991,6 +1025,26 @@
       {
         "keyword": "ETF 유동성공급자",
         "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "물적분할 인적분할 차이",
+        "monthly_search_volume": "40"
+      },
+      {
+        "keyword": "권리락 뜻",
+        "monthly_search_volume": "370"
+      },
+      {
+        "keyword": "관리종목 뜻",
+        "monthly_search_volume": "220"
+      },
+      {
+        "keyword": "ELW 뜻",
+        "monthly_search_volume": "240"
+      },
+      {
+        "keyword": "주식 소수점 거래",
+        "monthly_search_volume": "100"
       }
     ]
   },
