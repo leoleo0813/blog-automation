@@ -4,8 +4,8 @@ title: 감자 뜻과 매매정지 기간 확인법
 slug: capital-reduction-trading-halt
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 530 (2026-09-14 네이버 키워드도구 실측, backlog.verified에서 승격)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 530회로 근소 통과)
+monthly_search_volume: 530 (PC 80 / 모바일 450)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-14 — 통과]
   WebSearch "감자 뜻 유상감자 무상감자 주가 영향" + "감자 뜻 주식" 상위 결과 종합:

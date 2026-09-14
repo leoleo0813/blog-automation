@@ -667,7 +667,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "530 (2026-09-14 네이버 키워드도구 실측)",
+      "monthly_search_volume": "530 (PC 80 / 모바일 450)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-14 — 통과] WebSearch \"감자 뜻 유상감자 무상감자 주가 영향\" + \"감자 뜻 주식\" 상위(ko.wikipedia.org 백과/kbthink.com KB공식/namu.wiki 백과/support.stockplus.com 핀테크×2/epsa.or.kr 협회/v.daum.net \"딸을 위한 경제 다이어리\" 개인블로그/zuzu.network 스타트업콘텐츠×2/starrich.co.kr 컨설팅칼럼/economy.manual365.co.kr 개인·소규모) 중 개인/소규모 콘텐츠 4곳 이상 진입, SERP 안 잠김. 상위 결과가 유상·무상감자 정의·실시 이유까지만 다루고 매매거래정지 실제 기간·감자비율 계산 예시·DART 공시 조회 절차는 다루지 않아 정보이득 여지 뚜렷. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "유상·무상감자 구조 비교표 + 10:1 감자 계산 예시(100주→10주, 주가 10배 재산정) + 무상감자 매매거래정지 기간(감자기준일 1거래일전~변경상장일 전일) + DART 주요사항보고서(감자결정) 조회 절차.",
