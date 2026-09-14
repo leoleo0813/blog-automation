@@ -4,8 +4,8 @@ title: 자본잠식 뜻과 관리종목 상장폐지 기준 2026
 slug: capital-impairment-delisting-2026
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1400 (PC 480 / 모바일 920, 2026-09-14 실측, backlog.verified 대기 항목)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요 — 1,400회로 충족)
+monthly_search_volume: 1400 (PC 480 / 모바일 920)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-14 — 통과]
   WebSearch "자본잠식 뜻 완전자본잠식 관리종목" 상위 결과:
