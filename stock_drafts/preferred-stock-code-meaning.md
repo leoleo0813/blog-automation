@@ -5,7 +5,7 @@ slug: preferred-stock-code-meaning
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 3930 (PC 700 / 모바일 3230)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 2026-09-14 네이버 키워드도구 실측)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-14 — 통과]
   WebSearch "우선주 뜻 보통주 차이 배당" 상위 결과 종합:
