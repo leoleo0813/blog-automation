@@ -20,111 +20,87 @@ serp_check: |
      정보 탐색이다.
   3) 답 완결 여부 — 아니다. 상위 글 대부분 "지정되면 다음날 하루 공매도가 금지된다"는
      효과까지만 다루고, 실제 지정 기준 수치(공매도비중·하락률·증가배율)를 시장별로
-     정확히 정리한 글이 없다. 오히려 조사 중 자료마다 다른 수치가 나오는 것을
-     확인해(아래 source_conflict), 이 혼선 자체를 원문으로 바로잡는 것이 정보이득이다.
+     정확히 정리한 글이 없다. 조사 중 WebSearch 요약마다 다른 수치가 나오는 것도
+     확인해(아래 source_conflict_resolved 참조), 이 혼선을 원문으로 바로잡은 것 자체가
+     정보이득이다.
   → 3개 탈락 조건 모두 미해당, 게이트2 통과.
 unique_asset: |
-  [부분 완성 — 시장별 지정기준 수치표는 캡처 대기]
-  (a) 확정 반영: 제도 도입 취지(공매도 급증·주가 급락 종목을 지정·공개해 투자자 주의
-      환기 + 지정 익일 자동 공매도 거래 금지), 도입 시점(2016-11-10 금융위원회 신설),
-      2022-10-24 시행된 연장 규정(공매도 금지일 또는 금지 연장일에 주가가 5% 이상
-      추가로 떨어지면 금지 기간이 다음 거래일까지 자동 연장) — 4개 이상 독립 출처가
-      충돌 없이 일치.
-  (b) 캡처 대기: 실제 지정 기준(당일 공매도 비중·전일 대비 하락률·공매도 거래대금
-      증가배율)을 코스피·코스닥·코넥스 시장별로 찾아보면 서로 다른 두 조합이 검색된다
-      — 하나는 "비중 30%·하락률 3%·증가배율 2배"(시장 구분 없음), 다른 하나는
-      "비중 20%(코스닥·코넥스는 15%)·하락률 5%·증가배율 100% 이상 증가"다. 전자는
-      2017년 무렵 언론 기사에서, 후자는 비교적 최근 요약에서 확인돼 개정 이력에
-      따른 신구 수치가 섞였을 가능성이 있으나, 한국거래소 원문을 직접 대조하기
-      전까지는 어느 쪽이 현재(2026-09) 유효한 기준인지 자동화가 확정할 수 없다.
-      이 혼선을 원문으로 정리해 시장별 정확한 표를 완성하는 것 자체가 상위 글에
-      없는 정보이득이다.
-  (c) 지정 종목을 한국거래소 정보데이터시스템(data.krx.co.kr)에서 직접 조회하는
-      절차 — 상위 글 다수가 "거래소에서 확인 가능"이라고만 쓰고 구체적인 메뉴
-      경로를 안내하지 않는다.
+  [완성 2026-09-14 — 사람이 data.krx.co.kr 원문 직접 캡처]
+  (a) 제도 도입 취지(공매도 급증·주가 급락 종목을 지정·공개해 투자자 주의 환기 +
+      지정 익일 자동 공매도 거래 금지), 도입 시점(2016-11-10 금융위원회 신설),
+      2022-10-24 시행된 연장 규정(공매도 금지일에 주가가 5% 이상 추가로 떨어지면
+      금지 기간이 다음 거래일까지 자동 연장) — WebSearch 교차검증으로 확정.
+  (b) 핵심 정보이득 — 시장별(코스피/코스닥/코넥스) 지정 기준을 한국거래소
+      정보데이터시스템(data.krx.co.kr) 원문 표로 확정. WebSearch만으로는 서로 다른
+      두 조합이 나와 혼선이 있었는데(source_conflict_resolved 참조), 원문 표는
+      유형①②③④ 네 가지 조합으로 시장별 적용 여부가 갈린다는 것을 보여준다 —
+      코스피·코스닥은 자체 지수(코스피/코스닥150) 구성종목 평균과 비교하는 유형①이
+      있지만, 그런 지수가 없는 코넥스는 대신 "직전 40거래일 공매도비중 평균" 기준인
+      유형③을 쓴다는 구조적 이유까지 원문 각주로 확인했다. 상위 검색 결과 어디에도
+      이 정확한 시장별 표와 "왜 코넥스만 유형③을 쓰는지"의 구조는 없었다.
+  (c) 2025년 3월 31일 공매도 전면 재개 직후 한시적으로 기준이 더 강화됐다가('25.3.31
+      ~4.30, '25.5.1~5.31 두 단계로) '25.6.1부터 원래 기준으로 되돌아간 이력도
+      원문 각주로 확정 — 최근 재개 국면의 변화 과정을 보여주는 정보이득.
+  (d) 사람이 함께 캡처한 2026-09-10~11 실제 지정 종목 데이터(엑셀)로, 표에 나온
+      유형 분류가 실제로 어떻게 적용되는지 예시 1건을 실었다(특정 종목 매수·매도
+      권유 목적이 아니라 유형 판독 예시).
 primary_source: |
-  1차 시도: 한국거래소 정보데이터시스템의 "공매도 과열종목 지정기준" 페이지
-  (data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC02030402)에
-  WebFetch를 1회 시도했으나 EGRESS_BLOCKED로 확인(2026-09-14). 대조군으로
-  금융위원회(fsc.go.kr) 보도자료, 자본시장연구원(kcmi.re.kr) 이슈보고서 PDF,
-  kbthink.com(무관 도메인 성격 확인용)에도 각 1회씩 추가 시도했으나 전부 동일하게
-  EGRESS_BLOCKED — 이 세션의 기존 전면 차단 패턴과 일치(구글 대조군도 동일 증상
-  재확인).
-  RULES.md 「1차 출처가 막혔을 때: 2차 출처 교차검증 vs 사람 캡처 요청」(2026-09-12)
-  기준 적용 — 제도의 도입 취지·효과·2022년 연장 규정은 4개 이상 독립 출처(언론·
-  준정부 연구기관·학술논문 포함)가 충돌 없이 일치해 교차검증으로 확정했다. 그러나
-  이 글의 핵심이 될 시장별 지정 기준 수치표는 검색 결과 자체가 서로 다른 두 조합을
-  내놓아(source_conflict 참조) RULES.md의 교차검증 진행 조건("충돌 없이 일치")을
-  충족하지 못했다. 시장 미시구조 규제 수치이긴 하지만 이 프로젝트가 과거 세율·
-  공제한도에서 실제 오류를 잡아낸 사례(대주주 기준 5배 차이, 코스피 세율 4배 차이)와
-  같은 성격의 "수치 충돌"이라 안전한 쪽(사람 캡처 요청)으로 판단했다.
-source_conflict: |
-  공매도 과열종목 지정 기준 수치가 WebSearch에서 서로 다른 두 조합으로 나왔다.
-  (A) 당일 전체 거래대금 대비 공매도 거래대금 비중 30% 이상 / 주가 하락률(전일 대비)
-      3% 이상 / 공매도 거래대금 증가 배율 2배 이상 — 시장 구분 없이 코스피·코스닥·
-      코넥스에 동일 적용.
-  (B) 당일 공매도 비중 20% 이상(코스닥·코넥스는 15% 이상) / 직전 40거래일 평균 대비
-      공매도 비중 증가율 100% 이상(=2배) / 전일 종가 대비 주가 하락률 5% 이상.
-  (A)는 2017년 무렵 언론 보도·일부 요약 콘텐츠에서, (B)는 비교적 최근 요약과
-  자본시장연구원 이슈보고서 인용에서 확인돼, 2017년 이후 개정으로 (A)에서 (B)로
-  강화·변경됐을 가능성이 있다고 추정되나 한국거래소 원문(공매도 과열종목 지정 및
-  매매거래 정지 등에 관한 규정)을 직접 대조하기 전까지는 확정하지 않는다. 확정
-  전에는 본문에 시장별 수치를 넣지 않는다.
-기준일: 2026-09-14 (WebSearch 확인일 — 확정 원문은 사람 캡처 대기)
+  1차 시도: 한국거래소 정보데이터시스템 "공매도 과열종목 지정기준" 페이지에
+  WebFetch를 1회 시도했으나 EGRESS_BLOCKED로 확인(2026-09-14, RULES.md에 이미
+  기록된 패턴과 일치). WebSearch 교차검증만으로는 시장별 수치 조합이 서로 달라
+  RULES.md 「1차 출처가 막혔을 때」 기준상 캡처 요청으로 전환했고, 사람이 직접
+  브라우저로 data.krx.co.kr/contents/MDC/STAT/srt/MDCSTAT310.jsp에 접속해
+  "공매도 과열종목 지정기준" 원문 표 전체(시장별 유형①②③④ 수치, 각주 1~7,
+  2025년 한시 강화 이력)와 "당일 공매도 비중" 조회 화면을 캡처(2026-09-14),
+  같은 화면에서 2026-09-10~11 실제 지정 종목 데이터를 엑셀로 내려받아 함께
+  제공했다. 이 초안은 그 원문 캡처를 그대로 반영했다.
+  보조로 사람이 함께 캡처한 clobe.ai(블로그) "코스피 코스닥 코넥스 차이와 상장
+  요건 비교(2026년 기준)" 표는 18편에서 이미 인용한 상장요건과 수치가 일치해
+  교차 확인용으로만 참고했다(이 글 본문에는 미사용).
+기준일: 2026-09-14 (한국거래소 정보데이터시스템 원문 사람 캡처일)
 tags: 공매도, 공매도과열종목, 과열종목지정, 공매도금지, 한국거래소, 시장경보제도, 공매도규제, 주식초보, 코스피, 코스닥
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1·2 충족, 게이트3(정보이득)은 방향이 확정됐으나 핵심 수치표가 캡처 대기,
-  게이트4 미충족 — 시장별 지정 기준 수치가 WebSearch 결과마다 다른 두 조합으로
-  나와(source_conflict 참조) 원문 없이는 자동화가 확정할 수 없다. RULES.md
-  「1차 출처가 막혔을 때」 기준의 "출처마다 수치가 다르다" 조건에 해당해 캡처
-  요청으로 전환했다. gate_pass:false로 두고 발행 대기 상태로 저장.
-capture_guide: |
-  (1) 왜 필요한가 — 공매도 과열종목 지정 기준 수치(공매도 비중·주가 하락률·거래대금
-  증가배율)가 검색마다 다른 두 조합으로 나온다(비중 30%·하락률 3%·증가배율 2배 vs
-  비중 20%/코스닥 15%·하락률 5%·증가배율 100% 이상). 어느 쪽이 2026년 9월 현재
-  유효한 기준인지, 코스피·코스닥·코넥스 시장별로 정확히 어떻게 다른지 원문 확인이
-  필요하다.
-  (2) 시도할 사이트 (우선순위)
-    1순위 — 한국거래소 정보데이터시스템 "공매도 과열종목 지정기준" 페이지:
-      https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC02030402
-      접속 → 시장별(코스피/코스닥/코넥스) 지정기준 표 전체를 캡처.
-    2순위 — 같은 사이트의 "공매도 과열종목" 통계 화면(실제 지정 종목 목록과 지정
-      사유가 함께 표시되는지 확인):
-      https://data.krx.co.kr/contents/MMC/SRTS/srts/MMCSRTS007.cmd
-    3순위 — 금융위원회에서 "공매도 과열종목" 검색 후 가장 최근 지정기준 개정
-      보도자료 캡처: https://www.fsc.go.kr (검색창에 "공매도 과열종목" 입력)
-  (3) 캡처가 끝나면 — 스크린샷을 대화에 올려주세요. 시장별 정확한 지정 기준표를
-  확정해 본문에 반영하고 gate_pass를 재판정합니다.
+  4개 게이트 전부 충족(2026-09-14). 게이트4는 자동화 WebFetch 1회 시도 후
+  EGRESS_BLOCKED, WebSearch 교차검증도 수치 충돌로 기준 미달 → 사람이 직접
+  data.krx.co.kr 원문을 캡처해 확정. 이번에도 "1차 출처가 막혔을 때" 기준대로
+  안전한 쪽(캡처 요청)을 택한 뒤 실제 캡처로 게이트4를 완전히 충족시킨 사례.
 self_check: |
-  [2026-09-14 판정 — gate_pass:false로 저장]
-  게이트1 충족 — 신규 후보 8개(자사주 처분 신고/실권주 청약 방법/우회상장 뜻/
-  매매거래정지 해제 조건/공매도 과열종목 지정/주식배당 뜻/ETF 유동성공급자/감자 뜻)
-  중 "공매도 과열종목 지정"(1,040회)과 "감자 뜻"(530회) 2개만 PASS, 나머지 6개는
-  월 20~150회로 FAIL(backlog.failed_gate1에 기록). 이 중 검색량이 더 높은 "공매도
-  과열종목 지정"을 이번 편으로 선택.
+  [2026-09-14 최종 판정 — 캡처 반영 후 gate_pass:true]
+  게이트1 충족 — 실측 1,040회.
   게이트2 충족 — RULES.md 게이트2 v3 기준, 3개 탈락 조건 모두 미해당(serp_check 참조).
-  게이트3 부분 충족 — 제도 취지·효과·2022년 연장 규정은 확정해 본문에 반영했다.
-  다만 이 글의 핵심이 되어야 할 "시장별 정확한 지정 기준 수치"는 확정되지 않아
-  아직 표로 완성할 수 없다.
-  게이트4 미충족 — data.krx.co.kr·fsc.go.kr·kcmi.re.kr에 WebFetch를 각 1회씩
-  시도해 전부 EGRESS_BLOCKED 확인(2026-09-14, google.com 대조군도 동일 차단되어
-  세션 전면 차단으로 판단). WebSearch 교차검증을 시도했으나 지정 기준 수치 자체가
-  서로 다른 두 조합으로 나와(source_conflict) RULES.md의 교차검증 진행 조건
-  (충돌 없이 일치)을 충족하지 못했다. 시장 미시구조 규제 수치이지만 이 프로젝트가
-  과거 세율·공제한도에서 실제 오류를 잡아낸 유형과 같은 "수치 충돌"이라 애매하면
-  안전한 쪽(사람 캡처 요청)으로 기운다는 RULES.md 원칙에 따라 캡처로 전환했다.
+  게이트3 충족 — 시장별 정확한 지정 기준표 + "코넥스만 유형③을 쓰는 구조적 이유" +
+  2025년 한시 강화 이력까지, 상위 검색 결과에 없는 정보이득을 원문 그대로 확보했다.
+  게이트4 충족 — data.krx.co.kr 자동화 WebFetch 1회 시도 EGRESS_BLOCKED 확인 후,
+  WebSearch 교차검증이 수치 충돌(source_conflict_resolved 참조)로 RULES.md 진행
+  조건을 충족하지 못해 사람에게 캡처를 요청했고, 사람이 직접 브라우저로 원문 표
+  전체와 각주, 실제 지정 종목 데이터(엑셀)까지 캡처해 제공했다. 자동화가 만든
+  source_conflict 두 조합((A)비중30%·하락률3%·증가배율2배 시장구분없음, (B)비중
+  20%(코스닥·코넥스15%)·하락률5%·증가배율100%이상)은 둘 다 원문과 다른 부정확한
+  요약이었음을 원문으로 확인 — 실제로는 유형①②③④ 네 조합이 시장별로 다르게
+  적용되는 구조였다. "애매하면 캡처 요청"이라는 RULES.md 원칙이 실제로 부정확한
+  수치를 거를 수 있었던 사례.
+  검산 — 원문 각주 2를 코스닥·코넥스 두 시장 라벨이 인접해 표시되는 원문 표
+  레이아웃과 대조: 코스피·코스닥에는 자체 지수(코스피/코스닥150) 구성종목 평균과
+  비교하는 유형①이 있고(코스닥150 언급이 원문에 명시), 그런 지수가 없는 코넥스는
+  유형①이 아니라 유형③(직전40거래일 평균 비교)을 쓴다는 구조로 정리 — 코스피·
+  코스닥은 유형①②④, 코넥스는 유형②③④를 적용하는 것으로 확정. 세 시장 모두
+  유형④(당일 -3%하락+공매도비중30%+거래대금증가2배)는 공통 적용.
   카니벌라이제이션 점검 — 17편(공매도 뜻과 상환기간 90일)은 대차거래 상환기한·
   담보비율·NSDS·사전교육을 다루고, 27편(숏커버링 뜻과 공매도 잔고 확인법)은 순보유
   잔고 공시 제도를 다룬다. 이 글은 "공매도가 과도하게 몰린 종목을 시장이 어떻게
-  경보·차단하는가"라는 별도의 시장경보제도를 다뤄 검색 의도와 본문 내용이 겹치지
-  않는다. 1~27편 어디에도 공매도 과열종목 지정제도는 다루지 않는다.
+  경보·차단하는가"라는 별도의 시장경보제도를 다뤄 겹치지 않는다.
   기관 링크 점검 — 본문에서 안내하는 자리와 하단 참고 출처 전부 target="_blank"
   rel="noopener"로 링크 처리.
   제목 14자(공백 제외)·금지어 없음. 슬러그 영문 소문자+하이픈 4단어. FAQ 6개와
-  JSON-LD 1:1 일치. @id 티스토리 entry 패턴. 종목·상품 추천 없음. 단정 표현 없음.
-  하단 면책 문구 포함. 지정기준 표는 뼈대만 두고 값은 비워 수치를 지어내지 않았다.
-  종합 판정: 게이트4 미충족으로 gate_pass:false. 캡처 후 재판정 필요.
+  JSON-LD 1:1 일치. @id 티스토리 entry 패턴. 실제 지정 종목 예시는 유형 판독
+  설명용일 뿐 매수·매도 권유가 아님을 본문에 명시. 하단 면책 문구 포함.
+  종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
+source_conflict_resolved: |
+  자동화가 WebSearch만으로 찾았던 두 조합 (A) 비중30%·하락률3%·증가배율2배
+  (시장구분없음) / (B) 비중20%(코스닥·코넥스15%)·하락률5%·증가배율100%이상은
+  둘 다 한국거래소 원문과 다른 부정확한 요약이었다. 원문(2026-09-14 사람 캡처)
+  기준 정확한 기준은 본문의 시장별 지정기준표를 참조.
 ---
 
 <p>공매도 과열종목으로 지정되면 <mark>지정 다음 거래일 하루 동안 해당 종목의 공매도가 자동으로 금지</mark>됩니다. 공매도가 비정상적으로 몰리고 주가가 급락한 종목을 한국거래소가 골라내 투자자에게 알리는 시장경보제도입니다.</p>
@@ -135,7 +111,8 @@ self_check: |
     <li>공매도 과열종목으로 지정되면 <b>지정 다음 거래일 하루 동안 그 종목의 공매도가 자동 금지</b>됩니다.</li>
     <li>2016년 11월 금융위원회가 신설한 제도로, 공매도 급증·주가 급락 종목에 <mark>투자자의 주의를 환기</mark>시키는 목적입니다.</li>
     <li>2022년 10월 24일부터는 <b>금지일에 주가가 5% 이상 더 떨어지면 금지 기간이 다음 거래일까지 자동 연장</b>되는 규정이 추가됐습니다.</li>
-    <li>정확한 시장별(코스피·코스닥·코넥스) 지정 기준 수치는 자료마다 다르게 나와 원문 확인 중이며, 확정되는 대로 이 글에 반영합니다.</li>
+    <li>지정 기준은 <mark>코스피·코스닥은 유형①②④, 코넥스는 유형②③④</mark>를 적용합니다. 세 시장 모두 유형④(당일 -3%↓·공매도비중30%·거래대금 2배↑)는 공통입니다.</li>
+    <li>2025년 3월 공매도 재개 직후에는 한시적으로 기준이 더 엄격했다가, <b>2025년 6월 1일부터 원래 기준으로 돌아왔습니다.</b></li>
   </ul>
 </div>
 
@@ -178,45 +155,60 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">정확히 어떤 기준으로 지정되나요</h2>
 
-<p>지정 기준은 크게 <mark>당일 공매도 비중, 전일 대비 주가 하락률, 평소 대비 공매도 거래대금 증가 배율</mark> 세 가지를 조합해 판단하며, 코스피·코스닥·코넥스 시장별로 기준이 다릅니다.</p>
+<p>지정 기준은 <mark>주가 하락률·공매도 비중·공매도 거래대금 증가배율</mark>을 조합한 4가지 유형(①~④)으로 나뉘고, 시장마다 적용되는 유형이 다릅니다. 한 종목이 유형을 하나라도 충족하면 지정됩니다.</p>
 
-<div style="background:#fdeaea;border-left:4px solid #d9534f;padding:14px 18px;margin:20px 0;line-height:1.8;">
-  <b>시장별 정확한 수치는 원문 확인 중입니다</b>
-  <p style="margin:8px 0 0 0;">조사 과정에서 지정 기준 수치가 자료마다 다르게 나오는 것을 확인했습니다(하나는 공매도 비중 30%·하락률 3%, 다른 하나는 코스피 20%·코스닥 15%·하락률 5%). 한국거래소의 정확한 원문을 직접 대조하기 전까지는 부정확한 숫자를 이 글에 표기하지 않습니다. 원문이 확인되는 대로 아래 표를 채워 갱신하겠습니다.</p>
-</div>
-
-<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+<table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;">
   <thead>
     <tr style="background:#f0f0f0;">
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">시장</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">유형</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">주가(당일)</th>
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">공매도 비중</th>
-      <th style="border:1px solid #ddd;padding:8px;text-align:left;">주가 하락률</th>
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">공매도 거래대금 증가배율</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">코스피</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">코스닥</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">코넥스</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-      <td style="border:1px solid #ddd;padding:8px;">확인 중</td>
-    </tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;" rowspan="3">코스피</td><td style="border:1px solid #ddd;padding:8px;">①</td><td style="border:1px solid #ddd;padding:8px;">-5%~-10% 하락</td><td style="border:1px solid #ddd;padding:8px;">직전분기 코스피 구성종목 평균의 3배 이상(상한 20%)</td><td style="border:1px solid #ddd;padding:8px;">6배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">②</td><td style="border:1px solid #ddd;padding:8px;">-10% 이상 하락</td><td style="border:1px solid #ddd;padding:8px;">-</td><td style="border:1px solid #ddd;padding:8px;">6배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">④</td><td style="border:1px solid #ddd;padding:8px;">-3% 이상 하락</td><td style="border:1px solid #ddd;padding:8px;">당일 30% 이상</td><td style="border:1px solid #ddd;padding:8px;">2배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;" rowspan="2">코스닥</td><td style="border:1px solid #ddd;padding:8px;">①</td><td style="border:1px solid #ddd;padding:8px;">-5%~-10% 하락</td><td style="border:1px solid #ddd;padding:8px;">직전분기 코스닥150 구성종목 평균의 3배 이상(상한 20%)</td><td style="border:1px solid #ddd;padding:8px;">5배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">②</td><td style="border:1px solid #ddd;padding:8px;">-10% 이상 하락</td><td style="border:1px solid #ddd;padding:8px;">-</td><td style="border:1px solid #ddd;padding:8px;">5배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">코스닥·코넥스</td><td style="border:1px solid #ddd;padding:8px;">④</td><td style="border:1px solid #ddd;padding:8px;">-3% 이상 하락</td><td style="border:1px solid #ddd;padding:8px;">당일 30% 이상</td><td style="border:1px solid #ddd;padding:8px;">2배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;" rowspan="2">코넥스</td><td style="border:1px solid #ddd;padding:8px;">②</td><td style="border:1px solid #ddd;padding:8px;">-10% 이상 하락</td><td style="border:1px solid #ddd;padding:8px;">-</td><td style="border:1px solid #ddd;padding:8px;">5배 이상</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">③</td><td style="border:1px solid #ddd;padding:8px;">-</td><td style="border:1px solid #ddd;padding:8px;">직전 40거래일 공매도비중 평균 5% 이상</td><td style="border:1px solid #ddd;padding:8px;">5배 이상</td></tr>
   </tbody>
 </table>
 
-<p>세 가지 조건을 <b>모두 충족</b>해야 지정되는 구조이며, 직전 40거래일 중 거래가 체결된 날이 20일 미만으로 드문 종목은 통계적 의미가 없어 지정 대상에서 빠집니다.</p>
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
+  <b>왜 코넥스만 유형③을 쓰나요</b>
+  <p style="margin:8px 0 0 0;">유형①은 "직전분기 코스피·코스닥150 구성종목 공매도 비중 평균"과 비교하는 방식인데, 코넥스는 이런 지수 자체가 없습니다. 그래서 코넥스는 유형① 대신 "직전 40거래일 자체 공매도 비중 평균"과 비교하는 유형③을 대신 씁니다. 유형④(당일 -3%↓·비중30%·2배↑)는 세 시장 모두 공통으로 적용됩니다.</p>
+</div>
+
+<p>직전 40거래일 중 실제 거래가 체결된 날이 20거래일 미만인 종목은 통계적 의미가 없어 지정 대상에서 제외됩니다. 여러 유형을 동시에 충족하면 <b>유형① &gt; 유형③·④, 유형② &gt; 유형③·④, 유형③ &gt; 유형④</b> 순으로 적용됩니다.</p>
+
+<div style="background:#fdeaea;border-left:4px solid #d9534f;padding:14px 18px;margin:20px 0;line-height:1.8;">
+  <b>2025년 재개 직후엔 기준이 더 엄격했습니다</b>
+  <p style="margin:8px 0 0 0;">2025년 3월 31일 공매도가 전면 재개된 직후에는 한시적으로 기준이 더 강화됐습니다. 2025년 3월 31일~4월 30일에는 유형④의 공매도 비중 기준이 30%→20%로, 2025년 5월 1일~5월 31일에는 30%→25%로 낮춰 지정 문턱을 낮췄습니다. 2025년 6월 1일부터는 위 표의 원래 기준으로 돌아왔습니다.</p>
+</div>
+
+<h3 style="margin-top:28px;">실제 지정 사례로 보기</h3>
+
+<p>2026년 9월 11일 지정 사례 중 하나를 표에 대입해보면 이렇습니다(특정 종목 매수·매도를 권유하는 것이 아니라, 표를 실제로 어떻게 읽는지 보여주는 예시입니다).</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;">
+  <thead>
+    <tr style="background:#f0f0f0;">
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">시장</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">당일 주가수익률</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">공매도 거래대금 증가배율</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">해당 유형</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">코스피</td><td style="border:1px solid #ddd;padding:8px;">-14.76%</td><td style="border:1px solid #ddd;padding:8px;">11.72배</td><td style="border:1px solid #ddd;padding:8px;">유형②(-10%↓ + 6배↑ 요건 충족)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">코스닥</td><td style="border:1px solid #ddd;padding:8px;">-7.15%, 공매도비중 34.76%</td><td style="border:1px solid #ddd;padding:8px;">2.06배</td><td style="border:1px solid #ddd;padding:8px;">유형④(-3%↓ + 비중30%↑ + 2배↑ 요건 충족)</td></tr>
+  </tbody>
+</table>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지정 여부는 어디서 확인하나요</h2>
 
@@ -260,7 +252,7 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">코스피와 코스닥의 지정 기준이 다른가요</summary>
-  <p style="margin:10px 0 0 0;">네, 시장별로 기준이 다르게 적용됩니다. 다만 정확한 수치는 자료마다 다르게 검색돼 한국거래소 원문 확인 후 이 글에 표로 반영할 예정입니다.</p>
+  <p style="margin:10px 0 0 0;">네. 코스피·코스닥은 유형①②④가 적용되고, 코넥스는 유형①이 없는 대신 유형②③④가 적용됩니다. 세 시장 모두 유형④(당일 -3%↓·공매도비중30%·거래대금 2배↑)는 공통입니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
@@ -276,10 +268,10 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템 — 공매도 과열종목·지정기준</a></li>
-    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND) — 공매도 과열종목 지정 공시</a></li>
+    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a> — 공매도 과열종목 지정기준·실제 지정 현황(2026-09-14 사람 직접 캡처)</li>
+    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND)</a> — 공매도 과열종목 지정 공시</li>
   </ul>
-  기준일: 2026-09-14(WebSearch 확인일). 시장별 정확한 지정 기준 수치는 원문 캡처 확인 후 갱신 예정.
+  기준일: 2026-09-14(한국거래소 정보데이터시스템 원문 캡처일).
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
@@ -329,7 +321,7 @@ self_check: |
     {
       "@type": "Question",
       "name": "코스피와 코스닥의 지정 기준이 다른가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "네, 시장별로 기준이 다르게 적용됩니다. 다만 정확한 수치는 자료마다 다르게 검색돼 한국거래소 원문 확인 후 이 글에 표로 반영할 예정입니다." }
+      "acceptedAnswer": { "@type": "Answer", "text": "네. 코스피·코스닥은 유형①②④가 적용되고, 코넥스는 유형①이 없는 대신 유형②③④가 적용됩니다. 세 시장 모두 유형④(당일 -3%↓·공매도비중30%·거래대금 2배↑)는 공통입니다." }
     },
     {
       "@type": "Question",
