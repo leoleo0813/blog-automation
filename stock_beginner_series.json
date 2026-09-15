@@ -737,6 +737,21 @@
       "monthly_search_volume": "140 (PC 50 / 모바일 90)",
       "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 7개를 check-keywords.yml로 실측. PASS 2개(ETF 분배금 세금 280 / 국내주식 양도소득세 신고방법 140) 중 최고 검색량인 'ETF 분배금 세금'은 23편(국내상장 해외ETF 세금)이 '분배금은 얼마나 떼나요' H2로 이미 상세히 다루고 있어 카니벌라이제이션으로 배제(backlog에 기록)하고, 차순위인 이 키워드를 채택. '국내주식은 대주주만 신고한다'는 7편 전제를 이어받아 예정신고·확정신고 경로, 신고서식(별지 제84호), 무신고가산세 계산 예시(2026-07-01 납부지연가산세 개정 반영)로 게이트3 통과. 2편(세액 계산)·7편(대주주 요건)·5편(해외주식 신고)과 역할을 나눠 카니벌라이제이션 회피. 게이트4는 nts.go.kr/google.com WebFetch 각 1회 EGRESS_BLOCKED 후, 절차·서식은 4곳 이상, 가산세율 개정은 법조문 인용 포함 5곳 이상 교차검증으로 진행.",
       "gate1_pass": true
+    },
+    {
+      "id": 34,
+      "order": 34,
+      "status": "drafted",
+      "keyword": "서킷브레이커 뜻",
+      "title": "서킷브레이커 뜻과 발동조건 3단계",
+      "slug": "circuit-breaker-trigger-levels",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "draft_path": "stock_drafts/circuit-breaker-trigger-levels.md",
+      "gate_pass": true,
+      "monthly_search_volume": "1680 (PC 300 / 모바일 1380)",
+      "gate1_pass": true,
+      "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 8개를 check-keywords.yml로 실측. PASS는 이 키워드(1,680회)가 유일. 서킷브레이커 3단계 발동조건표 + VI(변동성완화장치)·사이드카·서킷브레이커 3자 비교표 + 2026년 코스피 사상 최초 이틀 연속 발동(7/28~29) 사례로 게이트3 통과. 25편(사이드카 뜻)과 역할 분담해 카니벌라이제이션 회피. 게이트4는 regulation.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부기관(기획재정부·법제처)·언론(한국경제·뉴시스·파이낸셜뉴스)·금융사(토스뱅크·KB) 등 다수 독립 출처 교차검증으로 진행."
     }
   ],
   "backlog": {
@@ -1098,6 +1113,35 @@
         "keyword": "넥스트레이드 거래방법",
         "monthly_search_volume": "100",
         "note": "일반 주제 기준(월500) 미달로 FAIL 처리했으나, 2025년 출범한 국내 대체거래소(ATS)라는 주제 자체는 여전히 신선함 — '넥스트레이드 수수료'처럼 다른 수식어로 검색량 재측정을 시도해볼 만함."
+      },
+      {
+        "keyword": "넥스트레이드 수수료",
+        "monthly_search_volume": "20",
+        "note": "2026-09-15 재실측. backlog 메모로 재시도했으나 여전히 FAIL(넥스트레이드 거래방법 100과 마찬가지로 검색 수요 자체가 낮음). 사실상 이 각도로는 발행 불가."
+      },
+      {
+        "keyword": "주식 대체출고 방법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "주식 대여 서비스 이자소득",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "명의신탁 주식 증여의제",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "코스피 이전상장 요건",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "대주주 양도소득세 판정기준일",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "배당소득 원천징수영수증 발급방법",
+        "monthly_search_volume": "20"
       }
     ]
   },
