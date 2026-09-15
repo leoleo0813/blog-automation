@@ -5,7 +5,7 @@ slug: inheritance-tax-deadline-penalty
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 1650 (PC 520 / 모바일 1130)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요, check-keywords.yml 2026-09-15 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-15 — 통과]
   WebSearch "상속세 신고기한 가산세 국세청" + "상속세 신고기한 계산 무신고가산세
