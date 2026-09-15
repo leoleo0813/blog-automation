@@ -800,7 +800,7 @@
       "type": "세금",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "130 (2026-09-15 실측, backlog.verified 이월)",
+      "monthly_search_volume": "130 (PC 30 / 모바일 100)",
       "gate1_pass": true,
       "serp_check": "게이트2 v3 판정(2026-09-15) 통과 — brunch.co.kr/bullstory.io/moneygo.co.kr 등 개인·소규모 블로그가 상위 다수 진입, SERP 안 잠김. 상위 다수가 '이자소득세 15.4%, 매매차익 비과세' 기본 구조는 다루지만 할인채(무이표채) 예외·해외채권 이표채/할인채 구분·세 유형 계산 예시를 함께 다룬 글은 없어 정보이득 여지 뚜렷.",
       "unique_asset_plan": "이표채 매매차익 비과세 원칙 + 소득세법 제46조 근거 할인채(무이표채) 할인액 과세 예외 + 채권ETF 매매차익도 과세되는 차이 + 해외채권(미국채) 이표채/할인채 구분과 한미 조세조약 원천징수 구조 + 이표채·할인채·해외채권 3유형 원 단위 계산 예시.",

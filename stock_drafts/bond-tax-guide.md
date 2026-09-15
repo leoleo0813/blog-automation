@@ -4,8 +4,8 @@ title: 채권 세금 얼마 떼나
 slug: bond-tax-guide
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 130 (세부·제도 주제 기준 월 100 이상, 2026-09-15 실측, backlog.verified 이월)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요 — "세금"이 키워드에 포함돼 이 기준 적용)
+monthly_search_volume: 130 (PC 30 / 모바일 100)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-15 — 통과]
   WebSearch "채권 세금 이자소득세 매매차익 과세" + "채권 투자 세금 15.4% 원천징수
