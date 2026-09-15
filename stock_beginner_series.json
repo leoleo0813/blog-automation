@@ -752,6 +752,21 @@
       "monthly_search_volume": "1680 (PC 300 / 모바일 1380)",
       "gate1_pass": true,
       "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 8개를 check-keywords.yml로 실측. PASS는 이 키워드(1,680회)가 유일. 서킷브레이커 3단계 발동조건표 + VI(변동성완화장치)·사이드카·서킷브레이커 3자 비교표 + 2026년 코스피 사상 최초 이틀 연속 발동(7/28~29) 사례로 게이트3 통과. 25편(사이드카 뜻)과 역할 분담해 카니벌라이제이션 회피. 게이트4는 regulation.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부기관(기획재정부·법제처)·언론(한국경제·뉴시스·파이낸셜뉴스)·금융사(토스뱅크·KB) 등 다수 독립 출처 교차검증으로 진행."
+    },
+    {
+      "id": 35,
+      "order": 35,
+      "status": "drafted",
+      "keyword": "IPO 뜻",
+      "title": "IPO 뜻과 의무보유확약 우선배정제도 2026",
+      "slug": "ipo-mandatory-holding-allocation-2026",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "draft_path": "stock_drafts/ipo-mandatory-holding-allocation-2026.md",
+      "gate_pass": true,
+      "monthly_search_volume": "7510 (PC 1910 / 모바일 5600)",
+      "gate1_pass": true,
+      "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 두 배치(1차 8개: 주식 결제일 T+2·소액주주 기준·배당기준일 뜻·시가총액 계산법·상장폐지 사유·유통주식비율 뜻·의무보유확약 뜻·최대주주 변경 공시 — 전부 FAIL / 2차 8개: 공개매수 뜻·주식매수청구권 뜻·신주배정기준일 뜻·전자투표 뜻·자기주식 뜻·담보유지비율 뜻·상장예비심사 뜻·IPO 뜻)를 check-keywords.yml로 실측. 16개 중 'IPO 뜻'(7,510회)만 PASS. 2025년 시행돼 2026년 현재 40%로 상향된 의무보유확약 우선배정제도 + 2023년 확대된 상장 첫날 가격제한폭(60~400%) 계산 예시로 게이트3 통과. 1~34편 어디에도 IPO·기업공개를 다룬 글이 없어 카니벌라이제이션 없음. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부 공식 발표·로펌·회계법인·준정부연구기관·언론·증권사 공지 등 10곳 이상 독립 출처 교차검증으로 진행."
     }
   ],
   "backlog": {
@@ -1141,6 +1156,66 @@
       },
       {
         "keyword": "배당소득 원천징수영수증 발급방법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "주식 결제일 T+2",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "소액주주 기준",
+        "monthly_search_volume": "200"
+      },
+      {
+        "keyword": "배당기준일 뜻",
+        "monthly_search_volume": "310"
+      },
+      {
+        "keyword": "시가총액 계산법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "상장폐지 사유",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "유통주식비율 뜻",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "의무보유확약 뜻",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "최대주주 변경 공시",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "공개매수 뜻",
+        "monthly_search_volume": "40"
+      },
+      {
+        "keyword": "주식매수청구권 뜻",
+        "monthly_search_volume": "120"
+      },
+      {
+        "keyword": "신주배정기준일 뜻",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "전자투표 뜻",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "자기주식 뜻",
+        "monthly_search_volume": "70"
+      },
+      {
+        "keyword": "담보유지비율 뜻",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "상장예비심사 뜻",
         "monthly_search_volume": "20"
       }
     ]
