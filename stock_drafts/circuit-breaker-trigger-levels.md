@@ -5,7 +5,7 @@ slug: circuit-breaker-trigger-levels
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 1680 (PC 300 / 모바일 1380)
-gate1_pass: true (check-keywords.yml 실측 2026-09-15, 일반 주제 기준 월 500 이상)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-15 — 통과]
   WebSearch "서킷브레이커 뜻 발동 조건 코스피" 상위 종합:
