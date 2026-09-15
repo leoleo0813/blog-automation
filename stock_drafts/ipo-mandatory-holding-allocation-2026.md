@@ -5,7 +5,7 @@ slug: ipo-mandatory-holding-allocation-2026
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 7510 (PC 1910 / 모바일 5600)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, check-keywords.yml 2026-09-15 실측)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-15 — 통과]
   WebSearch "IPO 뜻 기업공개 절차 공모주" + "IPO 뜻 상장 기업공개 2026" 상위 결과:
