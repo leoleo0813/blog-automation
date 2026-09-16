@@ -4,8 +4,8 @@ title: 발행어음 뜻과 발행사 8곳 2026
 slug: issued-note-securities-firms-2026
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 580 (PC 120 / 모바일 460, 2026-09-16 실측)
-gate1_pass: true (세부·제도 기준 월 100 이상, 일반 기준 월 500도 충족)
+monthly_search_volume: 580 (PC 120 / 모바일 460)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-16 — 통과]
   WebSearch "발행어음 뜻" 상위 6개: kbsec.com(KB증권 공식, ×2) / truefriend.com

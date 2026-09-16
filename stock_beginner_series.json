@@ -891,7 +891,7 @@
       "type": "제도",
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
-      "monthly_search_volume": "580 (PC 120 / 모바일 460, 2026-09-16 실측)",
+      "monthly_search_volume": "580 (PC 120 / 모바일 460)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-16 — 통과] WebSearch 상위 6개(kbsec.com×2/truefriend.com/kcie.or.kr/namu.wiki/mynamuh.com) 중 mynamuh.com 개인·소규모 콘텐츠 진입, 인접 쿼리에서 brunch.co.kr·bank-mall.co.kr·banksalad.com도 확인 — SERP 안 잠김. 상위 글 대부분이 '4곳만 취급'이라는 낡은 설명을 반복해 2026-09-09 삼성증권 인가(8곳)를 반영하지 못함. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "발행어음 사업자가 2026-09-09 삼성증권 인가로 4→8곳으로 늘었다는 최신 사실 + 종투사 지정과 단기금융업(발행어음) 인가가 별개 절차라는 혼동 해소 + 예금자보호 미적용·발행한도(자기자본 200%) 정리.",
