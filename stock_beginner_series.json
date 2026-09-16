@@ -836,6 +836,29 @@
       "draft_path": "stock_drafts/retirement-pension-in-kind-transfer.md",
       "gate3_note": "제도별 누적 실물이전 통계(2024-10-31 도입~2026-06월말 15조9,000억원·25만여건, IRP 6.8조/DC 4.8조/DB 4.3조 — 합산 검산 완료) + '지금 되는 것 vs 확대 예정' 시점 분리표로 정보이득 확보.",
       "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
+    },
+    {
+      "id": 39,
+      "order": 39,
+      "title": "해외주식 배당소득세 얼마 떼나",
+      "slug": "overseas-stock-dividend-tax",
+      "keyword": "해외주식 배당소득세",
+      "type": "세금",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "300 (PC 80 / 모바일 220)",
+      "gate1_pass": true,
+      "serp_check": "게이트2 v3 판정(2026-09-16) 통과 — ttegl.com·2ndsystem.net 등 개인·소규모 블로그가 상위권에 진입해 SERP 안 잠김. 국가별 세율 비교를 100만원 기준 실제 원 단위 계산으로 보여주고, 4편(국내 배당세)·15편(미국주식 세금 요약 한 줄)과 겹치지 않게 해외주식만의 이중과세 조정 메커니즘에 집중한 콘텐츠는 상위에 없어 정보이득 여지 있음.",
+      "unique_asset_plan": "국가별(미국15%/중국10%/일본15.315%/홍콩0%) 100만원 배당 기준 실효세율 비교표 + 종합과세 전환 시 외국납부세액공제(소득세법 제57조) 원리 설명.",
+      "primary_source_plan": "국세청(nts.go.kr). WebFetch 1회 시도 결과 EGRESS_BLOCKED(2026-09-16), google.com 대조군도 차단 확인 — 이중과세 조정 메커니즘 자체는 5편 작업 시 이미 확보한 1차 출처(sources/nts-overseas-stock-tax-2024.md/.pdf, 국세청 공식 책자 2024-05)를 재사용. 국가별 세율·외국납부세액공제 공식은 RULES.md 2026-09-12 기준에 따라 독립 출처 6곳(공식 증권사 5곳+준정부 1곳) 교차검증 + law.go.kr 소득세법 제57조 조문 인용으로 확정.",
+      "status": "drafted",
+      "cannibalization_note": "4편(배당소득세)은 국내 배당 15.4% 원천징수만 다루고, 15편(미국주식 세금)은 배당세를 한 줄 요약만 한다. 이 글은 해외주식만의 국가별 이중과세 조정 메커니즘에 집중해 겹치지 않는다. 본문에서 4편·15편으로 내부 링크.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 이미 확보된 국세청 공식 책자(1차 출처) 재사용 + 6곳 이상 독립 출처 교차검증 + 소득세법 제57조 원문 인용으로 진행 — 15편에서 동일 방식으로 15% 원천징수 수치를 cross-verify해 gate_pass:true로 발행한 선례와 일치.",
+      "primary_source": "국세청 「2024년 해외주식과 세금(개인투자자용)」(2024-05, sources/nts-overseas-stock-tax-2024.md) + 국가법령정보센터 소득세법 제57조 + WebSearch 교차검증(키움증권·KB·다올투자증권·하나증권·아이엠증권·금융투자자보호재단, 2026-09-16).",
+      "draft_path": "stock_drafts/overseas-stock-dividend-tax.md",
+      "gate3_note": "100만원 배당 기준 4개국 실효세율 비교표(15%/14.4%/15.315%/15.4%, 중국 사례의 소득세+지방소득세 추가 징수 구조까지 원 단위로 분해) + 외국납부세액공제 원리(공식은 명시, 개인별 실제 계산은 지어내지 않음)로 정보이득 확보.",
+      "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
     }
   ],
   "backlog": {
@@ -1376,6 +1399,35 @@
       {
         "keyword": "펀드 환매수수료",
         "monthly_search_volume": "30"
+      },
+      {
+        "keyword": "개인투자용국채 세금",
+        "monthly_search_volume": "90"
+      },
+      {
+        "keyword": "채권 매매방법",
+        "monthly_search_volume": "50"
+      },
+      {
+        "keyword": "감사의견 비적정 상장폐지",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "불성실공시법인 지정",
+        "monthly_search_volume": "110",
+        "note": "일반 주제 기준(월500) 미달로 FAIL이나, 세부 키워드 없어 자동판정이 500 기준을 적용했다. 절대적으로는 110회로 최저 기준(100)은 넘는다 — 제도 세부 각도로 재구성해 재시도 가능성 있음."
+      },
+      {
+        "keyword": "증권계좌 이전 방법",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "주식 양도소득세 예정신고",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "상장적격성 실질심사",
+        "monthly_search_volume": "130"
       }
     ]
   },
