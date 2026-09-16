@@ -5,7 +5,7 @@ slug: retirement-pension-in-kind-transfer
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 250 (PC 120 / 모바일 130)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요, check-keywords.yml 2026-09-16 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-16 — 통과]
   WebSearch "퇴직연금 실물이전 제도 방법" + "퇴직연금 실물이전 사전조회 서비스 신청 방법" +
