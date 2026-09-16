@@ -5,7 +5,7 @@ slug: overseas-stock-dividend-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 300 (PC 80 / 모바일 220)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요 — check-keywords.yml 2026-09-16 실측)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-16 — 통과]
   WebSearch "해외주식 배당소득세 원천징수 15% 외국납부세액공제 계산" + "해외주식 배당소득세
