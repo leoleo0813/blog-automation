@@ -813,6 +813,29 @@
       "draft_path": "stock_drafts/bond-tax-guide.md",
       "gate3_note": "이표채·할인채·채권ETF·해외채권 4갈래 과세 구조 정리 + 소득세법 제46조 근거 + 원 단위 계산 예시 3건(이표채/할인채/해외채권)으로 정보이득 확보.",
       "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
+    },
+    {
+      "id": 38,
+      "order": 38,
+      "title": "퇴직연금 실물이전 대상 상품과 신청 방법",
+      "slug": "retirement-pension-in-kind-transfer",
+      "keyword": "퇴직연금 실물이전",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "250 (PC 120 / 모바일 130)",
+      "gate1_pass": true,
+      "serp_check": "게이트2 v3 판정(2026-09-16) 통과 — easyzetec.com/cbilder.com 등 개인·소규모 재테크 블로그가 상위권에 진입해 SERP 안 잠김. 2026-08 금융감독원 TF 킥오프 이후 DC→타사 IRP 확대 추진 상황, 2024-10-31 도입~2026-06월말 누적 이전 통계(15조9,000억원), 상품유형별 이전 가능여부를 통합한 콘텐츠는 상위에 없어 정보이득 여지 뚜렷.",
+      "unique_asset_plan": "제도별(IRP/DC/DB) 누적 실물이전 통계표(세 금액 합이 총액과 정확히 일치함을 검산) + '지금 되는 것 vs 2027년까지 확대될 것' 시점 분리표(DC→타사 IRP, 환매중단펀드 포함 여부).",
+      "primary_source_plan": "고용노동부(moel.go.kr) 보도자료. WebFetch 1회 시도 결과 EGRESS_BLOCKED(2026-09-16), google.com 대조군도 차단 확인 — RULES.md 2026-09-12 기준에 따라 세 갈래(제도개요/사전조회절차/TF·통계) 모두 3곳 이상 독립 출처 교차검증으로 진행.",
+      "status": "drafted",
+      "cannibalization_note": "3편(ISA 계좌 한도와 비과세 혜택)은 ISA 납입한도·비과세혜택, 8편(연금저축 세액공제)은 연금저축 세액공제율이 중심이라 이 글(퇴직연금 계좌를 다른 금융사로 옮기는 절차·대상 상품)과 검색 의도가 겹치지 않는다. 본문에서 8편으로 내부 링크.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 moel.go.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준의 2차 출처 교차검증(제도개요 3곳, 사전조회절차 6곳, TF·통계 5곳, 모두 충돌 없음)으로 진행 — 고용노동부·금융감독원 원문 보도자료를 직접 열람하지 못한 한계를 self_check와 본문에 투명 공개.",
+      "primary_source": "WebSearch 교차검증 — 제도개요: moel.go.kr/kbthink.com/eiec.kdi.re.kr, 사전조회절차: khan.co.kr/sedaily.com/heraldcorp.com/viva100.com/intn.co.kr/kiri.or.kr, TF·통계: newspim.com/imaeil.com/dt.co.kr/sankyungtoday.com/sidae.com.",
+      "draft_path": "stock_drafts/retirement-pension-in-kind-transfer.md",
+      "gate3_note": "제도별 누적 실물이전 통계(2024-10-31 도입~2026-06월말 15조9,000억원·25만여건, IRP 6.8조/DC 4.8조/DB 4.3조 — 합산 검산 완료) + '지금 되는 것 vs 확대 예정' 시점 분리표로 정보이득 확보.",
+      "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
     }
   ],
   "backlog": {
@@ -900,13 +923,19 @@
         "title": "ETF 세금",
         "keyword": "ETF 세금",
         "monthly_search_volume": "640",
-        "hold_reason": "게이트1 통과(640회, 2026-09-15 실측)하지만 이번 배치에서 상속세 신고기한(1,650회)을 우선 채택해 대기. 10편(ETF 수수료)·22편(ETF 괴리율)·23편(국내상장 해외ETF 세금)과 카니벌라이제이션 여부(매매차익 비과세·분배금 과세를 이미 다루는지)를 다음 실행에서 게이트2와 함께 확인 필요."
+        "hold_reason": "게이트1 통과(640회, 2026-09-15 실측)하지만 이번 배치에서 상속세 신고기한(1,650회)을 우선 채택해 대기. 10편(ETF 수수료)·22편(ETF 괴리율)·23편(국내상장 해외ETF 세금)과 카니벌라이제이션 여부(매매차익 비과세·분배금 과세를 이미 다루는지)를 다음 실행에서 게이트2와 함께 확인 필요. [2026-09-16 재검토] 23편(국내상장 해외ETF 세금)이 매매차익·분배금 배당소득세 15.4%, 보유기간과세, 손익통산 불가, 레버리지/인버스/TR/액티브 예외, 해외직접상장 비교까지 이미 포괄적으로 다루고 있어 일반 'ETF 세금' 키워드의 검색 의도 대부분과 겹친다. 카니벌라이제이션 위험이 높아 이번 배치에서 제외 — 23편이 다루지 않는 새 각도(국내주식형 ETF 매매차익 비과세 조건 등)를 명확히 확보하기 전까지 보류."
       },
       {
         "title": "펀드 세금",
         "keyword": "펀드 세금",
         "monthly_search_volume": "100",
-        "hold_reason": "게이트1 통과(100회, 2026-09-15 실측, 세부·제도 기준 최소선)하지만 검색량이 낮아 이번 배치에서 우선순위 밀림. 다음 배치에서 게이트2(경쟁)부터 재검토."
+        "hold_reason": "게이트1 통과(100회, 2026-09-15 실측, 세부·제도 기준 최소선)하지만 검색량이 낮아 이번 배치에서 우선순위 밀림. 다음 배치에서 게이트2(경쟁)부터 재검토. [2026-09-16 게이트2 판정] WebSearch \"펀드 세금\" 상위가 samsungfund.com/hanwhalife.com/wooribank funddoctor.co.kr(은행 공식)/kcie.or.kr(금융투자자보호재단, 준정부)/kcgiam.com(자산운용사 공식)/morningstar.co.kr(모닝스타코리아, 금융정보업체)로 완전히 채워져 개인 블로그·소규모 콘텐츠 진입 여지가 전혀 없다(탈락조건 1). 새로운 각도 없이는 발행 보류."
+      },
+      {
+        "title": "금 ETF 세금",
+        "keyword": "금 ETF 세금",
+        "monthly_search_volume": "210 (PC 60 / 모바일 150, 2026-09-16 실측)",
+        "hold_reason": "게이트1 통과(210회)하지만 이번 배치에서 퇴직연금 실물이전(250회)을 우선 채택해 대기. 23편(국내상장 해외ETF 세금)이 '원자재형 ETF도 동일 과세'라고 짧게 언급하므로, 금 현물(KRX 금시장)·골드뱅킹·금 ETF 세금 방식을 비교하는 표로 카니벌라이제이션 없는 새 각도를 만들 수 있는지 다음 실행에서 게이트2와 함께 재검토 필요."
       }
     ],
     "failed_gate1": [
@@ -1323,6 +1352,30 @@
       {
         "keyword": "대주주 요건 완화",
         "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "우리사주 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "IRP 계좌 수수료",
+        "monthly_search_volume": "50"
+      },
+      {
+        "keyword": "미성년자 주식 증여세",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "해외주식 소수단위 매매 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "K-OTC 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "펀드 환매수수료",
+        "monthly_search_volume": "30"
       }
     ]
   },
