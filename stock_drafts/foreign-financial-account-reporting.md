@@ -4,8 +4,8 @@ title: 해외금융계좌 신고 기준과 과태료
 slug: foreign-financial-account-reporting
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 290 (PC 160 / 모바일 130, 2026-09-16 실측, check-keywords.yml)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요 — "신고" 키워드 포함으로 세부·제도 분류 적용)
+monthly_search_volume: 290 (PC 160 / 모바일 130)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-16 — 통과]
   WebSearch "해외금융계좌 신고 2026 기준금액 과태료" + "해외금융계좌 신고 5억원 초과

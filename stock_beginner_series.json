@@ -913,7 +913,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "290 (PC 160 / 모바일 130, 2026-09-16 실측)",
+      "monthly_search_volume": "290 (PC 160 / 모바일 130)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-16 — 통과] WebSearch 상위 종합(coinone.co.kr/law.go.kr x2/asiae.co.kr·m.sateconomy.co.kr·biz.heraldcorp.com·sejungilbo.com·intn.co.kr 언론 5곳/nts.go.kr/watax.kr·nexttala.com/crypto.com/premiatnc.blog/kmoney101.com 개인블로그/webzine.kacta.or.kr 준정부/daeryunlaw-finance.com 법무법인) — kmoney101.com·premiatnc.blog 진입으로 SERP 안 잠김. 상위 글 대부분이 2025-01-01 시행령 개정(과태료 10~20%->10% 단일)을 반영하지 못하거나 합산 판단 예시가 없음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "2025-01-01 국제조세조정법 시행령 개정 전/후 과태료율 비교표(10~20% 누진→10% 단일, 한도 20억→10억) + 가중(2차 30%/3차 이상 50%)·감경(50%) 구조표 + 여러 해외계좌(예금+증권+가상자산) 합산 판단 예시.",
