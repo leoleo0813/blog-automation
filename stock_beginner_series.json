@@ -903,6 +903,28 @@
       "primary_source": "삼성증권 발행어음(단기금융업) 인가, 2026-09-09, 자본시장법 제360조: 서울신문·헤럴드경제·파이낸셜뉴스·뉴스핌·아시아경제·글로벌이코노믹·이투데이·세계일보·한국금융신문·시사저널·네이트뉴스(2건) 11곳 이상 언론 교차 확인. 예금자보호 미적용: 미래에셋증권·KB증권 공식 상품설명서 + 법제처 찾기쉬운 생활법령정보(easylaw.go.kr). 발행한도(자기자본 200%, 자본시장법 시행령 제77조의6): 미래에셋증권 공식 발행어음 설명서 + 법령 데이터베이스(LBOX). fsc.go.kr·kdic.or.kr 원문은 EGRESS_BLOCKED로 미확보.",
       "gate3_note": "8개사 인가 시점 현황표(한국투자증권 2017→NH 2018→KB 2019→미래에셋 2021→키움/신한투자/하나 2025→삼성 2026-09) + 종투사 지정과 발행어음 인가가 별개 절차임을 삼성증권 사례(2017년 종투사 지정, 2026년 발행어음 인가)로 보여준 것이 정보이득.",
       "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+    },
+    {
+      "id": 42,
+      "order": 42,
+      "title": "해외금융계좌 신고 기준과 과태료",
+      "slug": "foreign-financial-account-reporting",
+      "keyword": "해외금융계좌 신고",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "290 (PC 160 / 모바일 130, 2026-09-16 실측)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-16 — 통과] WebSearch 상위 종합(coinone.co.kr/law.go.kr x2/asiae.co.kr·m.sateconomy.co.kr·biz.heraldcorp.com·sejungilbo.com·intn.co.kr 언론 5곳/nts.go.kr/watax.kr·nexttala.com/crypto.com/premiatnc.blog/kmoney101.com 개인블로그/webzine.kacta.or.kr 준정부/daeryunlaw-finance.com 법무법인) — kmoney101.com·premiatnc.blog 진입으로 SERP 안 잠김. 상위 글 대부분이 2025-01-01 시행령 개정(과태료 10~20%->10% 단일)을 반영하지 못하거나 합산 판단 예시가 없음. 3개 탈락조건 모두 미해당.",
+      "unique_asset_plan": "2025-01-01 국제조세조정법 시행령 개정 전/후 과태료율 비교표(10~20% 누진→10% 단일, 한도 20억→10억) + 가중(2차 30%/3차 이상 50%)·감경(50%) 구조표 + 여러 해외계좌(예금+증권+가상자산) 합산 판단 예시.",
+      "status": "drafted",
+      "cannibalization_note": "6편(금융소득 종합과세)·5편(해외주식 양도소득세 신고 방법)·39편(해외주식 배당소득세)은 전부 '세금을 얼마 내는가'를 다루고, 이 글은 '계좌 정보 신고 의무' 자체(세금 아님)를 다뤄 검색 의도가 겹치지 않는다.",
+      "draft_path": "stock_drafts/foreign-financial-account-reporting.md",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 nts.go.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(view.asiae.co.kr)도 차단돼 세션 전면 차단 확인 후 WebSearch 교차검증(독립 출처 9곳 이상 — 언론 5곳·준정부 성격 전문지 1곳·법무법인 1곳 포함, 핵심 수치 충돌 없음)으로 대체.",
+      "primary_source": "해외금융계좌 신고 기준금액(5억원)·신고기한(6월)·2025-01-01 시행령 개정(과태료 10% 단일, 한도 10억)·가중감경 구조·명단공개(50억 초과)·형사처벌(2년 이하 징역 또는 13~20% 벌금): 아시아경제·사이버경제·헤럴드경제·세종일보·일간NTN(언론 5곳) + 한국세무사회 세무사신문(준정부 성격) + 대륜 법무법인, 9곳 이상 교차 확인, 충돌 없음. nts.go.kr 원문은 EGRESS_BLOCKED로 미확보.",
+      "gate3_note": "2025년 개정 전/후 비교표 + 반복위반 가중/감경 구조표 + 서로 다른 종류의 계좌를 합산해 5억원 초과 여부를 판단하는 가상 예시가 상위 검색결과에 없던 정보이득.",
+      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
     }
   ],
   "backlog": {
@@ -1504,7 +1526,13 @@
       {
         "keyword": "예탁결제원 배당금 지급일",
         "monthly_search_volume": "20"
-      }
+      },
+      "ISA 만기 연금계좌 이체",
+      "RP통장 이자소득세",
+      "배당세액공제 계산방법",
+      "미수동결계좌 해제방법",
+      "해외주식 상속세 신고",
+      "증권거래세 면제 대상"
     ]
   },
   "deferred_concept_topics": "개념 설명형(PER·PBR 뜻, 호가창, 캔들차트, 이동평균선, ETF란, 시가총액 등 21편)은 폐기가 아니라 보류입니다. 제도형 5편이 4주 검증을 통과해 사이트에 신뢰가 쌓이면 출발선이 달라집니다.",
