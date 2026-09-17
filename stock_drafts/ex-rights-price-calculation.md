@@ -4,8 +4,8 @@ title: 권리락 기준가 계산 방법
 slug: ex-rights-price-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1000 (PC 310 / 모바일 690, 2026-09-17 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요 — 2026-09-17 배치 check-keywords.yml 실측, stock_beginner_series.json backlog.verified 기록)
+monthly_search_volume: 1000 (PC 310 / 모바일 690)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-17 — 통과]
   WebSearch "권리락 뜻 2026" + "권리락 매매기준일 주가 조정" + "권리락일 확인방법 주식" 상위 종합:

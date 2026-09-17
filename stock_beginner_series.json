@@ -1001,7 +1001,7 @@
       "type": "시장구조·절차",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1000 (PC 310 / 모바일 690, 2026-09-17 실측)",
+      "monthly_search_volume": "1000 (PC 310 / 모바일 690)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"권리락 뜻 2026\"+\"권리락 매매기준일 주가 조정\"+\"권리락일 확인방법 주식\" 상위 종합: brunch.co.kr(개인)/infobaksa.com(개인,×2)/eom.co.kr(개인)/orangeboard.co.kr(개인 콘텐츠)/m.cafe.daum.net(커뮤니티)/stockplus.com(핀테크 콘텐츠)/kbthink.com(KB 공식)/mofe.go.kr(기획재정부 공식,×2)/아주경제·네이트뉴스(언론)/dbpia.co.kr·e-kjfs.org(학술). 개인·커뮤니티 콘텐츠 다수 진입으로 SERP 안 잠김. 상위 대부분이 정의·주가하락 결과까지만 다루는 사전형 설명이고, 실제 숫자를 대입한 계산 예시나 배당락과의 조정방식 차이를 다루는 글은 부재 — 정보이득 여지 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "유상증자·무상증자 이론권리락주가 공식에 가상의 기준주가(10,000원)를 대입한 계산 예시 표를 제시하고, 권리락(거래소가 기준가를 직접 조정)과 현금배당 배당락(1998년 7월 현금배당락조치 폐지 이후 인위조정 없음)의 조정방식 차이를 비교표로 정리.",
