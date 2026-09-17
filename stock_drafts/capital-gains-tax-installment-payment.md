@@ -4,7 +4,7 @@ title: 양도소득세 분납 기준과 신청 방법
 slug: capital-gains-tax-installment-payment
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 250 (PC 130 / 모바일 120, 2026-09-17 실측)
+monthly_search_volume: 250 (PC 130 / 모바일 120)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-17 — 통과]

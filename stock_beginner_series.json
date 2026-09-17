@@ -1045,7 +1045,7 @@
       "type": "제도",
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
-      "monthly_search_volume": "250 (PC 130 / 모바일 120, 2026-09-17 실측)",
+      "monthly_search_volume": "250 (PC 130 / 모바일 120)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"양도소득세 분납\" 상위: findsemusa.com(개인 세무사 상담)/etax.seoul.go.kr(서울시 공식)/casenote.kr(판례DB)/nts.go.kr(국세청 공식)/news.mt.co.kr(머니투데이, 언론)/taxly.kr(소규모 세무 블로그)/law.go.kr(법령 서식)/call.nts.go.kr(국세청 Q&A). 개인 세무사 상담·소규모 블로그가 상위에 있어 진입 여지 있음(탈락조건1 미해당). 검색의도는 정보탐색형(탈락조건2 미해당). 기준금액은 여러 출처가 언급하나 계산 예시·신청 경로·이자 여부를 함께 다루는 글이 없어(탈락조건3 정보이득으로 상쇄) 통과.",
       "unique_asset_plan": "분납 가능 여부를 가르는 기준금액 구간별 계산 예시 + 분납 신청서(소득세법 시행규칙 별지 제56호서식) 기재 절차 + 분납 시 이자·가산금 여부. 상위 결과는 기준금액만 언급하고 계산 예시·신청 경로까지 묶어 다루지 않음.",
