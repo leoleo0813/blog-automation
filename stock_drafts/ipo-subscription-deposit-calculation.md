@@ -5,7 +5,7 @@ slug: ipo-subscription-deposit-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 4900 (PC 1420 / 모바일 3480)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요 — 네이버 키워드도구 실측 4,900회로 이번 배치 최고 검색량)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-17 — 통과]
   WebSearch "공모주 청약 방법 증거금 계산 균등배정 비례배정 2026" 상위 종합:
