@@ -979,7 +979,7 @@
       "type": "시장구조·절차",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1980 (PC 450 / 모바일 1530, 2026-09-17 실측)",
+      "monthly_search_volume": "1980 (PC 450 / 모바일 1530)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"액면분할 뜻 효과 주가\"+\"액면분할 신주 상장일 절차 액면미달발행 제한\" 상위 종합: brunch.co.kr(개인,×2)/viva100.com(언론)/kbthink.com(KB 공식)/zuzu.network(소규모 콘텐츠)/mofe.go.kr(기획재정부 공식)/namu.wiki(백과)/infobaksa.com(개인)/help-me.kr(법무법인,×2)/casenote.kr/korea.legal/klca.or.kr. 개인·법무법인 블로그 다수 진입으로 SERP 안 잠김. 상위 대부분이 뜻·효과·주가영향까지만 다루는 사전형 설명이고, \"실제로 며칠 동안 거래가 정지되는지\"를 다루는 글은 부재 — 정보이득 여지 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "2026년 실제 사례 2건(와이씨켐 2026-04-10~04-29·동일기연 2026-06-24~07-13, 둘 다 19일 정지)으로 매매정지 실제 기간을 보여주고, 근거 규정(코스닥시장업무규정 제25조·시행세칙 제30조, \"분할기준일 1매매거래일 전~변경상장일 전일\")과 절차 타임라인표를 함께 제시.",
