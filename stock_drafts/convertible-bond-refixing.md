@@ -4,8 +4,8 @@ title: 전환사채 뜻과 리픽싱 확인법
 slug: convertible-bond-refixing
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 2780 (PC 1190 / 모바일 1590, 2026-09-18 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상, 제도 기준 월 100 이상 둘 다 충족)
+monthly_search_volume: 2780 (PC 1190 / 모바일 1590)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-18 — 통과]
   WebSearch "전환사채 전환청구 전환가액 리픽싱 뜻" + "전환사채 리픽싱 조정한도 70%

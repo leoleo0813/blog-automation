@@ -1158,7 +1158,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "2780 (PC 1190 / 모바일 1590, 2026-09-18 실측)",
+      "monthly_search_volume": "2780 (PC 1190 / 모바일 1590)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-18 — 통과] WebSearch \"전환사채 전환청구 전환가액 리픽싱 뜻\"+\"전환사채 리픽싱 조정한도 70% 콜옵션 제한 시행일 2024 금융위원회\"+\"전환사채 전환청구권 행사 절차 DART 공시 전환가액 조정 사유\" 상위 종합: help-me.kr(로펌)/brunch.co.kr(회사법전문변호사 개인 브런치)/fsc.go.kr(금융위원회 공식 ×2)/kimchang.com(김·장 법률사무소)/zuzu.network(스타트업 서비스, 소규모)/ajunews.com·mt.co.kr·fntimes.com(언론 ×3)/kif.re.kr(자본시장연구원, 준정부)/kind.krx.co.kr(한국거래소 공시, 공식)/kci.go.kr·kiss.kstudy.com(학술논문)/knowledge.bookcoach.co.kr(개인·소규모). 1) 진입여지 있음(brunch.co.kr·zuzu.network·knowledge.bookcoach.co.kr 등 소규모 콘텐츠 진입, 같은 배치 스팩과 대비됨). 2) 검색의도 정보탐색형. 3) 답 완결 여부 부분적 — 리픽싱 개념, 2024년 규제 뉴스, 전환청구 절차가 각각 따로 다뤄지고 이 셋+세금까지 한 곳에 모은 글 없음. → 탈락조건3은 정보이득으로 상쇄, 통과.",
       "unique_asset_plan": "전환가액 조정 실제 계산(사채 1,000만원/전환가액 10,000원→1,000주, 리픽싱 최저한도 70%인 7,000원까지 조정 시 약 1,428주로 약 42.8% 증가) + 2024-12-01 시행 「증권의 발행 및 공시 등에 관한 규정」 개정(정관 예외 폐지, 발행 시마다 주총 특별결의 필요, 콜옵션 행사자·제3자 양도 대가 공시 의무화) + 전환청구 시 보유기간 이자소득(만기보장수익률 기준) 원천징수라는 세금 문제 + DART/KIND에서 발행공시 확인하는 절차.",
