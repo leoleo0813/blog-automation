@@ -5,7 +5,7 @@ slug: treasury-stock-cancellation-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 10340 (PC 3190 / 모바일 7150)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 이번 배치 최고 검색량)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-18 — 통과]
   WebSearch "자사주 소각 뜻 세금 절차" + "자사주 소각 의제배당 세금 주가영향" + "자사주 의무소각
