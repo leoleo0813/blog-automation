@@ -5,7 +5,7 @@ slug: etn-early-redemption-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 1500 (PC 380 / 모바일 1120)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 2026-09-18 네이버 키워드도구 실측)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-18 — 통과]
   WebSearch "ETN 뜻" + "ETN 뜻 상장지수증권 ETF 차이 만기상환 신용위험" 상위 종합:
