@@ -464,13 +464,15 @@
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위 7개(tossbank/goldenhands/donpoint/devkuma/stunningpath/plpax/wideaigpt, 전부 개인·소규모 블로그) 전부 예수금·증거금·D+2 개념 설명까지만 다루고, 종목별 위탁증거금율 차이와 2026-05 시행 예정 증거금 100% 의무 완화 개정은 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "예수금이 있어도 주문이 거부되는 이유(종목별 위탁증거금율 20~100% 차이) + 관리종목·투자위험·투자경고종목의 100% 증거금 원칙 + 2026년 5월 시행 예정인 개정(100% 의무 대상을 투자유의종목으로 축소, 투자경고·위험종목은 증권사 재량 허용).",
       "primary_source_plan": "moc.krx.co.kr 1회 WebFetch 시도 EGRESS_BLOCKED 확인(2026-09-13). RULES.md 신규 기준(2026-09-12) 적용: 언론 5곳(무관 매체, 충돌 없음)+증권사 공식 6곳+KB/법제처 교차 확인으로 대체, 캡처 요청 없이 진행.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/stock-deposit-margin-rate.md",
       "cannibalization_note": "1~18편 어디에도 예수금·증거금·시장경보제도는 다루지 않는다. 겹침 없음.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 RULES.md 신규 기준(2026-09-12)에 따라 EGRESS_BLOCKED 확인 후 11개 독립 출처 교차 검증으로 진행, 한계 투명 공개.",
       "gate3_note": "종목별 위탁증거금율 차이 + 2026년 5월 시행 예정 증거금 100% 의무 완화 개정으로 정보이득 확보.",
-      "primary_source": "언론 5곳(fnnews/sisajournal/pointe/jabon/nate)+증권사 공식 6곳(kiwoom/bnkfn/miraeasset/koreainvestment/daolsecurities/wooriib)+KB(kbthink)/법제처(easylaw.go.kr) WebSearch 교차 확인(2026-09-13). moc.krx.co.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시."
+      "primary_source": "언론 5곳(fnnews/sisajournal/pointe/jabon/nate)+증권사 공식 6곳(kiwoom/bnkfn/miraeasset/koreainvestment/daolsecurities/wooriib)+KB(kbthink)/법제처(easylaw.go.kr) WebSearch 교차 확인(2026-09-13). moc.krx.co.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 21,
@@ -506,12 +508,14 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-12 — 통과] WebSearch 상위(kbthink.com×2/v.daum.net/dic.hankyung.com/stockplus.com/namu.wiki/eugenefn.com/clien.net/a-ha.io×3/kakaopaysec.com) 전부 개념 설명까지만 다루고, 미수·신용·담보대출 3종의 기준·상환기한 비교표나 담보유지비율 140%를 실제 숫자에 대입한 계산 예시는 없음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "미수·신용·담보대출 3종 반대매매 기준·상환기한 비교표 + 담보유지비율 140%를 자기담보 400만원+융자금 600만원에 대입해 \"16% 하락하면 반대매매\"를 직접 계산 + 반대매매 회피 타임라인(D+1 추가담보 요구 → D+2 하한가 처분).",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/stock-forced-liquidation-repayment.md",
       "cannibalization_note": "19편(주식 예수금 뜻 증거금 100%)과 위탁증거금 개념을 공유하지만, 19편은 \"왜 매수가 거부되는가\"가 중심이고 이 글은 \"빚을 못 갚으면 어떻게 강제매도되는가\"가 중심이라 검색 의도가 다르다. 본문에서 19편으로 내부 링크를 걸었다.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-12). 게이트4는 law.kofia.or.kr 1회 시도 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 증권사 공식 규정설명서 9곳 이상 교차검증으로 진행, 한계 투명 공개.",
-      "primary_source": "law.kofia.or.kr(금융투자협회 법규정보시스템) 원문 1회 시도 EGRESS_BLOCKED(2026-09-12, google.com 대조군도 차단되어 세션 전면 차단으로 판단). 담보유지비율 140%·상환기한 90일/150일은 증권사 공식 규정설명서 9곳(한국투자증권/신한투자증권/미래에셋증권/KB증권/삼성증권/하나증권/교보증권/한양증권/카카오페이증권/유진투자증권) WebSearch 교차 확인, 충돌 없이 일치."
+      "primary_source": "law.kofia.or.kr(금융투자협회 법규정보시스템) 원문 1회 시도 EGRESS_BLOCKED(2026-09-12, google.com 대조군도 차단되어 세션 전면 차단으로 판단). 담보유지비율 140%·상환기한 90일/150일은 증권사 공식 규정설명서 9곳(한국투자증권/신한투자증권/미래에셋증권/KB증권/삼성증권/하나증권/교보증권/한양증권/카카오페이증권/유진투자증권) WebSearch 교차 확인, 충돌 없이 일치.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 22,
@@ -526,14 +530,16 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위 6개(funetf.co.kr/brunch.co.kr/kcie.or.kr/simpleinvest.co.kr/etfdata.net/etflove.com) 전부 괴리율 정의·계산식·기본 해석까지만 다루고, 2026-08-19 시행 괴리율 관리기준 강화(국내 3%→2%, 해외 6%→5%)와 투자유의종목 지정절차 축소는 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "2026-08-19 관리기준 개정 전후 비교표 + 투자유의종목 지정(관리기준 2배 초과)·3거래일 단일가매매·거래정지(3배 초과) 단계표 + NAV·시장가 실제 숫자 계산 예시(31,000원→31,200원, +0.65%) + 한국거래소 KIND에서 괴리율 초과 공시 직접 조회하는 법.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/etf-divergence-rate-2026.md",
       "cannibalization_note": "10편(ETF 수수료 총보수 실부담 확인법)은 매년 떼는 보수 비용이 중심, 이 글은 거래가격과 NAV의 괴리(가격 왜곡) 문제라 검색 의도가 다르다. 본문에서 10편으로 내부 링크.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 fsc.go.kr 1회 시도 EGRESS_BLOCKED 확인(google.com 대조군도 차단) 후 RULES.md 2026-09-12 기준에 따라 언론 7곳+법률신문+정책브리핑 등 9개 이상 독립 출처 교차검증으로 진행, 핵심 수치(2%/5%, 4%/10%, 3거래일, 3배 기준) 충돌 없이 일치 확인. 신뢰도 낮은 실시간 공시 기준(1%/2%, 출처 2곳뿐)은 본문에서 제외해 한계 투명 공개.",
       "gate3_note": "2026-08-19 관리기준 강화 + 투자유의종목 지정·거래정지 절차를 계산 예시·비교표·단계표로 정리해 정보이득 확보.",
       "primary_source": "언론 7곳(fnnews.com×2/dt.co.kr×2/heraldcorp.com/joongangenews.com/ajunews.com/ebn.co.kr/seoulfn.com)+법률신문(lawtimes.co.kr)+정책브리핑(korea.kr) WebSearch 교차 확인(2026-09-13). 금융위원회 원문(fsc.go.kr/no010101/87353) 직접 접속 불가(EGRESS_BLOCKED) 한계 명시.",
-      "batch_candidates_checked": "이번 배치 8개 후보 중 ETF 괴리율(850회)만 게이트1 통과. 나머지 7개(서킷브레이커 사이드카 290/대량보유보고 5%룰 20/신용거래융자 이자율 20/주식 명의개서 정지기간 20/리츠 세금 20/스팩 합병 370/주식 동시호가 250)는 게이트1 미달로 backlog.failed_gate1에 기록."
+      "batch_candidates_checked": "이번 배치 8개 후보 중 ETF 괴리율(850회)만 게이트1 통과. 나머지 7개(서킷브레이커 사이드카 290/대량보유보고 5%룰 20/신용거래융자 이자율 20/주식 명의개서 정지기간 20/리츠 세금 20/스팩 합병 370/주식 동시호가 250)는 게이트1 미달로 backlog.failed_gate1에 기록.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 23,
@@ -548,7 +554,7 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위(pwc.com/kbcapital.co.kr/sisajournal-e.com/v.daum.net/kbthink.com/shinhansec.com/kcie.or.kr/kbam.co.kr/miraeasset.com/samsungfund.com/kiwoomam.com/trendmetriclab.com/1qetf.com/calcmoney.kr/wikidocs.net 개인블로그/kacpta.or.kr 학회논문) 중 trendmetriclab.com·1qetf.com·calcmoney.kr·wikidocs.net(@Insight_Lab) 등 개인·소규모 콘텐츠 다수 진입, SERP 안 잠김. 대부분 글이 \"매매차익·분배금 15.4% vs 해외상장 22%\" 기본 구도까지만 다루고, 국내주식형 ETF의 레버리지·인버스·TR·액티브 예외, 보유기간과세 계산 방식, 손익통산 불가 실제 예시, 2025-01-01 외국납부세액 공제 개편은 한 번에 엮어 다루는 글이 없음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "국내주식형 ETF라도 레버리지·인버스·TR·액티브면 매매차익 과세 대상이 된다는 예외 + 보유기간과세(과표기준가 증가분 vs 실제차익 중 작은 값) 계산 예시 + 손익통산 불가를 원 단위 손익 예시로 대비 + 해외 직접 상장 ETF와의 비교표 + 2025-01-01 외국납부세액 공제 선환급 폐지 개편.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/domestic-listed-overseas-etf-tax.md",
       "cannibalization_note": "5편(해외주식 양도소득세 신고 방법)은 개별 해외주식 직접투자 중심, 10편(ETF 수수료)·22편(ETF 괴리율)은 매매비용·가격괴리 중심, 4편(배당소득세)은 일반 배당소득 세율 중심. 이 글은 \"ETF가 담은 자산 구성에 따라 과세 방식 자체가 달라진다\"는 분류·계산 문제가 중심이라 검색 의도가 겹치지 않는다. 본문에서 4·5·6·10편으로 내부 링크.",
       "gate_pass": true,
@@ -556,12 +562,14 @@
       "gate3_note": "레버리지·인버스·TR·액티브 예외 + 보유기간과세 계산 예시 + 손익통산 불가 원 단위 예시 + 2025년 외국납부세액 공제 개편으로 정보이득 확보.",
       "primary_source": "세율(15.4%/22%/250만원/2천만원)은 4편(배당소득세)·5편(해외주식 양도소득세)·6편(금융소득종합과세)에서 이미 원문 확정한 값 재사용. 계산방식·손익통산·2025년 개편은 KB캐피탈/KB증권(kbcapital.co.kr, kbthink.com)·신한투자증권(shinhansec.com)·키움투자자산운용(kiwoomam.com)·토스(toss.im)·시사저널e(언론)·국제신문(언론)·조세일보(언론)·RISE ETF/하나로ETF/삼성자산운용 공식 고객센터 공지·세무학회 논문(kacpta.or.kr) WebSearch 교차 확인(2026-09-13). nts.go.kr 원문 직접 접속 불가(EGRESS_BLOCKED) 한계 명시.",
       "batch_candidates_checked": "이번 배치 8개 후보 중 국내상장 해외ETF 세금(1,230회)만 게이트1 통과. 나머지 7개(퇴직연금 IRP 세액공제 20/ETF 상장폐지 요건 20/채권 이자소득세 20/주식 실질주주 확인 20/시간외 단일가매매 220/조각투자 세금 20/선물옵션 양도소득세 20)는 게이트1 미달로 backlog.failed_gate1에 기록.",
-      "backlog_reviewed_note": "backlog.verified 중 유일한 '순수 대기' 항목이던 'PER PBR 뜻'(500회)을 먼저 게이트2로 검토했으나, 상위 결과(기획재정부 시사경제용어사전·KB·토스뱅크)가 이미 뜻·계산법·해석법·함정까지 완결된 답을 제공해 정보이득 여지가 없다고 판단, CLAUDE.md 7.8의 개념형 후순위 방침과도 일치해 이번 편 후보에서 제외하고 신규 키워드 브레인스토밍으로 전환. backlog.verified 항목 갱신함."
+      "backlog_reviewed_note": "backlog.verified 중 유일한 '순수 대기' 항목이던 'PER PBR 뜻'(500회)을 먼저 게이트2로 검토했으나, 상위 결과(기획재정부 시사경제용어사전·KB·토스뱅크)가 이미 뜻·계산법·해석법·함정까지 완결된 답을 제공해 정보이득 여지가 없다고 판단, CLAUDE.md 7.8의 개념형 후순위 방침과도 일치해 이번 편 후보에서 제외하고 신규 키워드 브레인스토밍으로 전환. backlog.verified 항목 갱신함.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 24,
       "order": 24,
-      "status": "drafted",
+      "status": "published",
       "keyword": "오버행 뜻",
       "title": "오버행 뜻 보호예수 해제 확인법",
       "slug": "overhang-lockup-release-check",
@@ -569,7 +577,9 @@
       "gate_pass": true,
       "draft_path": "stock_drafts/overhang-lockup-release-check.md",
       "note": "2026-09-13 생성. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후 정부·언론·법무법인(김앤장) 등 5개 이상 독립 출처 교차검증으로 통과.",
-      "gate1_pass": true
+      "gate1_pass": true,
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 25,
@@ -584,14 +594,16 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch 상위(kbthink.com×2/위키백과/easylaw.go.kr/unanew.com/tossbank.com/namu.wiki/blanclucy.co.kr/easyzetec.com/sidae.com/nice-infomation.com) 중 unanew.com·blanclucy.co.kr·easyzetec.com·sidae.com·nice-infomation.com 등 개인/소규모 콘텐츠 다수 진입, SERP 안 잠김. 상위 글 대부분 기본 정의·발동요건·서킷브레이커 차이까지만 다루고 2026년 이례적으로 급증한 실제 발동 빈도는 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "코스피(±5%)·코스닥(±6%+지수±3%) 발동 요건 비교표 + 실제 숫자 대입 계산 예시(코스피200 선물 350.00pt 가정 시 5%=17.50pt) + 사이드카·서킷브레이커 비교표 + 2026년 실제 발동 빈도(7월 16일 기준 코스피 37회·전체 57회, 예년 대비 이례적 발동이라는 보도).",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/stock-sidecar-trigger-condition.md",
       "cannibalization_note": "1~24편 어디에도 사이드카·프로그램매매 관리제도·서킷브레이커는 다루지 않는다. 겹침 없음.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 law.krx.co.kr 1회 시도 EGRESS_BLOCKED 확인(2026-09-13) 후 RULES.md 2026-09-12 기준에 따라 언론 다수(헤럴드경제/파이낸셜뉴스/서울경제/한국일보 계열/핀포인트뉴스/CBC뉴스)+법제처(공식) 등 8개 이상 독립 출처 교차검증으로 진행, 핵심 수치(±5%/±6%+3%, 1분, 5분 정지, 1일1회, 개장5분·종료40분전 미발동) 충돌 없이 일치 확인. 한계 투명 공개.",
       "gate3_note": "코스피/코스닥 발동 요건 비교표 + 실제 숫자 계산 예시 + 서킷브레이커 비교표 + 2026년 실제 발동 빈도(코스피 37회·전체 57회, 7/16 기준)로 정보이득 확보.",
       "primary_source": "한국거래소 유가증권시장업무규정 제16조(law.krx.co.kr) 원문 1회 시도 EGRESS_BLOCKED(2026-09-13). 언론 다수(biz.heraldcorp.com/fnnews.com/hankooki.com/sedaily.com/pinpointnews.co.kr/cbci.co.kr)+법제처(easylaw.go.kr) WebSearch 교차 확인(2026-09-13), 충돌 없이 일치. 2026년 발동 빈도는 파이낸셜뉴스·헤럴드경제·다음뉴스 보도 근거, 계속 갱신되는 수치임을 본문에 명시.",
-      "backlog_promoted_from": "backlog.verified의 '사이드카 뜻'(1,010회, 게이트2 미판정으로 대기 중이던 항목)을 이번 편에서 게이트2까지 판정해 승격."
+      "backlog_promoted_from": "backlog.verified의 '사이드카 뜻'(1,010회, 게이트2 미판정으로 대기 중이던 항목)을 이번 편에서 게이트2까지 판정해 승격.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 26,
@@ -606,14 +618,16 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch \"블록딜 뜻 계산법\" + \"블록딜 주가 영향 할인율 대량매매\" 상위(sgsg.hankyung.com/kbthink.com/mofe.go.kr×2/thescoop.co.kr/namu.wiki/mna.bridgecode.kr/sisajournal-e.com/cookiedeal.io/sedaily.com/a-ha.io) 중 mna.bridgecode.kr·cookiedeal.io·a-ha.io 등 소규모 콘텐츠·커뮤니티 진입, SERP 안 잠김. 상위 글 대부분 정의+\"통상 5~8% 할인\" 일반론까지만 다루고 2024년 도입된 사전공시 의무제도(자본시장법 제173조의3)는 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "블록딜 할인율 실제 계산 예시(가상 종가 대입) + 2024-07-24 시행 임원·주요주주 사전공시 의무제도(공시 대상 1%/50억원 기준, 6개월 합산, 30~90일 전 보고, 30% 이내 허용오차, 위반시 과징금 최대 20억원+형사처벌)를 상위 검색결과가 다루지 않는 정보이득으로 반영. 사전공시 의무와 실제 매수자 협상 단계를 구분해 혼동 해소.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/block-deal-pre-disclosure.md",
       "cannibalization_note": "1~25편 어디에도 블록딜·사전공시 의무제도는 다루지 않는다. 19편(예수금)·20편(반대매매)과 위탁증거금 개념을 공유하지 않으며 겹침 없음.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 law.go.kr·fsc.go.kr·dart.fss.or.kr 3개 정부 도메인 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 법률신문·법무법인 신영·Lexology(로펌 클라이언트노트 2건)·경향신문 등 4곳 이상 독립 출처 교차검증으로 진행, 핵심 수치(1%/50억원, 6개월 합산, 30~90일전, 30% 오차, 과징금 최대 20억원) 충돌 없이 일치 확인. 시행일 표기 관련 잠재적 혼동(제도 본체 2024-07-24 시행 vs 시행령 재개정 2026-01-02 적용)은 조사로 규명해 본문·self_check에 투명 공개. 개별 종목(리노공업 등)의 실제 할인율은 언론마다 수치가 갈려(12%/15% 등) 확정하지 않고 일반 범위(5~10%)와 가상 계산 예시만 사용.",
       "gate3_note": "할인율 실제 계산 예시 + 상위 검색결과가 다루지 않는 사전공시 의무제도(규모기준·보고시점·허용오차·제재) 정리로 정보이득 확보.",
       "primary_source": "자본시장법 제173조의3·시행령 제200조의3 원문 — law.go.kr/fsc.go.kr/dart.fss.or.kr 3개 도메인 각 1회 시도 EGRESS_BLOCKED(2026-09-13). 법률신문(lawtimes.co.kr)·법무법인 신영(shinkim.com)·Lexology(로펌 클라이언트노트 2건)·경향신문(khan.co.kr) 등 4곳 이상 독립 출처 WebSearch 교차 확인, 핵심 수치 충돌 없이 일치.",
-      "backlog_promoted_from": "backlog.verified의 '블록딜 뜻'(650회, 게이트2 미판정으로 대기 중이던 항목, 카니벌라이제이션·게이트1 미달 등 실질 보류 사유 없이 단순 순서 대기였던 유일한 항목)을 이번 편에서 게이트2까지 판정해 승격."
+      "backlog_promoted_from": "backlog.verified의 '블록딜 뜻'(650회, 게이트2 미판정으로 대기 중이던 항목, 카니벌라이제이션·게이트1 미달 등 실질 보류 사유 없이 단순 순서 대기였던 유일한 항목)을 이번 편에서 게이트2까지 판정해 승격.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 27,
@@ -628,13 +642,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-13 — 통과] WebSearch \"숏커버링 뜻\" 상위(kbthink.com/esocialtimes.com/namu.wiki/en.wikipedia.org(무관)/dic.hankyung.com/uriphin.com/econowide.com/antfx.kr) 중 uriphin.com·econowide.com·antfx.kr 등 개인/소규모 블로그 3곳 이상 진입, SERP 안 잠김. 상위 결과 전부 \"환매수\" 정의와 숏스퀴즈 비교까지만 다루고, 공매도 순보유잔고 공시 제도(2024-12-01 기준 강화)로 실제 발생 여부를 확인하는 방법은 다루지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "숏커버링/숏스퀴즈 개념 구분(자발적 vs 손실회피 강제성) + 2024-12-01 강화된 공매도 순보유잔고 공시 기준(0.5%→0.01% 이상(1억원 미만 제외) 또는 평가액 10억원 이상)과 data.krx.co.kr 조회 절차, T+2영업일 공시 시차를 상위 검색결과가 다루지 않는 정보이득으로 반영.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/short-covering-balance-check.md",
       "cannibalization_note": "1~26편 어디에도 숏커버링·공매도 순보유잔고 공시는 다루지 않는다. 17편(공매도 뜻과 상환기간 90일)은 대차거래 상환기한을 다뤄 검색 의도·본문 내용이 겹치지 않는다.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-13). 게이트4는 data.krx.co.kr·fdata.kbsec.com·securities.koreainvestment.com 3개 도메인 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 MBC뉴스·정책브리핑·정부24·금융위원회·KDI·한국투자증권·상상인증권 등 5곳 이상 독립 출처 교차검증으로 진행, 핵심 수치(0.01% 이상(1억원 미만 제외) 또는 평가액 10억원 이상, 시행일 2024-12-01, T+2영업일 공시) 충돌 없이 일치 확인.",
       "gate3_note": "숏커버링/숏스퀴즈 개념 구분 + 상위 검색결과가 다루지 않는 공매도 순보유잔고 공시 제도(임계값 개정·조회 절차·공시 시차) 정리로 정보이득 확보.",
-      "primary_source": "한국거래소 공매도 순보유잔고 공시 제도 — data.krx.co.kr·fdata.kbsec.com·securities.koreainvestment.com 3개 도메인 각 1회 시도 EGRESS_BLOCKED(2026-09-13). MBC뉴스(imnews.imbc.com)·정책브리핑(korea.kr)·정부24(gov.kr)·금융위원회(fsc.go.kr)·KDI(eiec.kdi.re.kr)·한국투자증권·상상인증권 등 5곳 이상 독립 출처 WebSearch 교차 확인, 핵심 수치 충돌 없이 일치."
+      "primary_source": "한국거래소 공매도 순보유잔고 공시 제도 — data.krx.co.kr·fdata.kbsec.com·securities.koreainvestment.com 3개 도메인 각 1회 시도 EGRESS_BLOCKED(2026-09-13). MBC뉴스(imnews.imbc.com)·정책브리핑(korea.kr)·정부24(gov.kr)·금융위원회(fsc.go.kr)·KDI(eiec.kdi.re.kr)·한국투자증권·상상인증권 등 5곳 이상 독립 출처 WebSearch 교차 확인, 핵심 수치 충돌 없이 일치.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 28,
@@ -649,13 +665,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-14 — 통과] WebSearch 상위(khan.co.kr 언론/kbthink.com KB사전/kci.go.kr 학술논문×2/kcmi.re.kr 준정부연구기관/opinionnews.co.kr 언론/orangeboard.co.kr 개인블로그/aeditian.com 개인블로그/data.krx.co.kr·kind.krx.co.kr 공식) 중 orangeboard.co.kr·aeditian.com 등 개인 콘텐츠 진입, SERP 안 잠김. 상위 글 대부분 지정 효과(익일 공매도 금지)까지만 다루고 시장별 정확한 지정 기준 수치는 정리하지 않음. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "제도 취지·2016-11-10 도입·2022-10-24 연장 규정은 확정 반영. 시장별 정확한 지정 기준(코스피·코스닥은 유형①②④, 코넥스는 유형②③④, 코넥스만 유형③을 쓰는 구조적 이유)을 사람이 캡처한 한국거래소 원문으로 확정. 2025년 3~5월 한시 강화 이력과 실제 지정 종목 예시도 반영.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/short-selling-overheated-stock.md",
       "cannibalization_note": "17편(공매도 뜻과 상환기간 90일)은 대차거래 상환기한·담보비율·NSDS·사전교육, 27편(숏커버링)은 순보유잔고 공시를 다룬다. 이 글은 공매도 쏠림에 대한 시장경보(과열종목 지정)라는 별도 제도라 겹침 없음.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-14). 게이트4는 자동화 WebFetch 1회 시도 EGRESS_BLOCKED 확인 후 WebSearch 교차검증도 수치 충돌로 RULES.md 기준 미달 → 캡처 요청으로 전환했고, 사람이 직접 data.krx.co.kr 원문(시장별 지정기준표·각주·실제 지정 종목 데이터)을 캡처해 제공, 게이트4까지 완전히 충족시켰다. 자동화가 찾았던 두 후보 수치(A/B)는 둘 다 원문과 달랐음을 원문으로 확인.",
       "batch_candidates_checked": "이번 배치 8개 후보(자사주 처분 신고 20/실권주 청약 방법 40/우회상장 뜻 150/매매거래정지 해제 조건 20/공매도 과열종목 지정 1,040/주식배당 뜻 30/ETF 유동성공급자 20/감자 뜻 530) 중 2개가 게이트1 통과. 검색량이 더 높은 '공매도 과열종목 지정'을 이번 편으로 선택하고, '감자 뜻'(530회, 게이트2 미판정)은 backlog.verified에 다음 편 후보로 기록. 나머지 6개는 backlog.failed_gate1에 기록.",
-      "source_conflict_resolved": "자동화가 WebSearch로 찾았던 두 조합(A: 비중30%·하락률3%·증가배율2배 시장구분없음, B: 비중20%(코스닥·코넥스15%)·하락률5%·증가배율100%이상)은 둘 다 부정확했다. 사람이 캡처한 data.krx.co.kr 원문 기준 정확한 시장별 지정기준표는 본문 참조."
+      "source_conflict_resolved": "자동화가 WebSearch로 찾았던 두 조합(A: 비중30%·하락률3%·증가배율2배 시장구분없음, B: 비중20%(코스닥·코넥스15%)·하락률5%·증가배율100%이상)은 둘 다 부정확했다. 사람이 캡처한 data.krx.co.kr 원문 기준 정확한 시장별 지정기준표는 본문 참조.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 29,
@@ -670,12 +688,14 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-14 — 통과] WebSearch \"감자 뜻 유상감자 무상감자 주가 영향\" + \"감자 뜻 주식\" 상위(ko.wikipedia.org 백과/kbthink.com KB공식/namu.wiki 백과/support.stockplus.com 핀테크×2/epsa.or.kr 협회/v.daum.net \"딸을 위한 경제 다이어리\" 개인블로그/zuzu.network 스타트업콘텐츠×2/starrich.co.kr 컨설팅칼럼/economy.manual365.co.kr 개인·소규모) 중 개인/소규모 콘텐츠 4곳 이상 진입, SERP 안 잠김. 상위 결과가 유상·무상감자 정의·실시 이유까지만 다루고 매매거래정지 실제 기간·감자비율 계산 예시·DART 공시 조회 절차는 다루지 않아 정보이득 여지 뚜렷. 3개 탈락 조건 모두 미해당.",
       "unique_asset_plan": "유상·무상감자 구조 비교표 + 10:1 감자 계산 예시(100주→10주, 주가 10배 재산정) + 무상감자 매매거래정지 기간(감자기준일 1거래일전~변경상장일 전일) + DART 주요사항보고서(감자결정) 조회 절차.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/capital-reduction-trading-halt.md",
       "cannibalization_note": "1~28편 어디에도 감자(유상감자·무상감자)는 다루지 않는다. backlog.failed_gate1의 '무상감자 유상감자차이'(20회, 게이트1 미달)와 키워드는 다르며 이 글이 해당 각도를 포함해 대체한다.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-14). 게이트4는 kind.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 KRX 공식 해설서 스니펫 + 언론 2곳(메디코파마·뉴스토마토) + 개인 콘텐츠 1곳(economy.manual365.co.kr) 교차검증으로 진행. 매매거래정지 기간은 세율·공제한도류 민감 수치가 아니라 거래소 업무 절차상 고정 기간이라 교차검증으로 충분하다고 판단. 한계는 초안 primary_source·self_check에 투명 공개.",
-      "source_note": "backlog.verified의 '감자 뜻'(530회, hold_reason '단순 순서 대기 항목')을 이번 편으로 승격. 다른 backlog.verified 항목은 전부 카니벌라이제이션 또는 게이트2 실패 사유가 있어 신규 브레인스토밍·check-keywords.yml 실행 없이 바로 착수했다."
+      "source_note": "backlog.verified의 '감자 뜻'(530회, hold_reason '단순 순서 대기 항목')을 이번 편으로 승격. 다른 backlog.verified 항목은 전부 카니벌라이제이션 또는 게이트2 실패 사유가 있어 신규 브레인스토밍·check-keywords.yml 실행 없이 바로 착수했다.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 30,
@@ -689,7 +709,7 @@
       "monthly_search_volume": "3930 (PC 700 / 모바일 3230)",
       "gate1_pass": true,
       "serp_check": "WebSearch 확인(2026-09-14) — 상위 7개 중 개인/소규모 콘텐츠 3곳(brunch, cookiedeal.io, keyzard.cc) 진입, SERP 안 잠김. 정의형 검색의도. 상위 결과가 종목명 우/우B/2우B 표기 규칙과 괴리율 확인법은 다루지 않아 정보이득 여지 뚜렷 — 게이트2 v3 통과.",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/preferred-stock-code-meaning.md",
       "cannibalization_note": "1~29편 어디에도 우선주·보통주 구분은 다루지 않는다. 겹침 없음.",
       "gate_pass": true,
@@ -697,12 +717,14 @@
       "unique_asset": "보통주-우선주 비교표(의결권/배당/잔여재산분배/유동성) + 종목명 우·우B·2우B 표기 규칙표(실제 사례 미래에셋증권우/2우B 포함) + 한국거래소 정보데이터시스템에서 괴리율 직접 확인하는 절차.",
       "primary_source": "국가법령정보센터 상법 제344조·제344조의3 (casenote.kr/위키백과/help-me.kr/shinkim.com 4곳 교차검증, 2026-09-14) + 2우B 표기 규칙 (brunch/위키백과/나무위키/시사저널e 4곳 교차검증, 2026-09-14). law.go.kr 원문 WebFetch는 EGRESS_BLOCKED로 미확보.",
       "gate3_note": "개념형 키워드라 CLAUDE.md 7.8/RULES.md \"사전형 개념은 정보이득 불가\" 원칙에 걸리므로, 종목명 표기 규칙(2우B 뜻)과 괴리율 확인법이라는 실전 확인법을 결합해 통과(17/26/27/29편과 동일 패턴).",
-      "drafted_at": "2026-09-14"
+      "drafted_at": "2026-09-14",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 31,
       "order": 31,
-      "status": "drafted",
+      "status": "published",
       "keyword": "주식 병합 뜻",
       "title": "주식병합 뜻과 공고기간 확인법",
       "slug": "stock-consolidation-notice-period",
@@ -710,12 +732,14 @@
       "gate_pass": true,
       "monthly_search_volume": "1760 (PC 110 / 모바일 1650)",
       "note": "backlog.verified 대기 항목(다음 실행 후보 1순위) 승격. 상법 440조 법정 공고기간(1개월 이상) + DART/KIND 공시 확인법 + 병합비율 계산예시로 게이트3 통과. 게이트4는 law.go.kr/help-me.kr WebFetch 각 1회 EGRESS_BLOCKED 후 4곳 교차검증으로 진행.",
-      "gate1_pass": true
+      "gate1_pass": true,
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 32,
       "order": 32,
-      "status": "drafted",
+      "status": "published",
       "keyword": "자본잠식 뜻",
       "title": "자본잠식 뜻과 관리종목 상장폐지 기준 2026",
       "slug": "capital-impairment-delisting-2026",
@@ -723,12 +747,14 @@
       "gate_pass": true,
       "monthly_search_volume": "1400 (PC 480 / 모바일 920)",
       "note": "backlog.verified 대기 항목(다음 실행 후보 1순위) 승격. 자본잠식률 계산예시 + 코스피(상장규정 제47조)·코스닥(제53조) 관리종목 요건 비교표 + 2026년 반기 기준 완전자본잠식 상장폐지 요건 확대(2026.6.1.~) + 29편(감자)과의 상호참조로 게이트3 통과. 게이트4는 law.krx.co.kr/help-me.kr WebFetch 각 1회 EGRESS_BLOCKED 후 금융위원회 공식 보도자료 포함 5곳 이상 교차검증으로 진행.",
-      "gate1_pass": true
+      "gate1_pass": true,
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 33,
       "order": 33,
-      "status": "drafted",
+      "status": "published",
       "keyword": "국내주식 양도소득세 신고방법",
       "title": "국내주식 양도소득세 신고방법 2026",
       "slug": "domestic-stock-capital-gains-filing",
@@ -736,12 +762,14 @@
       "gate_pass": true,
       "monthly_search_volume": "140 (PC 50 / 모바일 90)",
       "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 7개를 check-keywords.yml로 실측. PASS 2개(ETF 분배금 세금 280 / 국내주식 양도소득세 신고방법 140) 중 최고 검색량인 'ETF 분배금 세금'은 23편(국내상장 해외ETF 세금)이 '분배금은 얼마나 떼나요' H2로 이미 상세히 다루고 있어 카니벌라이제이션으로 배제(backlog에 기록)하고, 차순위인 이 키워드를 채택. '국내주식은 대주주만 신고한다'는 7편 전제를 이어받아 예정신고·확정신고 경로, 신고서식(별지 제84호), 무신고가산세 계산 예시(2026-07-01 납부지연가산세 개정 반영)로 게이트3 통과. 2편(세액 계산)·7편(대주주 요건)·5편(해외주식 신고)과 역할을 나눠 카니벌라이제이션 회피. 게이트4는 nts.go.kr/google.com WebFetch 각 1회 EGRESS_BLOCKED 후, 절차·서식은 4곳 이상, 가산세율 개정은 법조문 인용 포함 5곳 이상 교차검증으로 진행.",
-      "gate1_pass": true
+      "gate1_pass": true,
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 34,
       "order": 34,
-      "status": "drafted",
+      "status": "published",
       "keyword": "서킷브레이커 뜻",
       "title": "서킷브레이커 뜻과 발동조건 3단계",
       "slug": "circuit-breaker-trigger-levels",
@@ -751,12 +779,14 @@
       "gate_pass": true,
       "monthly_search_volume": "1680 (PC 300 / 모바일 1380)",
       "gate1_pass": true,
-      "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 8개를 check-keywords.yml로 실측. PASS는 이 키워드(1,680회)가 유일. 서킷브레이커 3단계 발동조건표 + VI(변동성완화장치)·사이드카·서킷브레이커 3자 비교표 + 2026년 코스피 사상 최초 이틀 연속 발동(7/28~29) 사례로 게이트3 통과. 25편(사이드카 뜻)과 역할 분담해 카니벌라이제이션 회피. 게이트4는 regulation.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부기관(기획재정부·법제처)·언론(한국경제·뉴시스·파이낸셜뉴스)·금융사(토스뱅크·KB) 등 다수 독립 출처 교차검증으로 진행."
+      "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 8개를 check-keywords.yml로 실측. PASS는 이 키워드(1,680회)가 유일. 서킷브레이커 3단계 발동조건표 + VI(변동성완화장치)·사이드카·서킷브레이커 3자 비교표 + 2026년 코스피 사상 최초 이틀 연속 발동(7/28~29) 사례로 게이트3 통과. 25편(사이드카 뜻)과 역할 분담해 카니벌라이제이션 회피. 게이트4는 regulation.krx.co.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부기관(기획재정부·법제처)·언론(한국경제·뉴시스·파이낸셜뉴스)·금융사(토스뱅크·KB) 등 다수 독립 출처 교차검증으로 진행.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 35,
       "order": 35,
-      "status": "drafted",
+      "status": "published",
       "keyword": "IPO 뜻",
       "title": "IPO 뜻과 의무보유확약 우선배정제도 2026",
       "slug": "ipo-mandatory-holding-allocation-2026",
@@ -766,7 +796,9 @@
       "gate_pass": true,
       "monthly_search_volume": "7510 (PC 1910 / 모바일 5600)",
       "gate1_pass": true,
-      "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 두 배치(1차 8개: 주식 결제일 T+2·소액주주 기준·배당기준일 뜻·시가총액 계산법·상장폐지 사유·유통주식비율 뜻·의무보유확약 뜻·최대주주 변경 공시 — 전부 FAIL / 2차 8개: 공개매수 뜻·주식매수청구권 뜻·신주배정기준일 뜻·전자투표 뜻·자기주식 뜻·담보유지비율 뜻·상장예비심사 뜻·IPO 뜻)를 check-keywords.yml로 실측. 16개 중 'IPO 뜻'(7,510회)만 PASS. 2025년 시행돼 2026년 현재 40%로 상향된 의무보유확약 우선배정제도 + 2023년 확대된 상장 첫날 가격제한폭(60~400%) 계산 예시로 게이트3 통과. 1~34편 어디에도 IPO·기업공개를 다룬 글이 없어 카니벌라이제이션 없음. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부 공식 발표·로펌·회계법인·준정부연구기관·언론·증권사 공지 등 10곳 이상 독립 출처 교차검증으로 진행."
+      "note": "backlog.verified에 대기 후보가 없어(전부 카니벌라이제이션·게이트2 보류 사유) 신규 키워드 두 배치(1차 8개: 주식 결제일 T+2·소액주주 기준·배당기준일 뜻·시가총액 계산법·상장폐지 사유·유통주식비율 뜻·의무보유확약 뜻·최대주주 변경 공시 — 전부 FAIL / 2차 8개: 공개매수 뜻·주식매수청구권 뜻·신주배정기준일 뜻·전자투표 뜻·자기주식 뜻·담보유지비율 뜻·상장예비심사 뜻·IPO 뜻)를 check-keywords.yml로 실측. 16개 중 'IPO 뜻'(7,510회)만 PASS. 2025년 시행돼 2026년 현재 40%로 상향된 의무보유확약 우선배정제도 + 2023년 확대된 상장 첫날 가격제한폭(60~400%) 계산 예시로 게이트3 통과. 1~34편 어디에도 IPO·기업공개를 다룬 글이 없어 카니벌라이제이션 없음. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후, 정부 공식 발표·로펌·회계법인·준정부연구기관·언론·증권사 공지 등 10곳 이상 독립 출처 교차검증으로 진행.",
+      "published_at": "2026-09-18",
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
     },
     {
       "id": 36,
@@ -782,14 +814,15 @@
       "serp_check": "게이트2 v3 판정(2026-09-15) 통과 — haeontax.com/valuetax.co.kr/daeryunlaw-inherit.com/heumtax.com 등 세무법인·회계사무소 블로그가 상위 다수 진입, SERP 안 잠김. 2026-07-01 납부지연가산세 개정과 상장주식 평가기간-신고기한 연결을 다룬 글이 상위에 없어 정보이득 여지 뚜렷.",
       "unique_asset_plan": "신고기한(6개월/9개월)·신고세액공제(3%)·무신고가산세(20%/40%)·과소신고가산세(10%/40%)·감면구간(1개월/3개월/6개월, 50%/30%/20%) 통합표 + 33편에서 검증한 2026-07-01 납부지연가산세 개정 반영 + 상장주식 평가기간(사망일 전후 2개월)이 신고기한(6개월)보다 항상 먼저 끝난다는 점을 날짜 계산으로 정리 + 산출세액 1억원 가정 계산 예시.",
       "primary_source_plan": "국세청(nts.go.kr) 가산세-상속세 / 개인신고안내-상속세 신고시 유의사항 페이지. WebFetch 1회 시도 결과 이번 세션에서도 EGRESS_BLOCKED(2026-09-15) — RULES.md 2026-09-12 기준에 따라 WebSearch 교차검증(5곳 이상, 충돌 없음) + 33편·11·13편 기존 검증값 재사용으로 진행.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "11편(주식 증여세)·21편(증여세 기한후신고)은 증여세 신고기한, 13편(배우자 상속공제)·14편(가업상속공제)은 상속세 공제 금액이 중심이라 대상 세목(상속 vs 증여)과 각도(신고기한 vs 공제금액) 모두 겹치지 않는다. 13편의 짧은 '6개월 분할신고' 언급을 가산세율·2026년 개정·계산 예시로 깊이 채운다.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-15). 게이트4는 nts.go.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준의 2차 출처 교차검증(5곳 이상, 충돌 없음)으로 진행 — 국세기본법·상속세및증여세법 원문 전문은 직접 열람하지 못한 한계를 self_check와 본문에 투명 공개.",
       "primary_source": "WebSearch 교차검증 5곳 이상(nts.go.kr 스니펫, easylaw.go.kr, casenote.kr, daeryunlaw-inherit.com, haeontax.com, valuetax.co.kr) + 33편(국내주식 양도소득세 신고방법)에서 이미 교차검증한 2026-07-01 납부지연가산세 개정값 재사용 + 11·13편의 시행령 제52조의2(상장주식 평가방법) 법령 원문 재사용.",
       "draft_path": "stock_drafts/inheritance-tax-deadline-penalty.md",
       "gate3_note": "신고기한·신고세액공제·무신고/과소신고가산세·감면구간 통합표 + 2026년 납부지연가산세 개정 반영 + 상장주식 평가기간-신고기한 관계(날짜 계산) + 원 단위 계산 예시(제때 신고 9,700만원 vs 2개월 지연 1억1,532만원, 차이 1,832만원)로 정보이득 확보.",
-      "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 37,
@@ -805,14 +838,15 @@
       "serp_check": "게이트2 v3 판정(2026-09-15) 통과 — brunch.co.kr/bullstory.io/moneygo.co.kr 등 개인·소규모 블로그가 상위 다수 진입, SERP 안 잠김. 상위 다수가 '이자소득세 15.4%, 매매차익 비과세' 기본 구조는 다루지만 할인채(무이표채) 예외·해외채권 이표채/할인채 구분·세 유형 계산 예시를 함께 다룬 글은 없어 정보이득 여지 뚜렷.",
       "unique_asset_plan": "이표채 매매차익 비과세 원칙 + 소득세법 제46조 근거 할인채(무이표채) 할인액 과세 예외 + 채권ETF 매매차익도 과세되는 차이 + 해외채권(미국채) 이표채/할인채 구분과 한미 조세조약 원천징수 구조 + 이표채·할인채·해외채권 3유형 원 단위 계산 예시.",
       "primary_source_plan": "국세청 산하 국세법령정보시스템(txsi.hometax.go.kr) 질의회신 페이지 WebFetch 1회 시도 결과 EGRESS_BLOCKED(2026-09-15) — RULES.md 2026-09-12 기준에 따라 사실관계별로 5곳 이상 독립 출처(언론·준정부기관·회계법인·세무전문매체) 교차검증으로 진행.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "1~36편 어디에도 채권(이표채·할인채·채권ETF·해외채권) 이자소득세·매매차익 과세는 다루지 않는다. 6편(금융소득 종합과세)의 2천만원 기준은 요약 후 내부 링크로 위임해 중복 설명하지 않았다.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-15). 게이트4는 txsi.hometax.go.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준의 2차 출처 교차검증(사실관계별 5곳 이상, 충돌 없음)으로 진행 — 소득세법 제46조·한미 조세조약 원문 전문은 직접 열람하지 못한 한계를 self_check와 본문에 투명 공개.",
       "primary_source": "WebSearch 교차검증 — hankyung.com·edaily.co.kr(언론)·pwc.com(회계법인)·kcie.or.kr(준정부기관)·tossbank.com(개별채권 과세구조), casenote.kr·law.go.kr(법령)·taxnet.co.kr·joseilbo.com(소득세법 제46조·할인채 과세), tfmedia.co.kr·newspim.com·quarterback.co.kr(해외채권 과세) 등 사실관계별 5곳 이상, 충돌 없음.",
       "draft_path": "stock_drafts/bond-tax-guide.md",
       "gate3_note": "이표채·할인채·채권ETF·해외채권 4갈래 과세 구조 정리 + 소득세법 제46조 근거 + 원 단위 계산 예시 3건(이표채/할인채/해외채권)으로 정보이득 확보.",
-      "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 38,
@@ -828,14 +862,15 @@
       "serp_check": "게이트2 v3 판정(2026-09-16) 통과 — easyzetec.com/cbilder.com 등 개인·소규모 재테크 블로그가 상위권에 진입해 SERP 안 잠김. 2026-08 금융감독원 TF 킥오프 이후 DC→타사 IRP 확대 추진 상황, 2024-10-31 도입~2026-06월말 누적 이전 통계(15조9,000억원), 상품유형별 이전 가능여부를 통합한 콘텐츠는 상위에 없어 정보이득 여지 뚜렷.",
       "unique_asset_plan": "제도별(IRP/DC/DB) 누적 실물이전 통계표(세 금액 합이 총액과 정확히 일치함을 검산) + '지금 되는 것 vs 2027년까지 확대될 것' 시점 분리표(DC→타사 IRP, 환매중단펀드 포함 여부).",
       "primary_source_plan": "고용노동부(moel.go.kr) 보도자료. WebFetch 1회 시도 결과 EGRESS_BLOCKED(2026-09-16), google.com 대조군도 차단 확인 — RULES.md 2026-09-12 기준에 따라 세 갈래(제도개요/사전조회절차/TF·통계) 모두 3곳 이상 독립 출처 교차검증으로 진행.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "3편(ISA 계좌 한도와 비과세 혜택)은 ISA 납입한도·비과세혜택, 8편(연금저축 세액공제)은 연금저축 세액공제율이 중심이라 이 글(퇴직연금 계좌를 다른 금융사로 옮기는 절차·대상 상품)과 검색 의도가 겹치지 않는다. 본문에서 8편으로 내부 링크.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 moel.go.kr WebFetch 1회 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준의 2차 출처 교차검증(제도개요 3곳, 사전조회절차 6곳, TF·통계 5곳, 모두 충돌 없음)으로 진행 — 고용노동부·금융감독원 원문 보도자료를 직접 열람하지 못한 한계를 self_check와 본문에 투명 공개.",
       "primary_source": "WebSearch 교차검증 — 제도개요: moel.go.kr/kbthink.com/eiec.kdi.re.kr, 사전조회절차: khan.co.kr/sedaily.com/heraldcorp.com/viva100.com/intn.co.kr/kiri.or.kr, TF·통계: newspim.com/imaeil.com/dt.co.kr/sankyungtoday.com/sidae.com.",
       "draft_path": "stock_drafts/retirement-pension-in-kind-transfer.md",
       "gate3_note": "제도별 누적 실물이전 통계(2024-10-31 도입~2026-06월말 15조9,000억원·25만여건, IRP 6.8조/DC 4.8조/DB 4.3조 — 합산 검산 완료) + '지금 되는 것 vs 확대 예정' 시점 분리표로 정보이득 확보.",
-      "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 39,
@@ -851,14 +886,15 @@
       "serp_check": "게이트2 v3 판정(2026-09-16) 통과 — ttegl.com·2ndsystem.net 등 개인·소규모 블로그가 상위권에 진입해 SERP 안 잠김. 국가별 세율 비교를 100만원 기준 실제 원 단위 계산으로 보여주고, 4편(국내 배당세)·15편(미국주식 세금 요약 한 줄)과 겹치지 않게 해외주식만의 이중과세 조정 메커니즘에 집중한 콘텐츠는 상위에 없어 정보이득 여지 있음.",
       "unique_asset_plan": "국가별(미국15%/중국10%/일본15.315%/홍콩0%) 100만원 배당 기준 실효세율 비교표 + 종합과세 전환 시 외국납부세액공제(소득세법 제57조) 원리 설명.",
       "primary_source_plan": "국세청(nts.go.kr). WebFetch 1회 시도 결과 EGRESS_BLOCKED(2026-09-16), google.com 대조군도 차단 확인 — 이중과세 조정 메커니즘 자체는 5편 작업 시 이미 확보한 1차 출처(sources/nts-overseas-stock-tax-2024.md/.pdf, 국세청 공식 책자 2024-05)를 재사용. 국가별 세율·외국납부세액공제 공식은 RULES.md 2026-09-12 기준에 따라 독립 출처 6곳(공식 증권사 5곳+준정부 1곳) 교차검증 + law.go.kr 소득세법 제57조 조문 인용으로 확정.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "4편(배당소득세)은 국내 배당 15.4% 원천징수만 다루고, 15편(미국주식 세금)은 배당세를 한 줄 요약만 한다. 이 글은 해외주식만의 국가별 이중과세 조정 메커니즘에 집중해 겹치지 않는다. 본문에서 4편·15편으로 내부 링크.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 이미 확보된 국세청 공식 책자(1차 출처) 재사용 + 6곳 이상 독립 출처 교차검증 + 소득세법 제57조 원문 인용으로 진행 — 15편에서 동일 방식으로 15% 원천징수 수치를 cross-verify해 gate_pass:true로 발행한 선례와 일치.",
       "primary_source": "국세청 「2024년 해외주식과 세금(개인투자자용)」(2024-05, sources/nts-overseas-stock-tax-2024.md) + 국가법령정보센터 소득세법 제57조 + WebSearch 교차검증(키움증권·KB·다올투자증권·하나증권·아이엠증권·금융투자자보호재단, 2026-09-16).",
       "draft_path": "stock_drafts/overseas-stock-dividend-tax.md",
       "gate3_note": "100만원 배당 기준 4개국 실효세율 비교표(15%/14.4%/15.315%/15.4%, 중국 사례의 소득세+지방소득세 추가 징수 구조까지 원 단위로 분해) + 외국납부세액공제 원리(공식은 명시, 개인별 실제 계산은 지어내지 않음)로 정보이득 확보.",
-      "published_note": "gate_pass:true — 사람 최종 확인 후 티스토리(sensitiveboss3.tistory.com) 발행 대기 중."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 40,
@@ -873,14 +909,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-16 — 통과] WebSearch 상위 6개(kbthink.com/3o3campus.co.kr/uriinvest.kr/studyandrich.com/brorebound.com/ebc.com) 중 개인 블로그 3개 진입, SERP 안 잠김. 상위 글 대부분 '일일 -2배 추종'+변동성 손실 개념까지만 다루고, 2026-07-31 시행된 단일종목 레버리지 ETF 예탁금 3,000만원 상향과 지수형 곱버스의 기존 예탁금 1,000만원 제도를 비교 정리한 글은 없음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "지수가 원점으로 돌아와도 곱버스는 손실이 남는 변동성 손실을 2거래일 계산 예시로 시연 + 곱버스(지수형)와 단일종목 레버리지 ETF의 예탁금·교육 요건 차이(2026-07-31 개정) 비교표.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "10편(ETF 수수료)·22편(ETF 괴리율)·23편(국내상장 해외ETF 세금)은 전부 비용·세금이 중심. 레버리지·인버스 ETF의 상품 구조·기본예탁금 제도를 다룬 편은 없어 겹침 없음.",
       "draft_path": "stock_drafts/leveraged-inverse-etf-deposit.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 fsc.go.kr WebFetch 1회 시도 EGRESS_BLOCKED 확인 후 WebSearch 교차검증(지수형 제도 4개 독립 출처, 단일종목 제도 6개 독립 언론사)으로 대체, 각각 충돌 없이 일치해 한계와 함께 진행.",
       "primary_source": "지수형 레버리지·인버스 ETF 기본예탁금 1,000만원+사전교육(2020-09-07 시행): 미래에셋증권 공식 블로그·아시아타임(언론)·한국투자증권 TRUE ETN·KB증권 공지 4개 교차 확인. 단일종목 레버리지 ETF 예탁금 3,000만원 상향(2026-07-31 시행): 다음뉴스·헤럴드경제·서울신문·뉴스1·네이트뉴스(3건) 6개 언론사 교차 확인. fsc.go.kr 원문은 EGRESS_BLOCKED로 미확보.",
       "gate3_note": "변동성 손실 2거래일 계산 예시(지수 0% 변동에도 곱버스 -6.7%) + 곱버스 vs 단일종목 레버리지 ETF 예탁금·교육 요건 비교표(2026-07-31 최신 개정 반영)로 정보이득 확보.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 41,
@@ -895,14 +932,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-16 — 통과] WebSearch 상위 6개(kbsec.com×2/truefriend.com/kcie.or.kr/namu.wiki/mynamuh.com) 중 mynamuh.com 개인·소규모 콘텐츠 진입, 인접 쿼리에서 brunch.co.kr·bank-mall.co.kr·banksalad.com도 확인 — SERP 안 잠김. 상위 글 대부분이 '4곳만 취급'이라는 낡은 설명을 반복해 2026-09-09 삼성증권 인가(8곳)를 반영하지 못함. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "발행어음 사업자가 2026-09-09 삼성증권 인가로 4→8곳으로 늘었다는 최신 사실 + 종투사 지정과 단기금융업(발행어음) 인가가 별개 절차라는 혼동 해소 + 예금자보호 미적용·발행한도(자기자본 200%) 정리.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "1~40편 어디에도 발행어음·CMA·종합금융투자사업자를 다룬 편이 없다(grep 확인, 'CMA 이자소득세'는 검색량 미달로 미발행 backlog 항목뿐). 겹침 없음.",
       "draft_path": "stock_drafts/issued-note-securities-firms-2026.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 kdic.or.kr WebFetch 1회 시도 EGRESS_BLOCKED 확인 후 WebSearch 교차검증(삼성증권 인가 사실 11곳 이상 독립 언론사, 예금자보호 원칙은 각 증권사 공식 설명서+법제처, 발행한도 200%는 공식 설명서+법령DB)으로 대체, 각각 충돌 없이 일치해 한계와 함께 진행.",
       "primary_source": "삼성증권 발행어음(단기금융업) 인가, 2026-09-09, 자본시장법 제360조: 서울신문·헤럴드경제·파이낸셜뉴스·뉴스핌·아시아경제·글로벌이코노믹·이투데이·세계일보·한국금융신문·시사저널·네이트뉴스(2건) 11곳 이상 언론 교차 확인. 예금자보호 미적용: 미래에셋증권·KB증권 공식 상품설명서 + 법제처 찾기쉬운 생활법령정보(easylaw.go.kr). 발행한도(자기자본 200%, 자본시장법 시행령 제77조의6): 미래에셋증권 공식 발행어음 설명서 + 법령 데이터베이스(LBOX). fsc.go.kr·kdic.or.kr 원문은 EGRESS_BLOCKED로 미확보.",
       "gate3_note": "8개사 인가 시점 현황표(한국투자증권 2017→NH 2018→KB 2019→미래에셋 2021→키움/신한투자/하나 2025→삼성 2026-09) + 종투사 지정과 발행어음 인가가 별개 절차임을 삼성증권 사례(2017년 종투사 지정, 2026년 발행어음 인가)로 보여준 것이 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 42,
@@ -917,14 +955,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-16 — 통과] WebSearch 상위 종합(coinone.co.kr/law.go.kr x2/asiae.co.kr·m.sateconomy.co.kr·biz.heraldcorp.com·sejungilbo.com·intn.co.kr 언론 5곳/nts.go.kr/watax.kr·nexttala.com/crypto.com/premiatnc.blog/kmoney101.com 개인블로그/webzine.kacta.or.kr 준정부/daeryunlaw-finance.com 법무법인) — kmoney101.com·premiatnc.blog 진입으로 SERP 안 잠김. 상위 글 대부분이 2025-01-01 시행령 개정(과태료 10~20%->10% 단일)을 반영하지 못하거나 합산 판단 예시가 없음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "2025-01-01 국제조세조정법 시행령 개정 전/후 과태료율 비교표(10~20% 누진→10% 단일, 한도 20억→10억) + 가중(2차 30%/3차 이상 50%)·감경(50%) 구조표 + 여러 해외계좌(예금+증권+가상자산) 합산 판단 예시.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "6편(금융소득 종합과세)·5편(해외주식 양도소득세 신고 방법)·39편(해외주식 배당소득세)은 전부 '세금을 얼마 내는가'를 다루고, 이 글은 '계좌 정보 신고 의무' 자체(세금 아님)를 다뤄 검색 의도가 겹치지 않는다.",
       "draft_path": "stock_drafts/foreign-financial-account-reporting.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-16). 게이트4는 nts.go.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(view.asiae.co.kr)도 차단돼 세션 전면 차단 확인 후 WebSearch 교차검증(독립 출처 9곳 이상 — 언론 5곳·준정부 성격 전문지 1곳·법무법인 1곳 포함, 핵심 수치 충돌 없음)으로 대체.",
       "primary_source": "해외금융계좌 신고 기준금액(5억원)·신고기한(6월)·2025-01-01 시행령 개정(과태료 10% 단일, 한도 10억)·가중감경 구조·명단공개(50억 초과)·형사처벌(2년 이하 징역 또는 13~20% 벌금): 아시아경제·사이버경제·헤럴드경제·세종일보·일간NTN(언론 5곳) + 한국세무사회 세무사신문(준정부 성격) + 대륜 법무법인, 9곳 이상 교차 확인, 충돌 없음. nts.go.kr 원문은 EGRESS_BLOCKED로 미확보.",
       "gate3_note": "2025년 개정 전/후 비교표 + 반복위반 가중/감경 구조표 + 서로 다른 종류의 계좌를 합산해 5억원 초과 여부를 판단하는 가상 예시가 상위 검색결과에 없던 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 43,
@@ -939,14 +978,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"ISA 계좌 손익통산 뜻 계산 방법\"+\"ISA 만기 손익통산 비과세 200만원 초과 계산\"+\"ISA 국내상장주식 매매차익 비과세 손익통산 제외\" 상위 종합: toss.im/kbthink.com/kbsec.com/obank.kbstar.com(공식) / bluedino.kr(개인, 4회)·frism.io·financecoffeechat.com·calcmoney.kr·easyzetec.com·lifeinfobox.com(개인, 총 5회) / 신한투자증권·한국투자증권·삼성증권매거진·eugenefn.com(증권사 공식). 개인/소규모 블로그 다수 진입으로 SERP 안 잠김. 손익통산의 기본 개념·비과세 초과분 계산은 상위 글이 다루지만, 국내상장주식 매매이익(통산 제외)/매매손실(통산 포함) 비대칭 구조를 두 방향 계산 예시로 보여주는 글은 부재 — 정보이득 여지 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "국내상장주식 매매이익(통산 제외)·매매손실(통산 포함) 비대칭 구조표 + 이익케이스(펀드이익500만-국내주식손실200만=순이익300만, 세금99,000원)·손실케이스(국내주식이익400만은 그대로 비과세+펀드손실100만은 통산돼 세금0원) 두 방향 계산 예시.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "3편(ISA 계좌 한도와 비과세 혜택)은 유형별 납입한도·비과세 한도 구조와 생산적금융 ISA 혼동 해소가 중심이고 손익통산 계산 방식은 다루지 않아(grep 0회 확인) 검색 의도가 겹치지 않는다. 본문에서 3편으로 내부 링크.",
       "draft_path": "stock_drafts/isa-gain-loss-netting.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-17). 게이트4는 fsc.go.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(google.com)도 차단돼 세션 전면 차단 확인 후 WebSearch 교차검증(독립 출처 5곳 이상 — 언론 1곳·준정부 연구기관 2곳·준정부 성격 재단 1곳 포함, 핵심 수치 충돌 없음, 3편에서 원문 확정한 비과세한도·세율과도 일치)으로 대체.",
       "primary_source": "손익통산 비대칭 구조·비과세 한도(일반형200만/서민형·농어민형400만)·분리과세 9.9%: 조세일보(언론, payzon.co.kr) + KDI 경제정보센터·국회예산정책처(준정부 연구기관 2곳) + 금융투자자보호재단(준정부 성격) + 다수 증권사 공식 콘텐츠, 5곳 이상 교차 확인, 충돌 없음. fsc.go.kr 원문은 EGRESS_BLOCKED로 미확보.",
       "gate3_note": "비대칭 구조표(이익 제외/손실 포함) + 이익 케이스·손실 케이스 두 방향 계산 예시가 상위 검색결과에 없던 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 44,
@@ -961,14 +1001,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch 상위: 신한투자증권·NH투자증권·교보증권(공식) / calctools.co.kr·ipo.seosann.kr(개인 계산기) / easyzetec.com·trendmetriclab.com·keyzard.cc(개인/소규모 블로그) / 재경일보(언론). 진입여지 있음, 검색의도는 계산기 실행이 지배적이지 않음. 답 완결은 부분적(증거금·배정 공식은 이미 다수가 다룸)이나, 균등배정 추첨 메커니즘 오해 정정 + 2025-10-31 코스닥벤처펀드 우선배정 확대(25%→30%) 최신 규정을 함께 다루는 글이 상위에 없어 정보이득으로 통과.",
       "unique_asset_plan": "균등배정도 신청자 수가 물량보다 많으면 추첨으로 0주가 나올 수 있다는 실제 메커니즘 + 증거금·비례배정 계산 예시 2건 + 2025-10-31 예고된 코스닥벤처펀드 우선배정 확대(25%→30%, 2026-01-01 시행) 최신 정보.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "35편(IPO 뜻과 의무보유확약 우선배정제도)은 IPO 전체 절차·기관투자자 의무보유확약이 중심이며 해당 draft에 \"공모주 청약 방법·균등배정·보호예수기간은 다루지 않았다\"고 명시돼 있어, 이 글의 증거금 계산·균등/비례배정 실제 메커니즘과 검색 의도가 겹치지 않는다. 본문에서 35편으로 내부 링크.",
       "draft_path": "stock_drafts/ipo-subscription-deposit-calculation.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-17). 게이트4는 law.kofia.or.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(google.com)도 차단돼 세션 전면 차단 확인 후 교차검증으로 대체 — 균등/비례배정·증거금 공식은 대형 증권사 공식 안내 다수 일치, 코스닥벤처펀드 우선배정 확대는 독립 언론 7곳 + 금융투자협회·금융위원회 공식 보도자료로 확인.",
       "primary_source": "균등/비례배정·증거금 공식: 신한투자증권·NH투자증권·교보증권·삼성증권 공식 안내 다수 일치(근거: 금융투자협회 「증권 인수업무 등에 관한 규정」). 코스닥벤처펀드 우선배정 확대(25%→30%, 2026-01-01 시행, 2028-12-31까지 한시): 파이낸셜뉴스·이데일리 마켓인·머니투데이·아시아경제·뉴스톱·리드경제·서울경제 7곳 + 금융투자협회 보도자료(kofia.or.kr/brd/m_211/view.do?seq=223) + 금융위원회 보도자료(fsc.go.kr/no010101/85897).",
       "gate3_note": "균등배정 추첨 메커니즘(오해 정정) + 증거금·비례배정 계산 예시 2건 + 최신 규정 변화(2025-10-31 예고, 2026-01-01 시행) 반영이 상위 검색결과에 없던 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 45,
@@ -983,14 +1024,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"액면분할 뜻 효과 주가\"+\"액면분할 신주 상장일 절차 액면미달발행 제한\" 상위 종합: brunch.co.kr(개인,×2)/viva100.com(언론)/kbthink.com(KB 공식)/zuzu.network(소규모 콘텐츠)/mofe.go.kr(기획재정부 공식)/namu.wiki(백과)/infobaksa.com(개인)/help-me.kr(법무법인,×2)/casenote.kr/korea.legal/klca.or.kr. 개인·법무법인 블로그 다수 진입으로 SERP 안 잠김. 상위 대부분이 뜻·효과·주가영향까지만 다루는 사전형 설명이고, \"실제로 며칠 동안 거래가 정지되는지\"를 다루는 글은 부재 — 정보이득 여지 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "2026년 실제 사례 2건(와이씨켐 2026-04-10~04-29·동일기연 2026-06-24~07-13, 둘 다 19일 정지)으로 매매정지 실제 기간을 보여주고, 근거 규정(코스닥시장업무규정 제25조·시행세칙 제30조, \"분할기준일 1매매거래일 전~변경상장일 전일\")과 절차 타임라인표를 함께 제시.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "1~44편 어디에도 액면분할·매매정지 관련 내용은 없다(grep 확인). 백로그의 \"액면가 뜻\"(사전형이라 보류 중)과는 다른 각도(매매정지 절차)라 겹치지 않는다.",
       "draft_path": "stock_drafts/stock-split-trading-halt.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-17). 게이트4는 kind.krx.co.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(digitaltoday.co.kr·google.com)도 차단돼 세션 전면 차단 확인 후 교차검증으로 대체 — 근거 규정·정지기간 정의는 한국거래소 공식 발간 해설서(코스닥시장 공시·상장관리해설서), 실제 사례 수치는 독립 언론 4곳 이상(디지털투데이·데이터투자·딜사이트·블로터·톱스타뉴스)이 동일하게 보도해 일치.",
       "primary_source": "근거 규정: 코스닥시장업무규정 제25조·시행세칙 제30조, 한국거래소 「코스닥시장 공시·상장관리해설서」(kind.krx.co.kr 게시). 실제 사례: 와이씨켐(2대1, 2026-04-10~04-29, 19일)·동일기연(5대1, 2026-06-24~07-13, 19일) — 디지털투데이·데이터투자·딜사이트·블로터·톱스타뉴스 등 독립 언론 다수 보도 일치. 대림제지(2026-09-18 매매정지 예정)는 진행 중인 최신 사례로 반영.",
       "gate3_note": "2026년 실제 사례 2건(정지기간 19일로 수치 일치) + 근거 규정·절차 타임라인표 + 액면분할/무상증자 비교표가 상위 검색결과에 없던 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 46,
@@ -1005,14 +1047,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"권리락 뜻 2026\"+\"권리락 매매기준일 주가 조정\"+\"권리락일 확인방법 주식\" 상위 종합: brunch.co.kr(개인)/infobaksa.com(개인,×2)/eom.co.kr(개인)/orangeboard.co.kr(개인 콘텐츠)/m.cafe.daum.net(커뮤니티)/stockplus.com(핀테크 콘텐츠)/kbthink.com(KB 공식)/mofe.go.kr(기획재정부 공식,×2)/아주경제·네이트뉴스(언론)/dbpia.co.kr·e-kjfs.org(학술). 개인·커뮤니티 콘텐츠 다수 진입으로 SERP 안 잠김. 상위 대부분이 정의·주가하락 결과까지만 다루는 사전형 설명이고, 실제 숫자를 대입한 계산 예시나 배당락과의 조정방식 차이를 다루는 글은 부재 — 정보이득 여지 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "유상증자·무상증자 이론권리락주가 공식에 가상의 기준주가(10,000원)를 대입한 계산 예시 표를 제시하고, 권리락(거래소가 기준가를 직접 조정)과 현금배당 배당락(1998년 7월 현금배당락조치 폐지 이후 인위조정 없음)의 조정방식 차이를 비교표로 정리.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "16편(배당락일 매수 마감일 계산법)은 배당기준일·배당락일 매수 타이밍을 다루고, 이번 편은 유상증자·무상증자로 인한 권리락 기준가 계산을 다뤄 검색 의도가 겹치지 않는다. 4번째 H2에서 두 개념의 차이를 명시적으로 비교해 상호 참조되게 했다. 1~45편 어디에도 권리락 기준가 계산 공식을 다룬 글은 없다.",
       "draft_path": "stock_drafts/ex-rights-price-calculation.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-17). 게이트4는 regulation.krx.co.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(google.com)도 차단돼 세션 전면 차단 확인 후 교차검증으로 대체 — 이론권리락주가 공식은 기획재정부·한국증권학회지·삼성증권·미래에셋증권·KB·오렌지보드 등 6곳 이상이 동일하게 수렴, 배당락 조정방식 차이는 DBpia 학술논문으로 확인.",
       "primary_source": "계산 공식: 기획재정부 시사경제용어사전(mofe.go.kr), 한국증권학회지(e-kjfs.org), 삼성증권 Compliance Note(samsungpop.com), 미래에셋증권 용어사전, KB(kbthink.com), 오렌지보드(orangeboard.co.kr) 등 6곳 이상 독립 출처 수렴. 배당락 비교: DBpia \"현금배당락조치 폐지 이후 배당락일의 주가행태\" 논문. 실제 종목별 기준가격은 한국거래소 KIND(kind.krx.co.kr) 공시로 확인 가능하다고 안내(자동화 세션은 접속 차단으로 직접 확인 못함).",
       "gate3_note": "가상의 기준주가를 대입한 유·무상증자 계산 예시 2건 + 권리락/배당락 조정방식 비교표(1998년 현금배당락조치 폐지 근거)가 상위 검색결과에 없던 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 47,
@@ -1027,14 +1070,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"배당수익률\"+\"배당수익률 뜻 계산법\"+\"시가배당률 뜻 배당기준일 직전 평균주가\" 상위 종합: tradingview·tikr.com(해외 서비스)/toss.im·stockplus.com(핀테크)/wikipedia/data.krx.co.kr(한국거래소, 공식)/jptcalc.kr·bileotools.com·brunch.co.kr·econowide.com·FunETF·아이투자(개인·소규모)/dic.hankyung.com(경제지 부속 사전)/kbthink.com(KB 공식)/대한금융신문(언론). 개인·소규모 콘텐츠 다수 진입으로 SERP 안 잠김. 상위 대부분이 공식·정의·배당컷 위험 정도만 다루고, 배당수익률과 시가배당률의 계산 기준일 차이 및 배당소득세를 뗀 세후 실수령 수익률 계산까지 함께 다루는 글은 부재 — 정보이득 여지 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "시가배당률(배당기준일 직전 평균가 기준)과 배당수익률(현재가 기준)의 계산 기준일 차이를 숫자 예시로 보여주고, 배당소득세 원천징수 15.4%(4편 기확정 수치 재사용)를 반영한 세전/세후 실수령 수익률 계산 예시, 배당수익률이 높다고 무조건 좋은 게 아닌 이유(주가 급락 착시)를 판별 체크리스트로 정리.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "4편(배당소득세)은 원천징수 세율·종합과세 판단이 중심, 6편(금융소득종합과세)은 2천만원 초과 합산과세 판단이 중심이라 배당수익률(투자 지표 자체의 정의·계산·함정)과 검색 의도가 겹치지 않는다. 세율 부분은 4편으로 내부 링크만 걸고 본문에서 재도출하지 않았다. 1~46편 어디에도 배당수익률 계산법을 다룬 글은 없다.",
       "draft_path": "stock_drafts/dividend-yield-calculation.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-17). 게이트4는 data.krx.co.kr WebFetch 1회 시도 EGRESS_BLOCKED, 대조군(google.com)도 차단돼 세션 전면 차단 확인 후 교차검증으로 대체 — 정의·계산기준은 대한금융신문(언론)·KB·한경용어사전·FunETF·아이투자 등 5곳 이상이 충돌 없이 수렴, 배당소득세 세율 15.4%는 4편에서 법제처 원문으로 이미 확정한 수치를 재사용.",
       "primary_source": "계산 기준일 정의: 대한금융신문(kbanker.co.kr), KB(kbthink.com), 한경용어사전(dic.hankyung.com), FunETF(funetf.co.kr), 아이투자(itooza.com) 등 5곳 이상 독립 출처 수렴. 세율: 4편(dividend-income-tax)에서 확정한 법제처 원문 수치(15.4%) 재사용. 종목별 실제 배당수익률·PER·PBR 데이터는 한국거래소 정보데이터시스템(data.krx.co.kr)에서 확인 가능하다고 안내(자동화 세션은 접속 차단으로 직접 확인 못함).",
       "gate3_note": "배당수익률/시가배당률 계산 기준일 차이 숫자 예시 + 세전/세후(15.4%) 실수령 수익률 계산 예시 + 배당컷 위험 판별 체크리스트가 상위 검색결과에 없던 정보이득.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     },
     {
       "id": 48,
