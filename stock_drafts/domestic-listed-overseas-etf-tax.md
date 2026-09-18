@@ -149,8 +149,8 @@ self_check: |
 <p>분배금(배당)은 계산이 단순합니다. <b>지급 시점에 15.4%가 원천징수</b>되고, 세후 금액이 계좌로 들어옵니다. 매매차익처럼 보유기간과세를 따지지 않고 지급액 전체에 곧바로 세율이 적용됩니다.</p>
 
 <ul style="line-height:1.9;">
-  <li>매매차익 — 과표기준가 증가분과 실제 차익 중 더 작은 금액에 15.4%</li>
-  <li>분배금 — 지급액 전체에 15.4% 즉시 원천징수</li>
+  <li>매매차익: 과표기준가 증가분과 실제 차익 중 더 작은 금액에 15.4%</li>
+  <li>분배금: 지급액 전체에 15.4% 즉시 원천징수</li>
 </ul>
 
 <p>매매차익과 분배금을 합친 금융소득이 연 2,000만 원을 넘으면 다른 소득과 합산되는 <a href="https://sensitiveboss3.tistory.com/entry/financial-income-comprehensive-tax" target="_blank" rel="noopener">금융소득종합과세</a> 대상이 될 수 있습니다.</p>
@@ -214,8 +214,8 @@ self_check: |
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">2025년 1월 1일부터 이 선환급 절차가 폐지</span>되고, 원천징수의무자인 증권사·은행이 투자자별로 외국납부세액 공제 금액을 계산해 원천징수 단계에서 바로 반영하는 방식으로 바뀌었습니다.</p>
 
 <ul style="line-height:1.9;">
-  <li>일반 위탁계좌 — 개편 후에도 종합소득세 신고 시 외국납부세액 공제를 받을 수 있어 최종 수령액에 큰 차이가 없다고 안내되고 있습니다.</li>
-  <li>ISA·연금계좌 — 각 계좌의 별도 과세체계가 적용돼 처리 방식이 다르며, 향후 세부 규정이 추가로 조정될 수 있습니다.</li>
+  <li>일반 위탁계좌: 개편 후에도 종합소득세 신고 시 외국납부세액 공제를 받을 수 있어 최종 수령액에 큰 차이가 없다고 안내되고 있습니다.</li>
+  <li>ISA·연금계좌: 각 계좌의 별도 과세체계가 적용돼 처리 방식이 다르며, 향후 세부 규정이 추가로 조정될 수 있습니다.</li>
 </ul>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
@@ -253,9 +253,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> — 배당소득세·양도소득세 일반 기준(4·5·6편에서 원문 확인)</li>
-    <li><a href="https://m.joseilbo.com/news/view.htm?newsid=569118" target="_blank" rel="noopener">조세일보 — 해외ETF 외국납부세액공제 안내</a></li>
-    <li><a href="https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20251219.99099007352" target="_blank" rel="noopener">국제신문 — [차호중의 재테크 칼럼] ETF와 세금</a></li>
+    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>: 배당소득세·양도소득세 일반 기준(4·5·6편에서 원문 확인)</li>
+    <li><a href="https://m.joseilbo.com/news/view.htm?newsid=569118" target="_blank" rel="noopener">조세일보: 해외ETF 외국납부세액공제 안내</a></li>
+    <li><a href="https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20251219.99099007352" target="_blank" rel="noopener">국제신문: [차호중의 재테크 칼럼] ETF와 세금</a></li>
   </ul>
   기준일: 2026-09-13(WebSearch 확인일). 외국납부세액 공제 개편 시행일은 2025-01-01입니다. 국세청 원문은 이번 세션 WebFetch가 차단돼 직접 확인하지 못했고, 세율·공제 기준은 이 시리즈 4·5·6편에서 이미 원문으로 확정한 값을 재사용했으며, 계산 방식·손익통산·2025년 개편은 위 언론과 증권사·자산운용사 공식 콘텐츠 등 10곳 이상 독립 출처의 교차 확인으로 대체했습니다.
 </div>

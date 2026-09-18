@@ -146,8 +146,8 @@ self_check: |
   <tbody>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">주주 대가</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>지급함</b> — 소멸된 주식만큼 현금 등으로 보상</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>지급 없음</b> — 주식을 병합·소각만 함</td>
+      <td style="border:1px solid #ddd;padding:8px;"><b>지급함</b>: 소멸된 주식만큼 현금 등으로 보상</td>
+      <td style="border:1px solid #ddd;padding:8px;"><b>지급 없음</b>: 주식을 병합·소각만 함</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">회사 자산</td>
@@ -268,8 +268,8 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND) — 코스닥시장 공시·상장관리 해설서(매매거래정지 규정)</a></li>
-    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART) — 주요사항보고서(감자결정) 조회</a></li>
+    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND): 코스닥시장 공시·상장관리 해설서(매매거래정지 규정)</a></li>
+    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 주요사항보고서(감자결정) 조회</a></li>
     <li>기준일: 2026-09-14(WebSearch 확인일, 한국거래소 해설서 스니펫 + 언론 2곳·개인 콘텐츠 1곳 교차 확인)</li>
   </ul>
 </div>

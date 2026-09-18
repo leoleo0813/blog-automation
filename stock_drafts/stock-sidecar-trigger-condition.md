@@ -231,9 +231,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://law.krx.co.kr/las/TopFrame.jsp" target="_blank" rel="noopener">한국거래소 법규정보서비스 — 유가증권시장업무규정 검색</a></li>
-    <li><a href="https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&amp;csmSeq=1701&amp;ccfNo=3&amp;cciNo=1&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보 — 매매거래중단·정지 및 시장경보제도 이해하기</a></li>
-    <li><a href="https://www.fnnews.com/news/202607161454213305" target="_blank" rel="noopener">파이낸셜뉴스 — 2026년 7월 사이드카·서킷브레이커 발동 현황 보도</a></li>
+    <li><a href="https://law.krx.co.kr/las/TopFrame.jsp" target="_blank" rel="noopener">한국거래소 법규정보서비스: 유가증권시장업무규정 검색</a></li>
+    <li><a href="https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&amp;csmSeq=1701&amp;ccfNo=3&amp;cciNo=1&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보: 매매거래중단·정지 및 시장경보제도 이해하기</a></li>
+    <li><a href="https://www.fnnews.com/news/202607161454213305" target="_blank" rel="noopener">파이낸셜뉴스: 2026년 7월 사이드카·서킷브레이커 발동 현황 보도</a></li>
     <li>기준일: 2026-09-13(WebSearch 확인일, 언론·법제처 등 독립 출처 8곳 이상 교차 확인)</li>
   </ul>
 </div>

@@ -168,7 +168,7 @@ self_check: |
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">MMF</td>
-      <td style="border:1px solid #ddd;padding:8px;">불가 — 현금화 후 이전</td>
+      <td style="border:1px solid #ddd;padding:8px;">불가: 현금화 후 이전</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">환매중단펀드</td>
@@ -187,10 +187,10 @@ self_check: |
 <p>실물이전은 <b>같은 퇴직연금 제도 사이에서만</b> 가능합니다. 확정급여형(DB)은 DB끼리, 확정기여형(DC)은 DC끼리, 개인형퇴직연금(IRP)은 IRP끼리만 실물로 옮길 수 있습니다.</p>
 
 <ul style="line-height:1.9;">
-  <li>DB → 다른 회사 DB — 가능</li>
-  <li>DC → 다른 회사 DC — 가능</li>
-  <li>IRP → 다른 회사 IRP — 가능</li>
-  <li>DC → 다른 회사 IRP — <b>현재는 불가</b>(2027년까지 확대 추진 중)</li>
+  <li>DB → 다른 회사 DB: 가능</li>
+  <li>DC → 다른 회사 DC: 가능</li>
+  <li>IRP → 다른 회사 IRP: 가능</li>
+  <li>DC → 다른 회사 IRP: <b>현재는 불가</b>(2027년까지 확대 추진 중)</li>
 </ul>
 
 <p>퇴사·이직으로 DC형 퇴직금을 받아 IRP로 옮기는 경우가 많은데, 지금은 이 구간에서 실물이전이 되지 않아 상품을 팔고 다시 사야 합니다. 관련 세액공제는 <a href="https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit" target="_blank" rel="noopener">이전 글(연금저축 세액공제 얼마 돌려받나)</a>에서 다뤘습니다.</p>

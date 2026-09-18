@@ -140,8 +140,8 @@ self_check: |
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>신고기한 기준</b>
   <ul style="margin:8px 0 0 0;padding-left:20px;">
-    <li>피상속인이 국내 거주자인 경우 — 사망일이 속한 달 말일부터 <b>6개월</b> 이내</li>
-    <li>피상속인 또는 상속인 전원이 외국에 주소를 둔 경우 — <b>9개월</b> 이내</li>
+    <li>피상속인이 국내 거주자인 경우: 사망일이 속한 달 말일부터 <b>6개월</b> 이내</li>
+    <li>피상속인 또는 상속인 전원이 외국에 주소를 둔 경우: <b>9개월</b> 이내</li>
   </ul>
 </div>
 

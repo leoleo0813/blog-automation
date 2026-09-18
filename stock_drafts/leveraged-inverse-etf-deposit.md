@@ -217,9 +217,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>금융위원회 단일종목 레버리지 ETF·ETN 투자자 보호 방안(2026년) — WebSearch 교차 확인(fsc.go.kr 원문은 EGRESS_BLOCKED)</li>
-    <li><a href="https://www.kifin.or.kr/common/edu/1/detail.do" target="_blank" rel="noopener">금융투자교육원</a> — 레버리지 ETP 사전교육 이수 페이지</li>
-    <li><a href="https://www.trueetn.com/trueetn/nkis/invest/invEtn.jsp?cmd=FR13000" target="_blank" rel="noopener">한국투자증권 TRUE ETN</a> — 레버리지 ETF·ETN 기본예탁금 제도 안내</li>
+    <li>금융위원회 단일종목 레버리지 ETF·ETN 투자자 보호 방안(2026년): WebSearch 교차 확인(fsc.go.kr 원문은 EGRESS_BLOCKED)</li>
+    <li><a href="https://www.kifin.or.kr/common/edu/1/detail.do" target="_blank" rel="noopener">금융투자교육원</a>: 레버리지 ETP 사전교육 이수 페이지</li>
+    <li><a href="https://www.trueetn.com/trueetn/nkis/invest/invEtn.jsp?cmd=FR13000" target="_blank" rel="noopener">한국투자증권 TRUE ETN</a>: 레버리지 ETF·ETN 기본예탁금 제도 안내</li>
     <li>기준일: 2026-09-16(WebSearch 교차 확인일)</li>
   </ul>
 </div>

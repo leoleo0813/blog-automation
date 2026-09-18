@@ -218,9 +218,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=279823&amp;joNo=0173&amp;joBrNo=00&amp;docCls=jo&amp;urlMode=lsScJoRltInfoR" target="_blank" rel="noopener">국가법령정보센터 — 자본시장법 제173조의3(특정증권등 거래계획 보고)</a></li>
-    <li><a href="https://dart.fss.or.kr/info/main.do?menu=340" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART) — 기업공시 길라잡이: 임원 등의 특정증권등 거래계획 보고</a></li>
-    <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=199134" target="_blank" rel="noopener">법률신문 — 상장회사 임원 및 주요주주의 내부자거래 사전공시의무 관련 자본시장법 하위법령 개정안 해설</a></li>
+    <li><a href="https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=279823&amp;joNo=0173&amp;joBrNo=00&amp;docCls=jo&amp;urlMode=lsScJoRltInfoR" target="_blank" rel="noopener">국가법령정보센터: 자본시장법 제173조의3(특정증권등 거래계획 보고)</a></li>
+    <li><a href="https://dart.fss.or.kr/info/main.do?menu=340" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 기업공시 길라잡이: 임원 등의 특정증권등 거래계획 보고</a></li>
+    <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=199134" target="_blank" rel="noopener">법률신문: 상장회사 임원 및 주요주주의 내부자거래 사전공시의무 관련 자본시장법 하위법령 개정안 해설</a></li>
     <li>기준일: 2026-09-13(WebSearch 확인일, 법률신문·법무법인·경향신문 등 독립 출처 4곳 이상 교차 확인)</li>
   </ul>
 </div>

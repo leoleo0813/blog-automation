@@ -106,9 +106,9 @@ self_check: |
 
 <p>반대매매가 나올 수 있는 거래는 크게 세 가지이고, 셋은 기준과 상환기한이 서로 다릅니다.</p>
 <ul style="line-height:1.9;">
-  <li><b>미수거래</b> — 매수 증거금 일부만 내고 나머지(미수금)를 외상으로 사는 방식</li>
-  <li><b>신용거래(융자)</b> — 증권사에서 돈을 빌려 주식을 사는 방식, 담보유지비율이 적용됨</li>
-  <li><b>주식담보대출</b> — 보유 중인 주식을 담보로 현금을 빌리는 방식</li>
+  <li><b>미수거래</b>: 매수 증거금 일부만 내고 나머지(미수금)를 외상으로 사는 방식</li>
+  <li><b>신용거래(융자)</b>: 증권사에서 돈을 빌려 주식을 사는 방식, 담보유지비율이 적용됨</li>
+  <li><b>주식담보대출</b>: 보유 중인 주식을 담보로 현금을 빌리는 방식</li>
 </ul>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">미수거래는 언제 반대매매되나요</h2>
@@ -209,9 +209,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://law.kofia.or.kr/service/law/lawFullScreenContent.do?seq=291&amp;historySeq=1391" target="_blank" rel="noopener">금융투자협회 법규정보시스템 — 신용거래융자 핵심설명서(예시)</a></li>
-    <li><a href="https://file.truefriend.com/Storage/customer/guide/regards/service_29.htm" target="_blank" rel="noopener">한국투자증권 — 신용거래(융자,대주) 설명서</a></li>
-    <li><a href="https://www.eugenefn.com/serv/svlo/svlo107p.do" target="_blank" rel="noopener">유진투자증권 — 반대매매 안내</a></li>
+    <li><a href="https://law.kofia.or.kr/service/law/lawFullScreenContent.do?seq=291&amp;historySeq=1391" target="_blank" rel="noopener">금융투자협회 법규정보시스템: 신용거래융자 핵심설명서(예시)</a></li>
+    <li><a href="https://file.truefriend.com/Storage/customer/guide/regards/service_29.htm" target="_blank" rel="noopener">한국투자증권: 신용거래(융자,대주) 설명서</a></li>
+    <li><a href="https://www.eugenefn.com/serv/svlo/svlo107p.do" target="_blank" rel="noopener">유진투자증권: 반대매매 안내</a></li>
     <li>기준일: 2026-09-12(WebSearch 확인일, 증권사 공식 규정설명서 9곳 이상 교차 확인)</li>
   </ul>
 </div>

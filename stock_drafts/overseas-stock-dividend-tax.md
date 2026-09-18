@@ -152,22 +152,22 @@ self_check: |
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">미국</td>
       <td style="border:1px solid #ddd;padding:8px;">15%</td>
-      <td style="border:1px solid #ddd;padding:8px;">높음 — 국내 추가징수 없음</td>
+      <td style="border:1px solid #ddd;padding:8px;">높음: 국내 추가징수 없음</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">일본</td>
       <td style="border:1px solid #ddd;padding:8px;">15.315%</td>
-      <td style="border:1px solid #ddd;padding:8px;">높음 — 국내 추가징수 없음</td>
+      <td style="border:1px solid #ddd;padding:8px;">높음: 국내 추가징수 없음</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">중국</td>
       <td style="border:1px solid #ddd;padding:8px;">10%</td>
-      <td style="border:1px solid #ddd;padding:8px;">낮음 — 부족분(4%) 국내 추가징수</td>
+      <td style="border:1px solid #ddd;padding:8px;">낮음: 부족분(4%) 국내 추가징수</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">홍콩</td>
       <td style="border:1px solid #ddd;padding:8px;">0%</td>
-      <td style="border:1px solid #ddd;padding:8px;">낮음(없음) — 국내 14% 전액 징수</td>
+      <td style="border:1px solid #ddd;padding:8px;">낮음(없음): 국내 14% 전액 징수</td>
     </tr>
   </tbody>
 </table>
@@ -225,8 +225,8 @@ self_check: |
 <p>이자·배당을 합친 연간 금융소득이 <mark>2,000만원을 넘으면</mark> 해외주식 배당도 다른 금융소득과 합산해 다음 해 5월 종합소득세로 신고해야 합니다. 이때 해외에서 이미 낸 세금을 다시 내지 않도록 <b>외국납부세액공제</b>가 적용됩니다.</p>
 
 <ul style="line-height:1.9;">
-  <li>공제 대상 — 조세조약과 외국 세법에 따라 적법하게 납부한 외국 세액(소득세법 제57조)</li>
-  <li>공제 한도 — 종합소득산출세액 × (국외원천소득 ÷ 종합소득금액)</li>
+  <li>공제 대상: 조세조약과 외국 세법에 따라 적법하게 납부한 외국 세액(소득세법 제57조)</li>
+  <li>공제 한도: 종합소득산출세액 × (국외원천소득 ÷ 종합소득금액)</li>
   <li>한도를 넘는 금액은 이월해 <b>10년 이내</b> 공제 가능</li>
 </ul>
 

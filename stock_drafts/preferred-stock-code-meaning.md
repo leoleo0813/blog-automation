@@ -154,7 +154,7 @@ self_check: |
   <tbody>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">의결권</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>있음</b> — 주주총회에서 주식 수만큼 행사</td>
+      <td style="border:1px solid #ddd;padding:8px;"><b>있음</b>: 주주총회에서 주식 수만큼 행사</td>
       <td style="border:1px solid #ddd;padding:8px;"><b>없음</b>(정관에 따라 제한)</td>
     </tr>
     <tr>
@@ -170,7 +170,7 @@ self_check: |
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">발행·유통 물량</td>
       <td style="border:1px solid #ddd;padding:8px;">많음</td>
-      <td style="border:1px solid #ddd;padding:8px;">적음 — 거래량·유동성이 상대적으로 낮음</td>
+      <td style="border:1px solid #ddd;padding:8px;">적음: 거래량·유동성이 상대적으로 낮음</td>
     </tr>
   </tbody>
 </table>
@@ -197,12 +197,12 @@ self_check: |
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;"><b>우B</b></td>
-      <td style="border:1px solid #ddd;padding:8px;">개정상법 이후 발행된 <b>신형우선주</b> — 채권처럼 최저배당률을 보장하는 제도가 함께 도입됨</td>
+      <td style="border:1px solid #ddd;padding:8px;">개정상법 이후 발행된 <b>신형우선주</b>: 채권처럼 최저배당률을 보장하는 제도가 함께 도입됨</td>
       <td style="border:1px solid #ddd;padding:8px;">미래에셋증권우B</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;"><b>2우B, 3우B</b></td>
-      <td style="border:1px solid #ddd;padding:8px;">앞의 숫자는 <b>발행 순서</b> — 숫자가 클수록 나중에 발행</td>
+      <td style="border:1px solid #ddd;padding:8px;">앞의 숫자는 <b>발행 순서</b>: 숫자가 클수록 나중에 발행</td>
       <td style="border:1px solid #ddd;padding:8px;">미래에셋증권2우B(두 번째로 발행된 신형우선주)</td>
     </tr>
   </tbody>
@@ -277,9 +277,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터 — 상법 제344조(종류주식), 제344조의3(의결권 제한 종류주식)</a></li>
-    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템 — 주식 시세 통계</a></li>
-    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART) — 개별 종목 사업보고서 조회</a></li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터: 상법 제344조(종류주식), 제344조의3(의결권 제한 종류주식)</a></li>
+    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템: 주식 시세 통계</a></li>
+    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 개별 종목 사업보고서 조회</a></li>
     <li>기준일: 2026-09-14(WebSearch 확인일, 상법 조문은 법무법인·판례정리사이트·백과 4곳, 표기 규칙은 언론사 포함 4곳 교차 확인)</li>
   </ul>
 </div>

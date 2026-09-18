@@ -183,9 +183,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>증권사 공식 위탁증거금율 안내(6개사 교차 확인) — 종목별 증거금율 체계</li>
-    <li><a href="https://easylaw.go.kr" target="_blank" rel="noopener">찾기쉬운 생활법령정보</a> — 시장경보제도(투자주의·경고·위험) 설명</li>
-    <li>한국거래소 시장감시위원회 2026년 5월 개정 관련 언론 보도(5개사 교차 확인) — moc.krx.co.kr 원문은 EGRESS_BLOCKED로 직접 접속 불가</li>
+    <li>증권사 공식 위탁증거금율 안내(6개사 교차 확인): 종목별 증거금율 체계</li>
+    <li><a href="https://easylaw.go.kr" target="_blank" rel="noopener">찾기쉬운 생활법령정보</a>: 시장경보제도(투자주의·경고·위험) 설명</li>
+    <li>한국거래소 시장감시위원회 2026년 5월 개정 관련 언론 보도(5개사 교차 확인): moc.krx.co.kr 원문은 EGRESS_BLOCKED로 직접 접속 불가</li>
     <li>기준일: 2026-09-13(WebSearch 확인일)</li>
   </ul>
 </div>

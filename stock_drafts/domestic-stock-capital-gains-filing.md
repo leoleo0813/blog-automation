@@ -185,8 +185,8 @@ self_check: |
 <p>신고 경로는 두 가지 중 하나를 고르면 됩니다.</p>
 
 <ul style="line-height:1.9;">
-  <li><b>전자신고</b> — <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 웹사이트나 손택스(모바일 앱)에 공동인증서·간편인증으로 로그인해 [세금신고 → 양도소득세 신고]에서 진행합니다.</li>
-  <li><b>서면신고</b> — 주소지 관할 세무서를 방문해 서류로 접수합니다.</li>
+  <li><b>전자신고</b>: <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 웹사이트나 손택스(모바일 앱)에 공동인증서·간편인증으로 로그인해 [세금신고 → 양도소득세 신고]에서 진행합니다.</li>
+  <li><b>서면신고</b>: 주소지 관할 세무서를 방문해 서류로 접수합니다.</li>
 </ul>
 
 <p>이때 쓰는 서식은 <mark>소득세법 시행규칙 별지 제84호서식 「양도소득과세표준 신고 및 납부계산서」</mark>입니다. 종목별 양도가액·취득가액·필요경비를 적어야 하는데, <b>국내주식은 종목코드</b>를, 해외주식은 국제증권식별번호(ISIN코드)를 기재한다는 점이 실무에서 자주 헷갈리는 부분입니다.</p>
@@ -255,9 +255,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">국세청 홈택스</a> — 양도소득세 전자신고</li>
-    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> — 양도소득세 개요·서식 안내</li>
-    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> — 소득세법 시행규칙 별지 서식, 국세기본법 가산세 조문</li>
+    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">국세청 홈택스</a>: 양도소득세 전자신고</li>
+    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>: 양도소득세 개요·서식 안내</li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a>: 소득세법 시행규칙 별지 서식, 국세기본법 가산세 조문</li>
     <li>기준일: 2026-09-14(WebSearch 확인일. 납부지연가산세 계산방식 개정 시행일 2026-07-01)</li>
   </ul>
 </div>

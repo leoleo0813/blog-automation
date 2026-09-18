@@ -115,7 +115,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
     <li>발행어음은 <b>자기자본 4조원 이상 증권사(초대형IB)</b>가 직접 발행하는 만기 1년 이내 상품입니다.</li>
     <li><mark>예금자보호 대상이 아니라서</mark> 발행 증권사가 파산하면 원금 손실 위험이 있습니다.</li>
-    <li>"NH투자증권·KB증권·미래에셋증권·한국투자증권 4곳만 판다"는 정보는 낡았습니다 — <b>2026년 9월 9일 삼성증권이 추가돼 8곳</b>이 됐습니다.</li>
+    <li>"NH투자증권·KB증권·미래에셋증권·한국투자증권 4곳만 판다"는 정보는 낡았습니다. <b>2026년 9월 9일 삼성증권이 추가돼 8곳</b>이 됐습니다.</li>
     <li>발행 한도는 <b>증권사 자기자본의 200% 이내</b>로 법에 정해져 있습니다.</li>
   </ul>
 </div>
@@ -227,10 +227,10 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>금융위원회 삼성증권 단기금융업 인가 심의·의결(2026-09-09, 제15차 정례회의, 자본시장법 제360조) — 서울신문·헤럴드경제 등 언론 다수 교차 확인(fsc.go.kr 원문 직접 접속은 이번 세션에서 차단됨)</li>
-    <li><a href="https://www.kdic.or.kr" target="_blank" rel="noopener">예금보험공사</a> — 예금자보호 대상 금융상품 안내</li>
-    <li><a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&amp;csmSeq=1771&amp;ccfNo=3&amp;cciNo=1&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a> — 예금자보호제도 개요</li>
-    <li><a href="https://securities.miraeasset.com/hki/hki3032/n14.do" target="_blank" rel="noopener">미래에셋증권 발행어음 설명서</a> — 발행 한도(자기자본 200%) 안내</li>
+    <li>금융위원회 삼성증권 단기금융업 인가 심의·의결(2026-09-09, 제15차 정례회의, 자본시장법 제360조): 서울신문·헤럴드경제 등 언론 다수 교차 확인(fsc.go.kr 원문 직접 접속은 이번 세션에서 차단됨)</li>
+    <li><a href="https://www.kdic.or.kr" target="_blank" rel="noopener">예금보험공사</a>: 예금자보호 대상 금융상품 안내</li>
+    <li><a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&amp;csmSeq=1771&amp;ccfNo=3&amp;cciNo=1&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a>: 예금자보호제도 개요</li>
+    <li><a href="https://securities.miraeasset.com/hki/hki3032/n14.do" target="_blank" rel="noopener">미래에셋증권 발행어음 설명서</a>: 발행 한도(자기자본 200%) 안내</li>
     <li>기준일: 2026-09-16(WebSearch 교차 확인일)</li>
   </ul>
 </div>

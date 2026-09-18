@@ -182,8 +182,8 @@ self_check: |
 <p>둘의 차이는 "신고를 아예 안 했는가, 신고는 했는데 금액을 적게 썼는가"입니다.</p>
 
 <ul style="line-height:1.9;">
-  <li><b>무신고가산세</b> — 신고기한까지 증여세 신고서 자체를 내지 않은 경우</li>
-  <li><b>과소신고가산세</b> — 신고는 했지만 증여재산가액을 실제보다 적게 적어 낸 세금이 부족한 경우</li>
+  <li><b>무신고가산세</b>: 신고기한까지 증여세 신고서 자체를 내지 않은 경우</li>
+  <li><b>과소신고가산세</b>: 신고는 했지만 증여재산가액을 실제보다 적게 적어 낸 세금이 부족한 경우</li>
 </ul>
 
 <p>기한후신고는 신고 자체를 안 하고 있다가 뒤늦게 처음 신고하는 것이므로, 원칙적으로 무신고가산세가 적용되는 상황입니다.</p>
@@ -270,8 +270,8 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청 — 가산세(증여세) 안내</a></li>
-    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터 — 국세기본법 제48조(가산세 감면 등)</a></li>
+    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청: 가산세(증여세) 안내</a></li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터: 국세기본법 제48조(가산세 감면 등)</a></li>
   </ul>
   기준일: 2026-09-12(WebSearch 확인일). 기한후신고 감면율 구간은 원문 캡처 확인 후 갱신 예정.
 </div>

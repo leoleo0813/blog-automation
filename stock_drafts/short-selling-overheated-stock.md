@@ -268,8 +268,8 @@ source_conflict_resolved: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a> — 공매도 과열종목 지정기준·실제 지정 현황(2026-09-14 사람 직접 캡처)</li>
-    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND)</a> — 공매도 과열종목 지정 공시</li>
+    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>: 공매도 과열종목 지정기준·실제 지정 현황(2026-09-14 사람 직접 캡처)</li>
+    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND)</a>: 공매도 과열종목 지정 공시</li>
   </ul>
   기준일: 2026-09-14(한국거래소 정보데이터시스템 원문 캡처일).
 </div>

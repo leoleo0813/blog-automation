@@ -130,7 +130,7 @@ self_check: |
 <ul style="line-height:1.9;">
   <li>증권사 앱·HTS의 ETF 상세 화면 (실시간 추정 괴리율)</li>
   <li>ETF 운용사(자산운용사) 홈페이지의 상품별 NAV 페이지</li>
-  <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 상장공시시스템(KIND)</a> — 괴리율 초과 공시 원문</li>
+  <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 상장공시시스템(KIND)</a>: 괴리율 초과 공시 원문</li>
 </ul>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율이 커지면 왜 문제가 되나요</h2>
@@ -221,8 +221,8 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=226172" target="_blank" rel="noopener">법률신문 — ETF·ETN 괴리율 관리 강화 및 단일종목 레버리지 상품 모의거래 의무화</a></li>
-    <li><a href="https://www.fnnews.com/news/202608121627203356" target="_blank" rel="noopener">파이낸셜뉴스 — 19일부터 ETF 괴리율 관리 강화…단일종목 레버리지 모의거래 의무화</a></li>
+    <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=226172" target="_blank" rel="noopener">법률신문: ETF·ETN 괴리율 관리 강화 및 단일종목 레버리지 상품 모의거래 의무화</a></li>
+    <li><a href="https://www.fnnews.com/news/202608121627203356" target="_blank" rel="noopener">파이낸셜뉴스: 19일부터 ETF 괴리율 관리 강화…단일종목 레버리지 모의거래 의무화</a></li>
     <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 상장공시시스템(KIND)</a></li>
   </ul>
   기준일: 2026-09-13(WebSearch 확인일). 관리기준 개정 시행일은 2026-08-19입니다. 금융위원회 원문(fsc.go.kr/no010101/87353)은 이번 세션 WebFetch가 차단돼 직접 확인하지 못했고, 위 언론·법률전문매체 등 9개 이상 독립 출처의 교차 확인으로 대체했습니다.

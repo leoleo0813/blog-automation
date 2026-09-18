@@ -142,7 +142,7 @@ self_check: |
     <li>자본잠식은 <b>자본총계(순자산)가 자본금보다 적은 상태</b>이며, 자본총계가 아예 마이너스가 되면 <mark>완전자본잠식(자본전액잠식)</mark>이라고 부릅니다.</li>
     <li>자본잠식률은 <mark>(자본금-자기자본)÷자본금×100</mark>으로 계산하며, 50%를 넘으면 관리종목 지정 요건에 해당합니다.</li>
     <li>코스피는 유가증권시장 상장규정 제47조, 코스닥은 코스닥시장 상장규정 제53조에서 각각 자본잠식 관련 관리종목·상장폐지 요건을 정합니다.</li>
-    <li><b>2026년부터는 반기말 기준 완전자본잠식도 상장폐지 심사 대상으로 확대</b>됐습니다 — 결산기만 보던 것에서 더 빨리, 더 자주 걸러내는 쪽으로 규정이 강화됐습니다.</li>
+    <li><b>2026년부터는 반기말 기준 완전자본잠식도 상장폐지 심사 대상으로 확대</b>됐습니다. 결산기만 보던 것에서 더 빨리, 더 자주 걸러내는 쪽으로 규정이 강화됐습니다.</li>
   </ul>
 </div>
 
@@ -296,9 +296,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.fsc.go.kr/no010101/86273" target="_blank" rel="noopener">금융위원회 — 부실기업 신속·엄정 퇴출을 위한 상장폐지 개혁 방안(2026.2.12)</a></li>
-    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART) — 기업 재무제표·관리종목 지정 공시 조회</a></li>
-    <li><a href="https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1701&amp;ccfNo=1&amp;cciNo=2&amp;cnpClsNo=2" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보 — 관리종목 지정 및 상장폐지</a></li>
+    <li><a href="https://www.fsc.go.kr/no010101/86273" target="_blank" rel="noopener">금융위원회: 부실기업 신속·엄정 퇴출을 위한 상장폐지 개혁 방안(2026.2.12)</a></li>
+    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 기업 재무제표·관리종목 지정 공시 조회</a></li>
+    <li><a href="https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1701&amp;ccfNo=1&amp;cciNo=2&amp;cnpClsNo=2" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보: 관리종목 지정 및 상장폐지</a></li>
     <li>기준일: 2026-09-14(WebSearch 확인일. 원문 개정 내용은 2026.2.12 발표 · 2026.5.13 규정개정 승인 · 2026.6.1. 이후 도래 반기말부터 적용)</li>
   </ul>
 </div>

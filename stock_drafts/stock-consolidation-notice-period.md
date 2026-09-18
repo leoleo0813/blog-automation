@@ -218,15 +218,15 @@ self_check: |
   <tbody>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">법정 최소 공고기간</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>1개월 이상</b> — 상법 제440조에 따라 회사는 주식병합 사실과 기간을 공고하고 주주·질권자에게 통지해야 함</td>
+      <td style="border:1px solid #ddd;padding:8px;"><b>1개월 이상</b>: 상법 제440조에 따라 회사는 주식병합 사실과 기간을 공고하고 주주·질권자에게 통지해야 함</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">병합 효력 발생 시점</td>
-      <td style="border:1px solid #ddd;padding:8px;">상법 제441조 — 위 공고기간이 <b>만료된 때</b></td>
+      <td style="border:1px solid #ddd;padding:8px;">상법 제441조: 위 공고기간이 <b>만료된 때</b></td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">실제 매매거래정지 일수</td>
-      <td style="border:1px solid #ddd;padding:8px;">종목·회사마다 다름 — <b>일률적인 일수가 정해져 있지 않아</b> 개별 공시로 직접 확인 필요</td>
+      <td style="border:1px solid #ddd;padding:8px;">종목·회사마다 다름: <b>일률적인 일수가 정해져 있지 않아</b> 개별 공시로 직접 확인 필요</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">거래 재개 시점</td>
@@ -293,9 +293,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터 — 상법 제440조·제441조(주식병합의 절차 및 효력발생)</a></li>
-    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART) — 주식병합결정 공시 조회</a></li>
-    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND) — 매매거래정지 안내</a></li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터: 상법 제440조·제441조(주식병합의 절차 및 효력발생)</a></li>
+    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 주식병합결정 공시 조회</a></li>
+    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND): 매매거래정지 안내</a></li>
     <li>기준일: 2026-09-14(WebSearch 확인일, 법령 원문 스니펫 + 법률DB·법률QA·로펌 콘텐츠 3곳 교차 확인)</li>
   </ul>
 </div>

@@ -223,11 +223,11 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://mofe.go.kr/sisa/dictionary/detail?idx=1877" target="_blank" rel="noopener">기획재정부 시사경제용어사전 — 오버행</a></li>
-    <li><a href="https://www.ajunews.com/view/20191104134723565" target="_blank" rel="noopener">아주경제 — 의무보호예수 기간이란 무엇인가요</a></li>
-    <li><a href="https://www.kimchang.com/ko/insights/detail.kc?sch_section=4&amp;idx=24585" target="_blank" rel="noopener">김·장 법률사무소 — 신규 상장기업 임원의 주식 의무보유 강화</a></li>
+    <li><a href="https://mofe.go.kr/sisa/dictionary/detail?idx=1877" target="_blank" rel="noopener">기획재정부 시사경제용어사전: 오버행</a></li>
+    <li><a href="https://www.ajunews.com/view/20191104134723565" target="_blank" rel="noopener">아주경제: 의무보호예수 기간이란 무엇인가요</a></li>
+    <li><a href="https://www.kimchang.com/ko/insights/detail.kc?sch_section=4&amp;idx=24585" target="_blank" rel="noopener">김·장 법률사무소: 신규 상장기업 임원의 주식 의무보유 강화</a></li>
     <li><a href="https://seibro.or.kr" target="_blank" rel="noopener">한국예탁결제원 세이브로(SEIBRO)</a></li>
-    <li><a href="https://www.imaeil.com/page/view/2026090709304609998" target="_blank" rel="noopener">매일신문 — 케이뱅크 보호예수 해제 관련 보도(2026-09-07)</a></li>
+    <li><a href="https://www.imaeil.com/page/view/2026090709304609998" target="_blank" rel="noopener">매일신문: 케이뱅크 보호예수 해제 관련 보도(2026-09-07)</a></li>
   </ul>
   기준일: 2026-09-13(WebSearch 확인일). 금융위원회 원문(fsc.go.kr/no010101/77406)은 이번 세션 WebFetch가 차단돼 직접 확인하지 못했고, 위 정부·언론·법무법인 등 5개 이상 독립 출처의 교차 확인으로 대체했습니다.
 </div>

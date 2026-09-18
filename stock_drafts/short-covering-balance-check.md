@@ -243,9 +243,9 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.fsc.go.kr" target="_blank" rel="noopener">금융위원회 — 공매도 잔고 공시기준 강화 보도자료(2024-12-01 시행)</a></li>
-    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템 — 공매도 순보유잔고 통계</a></li>
-    <li><a href="https://www.korea.kr/news/policyNewsView.do?newsId=148935891" target="_blank" rel="noopener">대한민국 정책브리핑 — 내달 1일부터 공매도 잔고 공시기준 강화</a></li>
+    <li><a href="https://www.fsc.go.kr" target="_blank" rel="noopener">금융위원회: 공매도 잔고 공시기준 강화 보도자료(2024-12-01 시행)</a></li>
+    <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템: 공매도 순보유잔고 통계</a></li>
+    <li><a href="https://www.korea.kr/news/policyNewsView.do?newsId=148935891" target="_blank" rel="noopener">대한민국 정책브리핑: 내달 1일부터 공매도 잔고 공시기준 강화</a></li>
     <li>기준일: 2026-09-13(WebSearch 확인일, 금융위원회·정책브리핑·MBC뉴스·KDI 등 독립 출처 5곳 이상 교차 확인)</li>
   </ul>
 </div>
