@@ -1093,14 +1093,15 @@
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-17 — 통과] WebSearch \"양도소득세 분납\" 상위: findsemusa.com(개인 세무사 상담)/etax.seoul.go.kr(서울시 공식)/casenote.kr(판례DB)/nts.go.kr(국세청 공식)/news.mt.co.kr(머니투데이, 언론)/taxly.kr(소규모 세무 블로그)/law.go.kr(법령 서식)/call.nts.go.kr(국세청 Q&A). 개인 세무사 상담·소규모 블로그가 상위에 있어 진입 여지 있음(탈락조건1 미해당). 검색의도는 정보탐색형(탈락조건2 미해당). 기준금액은 여러 출처가 언급하나 계산 예시·신청 경로·이자 여부를 함께 다루는 글이 없어(탈락조건3 정보이득으로 상쇄) 통과.",
       "unique_asset_plan": "분납 기준금액(1,000만원 초과 대상, 1,000만원~2,000만원 이하는 초과분, 2,000만원 초과는 50% 이하) 계산 예시(1,250만원/3,000만원 사례) + 소득세법 제77조가 중간예납·양도소득세 확정신고 공통 적용된다는 법적 근거 + 이자(무이자)·가산세(기한 초과 시 납부지연가산세) 구분을 원문/교차검증으로 확정.",
-      "status": "drafted",
+      "status": "published",
       "cannibalization_note": "5편(해외주식 양도소득세)·33편(국내주식 양도소득세 신고방법)은 '얼마를 내야 하는지·언제 신고하는지'가 중심이고 분납(낼 세금을 나눠 내는 방법)은 다루지 않아 겹치지 않는다. 본문에서 두 편으로 내부 링크를 걸어 기초 신고 절차는 위임했다.",
       "draft_path": "stock_drafts/capital-gains-tax-installment-payment.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-18). 사람이 국세청 분납세액 계산 화면을 직접 캡처했고(다만 캡처 화면은 중간예납세액 맥락이라는 한계가 있어), 같은 계산식(소득세법 제77조)이 양도소득세 확정신고에도 공통 적용된다는 점을 법조문 확인으로 보강해 확정했다. 기존 초안의 부정확할 수 있는 서식명(별지 제56호서식) 주장은 제거하고 '신고서에 기재' 방식으로 정정.",
       "primary_source": "1차 시도 nts.go.kr WebFetch EGRESS_BLOCKED(대조군 google.com도 차단, 세션 전면 차단). WebSearch로 3곳 이상(nts.go.kr 요약·news.mt.co.kr·law.go.kr 서식명)이 기준금액을 동일하게 언급했으나, RULES.md상 '세율·공제한도·과세표준 구간형 숫자'는 2차 자료 일치만으로 확정하지 않는 예외 조건에 해당해 다수 일치에도 캡처 요청으로 전환.",
       "gate3_note": "신청서 존재·신고서 기재 절차는 확정 반영. 기준금액 구간별 계산 예시와 이자 여부는 원문 대조 후 반영 예정.",
-      "published_note": "자동화 산출물은 초안까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다. capture_guide 참고해 국세청·법제처 원문 확인 후 gate_pass 재판정 필요."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "published_at": "2026-09-18"
     }
   ],
   "backlog": {
