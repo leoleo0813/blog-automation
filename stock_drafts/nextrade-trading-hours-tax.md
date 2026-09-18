@@ -4,8 +4,8 @@ title: 넥스트레이드 뜻과 거래시간 세금 차이
 slug: nextrade-trading-hours-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 12020 (PC 3830 / 모바일 8190, 2026-09-18 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상, 시리즈 내 최고 수준의 검색량)
+monthly_search_volume: 12020 (PC 3830 / 모바일 8190)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-18 — 통과]
   WebSearch "넥스트레이드"(단독) + "넥스트레이드 뜻 거래시간 수수료" + "넥스트레이드 스마트주문라우팅
