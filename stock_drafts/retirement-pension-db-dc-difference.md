@@ -4,8 +4,8 @@ title: 퇴직연금 DB DC 차이
 slug: retirement-pension-db-dc-difference
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 850 (PC 420 / 모바일 430, 2026-09-19 실측)
-gate1_pass: true (제도 기준 월 100 이상 필요, 이번 배치 중 검색량이 가장 높은 PASS 키워드)
+monthly_search_volume: 850 (PC 420 / 모바일 430)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-19 — 통과]
   WebSearch "퇴직연금 DB형 DC형 차이 선택 기준" 상위 종합:
