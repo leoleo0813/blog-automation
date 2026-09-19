@@ -1194,6 +1194,29 @@
       "gate3_note": "조기상환 사유 옛 조항(괴리율 100% 이상) 삭제 정정 + 상장폐지 요건(자기자본 2,500억원) + 실제 숫자 예시(80% 하락 시 10,000원→2,000원, 괴리율 계산식 대입) + ETF와 다른 ETN 세금 특성으로 정보이득 확보.",
       "self_check_summary": "AI 티 점검(2026-09-18) — 본문 em대시 0개(YAML 메타데이터에만 있음), '다만' 1회(FAQ 1건에서만 사용), mark 4개(3~5개 기준), FAQ 5개(6개 고정 탈피), 핵심요약 박스 문구·색(청록 계열 #f0fdfa/#0d9488)을 최근 파란색·초록색·주황색·보라색과 다르게 변경, FAQ 헤딩도 '묻고 답하기'로 변경, 목차 제외 H2 6개 중 '~나요'류 1개뿐(나머지 서술형).",
       "published_note": "자동화 산출물은 초안+썸네일까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
+    },
+    {
+      "id": 53,
+      "order": 53,
+      "title": "주식배당 세금 계산 방법",
+      "slug": "stock-dividend-tax-calculation",
+      "keyword": "주식배당 세금",
+      "type": "세금",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "410 (PC 110 / 모바일 300, 2026-09-19 실측)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-19 — 통과] WebSearch \"주식배당 세금 무상증자 차이 과세\"+\"주식배당 세금\"+\"주식배당 세금 얼마 액면가 계산\" 상위 종합: v.daum.net(세무Q&A컬럼 ×2)/kbthink.com(KB 공식)/toss 고객센터·tossbank.com(핀테크 ×2)/kcie.or.kr(준정부)/namu.wiki/stockplus 고객센터(핀테크)/kakaopay(핀테크)/a-ha.io(개인 커뮤니티)/namulaw.co.kr(법무법인 블로그)/mstacc.com(회계법인 블로그)/tfmedia.co.kr(조세금융신문)/easylaw.go.kr(공식)/sisajournal-e.com(언론)/nts.go.kr(공식)/incometax.calculate.co.kr(계산기)/trendmetriclab.com(소규모 블로그, 9편에서도 확인). 1) 진입여지 있음(a-ha.io·namulaw.co.kr·mstacc.com·trendmetriclab.com 4곳 진입). 2) 검색의도 정보탐색+계산형, 계산기 사이트 1곳뿐이라 지배적 의도 아님. 3) 답 완결 여부 부분적 — 액면가 기준 15.4% 세율은 다수가 다루지만, 이익잉여금(주식배당,과세) vs 자본잉여금(무상증자,비과세) 재원 구분과 액면가 낮은 종목의 낮은 세부담률을 계산 예시로 함께 보여주는 글 없음. → 탈락조건3은 정보이득으로 상쇄, 통과.",
+      "unique_asset_plan": "액면가 5,000원 A종목과 액면가 100원 B종목이 같은 시가 가치를 주식배당했을 때 세부담률이 0.77% vs 0.154%로 5배 차이난다는 대비 계산 + 주식배당(이익잉여금 재원, 과세)과 무상증자(자본잉여금 재원, 비과세) 구분표 + 소득세법 제17조(의제배당)·시행령 제46조(수입시기=자본전입 결의일) 근거 조문 + 매도 시 취득가액 처리.",
+      "status": "drafted",
+      "cannibalization_note": "4편(배당소득세)·40편(해외주식 배당소득세) 본문에 주식배당·무상증자·이익잉여금 언급이 전혀 없음을 grep으로 확인(2026-09-19). 현금배당이 아니라 주식으로 지급되는 배당(의제배당)의 평가 방법이 중심이라 검색 의도가 다르다.",
+      "draft_path": "stock_drafts/stock-dividend-tax-calculation.md",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-19). 게이트1: 네이버 키워드도구 실측 410회 — 같은 배치 후보(물적분할 인적분할 차이 80/ETF 상장폐지 요건 20/시간외 단일가매매 290/우회상장 뜻 150/대주주 가족합산 기준 20/차등배당 세금 20) 전부 게이트1 미달로 탈락, 주식배당 세금만 통과해 채택. 게이트2는 v3 기준 정식 통과(serp_check 참조). 게이트4는 nts.go.kr 1회 시도 EGRESS_BLOCKED 확인 후 RULES.md 2026-09-12 기준에 따라 국가법령정보센터·판례정보(casenote.kr)·한국공인회계사회·조세금융신문 전문칼럼·회계법인·법무법인 블로그 등 5곳 이상 교차검증.",
+      "primary_source": "국가법령정보센터(law.go.kr, 소득세법 제17조·시행령 제46조 조문정보)+CaseNote 판례정보+한국공인회계사회 사이버연수원(cyber.kicpa.or.kr)으로 의제배당 정의·수입시기 교차검증. 액면가액 평가기준은 v.daum.net 세무컬럼+tfmedia.co.kr 전문가칼럼+mstacc.com 회계법인 블로그 3곳 계산식 일치로 교차검증. nts.go.kr WebFetch 1회 시도 EGRESS_BLOCKED.",
+      "gate3_note": "액면가 다른 두 종목의 세부담률 대비 계산(0.77% vs 0.154%) + 재원별 과세 여부 구분표 + 근거 조문(소득세법 제17조·시행령 제46조) + 매도 시 취득가액 인정 원칙으로 정보이득 확보.",
+      "self_check_summary": "AI 티 점검(2026-09-19) — 본문 em대시 0개(YAML 메타데이터에만 있음), '다만' 본문 2회(FAQ 2건 포함, 나머지 전환은 '단,'·문장구조 전환으로 분산), mark 4개(3~5개 기준), FAQ 5개(6개 고정 탈피), 핵심요약 박스 문구·색(로즈 계열 #fdf2f8/#db2777)을 최근 보라·초록·주황·청록과 다르게 변경, 목차 제외 H2 5개 중 '~나요'류 1개뿐(나머지 서술형).",
+      "published_note": "자동화 산출물은 초안+썸네일까지. 사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 여부를 결정한다."
     }
   ],
   "backlog": {
@@ -1369,6 +1392,30 @@
       }
     ],
     "failed_gate1": [
+      {
+        "keyword": "물적분할 인적분할 차이",
+        "monthly_search_volume": "80 (PC 60 / 모바일 20, 2026-09-19 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "ETF 상장폐지 요건",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-19 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "시간외 단일가매매",
+        "monthly_search_volume": "290 (PC 90 / 모바일 200, 2026-09-19 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "우회상장 뜻",
+        "monthly_search_volume": "150 (PC 20 / 모바일 130, 2026-09-19 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "대주주 가족합산 기준",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-19 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "차등배당 세금",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-19 실측, 제도 기준 100 미달)"
+      },
       {
         "keyword": "유상감자 세금",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-18 실측, 제도 기준 100 미달)"
