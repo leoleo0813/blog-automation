@@ -4,8 +4,8 @@ title: 주식배당 세금 계산 방법
 slug: stock-dividend-tax-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 410 (PC 110 / 모바일 300, 2026-09-19 실측)
-gate1_pass: true (세부·제도 기준 월 100 이상 필요, "세금" 포함 키워드로 분류)
+monthly_search_volume: 410 (PC 110 / 모바일 300)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-19 — 통과]
   WebSearch "주식배당 세금 무상증자 차이 과세" + "주식배당 세금" + "주식배당

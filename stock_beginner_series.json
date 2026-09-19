@@ -1204,7 +1204,7 @@
       "type": "세금",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "410 (PC 110 / 모바일 300, 2026-09-19 실측)",
+      "monthly_search_volume": "410 (PC 110 / 모바일 300)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-19 — 통과] WebSearch \"주식배당 세금 무상증자 차이 과세\"+\"주식배당 세금\"+\"주식배당 세금 얼마 액면가 계산\" 상위 종합: v.daum.net(세무Q&A컬럼 ×2)/kbthink.com(KB 공식)/toss 고객센터·tossbank.com(핀테크 ×2)/kcie.or.kr(준정부)/namu.wiki/stockplus 고객센터(핀테크)/kakaopay(핀테크)/a-ha.io(개인 커뮤니티)/namulaw.co.kr(법무법인 블로그)/mstacc.com(회계법인 블로그)/tfmedia.co.kr(조세금융신문)/easylaw.go.kr(공식)/sisajournal-e.com(언론)/nts.go.kr(공식)/incometax.calculate.co.kr(계산기)/trendmetriclab.com(소규모 블로그, 9편에서도 확인). 1) 진입여지 있음(a-ha.io·namulaw.co.kr·mstacc.com·trendmetriclab.com 4곳 진입). 2) 검색의도 정보탐색+계산형, 계산기 사이트 1곳뿐이라 지배적 의도 아님. 3) 답 완결 여부 부분적 — 액면가 기준 15.4% 세율은 다수가 다루지만, 이익잉여금(주식배당,과세) vs 자본잉여금(무상증자,비과세) 재원 구분과 액면가 낮은 종목의 낮은 세부담률을 계산 예시로 함께 보여주는 글 없음. → 탈락조건3은 정보이득으로 상쇄, 통과.",
       "unique_asset_plan": "액면가 5,000원 A종목과 액면가 100원 B종목이 같은 시가 가치를 주식배당했을 때 세부담률이 0.77% vs 0.154%로 5배 차이난다는 대비 계산 + 주식배당(이익잉여금 재원, 과세)과 무상증자(자본잉여금 재원, 비과세) 구분표 + 소득세법 제17조(의제배당)·시행령 제46조(수입시기=자본전입 결의일) 근거 조문 + 매도 시 취득가액 처리.",
