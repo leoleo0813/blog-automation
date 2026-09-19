@@ -4,8 +4,8 @@ title: 토큰증권 뜻 2027년 시행 일정
 slug: token-securities-2027
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 4550 (PC 1770 / 모바일 2780, 2026-09-19 네이버 검색광고 키워드도구 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 4,550회로 통과)
+monthly_search_volume: 4550 (PC 1770 / 모바일 2780)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-19 — 통과]
   WebSearch "토큰증권 뜻"(단독) + "토큰증권 뜻 STO 조각투자 차이 투자방법" +
