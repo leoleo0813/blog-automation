@@ -1309,6 +1309,17 @@
       "status": "drafted",
       "monthly_search_volume": "560 (PC 120 / 모바일 440)",
       "gate1_pass": true
+    },
+    {
+      "id": 59,
+      "keyword": "비상장주식 양도소득세",
+      "title": "비상장주식 양도소득세 세율 얼마",
+      "slug": "unlisted-stock-capital-gains-tax",
+      "status": "drafted",
+      "monthly_search_volume": "920 (PC 440 / 모바일 480)",
+      "gate1_pass": true,
+      "gate_pass": false,
+      "gate_pass_note": "대주주 판정 기준(지분율·시가총액) 수치가 WebSearch 교차검증에서 출처 간 충돌(10억원 vs 50억원)해 미확정. capture_guide 참조, 사람 캡처 대기."
     }
   ],
   "backlog": {
@@ -1499,6 +1510,11 @@
         "keyword": "배당소득 분리과세",
         "monthly_search_volume": "2,620 (PC 860 / 모바일 1,760, 2026-09-20 실측)",
         "hold_reason": "게이트1 통과(제도 기준 100 이상, 이번 배치 최고 검색량)하지만 4편(배당소득세 얼마 떼나)·6편(금융소득종합과세 2천만원 기준)·39편(해외주식 배당소득세)이 2026년 신설 배당소득 분리과세 특례(조특법 개정, 고배당 상장기업 한정)를 FAQ까지 포함해 이미 상세히 다루고 있어(grep 확인) 카니벌라이제이션 위험이 매우 높다. 별도 편으로 만들지 말고 기존 편 보강에 쓴다."
+      },
+      {
+        "keyword": "퇴직연금 세액공제 한도",
+        "monthly_search_volume": "170 (PC 80 / 모바일 90, 2026-09-20 실측)",
+        "hold_reason": "게이트1 통과(제도 기준 100 이상)했으나, 8편(연금저축 세액공제, pension-savings-tax-credit)이 연금저축+IRP 합산 세액공제 한도(600만원/900만원)와 소득구간별 공제율, 계산 예시까지 이미 상세히 다루고 있어(grep 확인) 카니벌라이제이션 위험이 매우 높다. 별도 편으로 만들지 말고 8편 보강에 쓴다."
       }
     ],
     "failed_gate1": [
@@ -2297,6 +2313,62 @@
       {
         "keyword": "관리종목 지정 요건",
         "monthly_search_volume": "40 (PC 20 / 모바일 20, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "미성년자 증권계좌 개설",
+        "monthly_search_volume": "140 (PC 30 / 모바일 110, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "스톡그랜트 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "증권 대체입고",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "코스피 이전상장",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "미성년자 증여세 공제한도",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "해외주식 손익통산",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "공모주 청약 철회",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "파생결합증권 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "배당금 지급일",
+        "monthly_search_volume": "460 (PC 60 / 모바일 400, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "자기주식처분 세금",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "증권사 계좌이관",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "장외주식 양도소득세",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "우리사주 매도제한",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "채권 표면금리 뜻",
+        "monthly_search_volume": "50"
       }
     ]
   },
