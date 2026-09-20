@@ -4,8 +4,8 @@ title: 우리사주 소득공제 한도와 신청방법
 slug: employee-stock-ownership-deduction
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 560 (PC 120 / 모바일 440, 2026-09-20 실측)
-gate1_pass: true (제도 기준 월 100 이상 필요 — "소득공제"가 세금·공제류 키워드라 100 기준 적용)
+monthly_search_volume: 560 (PC 120 / 모바일 440)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-20 — 통과]
   WebSearch "우리사주 소득공제" 상위 8개: bizforms.co.kr(세무서식 콘텐츠, 소규모) /

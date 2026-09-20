@@ -1306,7 +1306,9 @@
       "keyword": "우리사주 소득공제",
       "title": "우리사주 소득공제 한도와 신청방법",
       "slug": "employee-stock-ownership-deduction",
-      "status": "drafted"
+      "status": "drafted",
+      "monthly_search_volume": "560 (PC 120 / 모바일 440)",
+      "gate1_pass": true
     }
   ],
   "backlog": {
