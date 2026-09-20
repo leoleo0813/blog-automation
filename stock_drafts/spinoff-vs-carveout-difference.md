@@ -4,8 +4,8 @@ title: 물적분할 뜻과 인적분할 차이
 slug: spinoff-vs-carveout-difference
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1440 (PC 530 / 모바일 910, 2026-09-20 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 1,440으로 충족)
+monthly_search_volume: 1440 (PC 530 / 모바일 910)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-20 — 통과]
   WebSearch "물적분할 뜻 주식 초보 쉬운 설명" 상위 9개: metroseoul.co.kr(언론) /

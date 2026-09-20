@@ -1290,7 +1290,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1440 (PC 530 / 모바일 910, 2026-09-20 실측)",
+      "monthly_search_volume": "1440 (PC 530 / 모바일 910)",
       "gate1_pass": true,
       "unique_asset_plan": "인적분할·물적분할을 신주 소유주체·주주 직접지분 보유 여부·활용 목적으로 비교한 표와, 2022년 9월 시행된 3중 보호장치(확정)와 2024년 12월 이후 국회에서 계속 논의만 되고 있는 신주 우선배정 제도(20%안·15%안·동의요건안이 뒤섞인 미확정 상태)를 구분한 시기별 타임라인 표.",
       "primary_source_plan": "금융위원회(fsc.go.kr) 보도자료 WebFetch 1회 시도 EGRESS_BLOCKED(2026-09-20). 통제군 도메인(kimchang.com·psnews.co.kr·namu.wiki)도 동일하게 막혀 세션 전체 차단으로 판단, RULES.md 2026-09-12 기준에 따라 정부 브리핑·법무법인 2곳(김앤장·신김앤장)·언론 다수 교차검증으로 진행.",
