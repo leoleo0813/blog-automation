@@ -1300,6 +1300,13 @@
       "draft_path": "stock_drafts/spinoff-vs-carveout-difference.md",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-20). 게이트4는 fsc.go.kr 1회 시도 EGRESS_BLOCKED 확인 후(통제군 3곳도 동일 차단 확인) 정부 브리핑·법무법인 2곳·언론 다수 교차검증으로 대체, 한계는 초안 primary_source란에 투명 공개. 신주 우선배정 비율은 20%안·15%안·동의요건안이 경합 중인 미확정 상태임을 단정하지 않고 '논의 중'으로 정직하게 서술."
+    },
+    {
+      "id": 58,
+      "keyword": "우리사주 소득공제",
+      "title": "우리사주 소득공제 한도와 신청방법",
+      "slug": "employee-stock-ownership-deduction",
+      "status": "drafted"
     }
   ],
   "backlog": {
@@ -2264,6 +2271,30 @@
       {
         "keyword": "CMA 세금",
         "monthly_search_volume": "70 (PC 10 / 모바일 60, 2026-09-20 실측, 제도 기준 100 미달)"
+      },
+      {
+        "keyword": "신주인수권부사채 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "교환사채 뜻",
+        "monthly_search_volume": "30 (PC 10 / 모바일 20, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "배당성향 뜻",
+        "monthly_search_volume": "140 (PC 60 / 모바일 80, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "ETF 추적오차",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "불성실공시법인",
+        "monthly_search_volume": "90 (PC 40 / 모바일 50, 2026-09-20 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "관리종목 지정 요건",
+        "monthly_search_volume": "40 (PC 20 / 모바일 20, 2026-09-20 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
