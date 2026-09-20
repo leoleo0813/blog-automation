@@ -4,8 +4,8 @@ title: 금투세 폐지 전후 세금 비교
 slug: financial-investment-tax-repeal-compare
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 4,110 (PC 1,250 / 모바일 2,860, 2026-09-20 실측, check-keywords.yml)
-gate1_pass: true (일반 주제 기준 월 500 이상 크게 초과)
+monthly_search_volume: 4110 (PC 1250 / 모바일 2860)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-20 — 통과]
   WebSearch "금투세" 단독 검색 상위 9개: m.kbcapital.co.kr·kbcapital.co.kr(KB캐피탈,
