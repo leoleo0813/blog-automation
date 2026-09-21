@@ -33,6 +33,7 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from xml.sax.saxutils import escape as _xml_escape
 
 FONT_STACK = "'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"
 
@@ -123,7 +124,7 @@ def _build_points_block(points, accent, bg):
         x = MARGIN + slot_width * i
         label_x = x + 42
         items.append(POINT_ITEM.format(
-            x=x, label_x=label_x, num=f"{i + 1:02d}", label=label, accent=accent, font=FONT_STACK,
+            x=x, label_x=label_x, num=f"{i + 1:02d}", label=_xml_escape(label), accent=accent, font=FONT_STACK,
         ))
         if i > 0:
             dividers.append(DIVIDER.format(x=x - 30))
@@ -206,27 +207,29 @@ def main():
     bg = _normalize_color(bg)
     accent = _normalize_color(accent)
 
+    # 줄바꿈은 원문 글자수 기준으로 해야 하니, 이스케이프는 SVG에 넣기 직전에 한다
+    # (title/tag에 "&"·"<"·">" 등이 있으면 XML이 깨지므로 반드시 escape 필요).
     line1, line2 = _wrap_title(title)
     tag_width = len(tag) * 30 + 44
 
     if line2:
         title_lines = '\n  '.join([
-            TITLE_LINE.format(y=460, font=FONT_STACK, text=line1),
-            TITLE_LINE.format(y=556, font=FONT_STACK, text=line2),
+            TITLE_LINE.format(y=460, font=FONT_STACK, text=_xml_escape(line1)),
+            TITLE_LINE.format(y=556, font=FONT_STACK, text=_xml_escape(line2)),
         ])
     else:
-        title_lines = TITLE_LINE.format(y=510, font=FONT_STACK, text=line1)
+        title_lines = TITLE_LINE.format(y=510, font=FONT_STACK, text=_xml_escape(line1))
 
     if points:
         bottom_block = _build_points_block(points, accent, bg)
     else:
-        bottom_block = BOTTOM_BAR.format(bar_fill=_shade(bg, 0.62)) + '\n  ' + TAGLINE.format(font=FONT_STACK, tag=tag)
+        bottom_block = BOTTOM_BAR.format(bar_fill=_shade(bg, 0.62)) + '\n  ' + TAGLINE.format(font=FONT_STACK, tag=_xml_escape(tag))
 
     svg = BASE_TEMPLATE.format(
         bg=bg,
         accent=accent,
         font=FONT_STACK,
-        tag=tag,
+        tag=_xml_escape(tag),
         tag_width=tag_width,
         title_lines=title_lines,
         bottom_block=bottom_block,
