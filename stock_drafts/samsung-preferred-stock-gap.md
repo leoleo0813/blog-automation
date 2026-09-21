@@ -4,8 +4,8 @@ title: 삼성전자우 배당·가격 실제로 얼마나 다른가
 slug: samsung-preferred-stock-gap
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 1,049,900 (PC 92,900 / 모바일 957,000)
-gate1_pass: true (이 시리즈 역대 최고 검색량)
+monthly_search_volume: 1049900 (PC 92900 / 모바일 957000)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
   WebSearch "삼성전자우 뜻 삼성전자 우선주 보통주 차이 가격" 및 "삼성전자우
