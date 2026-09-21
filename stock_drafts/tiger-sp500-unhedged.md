@@ -4,8 +4,8 @@ title: TIGER 미국S&P500 뜻과 구성종목·수익률
 slug: tiger-sp500-unhedged
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 113,900 (PC 39,800 / 모바일 74,100)
-gate1_pass: true (이 시리즈 역대 최고 검색량)
+monthly_search_volume: 113900 (PC 39800 / 모바일 74100)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
   WebSearch "TIGER 미국S&P500 뜻 구성종목 수익률 배당" 및 "TIGER 미국S&P500
