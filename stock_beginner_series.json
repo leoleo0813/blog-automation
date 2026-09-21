@@ -1352,7 +1352,7 @@
       "type": "시장용어",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "820 (PC 120 / 모바일 700, 2026-09-20 check-keywords.yml 실측)",
+      "monthly_search_volume": "820 (PC 120 / 모바일 700)",
       "gate1_pass": true,
       "serp_check": "게이트2 v3 판정(2026-09-21) 통과 — brunch.co.kr·andyinfor.com·a-ha.io 등 개인/커뮤니티 콘텐츠 다수 진입, SERP 안 잠김. 상위 글은 정의+거래량/피보나치 되돌림 구별법까지는 다루나, 2026년 실제 코스피 사례(7월 급락→8월 회복부족)에 사후 대입해 검증한 글은 없어 정보이득 뚜렷.",
       "status": "drafted",

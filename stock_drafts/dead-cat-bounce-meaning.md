@@ -4,7 +4,7 @@ title: 데드캣바운스 뜻과 진짜 반등 구별법
 slug: dead-cat-bounce-meaning
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 820 (PC 120 / 모바일 700, 2026-09-20 check-keywords.yml 실측)
+monthly_search_volume: 820 (PC 120 / 모바일 700)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
