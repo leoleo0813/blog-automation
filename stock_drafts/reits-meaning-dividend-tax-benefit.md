@@ -4,8 +4,8 @@ title: 리츠 뜻과 배당소득세 9% 혜택 확인법
 slug: reits-meaning-dividend-tax-benefit
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1,550 (PC 360 / 모바일 1,190, 2026-09-21 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 충족)
+monthly_search_volume: 1550 (PC 360 / 모바일 1190)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
   WebSearch "리츠 뜻 초보 투자 방법" 상위 종합:

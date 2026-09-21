@@ -1436,7 +1436,7 @@
       "type": "개념·세금",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1,550 (PC 360 / 모바일 1,190, 2026-09-21 실측)",
+      "monthly_search_volume": "1550 (PC 360 / 모바일 1190)",
       "gate1_pass": true,
       "serp_check": "게이트2 v3 판정(2026-09-21) 통과 — WebSearch \"리츠 뜻 초보 투자 방법\" 상위 9개 중 개인·소규모 콘텐츠 5개(brunch.co.kr, seoulpi.io, bank-mall.co.kr, blog.realbuy.io, dandylife1.com) 진입, SERP 안 잠김. 상위 글 대부분이 리츠 정의·장단점은 다루지만 부동산투자회사법 제25조·제28조 조문 근거나 공모리츠 배당소득세 9%대 분리과세 특례(조특법 제87조의7)까지 다루는 글은 없어 정보이득 여지 뚜렷함.",
       "status": "drafted",
