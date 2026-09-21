@@ -1373,6 +1373,28 @@
       "gate1_pass": true,
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족. 61편(ETF 뜻과 구성종목)에서 분배금 내용을 분리해 만든 시리즈 2편(62편은 데드캣바운스가 먼저 선점해 63편으로 번호를 바꿈). 분배금·분배락 개념, 지급주기(월/분기/연배당) 비교, 분배기준일 확인법, 분배율만 보고 판단하면 안 되는 이유(원본 반환/ROC)로 정보이득 확보. ROC 각도 자체는 dividend-nomad.com이 이미 다루고 있어 완전히 새로운 정보는 아니라는 한계를 self_check에 투명하게 기록. 게이트4는 data.krx.co.kr EGRESS_BLOCKED 후 공식·준정부·개인 블로그 교차검증으로 대체."
+    },
+    {
+      "id": 64,
+      "keyword": "TIGER 미국S&P500",
+      "title": "TIGER 미국S&P500 뜻과 구성종목·수익률",
+      "slug": "tiger-sp500-unhedged",
+      "status": "drafted",
+      "monthly_search_volume": "113,900 (PC 39,800 / 모바일 74,100)",
+      "gate1_pass": true,
+      "gate_pass": false,
+      "gate_pass_note": "게이트1~3(부분) 충족, 게이트4 미충족(캡처 대기). 이 시리즈 역대 최고 검색량(113,900회). 종목코드 360750(환노출형)의 총보수·순자산·상장일·구성종목·수익률·배당은 실시간/JS 렌더링 데이터라 이번 세션 WebFetch가 EGRESS_BLOCKED로 확보하지 못했다. 이름이 비슷한 TIGER 미국S&P500 계열 상품 5개를 구분하는 비교표는 확정 반영. capture_guide 참조."
+    },
+    {
+      "id": 65,
+      "keyword": "TIGER 미국S&P500(H)",
+      "title": "TIGER 미국S&P500(H) 뜻과 환헤지 효과",
+      "slug": "tiger-sp500-hedged",
+      "status": "drafted",
+      "monthly_search_volume": "1,270 (PC 520 / 모바일 750)",
+      "gate1_pass": true,
+      "gate_pass": false,
+      "gate_pass_note": "게이트1~3(부분) 충족, 게이트4 미충족(캡처 대기). 64편(환노출형, 360750)의 시리즈 2편. 종목코드 448290(환헤지형)의 총보수·순자산·상장일·구성종목·수익률·배당은 캡처 대기. 환헤지 비용이 실제로 수익률을 얼마나 깎는지는 64편과 이 편의 실제 수익률을 비교해야 계산 가능해 두 편 모두 캡처가 필요하다. capture_guide 참조."
     }
   ],
   "backlog": {
