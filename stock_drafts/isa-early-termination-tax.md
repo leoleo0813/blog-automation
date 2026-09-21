@@ -4,8 +4,8 @@ title: ISA 중도해지 세금 얼마
 slug: isa-early-termination-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 530 (PC 120 / 모바일 410, 2026-09-18 실측, backlog.verified에서 승격)
-gate1_pass: true (제도 기준 월 100 이상 필요 — ISA 포함 제도 키워드)
+monthly_search_volume: 500 (PC 110 / 모바일 390)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
   WebSearch "ISA 계좌 중도해지 감면세액 추징 세금 2026" 상위 종합:

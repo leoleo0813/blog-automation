@@ -1416,7 +1416,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "530 (PC 120 / 모바일 410, 2026-09-18 실측, backlog.verified에서 승격)",
+      "monthly_search_volume": "500 (PC 110 / 모바일 390)",
       "gate1_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/isa-early-termination-tax.md",
