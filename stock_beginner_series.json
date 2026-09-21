@@ -1338,7 +1338,7 @@
       "title": "ETF 뜻과 구성종목 확인하는 법",
       "slug": "etf-basics-holdings",
       "status": "drafted",
-      "monthly_search_volume": "38,020 (PC 5,220 / 모바일 32,800)",
+      "monthly_search_volume": "38020 (PC 5220 / 모바일 32800)",
       "gate1_pass": true,
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2차 개정). 이 시리즈 역대 최고 검색량(38,020회, 종전 기록 17편 공매도 뜻 20,580회). 사용자 요청으로 분배금 내용은 63편으로 분리하고 이 편은 ETF 개념+구성종목 조회법만 남겼다. 구성종목 관련 키워드(ETF 구성종목·코스피200 구성종목·S&P500 구성종목 등)는 전부 실측 100회 미만이라 단독 편으로 만들지 않고 이 편의 섹션으로 유지했다. 게이트4는 data.krx.co.kr EGRESS_BLOCKED 후 자산운용사·금융사 공식 다수 교차검증으로 대체."

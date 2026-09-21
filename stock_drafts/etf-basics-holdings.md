@@ -4,7 +4,7 @@ title: ETF 뜻과 구성종목 확인하는 법
 slug: etf-basics-holdings
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 38,020 (PC 5,220 / 모바일 32,800)
+monthly_search_volume: 38020 (PC 5220 / 모바일 32800)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
