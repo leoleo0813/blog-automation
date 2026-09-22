@@ -4,8 +4,8 @@ title: TDF 뜻과 연금계좌 세금 차이
 slug: tdf-meaning-pension-account-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 3,020 (PC 690 / 모바일 2,330, 2026-09-22 실측, check-keywords.yml)
-gate1_pass: true (일반 주제 기준 월 500 이상 충분히 충족)
+monthly_search_volume: 3020 (PC 690 / 모바일 2330)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-22 — 부분 통과, 정보이득 각도로 진행]
   WebSearch "TDF 뜻 타겟데이트펀드란" + "TDF 뜻 타겟데이트펀드 글라이드패스
