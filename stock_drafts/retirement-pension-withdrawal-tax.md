@@ -4,8 +4,8 @@ title: 퇴직연금 중도인출 세금 얼마 내나
 slug: retirement-pension-withdrawal-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 530 (PC 180 / 모바일 350, 2026-09-22 실측)
-gate1_pass: true (제도 기준 월 100 이상 필요, 일반 기준 500도 충족)
+monthly_search_volume: 530 (PC 180 / 모바일 350)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-22 — 통과]
   WebSearch "퇴직연금 중도인출 세금 사유 계산 방법 2026" + "퇴직연금 중도인출

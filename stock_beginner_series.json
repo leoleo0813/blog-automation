@@ -1479,7 +1479,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "530 (PC 180 / 모바일 350, 2026-09-22 실측)",
+      "monthly_search_volume": "530 (PC 180 / 모바일 350)",
       "gate1_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/retirement-pension-withdrawal-tax.md",
