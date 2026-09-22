@@ -4,8 +4,8 @@ title: ISA 계좌 이전 방법과 유의사항
 slug: isa-account-transfer-guide
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 370 (PC 100 / 모바일 270, 2026-09-21 실측, check-keywords.yml)
-gate1_pass: true (제도 기준 월 100 이상 충족 — "ISA" 포함 키워드로 자동 분류)
+monthly_search_volume: 370 (PC 100 / 모바일 270)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
   WebSearch "ISA 계좌 이전 방법 다른 증권사" + "ISA 신탁형 중개형 계좌이전 가능 여부"

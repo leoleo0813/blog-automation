@@ -1499,7 +1499,7 @@
       "type": "제도",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "370 (PC 100 / 모바일 270, 2026-09-21 실측)",
+      "monthly_search_volume": "370 (PC 100 / 모바일 270)",
       "gate1_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/isa-account-transfer-guide.md",
