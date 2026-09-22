@@ -1489,6 +1489,26 @@
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-22). 게이트1은 이번 실행에서 check-keywords.yml로 신규 실측(530회, 제도 기준 100·일반 기준 500 모두 충족). 게이트4는 국세청 퇴직소득세 계산방법 페이지(nts.go.kr) WebFetch 1회 시도가 세션 전면 차단(EGRESS_BLOCKED, casenote.kr·kofia.or.kr 대조군도 동일)돼 RULES.md 2026-09-12 기준에 따라 항목별 독립 출처 3~7곳(언론·준정부기관·대형 금융사 준공식 콘텐츠 포함, 핵심 수치 충돌 없음)으로 교차검증했다.",
       "unique_asset": "근로자퇴직급여보장법상 중도인출 허용 사유(5가지)와 소득세법상 부득이한 사유(세금 감면 대상)가 다르다는 구분표 + 운용수익 300만원 가정 계산 예시(부득이한 사유 16만5천원 vs 그 외 사유 49만5천원) + DC형·기업형IRP(의료비 12.5% 요건) vs 개인형IRP(요건 없음) 비교표.",
       "primary_source": "국세청 퇴직소득세 계산방법 페이지(nts.go.kr) 1차 시도 EGRESS_BLOCKED(2026-09-22) → 항목별 독립 출처 3~7곳(hankyung.com 언론, investpension.miraeasset.com·kbthink.com·blog.koreainvestment.com·ibkmagazine.co.kr 준공식, kcie.or.kr 준정부, casenote.kr 국세청 해석례 인용, metlife.co.kr 등) 교차검증으로 진행. 상세는 초안 파일 YAML의 primary_source 참고."
+    },
+    {
+      "id": 71,
+      "order": 71,
+      "title": "ISA 계좌 이전 방법과 유의사항",
+      "slug": "isa-account-transfer-guide",
+      "keyword": "ISA 계좌 이전 방법",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "370 (PC 100 / 모바일 270, 2026-09-21 실측)",
+      "gate1_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/isa-account-transfer-guide.md",
+      "cannibalization_note": "3편(ISA 계좌 한도와 비과세 혜택)은 계좌 이전 언급 0건(grep 확인), 43편(ISA 손익통산)의 이전 언급 1건은 3편을 가리키는 링크 문구일 뿐 계좌 이전과 무관, 67편(ISA 중도해지)도 계좌 이전을 다루지 않는다. 68~70편(리츠 뜻/상속세 연부연납/퇴직연금 중도인출)과도 주제가 겹치지 않는다.",
+      "serp_check": "게이트2 v3 판정(2026-09-22) 통과 — WebSearch 상위에 bluedino.kr·koreainfo1123.com·mimimem.com·a-ha.io·stlly.com·dschool7.com 등 개인·소규모 콘텐츠 다수 진입, SERP 안 잠김. 해지-이전 오해 정정 + 신탁형·중개형·일임형 유형 간 이전 가능 매트릭스 + 이전 불가 사유 체크리스트를 한곳에 정리한 글은 상위에서 못 찾아 정보이득 여지 있음.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-22). 게이트1은 이번 세션 check-keywords.yml 실측(370회, 제도 기준 100 이상). 게이트4는 fsc.go.kr WebFetch 1회 시도가 EGRESS_BLOCKED돼 RULES.md 2026-09-12 기준에 따라 소관 부처(금융위) 자료 제목 + 경쟁 관계인 대형 증권사 3곳(KB증권·신한투자증권·키움증권) 공식 페이지 교차검증(핵심 사실 충돌 없음)으로 진행했다. 소요기간처럼 출처 간 수치가 갈리는 항목은 본문에서 제외했다.",
+      "unique_asset": "해지 없이 유형(신탁형·중개형·일임형) 간 이전이 가능하다는 오해 정정 + 이전 가능 여부 매트릭스 표 + 신규사 개설부터 재매수까지 이전 절차 5단계 + 압류·부적격자 통보 등 이전 불가 사유 체크리스트.",
+      "primary_source": "금융위원회 ISA 계좌이전 정책자료(fsc.go.kr) 1차 시도 EGRESS_BLOCKED(2026-09-22) → 소관 부처 자료 제목 + KB증권·신한투자증권·키움증권 등 독립 출처 4곳 이상 교차검증으로 진행. 핵심 사실(세제혜택 유지, 원스톱 절차, 유형 간 이전 가능, 이전 거절 사유) 충돌 없음."
     }
   ],
   "backlog": {
