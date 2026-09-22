@@ -4,8 +4,8 @@ title: ELS 뜻과 원금손실 낙인배리어 조건
 slug: els-principal-loss-barrier
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1,390 (PC 240 / 모바일 1,150, 2026-09-22 실측, check-keywords.yml)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 1,390회로 통과)
+monthly_search_volume: 1390 (PC 240 / 모바일 1150)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-22 - 통과]
   WebSearch "ELS 뜻 원금손실 조건 낙인 배리어 계산 예시" 상위 종합:
