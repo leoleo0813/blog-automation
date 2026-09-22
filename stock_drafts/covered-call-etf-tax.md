@@ -4,8 +4,8 @@ title: 커버드콜 ETF 세금 국내형과 해외형 차이
 slug: covered-call-etf-tax
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 110 (PC 40 / 모바일 70, 2026-09-22 실측)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요, 근소하게 충족)
+monthly_search_volume: 110 (PC 40 / 모바일 70)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-22 — 통과]
   WebSearch "커버드콜 ETF 세금 분배금 과세 옵션프리미엄 배당소득세" +
