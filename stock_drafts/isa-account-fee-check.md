@@ -4,8 +4,8 @@ title: ISA 계좌 수수료 유형별 확인법
 slug: isa-account-fee-check
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 160 (PC 50 / 모바일 110, 2026-09-23 실측, check-keywords.yml)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요 — "ISA" 포함 키워드)
+monthly_search_volume: 160 (PC 50 / 모바일 110)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-23 — 통과]
   WebSearch "ISA 계좌 수수료 신탁형 일임형 중개형 비교 2026" 상위 9개:

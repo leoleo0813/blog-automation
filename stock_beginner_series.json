@@ -1625,7 +1625,7 @@
       "type": "제도",
       "keyword_class": "human-assisted",
       "publish_effort": "capture",
-      "monthly_search_volume": "160 (PC 50 / 모바일 110, 2026-09-23 실측, check-keywords.yml)",
+      "monthly_search_volume": "160 (PC 50 / 모바일 110)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-23 — 통과] WebSearch 상위 9개 중 brunch.co.kr·welfarehello.com·blog.onestopsamsungpop.co.kr·leehaninvest.com·exervital.com·bileotools.com 등 개인·소규모 콘텐츠가 6개로 과반, 진입 여지 있음. 정보 탐색형 검색 의도(조회·계산기 아님). 다만 exervital.com이 이미 증권사 7곳 매매수수료 비교표를 갖추고 있어 단순 표 나열로는 차별화 약함 — 신탁형·일임형 수수료 구조와 직접 확인 절차까지 포함해 정보이득 여지 확보.",
       "unique_asset_plan": "ISA 3유형(중개형/신탁형/일임형) 수수료 구조 차이 정리 + 대략적 요율 범위(교차검증) + 금융투자협회 ISA다모아로 본인 계좌 수수료 직접 확인하는 절차. 금융사별 실제 신탁보수율/운용관리수수료율 실측 비교표는 캡처 대기.",
