@@ -1615,6 +1615,26 @@
       "cannibalization_note": "3편(ISA 계좌 한도)·8편(연금저축 세액공제)·67편(ISA 중도해지 세금)·70편(퇴직연금 중도인출 세금)·71편(ISA 계좌 이전 방법) grep 확인 - 각 편은 IRP 또는 ISA 단일 주제만 다루고 두 계좌를 나란히 비교하는 구조가 아니라 검색 의도가 겹치지 않음.",
       "draft_path": "stock_drafts/irp-isa-account-difference.md",
       "published_at": "2026-09-23"
+    },
+    {
+      "id": 76,
+      "order": 76,
+      "title": "ISA 계좌 수수료 유형별 확인법",
+      "slug": "isa-account-fee-check",
+      "keyword": "ISA 계좌 수수료",
+      "type": "제도",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "160 (PC 50 / 모바일 110, 2026-09-23 실측, check-keywords.yml)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-23 — 통과] WebSearch 상위 9개 중 brunch.co.kr·welfarehello.com·blog.onestopsamsungpop.co.kr·leehaninvest.com·exervital.com·bileotools.com 등 개인·소규모 콘텐츠가 6개로 과반, 진입 여지 있음. 정보 탐색형 검색 의도(조회·계산기 아님). 다만 exervital.com이 이미 증권사 7곳 매매수수료 비교표를 갖추고 있어 단순 표 나열로는 차별화 약함 — 신탁형·일임형 수수료 구조와 직접 확인 절차까지 포함해 정보이득 여지 확보.",
+      "unique_asset_plan": "ISA 3유형(중개형/신탁형/일임형) 수수료 구조 차이 정리 + 대략적 요율 범위(교차검증) + 금융투자협회 ISA다모아로 본인 계좌 수수료 직접 확인하는 절차. 금융사별 실제 신탁보수율/운용관리수수료율 실측 비교표는 캡처 대기.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/isa-account-fee-check.md",
+      "cannibalization_note": "1편(증권사 수수료 비교)은 매매 위탁수수료를 다루고 이 글은 ISA 계좌의 보유 기간 수수료(신탁보수·운용관리수수료)를 다뤄 대상이 다름. 3편(ISA 계좌 한도)·67편(ISA 중도해지)·71편(ISA 계좌 이전 방법)·75편(IRP ISA 차이) grep 확인 결과 수수료·보수 관련 서술 0건으로 겹침 없음.",
+      "gate_pass": false,
+      "gate_pass_note": "게이트1·2 충족, 게이트3 부분 충족(수수료 구조·범위·확인절차는 확정, 금융사별 실측 비교표는 미확정). 게이트4 미충족 — ISA다모아(isa.kofia.or.kr)는 dis.kofia.or.kr과 같은 계열 JS 앱으로 추정해 시도하지 않았고, 대안(전국은행연합회 portal.kfb.or.kr)은 WebFetch 1회 시도 EGRESS_BLOCKED(google.com 대조군도 차단, 세션 전면 차단 확인). 2차 교차검증은 대략적 범위까지만 수렴하고 금융사별 정확한 요율은 확정 못해 human-assisted 캡처로 전환.",
+      "capture_guide": "1순위 금융투자협회 ISA다모아 https://isa.kofia.or.kr 에서 신탁형/일임형 상품비교 메뉴로 금융사 3~5곳의 신탁보수율·운용관리수수료율이 뜨는 화면 캡처, 2순위 전국은행연합회 https://portal.kfb.or.kr/compare/isa.php 에서 은행별 ISA 수수료 화면 캡처, 3순위 이용 중인 증권사 ISA 상품안내 페이지 캡처. 캡처 후 대화에 스크린샷 업로드하면 표에 반영."
     }
   ],
   "backlog": {
@@ -1642,7 +1662,7 @@
         "title": "양도소득세 가산세",
         "keyword": "양도소득세 가산세",
         "monthly_search_volume": "200 (PC 70 / 모바일 130, 2026-09-18 실측)",
-        "hold_reason": "게이트1 통과(제도 기준 100 이상)했으나 이번 배치에서 검색량이 가장 높았던 넥스트레이드(12,020회)를 49편으로 채택해 대기. 2·5·7·33편(양도소득세 신고·계산)과 무신고·과소신고 가산세 각도로 카니벌라이제이션 여부를 다음 실행에서 게이트2와 함께 확인 필요."
+        "hold_reason": "게이트1 통과(제도 기준 100 이상)했으나 [2026-09-23 재검토 — 카니벌라이제이션 확인] 33편(국내주식 양도소득세 신고방법, domestic-stock-capital-gains-filing)이 이미 무신고가산세 20%· 납부지연가산세(2026-07-01 개정 이원화 계산방식)를 전용 H2·계산 예시(과세표준 3,000만원 기준 약 128만원)· FAQ·JSON-LD까지 포함해 상세히 다루고 있어(grep 29건 확인) 별도 편으로 만들면 검색 의도가 크게 겹친다. 33편이 다루지 않는 새 각도(예정신고 vs 확정신고 각각의 가산세 차이, 실제 세무조사 사례 등)를 확보하기 전까지 보류."
       },
       {
         "title": "공모주 청약",
@@ -3074,7 +3094,12 @@
       {
         "keyword": "통합증거금 제도",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)"
-      }
+      },
+      "연금계좌 인출순서",
+      "상장리츠 공모청약 방법",
+      "외국인 순매수 확인방법",
+      "연금저축 이월신청",
+      "배당소득세 원천징수 시기"
     ]
   },
   "deferred_concept_topics": "개념 설명형(PER·PBR 뜻, 호가창, 캔들차트, 이동평균선, ETF란, 시가총액 등 21편)은 폐기가 아니라 보류입니다. 제도형 5편이 4주 검증을 통과해 사이트에 신뢰가 쌓이면 출발선이 달라집니다.",
