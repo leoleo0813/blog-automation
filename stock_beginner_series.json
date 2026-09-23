@@ -1642,7 +1642,7 @@
       "title": "체결강도 뜻과 매수세 판단법",
       "slug": "stock-execution-strength-meaning",
       "status": "drafted",
-      "monthly_search_volume": "1,790 (PC 220 / 모바일 1,570, 2026-09-23 실측)",
+      "monthly_search_volume": "1790 (PC 220 / 모바일 1570)",
       "gate1_pass": true,
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-23). check-keywords.yml로 신규 후보 8개 실측, 유일하게 PASS. 계산 예시 2개+거래량 대비 개념표+증권사 3곳 HTS 화면 위치 비교표로 정보이득 확보. mofe.go.kr 1차 출처는 EGRESS_BLOCKED로 막혀 정부 용어사전 스니펫+개인 블로그 2곳 교차검증으로 진행(세율·한도형 숫자가 아니라 시장 용어 정의라 RULES.md 기준상 허용)."

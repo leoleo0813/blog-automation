@@ -4,8 +4,8 @@ title: 체결강도 뜻과 매수세 판단법
 slug: stock-execution-strength-meaning
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1,790 (PC 220 / 모바일 1,570, 2026-09-23 실측, check-keywords.yml)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 1,790회로 여유 있게 통과)
+monthly_search_volume: 1790 (PC 220 / 모바일 1570)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-23 — 통과]
   WebSearch "체결강도 뜻 계산법 매수 매도 비율" + "체결강도 활용법 주의점
