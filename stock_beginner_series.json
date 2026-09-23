@@ -1635,6 +1635,17 @@
       "gate_pass": false,
       "gate_pass_note": "게이트1·2 충족, 게이트3 부분 충족(수수료 구조·범위·확인절차는 확정, 금융사별 실측 비교표는 미확정). 게이트4 미충족 — ISA다모아(isa.kofia.or.kr)는 dis.kofia.or.kr과 같은 계열 JS 앱으로 추정해 시도하지 않았고, 대안(전국은행연합회 portal.kfb.or.kr)은 WebFetch 1회 시도 EGRESS_BLOCKED(google.com 대조군도 차단, 세션 전면 차단 확인). 2차 교차검증은 대략적 범위까지만 수렴하고 금융사별 정확한 요율은 확정 못해 human-assisted 캡처로 전환.",
       "capture_guide": "1순위 금융투자협회 ISA다모아 https://isa.kofia.or.kr 에서 신탁형/일임형 상품비교 메뉴로 금융사 3~5곳의 신탁보수율·운용관리수수료율이 뜨는 화면 캡처, 2순위 전국은행연합회 https://portal.kfb.or.kr/compare/isa.php 에서 은행별 ISA 수수료 화면 캡처, 3순위 이용 중인 증권사 ISA 상품안내 페이지 캡처. 캡처 후 대화에 스크린샷 업로드하면 표에 반영."
+    },
+    {
+      "id": 77,
+      "keyword": "체결강도 뜻",
+      "title": "체결강도 뜻과 매수세 판단법",
+      "slug": "stock-execution-strength-meaning",
+      "status": "drafted",
+      "monthly_search_volume": "1,790 (PC 220 / 모바일 1,570, 2026-09-23 실측)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-23). check-keywords.yml로 신규 후보 8개 실측, 유일하게 PASS. 계산 예시 2개+거래량 대비 개념표+증권사 3곳 HTS 화면 위치 비교표로 정보이득 확보. mofe.go.kr 1차 출처는 EGRESS_BLOCKED로 막혀 정부 용어사전 스니펫+개인 블로그 2곳 교차검증으로 진행(세율·한도형 숫자가 아니라 시장 용어 정의라 RULES.md 기준상 허용)."
     }
   ],
   "backlog": {
@@ -3133,7 +3144,6 @@
       "증권사 신용거래 이자율 비교",
       "공모주 시초가 결정방식",
       "조각투자 뜻",
-      "K-OTC 뜻",
       "인버스 ETF 뜻",
       "신용거래 뜻",
       "대주주 뜻",
@@ -3191,6 +3201,39 @@
       {
         "keyword": "배당 재투자 계산법",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측)"
+      },
+      {
+        "keyword": "이동평균선 뜻",
+        "monthly_search_volume": "30 (PC 10 / 모바일 20, 2026-09-23 실측, 일반 주제 기준 500 미달)",
+        "note": "77편 브레인스토밍 배치. CLAUDE.md 7.8/deferred_concept_topics에도 이미 개념형 후순위로 언급된 주제."
+      },
+      {
+        "keyword": "ETF NAV 뜻",
+        "monthly_search_volume": "30 (PC 10 / 모바일 20, 2026-09-23 실측, 일반 주제 기준 500 미달)",
+        "note": "77편 브레인스토밍 배치. 조사 없는 'ETF NAV'도 과거 50회로 이미 FAIL 기록 있음(backlog 기존 항목)."
+      },
+      {
+        "keyword": "전자증권제도 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "회사채 신용등급 보는법",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "신용거래 이자율 비교",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)",
+        "note": "backlog 미검증 후보 목록에 있던 키워드를 실측 → FAIL 확정."
+      },
+      {
+        "keyword": "K-OTC 뜻",
+        "monthly_search_volume": "90 (PC 30 / 모바일 60, 2026-09-23 실측, 일반 주제 기준 500 미달)",
+        "note": "backlog 미검증 후보 목록에 있던 키워드를 실측 → FAIL 확정."
+      },
+      {
+        "keyword": "골든크로스 데드크로스 뜻",
+        "monthly_search_volume": "30 (PC 10 / 모바일 20, 2026-09-23 실측, 일반 주제 기준 500 미달)",
+        "note": "단독 '골든크로스 뜻'은 과거 450으로 근소 미달 기록 있음(backlog 기존 항목); 데드크로스와 묶으니 오히려 더 낮음."
       }
     ]
   },
