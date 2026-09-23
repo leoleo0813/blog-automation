@@ -4,7 +4,7 @@ title: 상속세 연부연납 조건과 기간
 slug: inheritance-tax-installment-payment
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 780 (PC 260 / 모바일 520)
+monthly_search_volume: 810 (PC 280 / 모바일 530)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-21 — 통과]
