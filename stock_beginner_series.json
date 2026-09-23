@@ -1569,6 +1569,26 @@
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-22). 게이트1은 이번 세션 check-keywords.yml 실측(3,020회, 일반 주제 기준 500 이상 여유 충족). 게이트4는 교차검증(독립 출처 5곳 이상, 법적 근거·시행일 충돌 없음)으로 진행.",
       "cannibalization_note": "1~73편 keyword·title 전체 확인 결과 'TDF' 언급 편 없음(grep 0건). 8편(연금저축 세액공제)·70편(퇴직연금 중도인출 세금)이 연금계좌 세제 일반을 다루지만 TDF라는 특정 상품 유형과 디폴트옵션 법적 근거는 다루지 않아 카니벌라이제이션 없음.",
       "draft_path": "stock_drafts/tdf-meaning-pension-account-tax.md"
+    },
+    {
+      "id": 75,
+      "order": 75,
+      "keyword": "IRP ISA 차이",
+      "title": "IRP ISA 차이 세액공제 인출조건 비교",
+      "slug": "irp-isa-account-difference",
+      "status": "drafted",
+      "type": "제도",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "700 (PC 220 / 모바일 480, 2026-09-23 실측)",
+      "gate1_pass": true,
+      "serp_check": "게이트2 v3 판정(2026-09-23) 통과 - WebSearch 상위 9개 중 브런치·월급쟁이부자들·프리즘 등 개인/소규모 콘텐츠가 다수라 진입 여지 있음, 정보 탐색형 검색 의도, 상위 결과가 세액공제율 나열에 그쳐 두 계좌를 동시에 쓸 때의 절세액 계산·인출 조건 차이는 다루지 않아 정보이득 여지 있음.",
+      "unique_asset": "IRP·ISA 구조 비교표(세액공제·납입한도·비과세방식·의무유지기간·중도인출해지) + ISA 만기자금 IRP 전환 시 절세액 계산 예시(이전액 3,000만원 기준 300만원 추가 한도, 495,000원 또는 396,000원 추가 환급) + 두 계좌의 유동성(인출 자유도) 차이 정리.",
+      "primary_source": "새로 확인한 수치(IRP 연금수령 개시 요건 만 55세+가입기간 5년, 연금소득세 3단계 5.5%/4.4%/3.3%)는 국세청 1차 시도 EGRESS_BLOCKED 후 독립 출처 5곳(kbthink.com, kcie.or.kr, frism.io, tossbank.com, 미래에셋증권) 교차검증. 나머지 수치(세액공제 900만원 한도·공제율, ISA 납입한도·비과세한도·중도해지 세율, IRP 중도인출 세율)는 8편·3편·67편·70편에서 이미 원문 캡처로 확정한 값을 재사용.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족(2026-09-23). 게이트1은 이번 세션 check-keywords.yml 실측(700회, 제도 기준 100 이상 충족). 게이트4는 대부분 시리즈 내 재사용이며, 새로 교차검증한 55세/5년/연금소득세 3단계 수치만 사람이 국세청 원문 대조를 한 번 확인해주는 것을 권장(연령 구간별 세율이라 과거 오류 유형과 결이 같음).",
+      "cannibalization_note": "3편(ISA 계좌 한도)·8편(연금저축 세액공제)·67편(ISA 중도해지 세금)·70편(퇴직연금 중도인출 세금)·71편(ISA 계좌 이전 방법) grep 확인 - 각 편은 IRP 또는 ISA 단일 주제만 다루고 두 계좌를 나란히 비교하는 구조가 아니라 검색 의도가 겹치지 않음.",
+      "draft_path": "stock_drafts/irp-isa-account-difference.md"
     }
   ],
   "backlog": {
@@ -3000,6 +3020,34 @@
       {
         "keyword": "배당소득세 원천징수 환급",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-22 실측, 제도 기준 100 미달)"
+      },
+      {
+        "keyword": "연금저축펀드 연금저축보험 차이",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 제도 기준 100 미달)"
+      },
+      {
+        "keyword": "물가연동국채 세금",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 제도 기준 100 미달)"
+      },
+      {
+        "keyword": "나스닥 상장 조건",
+        "monthly_search_volume": "50 (PC 10 / 모바일 40, 2026-09-23 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "배당주 펀드 세금",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 제도 기준 100 미달)"
+      },
+      {
+        "keyword": "ETF 거래대금",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "대용증권 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "통합증거금 제도",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-23 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
