@@ -4,8 +4,8 @@ title: 개인투자용국채 매입한도 분리과세
 slug: individual-investment-bond-limit
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 7,840 (PC 2,340 / 모바일 5,500)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요 — check-keywords.yml 2026-09-24 실측)
+monthly_search_volume: 7840 (PC 2340 / 모바일 5500)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-24 — 통과]
   WebSearch "개인투자용국채 장단점 후기 매입 방법" 상위 9개:
