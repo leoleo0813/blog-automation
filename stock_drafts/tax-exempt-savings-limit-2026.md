@@ -4,8 +4,8 @@ title: 비과세종합저축 조건과 한도 2026
 slug: tax-exempt-savings-limit-2026
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 4610 (PC 900 / 모바일 3710, 2026-09-24 실측, 제도 기준 100 이상 적용)
-gate1_pass: true
+monthly_search_volume: 4610 (PC 900 / 모바일 3710)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-24 — 통과]
   WebSearch "비과세종합저축 가입조건 한도 이자소득세 2026" 상위 8개:
