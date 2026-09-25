@@ -1748,7 +1748,9 @@
       "status": "drafted",
       "keyword": "이월과세",
       "title": "이월과세 적용 기간과 계산 방법",
-      "slug": "carryover-taxation-calculation"
+      "slug": "carryover-taxation-calculation",
+      "monthly_search_volume": "420 (PC 150 / 모바일 270)",
+      "gate1_pass": true
     }
   ],
   "backlog": {

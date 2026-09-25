@@ -4,8 +4,8 @@ title: 이월과세 적용 기간과 계산 방법
 slug: carryover-taxation-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 420 (PC 150 / 모바일 270, 2026-09-25 실측)
-gate1_pass: true (세부·제도 기준 월 100 이상 필요 — 세율·공제·한도 계열 키워드)
+monthly_search_volume: 420 (PC 150 / 모바일 270)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-25 — 통과]
   WebSearch "이월과세" 상위 9개: taxnet.co.kr(세무 전문 매체 칼럼) /
