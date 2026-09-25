@@ -4,7 +4,7 @@ title: 컨센서스 뜻과 확인 방법
 slug: consensus-estimate-check-guide
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 5260 (PC 1190 / 모바일 4070, 2026-09-25 실측)
+monthly_search_volume: 5260 (PC 1190 / 모바일 4070)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-25 — 통과]
