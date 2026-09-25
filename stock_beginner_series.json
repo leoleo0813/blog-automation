@@ -1693,7 +1693,7 @@
       "slug": "call-auction-order-priority",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1770 (PC 340 / 모바일 1430, 2026-09-25 실측)",
+      "monthly_search_volume": "1770 (PC 340 / 모바일 1430)",
       "gate1_pass": true,
       "serp_check": "v3 판정(2026-09-25) 통과 - WebSearch 상위 8~9개 중 eom.co.kr·lifeuplogic.com·econowide.com·a-ha.io 4곳이 개인/소규모 콘텐츠·커뮤니티로 진입 여지 있음, 개념 탐색형 검색 의도, 상위 결과가 정의 한두 문장에 그쳐 하루 전체 매매시간대 비교표와 체결 우선순위 계산 예시를 다루지 않아 정보이득 여지 있음.",
       "unique_asset": "장전 시간외종가~시간외단일가까지 하루 전체 매매체결 시간대 비교표 확정 반영 + 동시호가 상·하한가 형성 시 시간우선 배제·수량우선 체결 특례를 10,000주 vs 100주 계산 예시로 확정 반영.",

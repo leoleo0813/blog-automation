@@ -4,7 +4,7 @@ title: 동시호가 뜻과 매매체결 우선순위
 slug: call-auction-order-priority
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1770 (PC 340 / 모바일 1430, 2026-09-25 실측)
+monthly_search_volume: 1770 (PC 340 / 모바일 1430)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-25 — 통과]
