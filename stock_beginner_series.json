@@ -1712,7 +1712,7 @@
       "slug": "rebalancing-account-tax-difference",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "5570 (PC 760 / 모바일 4810, 2026-09-25 실측)",
+      "monthly_search_volume": "5570 (PC 760 / 모바일 4810)",
       "gate1_pass": true,
       "serp_check": "v3 판정(2026-09-25) 통과 - WebSearch 상위 9개 중 clien.net·dndn.io·toalmotexit.com·threads.com·economyfactory.com 5곳이 개인/커뮤니티 콘텐츠로 진입 여지 있음, 개념+실행 탐색형 검색 의도, 상위 결과가 정의·주기·두 가지 방법(주기적/밴드형)까지는 다루지만 계좌 종류별(일반/ISA/연금) 리밸런싱 세금 차이는 다루지 않아 정보이득 여지 있음.",
       "unique_asset": "계좌 종류(일반계좌/ISA/연금저축·IRP)별 리밸런싱 매도 시 세금 처리 비교표 + 1,000만원 60:40 포트폴리오가 68.2:31.8로 벌어졌을 때의 원화 계산 예시(90만원 재조정) + 그중 이익 30만원의 계좌별 세금 처리 비교.",
