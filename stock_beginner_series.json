@@ -1823,7 +1823,7 @@
       "type": "개념·시장구조",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "4470 (PC 710 / 모바일 3760, 2026-09-26 실측)",
+      "monthly_search_volume": "4470 (PC 710 / 모바일 3760)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-26) - 개인/소규모 콘텐츠 다수 진입, 개념 탐색형 의도, 국내 기업 ADR 상장 현황표 및 2026년 SK하이닉스 나스닥 상장 사례라는 정보이득 미확보 확인. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "국내 대형 상장사 ADR 상장 현황표(SK텔레콤/KT/포스코홀딩스/한국전력공사/우리금융지주/신한지주/KB금융/LG디스플레이/SK하이닉스) + 2026년 7월 SK하이닉스 나스닥 상장(외국기업 역대 최대 규모) 사례 + 전환비율 계산 예시",

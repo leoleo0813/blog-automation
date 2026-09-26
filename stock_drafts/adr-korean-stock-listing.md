@@ -4,8 +4,8 @@ title: ADR 뜻과 한국 기업 상장 현황
 slug: adr-korean-stock-listing
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 4470 (PC 710 / 모바일 3760, 2026-09-26 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 4,470회로 충족)
+monthly_search_volume: 4470 (PC 710 / 모바일 3760)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-26 — 통과]
   WebSearch "ADR 뜻 미국예탁증서" + "ADR 뜻 전환비율 예탁수수료" 상위 결과 종합:
