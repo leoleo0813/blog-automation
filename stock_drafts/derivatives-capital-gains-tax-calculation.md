@@ -4,8 +4,8 @@ title: 파생상품 양도소득세 계산 방법
 slug: derivatives-capital-gains-tax-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 120 (PC 40 / 모바일 80, 2026-09-26 실측)
-gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요, 120회로 충족)
+monthly_search_volume: 120 (PC 40 / 모바일 80)
+gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-26 — 통과]
   WebSearch "파생상품 양도소득세" 상위 9개: kci.go.kr(학술논문 포털, 준정부
