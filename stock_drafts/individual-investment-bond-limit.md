@@ -4,7 +4,7 @@ title: 개인투자용국채 매입한도 분리과세
 slug: individual-investment-bond-limit
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 7840 (PC 2340 / 모바일 5500)
+monthly_search_volume: 7720 (PC 2270 / 모바일 5450)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-24 — 통과]
