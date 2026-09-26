@@ -114,12 +114,22 @@ These are blog-level (Blogger theme / static page) changes, not something a per-
 - **Person schema:** the blog currently emits only Organization JSON-LD (if any). Adding a Person schema (author identity, even a pen name/persona) requires editing the Blogger theme's HTML (테마 > HTML 편집) to inject a sitewide or per-post `<script type="application/ld+json">` block — this repo's automation only creates individual posts/pages via API, it doesn't touch the theme.
 - Both items are tracked here as a known gap, not forgotten — ask the human operator before automating either, since a Page create or theme edit is a live, harder-to-undo action unlike a Blogger draft post.
 
-## 7. 주식 초보 콘텐츠 발행 지침 v1 (재무 YMYL) — 사람 참고용, 자동화는 `RULES.md` 사용
+## 7. 주식 콘텐츠 발행 지침 v2 (재무 YMYL) — 사람 참고용, 자동화는 `RULES.md` 사용
 
 > 이하는 왜 이런 규칙이 생겼는지의 배경과 상세 근거다. 실제 콘텐츠 생성 세션은 이 섹션을 읽지 않고 `RULES.md`만 읽는다. 규칙을 바꿀 때는 여기서 논의/근거를 남기고, 실행 가능한 형태로 압축한 결과를 RULES.md에 반영한다.
 
-**대상 블로그:** sensitiveboss3.tistory.com (주식 초보 카테고리) — Blogger가 아니다.
-**최종 개정:** 2026-09-03
+**대상 블로그:** sensitiveboss3.tistory.com (원래 "주식 초보" 카테고리로 시작) — Blogger가 아니다.
+**최종 개정:** 2026-09-26
+
+> ⚠️ **2026-09-26 범위 확장**: 1~84편을 "주식 초보" 프레이밍으로만 채우다 보니 신규
+> 후보가 게이트1(검색량)에서 대량 탈락하는 상태(failed_gate1 513개, 순수 대기 후보
+> 0개)에 도달했다. 이후로는 키워드 후보를 초급에 한정하지 않고 **중급·고급을 포함한
+> 주식 전반**으로 넓힌다. 저장소 이름(`stock_beginner_series.json`,
+> `stock_drafts/`)과 카테고리 문구는 하위 호환을 위해 그대로 두되, 실제 판정 범위는
+> 난이도 무관으로 넓어졌다는 점을 이 문서와 RULES.md 「★ 키워드 범위 확장」절에
+> 남긴다. 게이트1 임계값은 난이도와 무관하게 그대로 적용하고(심화 주제라고 낮추지
+> 않음), 기존 초급편과 겹치는 주제는 "다음 단계" 각도로 차별화하고 내부 링크로
+> 연결하는 것을 원칙으로 한다(자세한 내용은 RULES.md 해당 절 참조).
 
 이 지침은 건강 블로그 961편의 서치콘솔 실적(2026-06-01~08-31) 분석에서 도출했다. 961편 중 노출 발생 237편, 평균 게재순위 26.3위, 3개월 총 클릭 35회. 실패 원인은 색인도 페널티도 아니었다 — **검색량 없는 키워드로 제목을 지었고, 검증 없이 대량 발행했다.** 아래 규칙은 그 실패를 반복하지 않기 위한 것이므로 어느 하나도 완화하지 않는다.
 

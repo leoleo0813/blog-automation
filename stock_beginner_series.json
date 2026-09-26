@@ -1,6 +1,6 @@
 {
-  "category": "주식 초보 콘텐츠 (재무 YMYL)",
-  "guideline": "RULES.md v2 (자동화용) / CLAUDE.md Section 7 (사람 참고용, 2026-09-03 개정)",
+  "category": "주식 콘텐츠 - 초급~고급 (재무 YMYL, 2026-09-26 초보 전용에서 난이도 무관으로 확장)",
+  "guideline": "RULES.md v2 (자동화용, 「★ 키워드 범위 확장」절 참조) / CLAUDE.md Section 7 (사람 참고용, 2026-09-26 개정)",
   "target_blog": "https://sensitiveboss3.tistory.com",
   "platform": "tistory_manual_only",
   "platform_note": "Tistory Open API가 종료되어 자동 등록이 불가능합니다. 자동화는 stock_drafts/<slug>.md 초안만 저장소에 저장하고, 게시는 항상 사람이 티스토리 편집기에 직접 붙여넣어 합니다. Blogger 발행 워크플로도 Threads 훅도 이 카테고리에는 사용하지 않습니다.",
