@@ -1757,7 +1757,9 @@
       "order": 84,
       "status": "drafted",
       "keyword": "액면가 뜻",
-      "slug": "par-value-dividend-rate-calculation"
+      "slug": "par-value-dividend-rate-calculation",
+      "monthly_search_volume": "2000 (PC 200 / 모바일 1800)",
+      "gate1_pass": true
     }
   ],
   "backlog": {

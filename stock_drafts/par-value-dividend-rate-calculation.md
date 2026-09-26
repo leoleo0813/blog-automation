@@ -4,7 +4,7 @@ title: 액면가 뜻과 배당률 계산법
 slug: par-value-dividend-rate-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 2,000 (PC 200 / 모바일 1,800, 2026-09-26 실측)
+monthly_search_volume: 2000 (PC 200 / 모바일 1800)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-26 — 통과]
