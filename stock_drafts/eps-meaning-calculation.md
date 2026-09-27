@@ -4,8 +4,8 @@ title: EPS 뜻과 계산 방법
 slug: eps-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1460 (PC 360 / 모바일 1,100, 2026-09-27 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 1,460회로 충족)
+monthly_search_volume: 1460 (PC 360 / 모바일 1100)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-27 — 통과]
   WebSearch "EPS 뜻 주당순이익 계산법" 상위 9개: tikr.com(글로벌 핀테크 콘텐츠 한국어판)/

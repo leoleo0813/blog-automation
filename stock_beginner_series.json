@@ -1886,7 +1886,7 @@
       "type": "투자지표",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1460 (PC 360 / 모바일 1,100, 2026-09-27 실측)",
+      "monthly_search_volume": "1460 (PC 360 / 모바일 1100)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-27) - 개인/소규모 콘텐츠 4개 이상 진입, 개념 탐색형 의도, 희석EPS 실제 계산·EPS 성장률·주식수 왜곡 요인이라는 정보이득 미확보 확인. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "EPS=당기순이익÷유통주식수 계산 예시 + 전환사채 반영 희석EPS 실제 도출(기본 1,000원 → 희석 약 833원) + EPS 성장률 계산(25% 예시)과 PER 연결 + 자사주 소각·무상증자 등 주식수 변동이 EPS를 왜곡하는 요인 체크리스트",
