@@ -4,8 +4,8 @@ title: PBR 뜻과 계산 방법
 slug: pbr-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 6010 (PC 1180 / 모바일 4830, 2026-09-27 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 이번 배치 PASS 후보 중 최고 검색량)
+monthly_search_volume: 6010 (PC 1180 / 모바일 4830)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-27 — 통과]
   WebSearch "PBR 뜻 계산 방법 저평가 기준" 상위 결과 종합: kbcapital.co.kr(KB캐피탈,

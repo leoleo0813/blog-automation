@@ -1843,7 +1843,7 @@
       "type": "투자지표",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "6010 (PC 1180 / 모바일 4830, 2026-09-27 실측)",
+      "monthly_search_volume": "6010 (PC 1180 / 모바일 4830)",
       "gate1_pass": true,
       "serp_check": "[게이트2 v3 판정 2026-09-27 - 통과] WebSearch \"PBR 뜻 계산 방법 저평가 기준\" 상위 결과 kbcapital.co.kr/kbthink.com/toss.im/tossbank.com/namu.wiki(공식·백과) + lifefin.co.kr/economic22.com/trendmetriclab.com/twig.money(개인·소규모, 진입여지 있음). 검색의도는 개념·방법 탐색형. 상위 글이 PBR=PER x ROE 관계식 도출이나 2026년 11월 저PBR 명단 공표 제도까지는 다루지 않아 정보이득 있음. 3개 탈락조건 모두 미해당.",
       "unique_asset_plan": "BPS/PBR 계산 예시 + PBR=PER x ROE 관계식 도출(가상 수치) + 2026년 11월 2일 한국거래소 저PBR 상장사 명단 공표 제도(코스피 업종 하위 25%/코스닥 하위 10%, 3년 누적, 10월 22일 공시시 1년 면제) + 저평가 오판 방지 체크리스트.",
