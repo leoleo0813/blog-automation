@@ -1833,6 +1833,29 @@
       "cannibalization_note": "stock_drafts/ 전체 grep 결과 ADR(미국예탁증서) 내용을 다룬 기존 편 없음. 5편(해외주식 양도소득세)·15편(미국주식 세금)과는 세금 처리 원칙만 한 문장으로 언급하고 상세는 위임.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-26). 게이트4는 원문 WebFetch 차단 확인 후 5~6곳 이상 독립 언론 교차검증(완결된 상장 현황/시장 이벤트, 세율처럼 매년 바뀌는 유형 아님)으로 진행."
+    },
+    {
+      "id": 88,
+      "order": 88,
+      "title": "PBR 뜻과 계산 방법",
+      "slug": "pbr-meaning-calculation",
+      "keyword": "PBR 뜻",
+      "type": "투자지표",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "6010 (PC 1180 / 모바일 4830, 2026-09-27 실측)",
+      "gate1_pass": true,
+      "serp_check": "[게이트2 v3 판정 2026-09-27 - 통과] WebSearch \"PBR 뜻 계산 방법 저평가 기준\" 상위 결과 kbcapital.co.kr/kbthink.com/toss.im/tossbank.com/namu.wiki(공식·백과) + lifefin.co.kr/economic22.com/trendmetriclab.com/twig.money(개인·소규모, 진입여지 있음). 검색의도는 개념·방법 탐색형. 상위 글이 PBR=PER x ROE 관계식 도출이나 2026년 11월 저PBR 명단 공표 제도까지는 다루지 않아 정보이득 있음. 3개 탈락조건 모두 미해당.",
+      "unique_asset_plan": "BPS/PBR 계산 예시 + PBR=PER x ROE 관계식 도출(가상 수치) + 2026년 11월 2일 한국거래소 저PBR 상장사 명단 공표 제도(코스피 업종 하위 25%/코스닥 하위 10%, 3년 누적, 10월 22일 공시시 1년 면제) + 저평가 오판 방지 체크리스트.",
+      "status": "drafted",
+      "cannibalization_note": "기존 87개 편 전체 키워드 확인 결과 PBR·PER·ROE·BPS·주가순자산비율을 다룬 편은 없음. 47편(배당수익률)은 배당 지표라 검색 의도가 겹치지 않음.",
+      "draft_path": "stock_drafts/pbr-meaning-calculation.md",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1~4 전부 충족(2026-09-27). 게이트4는 kind.krx.co.kr WebFetch 1회 시도 EGRESS_BLOCKED 확인 후, 저PBR 명단 공표 제도 수치를 EBN·이코노미사이언스·글로벌이코노믹·한국경제TV·ESG경제·네이트뉴스(2건) 등 6곳 이상 독립 언론 교차검증으로 확정. PBR=PER x ROE는 수학적 항등식이라 기관 확인 불요.",
+      "primary_source": "저PBR 명단 공표 제도: EBN·이코노미사이언스·글로벌이코노믹·한국경제TV(wowtv.co.kr)·ESG경제·네이트뉴스 등 6곳 이상 독립 언론 교차검증(코스피 업종 하위25%/코스닥 하위10%, 6개반기 연속, 11월2일 첫 공표, 10월22일 공시시 1년 면제 - 충돌 없이 일치). 기업 밸류업 프로그램 발표(2024-02-26 금융위원회)는 이미 완결된 정책 발표. 종목별 실제 PBR 수치는 한국거래소 정보데이터시스템(data.krx.co.kr)에서 확인 가능하다고 안내(자동화 세션은 접속 차단으로 직접 확인 못함).",
+      "gate3_note": "BPS/PBR 계산 공식 예시 + PBR=PER x ROE 관계식 실제 도출 + 2026년 11월 저PBR 명단 공표 제도(최신 정책 반영)가 상위 검색결과에 없던 정보이득.",
+      "drafted_note": "자동화가 초안·썸네일·큐 등록까지 완료. 티스토리 수동 발행 대기.",
+      "drafted_at": "2026-09-27"
     }
   ],
   "backlog": {
@@ -2240,6 +2263,21 @@
         "keyword": "갭상승 뜻",
         "monthly_search_volume": "530 (PC 50 / 모바일 480, 2026-09-26 실측)",
         "hold_reason": "게이트1 통과(530회, 일반 주제 기준 500회 턱걸이)했으나 이번 편에서는 검색량이 더 높은 ADR 뜻(4,470회)과 워런트 뜻(1,350회)을 우선했다. quadruple-witching-day-2026.md에서 갭상승이 지나가듯 언급되나 전용 편은 없다. 검색량이 낮은 편이라 게이트2·3(정보이득 각도, 예: 갭 발생 원인별 분류·통계) 확보 가능성부터 다음 실행에서 재검토 필요. 단순 순서 대기는 아니다."
+      },
+      {
+        "keyword": "RSI 뜻",
+        "monthly_search_volume": "1410 (PC 290 / 모바일 1120, 2026-09-27 실측, 일반 기준 500 이상 통과)",
+        "hold_reason": "게이트1 통과(1,410회)했으나 이번 편에서는 PBR 뜻(6,010회)을 채택. 게이트2 자체는 미확인 - 다음 실행에서 채택 검토 시 RSI 뜻 WebSearch부터 새로 진행할 것. 기술적 지표(RSI·MACD·볼린저밴드) 확장 방침(RULES.md/CLAUDE.md 키워드 범위 확장 절)에 부합하는 후보. 85편(볼린저밴드 뜻)과는 지표 종류가 달라 카니벌라이제이션 없음."
+      },
+      {
+        "keyword": "ROE 뜻",
+        "monthly_search_volume": "930 (PC 250 / 모바일 680, 2026-09-27 실측, 일반 기준 500 이상 통과)",
+        "hold_reason": "게이트1 통과(930회)했으나 이번 편에서는 PBR 뜻(6,010회)을 채택. 88편(PBR 뜻과 계산 방법)에서 PBR=PER x ROE 관계식을 다루며 ROE를 일부 설명했으나, ROE 단독 심화(자기자본이익률 계산, 듀폰 분해 등)는 다루지 않아 별도 편으로 채택 가능. 88편 발행 후 grep으로 겹침 정도 재확인 필요."
+      },
+      {
+        "keyword": "PER 뜻",
+        "monthly_search_volume": "2740 (PC 530 / 모바일 2210, 2026-09-27 실측, 일반 기준 500 이상 통과)",
+        "hold_reason": "게이트1 통과(2,740회)했으나 이번 편에서는 PBR 뜻(6,010회)을 채택. 88편(PBR 뜻과 계산 방법)에서 PER x ROE = PBR 관계식을 다루며 PER을 일부 설명했으나, PER 단독 심화(적정 PER 산출, 업종별 PER 밴드 등)는 다루지 않아 별도 편으로 채택 가능. 88편과 카니벌라이제이션 여부는 다음 실행에서 88편 본문 대비 재검토 필요."
       }
     ],
     "failed_gate1": [
@@ -4174,6 +4212,22 @@
       {
         "keyword": "매매거래정지 뜻",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-26 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "대주거래 뜻",
+        "monthly_search_volume": "40 (PC 10 / 모바일 30, 2026-09-27 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "유동비율 뜻",
+        "monthly_search_volume": "100 (PC 40 / 모바일 60, 2026-09-27 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "신용거래융자 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-27 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "미수동결계좌 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-27 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
