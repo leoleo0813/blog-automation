@@ -1866,7 +1866,7 @@
       "type": "투자지표",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "930 (PC 250 / 모바일 680, 2026-09-27 실측)",
+      "monthly_search_volume": "930 (PC 250 / 모바일 680)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-27) - 개인/소규모 콘텐츠 5개 이상 진입, 개념 탐색형 의도, 듀폰 분해·코리아 밸류업 지수 ROE 활용이라는 정보이득 미확보 확인. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "ROE=당기순이익÷자기자본 계산 예시 + 듀폰 3단계 분해(순이익률×총자산회전율×재무레버리지) 실제 도출 + 코리아 밸류업 지수 5단계 스크리닝 중 ROE 산업군별 순위비율 반영 사실 + ROE 높다고 무조건 좋은 회사 아닌 이유 체크리스트",
