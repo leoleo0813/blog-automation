@@ -4,7 +4,7 @@ title: VIX 지수 뜻과 계산 방법
 slug: vix-index-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 640 (PC 140 / 모바일 500, 2026-09-27 실측)
+monthly_search_volume: 640 (PC 140 / 모바일 500)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-27 — 통과]
