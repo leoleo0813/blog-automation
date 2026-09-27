@@ -4,8 +4,8 @@ title: 사모펀드 뜻과 최소투자금액 기준
 slug: private-equity-fund-minimum-investment
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 8970 (PC 1340 / 모바일 7630, 2026-09-27 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 이번 배치 최고 검색량)
+monthly_search_volume: 8970 (PC 1340 / 모바일 7630)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-27 — 통과]
   WebSearch "사모펀드 뜻" 상위 9개 도메인: ko.wikipedia.org(위키백과) /
