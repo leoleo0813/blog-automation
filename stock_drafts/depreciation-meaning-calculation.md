@@ -4,7 +4,7 @@ title: 감가상각비 뜻과 계산 방법
 slug: depreciation-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 580 (PC 150 / 모바일 430, 2026-09-27 실측)
+monthly_search_volume: 580 (PC 150 / 모바일 430)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-28 — 통과]

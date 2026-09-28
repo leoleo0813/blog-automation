@@ -1987,7 +1987,7 @@
       "type": "재무제표",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "580 (PC 150 / 모바일 430, 2026-09-27 실측)",
+      "monthly_search_volume": "580 (PC 150 / 모바일 430)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-28) - 개인/소규모 블로그(aboda.kr, velog.io, steadyman7.com 등) 진입 여지 확인, 정의 탐색형 의도, 5년치 끝까지 계산한 비교표·현금흐름표(EBITDA) 연결이라는 정보이득 미확보 확인. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "취득원가 1억원·잔존가치 1,000만원·내용연수 5년 가정으로 정액법(매년 1,800만원)·정률법(상각률 약 36.9%, 초반 3,690만원→점감) 5개년 전체 계산 비교표(5년 합계 동일 9,000만원) + 현금흐름표에서 감가상각비를 당기순이익에 다시 더하는 이유·EBITDA 연결 설명 + DART에서 실제 기업의 상각방법 확인하는 경로 안내",
