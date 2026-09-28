@@ -1936,6 +1936,26 @@
       "cannibalization_note": "stock_drafts/ 전체 grep 결과 VIX·V코스피·공포지수를 본문 주제로 전용 편에서 다룬 기존 글 없음. derivatives-capital-gains-tax-calculation.md(파생상품 세율 목록에서 '변동성지수선물' 한 줄 나열)와 dead-cat-bounce-meaning.md(2026년 8월 실제 사례의 근거 수치로 V코스피 인용)는 다른 주제의 부수적 언급이라 검색 의도가 겹치지 않는다. 본문에서 dead-cat-bounce-meaning.md로 내부 링크 연결.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-27). 게이트4는 원문 WebFetch 차단 확인 후 4곳 이상 독립 출처 교차검증으로 진행, 출처 간 수치가 갈리는 부분은 범위로만 서술."
+    },
+    {
+      "id": 93,
+      "order": 93,
+      "title": "PER 뜻과 계산 방법",
+      "slug": "per-meaning-calculation",
+      "keyword": "PER 뜻",
+      "type": "투자지표",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "2700 (PC 510 / 모바일 2190)",
+      "gate1_pass": true,
+      "serp_check": "v3 판정 통과(2026-09-28) - 개인/소규모 콘텐츠(jcinus.com·bbmt24.com) 진입 여지 확인, 개념 탐색형 의도, 트레일링/선행 PER 대비 계산·적자기업 PER 표시 방식·업종별 기준 차이라는 정보이득 미확보 확인. 상세는 초안 YAML 참조.",
+      "unique_asset_plan": "PER=주가÷EPS 계산 예시 + 트레일링 PER과 선행 PER을 같은 가상 기업으로 대비 계산(20배 vs 약14.3배) + 적자 기업의 PER 표시(적자/N/A) 함정 설명 + 성장주·가치주 업종별 적정 PER 기준 차이",
+      "primary_source": "PER=주가/EPS는 정의상 항상 성립하는 계산식이라 88편(PBR)·89편(ROE) 작성 시와 동일하게 별도 기관 확인이 불필요. 시점 의존적인 실제 지수 PER 값은 본문에 못박지 않고 한국거래소 정보데이터시스템(data.krx.co.kr)·DART(dart.fss.or.kr) 확인 경로만 안내.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/per-meaning-calculation.md",
+      "cannibalization_note": "stock_drafts/ 전체 grep 결과 PER을 본문 주제로 전용 편에서 다룬 기존 글 없음. 88편(PBR)·89편(ROE)·90편(EPS)은 관계식 설명 중 PER을 한 문장으로만 언급할 뿐 트레일링/선행 구분이나 계산 예시를 다루지 않아 검색 의도가 겹치지 않는다. 본문에서 88·89편으로 내부 링크 연결.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 전부 충족(2026-09-28). 게이트1 네이버 키워드도구 실측 2,700회로 이번 배치(8개 키워드) 중 유일한 PASS. 게이트4는 정의상 항상 성립하는 계산식이라 원문 확인이 불필요하며 시점 의존적 수치는 확인 경로만 안내."
     }
   ],
   "backlog": {
@@ -4429,6 +4449,34 @@
       {
         "keyword": "분기배당 반기배당 차이",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-27 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "PER 계산법",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-28 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "대주주 요건",
+        "monthly_search_volume": "300 (PC 100 / 모바일 200, 2026-09-28 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "신용거래 반대매매",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-28 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "공매도 대차거래",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-28 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "거래량 급증",
+        "monthly_search_volume": "30 (PC 10 / 모바일 20, 2026-09-28 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "공매도 잔고 공시",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-09-28 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "주식 회전율",
+        "monthly_search_volume": "40 (PC 20 / 모바일 20, 2026-09-28 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
