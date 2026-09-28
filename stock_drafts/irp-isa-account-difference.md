@@ -81,7 +81,10 @@ self_check: |
   슬러그 irp-isa-account-difference, 영문 소문자+하이픈 4단어.
   인트로 문단이 최상단, 목차 이전에 핵심 요약 박스 배치.
   본문 표(구조 비교표) thead/tbody 시맨틱 적용.
-  FAQ 5개(6개 고정 아님)와 JSON-LD FAQPage 1:1 일치.
+  FAQ 5개(6개 고정 아님)와 JSON-LD FAQPage 1:1 일치. [2026-09-29 수정] 최초
+  발행 시 FAQ를 `<h3>Q.</h3><p>A.</p>` 형식으로 잘못 써서 다른 편의 `<details>`
+  아코디언 UI와 달랐던 것을 발견해 표준 형식으로 정정, "헷갈리는 부분 정리"
+  H2 헤딩도 누락돼 있어 추가(RULES.md 93편 전수조사로 발견).
   @id를 https://sensitiveboss3.tistory.com/entry/irp-isa-account-difference 로
   지정. author/publisher "센시티브보스"로 고정.
   종목·상품 추천 표현, 단정적 손절매·매수 조언 없음. "권유하지 않는다"는
@@ -207,20 +210,32 @@ self_check: |
   </ul>
 </div>
 
-<h3>Q. IRP와 ISA 중 하나만 가입해도 되나요?</h3>
-<p>A. 목적이 달라 함께 쓰는 경우가 많습니다. IRP는 세액공제와 노후 자금 마련에, ISA는 비과세 혜택과 자금 유동성 확보에 각각 초점이 맞춰져 있습니다.</p>
+<h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
 
-<h3>Q. ISA 만기자금을 IRP로 꼭 옮겨야 하나요?</h3>
-<p>A. 의무는 아닙니다. 옮기지 않고 그대로 인출해도 ISA 자체의 비과세·분리과세 혜택은 이미 적용된 상태입니다. 옮기면 세액공제 한도가 늘어나는 것뿐입니다.</p>
+<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">IRP와 ISA 중 하나만 가입해도 되나요?</summary>
+  <p style="margin:10px 0 0 0;">목적이 달라 함께 쓰는 경우가 많습니다. IRP는 세액공제와 노후 자금 마련에, ISA는 비과세 혜택과 자금 유동성 확보에 각각 초점이 맞춰져 있습니다.</p>
+</details>
 
-<h3>Q. IRP에 넣은 돈을 55세 전에 뺄 수 있나요?</h3>
-<p>A. 무주택자 주택구입, 전세보증금 마련, 6개월 이상 요양 등 법정 사유에 해당할 때만 가능하며, 사유 충족 여부에 따라 세금이 달라집니다.</p>
+<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">ISA 만기자금을 IRP로 꼭 옮겨야 하나요?</summary>
+  <p style="margin:10px 0 0 0;">의무는 아닙니다. 옮기지 않고 그대로 인출해도 ISA 자체의 비과세·분리과세 혜택은 이미 적용된 상태입니다. 옮기면 세액공제 한도가 늘어나는 것뿐입니다.</p>
+</details>
 
-<h3>Q. ISA를 3년 전에 해지하면 무조건 손해인가요?</h3>
-<p>A. 납입 원금 범위 안에서 인출하는 것은 해지가 아니라 손해가 없습니다. 원금을 초과해 인출할 때만 중도해지로 보아 비과세·분리과세 혜택이 사라집니다.</p>
+<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">IRP에 넣은 돈을 55세 전에 뺄 수 있나요?</summary>
+  <p style="margin:10px 0 0 0;">무주택자 주택구입, 전세보증금 마련, 6개월 이상 요양 등 법정 사유에 해당할 때만 가능하며, 사유 충족 여부에 따라 세금이 달라집니다.</p>
+</details>
 
-<h3>Q. 세액공제는 IRP와 연금저축 중 어디에 넣어도 똑같나요?</h3>
-<p>A. 합산 한도(900만원) 안에서는 공제 금액이 같습니다. 그런데 IRP는 예금·보험 등 안전자산 비중 규제가 있어 상품 구성 방식이 연금저축과 다릅니다.</p>
+<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">ISA를 3년 전에 해지하면 무조건 손해인가요?</summary>
+  <p style="margin:10px 0 0 0;">납입 원금 범위 안에서 인출하는 것은 해지가 아니라 손해가 없습니다. 원금을 초과해 인출할 때만 중도해지로 보아 비과세·분리과세 혜택이 사라집니다.</p>
+</details>
+
+<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">세액공제는 IRP와 연금저축 중 어디에 넣어도 똑같나요?</summary>
+  <p style="margin:10px 0 0 0;">합산 한도(900만원) 안에서는 공제 금액이 같습니다. 그런데 IRP는 예금·보험 등 안전자산 비중 규제가 있어 상품 구성 방식이 연금저축과 다릅니다.</p>
+</details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처 (2026년 9월 기준):
@@ -244,7 +259,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-09-23",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://sensitiveboss3.tistory.com/entry/irp-isa-account-difference" }
 }
 </script>
