@@ -4,8 +4,8 @@ title: 인적분할 뜻 신주배정 취득가액 계산법
 slug: spinoff-share-allocation-guide
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 840 (PC 180 / 모바일 660, 2026-09-27 실측, backlog.verified 재사용)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 840회로 통과)
+monthly_search_volume: 780 (PC 160 / 모바일 620)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-28 — 통과]
   WebSearch "인적분할 뜻 물적분할 차이 신주배정 비율" 상위 도메인:
