@@ -168,6 +168,15 @@ def main():
 
     from blog_automation.kakao_notify import send_kakao_feed_message, send_kakao_message
 
+    # 카카오 전송 실패는 여기서 삼키지 않는다. 예전에는 print만 하고 넘어가서
+    # 워크플로가 매번 초록불로 끝났고, 그 결과 KAKAO_REFRESH_TOKEN이 만료된
+    # 뒤로 88편부터 여러 편이 실제로는 전송되지 않았는데도 아무도(자동화 세션도
+    # 사람도) 눈치채지 못했다(2026-09-29 사용자 리포트로 발견). 실패하면 exit
+    # code를 non-zero로 남겨 GitHub Actions에 빨간 X가 뜨게 한다 — 이 시점에는
+    # 검색량·썸네일 커밋 등 앞선 단계가 이미 끝나 있으므로 뒤늦게 실패해도
+    # 그 작업들은 안전하다.
+    had_failure = False
+
     # 썸네일 카드(feed)는 주식 초안(.md)에만 붙인다 - 일반 트렌드 모드(json)는 대상 아님.
     if is_stock_draft:
         thumb_url = _thumbnail_url(fields)
@@ -188,11 +197,16 @@ def main():
                 )
             except Exception as e:
                 print(f"카카오톡 썸네일 카드 전송 실패: {e}")
+                had_failure = True
 
     try:
         send_kakao_message(message, link_url=file_url)
     except Exception as e:
         print(f"카카오톡 알림 전송 실패: {e}")
+        had_failure = True
+
+    if had_failure:
+        sys.exit(1)
 
 
 if __name__ == '__main__':
