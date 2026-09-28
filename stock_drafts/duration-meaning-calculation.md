@@ -4,8 +4,8 @@ title: 듀레이션 뜻과 계산 방법
 slug: duration-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1170 (PC 200 / 모바일 970, 2026-09-27 실측, backlog.verified 재확인)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 1,170회로 충족)
+monthly_search_volume: 1170 (PC 190 / 모바일 980)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-28 — 통과]
   WebSearch "듀레이션 뜻 채권 계산"·"워런트 신주인수권부사채 뜻 개념 정리"(비교
