@@ -79,7 +79,10 @@ jobs:
           done
           exit 1
 
+      # 2026-09-29 사용자 요청으로 카카오 알림을 끔 — 사용자가 저장소를 직접
+      # 확인하는 방식으로 전환. 다시 켜려면 아래 if: false 줄만 지우면 된다.
       - name: Send Kakao notification
+        if: false
         run: python -m blog_automation.notify_repo_only "${{ inputs.post_file }}"
         env:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
