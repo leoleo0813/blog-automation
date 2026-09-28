@@ -4,7 +4,7 @@ title: PER 뜻과 계산 방법
 slug: per-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 2700 (PC 510 / 모바일 2190, 2026-09-28 실측, 네이버 키워드도구)
+monthly_search_volume: 2700 (PC 510 / 모바일 2190)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-28 — 통과]
