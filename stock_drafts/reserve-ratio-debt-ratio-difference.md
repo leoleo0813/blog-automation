@@ -4,8 +4,8 @@ title: 유보율 뜻 계산법과 부채비율 차이
 slug: reserve-ratio-debt-ratio-difference
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 530 (PC 110 / 모바일 420, 2026-09-27 backlog 등록분)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 540 (PC 110 / 모바일 430)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-28 - 통과]
   WebSearch "유보율 뜻 계산 방법 자본잉여금 이익잉여금 납입자본금"·"유보율 부채비율 차이
