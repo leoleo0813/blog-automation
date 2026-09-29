@@ -4,7 +4,7 @@ title: PEG 뜻 계산 방법과 해석 기준
 slug: peg-ratio-meaning-calculation
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 2070 (PC 320 / 모바일 1750, 2026-09-29 실측)
+monthly_search_volume: 2070 (PC 320 / 모바일 1750)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-29 - 통과]
