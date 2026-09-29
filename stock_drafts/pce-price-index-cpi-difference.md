@@ -4,8 +4,8 @@ title: PCE 물가지수 CPI 차이와 연준 목표
 slug: pce-price-index-cpi-difference
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 630 (PC 190 / 모바일 440, 2026-09-29 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 630 (PC 190 / 모바일 440)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-29 - 통과]
   WebSearch "PCE 물가지수 CPI 차이 연준 2% 목표" 상위 8개: economy21.co.kr(언론), brunch.co.kr(개인), bok.or.kr(공식),
