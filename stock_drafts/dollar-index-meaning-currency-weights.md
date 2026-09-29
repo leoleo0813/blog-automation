@@ -4,8 +4,8 @@ title: 달러인덱스 뜻 구성 통화 비중과 계산식
 slug: dollar-index-meaning-currency-weights
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1750 (PC 380 / 모바일 1370, 2026-09-29 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 1750 (PC 380 / 모바일 1370)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-29 - 통과]
   WebSearch "달러인덱스 뜻 구성 통화 비중" 상위 결과: tossbank.com(핀테크 콘텐츠), kbthink.com(KB 용어사전),

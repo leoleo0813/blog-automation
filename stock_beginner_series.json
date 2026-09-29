@@ -2047,7 +2047,7 @@
       "type": "개념",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1750 (PC 380 / 모바일 1370, 2026-09-29 실측)",
+      "monthly_search_volume": "1750 (PC 380 / 모바일 1370)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-29) - yellow.kr·fcbfi.org 등 소규모 콘텐츠 진입 여지, 정의 탐색형 의도, 산식 대입 계산·통화별 민감도 표·원/달러 환율 비교표라는 정보이득 확인.",
       "unique_asset_plan": "가상 환율 6개 산식 대입 계산(102.77→103.37) + 통화별 1% 강세 민감도 표 + 달러인덱스 vs 원/달러 비교표",
