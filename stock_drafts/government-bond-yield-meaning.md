@@ -4,7 +4,7 @@ title: 국채금리 뜻과 채권가격 반비례 계산
 slug: government-bond-yield-meaning
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1,970 (PC 400 / 모바일 1,570, 2026-09-30 실측)
+monthly_search_volume: 1970 (PC 400 / 모바일 1570)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-30 - 통과]
