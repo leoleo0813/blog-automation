@@ -2197,6 +2197,26 @@
       "cannibalization_note": "국채금리 본문 주제 글 없음. 94편 듀레이션·37편 채권 세금과 내부 링크 연결.",
       "gate_pass": true,
       "gate_pass_note": "게이트1~4 충족(게이트4는 교차검증). 사람은 KDI 원문에서 수익률-가격 역관계 문구만 대조."
+    },
+    {
+      "id": 106,
+      "order": 106,
+      "title": "테이퍼링 뜻과 양적완화 축소 일정 계산",
+      "slug": "tapering-meaning-qe-schedule",
+      "keyword": "테이퍼링 뜻",
+      "type": "시장 개념",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "3570 (PC 330 / 모바일 3240)",
+      "gate1_pass": true,
+      "serp_check": "2026-09-30 게이트2 v3 통과: 상위에 소규모 콘텐츠(finlizehub)·a-ha 커뮤니티 혼재, 탐색형 의도, 월별 매입액 계산표·2013/2021 사례 대조표는 미확인.",
+      "unique_asset_plan": "2021년 월 1200억 달러 매입 원안(월 150억 축소) vs 가속안(2022.1부터 월 300억) 월별 매입액 표 + 2013·2021 사례 대조표 + QE/테이퍼링/QT 구분표",
+      "primary_source": "금융투자협회 연구자료 EGRESS_BLOCKED, 독립 출처 4곳 이상 교차검증(CNBC·Brookings·미 의회조사국·이투데이 등)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/tapering-meaning-qe-schedule.md",
+      "cannibalization_note": "테이퍼링 본문 주제 글 없음. 98편 달러인덱스·105편 국채금리 뜻과 내부 링크 연결.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1~4 충족(게이트4는 교차검증). 사람은 연준 FOMC 성명서 또는 금투협 자료에서 2013.12 월 850억→750억, 2021.11 월 150억 축소 수치만 대조."
     }
   ],
   "backlog": {
@@ -2764,6 +2784,24 @@
         "keyword": "상한가 뜻",
         "monthly_search_volume": "970",
         "hold_reason": "[2026-09-30 재검토] 상위가 KRX 규정·기획재정부 사전·나무위키·아하 등 사전형 SERP. 가격제한폭 계산은 공식 규정으로 충분히 답이 완결돼 정보이득 각도 부족, 보류."
+      },
+      {
+        "title": "생산자물가지수",
+        "keyword": "생산자물가지수",
+        "monthly_search_volume": "2730 (PC 1570 / 모바일 1160, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(2,730회). 게이트2 미판정. 100편(소비자물가지수)·101편(PCE 물가지수)과 각도 겹침 여부(카니벌라이제이션) 점검 선행 필요. 단순 순서 대기 성격의 유력 차기 후보."
+      },
+      {
+        "title": "환율 뜻",
+        "keyword": "환율 뜻",
+        "monthly_search_volume": "1800 (PC 200 / 모바일 1600, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(1,800회). 게이트2 미판정. 98편(달러인덱스)·103편(환헤지)과 겹침 점검 선행 필요. 차기 후보."
+      },
+      {
+        "title": "디플레이션 뜻",
+        "keyword": "디플레이션 뜻",
+        "monthly_search_volume": "900 (PC 140 / 모바일 760, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(900회). 게이트2 미판정. 100편(소비자물가지수)과 겹침 점검 선행 필요. 차기 후보."
       }
     ],
     "failed_gate1": [
@@ -4937,6 +4975,26 @@
       {
         "keyword": "DART 사용법",
         "monthly_search_volume": "20 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "경기침체 뜻",
+        "keyword": "경기침체 뜻",
+        "monthly_search_volume": "240 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "비농업고용지수",
+        "keyword": "비농업고용지수",
+        "monthly_search_volume": "330 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "코픽스 뜻",
+        "keyword": "코픽스 뜻",
+        "monthly_search_volume": "150 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "CD금리 뜻",
+        "keyword": "CD금리 뜻",
+        "monthly_search_volume": "380 (2026-09-30 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
