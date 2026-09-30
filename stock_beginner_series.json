@@ -2227,7 +2227,7 @@
       "type": "시장 개념",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "2730 (PC 1570 / 모바일 1160, 2026-09-30 실측)",
+      "monthly_search_volume": "2700 (PC 1540 / 모바일 1160)",
       "gate1_pass": true,
       "serp_check": "2026-09-30 게이트2 v3 통과: 상위에 소규모 콘텐츠(gklibrarykor·hyperrich)·a-ha 혼재, 탐색형 의도, 가중평균 계산·원가 전가 계산·단계별 구분표는 미확인.",
       "unique_asset_plan": "가중 평균 계산표(114.2) + 전년동월비/전월비 계산 + 원재료 비중 원가 전가 계산 + PPI/CPI 범위 비교표 + 원재료·중간재·최종재 구분표",

@@ -4,7 +4,7 @@ title: 생산자물가지수 뜻과 소비자물가 차이
 slug: producer-price-index-cpi-difference
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 2730 (PC 1570 / 모바일 1160, 2026-09-30 실측)
+monthly_search_volume: 2700 (PC 1540 / 모바일 1160)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-30 - 통과]
