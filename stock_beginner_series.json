@@ -2157,6 +2157,26 @@
       "cannibalization_note": "TIGER 미국S&P500(H)/(UH) 편은 특정 상품 비교, 본 편은 환헤지 원리·비용 계산. 내부 링크로 연결.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 충족(2026-09-30). 게이트4는 원문 접속 실패 후 다수 출처 교차검증. 발행 전 운용사 상품설명서의 헤지비용 반영 문구 대조 권장."
+    },
+    {
+      "id": 104,
+      "order": 104,
+      "title": "EBITDA 뜻과 영업이익 차이 계산법",
+      "slug": "ebitda-meaning-operating-profit-difference",
+      "keyword": "EBITDA 뜻",
+      "type": "시장 개념",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "880 (PC 370 / 모바일 510, 2026-09-30 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-09-30 게이트2 v3 통과: 상위에 개인 블로그(differian 티스토리 등)·소규모 콘텐츠 혼재, 정의 탐색형 의도, 영업이익 동일 가상 두 회사 비교 계산은 미확인.",
+      "unique_asset_plan": "영업이익 같은 가상 회사 X·Y의 EBITDA·마진·EV/EBITDA·EBITDA-CAPEX 비교표 + DART 계산 5단계",
+      "primary_source": "기획재정부 원문 EGRESS_BLOCKED, 독립 출처 5곳 이상 교차검증(벤처스퀘어·크레디뷰·증권플러스·TIKR 등)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/ebitda-meaning-operating-profit-difference.md",
+      "cannibalization_note": "stock_drafts grep: EBITDA 본문 주제 글 없음. 95편 감가상각비·102편 CAPEX와 내부 링크 연결.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족(2026-09-30). 사람은 발행 전 기획재정부 시사경제용어사전 EBITDA 정의 문구만 대조."
     }
   ],
   "backlog": {
@@ -2712,12 +2732,6 @@
         "keyword": "상한가 뜻",
         "monthly_search_volume": "970 (PC 120 / 모바일 850, 2026-09-30 실측)",
         "hold_reason": "게이트1 통과. 게이트2 미판정, 사전형 개념이라 가격제한폭 계산표 각도 필요."
-      },
-      {
-        "title": "EBITDA 뜻",
-        "keyword": "EBITDA 뜻",
-        "monthly_search_volume": "880 (PC 370 / 모바일 510, 2026-09-30 실측)",
-        "hold_reason": "게이트1 통과. 102편 CAPEX와 재무지표 계열, 계산 예시 각도 가능. 게이트2 미판정."
       },
       {
         "title": "선물 뜻",
