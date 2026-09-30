@@ -4,7 +4,7 @@ title: EBITDA 뜻과 영업이익 차이 계산법
 slug: ebitda-meaning-operating-profit-difference
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 880 (PC 370 / 모바일 510, 2026-09-30 실측)
+monthly_search_volume: 880 (PC 370 / 모바일 510)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-30 - 통과]
