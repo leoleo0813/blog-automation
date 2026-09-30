@@ -2177,6 +2177,26 @@
       "cannibalization_note": "stock_drafts grep: EBITDA 본문 주제 글 없음. 95편 감가상각비·102편 CAPEX와 내부 링크 연결.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 충족(2026-09-30). 사람은 발행 전 기획재정부 시사경제용어사전 EBITDA 정의 문구만 대조."
+    },
+    {
+      "id": 105,
+      "order": 105,
+      "title": "국채금리 뜻과 채권가격 반비례 계산",
+      "slug": "government-bond-yield-meaning",
+      "keyword": "국채금리 뜻",
+      "type": "시장 개념",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1,970 (PC 400 / 모바일 1,570)",
+      "gate1_pass": true,
+      "serp_check": "2026-09-30 게이트2 v3 통과: 상위에 개인 블로그(brunch·appastudy·ecodemy) 3개 이상 혼재, 탐색형 의도, 가상 채권 2년물·10년물 가격 계산표는 미확인.",
+      "unique_asset_plan": "가상 채권(액면 1만원·표면 3%) 2년물·10년물 금리별 가격 계산표 + 기준금리 비교표 + bp 환산표",
+      "primary_source": "KDI 경제교육 원문 EGRESS_BLOCKED, 독립 출처 5곳 이상 교차검증(토스뱅크·KB·사이다경제·브런치 등)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/government-bond-yield-meaning.md",
+      "cannibalization_note": "국채금리 본문 주제 글 없음. 94편 듀레이션·37편 채권 세금과 내부 링크 연결.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1~4 충족(게이트4는 교차검증). 사람은 KDI 원문에서 수익률-가격 역관계 문구만 대조."
     }
   ],
   "backlog": {
@@ -2704,12 +2724,6 @@
         "hold_reason": "게이트1 통과(6,280회)했으나 100편(소비자물가지수)·101편(PCE)과 검색 의도가 겹치고 순수 사전형 개념에 가깝다. 스태그플레이션·실질금리 등 다음 단계 각도가 있을 때 재검토."
       },
       {
-        "title": "국채금리 뜻",
-        "keyword": "국채금리 뜻",
-        "monthly_search_volume": "1,970 (PC 400 / 모바일 1,570, 2026-09-30 실측)",
-        "hold_reason": "게이트1 통과(1,970회). 게이트2·4 미판정. 채권금리와 주가 관계, 장단기 금리차 등 각도 검토 필요. 사전형 위험."
-      },
-      {
         "title": "인버스 ETF",
         "keyword": "인버스 ETF",
         "monthly_search_volume": "580 (PC 150 / 모바일 430, 2026-09-30 실측)",
@@ -2738,6 +2752,18 @@
         "keyword": "선물 뜻",
         "monthly_search_volume": "850 (PC 150 / 모바일 700, 2026-09-30 실측)",
         "hold_reason": "게이트1 통과. 게이트2 미판정, 옵션 뜻과 카니벌라이제이션 점검 필요."
+      },
+      {
+        "title": "콜옵션 뜻",
+        "keyword": "콜옵션 뜻",
+        "monthly_search_volume": "1590",
+        "hold_reason": "[2026-09-30 게이트2 탈락] WebSearch 상위 9개가 KB·토스뱅크·대신증권×2·CME·유진선물·나무위키로 개인 블로그 0개(탈락조건1). 풋옵션 뜻(1550)도 동일 SERP로 보고 함께 보류."
+      },
+      {
+        "title": "상한가 뜻",
+        "keyword": "상한가 뜻",
+        "monthly_search_volume": "970",
+        "hold_reason": "[2026-09-30 재검토] 상위가 KRX 규정·기획재정부 사전·나무위키·아하 등 사전형 SERP. 가격제한폭 계산은 공식 규정으로 충분히 답이 완결돼 정보이득 각도 부족, 보류."
       }
     ],
     "failed_gate1": [
