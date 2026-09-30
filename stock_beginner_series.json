@@ -2127,7 +2127,7 @@
       "type": "재무제표",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "3010 (PC 960 / 모바일 2050, 2026-09-30 실측)",
+      "monthly_search_volume": "3010 (PC 960 / 모바일 2050)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-30) - clobe·mstacc·ktword 등 소규모 콘텐츠 진입 여지, 정의 탐색형 의도, 유형/무형 CAPEX 기준별 FCF 차이와 3년 추이 계산표 정보이득 확인. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "A기업 한 해 FCF 계산(유형만 300억 vs 유형+무형 250억) + B기업 3년 FCF 추이(-100→200→500억) + 자본적/수익적지출 비교표 + CAPEX vs 감가상각비 표 + DART 확인 5단계",

@@ -4,7 +4,7 @@ title: CAPEX 뜻과 잉여현금흐름 계산 방법
 slug: capex-meaning-free-cash-flow
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 3010 (PC 960 / 모바일 2050, 2026-09-30 실측)
+monthly_search_volume: 3010 (PC 960 / 모바일 2050)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-30 - 통과]
