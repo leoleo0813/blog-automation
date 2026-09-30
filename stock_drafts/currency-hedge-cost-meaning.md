@@ -4,7 +4,7 @@ title: 환헤지 뜻과 헤지 비용 계산 방법
 slug: currency-hedge-cost-meaning
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 2310 (PC 470 / 모바일 1840, 2026-09-30 실측)
+monthly_search_volume: 2310 (PC 470 / 모바일 1840)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-30 - 통과]

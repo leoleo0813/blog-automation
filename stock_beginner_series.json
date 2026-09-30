@@ -2147,7 +2147,7 @@
       "type": "시장 개념",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "2310 (PC 470 / 모바일 1840, 2026-09-30 실측)",
+      "monthly_search_volume": "2310 (PC 470 / 모바일 1840)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-30) - simpleinvest·thelegacynote 등 소규모 콘텐츠 진입 여지, 정의·원리 탐색형, 환율 시나리오 표와 금리차 기반 비용 계산 정보이득. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "지수 ±10% x 환율 -10/0/+10% 시나리오 표 + 금리차 1.0%p 가정 1,000만원 헤지비용 10만원 계산 + (H)/(UH) 표기표",
