@@ -2117,6 +2117,26 @@
       "cannibalization_note": "100편은 한국 CPI 계산 편, PCE·미국 CPI 비교 없음(grep PCE 0건).",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 충족(2026-09-29). 발행 전 주거비 비중 약 33%/15%만 클리블랜드 연은 링크로 대조 권장."
+    },
+    {
+      "id": 102,
+      "order": 102,
+      "title": "CAPEX 뜻과 잉여현금흐름 계산 방법",
+      "slug": "capex-meaning-free-cash-flow",
+      "keyword": "CAPEX 뜻",
+      "type": "재무제표",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "3010 (PC 960 / 모바일 2050, 2026-09-30 실측)",
+      "gate1_pass": true,
+      "serp_check": "v3 판정 통과(2026-09-30) - clobe·mstacc·ktword 등 소규모 콘텐츠 진입 여지, 정의 탐색형 의도, 유형/무형 CAPEX 기준별 FCF 차이와 3년 추이 계산표 정보이득 확인. 상세는 초안 YAML 참조.",
+      "unique_asset_plan": "A기업 한 해 FCF 계산(유형만 300억 vs 유형+무형 250억) + B기업 3년 FCF 추이(-100→200→500억) + 자본적/수익적지출 비교표 + CAPEX vs 감가상각비 표 + DART 확인 5단계",
+      "primary_source": "기획재정부 시사경제용어사전 WebFetch 1회 EGRESS_BLOCKED. 위키백과·트레이딩뷰·한국경제·KIFRS.com·삼일 K-IFRS 1016호 등 독립 출처 교차검증, 정의·산식·현금흐름표 위치 충돌 없음.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/capex-meaning-free-cash-flow.md",
+      "cannibalization_note": "stock_drafts grep 결과 CAPEX·설비투자 본문 주제 글 없음. 95편 감가상각비는 계산법 편으로 내부 링크 연결.",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족(2026-09-30). 게이트4는 원문 접속 실패 후 다수 출처 교차검증. 발행 전 기획재정부 사전 CAPEX 정의 문구만 대조 권장."
     }
   ],
   "backlog": {
@@ -2630,6 +2650,30 @@
         "keyword": "OBV 지표",
         "monthly_search_volume": "540 (PC 140 / 모바일 400, 2026-09-29 실측)",
         "hold_reason": "게이트1 통과. 기술적 지표라 1차 출처 부재, 게이트2 미판정. 계산 예시(가상 5일 거래량 누적)로 진행 가능."
+      },
+      {
+        "title": "레버리지 ETF",
+        "keyword": "레버리지 ETF",
+        "monthly_search_volume": "16,850 (PC 2,950 / 모바일 13,900, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(16,850회, 이번 배치 최고 검색량)했으나 40편(곱버스 뜻과 레버리지 예탁금 기준 2026)이 레버리지·인버스 ETF 구조와 변동성 손실 계산을 이미 다뤄 카니벌라이제이션. 새 각도(예: 일일 복리 장기 보유 시뮬레이션, 롤·비용 구조)를 확보하기 전까지 보류."
+      },
+      {
+        "title": "인플레이션 뜻",
+        "keyword": "인플레이션 뜻",
+        "monthly_search_volume": "6,280 (PC 840 / 모바일 5,440, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(6,280회)했으나 100편(소비자물가지수)·101편(PCE)과 검색 의도가 겹치고 순수 사전형 개념에 가깝다. 스태그플레이션·실질금리 등 다음 단계 각도가 있을 때 재검토."
+      },
+      {
+        "title": "국채금리 뜻",
+        "keyword": "국채금리 뜻",
+        "monthly_search_volume": "1,970 (PC 400 / 모바일 1,570, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(1,970회). 게이트2·4 미판정. 채권금리와 주가 관계, 장단기 금리차 등 각도 검토 필요. 사전형 위험."
+      },
+      {
+        "title": "인버스 ETF",
+        "keyword": "인버스 ETF",
+        "monthly_search_volume": "580 (PC 150 / 모바일 430, 2026-09-30 실측)",
+        "hold_reason": "게이트1 통과(580회)했으나 40편 곱버스 뜻 편과 카니벌라이제이션 위험. 보류."
       }
     ],
     "failed_gate1": [
@@ -4743,7 +4787,27 @@
       "풋콜비율 20 (PC 10 / 모바일 10, 2026-09-29 실측)",
       "샤프지수 280 (PC 130 / 모바일 150, 2026-09-29 실측)",
       "최대낙폭 20 (PC 10 / 모바일 10, 2026-09-29 실측)",
-      "투자심리도 20 (PC 10 / 모바일 10, 2026-09-29 실측)"
+      "투자심리도 20 (PC 10 / 모바일 10, 2026-09-29 실측)",
+      {
+        "keyword": "순이익 뜻",
+        "monthly_search_volume": "60 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "매출총이익 뜻",
+        "monthly_search_volume": "20 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "양적완화 뜻",
+        "monthly_search_volume": "250 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "ROIC 뜻",
+        "monthly_search_volume": "220 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "외국인 순매수",
+        "monthly_search_volume": "400 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      }
     ]
   },
   "deferred_concept_topics": "개념 설명형(PER·PBR 뜻, 호가창, 캔들차트, 이동평균선, ETF란, 시가총액 등 21편)은 폐기가 아니라 보류입니다. 제도형 5편이 4주 검증을 통과해 사이트에 신뢰가 쌓이면 출발선이 달라집니다.",
