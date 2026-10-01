@@ -4,7 +4,7 @@ title: 스태그플레이션 판별 3지표와 1970년대 사례
 slug: stagflation-three-indicators-1970s
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 5590 (PC 1210 / 모바일 4380, 2026-10-01 실측)
+monthly_search_volume: 5590 (PC 1210 / 모바일 4380)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-01 - 통과]
