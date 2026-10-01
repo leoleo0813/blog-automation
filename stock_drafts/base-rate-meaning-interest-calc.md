@@ -4,7 +4,7 @@ title: 기준금리 뜻과 이자 변화 계산법
 slug: base-rate-meaning-interest-calc
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1330 (PC 270 / 모바일 1060, 2026-09-29 실측)
+monthly_search_volume: 1240 (PC 260 / 모바일 980)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-01 - 통과]
