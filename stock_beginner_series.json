@@ -2237,6 +2237,26 @@
       "cannibalization_note": "생산자물가 grep 0건. 100편(소비자물가지수)·101편(PCE)과 범위 비교로 차별화.",
       "gate_pass": true,
       "gate_pass_note": "게이트1~4 충족(게이트4는 교차검증). 사람은 한국은행 페이지에서 기준연도 2020년·품목 886개·단계 구분만 대조."
+    },
+    {
+      "id": 108,
+      "order": 108,
+      "title": "GDP 뜻과 명목 실질 차이 계산",
+      "slug": "gdp-meaning-nominal-real-calculation",
+      "keyword": "GDP 뜻",
+      "type": "시장 개념",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "8160 (PC 1040 / 모바일 7120, 2026-10-01 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-01 게이트2 v3 통과: 상위가 KDI 교육자료·토스뱅크·나무위키 위주이나 개인블로그(phil-log)·a-ha 커뮤니티 진입 여지 있음, 탐색형 의도, 가상 2재화 계산·성장률 계산·기준년 개편 비교를 한 글에서 보여 주는 콘텐츠 미확인.",
+      "unique_asset_plan": "쌀·빵 가상 경제 명목/실질/디플레이터 계산표, 지출 접근 합계, 성장률 계산, 2020년 기준년 개편 전후 비교표",
+      "primary_source": "한국은행·KDI WebFetch 1회 EGRESS_BLOCKED, WebSearch 교차검증(언론·공공 교육기관 4곳 이상 일치)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/gdp-meaning-nominal-real-calculation.md",
+      "cannibalization_note": "stock_drafts grep GDP 0건. 100편(소비자물가지수)·107편(생산자물가지수)과는 범위 비교표와 내부 링크로 차별화.",
+      "gate_pass": true,
+      "gate_pass_note": "사람은 한국은행 2020년 기준년 개편 보도자료에서 2,058조/1,941조 원, 3.6%/3.5%, 33,929/32,004달러만 대조."
     }
   ],
   "backlog": {
@@ -2816,6 +2836,12 @@
         "keyword": "디플레이션 뜻",
         "monthly_search_volume": "900 (PC 140 / 모바일 760, 2026-09-30 실측)",
         "hold_reason": "게이트1 통과(900회). 게이트2 미판정. 100편(소비자물가지수)과 겹침 점검 선행 필요. 차기 후보."
+      },
+      {
+        "title": "통화량 뜻",
+        "keyword": "통화량 뜻",
+        "monthly_search_volume": "830 (PC 80 / 모바일 750, 2026-10-01 실측)",
+        "hold_reason": "게이트1 통과(830회). 게이트2 미판정, 사전형 개념에 가까워 M2 등 지표 계산 각도 필요. 108편(GDP)·100편 등과 겹침 점검 후 차기 후보. 단순 순서 대기."
       }
     ],
     "failed_gate1": [
@@ -5009,6 +5035,36 @@
         "title": "CD금리 뜻",
         "keyword": "CD금리 뜻",
         "monthly_search_volume": "380 (2026-09-30 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "외환보유액 뜻",
+        "keyword": "외환보유액 뜻",
+        "monthly_search_volume": "110 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "실업률 뜻",
+        "keyword": "실업률 뜻",
+        "monthly_search_volume": "180 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "무역수지 뜻",
+        "keyword": "무역수지 뜻",
+        "monthly_search_volume": "310 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "금리 역전 뜻",
+        "keyword": "금리 역전 뜻",
+        "monthly_search_volume": "20 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "실질금리 뜻",
+        "keyword": "실질금리 뜻",
+        "monthly_search_volume": "40 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "달러 강세 뜻",
+        "keyword": "달러 강세 뜻",
+        "monthly_search_volume": "150 (2026-10-01 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
