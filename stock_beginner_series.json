@@ -2297,6 +2297,26 @@
       "cannibalization_note": "105편(국채금리)이 기준금리 비교표만 다루고 정의·결정구조·2026 경과·이자 계산은 없음. 105·100·4편 내부 링크.",
       "gate_pass": true,
       "gate_pass_note": "사람은 한국은행 변동 이력에서 2024-11 3.00%, 2025-02 2.75%, 2026-07-16 2.75%, 2026-08-27 3.00% 및 11월 26일 결정일만 대조. 이자 계산은 가상."
+    },
+    {
+      "id": 111,
+      "order": 111,
+      "title": "CAGR 뜻 연평균 수익률 구하는 순서",
+      "slug": "cagr-annual-return-calculation",
+      "keyword": "CAGR 뜻",
+      "type": "시장 개념",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1230 (PC 520 / 모바일 710, 2026-10-01 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-01 게이트2 v3 통과: 상위가 TIKR·위키·개인 블로그·계산기 사이트 위주로 진입 여지 있음, 탐색형 의도(계산기 의도 일부 혼재), 5년 가상 사례 산술평균 vs CAGR 비교표·기간별 CAGR 표·미래 금액 역산표를 한 글에서 보여 주는 콘텐츠 미확인.",
+      "unique_asset_plan": "가상 인물 A씨 5년 연도별 수익률 산술평균 11.00% vs CAGR 8.55% 표, 총수익 +50%의 기간별 CAGR 표, CAGR별 10년 후 금액 표(전부 가상 계산)",
+      "primary_source": "한국은행 용어집 WebFetch 1회 EGRESS_BLOCKED. 공식은 위키백과·ktword·12manage·TIKR 등 독립 5곳 일치하나 언론·기관급 출처 미확인이라 게이트4 미충족",
+      "status": "drafted",
+      "draft_path": "stock_drafts/cagr-annual-return-calculation.md",
+      "cannibalization_note": "99편(PEG)이 성장률을 언급하나 CAGR 공식·계산은 없음. 47편(배당수익률)·81편(리밸런싱)과 내부 링크로 연결. 복리 계산(860회)은 의도가 겹쳐 보류.",
+      "gate_pass": false,
+      "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 사람이 한국은행 경제금융용어 등에서 CAGR 정의 한 곳 확인 후 출처 목록에 추가하면 true로 변경 가능. 숫자는 전부 가상 계산."
     }
   ],
   "backlog": {
@@ -2870,6 +2890,24 @@
         "keyword": "통화량 뜻",
         "monthly_search_volume": "830 (PC 80 / 모바일 750, 2026-10-01 실측)",
         "hold_reason": "게이트1 통과(830회). 게이트2 미판정, 사전형 개념에 가까워 M2 등 지표 계산 각도 필요. 108편(GDP)·100편 등과 겹침 점검 후 차기 후보. 단순 순서 대기."
+      },
+      {
+        "title": "연금소득세",
+        "keyword": "연금소득세",
+        "monthly_search_volume": "1290 (PC 360 / 모바일 930, 2026-10-01 실측)",
+        "hold_reason": "게이트1 통과. 연금 수령 연령별 세율(5.5/4.4/3.3%)과 1,500만 원 분리과세 기준은 오류 이력이 있는 세율 유형이라 교차검증 대신 국세청·법령 원문 확인(capture)이 필요. WebSearch 상위는 은행·보험사·계산기·소규모 사이트로 진입 여지는 있음. 8편(연금저축 세액공제)·연금저축 해지 세금 편과 카니벌라이제이션 점검 필요."
+      },
+      {
+        "title": "복리 계산",
+        "keyword": "복리 계산",
+        "monthly_search_volume": "860 (PC 270 / 모바일 590, 2026-10-01 실측)",
+        "hold_reason": "게이트1 통과(860회)했으나 111편(CAGR)과 복리 개념이 겹쳐 보류. CAGR 편이 다루지 않는 각도(복리 vs 단리 비교표, 월복리·연복리 차이 등) 확보 시 재검토."
+      },
+      {
+        "title": "연금저축 수령 한도",
+        "keyword": "연금저축 수령 한도",
+        "monthly_search_volume": "110 (PC 40 / 모바일 70, 2026-10-01 실측)",
+        "hold_reason": "제도 기준(100) 통과. 연금수령한도 계산식은 세법 수치라 원문 확인(capture) 필요, 연금소득세와 함께 묶어 검토."
       }
     ],
     "failed_gate1": [
@@ -5093,6 +5131,26 @@
         "title": "달러 강세 뜻",
         "keyword": "달러 강세 뜻",
         "monthly_search_volume": "150 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "연금 수령 세금",
+        "keyword": "연금 수령 세금",
+        "monthly_search_volume": "50 (2026-10-01 실측, 기준 미달)"
+      },
+      {
+        "title": "72의 법칙",
+        "keyword": "72의 법칙",
+        "monthly_search_volume": "360 (2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "title": "감사보고서 뜻",
+        "keyword": "감사보고서 뜻",
+        "monthly_search_volume": "20 (2026-10-01 실측, 기준 미달)"
+      },
+      {
+        "title": "투자설명서 뜻",
+        "keyword": "투자설명서 뜻",
+        "monthly_search_volume": "20 (2026-10-01 실측, 기준 미달)"
       }
     ]
   },
