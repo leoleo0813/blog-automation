@@ -2327,7 +2327,7 @@
       "type": "기술적 지표",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1420 (PC 300 / 모바일 1120, 2026-10-01 실측)",
+      "monthly_search_volume": "1420 (PC 300 / 모바일 1120)",
       "gate1_pass": true,
       "serp_check": "2026-10-01 게이트2 v3 통과(검색 요약 기준): 상위가 브런치 개인 글·소규모 사이트·FX 브로커 콘텐츠·경제용어 사이트로 진입 여지 있음, 탐색형 의도, 15일 일별 변동표로 와일더 평활과 단순평균 값을 비교한 콘텐츠는 요약 단계에서 미확인(본문 전체는 열지 못함).",
       "unique_asset_plan": "가상 종가 15일 변동표, 14일 RSI 67.86 단계 계산, 15일차 와일더 60.84 vs 단순평균 58.62 비교표(전부 가상 계산)",
