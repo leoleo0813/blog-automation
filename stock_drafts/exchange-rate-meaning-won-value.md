@@ -4,7 +4,7 @@ title: 환율 뜻과 원화 가치 계산법
 slug: exchange-rate-meaning-won-value
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1800 (PC 200 / 모바일 1600, 2026-09-30 실측)
+monthly_search_volume: 1810 (PC 200 / 모바일 1610)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-01 - 통과]

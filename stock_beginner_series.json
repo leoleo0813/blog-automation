@@ -2267,7 +2267,7 @@
       "type": "시장 개념",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1800 (PC 200 / 모바일 1600)",
+      "monthly_search_volume": "1810 (PC 200 / 모바일 1610)",
       "gate1_pass": true,
       "serp_check": "2026-10-01 게이트2 v3 통과: 상위가 KB·토스뱅크·KDI·나무위키 위주이나 개인블로그(wikidocs·tenwonder)·소규모 콘텐츠(cidermics) 진입 여지 있음, 탐색형 의도, 환율 역수 비대칭 표와 스프레드·우대율 왕복 환전 비용을 한 글에서 끝까지 계산한 콘텐츠 미확인.",
       "unique_asset_plan": "환율 변동률 대비 원화 가치 변동률 역수 표, 현찰 스프레드 ±1.7%·우대 80% 가정 1,000달러 왕복 손실 계산(44,200원/8,840원), 100엔 환산 예시(전부 가상)",
