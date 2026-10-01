@@ -2367,7 +2367,7 @@
       "type": "기술적 지표",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1090 (PC 380 / 모바일 710, 2026-10-01 실측)",
+      "monthly_search_volume": "1060 (PC 370 / 모바일 690)",
       "gate1_pass": true,
       "serp_check": "2026-10-01 게이트2 v3 통과: 상위에 소규모 콘텐츠 사이트(jaenung, coinpick, treasurer) 있음, 탐색형 의도, 가상 종가 25일 계산표와 증분 계산은 요약에서 미확인.",
       "unique_asset_plan": "가상 종가 25일 5일선·20일선 계산표, 증분 계산, 데드크로스 확인 표",

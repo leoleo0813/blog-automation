@@ -4,7 +4,7 @@ title: 이동평균선 5일 20일 계산과 크로스 보는 법
 slug: moving-average-5-20-day-cross
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1090 (PC 380 / 모바일 710, 2026-10-01 실측)
+monthly_search_volume: 1060 (PC 370 / 모바일 690)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-01 - 통과]
