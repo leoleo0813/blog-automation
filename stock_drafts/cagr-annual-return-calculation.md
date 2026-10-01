@@ -4,7 +4,7 @@ title: CAGR 뜻 연평균 수익률 구하는 순서
 slug: cagr-annual-return-calculation
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1230 (PC 520 / 모바일 710, 2026-10-01 실측)
+monthly_search_volume: 1230 (PC 520 / 모바일 710)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-01 - 통과]

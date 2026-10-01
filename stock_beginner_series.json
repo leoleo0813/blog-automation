@@ -2307,7 +2307,7 @@
       "type": "시장 개념",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1230 (PC 520 / 모바일 710, 2026-10-01 실측)",
+      "monthly_search_volume": "1230 (PC 520 / 모바일 710)",
       "gate1_pass": true,
       "serp_check": "2026-10-01 게이트2 v3 통과: 상위가 TIKR·위키·개인 블로그·계산기 사이트 위주로 진입 여지 있음, 탐색형 의도(계산기 의도 일부 혼재), 5년 가상 사례 산술평균 vs CAGR 비교표·기간별 CAGR 표·미래 금액 역산표를 한 글에서 보여 주는 콘텐츠 미확인.",
       "unique_asset_plan": "가상 인물 A씨 5년 연도별 수익률 산술평균 11.00% vs CAGR 8.55% 표, 총수익 +50%의 기간별 CAGR 표, CAGR별 10년 후 금액 표(전부 가상 계산)",
