@@ -2317,6 +2317,26 @@
       "cannibalization_note": "99편(PEG)이 성장률을 언급하나 CAGR 공식·계산은 없음. 47편(배당수익률)·81편(리밸런싱)과 내부 링크로 연결. 복리 계산(860회)은 의도가 겹쳐 보류.",
       "gate_pass": false,
       "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 사람이 한국은행 경제금융용어 등에서 CAGR 정의 한 곳 확인 후 출처 목록에 추가하면 true로 변경 가능. 숫자는 전부 가상 계산."
+    },
+    {
+      "id": 112,
+      "order": 112,
+      "title": "RSI 뜻과 14일 값 직접 구하기",
+      "slug": "rsi-meaning-14day-calculation",
+      "keyword": "RSI 뜻",
+      "type": "기술적 지표",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1420 (PC 300 / 모바일 1120, 2026-10-01 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-01 게이트2 v3 통과(검색 요약 기준): 상위가 브런치 개인 글·소규모 사이트·FX 브로커 콘텐츠·경제용어 사이트로 진입 여지 있음, 탐색형 의도, 15일 일별 변동표로 와일더 평활과 단순평균 값을 비교한 콘텐츠는 요약 단계에서 미확인(본문 전체는 열지 못함).",
+      "unique_asset_plan": "가상 종가 15일 변동표, 14일 RSI 67.86 단계 계산, 15일차 와일더 60.84 vs 단순평균 58.62 비교표(전부 가상 계산)",
+      "primary_source": "RSI는 기관 공표 지표가 아니라 1차 출처 없음. Investopedia WebFetch 1회 접속 불가. 위키백과·TC2000·트레이딩뷰·위키독스·이코노미블록 5곳 공식 일치하나 기관·언론급 출처 없어 게이트4 미충족",
+      "status": "drafted",
+      "draft_path": "stock_drafts/rsi-meaning-14day-calculation.md",
+      "cannibalization_note": "볼린저밴드 편(bollinger-bands-calculation)과 같은 기술적 지표지만 계산 대상이 달라 겹치지 않고 내부 링크로 연결. 골든크로스·이동평균선 등은 failed_gate1.",
+      "gate_pass": false,
+      "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 한국은행 경제금융용어나 금융투자협회·거래소 용어사전에서 RSI 정의 확인 후 출처에 추가하면 true 가능. 본문 계산 숫자(67.86/60.84/58.62)는 엑셀 재계산 권장."
     }
   ],
   "backlog": {
@@ -2908,6 +2928,12 @@
         "keyword": "연금저축 수령 한도",
         "monthly_search_volume": "110 (PC 40 / 모바일 70, 2026-10-01 실측)",
         "hold_reason": "제도 기준(100) 통과. 연금수령한도 계산식은 세법 수치라 원문 확인(capture) 필요, 연금소득세와 함께 묶어 검토."
+      },
+      {
+        "title": "버핏지수",
+        "keyword": "버핏지수",
+        "monthly_search_volume": "640 (PC 180 / 모바일 460, 2026-10-01 실측)",
+        "hold_reason": "게이트1 통과(640회). 108편(GDP 뜻)과 시가총액/GDP 분모가 겹치므로 GDP 편 링크로 연결하되, 시가총액 최신 수치 출처 확인 가능 여부부터 다음 실행에서 점검. 단순 순서 대기."
       }
     ],
     "failed_gate1": [
@@ -5151,6 +5177,30 @@
         "title": "투자설명서 뜻",
         "keyword": "투자설명서 뜻",
         "monthly_search_volume": "20 (2026-10-01 실측, 기준 미달)"
+      },
+      {
+        "keyword": "MACD 뜻",
+        "monthly_search_volume": "130 (2026-10-01 실측, 기준 500)"
+      },
+      {
+        "keyword": "장단기 금리차",
+        "monthly_search_volume": "490 (2026-10-01 실측, 기준 500)"
+      },
+      {
+        "keyword": "부채비율 뜻",
+        "monthly_search_volume": "70 (2026-10-01 실측, 기준 500)"
+      },
+      {
+        "keyword": "잉여현금흐름 뜻",
+        "monthly_search_volume": "40 (2026-10-01 실측, 기준 500)"
+      },
+      {
+        "keyword": "영업이익률 뜻",
+        "monthly_search_volume": "20 (2026-10-01 실측, 기준 500)"
+      },
+      {
+        "keyword": "신용잔고 뜻",
+        "monthly_search_volume": "30 (2026-10-01 실측, 기준 500)"
       }
     ]
   },
