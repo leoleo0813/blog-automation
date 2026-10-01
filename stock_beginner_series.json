@@ -2247,7 +2247,7 @@
       "type": "시장 개념",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "8160 (PC 1040 / 모바일 7120, 2026-10-01 실측)",
+      "monthly_search_volume": "8160 (PC 1040 / 모바일 7120)",
       "gate1_pass": true,
       "serp_check": "2026-10-01 게이트2 v3 통과: 상위가 KDI 교육자료·토스뱅크·나무위키 위주이나 개인블로그(phil-log)·a-ha 커뮤니티 진입 여지 있음, 탐색형 의도, 가상 2재화 계산·성장률 계산·기준년 개편 비교를 한 글에서 보여 주는 콘텐츠 미확인.",
       "unique_asset_plan": "쌀·빵 가상 경제 명목/실질/디플레이터 계산표, 지출 접근 합계, 성장률 계산, 2020년 기준년 개편 전후 비교표",

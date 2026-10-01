@@ -4,7 +4,7 @@ title: GDP 뜻과 명목 실질 차이 계산
 slug: gdp-meaning-nominal-real-calculation
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 8160 (PC 1040 / 모바일 7120, 2026-10-01 실측)
+monthly_search_volume: 8160 (PC 1040 / 모바일 7120)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-01 - 통과]
