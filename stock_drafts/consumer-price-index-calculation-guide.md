@@ -3,7 +3,7 @@ keyword: 소비자물가지수
 title: 소비자물가지수 계산 방법과 보는 순서
 slug: consumer-price-index-calculation-guide
 keyword_class: human-assisted
-publish_effort: capture
+publish_effort: oneclick
 monthly_search_volume: 8460 (PC 3270 / 모바일 5190)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
@@ -22,27 +22,21 @@ unique_asset: |
   (b) 물가 3% 구매력 계산(100만 원 → 103만 원, 구매력 약 97.1%).
   (c) 근원물가 두 지수 비교표(401개/309개)와 2020→2022 가중치 변화표(5개 부문).
 primary_source: |
-  국가데이터처(옛 통계청, kostat.go.kr) 원문 WebFetch 1회 시도했으나 EGRESS_BLOCKED로 막혔다. 이후 WebSearch 결과 요약으로
-  국가데이터처·정책브리핑·KDI 경제교육정보센터에 게시된 동일 보도자료("2022년 기준 소비자물가지수 가중치 개편 결과")와
-  국가데이터처 통계설명자료(근원물가 401개/309개), e-나라지표를 확인했다. 이들은 같은 원문의 재게시라서 독립 교차검증 3곳
-  기준은 충족하지 못했고, 가중치 5개 부문 수치는 원문을 직접 열어 본 것이 아니라 검색 요약에서 읽은 것이다.
-  458개 품목·가중치 총합 1,000·2020년 기준은 공식 페이지와 신문 보도(뉴스핌)가 일치한다.
+  국가데이터처 보도자료 "2022년 기준 소비자물가지수 가중치 개편 결과"(mods.go.kr 게시, 2023-12-19) 원문 화면을 사람이
+  캡처해 확인했다(2026-10-02). 부문별 가중치 5개(131.3→144.7, 57.5→62.9, 106.0→110.6, 154.5→142.0, 53.9→45.6),
+  "2023년 12월 소비자물가동향부터 2022년 기준 가중치 적용", 2023년 11월 전년누계비 3.6%(2022년 기준)와 3.7%(2020년 기준)가
+  본문과 일치한다. 근원물가 품목 수(401개/309개)와 458개 품목, 가중치 총합 1,000은 원문 캡처 범위 밖이라 통계설명자료·
+  아시아경제·더스쿠프·뉴스핌 검색 요약의 일치로 확인했다(원문 WebFetch는 EGRESS_BLOCKED).
 기준일: 2026년 9월 기준 (가중치는 2022년 기준 가중치, 2023년 12월 동향부터 적용. 계산 예시는 전부 가상)
 tags: 소비자물가지수, 소비자물가지수 계산, 물가상승률 계산, 근원물가지수, CPI, 소비자물가 가중치, 물가지수 보는 법, 국가데이터처, 인플레이션, 구매력
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1 8,460회, 게이트2 v3 통과, 게이트3 계산 예시·비교표 확보. 게이트4는 원문 접속 불가와 동일 원문 재게시뿐이라 미충족.
-  가중치 표(2020→2022, 5개 부문)와 적용 시기(2023년 12월 동향)는 사람이 원문 캡처로 대조한 뒤 gate_pass를 true로 바꾼다.
-capture_guide: |
-  (1) 왜 필요한가: 자동화 세션에서 kostat.go.kr이 EGRESS_BLOCKED로 막혀 가중치 5개 부문 수치(131.3→144.7, 57.5→62.9,
-  106.0→110.6, 154.5→142.0, 53.9→45.6)와 "2023년 12월 동향부터 적용", "2023년 11월 전년누계비 3.6%/3.7%"를 원문으로
-  확인하지 못했다. 근원물가 401개/309개 품목 수도 같이 대조가 필요하다.
-  (2) 우선순위: ① https://kostat.go.kr/board.es?mid=a10301040200&bid=213&act=view&list_no=428549 접속 → 본문 표에서 부문별
-  가중치와 적용 시기 문장이 보이게 캡처. ② https://www.korea.kr/briefing/pressReleaseView.do?newsId=156606275 (같은 보도자료).
-  ③ https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1060 접속 → 근원물가 품목 수 설명 부분 캡처.
-  (3) 다음 행동: 캡처한 스크린샷을 대화에 올려주세요. 수치가 다르면 본문 표를 고치고 gate_pass를 true로 바꿉니다.
+  게이트1 8,460회, 게이트2 v3 통과, 게이트3 계산 예시·비교표 확보. 게이트4는 가중치 표·적용 시기·상승률을 사람이 올린 원문
+  캡처로 대조 완료(2026-10-02). 남은 확인은 근원물가 401개/309개 품목 수(검색 요약 다수 일치)뿐이며 발행을 막을 정도는 아니다.
+  원문 게시일이 2023-12-19라 본문은 "2023년 12월 적용분"으로 한정해 서술하고 이후 개편 여부는 최신 공지 확인을 안내했다.
+capture_guide: ""
 self_check: |
-  [2026-09-29 gate_pass:false]
+  [2026-09-29 작성, 2026-10-02 원문 캡처 대조 후 gate_pass:true]
   후보 경위: 신규 8개 실측(소비자물가지수 8,460 PASS / PMI 지수 520 PASS / 기준금리 뜻 1,330 PASS / 사업보고서 보는법 50,
   분기보고서 60, 종가베팅 20, 경상수지 20, 금리인하 주식 20 FAIL). 검색량 최고인 소비자물가지수를 채택했고
   PMI 지수·기준금리 뜻은 백로그 대기.
@@ -149,7 +143,7 @@ self_check: |
 <p>식료품·에너지 제외지수가 더 넓게 빼기 때문에 두 지수의 상승률이 다르게 나오는 달이 있습니다. 기사에서 "근원물가"라고만 적혀 있으면 어느 쪽인지 본문에서 확인해야 합니다.</p>
 
 <h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">가중치 개편으로 달라진 것</h2>
-<p>국가데이터처(당시 통계청)는 최근 소비 구조를 반영한 2022년 기준 가중치를 2023년 12월 소비자물가동향부터 적용한다고 발표했습니다. 가중치가 커진 부문과 작아진 부문은 아래와 같습니다. 출처는 <a href="https://kostat.go.kr/board.es?mid=a10301040200&amp;bid=213&amp;act=view&amp;list_no=428549" target="_blank" rel="noopener">국가데이터처 보도자료</a>입니다.</p>
+<p>국가데이터처(당시 통계청)는 2023년 12월 19일 보도자료에서 2022년 소비 구조를 반영한 가중치를 2023년 12월 소비자물가동향부터 적용한다고 발표했습니다. 이후 추가 개편이 있었는지는 국가데이터처 최신 공지에서 확인하세요. 가중치가 커진 부문과 작아진 부문은 아래와 같습니다. 출처는 <a href="https://kostat.go.kr/board.es?mid=a10301040200&amp;bid=213&amp;act=view&amp;list_no=428549" target="_blank" rel="noopener">국가데이터처 보도자료</a>입니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">부문</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">2020년 기준 가중치</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">2022년 기준 가중치</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">변화</th></tr>

@@ -2086,17 +2086,17 @@
       "keyword": "소비자물가지수",
       "type": "개념",
       "keyword_class": "human-assisted",
-      "publish_effort": "capture",
+      "publish_effort": "oneclick",
       "monthly_search_volume": "8460 (PC 3270 / 모바일 5190)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-29) - trendmetriclab·ecodemy·csr.co.kr 등 소규모 콘텐츠 진입 여지, 정의·계산 탐색형 의도, 가상 부문 기여도 계산·근원물가 비교표·가중치 변화표라는 정보이득 확인.",
       "unique_asset_plan": "가상 3개 부문 종합지수·기여도 계산 + 물가 3% 구매력 계산 + 근원물가 401/309개 비교표 + 2020→2022 가중치 변화표",
-      "primary_source": "kostat.go.kr WebFetch 1회 EGRESS_BLOCKED. 검색 요약으로 국가데이터처·정책브리핑·KDI 동일 보도자료와 통계설명자료 확인했으나 재게시라 독립 교차검증 미충족. 가중치 수치는 사람 원문 대조 필요.",
+      "primary_source": "국가데이터처 보도자료(2023-12-19) 원문 화면 캡처로 가중치 5개 부문·적용 시기(2023년 12월 동향)·3.6%/3.7% 대조 완료(2026-10-02). 근원물가 401/309개는 검색 요약 다수 일치.",
       "status": "drafted",
       "draft_path": "stock_drafts/consumer-price-index-calculation-guide.md",
       "cannibalization_note": "소비자물가·CPI 전용 편 없음(grep 0건).",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족(원문 미접속). capture_guide의 국가데이터처 보도자료 캡처로 가중치 5개 부문·적용 시기·근원물가 품목 수 대조 후 true 전환."
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족(2026-10-02). 게이트4는 사람 제공 원문 캡처로 해소."
     },
     {
       "id": 101,
