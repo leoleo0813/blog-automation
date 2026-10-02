@@ -19,6 +19,7 @@ unique_asset: |
   (b) 총수익 +50%가 1·2·3·5·10년에 걸쳐 나올 때의 CAGR(50.00/22.47/14.47/8.45/4.14%) 비교표.
   (c) CAGR 3·5·7·10%로 10년 유지했을 때 배수(1.34/1.63/1.97/2.59배)와 5,000만 원 기준 금액 표.
   (d) 월 단위 기간(18개월 1,000만→1,250만 = 연 16.04%) 변환 예시. 전부 가상 숫자이고 직접 계산해 검산했다.
+  (추가 2026-10-02) A씨 계좌 vs 일정 8.55% 경로 비교 그래프 1장(가상).
 primary_source: |
   CAGR은 시작값·끝값·기간으로 정의되는 수학 공식이고, 외부 통계 수치를 본문에 쓰지 않는다(모든 숫자는 가상 계산).
   한국은행·금융감독원 등 기관 용어집 원문은 WebFetch 1회(bok.or.kr) 시도했으나 EGRESS_BLOCKED로 열지 못했다.
@@ -41,9 +42,11 @@ self_check: |
   글 구조 유형: 절차형(본문 주 골격이 ol 5단계 + 단계마다 H3). 첫 H2의 첫 블록은 번호 목록(ol). 직전 110편 시계열+계산형, 109편 비교형, 108편 계산형과 겹치지 않음.
   어투 모드: C 사례형(가상 인물 A씨, 가상임을 명시, 합쇼체 유지). 꾸며낸 1인칭 경험 없음. 섹션마다 20자 이하 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 4개(직전 110·109·108편은 5개), H2 7개 중 "~나요"형 0개. 요약박스 연두(#eef8f0/#2e8b57), 제목 "📈 숫자로 먼저 확인할 것", 마무리 박스 "✅ 직접 계산할 때 체크". FAQ 헤딩 "공식 넣어 보다 생기는 의문". 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  그림 1장(같은 CAGR, 다른 경로 꺾은선, 본문 가상 수치). "주식 투자에서 CAGR이 쓰이는 자리" H2 추가(연환산 수익률·EPS 성장률·지수 장기 성과, 방향 단정 없음). 내부 링크 4개(47·81·90·99편 발행 완료). FAQ 4개 유지. gate_pass:false 사유(게이트4 기관 출처)는 그대로.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-01</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p>1,000만 원이 2,000만 원이 됐다가 다시 1,000만 원으로 돌아와도, 두 해의 수익률 +100%와 -50%를 산술평균하면 연 25%가 나옵니다. CAGR(연평균 성장률)은 이런 착시를 막는 지표로, 시작값이 끝값이 되려면 매년 일정하게 몇 %씩 늘어야 하는지를 구한 값입니다. 위 예시의 CAGR은 0%입니다.</p>
 
@@ -60,6 +63,7 @@ self_check: |
   <li>같은 총수익, 다른 CAGR</li>
   <li>CAGR로 앞날 금액 거꾸로 따져 보기</li>
   <li>CAGR이 담지 못하는 것</li>
+  <li>주식 투자에서 CAGR이 쓰이는 자리</li>
   <li>숫자를 넣기 전에 확인할 항목</li>
 </ol>
 
@@ -128,6 +132,8 @@ self_check: |
 
 <p>손실 뒤에는 줄어든 원금에서 다시 출발하기 때문입니다. -50%가 나온 뒤에 본전을 찾으려면 +100%가 필요합니다.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/cagr-annual-return-calculation-1.png" alt="A씨 계좌와 매년 8.55퍼센트씩 일정하게 늘어난 경우의 5년 평가금액 꺾은선 그래프. 두 선 모두 1,000만 원에서 시작해 약 1,507만 원에서 끝나지만 A씨 계좌는 중간에 1,674만 원까지 올랐다가 내려옴" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 A씨 사례(가상)</figcaption></figure>
+
 <h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">같은 총수익, 다른 CAGR</h2>
 
 <p><mark>총수익이 같아도 걸린 기간이 길수록 CAGR은 낮아집니다.</mark> 총수익 +50%(끝값이 시작값의 1.5배)를 기준으로 비교하면 이렇습니다.</p>
@@ -190,6 +196,18 @@ self_check: |
 </ul>
 
 <p>배당을 어떻게 수익률에 넣는지는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-yield-calculation" target="_blank" rel="noopener">배당수익률 계산법</a>에서, 성장률을 주가 배수와 엮는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/peg-ratio-meaning-calculation" target="_blank" rel="noopener">PEG 뜻 계산 방법과 해석 기준</a>에서 이어서 볼 수 있습니다. 계좌 비중을 맞추는 문제는 <a href="https://sensitiveboss3.tistory.com/entry/rebalancing-account-tax-difference" target="_blank" rel="noopener">리밸런싱 글</a>에서 다룹니다.</p>
+
+<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">주식 투자에서 CAGR이 쓰이는 자리</h2>
+
+<p>CAGR은 계좌 성적표에만 쓰이는 숫자가 아닙니다. 주식 투자 자료에서 이름을 바꿔 자주 나옵니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>펀드·ETF의 연환산 수익률:</strong> 운용보고서의 "3년 연환산", "5년 연환산" 수익률이 바로 CAGR 방식입니다. 총수익률과 기간이 다른 상품을 비교할 때는 연환산 숫자끼리 놓고 봅니다.</li>
+  <li><strong>기업 이익 성장률:</strong> 주당순이익이 몇 년 동안 연평균 몇 % 늘었는지도 같은 공식으로 구합니다. <a href="https://sensitiveboss3.tistory.com/entry/eps-meaning-calculation" target="_blank" rel="noopener">EPS 계산</a>으로 연도별 숫자를 구한 뒤 CAGR로 묶으면, PEG처럼 성장률을 쓰는 지표에 그대로 넣을 수 있습니다.</li>
+  <li><strong>지수 장기 성과:</strong> "지난 10년 연평균 몇 %" 같은 문장은 시작점과 끝점을 어디로 잡았는지에 따라 크게 달라집니다. 급락 직후를 시작점으로 잡으면 높게, 고점을 시작점으로 잡으면 낮게 나옵니다.</li>
+</ul>
+
+<p>어느 경우든 CAGR은 지나간 구간을 한 숫자로 줄인 값이어서, 높은 CAGR이 앞으로의 수익을 약속하지는 않습니다.</p>
 
 <h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">숫자를 넣기 전에 확인할 항목</h2>
 
@@ -261,11 +279,12 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/cagr-annual-return-calculation"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/cagr-annual-return-calculation-1.png"
 }
 </script>
 

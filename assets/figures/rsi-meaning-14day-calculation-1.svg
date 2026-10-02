@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">RSI 눈금 위에 놓아 본 이 글의 계산값</text>
+<text x="70" y="122" font-size="25" fill="#666">같은 15일차도 평균 방식에 따라 2포인트 넘게 차이 · 0~100</text>
+<rect x="110.0" y="330" width="294.0" height="70" fill="#dbe7fb"/>
+<rect x="404.0" y="330" width="392.0" height="70" fill="#f1f1f1"/>
+<rect x="796.0" y="330" width="294.0" height="70" fill="#fde2d8"/>
+<text x="257.0" y="375" font-size="25" text-anchor="middle" fill="#2a4a8a">과매도 관례(30 이하)</text>
+<text x="943.0" y="375" font-size="25" text-anchor="middle" fill="#9a3412">과매수 관례(70 이상)</text>
+<text x="110.0" y="440" font-size="24" text-anchor="middle" fill="#555">0</text>
+<text x="404.0" y="440" font-size="24" text-anchor="middle" fill="#555">30</text>
+<text x="600.0" y="440" font-size="24" text-anchor="middle" fill="#555">50</text>
+<text x="796.0" y="440" font-size="24" text-anchor="middle" fill="#555">70</text>
+<text x="1090.0" y="440" font-size="24" text-anchor="middle" fill="#555">100</text>
+<line x1="775" y1="260" x2="775" y2="330" stroke="#1a2744" stroke-width="4"/>
+<circle cx="775" cy="365" r="10" fill="#1a2744"/>
+<text x="787" y="250" font-size="26" font-weight="bold" text-anchor="start" fill="#1a2744">14일차 67.86</text>
+<line x1="706" y1="210" x2="706" y2="330" stroke="#e67e22" stroke-width="4"/>
+<circle cx="706" cy="365" r="10" fill="#e67e22"/>
+<text x="706" y="200" font-size="26" font-weight="bold" text-anchor="middle" fill="#e67e22">15일차 와일더 60.84</text>
+<line x1="684" y1="400" x2="684" y2="490" stroke="#9aa0a6" stroke-width="4"/>
+<circle cx="684" cy="365" r="10" fill="#9aa0a6"/>
+<text x="684" y="520" font-size="26" font-weight="bold" text-anchor="middle" fill="#9aa0a6">15일차 단순평균 58.62</text>
+<text x="70" y="692" font-size="21" fill="#888">계산 예시: 본문 가상 종가 15일치로 계산한 값</text>
+</g></svg>

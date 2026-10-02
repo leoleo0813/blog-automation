@@ -17,6 +17,7 @@ unique_asset: |
   (a) 가상 종가 15일치 변동표와 14일 RSI 67.86 단계별 계산.
   (b) 15일차 와일더 방식 RSI 60.84와 단순평균 방식 58.62 비교표.
   (c) RSI 값이 말해 주는 것과 말해 주지 않는 것 표, 흔한 오해 vs 실제 표.
+  (추가 2026-10-02) RSI 눈금 위 계산값 3개(67.86·60.84·58.62) 그림 1장(가상 종가).
 primary_source: |
   RSI는 1978년 웰스 와일더가 소개한 지표이며 공식 기관이 숫자를 공표하는 지표가 아니라 1차 출처가 따로 없다. 와일더 원저는 열람하지 못했다.
   Investopedia WebFetch 1회 시도, 접속 불가. 이후 WebSearch 3회로 독립 출처를 교차 확인했다:
@@ -40,9 +41,11 @@ self_check: |
   글 구조 유형: 계산형(목차 직후 첫 H2가 15일 변동표와 단계 계산, 개념 설명보다 먼저). 직전 CAGR는 절차형, GDP는 계산형이나 환율·기준금리가 사이에 있어 3편 연속 아님.
   어투 모드: C 사례형(가상 인물 A씨의 가상 종가를 끝까지 따라감, 가상임을 명시). 1인칭 경험담 없음.
   AI 티 점검: em대시 0개, 다만 0회(본문), mark 밀도 4개, FAQ 6개(직전 CAGR 4·기준금리 5·환율 5와 다름), H2 7개(목차 포함) 중 "~나요"형 0개(FAQ 질문 제외). 요약박스 보라(#f3edfc/#7a4fc4), 제목 "🧮 이 글의 계산 결과 요약". FAQ 헤딩 "RSI 확인하다 궁금해지는 점"(걸리는·막히는·세 줄 어휘 회피). 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  그림 1장(RSI 눈금·관례 구간·계산값). "RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간" H2 추가(매매 지시 없음). 내부 링크 2개(85 볼린저밴드·62 데드캣 바운스, 발행 완료). FAQ 6개 유지. gate_pass:false 사유(게이트4 기관 출처)는 그대로.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-01</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p>차트 아래에 붙은 RSI 숫자 67.9가 어디서 나온 값인지 따라가 본 적이 있나요? RSI는 최근 14일 동안 오른 폭과 내린 폭을 비교해 0에서 100 사이로 바꾼 값입니다. 가상 종가 15일치로 14일 RSI를 직접 구하고, 하루가 더 지났을 때 값이 어떻게 바뀌는지까지 한 줄씩 따라가 봅니다.</p>
 
@@ -58,6 +61,7 @@ self_check: |
   <li>평균 방식에 따라 값이 달라지는 이유</li>
   <li>70과 30 구간을 읽는 관례와 한계</li>
   <li>RSI를 볼 때 자주 생기는 오해</li>
+  <li>RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간</li>
   <li>RSI 확인하다 궁금해지는 점</li>
 </ol>
 
@@ -137,6 +141,8 @@ self_check: |
 
 <p>RSI 계산 공식과 기간 설정은 <a href="https://kr.tradingview.com/support/solutions/43000502338/" target="_blank" rel="noopener">트레이딩뷰 상대강도지수(RSI) 도움말</a>에서도 확인할 수 있습니다. 쓰는 차트의 지표 설정에서 기간과 평균 방식을 먼저 열어 보세요.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/rsi-meaning-14day-calculation-1.png" alt="0에서 100까지 RSI 눈금 그림. 30 이하 과매도 관례 구간, 70 이상 과매수 관례 구간 표시. 14일차 67.86, 15일차 와일더 방식 60.84, 단순평균 방식 58.62 위치 표시" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 종가로 계산</figcaption></figure>
+
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">70과 30 구간을 읽는 관례와 한계</h2>
 <p>RSI 70 이상을 과매수, 30 이하를 과매도 구간으로 부르는 것이 가장 흔한 관례입니다. <a href="https://wikidocs.net/289404" target="_blank" rel="noopener">위키독스 RSI 설명</a>과 <a href="https://economybloc.com/article/117186" target="_blank" rel="noopener">이코노미블록 상대강도지수</a>도 같은 기준을 소개합니다.</p>
 
@@ -171,6 +177,18 @@ self_check: |
 </table>
 
 <p>이동평균과 표준편차로 만드는 다른 보조지표가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/bollinger-bands-calculation" target="_blank" rel="noopener">볼린저밴드 뜻과 계산법</a>을 함께 보세요. 두 지표 모두 과거 가격에서 계산한 값이라는 점은 같습니다.</p>
+
+<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간</h2>
+
+<p>RSI는 최근 등락의 크기를 비교하는 도구라서, 쓰는 자리를 가려야 도움이 됩니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>쓸모 있는 순간:</strong> 같은 종목의 지금 등락이 평소보다 한쪽으로 얼마나 쏠렸는지 비교할 때, 그리고 가격은 새 고점인데 RSI는 이전 고점보다 낮은 것처럼 가격과 지표가 엇갈리는 모습을 찾을 때 쓰입니다.</li>
+  <li><strong>쓸모가 적은 순간:</strong> 실적 발표나 공시처럼 회사 가치가 바뀌는 사건이 있을 때입니다. RSI에는 그런 정보가 들어 있지 않습니다.</li>
+  <li><strong>착시가 생기는 순간:</strong> 급락 뒤 RSI가 30 아래로 내려가면 반등 신호처럼 보이지만, 짧게 튀었다가 다시 내리는 경우도 흔합니다. 이런 움직임은 <a href="https://sensitiveboss3.tistory.com/entry/dead-cat-bounce-meaning" target="_blank" rel="noopener">데드캣 바운스 뜻 글</a>에서 따로 다뤘습니다.</li>
+</ul>
+
+<p>RSI 숫자 하나로 매수나 매도를 정하는 방식은 일반적인 사용법이 아닙니다. 이동평균이나 거래량, 그리고 기업 실적과 같이 놓고 읽는 보조 자료입니다.</p>
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI 확인하다 궁금해지는 점</h2>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
@@ -229,11 +247,12 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/rsi-meaning-14day-calculation"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/rsi-meaning-14day-calculation-1.png"
 }
 </script>
 
