@@ -2427,7 +2427,7 @@
       "type": "계산 개념",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "860 (PC 270 / 모바일 590)",
+      "monthly_search_volume": "850 (PC 270 / 모바일 580)",
       "gate1_pass": true,
       "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 소규모 계산기·블로그 사이트 다수+kbthink·토스뱅크. 계산기 실행 의도 일부 혼재(위험 기록), 단리·복리 6단 비교표·주기별 실효연이율·72법칙 오차·적립식 표는 요약에서 미확인.",
       "unique_asset_plan": "단리·복리 기간별 표, 이자 주기별 실효연이율 표, 72법칙 오차표, 월30만 적립식 표, 마이너스 수익률 곱셈(전부 가상 계산)",
