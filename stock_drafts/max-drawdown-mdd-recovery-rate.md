@@ -4,7 +4,7 @@ title: MDD 뜻 최대낙폭 계산과 회복률 표
 slug: max-drawdown-mdd-recovery-rate
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 670 (PC 190 / 모바일 480, 2026-10-01 실측)
+monthly_search_volume: 640 (PC 180 / 모바일 460)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-02 - 통과]
