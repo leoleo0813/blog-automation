@@ -17,6 +17,7 @@ unique_asset: |
   (a) 콜 매수·콜 매도·풋 매수·풋 매도 네 포지션 비교표(최대 이익·최대 손실·손익분기).
   (b) 행사가격 300, 프리미엄 3.00 가상 조건의 만기 지수별(280~320) 손익표와 원화 환산표.
   (c) 내가격·등가격·외가격 내재가치 구분표, 옵션과 선물 비교표.
+  (추가 2026-10-02) 콜·풋 매수 만기 손익 그래프 1장(가상 조건).
 primary_source: |
   한국거래소 open.krx.co.kr WebFetch 1회 시도, EGRESS_BLOCKED.
   WebSearch 2회로 교차확인했다. 콜옵션=살 권리, 풋옵션=팔 권리, 매수자 최대 손실=프리미엄, 매도자 손실 확대 구조가 기획재정부 시사경제용어사전, KB손해보험 KB Think, 토스뱅크에서 일치(검색 결과 제목·요약 단계 확인, 본문 미열람).
@@ -37,6 +38,9 @@ self_check: |
   글 구조 유형: 비교형(목차 직후 첫 H2의 첫 블록이 네 포지션 비교표). 직전 117 절차형, 116 개념형, 115 계산형과 다름.
   어투 모드: A 해설형(합쇼체 단정). 직전 117 B, 116 C와 다름. 꾸며낸 1인칭 경험 없음. 섹션마다 20자 이하 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 6개(직전 117 4·116 5와 다름), H2 6개 중 "~나요"형 0개. 요약박스 보라(#f3eefc/#7a4fc4), 제목 "🔮 방향부터 구분하기", 중간 박스 "📎 손익표 읽기 체크", FAQ 헤딩 "표를 읽고 나서 남는 의문 풀이".
+  [2026-10-02 독자 관점 규칙 반영]
+  "네마녀의 날 뜻 편", "커버드콜 ETF 세금 편"을 말로만 언급 → 링크로 교체(둘 다 발행 완료). VIX 글 링크 추가 → 내부 링크 3개.
+  "옵션을 거래하지 않아도 알아 둘 이유" H2 추가(변동성 지표·만기일·커버드콜, 방향 단정 없음). 그림 1장(손익 꺾은선). '확인'류 3→0. FAQ 6개(110편 5개와 다르게).
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
@@ -50,7 +54,8 @@ self_check: |
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">목차</h2>
 
-<ol style="line-height:1.9;"><li>콜옵션과 풋옵션 네 가지 포지션 비교</li><li>만기 손익 계산법</li><li>프리미엄이 정해지는 방식</li><li>옵션과 선물의 차이</li><li>매도 포지션의 위험 구조</li><li>코스피200 옵션의 실제 규격</li></ol>
+<ol style="line-height:1.9;"><li>콜옵션과 풋옵션 네 가지 포지션 비교</li><li>만기 손익 계산법</li><li>프리미엄이 정해지는 방식</li><li>옵션과 선물의 차이</li><li>매도 포지션의 위험 구조</li><li>코스피200 옵션의 실제 규격</li>
+  <li>옵션을 거래하지 않아도 알아 둘 이유</li></ol>
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">콜옵션과 풋옵션 네 가지 포지션 비교</h2>
 
@@ -114,6 +119,8 @@ self_check: |
 
 <p>원화로 바꾸면 만기 지수 290에서 풋 매수는 175만 원 이익, 320에서 콜 매수는 425만 원 이익입니다. 같은 지수에서 매도자는 정확히 그만큼 손실입니다. 옵션은 한쪽의 이익이 곧 반대쪽의 손실인 구조입니다.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/option-meaning-call-put-payoff-1.png" alt="콜옵션 매수와 풋옵션 매수의 만기 손익 꺾은선 그래프. 행사가격 300, 프리미엄 3에서 손실은 -3으로 막히고 콜은 303 위에서, 풋은 297 아래에서 이익" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 행사가격 300, 프리미엄 3.00(가상)</figcaption></figure>
+
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">프리미엄이 정해지는 방식</h2>
 
 <p>프리미엄은 내재가치와 시간가치를 더한 값입니다. 내재가치는 지금 당장 행사하면 생기는 이익이고, 시간가치는 만기까지 남은 시간 동안 지수가 유리하게 움직일 가능성에 매기는 값입니다.</p>
@@ -151,7 +158,7 @@ self_check: |
   </tbody>
 </table>
 
-<p>선물은 지수와 손익이 직선으로 움직여 오를 때와 내릴 때 같은 속도로 벌거나 잃습니다. 옵션은 프리미엄 지점에서 꺾이기 때문에 손익 그래프가 꺾인 선 모양입니다. 앞서 다룬 <strong>네마녀의 날 뜻</strong> 편의 선물옵션 동시만기는 이 두 상품의 만기가 같은 날 겹치는 날입니다.</p>
+<p>선물은 지수와 손익이 직선으로 움직여 오를 때와 내릴 때 같은 속도로 벌거나 잃습니다. 옵션은 프리미엄 지점에서 꺾이기 때문에 손익 그래프가 꺾인 선 모양입니다. 앞서 다룬 <a href="https://sensitiveboss3.tistory.com/entry/quadruple-witching-day-2026" target="_blank" rel="noopener">네마녀의 날 뜻 글</a>의 선물옵션 동시만기는 이 두 상품의 만기가 같은 날 겹치는 날입니다.</p>
 
 <div style="background:#fbf8ff;border:2px solid #a98bd9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#4b2c85;font-size:18px;">📎 손익표 읽기 체크</strong>
@@ -164,7 +171,7 @@ self_check: |
 
 <p>반대로 콜 매도는 지수가 오를수록 손실이 이론상 끝없이 커지고, 풋 매도는 지수가 내려갈수록 손실이 커져 지수가 0이 되는 극단에서 297포인트에 이릅니다. 손실 가능 금액이 프리미엄보다 훨씬 크므로 매도자는 거래소와 증권사가 정한 증거금을 맡겨야 합니다.</p>
 
-<ul><li>프리미엄을 받는다고 손실이 막히는 것은 아닙니다.</li><li>증거금 금액은 상품과 시점에 따라 바뀌므로 이용하는 증권사 안내에서 확인합니다.</li><li>개인이 파생상품을 거래하려면 증권사가 정한 가입 요건이 있을 수 있어 사전에 확인해야 합니다.</li></ul>
+<ul><li>프리미엄을 받는다고 손실이 막히는 것은 아닙니다.</li><li>증거금 금액은 상품과 시점에 따라 바뀌므로 이용하는 증권사 안내에서 확인합니다.</li><li>개인이 파생상품을 거래하려면 증권사가 정한 가입 요건(사전 교육, 기본예탁금 등)을 먼저 갖춰야 할 수 있습니다.</li></ul>
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">코스피200 옵션의 실제 규격</h2>
 
@@ -172,7 +179,19 @@ self_check: |
 
 <ul><li>예시: 프리미엄 3.00포인트 × 25만 원 = 75만 원</li><li>예시: 프리미엄 0.50포인트 × 25만 원 = 12만 5천 원</li><li>현금결제라 만기에 실제 주식을 주고받지 않고 손익만 계산해 정산합니다.</li></ul>
 
-<p>상품 규격과 승수는 거래소 공지로 바뀔 수 있습니다. 이 글의 계산은 개념 설명용이고, 실제 거래 전에는 현재 상품명세를 다시 확인해야 합니다.</p>
+<p>상품 규격과 승수는 거래소 공지로 바뀔 수 있습니다. 이 글의 계산은 개념 설명용이고, 실제 거래에는 그 시점의 거래소 상품명세가 적용됩니다.</p>
+
+<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">옵션을 거래하지 않아도 알아 둘 이유</h2>
+
+<p>옵션을 직접 사고팔지 않는 주식 투자자도 옵션 시장에서 나오는 숫자를 자주 만납니다. 세 군데에서 특히 그렇습니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>변동성 지표:</strong> VIX와 V-KOSPI는 옵션 가격으로 앞으로의 변동성을 거꾸로 계산한 숫자입니다. 하락에 대비하려는 풋옵션 수요가 몰리면 옵션 가격이 오르고 이 지표도 올라갑니다. 계산 원리는 <a href="https://sensitiveboss3.tistory.com/entry/vix-index-meaning-calculation" target="_blank" rel="noopener">VIX 지수 뜻 글</a>에 있습니다.</li>
+  <li><strong>만기일 변동:</strong> 옵션과 선물 만기가 겹치는 날에는 포지션 정리 매매가 몰려 지수가 평소와 다르게 움직이기도 합니다.</li>
+  <li><strong>옵션이 들어간 ETF:</strong> 커버드콜 ETF는 보유 주식에 콜옵션 매도를 붙인 상품이라, 위 손익표의 콜 매도 줄처럼 상승 폭이 일부 막히는 대신 프리미엄을 분배 재원으로 씁니다.</li>
+</ul>
+
+<p>옵션 지표가 오르거나 내렸다고 주가 방향이 정해지지는 않습니다. 시장 참여자들이 위험을 얼마나 비싸게 사고 있는지를 보여 주는 온도계에 가깝습니다.</p>
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">표를 읽고 나서 남는 의문 풀이</h2>
 
@@ -182,11 +201,11 @@ self_check: |
 
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">만기 전에 옵션을 팔 수 있나요?</summary><p>프리미엄은 만기 전에도 시세가 움직이므로 반대 거래로 정리할 수 있습니다. 이 글의 표는 만기까지 들고 갔을 때의 손익이라 중간 시세와는 다릅니다.</p></details>
 
-<details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">프리미엄 0.5포인트는 원화로 얼마인가요?</summary><p>지수옵션이 코스피200 옵션 규격(거래승수 25만 원)이라면 0.5 × 25만 = 12만 5천 원입니다. 상품마다 승수가 다르니 거래하는 상품의 규격을 먼저 확인하세요.</p></details>
+<details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">프리미엄 0.5포인트는 원화로 얼마인가요?</summary><p>지수옵션이 코스피200 옵션 규격(거래승수 25만 원)이라면 0.5 × 25만 = 12만 5천 원입니다. 상품마다 승수가 달라서, 다른 상품이면 그 상품의 승수를 곱합니다.</p></details>
 
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">매도는 프리미엄을 먼저 받으니 더 유리하지 않나요?</summary><p>받는 돈은 프리미엄이 상한입니다. 반면 콜 매도의 손실은 이론상 끝이 없고, 풋 매도의 손실도 지수가 크게 내려갈수록 커집니다. 이익은 작게 한정되고 손실은 크게 열려 있는 구조입니다.</p></details>
 
-<details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">커버드콜 ETF는 옵션과 무슨 관계인가요?</summary><p>커버드콜 ETF는 보유 자산에 콜옵션 매도를 결합해 프리미엄 수입을 노리는 구조입니다. 이 글의 콜 매도 행(상한이 막힌 이익)이 그 원리의 핵심이고, 세금은 <strong>커버드콜 ETF 세금</strong> 편에서 따로 다뤘습니다.</p></details>
+<details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">커버드콜 ETF는 옵션과 무슨 관계인가요?</summary><p>커버드콜 ETF는 보유 자산에 콜옵션 매도를 결합해 프리미엄 수입을 노리는 구조입니다. 이 글의 콜 매도 행(상한이 막힌 이익)이 그 원리의 핵심이고, 세금은 <a href="https://sensitiveboss3.tistory.com/entry/covered-call-etf-tax" target="_blank" rel="noopener">커버드콜 ETF 세금 글</a>에서 따로 다뤘습니다.</p></details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처 (기준일 2026년 10월, 한국거래소 원문은 자동 열람이 막혀 증권사 상품 안내와 공공기관 용어사전으로 교차 확인):
@@ -198,78 +217,79 @@ self_check: |
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Article",
+  "headline": "옵션 뜻 콜옵션 풋옵션 손익 구조",
+  "description": "옵션 뜻과 콜옵션 풋옵션의 차이를 가상 조건으로 네 가지 포지션의 만기 손익표로 계산하고, 프리미엄 구성과 코스피200 옵션 규격까지 정리했습니다.",
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "datePublished": "2026-10-02",
+  "dateModified": "2026-10-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/option-meaning-call-put-payoff"
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/option-meaning-call-put-payoff-1.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "Article",
-      "headline": "옵션 뜻 콜옵션 풋옵션 손익 구조",
-      "description": "옵션 뜻과 콜옵션 풋옵션의 차이를 가상 조건으로 네 가지 포지션의 만기 손익표로 계산하고, 프리미엄 구성과 코스피200 옵션 규격까지 정리했습니다.",
-      "author": {
-        "@type": "Person",
-        "name": "센시티브보스"
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "센시티브보스"
-      },
-      "datePublished": "2026-10-02",
-      "dateModified": "2026-10-02",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://sensitiveboss3.tistory.com/entry/option-meaning-call-put-payoff"
+      "@type": "Question",
+      "name": "옵션을 사면 최대 얼마까지 잃을 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "매수자의 최대 손실은 지급한 프리미엄입니다. 이 글의 가상 조건에서는 3.00포인트, 25만 원 곱셈으로 75만 원입니다."
       }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "옵션을 사면 최대 얼마까지 잃을 수 있나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "매수자의 최대 손실은 지급한 프리미엄입니다. 이 글의 가상 조건에서는 3.00포인트, 25만 원 곱셈으로 75만 원입니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "콜옵션은 지수가 오르기만 하면 이익인가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "아닙니다. 지수가 행사가격 300을 넘어도 프리미엄 3.00을 갚는 303을 넘어야 이익이 납니다. 301이나 302에서 끝나면 권리를 행사해도 손실입니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "만기 전에 옵션을 팔 수 있나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "프리미엄은 만기 전에도 시세가 움직이므로 반대 거래로 정리할 수 있습니다. 이 글의 표는 만기까지 들고 갔을 때의 손익이라 중간 시세와는 다릅니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "프리미엄 0.5포인트는 원화로 얼마인가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "지수옵션이 코스피200 옵션 규격(거래승수 25만 원)이라면 0.5 × 25만 = 12만 5천 원입니다. 상품마다 승수가 다르니 거래하는 상품의 규격을 먼저 확인하세요."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "매도는 프리미엄을 먼저 받으니 더 유리하지 않나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "받는 돈은 프리미엄이 상한입니다. 반면 콜 매도의 손실은 이론상 끝이 없고, 풋 매도의 손실도 지수가 크게 내려갈수록 커집니다. 이익은 작게 한정되고 손실은 크게 열려 있는 구조입니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "커버드콜 ETF는 옵션과 무슨 관계인가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "커버드콜 ETF는 보유 자산에 콜옵션 매도를 결합해 프리미엄 수입을 노리는 구조입니다. 이 글의 콜 매도 행(상한이 막힌 이익)이 그 원리의 핵심이고, 세금은 커버드콜 ETF 세금 편에서 따로 다뤘습니다."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "콜옵션은 지수가 오르기만 하면 이익인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아닙니다. 지수가 행사가격 300을 넘어도 프리미엄 3.00을 갚는 303을 넘어야 이익이 납니다. 301이나 302에서 끝나면 권리를 행사해도 손실입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "만기 전에 옵션을 팔 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "프리미엄은 만기 전에도 시세가 움직이므로 반대 거래로 정리할 수 있습니다. 이 글의 표는 만기까지 들고 갔을 때의 손익이라 중간 시세와는 다릅니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "프리미엄 0.5포인트는 원화로 얼마인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "지수옵션이 코스피200 옵션 규격(거래승수 25만 원)이라면 0.5 × 25만 = 12만 5천 원입니다. 상품마다 승수가 달라서, 다른 상품이면 그 상품의 승수를 곱합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "매도는 프리미엄을 먼저 받으니 더 유리하지 않나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "받는 돈은 프리미엄이 상한입니다. 반면 콜 매도의 손실은 이론상 끝이 없고, 풋 매도의 손실도 지수가 크게 내려갈수록 커집니다. 이익은 작게 한정되고 손실은 크게 열려 있는 구조입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "커버드콜 ETF는 옵션과 무슨 관계인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "커버드콜 ETF는 보유 자산에 콜옵션 매도를 결합해 프리미엄 수입을 노리는 구조입니다. 이 글의 콜 매도 행(상한이 막힌 이익)이 그 원리의 핵심이고, 세금은 커버드콜 ETF 세금 글에서 따로 다뤘습니다."
+      }
     }
   ]
 }

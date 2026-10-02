@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">만기 손익 그래프: 콜옵션 매수와 풋옵션 매수</text>
+<text x="70" y="122" font-size="25" fill="#666">가상 조건: 행사가격 300, 프리미엄 3.00 · 단위 포인트</text>
+<line x1="130" y1="570" x2="1130" y2="570" stroke="#eee" stroke-width="2"/>
+<text x="116" y="578" font-size="21" text-anchor="end" fill="#777">-6</text>
+<line x1="130" y1="475" x2="1130" y2="475" stroke="#eee" stroke-width="2"/>
+<text x="116" y="483" font-size="21" text-anchor="end" fill="#777">0</text>
+<line x1="130" y1="380" x2="1130" y2="380" stroke="#eee" stroke-width="2"/>
+<text x="116" y="388" font-size="21" text-anchor="end" fill="#777">6</text>
+<line x1="130" y1="285" x2="1130" y2="285" stroke="#eee" stroke-width="2"/>
+<text x="116" y="293" font-size="21" text-anchor="end" fill="#777">12</text>
+<line x1="130" y1="190" x2="1130" y2="190" stroke="#eee" stroke-width="2"/>
+<text x="116" y="198" font-size="21" text-anchor="end" fill="#777">18</text>
+<text x="130" y="608" font-size="21" text-anchor="middle" fill="#555">280</text>
+<text x="255" y="608" font-size="21" text-anchor="middle" fill="#555">285</text>
+<text x="380" y="608" font-size="21" text-anchor="middle" fill="#555">290</text>
+<text x="505" y="608" font-size="21" text-anchor="middle" fill="#555">295</text>
+<text x="630" y="608" font-size="21" text-anchor="middle" fill="#555">300</text>
+<text x="755" y="608" font-size="21" text-anchor="middle" fill="#555">305</text>
+<text x="880" y="608" font-size="21" text-anchor="middle" fill="#555">310</text>
+<text x="1005" y="608" font-size="21" text-anchor="middle" fill="#555">315</text>
+<text x="1130" y="608" font-size="21" text-anchor="middle" fill="#555">320</text>
+<polyline points="130,522 155,522 180,522 205,522 230,522 255,522 280,522 305,522 330,522 355,522 380,522 405,522 430,522 455,522 480,522 505,522 530,522 555,522 580,522 605,522 630,522 655,507 680,491 705,475 730,459 755,443 780,428 805,412 830,396 855,380 880,364 905,348 930,332 955,317 980,301 1005,285 1030,269 1055,253 1080,238 1105,222 1130,206" fill="none" stroke="#1a2744" stroke-width="5" stroke-linejoin="round"/>
+<rect x="130" y="628" width="30" height="8" fill="#1a2744"/>
+<text x="170" y="638" font-size="23" fill="#333">콜옵션 매수</text>
+<polyline points="130,206 155,222 180,238 205,253 230,269 255,285 280,301 305,317 330,332 355,348 380,364 405,380 430,396 455,412 480,428 505,443 530,459 555,475 580,491 605,507 630,522 655,522 680,522 705,522 730,522 755,522 780,522 805,522 830,522 855,522 880,522 905,522 930,522 955,522 980,522 1005,522 1030,522 1055,522 1080,522 1105,522 1130,522" fill="none" stroke="#e67e22" stroke-width="5" stroke-linejoin="round"/>
+<rect x="430" y="628" width="30" height="8" fill="#e67e22"/>
+<text x="470" y="638" font-size="23" fill="#333">풋옵션 매수</text>
+<circle cx="705" cy="475" r="9" fill="#1a2744"/>
+<text x="719" y="513" font-size="24" font-weight="bold" fill="#1a2744" text-anchor="start">콜 손익분기 303</text>
+<circle cx="555" cy="475" r="9" fill="#e67e22"/>
+<text x="541" y="513" font-size="24" font-weight="bold" fill="#e67e22" text-anchor="end">풋 손익분기 297</text>
+<circle cx="630" cy="522" r="9" fill="#9aa0a6"/>
+<text x="644" y="560" font-size="24" font-weight="bold" fill="#9aa0a6" text-anchor="start">최대 손실 -3</text>
+<text x="70" y="692" font-size="21" fill="#888">계산 예시: 가상 조건(실제 상품 시세 아님). 매도 포지션은 같은 선을 위아래로 뒤집은 모양</text>
+</g></svg>

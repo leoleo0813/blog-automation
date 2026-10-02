@@ -2282,11 +2282,12 @@
       "serp_check": "2026-10-01 게이트2 v3 통과: 상위가 KDI 교육자료·토스뱅크·나무위키 위주이나 개인블로그(phil-log)·a-ha 커뮤니티 진입 여지 있음, 탐색형 의도, 가상 2재화 계산·성장률 계산·기준년 개편 비교를 한 글에서 보여 주는 콘텐츠 미확인.",
       "unique_asset_plan": "쌀·빵 가상 경제 명목/실질/디플레이터 계산표, 지출 접근 합계, 성장률 계산, 2020년 기준년 개편 전후 비교표",
       "primary_source": "한국은행·KDI WebFetch 1회 EGRESS_BLOCKED, WebSearch 교차검증(언론·공공 교육기관 4곳 이상 일치)",
-      "status": "drafted",
+      "status": "published",
       "draft_path": "stock_drafts/gdp-meaning-nominal-real-calculation.md",
       "cannibalization_note": "stock_drafts grep GDP 0건. 100편(소비자물가지수)·107편(생산자물가지수)과는 범위 비교표와 내부 링크로 차별화.",
       "gate_pass": true,
-      "gate_pass_note": "사람은 한국은행 2020년 기준년 개편 보도자료에서 2,058조/1,941조 원, 3.6%/3.5%, 33,929/32,004달러만 대조."
+      "gate_pass_note": "사람은 한국은행 2020년 기준년 개편 보도자료에서 2,058조/1,941조 원, 3.6%/3.5%, 33,929/32,004달러만 대조.",
+      "published_at": "2026-10-02"
     },
     {
       "id": 109,
