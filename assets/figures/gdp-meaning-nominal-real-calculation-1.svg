@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">2026년 2분기 GDP, 직전 분기 대비 증가율</text>
+<text x="70" y="122" font-size="25" fill="#666">실질은 생산량만, 명목은 물가 변화까지 포함 · 단위 %</text>
+<line x1="70" y1="580" x2="1130" y2="580" stroke="#999" stroke-width="2"/>
+<rect x="250" y="555" width="260" height="25" fill="#1a2744" rx="6"/>
+<text x="380" y="539" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">0.6%</text>
+<text x="380" y="630" font-size="27" text-anchor="middle" fill="#333">실질 GDP</text>
+<rect x="690" y="200" width="260" height="380" fill="#e67e22" rx="6"/>
+<text x="820" y="184" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">9.2%</text>
+<text x="820" y="630" font-size="27" text-anchor="middle" fill="#333">명목 GDP</text>
+<text x="70" y="692" font-size="21" fill="#888">자료: 한국은행 2026년 2/4분기 국민소득(잠정), 2026-09-08 발표</text>
+</g></svg>
