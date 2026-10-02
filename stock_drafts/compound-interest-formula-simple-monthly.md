@@ -15,6 +15,7 @@ serp_check: |
   → 탈락조건 1~3 모두 미해당, 통과.
 unique_asset: |
   (a) 단리·복리 기간별 비교표(1·3·5·10·20·30년). (b) 이자 주기별(연·반기·분기·월·일) 최종 금액과 실효 연이율 표. (c) 72법칙 어림값 vs 정확한 햇수 오차표. (d) 월 30만 원 적립식 10·20·30년 표. (e) 마이너스 수익률 곱셈 예시. 전부 파이썬으로 계산한 가상 값.
+  (추가 2026-10-02) 단리·복리 30년 꺾은선 그래프 1장(가상), 보수 0.5%p 차이 30년 계산(약 4,322만 → 3,745만 원, -13.3%).
 primary_source: |
   복리는 기관이 수치를 공표하는 지표가 아니라 수학적 정의라서 1차 수치 출처가 따로 없다.
   fine.fss.or.kr(금융감독원 금융소비자정보포털) WebFetch 1회 시도, EGRESS_BLOCKED.
@@ -37,6 +38,9 @@ self_check: |
   글 구조 유형: 절차형(본문 주 골격이 4단계 ol, 단계마다 짧은 H3. 첫 H2의 첫 블록이 ol). 직전 116 개념형, 115 계산형, 114 비교형과 다름.
   어투 모드: B 대화형(해요체, 직전 116 C, 115 A와 다름). 꾸며낸 1인칭 경험 없음. 섹션마다 20자 이하 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 5개, FAQ 4개(직전 116 5·115 6과 다름), 본문 H2 6개 중 "~나요"형 0개. 요약박스 황금색(#fff8e6/#d4a017), 제목 "🧮 숫자부터 챙겨 가세요", 중간 박스 "🔍 표 읽을 때 한 가지"·"✅ 계산 전에 확인할 것", 마무리 "📝 정리하면". FAQ 헤딩 "복리 계산하다 나오는 질문 넷"(걸리는·막히는·세 줄·묻게·궁금증 어휘 회피). 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  gate_pass:false인 111(CAGR)·115(MDD)편 링크 제거(발행 안 될 수 있어 깨진 링크 위험) → 검산 문장·회복률 원리 문장으로 교체. 두 편 발행 후 링크 다시 추가할 것.
+  그림 1장(단리 vs 복리 30년). "주식 투자에서 복리가 작동하는 곳" H2 추가(배당 재투자·보수·손실, 추천 없음). 내부 링크 2개(10·47편 발행 완료). '확인하세요'류 정리. FAQ 4개 유지. gate_pass:false 사유(게이트4)는 그대로.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
@@ -55,6 +59,7 @@ self_check: |
   <li>월복리와 연복리가 벌어지는 폭</li>
   <li>72법칙의 오차</li>
   <li>매달 넣는 적립식 계산</li>
+  <li>주식 투자에서 복리가 작동하는 곳</li>
   <li>복리가 거꾸로 돌 때</li>
 </ol>
 
@@ -80,7 +85,7 @@ self_check: |
 <h3 style="margin-top:22px;">4단계. 원금 곱하고 검산하기</h3>
 <p>10,000,000 × 1.62889 = 16,288,946원이에요. 이자는 6,288,946원이고, 단리였다면 5,000,000원이에요.</p>
 
-<p>검산은 짧게 해요. 매년 5%씩 늘리면 <a href="https://sensitiveboss3.tistory.com/entry/cagr-annual-return-calculation" target="_blank" rel="noopener">CAGR 뜻 연평균 수익률 구하는 순서</a>의 식을 거꾸로 쓴 것과 같아요.</p>
+<p>검산은 짧게 해요. 16,288,946 ÷ 10,000,000 = 1.6289이고, 이 값의 10분의 1 제곱이 다시 1.05로 돌아오면 맞게 계산한 거예요.</p>
 
 <h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">단리와 복리, 기간별 차이표</h2>
 <p>단리와 복리는 1년째엔 똑같고, 기간이 길수록 벌어져요. 단리는 원금에만 이자가 붙고 복리는 이자에도 이자가 붙기 때문이에요.</p>
@@ -108,6 +113,8 @@ self_check: |
   <strong style="color:#7a5a00;font-size:18px;">🔍 표 읽을 때 한 가지</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>복리가 더 붙은 금액은 단리와의 차이예요. 전체 이자가 아니에요.</li><li>30년 복리 이자는 3,321만 9,424원이고 원금의 3배를 넘어요.</li></ul>
 </div>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/compound-interest-formula-simple-monthly-1.png" alt="원금 1,000만 원을 연 5퍼센트로 30년 굴린 단리와 복리 꺾은선 그래프. 단리는 직선으로 2,500만 원, 복리는 점점 가팔라져 약 4,322만 원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 원금 1,000만 원, 연 5%(가상)</figcaption></figure>
+
 <h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">월복리와 연복리가 벌어지는 폭</h2>
 <p>이자가 붙는 횟수가 많을수록 최종 금액이 커져요. 일반식은 A = P × (1 + r/n)<sup>n×t</sup>이고, n은 1년에 이자가 붙는 횟수예요.</p>
 
@@ -151,7 +158,7 @@ self_check: |
 
 <p>정확한 햇수는 ln 2 ÷ ln(1 + r)로 구했어요. <mark>6~10% 구간에서는 오차가 0.1년 안팎이라 암산용으로 충분해요.</mark></p>
 
-<p>이율이 2% 같은 낮은 구간에서는 1년 가까이 어긋나요. 그럴 땐 계산기를 쓰세요.</p>
+<p>이율이 2% 같은 낮은 구간에서는 1년 가까이 어긋나요. 그럴 땐 계산기로 정확한 햇수를 구하는 편이 나아요.</p>
 
 <h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">매달 넣는 적립식 계산</h2>
 <p>매달 일정액을 넣는 적립식은 한 번에 넣는 거치식과 식이 달라요. 월 납입액 M, 월 이율 i(연 이율 ÷ 12), 개월 수 n이면 월말 납입 기준 최종 금액은 M × ((1 + i)<sup>n</sup> - 1) ÷ i예요.</p>
@@ -170,12 +177,24 @@ self_check: |
 
 <p>30년 표에서는 <mark>이자가 1억 4,167만 7,591원으로 낸 원금 1억 800만 원보다 커요.</mark> 10년과 20년에서는 아직 이자가 원금보다 작아요.</p>
 
-<p>실제 적금은 월복리가 아니라 단리나 연복리인 상품도 많아요. 약관의 이자 계산 방식을 먼저 확인하세요.</p>
+<p>실제 적금은 월복리가 아니라 단리나 연복리인 상품도 많아요. 상품 약관에 적힌 이자 계산 방식이 실제로 적용돼요.</p>
 
 <div style="background:#fff8e6;border:2px solid #d4a017;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#7a5a00;font-size:18px;">✅ 계산 전에 확인할 것</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>이율이 세전인지 세후인지 적어 둬요.</li><li>이자가 붙는 주기(n)를 확인해요.</li><li>납입 시점이 월초인지 월말인지 맞춰요.</li></ul>
 </div>
+<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">주식 투자에서 복리가 작동하는 곳</h2>
+
+<p>복리는 예금에만 있는 게 아니에요. 주식 계좌에서는 세 군데에서 조용히 작동해요.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>배당 재투자:</strong> 받은 배당금으로 같은 주식을 더 사면, 다음 배당은 늘어난 주식 수에 붙어요. 이자에 이자가 붙는 구조와 같아요. 배당이 주가 대비 얼마인지는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-yield-calculation" target="_blank" rel="noopener">배당수익률 계산 글</a>에서 볼 수 있어요.</li>
+  <li><strong>수수료와 보수:</strong> 비용도 복리로 쌓여요. 연 5%로 30년 굴리면 1,000만 원이 약 4,322만 원인데, 해마다 보수로 0.5%p가 빠져 연 4.5%가 되면 약 3,745만 원이에요. 연 0.5%p 차이가 30년 뒤 최종 금액을 약 13% 줄여요(가상 계산). 보수 비교는 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison" target="_blank" rel="noopener">ETF 총보수 실부담 글</a>에 정리했어요.</li>
+  <li><strong>손실도 복리로 돌아요:</strong> 한 해 -20% 뒤 +20%가 와도 본전이 아니라 96%예요. 아래 "복리가 거꾸로 돌 때"가 이 이야기예요.</li>
+</ul>
+
+<p>주식 수익률은 예금처럼 해마다 일정하지 않아서, 위 표의 복리 금액이 그대로 나오지는 않아요. 시간이 길수록 작은 비율 차이가 크게 벌어진다는 구조만 같아요.</p>
+
 <h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">복리가 거꾸로 돌 때</h2>
 <p>수익률이 마이너스면 복리는 손실에도 곱셈으로 작용해요. 평균 수익률이 0%여도 원금이 줄어들 수 있어요.</p>
 
@@ -185,7 +204,7 @@ self_check: |
   <li>-50% 뒤에는 +100%가 있어야 본전이에요.</li>
 </ul>
 
-<p>하락률이 클수록 회복에 필요한 상승률이 훨씬 커져요. 하락 폭과 회복률은 <a href="https://sensitiveboss3.tistory.com/entry/max-drawdown-mdd-recovery-rate" target="_blank" rel="noopener">MDD 뜻 최대낙폭 계산과 회복률 표</a>에 표로 정리해 두었어요.</p>
+<p>하락률이 클수록 회복에 필요한 상승률이 훨씬 커져요. 50% 떨어진 돈이 본전이 되려면 100%가 올라야 하는 것도 같은 원리예요.</p>
 
 <p>이 글의 모든 금액은 계산 설명용 가상 값이에요. 이자와 배당에 붙는 세금은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>에서 확인하세요.</p>
 
@@ -213,62 +232,63 @@ self_check: |
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Article",
+  "headline": "복리 계산 공식과 단리 월복리 비교",
+  "description": "복리 계산 공식을 4단계로 풀고 단리와의 기간별 차이, 월복리와 연복리 차이, 72법칙 오차, 적립식 계산을 표로 정리했습니다.",
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "datePublished": "2026-10-02",
+  "dateModified": "2026-10-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/compound-interest-formula-simple-monthly"
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/compound-interest-formula-simple-monthly-1.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "Article",
-      "headline": "복리 계산 공식과 단리 월복리 비교",
-      "description": "복리 계산 공식을 4단계로 풀고 단리와의 기간별 차이, 월복리와 연복리 차이, 72법칙 오차, 적립식 계산을 표로 정리했습니다.",
-      "author": {
-        "@type": "Person",
-        "name": "센시티브보스"
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "센시티브보스"
-      },
-      "datePublished": "2026-10-02",
-      "dateModified": "2026-10-02",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://sensitiveboss3.tistory.com/entry/compound-interest-formula-simple-monthly"
+      "@type": "Question",
+      "name": "복리 계산기 없이 암산으로 대충 알 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "72법칙이 있어요. 72를 연 이율(%)로 나누면 원금이 2배 되는 햇수가 나와요. 연 6%면 12년이고, 정확한 계산은 11.90년이라 거의 같아요."
       }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "복리 계산기 없이 암산으로 대충 알 수 있나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "72법칙이 있어요. 72를 연 이율(%)로 나누면 원금이 2배 되는 햇수가 나와요. 연 6%면 12년이고, 정확한 계산은 11.90년이라 거의 같아요."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "복리 계산 공식에서 n은 무엇인가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1년에 이자가 붙는 횟수예요. 연복리는 1, 반기는 2, 분기는 4, 월복리는 12예요. 상품 설명서의 이자 계산 방식을 보고 정해요."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "수익률이 해마다 다르면 복리는 어떻게 계산하나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "해마다 (1 + 그해 수익률)을 차례로 곱해요. 예를 들어 -10%와 +10%면 0.9 × 1.1 = 0.99라서 처음보다 1% 줄어요. 평균 수익률로 곱하면 틀리니 CAGR 편의 방법으로 환산하세요."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "표의 금액은 실제로 받는 돈과 같은가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "아니에요. 표는 세금과 수수료를 빼기 전 계산값이에요. 이자·배당에 붙는 세금은 상품과 계좌에 따라 달라서 국세청 안내를 따로 확인해야 해요."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "복리 계산 공식에서 n은 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1년에 이자가 붙는 횟수예요. 연복리는 1, 반기는 2, 분기는 4, 월복리는 12예요. 상품 설명서의 이자 계산 방식을 보고 정해요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "수익률이 해마다 다르면 복리는 어떻게 계산하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "해마다 (1 + 그해 수익률)을 차례로 곱해요. 예를 들어 -10%와 +10%면 0.9 × 1.1 = 0.99라서 처음보다 1% 줄어요. 평균 수익률로 곱하면 틀리니 CAGR 편의 방법으로 환산하세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "표의 금액은 실제로 받는 돈과 같은가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아니에요. 표는 세금과 수수료를 빼기 전 계산값이에요. 이자·배당에 붙는 세금은 상품과 계좌에 따라 달라서 국세청 안내를 따로 확인해야 해요."
+      }
     }
   ]
 }
