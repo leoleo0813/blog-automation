@@ -142,7 +142,7 @@ self_check: |
   종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-28</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p>파생상품 양도소득세는 국내외 선물·옵션과 CFD(차액결제거래)에서 번 돈에 매기는 세금입니다. <mark>국내·해외·CFD 손익을 전부 합산한 뒤 연 250만원을 공제</mark>하고 남은 금액에 세율을 곱해 계산합니다. 이 글은 과세대상과 세율, 실제 숫자로 세금을 계산하는 방법까지 순서대로 정리합니다.</p>
 
@@ -291,7 +291,7 @@ self_check: |
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://www.nts.go.kr/tax/sub/1.5.4.%ED%8C%8C%EC%83%9D%EC%83%81%ED%92%88%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8%20%EC%8B%A0%EA%B3%A0%EB%82%A9%EB%B6%80%20%EC%95%88%EB%82%B4.html" target="_blank" rel="noopener">국세청 - 알기 쉬운 양도소득세(파생상품에 대한 양도소득세 신고납부 안내)</a>(사용자 캡처, 2026-09-28)</li>
     <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a></li>
-    <li>세율·과세대상 확대 연혁은 국세청 원문 캡처로 최종 확정했고, 그 외 배경 설명은 세무전문언론(한국세정신문)과 증권사 공식 신고안내·규정 자료를 교차확인해 정리했습니다. 자세한 기록은 저장소 sources/ 참고.</li>
+    <li>세율·과세대상 확대 연혁은 국세청 원문 캡처로 최종 확정했고, 그 외 배경 설명은 세무전문언론(한국세정신문)과 증권사 공식 신고안내·규정 자료를 교차확인해 정리했습니다.</li>
   </ul>
   <p style="margin:8px 0 0 0;">기준일: 2026-09-28(세율·과세대상 연혁은 사용자 캡처 국세청 원문 기준).</p>
 </div>
@@ -309,7 +309,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-26",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/derivatives-capital-gains-tax-calculation"

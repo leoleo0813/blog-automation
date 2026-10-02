@@ -104,7 +104,7 @@ self_check: |
   종합 판정: 게이트1~4 전부 충족 → gate_pass:true.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-25</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p>이월과세는 배우자나 부모·자녀에게 증여받은 주식을 짧은 기간 안에 팔면, 증여받은 사람이 아니라 <mark>원래 증여해 준 사람이 산 가격</mark>을 기준으로 양도소득세를 계산하는 특례입니다. 2025년부터 이 규정에 주식이 새로 포함됐는데, 부동산과 적용 기간이 달라 헷갈리기 쉽습니다. 이 글은 이월과세의 적용 기간과 실제 계산 방법을 정리합니다.</p>
 
@@ -239,7 +239,7 @@ self_check: |
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a>: 소득세법 제97조의2(양도소득의 필요경비 계산 특례)</li>
     <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 - 주식등 양도소득세(세액계산요령)</a></li>
-    <li>2025년 세법 개정에 따른 주식 이월과세 신설 편입 내용은 언론 보도(일간NTN)와 법무법인·회계법인 공개 자료를 교차확인해 정리했습니다(상세 기록은 저장소 sources/ 참고).</li>
+    <li>2025년 세법 개정에 따른 주식 이월과세 신설 편입 내용은 언론 보도(일간NTN)와 법무법인·회계법인 공개 자료를 교차확인해 정리했습니다.</li>
   </ul>
   <p style="margin:8px 0 0 0;">기준일: 2026년 9월 기준. 2025년 1월 1일 이후 증여받은 분부터 시행 중인 규정입니다.</p>
 </div>
@@ -257,7 +257,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-25",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/carryover-taxation-calculation"

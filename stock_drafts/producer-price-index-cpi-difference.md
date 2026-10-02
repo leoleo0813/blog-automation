@@ -41,9 +41,11 @@ self_check: |
   제목 "생산자물가지수 뜻과 소비자물가 차이" 18자, 금지어 없음. 슬러그 영문 소문자 하이픈 5단어.
   발표일은 "매월 잠정치 공개"로만 적고 일자는 적지 않음(미확인). 최신 월 지수값은 쓰지 않음. 2026년 6월 상승률(원재료 2.1%, 중간재·최종재 0.5%)은 검색 요약 기반이라 사람 대조 권장.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 5개, H2 6개 중 "~나요"형 0개(FAQ 질문 제외). 요약박스 초록색(#eef8f1/#3a9a5b), 제목 "🏭 공장 문 앞 물가, 핵심 세 줄". FAQ 헤딩 "물가 지표 헷갈릴 때 보는 질문 5개". 면책 문구 새 표현.
+refresh_due: 2026-10-02
+refresh_reason: "6월 수치 사용 중 — 최신 월 생산자물가 상승률(단계별 포함)과 기준월 표 추가"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-30</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p>생산자물가지수는 한국은행이 국내 생산자가 국내시장에 내놓는 상품과 서비스의 출하 가격 변화를 재서 2020년을 100으로 나타낸 지표입니다. 소비자가 매장에서 내는 가격이 아니라 기업끼리 거래하는 1차 단계 가격을 본다는 점이 소비자물가지수와 다릅니다. 이 글은 두 지표의 범위 차이와 계산 방식, 뉴스에 나오는 원재료·중간재·최종재 구분을 순서대로 정리합니다.</p>
 
@@ -89,7 +91,7 @@ self_check: |
     <tr><td style="border:1px solid #ddd;padding:8px;">조사 품목 수</td><td style="border:1px solid #ddd;padding:8px;">886개(2025년 기준)</td><td style="border:1px solid #ddd;padding:8px;">458개(2020년 기준 지수)</td></tr>
     </tbody>
 </table>
-<p>범위 설명은 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=1411" target="_blank" rel="noopener">기획재정부 시사경제용어사전</a>과 CME 교육 자료, 한국은행 자료가 같은 방향으로 설명합니다. 소비자물가 쪽 품목 수는 이 저장소의 소비자물가지수 편에서 확인한 수치입니다.</p>
+<p>범위 설명은 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=1411" target="_blank" rel="noopener">기획재정부 시사경제용어사전</a>과 CME 교육 자료, 한국은행 자료가 같은 방향으로 설명합니다. 소비자물가 쪽 품목 수는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법 글</a>에서 정리한 수치입니다.</p>
 <div style="background:#eef8f1;border:2px solid #3a9a5b;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1f5e38;font-size:18px;">📝 비교할 때 주의할 점</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;">
@@ -207,7 +209,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-09-30",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/producer-price-index-cpi-difference"

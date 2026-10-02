@@ -96,7 +96,7 @@ self_check: |
   종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-18</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p><mark>양도소득세가 1,000만원을 넘으면 한 번에 다 내지 않고 나눠 낼 수 있습니다.</mark> 해외주식이나 대주주 국내주식을 팔아 세금이 크게 나왔을 때 알아두면 유용한 제도입니다. 분납이 가능한 기준금액과 신청 방법을 정리했습니다.</p>
 
@@ -173,7 +173,7 @@ self_check: |
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>신고를 늦게 했을 때 붙는 가산세가 궁금하다면</b>
-  <p style="margin:8px 0 0 0;">분납은 "제때 신고했지만 낼 돈이 커서 나눠 내는 것"이고, 신고 자체를 놓쳤을 때 붙는 가산세는 별개입니다. 신고 기한을 놓친 경우는 <a href="https://sensitiveboss3.tistory.com/entry/gift-tax-late-filing-penalty" target="_blank" rel="noopener">증여세 기한후신고 가산세 계산 방법</a>에서 다룬 무신고가산세·납부지연가산세 구조와 원리가 비슷합니다.</p>
+  <p style="margin:8px 0 0 0;">분납은 "제때 신고했지만 낼 돈이 커서 나눠 내는 것"이고, 신고 자체를 놓쳤을 때 붙는 가산세는 별개입니다. 신고 기한을 놓친 경우에는 무신고가산세와 납부지연가산세가 따로 붙습니다.</p>
 </div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납을 신청 안 하면 어떻게 되나요</h2>
@@ -248,7 +248,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-17",
-  "dateModified": "2026-09-18",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/capital-gains-tax-installment-payment"
