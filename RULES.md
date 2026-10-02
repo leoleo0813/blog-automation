@@ -266,9 +266,15 @@
 - 만드는 법: `assets/figures/<slug>-1.svg`로 SVG를 그리고(루트에 width·height, 한글
   폰트는 make_thumbnail.py의 FONT_STACK, 흰 배경, 글자 22px 이상 — 휴대폰에서 읽혀야 함)
   `python -m blog_automation.make_figure assets/figures/<slug>-1.svg`로 PNG를 만든다.
-- 본문에는 이렇게 넣는다(사용자가 발행할 때 그 자리에 PNG를 업로드해 교체한다):
-  `<figure style="margin:24px 0;"><img src="assets/figures/<slug>-1.png" alt="(그림 내용 설명)" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: (기관명), (기준일)</figcaption></figure>`
-- 파일명 영문-하이픈. alt는 화면·그래프 내용 설명. 발행 후 PNG는 지워도 된다(SVG만 남김).
+- 본문에는 **GitHub 원본 주소(전체 URL)**로 넣는다. 저장소가 공개라서 사용자가 HTML을
+  티스토리에 붙여 넣기만 하면 그림이 바로 보인다 — 사용자가 따로 업로드하는 단계는 없다.
+  상대경로(`assets/...`)는 티스토리에서 깨지므로 금지(lint_draft가 막는다).
+  `<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/<slug>-1.png" alt="(그림 내용 설명)" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: (기관명), (기준일)</figcaption></figure>`
+- PNG는 **반드시 초안과 같은 커밋으로 push**한다(push 전엔 주소가 404).
+- 파일명 영문-하이픈. alt는 화면·그래프 내용 설명.
+- **assets/figures/는 지우지 않는다.** 발행된 글이 이 주소에서 그림을 불러오므로, 지우면
+  티스토리 글의 그림이 깨진다(썸네일 정리 때처럼 용량 정리 대상이 아님). 저장소를
+  비공개로 바꿔도 그림이 깨진다.
 
 ## 문장 (GEO)
 - 각 섹션 첫문장=결론. 한 문장에 사실 1개. 대명사 대신 고유명사. 숫자엔 단위.

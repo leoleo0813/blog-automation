@@ -19,6 +19,8 @@ import yaml
 
 SERIES = Path('stock_beginner_series.json')
 BLOG = 'https://sensitiveboss3.tistory.com/entry/'
+# 저장소가 공개라 본문 그림은 여기서 바로 불러온다(RULES.md 「이미지」).
+RAW = 'https://raw.githubusercontent.com/leoleo0813/blog-automation/main/'
 
 # 독자에게 보이면 안 되는 작업용 표현(83·86·107편에서 실제로 노출됐다).
 INTERNAL_WORDS = ['저장소', 'sources/', '초안', '게이트', 'gate_pass', 'self_check', '루틴']
@@ -59,8 +61,12 @@ def lint(path, series):
     if not imgs:
         fails.append("본문 이미지 0장 (썸네일 제외 최소 1장)")
     for src in imgs:
-        if src.startswith('assets/') and not Path(src).exists():
-            fails.append(f"이미지 파일 없음: {src}")
+        if src.startswith(RAW):
+            local = src[len(RAW):]
+            if not Path(local).exists():
+                fails.append(f"이미지 파일 없음(같은 커밋으로 push할 것): {local}")
+        elif not src.startswith('http'):
+            fails.append(f"상대경로 이미지(티스토리에서 깨짐, GitHub 원본 주소로): {src}")
 
     targets = re.findall(re.escape(BLOG) + r'([^"#?]+)', html)
     usable = 0
