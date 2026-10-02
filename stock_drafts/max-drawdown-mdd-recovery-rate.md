@@ -18,6 +18,7 @@ unique_asset: |
   (b) 낙폭 10~70% 구간별 회복에 필요한 수익률 표(10%→11.1%, 20%→25.0%, 35%→53.8%, 50%→100.0%).
   (c) 원금 1억 원 가정 MDD -12%·-35%·-50%별 최저 평가액과 감소 금액 비교 표.
   (d) 시작가 기준과 고점 기준 계산 차이(-4% vs -20%) 비교.
+  (추가 2026-10-02) 15개월 평가액·최고점 꺾은선 그래프 1장(가상), MDD를 금액으로 바꾸는 설명.
 primary_source: |
   MDD는 기관이 수치를 공표하는 지표가 아니라 수학적 정의라서 1차 수치 출처가 따로 없다.
   금융투자협회 용어사전(kofia.or.kr) WebFetch 1회 시도, EGRESS_BLOCKED.
@@ -39,6 +40,9 @@ self_check: |
   글 구조 유형: 계산형(목차 직후 첫 H2의 첫 블록이 계산 박스, 설명 문단보다 먼저). 직전 114·113은 비교형, 112가 계산형이나 3편 연속 아님. 첫 H2의 첫 블록은 계산 박스.
   어투 모드: A 해설형(합쇼체 단정). 직전 114·113 B 대화형, 112 C 사례형과 다름. 꾸며낸 1인칭 경험 없음. 섹션마다 20자 이하 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 5개, FAQ 6개(직전 114 7·113 5와 다름), H2 5개 중 "~나요"형 1개. 요약박스 주황(#fff3e8/#d9731a), 제목 "🔢 계산 결과부터", 마무리 박스 "📝 남겨 둘 계산 세 가지". FAQ 헤딩 "MDD 숫자 앞에서 묻게 되는 것들"(걸리는·막히는·세 줄·의문 어휘 회피). 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  그림 1장(평가액과 최고점 간격으로 MDD 표시). 말로만 언급하던 "CAGR 편"(111편 gate_pass:false라 링크 불가) 문장 삭제, "리밸런싱 뜻 편"은 링크로 교체. 111편 발행 후 CAGR 링크 다시 추가할 것.
+  "펀드·ETF를 고를 때 MDD를 쓰는 법" H2 추가(같은 기간 비교·레버리지·금액 환산, 추천 없음). 내부 링크 3개(10·40·81편 발행 완료). gate_pass:false 사유(게이트4)는 그대로.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
@@ -57,6 +61,7 @@ self_check: |
   <li>낙폭 회복에 필요한 수익률 표</li>
   <li>같은 원금에서 MDD가 다르면 생기는 차이</li>
   <li>MDD가 알려 주지 못하는 것</li>
+  <li>펀드·ETF를 고를 때 MDD를 쓰는 법</li>
 </ol>
 
 <h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">가상 계좌 15개월 기록으로 MDD 구하기</h2>
@@ -95,6 +100,8 @@ self_check: |
 <p>5월차에도 -20%까지 내려갔지만 MDD는 아닙니다. 더 깊은 낙폭이 11월차에 나왔기 때문입니다.</p>
 
 <p>최고점 13,000원은 8월차에 생겼고, 11월차 8,450원에서 3개월 뒤인 14월차에 13,000원을 되찾았습니다. 고점에서 다음 고점까지 6개월이 걸린 셈입니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/max-drawdown-mdd-recovery-rate-1.png" alt="가상 계좌 15개월 평가액과 그때까지의 최고점 꺾은선 그래프. 5월차에 고점 대비 -20퍼센트, 8월차 최고점 13,000원 이후 11월차 8,450원으로 -35퍼센트가 MDD, 14월차에 13,000원 회복" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 계좌 기록</figcaption></figure>
 
 <h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD 공식과 부호 읽는 법</h2>
 
@@ -154,7 +161,7 @@ self_check: |
 
 <p>그래서 수익률과 MDD를 나란히 놓고 봅니다. 수익률은 얼마나 벌었는지, MDD는 그동안 얼마나 흔들렸는지를 보여 줍니다.</p>
 
-<p>연평균 수익률 계산이 궁금하다면 <strong>CAGR 뜻 연평균 수익률 구하는 순서</strong> 편을, 자산 비중을 맞추는 방법은 <strong>리밸런싱 뜻</strong> 편을 함께 보면 이어집니다.</p>
+<p>자산 비중을 정기적으로 다시 맞춰 한쪽으로 쏠린 위험을 줄이는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/rebalancing-account-tax-difference" target="_blank" rel="noopener">리밸런싱 뜻 글</a>에서 이어집니다.</p>
 
 <h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD가 알려 주지 못하는 것</h2>
 
@@ -173,6 +180,18 @@ self_check: |
   <strong style="color:#8a4a0e;font-size:18px;">📝 남겨 둘 계산 세 가지</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>낙폭 = (현재 평가액 - 그때까지 최고점) ÷ 그때까지 최고점, 그중 가장 작은 값이 MDD입니다.</li><li>회복에 필요한 상승률 = 낙폭 ÷ (1 - 낙폭)입니다. -50%면 +100%입니다.</li><li>수익률과 MDD는 함께 놓고, 측정 기간이 같은지부터 확인합니다.</li></ul>
 </div>
+
+<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">펀드·ETF를 고를 때 MDD를 쓰는 법</h2>
+
+<p>MDD는 상품 설명서나 비교 사이트에서 수익률 옆에 붙어 나오는 경우가 많습니다. 주식 투자자가 쓰는 자리는 세 군데입니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>같은 기간끼리 비교:</strong> 한 상품은 최근 3년, 다른 상품은 최근 10년 MDD라면 비교가 되지 않습니다. 긴 기간에는 큰 하락장이 들어 있을 가능성이 높아서 MDD가 깊게 나옵니다.</li>
+  <li><strong>레버리지 상품의 낙폭:</strong> 기초지수의 하루 수익률을 두 배로 따라가는 상품은 하락 구간에서 낙폭도 커지고, 회복에 필요한 상승률은 위 표처럼 더 가파르게 늘어납니다. 상품 구조는 <a href="https://sensitiveboss3.tistory.com/entry/leveraged-inverse-etf-deposit" target="_blank" rel="noopener">곱버스 뜻 글</a>에 정리했습니다.</li>
+  <li><strong>내가 버틸 금액으로 바꾸기:</strong> MDD -35%를 1억 원 계좌에 대면 3,500만 원이 줄어든 화면을 보게 된다는 뜻입니다. 이 금액을 견딜 수 있는지가 숫자보다 먼저입니다.</li>
+</ul>
+
+<p>과거 MDD가 작았던 상품이 앞으로도 덜 빠진다는 보장은 없습니다. 비용까지 함께 비교하려면 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison" target="_blank" rel="noopener">ETF 총보수 실부담 글</a>의 방식을 같이 쓰면 됩니다.</p>
 
 <h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD 숫자 앞에서 묻게 되는 것들</h2>
 
@@ -197,27 +216,79 @@ self_check: |
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Article",
+  "headline": "MDD 뜻 최대낙폭 계산과 회복률 표",
+  "description": "MDD 뜻과 최대낙폭 공식을 가상 15개월 기록으로 계산하고, 낙폭별 회복에 필요한 상승률과 원금 1억 원 기준 비교 표를 정리했습니다.",
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "datePublished": "2026-10-02",
+  "dateModified": "2026-10-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/max-drawdown-mdd-recovery-rate"
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/max-drawdown-mdd-recovery-rate-1.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "Article",
-      "headline": "MDD 뜻 최대낙폭 계산과 회복률 표",
-      "description": "MDD 뜻과 최대낙폭 공식을 가상 15개월 기록으로 계산하고, 낙폭별 회복에 필요한 상승률과 원금 1억 원 기준 비교 표를 정리했습니다.",
-      "author": {"@type": "Person", "name": "센시티브보스"},
-      "publisher": {"@type": "Person", "name": "센시티브보스"},
-      "datePublished": "2026-10-02",
-      "dateModified": "2026-10-02",
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sensitiveboss3.tistory.com/entry/max-drawdown-mdd-recovery-rate"}
+      "@type": "Question",
+      "name": "MDD는 작을수록 좋은 건가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "절댓값이 작을수록 고점에서 덜 내려갔다는 뜻입니다. 수익률이 낮아서 덜 흔들린 것일 수 있으므로 수익률과 함께 비교해야 합니다."
+      }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "MDD는 작을수록 좋은 건가요?", "acceptedAnswer": {"@type": "Answer", "text": "절댓값이 작을수록 고점에서 덜 내려갔다는 뜻입니다. 수익률이 낮아서 덜 흔들린 것일 수 있으므로 수익률과 함께 비교해야 합니다."}},
-        {"@type": "Question", "name": "MDD가 -35%면 35% 손실이 확정된 건가요?", "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 고점 대비 평가액이 최대 35% 내려갔던 시점이 있었다는 기록입니다. 그 시점에 팔지 않았다면 손실로 확정되지 않았습니다."}},
-        {"@type": "Question", "name": "시작 가격을 기준으로 계산하면 안 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "안 됩니다. 이 글의 가상 기록에서 5월차 9,600원은 시작가 기준 -4%지만 직전 최고점 12,000원 기준으로는 -20%입니다. MDD는 직전 최고점 기준입니다."}},
-        {"@type": "Question", "name": "기간을 길게 잡으면 MDD가 더 커지나요?", "acceptedAnswer": {"@type": "Answer", "text": "같거나 커집니다. 구간이 늘어나면 더 깊은 낙폭이 포함될 수 있고, 이미 계산한 낙폭이 사라지지는 않기 때문입니다."}},
-        {"@type": "Question", "name": "엑셀로 MDD를 구할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "가능합니다. 평가액 열 옆에 =MAX($B$2:B2)로 누적 최고점, 그 옆에 =B2/C2-1로 낙폭을 채우고 낙폭 열의 MIN 값을 보면 이 글의 표와 같은 -35.00%가 나옵니다."}},
-        {"@type": "Question", "name": "펀드나 ETF의 MDD는 어디서 보나요?", "acceptedAnswer": {"@type": "Answer", "text": "일부 펀드 평가 서비스와 증권사 화면이 MDD를 보여 주지만 표시 여부와 계산 기간이 서비스마다 다릅니다. 표시가 없다면 기준가 기록을 내려받아 위 방법으로 직접 계산할 수 있습니다."}}
-      ]
+      "@type": "Question",
+      "name": "MDD가 -35%면 35% 손실이 확정된 건가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아닙니다. 고점 대비 평가액이 최대 35% 내려갔던 시점이 있었다는 기록입니다. 그 시점에 팔지 않았다면 손실로 확정되지 않았습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "시작 가격을 기준으로 계산하면 안 되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "안 됩니다. 이 글의 가상 기록에서 5월차 9,600원은 시작가 기준 -4%지만 직전 최고점 12,000원 기준으로는 -20%입니다. MDD는 직전 최고점 기준입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "기간을 길게 잡으면 MDD가 더 커지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "같거나 커집니다. 구간이 늘어나면 더 깊은 낙폭이 포함될 수 있고, 이미 계산한 낙폭이 사라지지는 않기 때문입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "엑셀로 MDD를 구할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "가능합니다. 평가액 열 옆에 =MAX($B$2:B2)로 누적 최고점, 그 옆에 =B2/C2-1로 낙폭을 채우고 낙폭 열의 MIN 값을 보면 이 글의 표와 같은 -35.00%가 나옵니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "펀드나 ETF의 MDD는 어디서 보나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "일부 펀드 평가 서비스와 증권사 화면이 MDD를 보여 주지만 표시 여부와 계산 기간이 서비스마다 다릅니다. 표시가 없다면 기준가 기록을 내려받아 위 방법으로 직접 계산할 수 있습니다."
+      }
     }
   ]
 }

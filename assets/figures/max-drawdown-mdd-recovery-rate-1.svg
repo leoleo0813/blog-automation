@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">가상 계좌 15개월: 평가액과 그때까지의 최고점</text>
+<text x="70" y="122" font-size="25" fill="#666">두 선의 간격이 낙폭 · 가장 벌어진 11월차가 MDD -35% · 단위 원</text>
+<line x1="130" y1="570" x2="1130" y2="570" stroke="#eee" stroke-width="2"/>
+<text x="116" y="578" font-size="21" text-anchor="end" fill="#777">6,000</text>
+<line x1="130" y1="475" x2="1130" y2="475" stroke="#eee" stroke-width="2"/>
+<text x="116" y="483" font-size="21" text-anchor="end" fill="#777">8,000</text>
+<line x1="130" y1="380" x2="1130" y2="380" stroke="#eee" stroke-width="2"/>
+<text x="116" y="388" font-size="21" text-anchor="end" fill="#777">10,000</text>
+<line x1="130" y1="285" x2="1130" y2="285" stroke="#eee" stroke-width="2"/>
+<text x="116" y="293" font-size="21" text-anchor="end" fill="#777">12,000</text>
+<line x1="130" y1="190" x2="1130" y2="190" stroke="#eee" stroke-width="2"/>
+<text x="116" y="198" font-size="21" text-anchor="end" fill="#777">14,000</text>
+<text x="130" y="608" font-size="21" text-anchor="middle" fill="#555">0</text>
+<text x="201" y="608" font-size="21" text-anchor="middle" fill="#555">1</text>
+<text x="273" y="608" font-size="21" text-anchor="middle" fill="#555">2</text>
+<text x="344" y="608" font-size="21" text-anchor="middle" fill="#555">3</text>
+<text x="416" y="608" font-size="21" text-anchor="middle" fill="#555">4</text>
+<text x="487" y="608" font-size="21" text-anchor="middle" fill="#555">5</text>
+<text x="559" y="608" font-size="21" text-anchor="middle" fill="#555">6</text>
+<text x="630" y="608" font-size="21" text-anchor="middle" fill="#555">7</text>
+<text x="701" y="608" font-size="21" text-anchor="middle" fill="#555">8</text>
+<text x="773" y="608" font-size="21" text-anchor="middle" fill="#555">9</text>
+<text x="844" y="608" font-size="21" text-anchor="middle" fill="#555">10</text>
+<text x="916" y="608" font-size="21" text-anchor="middle" fill="#555">11</text>
+<text x="987" y="608" font-size="21" text-anchor="middle" fill="#555">12</text>
+<text x="1059" y="608" font-size="21" text-anchor="middle" fill="#555">13</text>
+<text x="1130" y="608" font-size="21" text-anchor="middle" fill="#555">14</text>
+<polyline points="130,380 201,342 273,309 344,285 416,342 487,399 559,361 630,294 701,238 773,299 844,423 916,454 987,385 1059,332 1130,238" fill="none" stroke="#1a2744" stroke-width="5" stroke-linejoin="round"/>
+<rect x="130" y="628" width="30" height="8" fill="#1a2744"/>
+<text x="170" y="638" font-size="23" fill="#333">평가액</text>
+<polyline points="130,380 201,342 273,309 344,285 416,285 487,285 559,285 630,285 701,238 773,238 844,238 916,238 987,238 1059,238 1130,238" fill="none" stroke="#9aa0a6" stroke-width="5" stroke-linejoin="round"/>
+<rect x="430" y="628" width="30" height="8" fill="#9aa0a6"/>
+<text x="470" y="638" font-size="23" fill="#333">그때까지 최고점</text>
+<circle cx="916" cy="454" r="9" fill="#c0392b"/>
+<text x="902" y="500" font-size="24" font-weight="bold" fill="#c0392b" text-anchor="end">MDD -35% (13,000 → 8,450원)</text>
+<circle cx="487" cy="399" r="9" fill="#e67e22"/>
+<text x="501" y="439" font-size="24" font-weight="bold" fill="#e67e22" text-anchor="start">-20%</text>
+<text x="70" y="692" font-size="21" fill="#888">계산 예시: 본문 가상 계좌 기록(실제 상품 아님). 가로축은 월차</text>
+</g></svg>
