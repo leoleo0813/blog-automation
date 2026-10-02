@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="80" y="80" font-size="38" font-weight="bold" fill="#111">2026년 8월, 같은 달 두 물가 상승률</text>
+<text x="80" y="128" font-size="26" fill="#666">전년 동월 대비 · 단위 %</text>
+<line x1="80" y1="560" x2="1120" y2="560" stroke="#999" stroke-width="2"/>
+<rect x="240" y="244" width="260" height="316" fill="#1a2744" rx="6"/>
+<text x="370" y="224" font-size="44" font-weight="bold" text-anchor="middle" fill="#111">7.9%</text>
+<text x="370" y="610" font-size="30" text-anchor="middle" fill="#333">생산자물가지수</text>
+<rect x="660" y="436.0" width="260" height="124.0" fill="#8aa4d6" rx="6"/>
+<text x="790" y="416.0" font-size="44" font-weight="bold" text-anchor="middle" fill="#111">3.1%</text>
+<text x="790" y="610" font-size="30" text-anchor="middle" fill="#333">소비자물가지수</text>
+<text x="80" y="670" font-size="22" fill="#888">자료: 한국은행 2026년 8월 생산자물가지수(잠정), e-나라지표 소비자물가지수</text>
+</g></svg>
