@@ -4,7 +4,7 @@ title: 공포탐욕지수 7개 지표와 점수 계산 구조
 slug: fear-greed-index-seven-indicators
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3520 (PC 870 / 모바일 2650, 2026-10-02 실측)
+monthly_search_volume: 3520 (PC 870 / 모바일 2650)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-02 - 통과]
