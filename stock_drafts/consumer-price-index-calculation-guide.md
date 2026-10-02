@@ -25,14 +25,14 @@ primary_source: |
   국가데이터처 보도자료 "2022년 기준 소비자물가지수 가중치 개편 결과"(mods.go.kr 게시, 2023-12-19) 원문 화면을 사람이
   캡처해 확인했다(2026-10-02). 부문별 가중치 5개(131.3→144.7, 57.5→62.9, 106.0→110.6, 154.5→142.0, 53.9→45.6),
   "2023년 12월 소비자물가동향부터 2022년 기준 가중치 적용", 2023년 11월 전년누계비 3.6%(2022년 기준)와 3.7%(2020년 기준)가
-  본문과 일치한다. 근원물가 품목 수(401개/309개)와 458개 품목, 가중치 총합 1,000은 원문 캡처 범위 밖이라 통계설명자료·
+  본문과 일치한다. 근원물가 401개, 458개 품목, 2020=100, 1,000분비는 사람이 올린 e-나라지표 엑셀(2026-10-02 갱신)로 확인했다. 309개(식료품·에너지 제외)는 엑셀에 품목 수가 없어 통계설명자료·
   아시아경제·더스쿠프·뉴스핌 검색 요약의 일치로 확인했다(원문 WebFetch는 EGRESS_BLOCKED).
-기준일: 2026년 9월 기준 (가중치는 2022년 기준 가중치, 2023년 12월 동향부터 적용. 계산 예시는 전부 가상)
+기준일: 2026년 9월 기준 (가중치는 2022년 기준 가중치, 2023년 12월 동향부터 적용. 최근 물가 표는 e-나라지표 2026-10-02 갱신분. 계산 예시는 전부 가상)
 tags: 소비자물가지수, 소비자물가지수 계산, 물가상승률 계산, 근원물가지수, CPI, 소비자물가 가중치, 물가지수 보는 법, 국가데이터처, 인플레이션, 구매력
 gate_pass: true
 gate_pass_note: |
   게이트1 8,460회, 게이트2 v3 통과, 게이트3 계산 예시·비교표 확보. 게이트4는 가중치 표·적용 시기·상승률을 사람이 올린 원문
-  캡처로 대조 완료(2026-10-02). 남은 확인은 근원물가 401개/309개 품목 수(검색 요약 다수 일치)뿐이며 발행을 막을 정도는 아니다.
+  캡처로 대조 완료(2026-10-02). 남은 확인은 식료품·에너지 제외지수 309개 품목 수(검색 요약 다수 일치)뿐이며 발행을 막을 정도는 아니다.
   원문 게시일이 2023-12-19라 본문은 "2023년 12월 적용분"으로 한정해 서술하고 이후 개편 여부는 최신 공지 확인을 안내했다.
 capture_guide: ""
 self_check: |
@@ -47,13 +47,13 @@ self_check: |
   첫 문장 유형: 결론형 정의문. 직전 99편 결론형과 유사하나 수치·구조가 다름.
   글 구조 유형: 절차형(본문 첫 섹션을 ol 5단계로 시작). 직전 99·98·97편(비교·계산·비교)과 다름.
   발표 시기는 "매월 발표"로만 적고 요일·일자는 적지 않았다(미확인).
-  AI 티 점검: em대시 0개, 다만 0회, mark 밀도 3개, FAQ 5개, H2 6개 중 "~나요"형 0개(FAQ 질문 제외).
+  AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 5개, H2 6개 중 "~나요"형 0개(FAQ 질문 제외).
   요약박스 황토색(#fff6e8/#d98200), 제목 "🧮 물가 숫자, 이것만 챙기세요". FAQ 헤딩 "물가 지표, 자주 걸리는 질문". 면책 문구 새 표현. 헤지 표현 최소화.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-09-29</p>
 
-<p>소비자물가지수는 458개 품목의 가격 변화를 가구의 평균 지출 비중으로 가중 평균해 2020년을 100으로 나타낸 수치입니다. 뉴스에 나오는 물가상승률은 이 지수가 전년 동월보다 몇 퍼센트 변했는지를 계산한 값입니다. 이 글은 계산 방법과 근원물가지수, 가중치 개편까지 확인하는 순서대로 정리합니다.</p>
+<p>소비자물가지수는 458개 품목의 가격 변화를 도시 가구의 평균 지출 비중으로 가중 평균해 2020년을 100으로 나타낸 수치입니다. 뉴스에 나오는 물가상승률은 이 지수가 전년 동월보다 몇 퍼센트 변했는지를 계산한 값입니다. 이 글은 계산 방법과 근원물가지수, 가중치 개편까지 확인하는 순서대로 정리합니다.</p>
 
 <div style="background:#fff6e8;border:2px solid #d98200;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#8a4f00;font-size:18px;">🧮 물가 숫자, 이것만 챙기세요</strong>
@@ -69,6 +69,7 @@ self_check: |
   <li>물가 뉴스를 읽는 5단계 순서</li>
   <li>지수는 어떻게 계산하는가</li>
   <li>물가상승률 3%가 내 돈에 뜻하는 것</li>
+  <li>최근 물가상승률 흐름 표로 보기</li>
   <li>근원물가지수가 따로 있는 이유</li>
   <li>가중치 개편으로 달라진 것</li>
   <li>물가 지표, 자주 걸리는 질문</li>
@@ -127,6 +128,36 @@ self_check: |
   <li>은행 이자율이 물가상승률보다 낮으면 명목 금액은 늘어도 살 수 있는 양은 줄어듭니다.</li>
 </ul>
 
+<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">최근 물가상승률 흐름 표로 보기</h2>
+<p>2026년 9월 소비자물가상승률은 전년 동월 대비 2.9%였고, 같은 달 근원물가는 2.7%, 생활물가는 2.5%였습니다. 아래 표는 e-나라지표에 게시된 전년비·전년동월비 수치입니다.</p>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">연도</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">소비자물가</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">근원물가</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">생활물가</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2021</td><td style="border:1px solid #ddd;padding:8px;">2.5%</td><td style="border:1px solid #ddd;padding:8px;">1.8%</td><td style="border:1px solid #ddd;padding:8px;">3.2%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2022</td><td style="border:1px solid #ddd;padding:8px;">5.1%</td><td style="border:1px solid #ddd;padding:8px;">4.1%</td><td style="border:1px solid #ddd;padding:8px;">6.0%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2023</td><td style="border:1px solid #ddd;padding:8px;">3.6%</td><td style="border:1px solid #ddd;padding:8px;">4.0%</td><td style="border:1px solid #ddd;padding:8px;">3.9%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2024</td><td style="border:1px solid #ddd;padding:8px;">2.3%</td><td style="border:1px solid #ddd;padding:8px;">2.1%</td><td style="border:1px solid #ddd;padding:8px;">2.7%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2025</td><td style="border:1px solid #ddd;padding:8px;">2.1%</td><td style="border:1px solid #ddd;padding:8px;">2.2%</td><td style="border:1px solid #ddd;padding:8px;">2.4%</td></tr>
+  </tbody>
+</table>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">2026년</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">소비자물가</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">근원물가</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">생활물가</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">4월</td><td style="border:1px solid #ddd;padding:8px;">2.6%</td><td style="border:1px solid #ddd;padding:8px;">2.2%</td><td style="border:1px solid #ddd;padding:8px;">2.9%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">5월</td><td style="border:1px solid #ddd;padding:8px;">3.1%</td><td style="border:1px solid #ddd;padding:8px;">2.5%</td><td style="border:1px solid #ddd;padding:8px;">3.3%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">6월</td><td style="border:1px solid #ddd;padding:8px;">3.2%</td><td style="border:1px solid #ddd;padding:8px;">2.4%</td><td style="border:1px solid #ddd;padding:8px;">3.4%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">7월</td><td style="border:1px solid #ddd;padding:8px;">2.8%</td><td style="border:1px solid #ddd;padding:8px;">2.5%</td><td style="border:1px solid #ddd;padding:8px;">2.5%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">8월</td><td style="border:1px solid #ddd;padding:8px;">3.1%</td><td style="border:1px solid #ddd;padding:8px;">3.1%</td><td style="border:1px solid #ddd;padding:8px;">3.2%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">9월</td><td style="border:1px solid #ddd;padding:8px;"><mark>2.9%</mark></td><td style="border:1px solid #ddd;padding:8px;">2.7%</td><td style="border:1px solid #ddd;padding:8px;">2.5%</td></tr>
+  </tbody>
+</table>
+<p>2022년에는 소비자물가가 5.1%, 생활물가가 6.0%까지 올랐고 2024년부터는 2%대로 내려왔습니다. 2026년 4월부터 9월까지는 2.6%에서 3.2% 사이를 오갔습니다.</p>
+<p>생활물가지수는 소비자가 자주 구입하는 기본 생필품 144개 품목으로 만든 지수입니다. 이 표의 "근원물가"는 e-나라지표 설명 기준으로 농산물 및 석유류 제외지수입니다. 최신 값은 <a href="https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1060" target="_blank" rel="noopener">e-나라지표</a>에서 확인하세요.</p>
+
 <h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">근원물가지수가 따로 있는 이유</h2>
 <p>근원물가지수는 날씨나 국제유가처럼 일시적 요인으로 크게 출렁이는 품목을 빼고 물가의 기조를 보려는 지표입니다. 우리나라는 두 가지 방식으로 작성합니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -166,7 +197,7 @@ self_check: |
 </details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">내가 느끼는 물가와 지수가 다른 이유는 무엇인가요</summary>
-  <p style="margin:10px 0 0 0;">지수는 458개 품목을 전체 가구의 평균 소비 비중(가중치)으로 합산한 값이기 때문입니다. 월세, 자녀 교육비, 차량 유지비처럼 내 지출 비중이 평균과 다르면 체감과 지수가 벌어질 수 있습니다.</p>
+  <p style="margin:10px 0 0 0;">지수는 458개 품목을 도시 가구의 평균 소비 비중(가중치)으로 합산한 값이고, 특정 가구나 계층을 기준으로 하지 않기 때문입니다. 월세, 자녀 교육비, 차량 유지비처럼 내 지출 비중이 평균과 다르면 체감과 지수가 벌어질 수 있고, 체감에 가까운 별도 지표로 생활물가지수(144개 품목)가 있습니다.</p>
 </details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">미국 CPI와 한국 소비자물가지수는 같은 지표인가요</summary>
@@ -190,7 +221,7 @@ self_check: |
     <li><a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156606275" target="_blank" rel="noopener">대한민국 정책브리핑 - 2022년 기준 소비자물가지수 가중치 개편 결과</a></li>
     <li><a href="https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1060" target="_blank" rel="noopener">e-나라지표 - 소비자물가 및 생활물가지수 설명</a></li>
   </ul>
-  기준일: 2026년 9월 기준. 본문의 계산 예시(부문 지수, 가중치, 1년 전 100만 원 장바구니)는 이해를 돕기 위한 가상의 숫자이며 실제 통계가 아닙니다.
+  기준일: 2026년 9월 물가 기준(e-나라지표 2026-10-02 갱신). 본문의 계산 예시(부문 지수, 가중치, 1년 전 100만 원 장바구니)는 이해를 돕기 위한 가상의 숫자이며 실제 통계가 아닙니다.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
@@ -238,7 +269,7 @@ self_check: |
       "name": "내가 느끼는 물가와 지수가 다른 이유는 무엇인가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "지수는 458개 품목을 전체 가구의 평균 소비 비중(가중치)으로 합산한 값이기 때문입니다. 월세, 자녀 교육비, 차량 유지비처럼 내 지출 비중이 평균과 다르면 체감과 지수가 벌어질 수 있습니다."
+        "text": "지수는 458개 품목을 도시 가구의 평균 소비 비중(가중치)으로 합산한 값이고, 특정 가구나 계층을 기준으로 하지 않기 때문입니다. 월세, 자녀 교육비, 차량 유지비처럼 내 지출 비중이 평균과 다르면 체감과 지수가 벌어질 수 있고, 체감에 가까운 별도 지표로 생활물가지수(144개 품목)가 있습니다."
       }
     },
     {
