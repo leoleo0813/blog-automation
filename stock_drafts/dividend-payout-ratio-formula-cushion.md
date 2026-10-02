@@ -17,6 +17,7 @@ unique_asset: |
   (a) 가상 두 회사(배당성향 40%·90%, 배당수익률 4.0% 동일) 지표 비교표.
   (b) 순이익 25% 감소 시 배당성향 유지 vs DPS 유지 시나리오 표(가나다전자 53.3%, 라마바화학 120.0%, 주당 300원 초과 지급).
   (c) 배당수익률 = 배당성향 ÷ PER 항등식 검산표(40%÷10.0=4.0%, 90%÷22.5=4.0%).
+  (추가 2026-10-02) 가상 두 회사 배당성향 변화 막대그래프 1장(100% 선 표시).
 primary_source: |
   배당성향은 기관이 수치를 공표하는 지표가 아니라 회계 비율의 정의라서 1차 수치 출처가 따로 없다.
   dart.fss.or.kr(금융감독원 전자공시), nts.go.kr WebFetch 각 1회 시도, 모두 EGRESS_BLOCKED.
@@ -38,6 +39,8 @@ self_check: |
   글 구조 유형: 개념형(첫 H2의 첫 블록이 가상 인물 A씨 사례 문단). 직전 115 계산형, 114·113 비교형과 다름.
   어투 모드: C 사례형(가상 인물 A씨와 가상 회사 2곳을 끝까지 따라감, 가상임을 명시). 직전 115 A, 114·113 B와 다름. 꾸며낸 1인칭 경험 없음. 섹션마다 20자 이하 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 1회(FAQ 1곳), mark 밀도 4개, FAQ 5개(직전 115 6·114 7과 다름), H2 6개 중 "~나요"형 0개(목차 제외 5개 중 1개 "~되나"). 요약박스 초록(#eef8f0/#3a9a5b), 제목 "💬 A씨 이야기에서 건질 것", 마무리 "🧮 마지막으로 남길 계산". FAQ 헤딩 "배당성향 숫자를 읽다 떠오르는 궁금증 풀이"(걸리는·막히는·세 줄·묻게 어휘 회피). 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  그림 1장(지금 vs 이익 25% 감소 시 배당성향, 100% 선). "배당주를 볼 때 배당성향을 쓰는 순서" H2 추가(추천 없음, 리츠 90% 의무배당은 68편 서술과 일치). 내부 링크 5개(4·47·68·90·93편 발행 완료). FAQ 5개 유지. gate_pass:false 사유(게이트4)는 그대로.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
@@ -55,6 +58,7 @@ self_check: |
   <li>배당성향 공식 두 가지와 분모 확인법</li>
   <li>이익이 25% 줄면 배당은 어떻게 되나</li>
   <li>배당성향이 100%를 넘으면 읽는 법</li>
+  <li>배당주를 볼 때 배당성향을 쓰는 순서</li>
   <li>배당수익률과 PER로 이어 보는 법</li>
 </ol>
 
@@ -132,6 +136,8 @@ self_check: |
 
 <p>어느 쪽을 택할지는 회사가 정합니다. 표는 배당성향이 높을수록 이익 변화에 쓸 수 있는 선택지가 좁아진다는 것만 보여 줍니다.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dividend-payout-ratio-formula-cushion-1.png" alt="가상 두 회사의 배당성향 막대그래프. 지금은 가나다전자 40퍼센트, 라마바화학 90퍼센트이고, 순이익이 25퍼센트 줄었는데 배당금을 유지하면 53.3퍼센트와 120퍼센트가 되어 라마바화학이 100퍼센트 선을 넘음" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 두 회사</figcaption></figure>
+
 <h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당성향이 100%를 넘으면 읽는 법</h2>
 
 <p>배당성향이 100%를 넘는다는 것은 그해 순이익보다 많은 금액을 배당했다는 뜻입니다. 배당은 그해 순이익만이 아니라 쌓아 둔 이익잉여금 한도 안에서 줄 수 있어서 가능한 일입니다.</p>
@@ -145,6 +151,19 @@ self_check: |
 <p>100%를 넘었다고 이미 정해진 배당을 못 받는 것은 아닙니다. 다음 해에도 같은 수준이 이어질지가 문제입니다.</p>
 
 <p>고배당기업 배당소득 분리과세 특례처럼 배당성향이 세금 요건에 들어가는 제도도 있습니다. 요건 수치는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">배당소득세 얼마 떼나</a> 편과 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 원문에서 확인하세요.</p>
+
+<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당주를 볼 때 배당성향을 쓰는 순서</h2>
+
+<p>배당주를 고르는 사람에게 배당성향은 배당수익률 다음에 보는 두 번째 숫자입니다. 순서대로 놓으면 이렇습니다.</p>
+
+<ol style="line-height:1.9;">
+  <li><strong>배당수익률로 후보를 봅니다.</strong> 지금 주가 대비 얼마를 받는지입니다.</li>
+  <li><strong>배당성향으로 여유를 봅니다.</strong> 이익의 몇 %를 쓰는 배당인지 보면, 이익이 줄 때 배당을 지킬 여지가 보입니다.</li>
+  <li><strong>몇 해 흐름을 봅니다.</strong> 한 해 숫자보다 EPS와 DPS가 3~5년 동안 어떻게 움직였는지가 더 많은 걸 말해 줍니다.</li>
+  <li><strong>구조를 확인합니다.</strong> 법으로 이익 대부분을 배당하도록 정해진 상품도 있습니다. 배당가능이익의 90% 이상을 배당해야 하는 리츠가 그렇고, 구조는 <a href="https://sensitiveboss3.tistory.com/entry/reits-meaning-dividend-tax-benefit" target="_blank" rel="noopener">리츠 뜻 글</a>에 정리했습니다.</li>
+</ol>
+
+<p>배당성향이 낮다고 배당이 늘어난다는 보장은 없고, 높다고 곧 줄어든다는 뜻도 아닙니다. 회사가 이익 변화에 대응할 수 있는 폭을 보여 주는 숫자입니다.</p>
 
 <h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당수익률과 PER로 이어 보는 법</h2>
 
@@ -192,70 +211,71 @@ self_check: |
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Article",
+  "headline": "배당성향 공식과 이익 줄 때 배당 변화",
+  "description": "배당성향 공식(배당금 ÷ 순이익)을 가상 두 회사 사례로 계산하고, 순이익이 25% 줄 때 배당과 배당수익률이 어떻게 달라지는지 표로 정리했습니다.",
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "datePublished": "2026-10-02",
+  "dateModified": "2026-10-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/dividend-payout-ratio-formula-cushion"
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dividend-payout-ratio-formula-cushion-1.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "Article",
-      "headline": "배당성향 공식과 이익 줄 때 배당 변화",
-      "description": "배당성향 공식(배당금 ÷ 순이익)을 가상 두 회사 사례로 계산하고, 순이익이 25% 줄 때 배당과 배당수익률이 어떻게 달라지는지 표로 정리했습니다.",
-      "author": {
-        "@type": "Person",
-        "name": "센시티브보스"
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "센시티브보스"
-      },
-      "datePublished": "2026-10-02",
-      "dateModified": "2026-10-02",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://sensitiveboss3.tistory.com/entry/dividend-payout-ratio-formula-cushion"
+      "@type": "Question",
+      "name": "배당성향이 높으면 무조건 좋은 회사인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아닙니다. 배당성향이 높다는 것은 순이익 중 배당으로 나가는 비율이 크다는 뜻일 뿐입니다. 이익이 줄면 같은 배당을 유지하기 어려워질 수 있어서 이익 규모와 함께 봅니다."
       }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "배당성향이 높으면 무조건 좋은 회사인가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "아닙니다. 배당성향이 높다는 것은 순이익 중 배당으로 나가는 비율이 크다는 뜻일 뿐입니다. 이익이 줄면 같은 배당을 유지하기 어려워질 수 있어서 이익 규모와 함께 봅니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "배당성향이 낮은 회사는 배당을 못 주는 회사인가요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "그렇지 않습니다. 이익의 상당 부분을 사업에 다시 쓰는 회사는 배당성향이 낮게 나옵니다. 낮은 숫자는 배당 여력이 남아 있다는 뜻일 수도, 배당에 소극적이라는 뜻일 수도 있습니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "순이익 대신 어떤 이익을 분모에 쓰나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "자료마다 당기순이익, 지배주주 귀속 순이익 등 분모 정의가 다를 수 있습니다. 같은 회사라도 출처에 따라 배당성향이 다르게 보이면 분모부터 비교하세요."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "배당성향이 100%를 넘으면 배당을 못 받나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "아닙니다. 이미 지급이 결정된 배당은 받습니다. 다만 이익보다 많이 내보내는 상태라서 같은 수준이 계속될지는 이익 흐름에 달려 있습니다."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "고배당기업 분리과세 특례와 배당성향은 관계가 있나요?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "있습니다. 특례 요건에 배당성향 기준이 들어 있습니다. 세율과 요건은 자주 바뀔 수 있어 이 글에서는 수치를 옮기지 않으니, 배당소득세 편과 국세청 원문에서 확인하세요."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "배당성향이 낮은 회사는 배당을 못 주는 회사인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "그렇지 않습니다. 이익의 상당 부분을 사업에 다시 쓰는 회사는 배당성향이 낮게 나옵니다. 낮은 숫자는 배당 여력이 남아 있다는 뜻일 수도, 배당에 소극적이라는 뜻일 수도 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "순이익 대신 어떤 이익을 분모에 쓰나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "자료마다 당기순이익, 지배주주 귀속 순이익 등 분모 정의가 다를 수 있습니다. 같은 회사라도 출처에 따라 배당성향이 다르게 보이면 분모부터 비교하세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "배당성향이 100%를 넘으면 배당을 못 받나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아닙니다. 이미 지급이 결정된 배당은 받습니다. 다만 이익보다 많이 내보내는 상태라서 같은 수준이 계속될지는 이익 흐름에 달려 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "고배당기업 분리과세 특례와 배당성향은 관계가 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "있습니다. 특례 요건에 배당성향 기준이 들어 있습니다. 세율과 요건은 자주 바뀔 수 있어 이 글에서는 수치를 옮기지 않으니, 배당소득세 편과 국세청 원문에서 확인하세요."
+      }
     }
   ]
 }

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">배당수익률은 같아도 배당성향의 여유는 다릅니다</text>
+<text x="70" y="122" font-size="25" fill="#666">순이익이 25% 줄고 배당금을 그대로 줄 때 배당성향 변화 · 단위 %</text>
+<line x1="90" y1="580" x2="1130" y2="580" stroke="#999" stroke-width="2"/>
+<line x1="90" y1="280" x2="1130" y2="280" stroke="#c0392b" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="96" y="268" font-size="23" text-anchor="start" fill="#c0392b">100% 선: 이익보다 많이 배당</text>
+<rect x="190" y="460" width="140" height="120" fill="#1a2744" rx="6"/>
+<text x="260" y="502" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">40.0%</text>
+<rect x="350" y="310" width="140" height="270" fill="#e67e22" rx="6"/>
+<text x="420" y="352" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">90.0%</text>
+<text x="340" y="624" font-size="26" text-anchor="middle" fill="#333">지금</text>
+<rect x="710" y="420" width="140" height="160" fill="#1a2744" rx="6"/>
+<text x="780" y="462" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">53.3%</text>
+<rect x="870" y="220" width="140" height="360" fill="#e67e22" rx="6"/>
+<text x="940" y="262" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">120.0%</text>
+<text x="860" y="624" font-size="26" text-anchor="middle" fill="#333">순이익 25% 감소 · 배당금 유지</text>
+<rect x="90" y="662" width="30" height="10" fill="#1a2744"/>
+<text x="130" y="673" font-size="23" fill="#333">가나다전자(가상)</text>
+<rect x="360" y="662" width="30" height="10" fill="#e67e22"/>
+<text x="400" y="673" font-size="23" fill="#333">라마바화학(가상)</text>
+<text x="70" y="732" font-size="21" fill="#888">계산 예시: 본문 가상 두 회사(실제 기업 아님)</text>
+</g></svg>
