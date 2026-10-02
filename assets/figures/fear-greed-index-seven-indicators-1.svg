@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">가상 예시: 일곱 점수의 평균이 종합 점수</text>
+<text x="70" y="122" font-size="25" fill="#666">지표별 점수(0~100) 7개를 같은 비중으로 평균 · 모든 수치는 설명용 가상값</text>
+<line x1="330" y1="160" x2="330" y2="610" stroke="#eee" stroke-width="2"/>
+<text x="330" y="644" font-size="22" text-anchor="middle" fill="#555">0</text>
+<line x1="530" y1="160" x2="530" y2="610" stroke="#eee" stroke-width="2"/>
+<text x="530" y="644" font-size="22" text-anchor="middle" fill="#555">25</text>
+<line x1="730" y1="160" x2="730" y2="610" stroke="#444" stroke-width="3"/>
+<text x="730" y="644" font-size="22" text-anchor="middle" fill="#555">50</text>
+<line x1="930" y1="160" x2="930" y2="610" stroke="#eee" stroke-width="2"/>
+<text x="930" y="644" font-size="22" text-anchor="middle" fill="#555">75</text>
+<line x1="1130" y1="160" x2="1130" y2="610" stroke="#eee" stroke-width="2"/>
+<text x="1130" y="644" font-size="22" text-anchor="middle" fill="#555">100</text>
+<text x="314" y="210" font-size="26" text-anchor="end" fill="#222">시장 모멘텀</text>
+<rect x="330" y="180" width="560" height="40" fill="#2a9d8f"/>
+<text x="902" y="210" font-size="26" font-weight="bold" fill="#2a9d8f">70</text>
+<text x="314" y="270" font-size="26" text-anchor="end" fill="#222">주가 강도</text>
+<rect x="330" y="240" width="440" height="40" fill="#2a9d8f"/>
+<text x="782" y="270" font-size="26" font-weight="bold" fill="#2a9d8f">55</text>
+<text x="314" y="330" font-size="26" text-anchor="end" fill="#222">주가 폭</text>
+<rect x="330" y="300" width="480" height="40" fill="#2a9d8f"/>
+<text x="822" y="330" font-size="26" font-weight="bold" fill="#2a9d8f">60</text>
+<text x="314" y="390" font-size="26" text-anchor="end" fill="#222">풋·콜 옵션</text>
+<rect x="330" y="360" width="320" height="40" fill="#e07a1f"/>
+<text x="662" y="390" font-size="26" font-weight="bold" fill="#e07a1f">40</text>
+<text x="314" y="450" font-size="26" text-anchor="end" fill="#222">정크본드 수요</text>
+<rect x="330" y="420" width="480" height="40" fill="#2a9d8f"/>
+<text x="822" y="450" font-size="26" font-weight="bold" fill="#2a9d8f">60</text>
+<text x="314" y="510" font-size="26" text-anchor="end" fill="#222">시장 변동성</text>
+<rect x="330" y="480" width="200" height="40" fill="#e07a1f"/>
+<text x="542" y="510" font-size="26" font-weight="bold" fill="#e07a1f">25</text>
+<text x="314" y="570" font-size="26" text-anchor="end" fill="#222">안전자산 수요</text>
+<rect x="330" y="540" width="320" height="40" fill="#e07a1f"/>
+<text x="662" y="570" font-size="26" font-weight="bold" fill="#e07a1f">40</text>
+<text x="730" y="690" font-size="28" font-weight="bold" text-anchor="middle" fill="#111">평균 350 ÷ 7 = 50.0 (중립)</text>
+<text x="1130" y="190" font-size="22" text-anchor="end" fill="#2a9d8f">50 초과: 탐욕 쪽</text>
+<text x="1130" y="218" font-size="22" text-anchor="end" fill="#e07a1f">50 미만: 공포 쪽</text>
+</g></svg>
