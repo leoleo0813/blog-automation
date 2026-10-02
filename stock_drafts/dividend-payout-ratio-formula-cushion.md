@@ -4,8 +4,8 @@ title: 배당성향 공식과 이익 줄 때 배당 변화
 slug: dividend-payout-ratio-formula-cushion
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 570 (PC 300 / 모바일 270, backlog.verified 기록 인용)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 570 (PC 300 / 모바일 270)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-02 - 통과]
   WebSearch "배당성향 뜻 계산 방법" 상위 8개: brunch 개인 글, Daum 팁(Q&A), 나무위키, 12manage(경영 용어 사이트), dividendletter 블로그, a-ha.io Q&A 2건, 기타 1건.

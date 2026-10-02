@@ -2407,7 +2407,7 @@
       "type": "재무 비율",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "570 (PC 300 / 모바일 270, backlog.verified 기록)",
+      "monthly_search_volume": "570 (PC 300 / 모바일 270)",
       "gate1_pass": true,
       "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 개인 블로그·Q&A·소규모 사이트 위주로 진입 여지 있음, 탐색형 의도, 가상 두 회사 비교·순이익 25% 감소 시나리오 표·배당성향÷PER 연결식은 요약에서 미확인.",
       "unique_asset_plan": "가상 두 회사(배당성향 40%·90%, 배당수익률 4.0% 동일) 비교표, 순이익 25% 감소 시 배당성향 유지 vs DPS 유지 시나리오 표, 배당수익률=배당성향÷PER 검산표(전부 가상 계산)",
