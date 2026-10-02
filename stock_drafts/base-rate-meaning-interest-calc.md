@@ -17,6 +17,7 @@ unique_asset: |
   (a) 2025년 5월~2026년 8월 기준금리 경과표(동결 8회 연속, 2026년 7월 16일 2.75%, 8월 27일 3.00%).
   (b) 2026년 금통위 8회 결정일 표(결과 4건 확정, 2건 예정).
   (c) 금리 변화폭 0.25/0.50/0.75%p별 대출 3억 원 연·월 이자 증가, 예금 1억 원 세전·세후(15.4%) 증가 계산표(전부 가상, 100% 반영 가정).
+  (추가 2026-10-02) 기준금리 계단형 그래프 1장(2024.11~2026.08), 주식시장 전달 경로 4갈래 정리.
 primary_source: |
   한국은행(bok.or.kr) WebFetch 1회 시도, EGRESS_BLOCKED. 원문을 직접 열지 못했다.
   대신 WebSearch 5회로 독립 출처를 교차 확인했다:
@@ -42,14 +43,21 @@ self_check: |
   글 구조 유형: 경과표와 계산표 중심 시계열형 + 계산형.
   AI 티 점검: em대시 0개, 다만 1회(제도 한계 설명 1곳), mark 밀도 3개, FAQ 5개, H2 7개 중 "~나요"형 0개. 요약박스 테라코타(#fdf1ea/#c2603a), 제목 "🏦 기준금리 세 줄 요약", 마무리 박스 "🧾 정리하면". FAQ 헤딩 "기준금리 볼 때 자주 걸리는 질문". 면책 문구 새 표현.
   사람 대조 권장: 위 gate_pass_note 참조.
+  [2026-10-02 독자 관점 규칙 반영]
+  인트로 "이 글은" 삭제 → 둘째 문장에 다음 결정일(10/22)과 이자 어림법. 박스 제목 "세 줄" 제거.
+  얇았던 H2 "기준금리 확인하는 곳" 삭제, 끝 요약 박스 "정리하면"(인트로·박스 반복) 삭제.
+  "기준금리가 주식시장에 전해지는 길" H2 추가(할인율·예금 비교·이자비용·금융업, 방향 예측 없음). 그림 1장(계단형 그래프).
+  FAQ 헤딩 "걸리는" 제거, FAQ 5개 유지(109편 4개·118편과 다르게). '확인하세요'류 3→0. 내부 링크 4개(4·47·100·105편 발행 완료).
+refresh_due: 2026-10-23
+refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·인트로에 반영"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-01</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
-<p>한국은행 기준금리는 2026년 8월 27일 연 2.75%에서 연 3.00%로 올랐습니다. 이 글은 기준금리의 뜻과 금융통화위원회가 정하는 방식, 2025년부터의 변동 경과를 표로 정리합니다. 이어서 금리가 0.25%p 움직일 때 대출이자와 예금이자가 얼마나 달라지는지 가상의 금액으로 계산해 봅니다.</p>
+<p>한국은행 기준금리는 2026년 8월 27일 연 2.75%에서 연 3.00%로 올랐습니다. 두 달 연속 0.25%p씩 올린 결과이고, 다음 결정은 10월 22일입니다. 금리가 0.25%p 움직이면 대출 3억 원의 연 이자가 75만 원 달라지는 식으로, 내 이자에 닿는 크기는 원금 × 변화폭으로 바로 어림할 수 있습니다.</p>
 
 <div style="background:#fdf1ea;border:2px solid #c2603a;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#8a3d1c;font-size:18px;">🏦 기준금리 세 줄 요약</strong>
+  <strong style="color:#8a3d1c;font-size:18px;">🏦 금통위 결정 전에 볼 숫자</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>기준금리는 한국은행 금융통화위원회가 연 8회 결정하는 정책금리이고, 2026년 8월 27일 기준 연 3.00%입니다.</li><li>2025년 5월 연 2.50%가 된 뒤 동결이 이어지다가 2026년 7월과 8월에 연속 인상됐습니다.</li><li>같은 폭이 그대로 반영된다고 가정하면 0.25%p 변화는 대출 3억 원 기준 연 75만 원, 예금 1억 원 기준 세전 연 25만 원입니다.</li></ul>
 </div>
 
@@ -61,8 +69,8 @@ self_check: |
   <li>2025~2026 기준금리 경과표</li>
   <li>기준금리 인상 때 이자가 얼마나 달라지는지 계산</li>
   <li>기준금리에서 내 예금·대출금리까지 가는 길</li>
-  <li>기준금리 확인하는 곳</li>
-  <li>기준금리 볼 때 자주 걸리는 질문</li>
+  <li>기준금리가 주식시장에 전해지는 길</li>
+  <li>금통위 발표 전후로 많이 묻는 5가지</li>
 </ol>
 
 <h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 뜻과 정하는 곳</h2>
@@ -94,6 +102,8 @@ self_check: |
 </table>
 
 <p>8월 인상으로 기준금리는 2024년 11월 이후 1년 9개월 만에 다시 3%대가 됐습니다. 언론은 성장세가 예상보다 강하고 기조적인 물가 압력이 이어진 점이 배경이라고 풀이했습니다. 이 글은 앞으로의 금리 방향을 예측하지 않습니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/base-rate-meaning-interest-calc-1.png" alt="2024년 11월부터 2026년 8월까지 한국은행 기준금리 계단형 그래프. 3.00퍼센트에서 2.50퍼센트로 내린 뒤 8회 동결, 2026년 7월과 8월에 올라 3.00퍼센트" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국은행 금융통화위원회 결정, 2026년 10월 기준</figcaption></figure>
 
 <h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 인상 때 이자가 얼마나 달라지는지 계산</h2>
 
@@ -128,30 +138,28 @@ self_check: |
   <li>변동금리 대출은 약정한 주기에 맞춰 새 금리가 적용됩니다.</li>
 </ol>
 
-<p>2번의 채권시장 금리가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/government-bond-yield-meaning" target="_blank" rel="noopener">국채금리 뜻과 채권가격 반비례 계산</a>에서 국채금리와 기준금리 차이를 표로 볼 수 있습니다. 물가가 금리 결정과 어떻게 이어지는지는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법과 보는 순서</a>에서 확인하세요.</p>
+<p>2번의 채권시장 금리가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/government-bond-yield-meaning" target="_blank" rel="noopener">국채금리 뜻과 채권가격 반비례 계산</a>에서 국채금리와 기준금리 차이를 표로 볼 수 있습니다. 물가가 금리 결정과 어떻게 이어지는지는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법과 보는 순서</a>에 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 확인하는 곳</h2>
+<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리가 주식시장에 전해지는 길</h2>
 
-<ul>
-  <li>현재 기준금리와 변동 이력: <a href="https://www.bok.or.kr/portal/main/main.do" target="_blank" rel="noopener">한국은행</a> 홈페이지</li>
-  <li>금통위 회의 일정과 위원 구성: 한국은행 <a href="https://www.bok.or.kr/portal/main/contents.do?menuNo=201696" target="_blank" rel="noopener">금융통화위원회</a> 페이지</li>
-  <li>결정 직후 보도: <a href="https://www.seoul.co.kr/news/economy/finance/2026/08/27/20260827500034" target="_blank" rel="noopener">서울신문 8월 27일 기사</a>처럼 결정 당일 언론 속보</li>
+<p>기준금리는 대출이자만 바꾸는 숫자가 아닙니다. 주식시장에서는 보통 네 갈래로 읽힙니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>할인율:</strong> 금리가 오르면 미래 이익을 현재 가치로 바꿀 때 쓰는 할인율이 커집니다. 이익이 먼 미래에 몰린 성장주일수록 이 변화에 민감합니다.</li>
+  <li><strong>예금과의 비교:</strong> 예금금리가 오르면 배당주의 배당수익률이 상대적으로 덜 돋보이게 됩니다. 배당수익률 계산은 <a href="https://sensitiveboss3.tistory.com/entry/dividend-yield-calculation" target="_blank" rel="noopener">배당수익률 계산 글</a>에 있습니다.</li>
+  <li><strong>기업 이자비용:</strong> 빌린 돈이 많은 기업은 금리 인상분만큼 이자비용이 늘어 이익이 줄어듭니다. 부채비율이 높은 회사일수록 영향이 큽니다.</li>
+  <li><strong>금융업 수익:</strong> 은행은 대출금리와 예금금리의 차이로 돈을 버는데, 금리 수준이 바뀌면 이 차이도 함께 움직입니다.</li>
 </ul>
 
-<p>금통위 결정은 당일 오전에 발표되므로 뉴스에서 본 숫자를 한국은행 페이지에서 한 번 더 대조하면 정확합니다.</p>
+<p>시장은 결정 자체보다 예상과의 차이에 반응합니다. 10월 22일 결정을 앞두고는 동결과 인상 중 시장이 어느 쪽을 예상하는지가 이미 국채금리에 반영돼 있어서, 결과가 예상과 같으면 움직임이 작을 수 있습니다. 이 글은 결정 방향을 예측하지 않습니다.</p>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 볼 때 자주 걸리는 질문</h2>
+<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">금통위 발표 전후로 많이 묻는 5가지</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리가 오르면 내 대출이자도 바로 같은 폭만큼 오르나요</summary><p style="margin-top:8px;line-height:1.8;">같은 폭으로 바로 오른다고 단정할 수 없습니다. 대출금리는 기준금리에 은행의 비용·위험·마진이 더해져 정해지고, 상품마다 연동하는 지표와 변경 주기가 다릅니다. 본문의 이자 계산은 같은 폭이 그대로 반영된다고 가정한 계산입니다.</p></details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리는 누가 정하나요</summary><p style="margin-top:8px;line-height:1.8;">한국은행 금융통화위원회가 정합니다. 한국은행 총재와 부총재를 포함해 7인으로 구성되고, 총재가 의장을 맡습니다. 통화정책방향 결정회의는 연 8회 열립니다.</p></details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리가 3.00%라는 말은 은행 예금이 연 3.00%라는 뜻인가요</summary><p style="margin-top:8px;line-height:1.8;">아닙니다. 기준금리는 한국은행이 정하는 정책금리이고, 예금금리는 각 은행이 상품별로 정합니다. 기준금리는 예금·대출금리가 움직이는 출발점일 뿐 상품 금리와 같지 않습니다.</p></details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리와 국채금리는 같은 말인가요</summary><p style="margin-top:8px;line-height:1.8;">다른 금리입니다. 기준금리는 금통위가 정하고, 국채금리는 시장에서 거래되는 국채의 수익률이라 매일 바뀝니다. 둘의 차이는 국채금리 뜻을 다룬 글에 비교표로 정리해 두었습니다.</p></details>
-<details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">다음 기준금리 결정은 언제 나오나요</summary><p style="margin-top:8px;line-height:1.8;">2026년 일정으로는 10월 22일이 다음 결정일입니다. 이후 11월 26일에 한 번 더 예정되어 있습니다. 일정은 변경될 수 있으니 한국은행 금융통화위원회 안내에서 확인하세요.</p></details>
-
-<div style="background:#fdf1ea;border:2px solid #c2603a;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#8a3d1c;font-size:18px;">🧾 정리하면</strong>
-  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>기준금리는 금통위가 연 8회 정하고, 2026년 8월 27일부터 연 3.00%입니다.</li><li>예금·대출금리는 기준금리와 같은 숫자가 아니라 기준금리에 은행 요소가 더해진 값입니다.</li><li>이자 변화는 원금 × 변화폭으로 먼저 어림해 본 뒤 내 상품 조건으로 확인하세요.</li></ul>
-</div>
+<details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">다음 기준금리 결정은 언제 나오나요</summary><p style="margin-top:8px;line-height:1.8;">2026년 일정으로는 10월 22일이 다음 결정일입니다. 이후 11월 26일에 한 번 더 예정되어 있습니다. 결정은 회의 당일 오전에 한국은행이 발표하고, 일정이 바뀌면 한국은행 금융통화위원회 안내에 먼저 공지됩니다.</p></details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처 (2026년 10월 기준):
@@ -169,7 +177,7 @@ self_check: |
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
-이 글은 기준금리의 개념과 이자 계산 방식을 알리는 정보 글이며 특정 금융상품의 가입이나 대출 시점을 권하지 않습니다. 금리는 금통위 결정과 금융사 조건에 따라 달라지므로 거래 전에 한국은행과 해당 금융사에서 최신 내용을 확인해 주세요. 이 글의 이자 계산은 가상의 금액이고, 판단과 책임은 본인에게 있습니다.
+이 글은 기준금리의 개념과 이자 계산 방식을 알리는 정보 글이며 특정 금융상품의 가입이나 대출 시점을 권하지 않습니다. 금리는 금통위 결정과 금융사 조건에 따라 달라지며, 실제 거래에는 해당 금융사의 약정 금리가 적용됩니다. 이 글의 이자 계산은 가상의 금액이고, 판단과 책임은 본인에게 있습니다.
 </p>
 
 <script type="application/ld+json">
@@ -177,7 +185,7 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "기준금리 뜻과 이자 변화 계산법",
-  "description": "기준금리의 뜻과 금융통화위원회 결정 구조, 2025년부터 2026년 8월 연 3.00% 인상까지의 경과, 금리 변화폭별 대출이자·예금이자 변화를 가상 금액으로 계산해 정리했습니다.",
+  "description": "한국은행 기준금리 뜻과 금통위 결정 방식, 2026년 8월 연 3.00%까지의 경과와 0.25%p 변화 때 대출·예금 이자 계산, 기준금리가 주식시장에 전해지는 경로까지 정리했습니다.",
   "author": {
     "@type": "Person",
     "name": "센시티브보스"
@@ -187,11 +195,12 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/base-rate-meaning-interest-calc"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/base-rate-meaning-interest-calc-1.png"
 }
 </script>
 
@@ -237,7 +246,7 @@ self_check: |
       "name": "다음 기준금리 결정은 언제 나오나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "2026년 일정으로는 10월 22일이 다음 결정일입니다. 이후 11월 26일에 한 번 더 예정되어 있습니다. 일정은 변경될 수 있으니 한국은행 금융통화위원회 안내에서 확인하세요."
+        "text": "2026년 일정으로는 10월 22일이 다음 결정일입니다. 이후 11월 26일에 한 번 더 예정되어 있습니다. 결정은 회의 당일 오전에 한국은행이 발표하고, 일정이 바뀌면 한국은행 금융통화위원회 안내에 먼저 공지됩니다."
       }
     }
   ]

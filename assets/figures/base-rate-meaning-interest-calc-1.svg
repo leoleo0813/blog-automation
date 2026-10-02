@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">한국은행 기준금리 흐름 (2024년 11월~2026년 8월)</text>
+<text x="70" y="122" font-size="25" fill="#666">결정 시점별 기준금리 · 단위 %</text>
+<line x1="130" y1="570" x2="1130" y2="570" stroke="#eee" stroke-width="2"/>
+<text x="116" y="578" font-size="21" text-anchor="end" fill="#777">2.25%</text>
+<line x1="130" y1="475" x2="1130" y2="475" stroke="#eee" stroke-width="2"/>
+<text x="116" y="483" font-size="21" text-anchor="end" fill="#777">2.50%</text>
+<line x1="130" y1="380" x2="1130" y2="380" stroke="#eee" stroke-width="2"/>
+<text x="116" y="388" font-size="21" text-anchor="end" fill="#777">2.75%</text>
+<line x1="130" y1="285" x2="1130" y2="285" stroke="#eee" stroke-width="2"/>
+<text x="116" y="293" font-size="21" text-anchor="end" fill="#777">3.00%</text>
+<line x1="130" y1="190" x2="1130" y2="190" stroke="#eee" stroke-width="2"/>
+<text x="116" y="198" font-size="21" text-anchor="end" fill="#777">3.25%</text>
+<text x="130" y="608" font-size="21" text-anchor="middle" fill="#555">'24.11</text>
+<text x="255" y="608" font-size="21" text-anchor="middle" fill="#555">'25.02</text>
+<text x="380" y="608" font-size="21" text-anchor="middle" fill="#555">'25.05</text>
+<text x="505" y="608" font-size="21" text-anchor="middle" fill="#555">'25.08</text>
+<text x="630" y="608" font-size="21" text-anchor="middle" fill="#555">'25.11</text>
+<text x="755" y="608" font-size="21" text-anchor="middle" fill="#555">'26.02</text>
+<text x="880" y="608" font-size="21" text-anchor="middle" fill="#555">'26.05</text>
+<text x="1005" y="608" font-size="21" text-anchor="middle" fill="#555">'26.07</text>
+<text x="1130" y="608" font-size="21" text-anchor="middle" fill="#555">'26.08</text>
+<polyline points="130,285 255,285 255,380 380,380 380,475 505,475 505,475 630,475 630,475 755,475 755,475 880,475 880,475 1005,475 1005,380 1130,380 1130,285" fill="none" stroke="#1a2744" stroke-width="5" stroke-linejoin="round"/>
+<rect x="130" y="628" width="30" height="8" fill="#1a2744"/>
+<text x="170" y="638" font-size="23" fill="#333">기준금리</text>
+<circle cx="1130" cy="285" r="9" fill="#c0392b"/>
+<text x="1116" y="269" font-size="24" font-weight="bold" fill="#c0392b" text-anchor="end">연 3.00%</text>
+<circle cx="380" cy="475" r="9" fill="#9aa0a6"/>
+<text x="394" y="459" font-size="24" font-weight="bold" fill="#9aa0a6" text-anchor="start">연 2.50%, 8회 연속 동결</text>
+<text x="70" y="692" font-size="21" fill="#888">자료: 한국은행 금융통화위원회 결정(언론 보도로 교차확인), 2026년 10월 기준</text>
+</g></svg>
