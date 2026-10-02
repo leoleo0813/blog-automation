@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">물가와 성장으로 나눈 네 가지 경기 상황</text>
+<text x="70" y="122" font-size="25" fill="#666">스태그플레이션은 왼쪽 위 칸 · 실업률이 함께 오르는지도 확인</text>
+<rect x="160" y="200" width="440" height="220" fill="#fde2d8" stroke="#fff" stroke-width="6"/>
+<text x="380.0" y="304.0" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">스태그플레이션</text>
+<text x="380.0" y="346.0" font-size="24" text-anchor="middle" fill="#555">물가 오름 + 성장 멈춤</text>
+<rect x="600" y="200" width="440" height="220" fill="#fff1d6" stroke="#fff" stroke-width="6"/>
+<text x="820.0" y="304.0" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">경기 과열형</text>
+<text x="820.0" y="346.0" font-size="24" text-anchor="middle" fill="#555">물가 오름 + 성장 늘어남</text>
+<rect x="160" y="420" width="440" height="220" fill="#e5e7eb" stroke="#fff" stroke-width="6"/>
+<text x="380.0" y="524.0" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">디플레이션형</text>
+<text x="380.0" y="566.0" font-size="24" text-anchor="middle" fill="#555">물가 안정·하락 + 성장 멈춤</text>
+<rect x="600" y="420" width="440" height="220" fill="#dcf3e4" stroke="#fff" stroke-width="6"/>
+<text x="820.0" y="524.0" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">골디락스형</text>
+<text x="820.0" y="566.0" font-size="24" text-anchor="middle" fill="#555">물가 안정 + 성장 늘어남</text>
+<text x="600" y="680" font-size="24" text-anchor="middle" fill="#555">← 성장 멈춤·감소     경제성장률     성장 늘어남 →</text>
+<text x="136" y="420" font-size="24" text-anchor="middle" fill="#555" transform="rotate(-90 136 420)">물가 안정 ←  물가상승률  → 물가 오름</text>
+<text x="70" y="732" font-size="21" fill="#888">개념도: 본문 4분면 표를 그림으로 옮김</text>
+</g></svg>

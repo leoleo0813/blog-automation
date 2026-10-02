@@ -38,6 +38,7 @@ capture_guide: |
     2순위 미국: 노동통계국 https://www.bls.gov/cpi/ 접속 → CPI 데이터 표에서 1973~1982년 연평균 변화율이 보이게 캡처. 실업률은 https://www.bls.gov/cps/ 에서 연평균 실업률 표를 캡처.
     3순위 미국 보조: https://fred.stlouisfed.org 접속 → 검색창에 UNRATE, CPIAUCSL 입력 → 연간(Annual) 단위로 바꿔 1973~1982년 구간 캡처.
   (3) 다음 행동: 스크린샷을 대화에 올려주세요. 표 값을 채우고 gate_pass를 갱신합니다.
+    (추가 2026-10-02) 4순위 지금 실업률: e-나라지표 취업자 수·실업률 추이 https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1063 접속 → 2026년 8월 실업률(원계열인지 계절조정인지 표기 포함)이 보이게 캡처. 검색 결과에서 2.0%와 2.7%(계절조정)가 엇갈림.
 self_check: |
   [2026-10-01 gate_pass:false, 게이트4 1차 출처 접속 불가 + 2차 출처 수치 충돌, capture 전환]
   후보 경위: check-keywords 8개(스태그플레이션 5,590 PASS, 경기침체 1,130 PASS, 점도표 1,140 PASS, 이동평균선 1,090 PASS, MDD 뜻 670 PASS, 배당성향 570 PASS, 이격도 480 FAIL, 양적완화 20 FAIL) 중 최고 검색량 채택. 다음 편 후보는 backlog에 기록.
@@ -49,15 +50,20 @@ self_check: |
   글 구조 유형: 비교형(첫 H2가 물가·성장률 4분면 비교표로 시작, 목차는 H2 5개라 생략하지 않고 유지). 직전 RSI 계산형, CAGR 절차형, 기준금리 시계열형과 겹치지 않음. 첫 H2의 첫 블록은 표.
   어투 모드: B 대화형(해요체, 독자에게 묻는 문장 3개). 직전 RSI·CAGR의 C 사례형과 다름. 꾸며낸 1인칭 경험 없음.
   AI 티 점검: em대시 0개, 접속어 '다만' 본문 0회, mark 밀도 4개(본문 실제 개수 위 4곳), FAQ 5개(직전 RSI 6·CAGR 4와 다름), H2 5개 중 "~나요"형 1개. 요약박스 청록(#e9f6f5/#2a8c8a), 제목 "🧭 핵심 체크 포인트", 마무리 박스 "🔎 확인 순서 다시 보기". FAQ 헤딩 "뉴스 보다가 떠오르는 의문". 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  인트로 메타 문장("이 글에서는~") 삭제 → 지금 숫자로 본 결론. 그림 1장(4분면 개념도). "지금 한국의 3지표" H2 신설(물가 9월 2.9%·성장 2분기 0.6%는 100·108편 검증 수치, 실업률은 출처 충돌로 캡처 요청 추가).
+  "주식 투자자에게 스태그플레이션이 무서운 이유" H2 추가. FAQ "어떤 자산이 유리한가요" 답을 회피형에서 경로 설명으로 교체(추천 없음). 내부 링크 4개(100·107·108 발행 완료, 110 발행 예정).
+refresh_due: 2026-11-05
+refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지표 표 갱신"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-01</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
-<p>뉴스에서 스태그플레이션 우려라는 말이 나오면 먼저 물가상승률, 경제성장률, 실업률 세 숫자부터 확인하면 돼요. 스태그플레이션은 경기가 가라앉는데도 물가가 계속 오르는 상태를 말해요. 이 글에서는 세 숫자를 어디서 보고 어떻게 조합해 읽는지 순서대로 짚어 볼게요.</p>
+<p>뉴스에서 스태그플레이션 우려라는 말이 나오면 먼저 물가상승률, 경제성장률, 실업률 세 숫자부터 확인하면 돼요. 스태그플레이션은 경기가 가라앉는데도 물가가 계속 오르는 상태를 말해요. 2026년 지금 숫자로 보면 한국은 물가가 2%대 후반이고 성장률은 플러스라서, 성장이 멈춘 칸에는 들어가 있지 않아요.</p>
 
 <div style="background:#e9f6f5;border:2px solid #2a8c8a;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1d6360;font-size:18px;">🧭 핵심 체크 포인트</strong>
-  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>스태그플레이션은 <mark>물가는 오르고 성장은 멈추거나 뒷걸음질</mark>치는 조합입니다.</li><li>물가 하나만 높다고 스태그플레이션이 아니고, 성장률과 실업률을 함께 봐야 합니다.</li><li>1970년대 오일쇼크가 대표 사례이고, 연도별 수치는 통계 원문에서 확인해야 정확합니다.</li></ul>
+  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>스태그플레이션은 <mark>물가는 오르고 성장은 멈추거나 뒷걸음질</mark>치는 조합입니다.</li><li>물가 하나만 높다고 스태그플레이션이 아니고, 성장률과 실업률을 함께 봐야 합니다.</li><li>1970년대 오일쇼크가 대표 사례이고, 지금 한국의 세 숫자는 본문 표에 따로 정리했어요.</li></ul>
 </div>
 
 <h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">목차</h2>
@@ -66,7 +72,9 @@ self_check: |
   <li>스태그플레이션이 생기는 원인</li>
   <li>1970년대 오일쇼크 때는 어땠을까요</li>
   <li>지금 상황을 직접 판별하는 3지표 확인 순서</li>
+  <li>지금 한국의 3지표는 어디쯤일까요</li>
   <li>스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</li>
+  <li>주식 투자자에게 스태그플레이션이 무서운 이유</li>
 </ol>
 
 <h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">물가와 성장률 조합으로 보는 네 가지 경기 상황</h2>
@@ -85,6 +93,8 @@ self_check: |
 <p>같은 물가 상승이라도 성장이 함께 늘면 과열이고, 성장이 꺼지면 스태그플레이션이에요. 그래서 물가 숫자 하나만 보고 판단하면 안 돼요.</p>
 
 <p>물가가 어떻게 계산되는지 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 가이드</a>를, 성장률의 명목·실질 차이는 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목·실질 계산</a>을 먼저 보고 오면 이해가 빨라요.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stagflation-three-indicators-1970s-1.png" alt="물가와 성장률로 나눈 4분면 그림. 물가 오름과 성장 멈춤은 스태그플레이션, 물가 오름과 성장 늘어남은 경기 과열형, 물가 안정과 성장 늘어남은 골디락스형, 물가 안정과 성장 멈춤은 디플레이션형" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">개념도: 물가와 성장 조합 4분면</figcaption></figure>
 
 <h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션이 생기는 원인</h2>
 <p>가장 대표적인 원인은 <mark>원유 같은 원자재 가격이 갑자기 오르는 공급 충격</mark>이에요. 생산 비용이 올라 물가는 뛰는데 기업은 생산을 줄이니 성장은 꺾이고 일자리도 줄어요.</p>
@@ -139,6 +149,23 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>물가만 보지 말고 성장률과 실업률까지 세 숫자를 함께 봅니다.</li><li>한 달 수치보다 몇 달 이어지는 흐름을 봅니다.</li><li>판별은 현재 상황을 이해하는 용도이고, 매매 신호가 아닙니다.</li></ul>
 </div>
 
+<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">지금 한국의 3지표는 어디쯤일까요</h2>
+
+<p>판별 순서를 지금 숫자에 그대로 적용해 볼게요. 물가는 2%대 후반, 성장률은 플러스여서 4분면에서 스태그플레이션 칸과는 거리가 있어요. 다만 한 분기 숫자만으로 정하지 않고 몇 달 흐름을 이어서 봐요.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">지표</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">최근 값</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">기준 시점·발표</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">소비자물가 상승률</td><td style="border:1px solid #ddd;padding:8px;">2.9% (전년 동월 대비)</td><td style="border:1px solid #ddd;padding:8px;">2026년 9월, 국가데이터처</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">실질 GDP 성장률</td><td style="border:1px solid #ddd;padding:8px;">0.6% (전기 대비)</td><td style="border:1px solid #ddd;padding:8px;">2026년 2분기 잠정치, 한국은행</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">실업률</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월, 국가데이터처</td></tr>
+  </tbody>
+</table>
+
+<p>물가 숫자는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법 글</a>의 최근 물가 표, 성장률은 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목·실질 계산 글</a>의 2분기 숫자와 같아요. 실업률은 출처마다 계절조정 여부가 달라 값이 엇갈려서, 원문을 확인한 뒤 채울게요.</p>
+
 <h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</h2>
 <p>우려라는 말이 붙은 기사와 실제 스태그플레이션은 다른 이야기예요. 우려 기사는 가능성을 말하고, 판별은 확정된 통계로만 할 수 있어요.</p>
 
@@ -152,6 +179,18 @@ self_check: |
     <tr><td style="border:1px solid #ddd;padding:8px;">1970년대와 똑같이 반복된다</td><td style="border:1px solid #ddd;padding:8px;">원인과 경제 구조가 달라서 같은 모양으로 오지 않을 수 있어요.</td></tr>
   </tbody>
 </table>
+
+<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">주식 투자자에게 스태그플레이션이 무서운 이유</h2>
+
+<p>주식시장이 스태그플레이션이라는 단어에 예민한 건, 주가를 받치는 두 기둥이 동시에 흔들리기 때문이에요.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>이익이 줄어요:</strong> 원자재 값이 올라 원가는 늘었는데 경기가 식어 판매는 줄면, 기업 마진이 양쪽에서 눌려요. 원가 상승이 어디서 먼저 보이는지는 <a href="https://sensitiveboss3.tistory.com/entry/producer-price-index-cpi-difference" target="_blank" rel="noopener">생산자물가지수 글</a>에서 볼 수 있어요.</li>
+  <li><strong>금리가 도와주지 못해요:</strong> 보통 경기가 나쁘면 금리를 내려 주가를 받치지만, 물가가 높으면 금리를 내리기 어려워요. 할인율 부담이 그대로 남는 거예요.</li>
+  <li><strong>업종마다 다르게 맞아요:</strong> 원가를 판매가에 넘길 힘이 있는 기업과 없는 기업의 차이가 평소보다 크게 벌어져요.</li>
+</ul>
+
+<p>그래서 기사에서 이 단어를 보면, 결론보다 세 숫자가 실제로 어느 칸에 있는지부터 보는 게 순서예요.</p>
 
 <h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">뉴스 보다가 떠오르는 의문</h2>
 
@@ -173,7 +212,7 @@ self_check: |
 </details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">스태그플레이션 때 어떤 자산이 유리한가요</summary>
-  <p style="margin:10px 0 0 0;">이 글은 특정 자산이나 종목을 권하지 않습니다. 시기와 사정에 따라 결과가 다르므로 투자 판단은 본인의 몫이고, 필요하면 전문가와 상담하시기 바랍니다.</p>
+  <p style="margin:10px 0 0 0;">정해진 답은 없어요. 원가를 판매가에 넘길 수 있는지, 빚이 많아 금리에 민감한지에 따라 같은 시기에도 결과가 갈렸어요. 이 글은 특정 자산이나 종목을 권하지 않아요.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
@@ -186,7 +225,7 @@ self_check: |
   </ul>
 </div>
 
-<p style="font-size:13px;color:#888;">이 글은 경제 용어를 설명하는 정보 글이며 특정 종목이나 금융상품을 사고팔라는 권유가 아닙니다. 투자 결정과 그 결과는 투자자 본인이 책임지며, 통계 수치는 발표 기관의 최신 자료로 다시 확인해 주세요.</p>
+<p style="font-size:13px;color:#888;">이 글은 경제 용어를 설명하는 정보 글이며 특정 종목이나 금융상품을 사고팔라는 권유가 아닙니다. 투자 결정과 그 결과는 투자자 본인이 책임지며, 통계 수치는 발표 기관 자료가 기준입니다.</p>
 
 <script type="application/ld+json">
 {
@@ -203,11 +242,12 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/stagflation-three-indicators-1970s"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stagflation-three-indicators-1970s-1.png"
 }
 </script>
 
@@ -253,7 +293,7 @@ self_check: |
       "name": "스태그플레이션 때 어떤 자산이 유리한가요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "이 글은 특정 자산이나 종목을 권하지 않습니다. 시기와 사정에 따라 결과가 다르므로 투자 판단은 본인의 몫이고, 필요하면 전문가와 상담하시기 바랍니다."
+        "text": "정해진 답은 없어요. 원가를 판매가에 넘길 수 있는지, 빚이 많아 금리에 민감한지에 따라 같은 시기에도 결과가 갈렸어요. 이 글은 특정 자산이나 종목을 권하지 않아요."
       }
     }
   ]
