@@ -2397,6 +2397,26 @@
       "cannibalization_note": "111편(CAGR)·81편(리밸런싱)은 수익률·비중 주제로 MDD 낙폭 계산과 겹치지 않음. 본문에서 두 편으로 안내.",
       "gate_pass": false,
       "gate_pass_note": "게이트4 미충족. KB자산운용 칼럼(https://m.kbam.co.kr/board/view/786) 본문에서 MDD 정의·공식을 확인하면 true로 전환."
+    },
+    {
+      "id": 116,
+      "order": 116,
+      "title": "배당성향 공식과 이익 줄 때 배당 변화",
+      "slug": "dividend-payout-ratio-formula-cushion",
+      "keyword": "배당성향",
+      "type": "재무 비율",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "570 (PC 300 / 모바일 270, backlog.verified 기록)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 개인 블로그·Q&A·소규모 사이트 위주로 진입 여지 있음, 탐색형 의도, 가상 두 회사 비교·순이익 25% 감소 시나리오 표·배당성향÷PER 연결식은 요약에서 미확인.",
+      "unique_asset_plan": "가상 두 회사(배당성향 40%·90%, 배당수익률 4.0% 동일) 비교표, 순이익 25% 감소 시 배당성향 유지 vs DPS 유지 시나리오 표, 배당수익률=배당성향÷PER 검산표(전부 가상 계산)",
+      "primary_source": "dart.fss.or.kr·nts.go.kr WebFetch 각 1회 EGRESS_BLOCKED. 정의·공식은 brunch·dividendletter·12manage·Daum 팁·a-ha·증권플러스 6곳 일치(요약 단계 확인, 본문 미열람)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/dividend-payout-ratio-formula-cushion.md",
+      "cannibalization_note": "47편(배당수익률 계산법)은 DPS÷주가, 4편(배당소득세)은 세금 중심이라 배당성향 계산·시나리오와 다름. 분리과세 요건 수치는 4편에 있어 링크로만 안내.",
+      "gate_pass": false,
+      "gate_pass_note": "게이트4 미충족. KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '배당성향' 정의를 확인하면 true로 전환."
     }
   ],
   "backlog": {
@@ -3008,10 +3028,22 @@
         "hold_reason": "게이트1 통과. FOMC 점도표 수치는 연준 원문 확인이 필요해 접속 가능 여부부터 점검. 단순 순서 대기."
       },
       {
-        "title": "배당성향",
-        "keyword": "배당성향",
-        "monthly_search_volume": "570 (PC 300 / 모바일 270, 2026-10-01 실측)",
-        "hold_reason": "게이트1 통과. 배당수익률 편과 겹침 점검 필요, 계산 예시로 차별화 가능."
+        "title": "손익분기점",
+        "keyword": "손익분기점",
+        "monthly_search_volume": "3020 (PC 790 / 모바일 2230, 2026-10-02 실측)",
+        "hold_reason": "게이트1 통과(3,020회)했으나 WebSearch 상위가 Shopify·한경용어사전·조세일보 등 기업 BEP(경영) 설명이라 주식 블로그 의도와 어긋남. 주식 매매 손익분기 매도가(수수료+증권거래세 반영) 각도는 2편(주식 매도 세금)과 겹칠 수 있어 별도 키워드 검증 필요."
+      },
+      {
+        "title": "보호예수",
+        "keyword": "보호예수",
+        "monthly_search_volume": "700 (PC 210 / 모바일 490, 2026-10-02 실측)",
+        "hold_reason": "게이트1 통과(700회)했으나 오버행 뜻 편(overhang-lockup-release-check)이 보호예수를 49회 다뤄 카니벌라이제이션. 새 각도(신규상장 의무보유 기간표 등)는 금융위·예탁결제원 원문 확인 필요."
+      },
+      {
+        "title": "순환매 뜻",
+        "keyword": "순환매 뜻",
+        "monthly_search_volume": "880 (PC 140 / 모바일 740, 2026-10-02 실측)",
+        "hold_reason": "게이트1 통과(880회). SERP는 개인 블로그 다수라 진입 여지는 있으나 사전형 개념이고 1차 출처·정보이득 각도 미확보, 매매 타이밍 조언으로 읽힐 위험."
       }
     ],
     "failed_gate1": [
@@ -5287,6 +5319,26 @@
       {
         "keyword": "이격도",
         "monthly_search_volume": "480 (PC 160 / 모바일 320, 2026-10-01 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "잉여현금흐름",
+        "monthly_search_volume": "210 (PC 110 / 모바일 100, 2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "외국인 지분율",
+        "monthly_search_volume": "40 (PC 20 / 모바일 20, 2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "장단기 금리차",
+        "monthly_search_volume": "490 (PC 190 / 모바일 300, 2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "경상수지",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "따상 뜻",
+        "monthly_search_volume": "200 (PC 40 / 모바일 160, 2026-10-02 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
