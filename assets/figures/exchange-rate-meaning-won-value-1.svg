@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+<rect width="1200" height="780" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">환율이 오른 만큼 원화 가치가 내리지는 않습니다</text>
+<text x="70" y="122" font-size="25" fill="#666">원화 가치 = 1 ÷ 환율이라 두 변동률이 어긋남 · 단위 %</text>
+<line x1="90" y1="375" x2="1130" y2="375" stroke="#999" stroke-width="2"/>
+<rect x="125" y="197" width="90" height="178" fill="#1a2744" rx="5"/>
+<text x="170" y="185" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">+25.0</text>
+<rect x="225" y="375" width="90" height="142" fill="#e67e22" rx="5"/>
+<text x="270" y="549" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">-20.0</text>
+<text x="220" y="616" font-size="25" text-anchor="middle" fill="#333">환율 +25%</text>
+<rect x="375" y="304" width="90" height="71" fill="#1a2744" rx="5"/>
+<text x="420" y="292" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">+10.0</text>
+<rect x="475" y="375" width="90" height="65" fill="#e67e22" rx="5"/>
+<text x="520" y="472" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">-9.1</text>
+<text x="470" y="616" font-size="25" text-anchor="middle" fill="#333">환율 +10%</text>
+<rect x="625" y="375" width="90" height="71" fill="#1a2744" rx="5"/>
+<text x="670" y="478" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">-10.0</text>
+<rect x="725" y="296" width="90" height="79" fill="#e67e22" rx="5"/>
+<text x="770" y="284" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">+11.1</text>
+<text x="720" y="616" font-size="25" text-anchor="middle" fill="#333">환율 -10%</text>
+<rect x="875" y="375" width="90" height="142" fill="#1a2744" rx="5"/>
+<text x="920" y="549" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">-20.0</text>
+<rect x="975" y="197" width="90" height="178" fill="#e67e22" rx="5"/>
+<text x="1020" y="185" font-size="26" font-weight="bold" text-anchor="middle" fill="#111">+25.0</text>
+<text x="970" y="616" font-size="25" text-anchor="middle" fill="#333">환율 -20%</text>
+<rect x="90" y="684" width="30" height="10" fill="#1a2744"/>
+<text x="130" y="695" font-size="23" fill="#333">환율 변동률</text>
+<rect x="330" y="684" width="30" height="10" fill="#e67e22"/>
+<text x="370" y="695" font-size="23" fill="#333">원화 가치 변동률</text>
+<text x="70" y="752" font-size="21" fill="#888">계산 예시: 기준 환율 1,300원(가상)에서 계산한 값</text>
+</g></svg>

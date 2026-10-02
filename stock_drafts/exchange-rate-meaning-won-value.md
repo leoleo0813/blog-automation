@@ -17,6 +17,7 @@ unique_asset: |
   (a) 환율 +25%/+10%/-10%/-20% 변동 시 원화 가치(1원이 사는 달러) 변화율 역수 비대칭 표(-20%/-9.1%/+11.1%/+25%).
   (b) 기준환율 1,300원(가상) 현찰 살 때·팔 때 스프레드 ±1.7% 적용 1,000달러 왕복 환전 손실 계산(44,200원, 3.34%)과 우대율 80% 가정 재계산(8,840원, 0.68%).
   (c) 100달러 직구 가격 1,300원 vs 1,430원 비교, 100엔=900원 가상 환산 예시.
+  (추가 2026-10-02) 최근 주간 종가 표(10/1 1,358.4원, 10/2 1,350.6원), 실제 하루 변동으로 비대칭 계산(-0.57% vs +0.58%), 비대칭 그래프 1장, 해외주식 원화 수익률 공식.
 primary_source: |
   한국은행(bok.or.kr) WebFetch 1회 시도, EGRESS_BLOCKED. 원문을 직접 열지 못했다.
   대신 WebSearch 3회로 서로 다른 출처를 교차 확인했다:
@@ -24,6 +25,7 @@ primary_source: |
   매매기준율(서울외국환중개 고시, 외국환중개회사 거래 가중평균), 전신환 매입·매도율, 현찰 매매율과 스프레드 개념: 한국투자증권 도움말(truefriend), 서울외국환중개(smbs.biz), 세무tv 용어사전, 한국일보 계열 교민지 기사가 일치.
   1997년 12월 16일 일일 변동폭 10% 폐지, 자유변동환율제도 채택: 한국일보 1997년 12월 17일 사설, 한국경제 2022년 기사, 국가기록원 주제 해설, 한국은행 금요강좌 자료가 일치.
   세율·한도가 아닌 개념·계산 방식 설명이며 최신 환율 실제 값은 일부러 쓰지 않았다. 예시 환율과 스프레드·우대율은 전부 가상.
+  [2026-10-02 갱신] 10/1 주간 종가 1,358.4원(+5.6원): 연합 계열 다음 기사(오후 3시 30분)·스포탈코리아 일치. 10/2 1,350.6원(-7.8원): 서울신문 10/2 기사, 1,358.4-7.8=1,350.6으로 전일 값과 정합.
 기준일: 2026년 10월 기준 (제도·용어 설명, 계산 예시는 가상)
 tags: 환율 뜻, 환율이란, 원달러 환율, 환율 상승 원화 약세, 매매기준율, 환전 스프레드, 환전 우대율, 환전 비용 계산, 엔화 100엔 환산, 자유변동환율제
 gate_pass: true
@@ -41,28 +43,52 @@ self_check: |
   글 구조 유형: 비교형(첫 H2 바로 아래 용어 비교표로 시작) + 계산형 혼합. 직전 108편이 계산형 단독이었으므로 표 선행 비교형을 주축으로 두고 계산은 후반 절에 배치.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 5개, H2 6개 중 "~나요"형 1개. 요약박스 인디고 블루(#eaf0fc/#3b6fd4), 제목 "💱 환율 핵심 세 줄 메모". FAQ 헤딩 "환율 얘기 나올 때 걸리는 것들". 면책 문구 새 표현.
   사람 대조 권장: 위 gate_pass_note 참조. 엔화 100엔 고시 관행은 은행 환율표에서 직접 눈으로 확인 가능한 사항이라 별도 출처 없이 서술했으나 사람이 한 번 보면 좋음.
+  [2026-10-02 독자 관점 규칙 반영]
+  인트로 "이 글은"·"헷갈리기 쉽" 삭제, 첫 문장에 실제 환율(10/2 1,350.6원). 박스 제목 "세 줄" 제거. 현재 수치 표 H2 신설(첫 H2).
+  "해외주식·수출주 투자자에게 환율이 중요한 이유" H2 추가(원화 수익률 공식, 방향 단정 없음). 그림 1장(비대칭 계산 막대).
+  FAQ 헤딩 "걸리는" 제거, FAQ 5→4(100엔 질문 삭제, 108편 6개와 다르게). '확인하세요'류 3→0. 내부 링크 2개(98·103편 발행 완료).
+refresh_due: 2026-10-30
+refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 교체"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-01</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
-<p>뉴스에서 환율이 올랐다고 하면 숫자는 커졌는데 내 돈의 가치는 작아졌다는 뜻이라, 방향이 반대로 읽혀 헷갈리기 쉽습니다. 이 글은 환율의 뜻과 방향 용어를 먼저 표로 정리하고, 환율이 오른 비율과 원화 가치가 내린 비율이 왜 다른지 계산해 봅니다. 마지막으로 같은 1,000달러도 환전 방식에 따라 얼마나 달라지는지 가상의 숫자로 따라가 봅니다.</p>
+<p>2026년 10월 2일 서울 외환시장의 원/달러 환율은 1,350.6원(주간 종가)이었습니다. 1달러를 사는 데 우리 돈 1,350.6원이 든다는 뜻이고, 이 숫자가 오르면 원화 가치는 내려갑니다. 환율이 오른 비율과 원화 가치가 내린 비율은 같지 않고, 은행 창구에서 실제로 적용되는 환율은 뉴스 숫자와 또 다릅니다.</p>
 
 <div style="background:#eaf0fc;border:2px solid #3b6fd4;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#27458a;font-size:18px;">💱 환율 핵심 세 줄 메모</strong>
+  <strong style="color:#27458a;font-size:18px;">💱 환율 기사를 바로 읽는 규칙</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>환율은 다른 나라 돈 1단위를 사는 데 필요한 우리 돈의 양이고, 원/달러 환율 상승은 원화 약세를 뜻합니다.</li><li>환율이 10% 오르면 원화 가치는 약 9.1% 내려서 두 비율이 같지 않습니다.</li><li>환전할 때는 매매기준율이 아니라 현찰 살 때·팔 때 환율이 적용되어 왕복 비용이 생깁니다.</li></ul>
 </div>
 
 <h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
+  <li>지금 원/달러 환율 숫자</li>
   <li>환율 오른다는 말, 방향 용어 정리표</li>
   <li>환율 10% 상승이 원화 가치 -10%가 아닌 이유</li>
   <li>같은 1,000달러도 환전 방식에 따라 달라지는 비용</li>
   <li>엔화는 100엔 기준으로 환산하는 법</li>
   <li>환율은 무엇에 따라 움직이나요</li>
   <li>우리나라 환율제도는 1997년에 바뀌었습니다</li>
-  <li>환율 얘기 나올 때 걸리는 것들</li>
+  <li>해외주식·수출주 투자자에게 환율이 중요한 이유</li>
+  <li>환율 뉴스 앞에서 생기는 4가지 의문</li>
 </ol>
+
+<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">지금 원/달러 환율 숫자</h2>
+
+<p>최근 이틀 동안만 봐도 환율은 하루 몇 원씩 오르내렸습니다. 아래는 서울 외환시장 주간거래 종가입니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">날짜</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">주간 종가</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">전 거래일 대비</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2026-10-01</td><td style="border:1px solid #ddd;padding:8px;">1,358.4원</td><td style="border:1px solid #ddd;padding:8px;">+5.6원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2026-10-02</td><td style="border:1px solid #ddd;padding:8px;">1,350.6원</td><td style="border:1px solid #ddd;padding:8px;">-7.8원</td></tr>
+  </tbody>
+</table>
+
+<p>10월 2일 하루 움직임을 이 글의 계산법으로 바꿔 보면, 환율은 (1,350.6 ÷ 1,358.4 − 1) × 100 = 약 -0.57% 내렸고 원화 가치는 (1,358.4 ÷ 1,350.6 − 1) × 100 = 약 +0.58% 올랐습니다. 움직임이 작으면 두 비율이 거의 같고, 클수록 벌어집니다. 출처는 <a href="https://www.seoul.co.kr/news/economy/securities/2026/10/02/20261002500187" target="_blank" rel="noopener">서울신문 10월 2일 마감 기사</a>와 <a href="https://v.daum.net/v/20261001153632882" target="_blank" rel="noopener">10월 1일 오후 3시 30분 환율 기사</a>이고, 은행 환전의 기준이 되는 매매기준율은 매일 <a href="http://www.smbs.biz" target="_blank" rel="noopener">서울외국환중개</a>가 고시합니다.</p>
 
 <h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 오른다는 말, 방향 용어 정리표</h2>
 
@@ -108,8 +134,10 @@ self_check: |
 
 <div style="background:#fff8e1;border-left:5px solid #f0b429;padding:12px 16px;margin:20px 0;line-height:1.8;">
   <strong>💡 기억할 점</strong><br>
-  환율이 많이 움직일수록 두 비율의 차이가 커집니다. 변동률 기사를 읽을 때는 환율 기준인지 원화 가치 기준인지 먼저 확인하세요.
+  환율이 많이 움직일수록 두 비율의 차이가 커집니다. 변동률 기사를 읽을 때는 환율 기준인지 원화 가치 기준인지부터 봅니다.
 </div>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/exchange-rate-meaning-won-value-1.png" alt="환율 변동률과 원화 가치 변동률 비교 막대그래프. 환율 25퍼센트 상승 때 원화 가치 20퍼센트 하락, 10퍼센트 상승 때 9.1퍼센트 하락, 10퍼센트 하락 때 11.1퍼센트 상승, 20퍼센트 하락 때 25퍼센트 상승" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 기준 환율 1,300원(가상)</figcaption></figure>
 
 <h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">같은 1,000달러도 환전 방식에 따라 달라지는 비용</h2>
 
@@ -136,7 +164,7 @@ self_check: |
   </tbody>
 </table>
 
-<p><mark>환율이 한 번도 움직이지 않아도 사고 바로 파는 것만으로 우대 없이는 약 3.34%가 사라집니다.</mark> 우대율 적용 방식과 스프레드 크기는 금융사와 통화, 거래 방법(현찰·계좌 이체)에 따라 다르므로 실제 환전 전에 해당 금융사의 환율표를 확인해야 합니다.</p>
+<p><mark>환율이 한 번도 움직이지 않아도 사고 바로 파는 것만으로 우대 없이는 약 3.34%가 사라집니다.</mark> 우대율 적용 방식과 스프레드 크기는 금융사와 통화, 거래 방법(현찰·계좌 이체)에 따라 달라서, 금융사 환율표에 적힌 값이 실제 적용 환율입니다.</p>
 
 <h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">엔화는 100엔 기준으로 환산하는 법</h2>
 
@@ -148,7 +176,7 @@ self_check: |
   <li>환율이 10% 올라 100엔 = 990원이 되면 같은 50,000엔은 495,000원이 됩니다.</li>
 </ol>
 
-<p>엔화 외에 위안화 등 다른 통화의 표시 단위는 은행과 통화마다 다르므로 환율표의 단위 표기를 먼저 확인하세요.</p>
+<p>엔화 외에 위안화 등 다른 통화의 표시 단위는 은행과 통화마다 달라서 환율표의 단위 표기부터 봅니다.</p>
 
 <h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율은 무엇에 따라 움직이나요</h2>
 
@@ -169,7 +197,19 @@ self_check: |
 
 <p>제도 도입 이전에는 하루에 움직일 수 있는 폭이 제한되어 있었고, 환율이 제한 폭까지 오르는 날이 계속되며 외환시장이 마비되는 일이 있었다고 합니다. 매일 고시되는 매매기준율은 <a href="http://www.smbs.biz" target="_blank" rel="noopener">서울외국환중개</a>에서, 제도와 통계는 <a href="https://www.bok.or.kr" target="_blank" rel="noopener">한국은행</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 얘기 나올 때 걸리는 것들</h2>
+<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">해외주식·수출주 투자자에게 환율이 중요한 이유</h2>
+
+<p>주식 투자자에게 환율은 수익률 계산과 기업 실적, 외국인 자금 흐름 세 곳에서 동시에 작용합니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>해외주식 원화 수익률:</strong> 원화로 따진 수익률은 (1 + 주가 수익률) × (1 + 환율 변동률) − 1입니다. 미국 주식이 10% 올라도 같은 기간 환율이 5% 내리면 원화 수익률은 1.10 × 0.95 − 1 = 4.5%입니다(가상 숫자). 환율 영향을 줄이는 방법과 비용은 <a href="https://sensitiveboss3.tistory.com/entry/currency-hedge-cost-meaning" target="_blank" rel="noopener">환헤지 비용 글</a>에 정리했습니다.</li>
+  <li><strong>기업 실적:</strong> 달러로 받는 수출 기업은 환율이 오르면 원화로 바꾼 매출이 늘고, 원재료를 달러로 사오는 기업은 비용이 늘어납니다. 같은 환율 움직임이 업종마다 반대로 작용합니다.</li>
+  <li><strong>외국인 자금:</strong> 외국인 투자자는 원화 자산의 수익을 달러로 다시 계산합니다. 원화가 약해지면 환산 수익이 줄어 국내 주식 비중을 조정하는 요인이 되기도 합니다.</li>
+</ul>
+
+<p>어느 방향이 주가에 좋다고 단정할 수는 없습니다. 내가 가진 자산이 달러를 받는 쪽인지 쓰는 쪽인지부터 나눠 보면 환율 기사가 내 계좌에 어떤 뜻인지 읽힙니다.</p>
+
+<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 뉴스 앞에서 생기는 4가지 의문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">환율이 오르면 무조건 나쁜 건가요</summary>
@@ -191,11 +231,6 @@ self_check: |
   <p style="margin:10px 0 0 0;">환율 방향은 전문가도 맞히기 어렵고, 이 글은 환전 시점을 권하지 않습니다. 대신 스프레드와 우대율은 확인만 하면 줄일 수 있는 비용이라 먼저 점검해 볼 가치가 있습니다.</p>
 </details>
 
-<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">원/달러 환율이 1,300원이면 100엔은 얼마인가요</summary>
-  <p style="margin:10px 0 0 0;">원/달러 환율만으로는 알 수 없습니다. 원/엔 환율이 따로 필요하고, 은행 환율표의 100엔 기준 숫자를 보면 됩니다. 본문의 100엔 = 900원은 계산 방식을 보여 주려고 둔 가상의 값입니다.</p>
-</details>
-
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
@@ -207,12 +242,14 @@ self_check: |
     <li><a href="https://www.hankookilbo.com/news/article/199712170016127407" target="_blank" rel="noopener">한국일보 1997년 12월 17일 자유환율제 사설</a></li>
     <li><a href="https://www.hankyung.com/article/2022072473191" target="_blank" rel="noopener">한국경제 자유변동환율제 25년의 교훈</a></li>
     <li><a href="https://www.koreadaily.com/article/4133436" target="_blank" rel="noopener">코리아데일리 환전 형태에 따른 실제 금액 차이</a></li>
+    <li><a href="https://www.seoul.co.kr/news/economy/securities/2026/10/02/20261002500187" target="_blank" rel="noopener">서울신문 2026년 10월 2일 환율 마감 기사</a></li>
+    <li><a href="https://v.daum.net/v/20261001153632882" target="_blank" rel="noopener">2026년 10월 1일 원·달러 환율 기사</a></li>
   </ul>
-  기준일: 2026년 10월 기준. 환율·스프레드·우대율·엔화 예시는 이해를 돕기 위한 가상의 숫자이며 실제 시세가 아닙니다.
+  기준일: 2026년 10월 2일 기준(현재 환율 표는 주간거래 종가). 그 밖의 환율·스프레드·우대율·엔화 예시는 이해를 돕기 위한 가상의 숫자이며 실제 시세가 아닙니다.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
-이 글은 환율의 개념과 계산 방식을 알리는 정보 글로, 특정 종목이나 상품의 매수·매도, 환전 시점을 권하지 않습니다. 환율과 환전 조건은 시장과 금융사에 따라 수시로 달라지므로 실제 거래 전에 해당 금융사에서 최신 내용을 확인해 주세요. 투자 판단과 그 책임은 투자자 본인에게 있습니다.
+이 글은 환율의 개념과 계산 방식을 알리는 정보 글로, 특정 종목이나 상품의 매수·매도, 환전 시점을 권하지 않습니다. 환율과 환전 조건은 시장과 금융사에 따라 수시로 달라지며, 실제 거래에는 금융사가 고시한 값이 적용됩니다. 투자 판단과 그 책임은 투자자 본인에게 있습니다.
 </p>
 
 <script type="application/ld+json">
@@ -220,7 +257,7 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "환율 뜻과 원화 가치 계산법",
-  "description": "환율의 뜻과 환율 상승·하락 방향 용어, 환율이 오른 비율과 원화 가치 변동률이 다른 이유, 현찰 스프레드와 우대율에 따른 환전 비용을 가상의 숫자로 계산해 정리했습니다.",
+  "description": "원/달러 환율 뜻과 방향 용어, 환율 상승률과 원화 가치 하락률이 다른 이유를 2026년 10월 실제 환율로 계산하고, 환전 비용과 해외주식 투자자가 환율을 읽는 법까지 정리했습니다.",
   "author": {
     "@type": "Person",
     "name": "센시티브보스"
@@ -230,11 +267,12 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/exchange-rate-meaning-won-value"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/exchange-rate-meaning-won-value-1.png"
 }
 </script>
 
@@ -273,14 +311,6 @@ self_check: |
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "환율 방향은 전문가도 맞히기 어렵고, 이 글은 환전 시점을 권하지 않습니다. 대신 스프레드와 우대율은 확인만 하면 줄일 수 있는 비용이라 먼저 점검해 볼 가치가 있습니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "원/달러 환율이 1,300원이면 100엔은 얼마인가요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "원/달러 환율만으로는 알 수 없습니다. 원/엔 환율이 따로 필요하고, 은행 환율표의 100엔 기준 숫자를 보면 됩니다. 본문의 100엔 = 900원은 계산 방식을 보여 주려고 둔 가상의 값입니다."
       }
     }
   ]
