@@ -2508,6 +2508,26 @@
       "cannibalization_note": "92편(VIX)은 일곱 지표 중 하나만 다룸. 이 글은 7개 종합 구조와 해석 한계가 주제. 92·105·98편으로 링크.",
       "gate_pass": false,
       "gate_pass_note": "현재 수치 표 미기입 + CNN 원문 미열람. capture_guide대로 CNN 페이지 캡처를 올려 주면 표를 채우고 true로 전환."
+    },
+    {
+      "id": "120",
+      "order": "120",
+      "title": "경기침체 판단 기준 3가지와 기준순환일",
+      "slug": "recession-criteria-business-cycle-dates",
+      "keyword": "경기침체",
+      "type": "시장 개념",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1130 (PC 310 / 모바일 820, 2026-10-01 실측)",
+      "gate1_pass": "True",
+      "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 brunch·KDI·농민신문·IBK 블로그·a-ha 혼재, 진입 여지 있음. 세 방식 비교표와 기준순환일 표는 요약 단계에서 확인 못 함.",
+      "unique_asset_plan": "판정 방식 3종 비교표, 제11순환기 기준순환일 표와 그림(54+32=86개월), 가상 분기 성장률 두 사례 계산",
+      "primary_source": "kostat.go.kr WebFetch 1회 EGRESS_BLOCKED. 통계청 보도자료 검색 결과와 독립 보도 4곳 이상, NBER·KDI 해설 교차검증 일치.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/recession-criteria-business-cycle-dates.md",
+      "cannibalization_note": "113편(스태그플레이션)과 달리 침체 판정 기준과 기준순환일이 주제. 113편은 gate_pass:false라 링크 안 함. 108·100편으로 링크.",
+      "gate_pass": "True",
+      "gate_pass_note": "교차검증 진행. 발행 전 통계청 기준순환일 보도자료에서 2013.3/2017.9/2020.5, 54·32·86개월만 대조 권장."
     }
   ],
   "backlog": {
@@ -3111,12 +3131,6 @@
         "keyword": "버핏지수",
         "monthly_search_volume": "640 (PC 180 / 모바일 460, 2026-10-01 실측)",
         "hold_reason": "게이트1 통과(640회). 108편(GDP 뜻)과 시가총액/GDP 분모가 겹치므로 GDP 편 링크로 연결하되, 시가총액 최신 수치 출처 확인 가능 여부부터 다음 실행에서 점검. 단순 순서 대기."
-      },
-      {
-        "title": "경기침체",
-        "keyword": "경기침체",
-        "monthly_search_volume": "1130 (PC 310 / 모바일 820, 2026-10-01 실측)",
-        "hold_reason": "게이트1 통과. 113편(스태그플레이션)과 경기 4분면 설명이 겹쳐 차별화 각도(침체 판정 기준, 2분기 연속 마이너스 성장 관례 등) 확보 후 재검토."
       },
       {
         "title": "점도표",
