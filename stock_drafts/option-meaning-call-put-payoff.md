@@ -4,7 +4,7 @@ title: 옵션 뜻 콜옵션 풋옵션 손익 구조
 slug: option-meaning-call-put-payoff
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1720 (PC 160 / 모바일 1560, 2026-10-02 실측)
+monthly_search_volume: 1720 (PC 160 / 모바일 1560)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-02 - 통과]

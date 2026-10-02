@@ -2447,7 +2447,7 @@
       "type": "파생상품 개념",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "1720 (PC 160 / 모바일 1560, 2026-10-02 실측)",
+      "monthly_search_volume": "1720 (PC 160 / 모바일 1560)",
       "gate1_pass": true,
       "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 토스뱅크·KB Think·기재부 용어사전·CME·소규모 블로그. 정의와 한 줄 예시 중심이라 네 포지션 비교표·만기 손익표·원화 환산표는 요약에서 미확인.",
       "unique_asset_plan": "네 포지션 비교표, 만기 지수별 손익표, 원화 환산표, 내재가치 구분표, 옵션 vs 선물표(전부 가상 계산)",
