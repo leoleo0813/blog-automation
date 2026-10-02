@@ -18,6 +18,7 @@ unique_asset: |
   (b) 21일차 20일선을 이전 평균 + (들어오는 값 - 빠지는 값) ÷ 20으로 구하는 증분 계산(10,585원).
   (c) 16~25일차 5일선·20일선 비교표와 23~24일차 데드크로스 확인.
   (d) 기간별 이평선 비교표, 흔한 오해 vs 실제 표.
+  (추가 2026-10-02) 16~25일차 종가·5일선·20일선 꺾은선 그래프 1장(가상), 신호 지연 6거래일 계산.
 primary_source: |
   이동평균선은 기관이 수치를 공표하는 지표가 아니라 수학적 정의라서 1차 수치 출처가 따로 없다.
   금융투자협회 증권 용어사전(kofia.or.kr) WebFetch 1회 시도, EGRESS_BLOCKED. 검색 결과에 해당 사전 페이지가 노출됐으나 본문은 열람하지 못했다.
@@ -39,9 +40,11 @@ self_check: |
   글 구조 유형: 비교형(첫 H2 첫 블록이 기간별 이평선 비교표). 직전 112 계산형, 111 절차형, 110 시계열+계산형과 겹치지 않음.
   어투 모드: B 대화형(해요체 중심, 독자에게 묻는 문장 포함, 가상 인물 A씨는 예시 설명용). 꾸며낸 1인칭 경험 없음. 섹션마다 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 3개 이상 5개 이하, FAQ 7개(직전 112 6·111 4·110 5와 다름), H2 7개(목차 포함) 중 "~나요"형 0개(FAQ 질문 제외). 요약박스 청록(#e8f6f6/#1f8a8a), 제목 "👀 먼저 짚고 갈 숫자", 마무리 박스 "🧭 기억해 둘 것". FAQ 헤딩 "이평선 보면서 떠오르는 의문". 면책 문구 새 표현.
+  [2026-10-02 독자 관점 규칙 반영]
+  박스 제목 "헷갈리는" 제거. 그림 1장(교차 구간 꺾은선). "주식 투자자가 이평선을 쓰는 방식과 한계" H2 추가(추세·신호 지연·실적 미포함, 매매 지시 없음). 내부 링크 2개(85 볼린저밴드·93 PER, 발행 완료). FAQ 7개 유지. gate_pass:false 사유(게이트4)는 그대로.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-01</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
 
 <p>같은 종가로 그려도 5일선은 날카롭게 꺾이고 20일선은 느긋하게 따라옵니다. 이동평균선은 최근 며칠 종가를 더해 그 날짜 수로 나눈 값을 매일 이어 그린 선이고, 5일선은 5거래일, 20일선은 20거래일 평균이에요. 가상 종가 25일치로 두 선을 직접 계산해서 왜 모양이 다른지, 두 선이 만나는 지점은 어떻게 찾는지 따라가 볼게요.</p>
 
@@ -58,6 +61,7 @@ self_check: |
   <li>두 선이 만나는 지점 확인하는 순서</li>
   <li>단순 평균과 지수 평균의 차이</li>
   <li>이평선을 볼 때 흔한 오해</li>
+  <li>주식 투자자가 이평선을 쓰는 방식과 한계</li>
   <li>이평선 보면서 떠오르는 의문</li>
 </ol>
 
@@ -94,7 +98,7 @@ self_check: |
 <p>20일선은 20일차에야 처음 나옵니다. 1~20일차 종가 20개의 합이 211,100원이라 20으로 나누면 10,555원이에요.</p>
 
 <div style="background:#e8f6f6;border:2px solid #1f8a8a;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#14595a;font-size:18px;">📝 계산 중 헷갈리는 지점</strong>
+  <strong style="color:#14595a;font-size:18px;">📝 계산할 때 놓치기 쉬운 지점</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>평균에 쓰는 날짜 수가 모자라면 선이 아직 안 그려집니다. 20일선은 19일차까지 값이 없어요.</li><li>휴장일은 거래일에 들어가지 않으니, 달력 날짜가 아니라 장이 열린 날로 세어야 합니다.</li></ul>
 </div>
 
@@ -138,6 +142,8 @@ self_check: |
 
 <p>교차가 확인되는 시점은 가격이 정점(17일차 11,000원)을 지나고 한참 뒤인 23~24일차입니다. 평균은 지나간 값으로 만들어서 신호가 가격보다 늦게 나와요.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/moving-average-5-20-day-cross-1.png" alt="16일차부터 25일차까지 가상 종가와 5일선, 20일선 꺾은선 그래프. 종가는 17일차 11,000원이 정점이고, 5일선이 내려와 23일차에 20일선과 10,630원에서 만난 뒤 아래로 내려감" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 종가</figcaption></figure>
+
 <h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">단순 평균과 지수 평균의 차이</h2>
 <p>이 글의 계산은 모두 단순이동평균(SMA)입니다. 지수이동평균(EMA)은 최근 값에 더 큰 비중을 주는 방식이에요.</p>
 
@@ -166,6 +172,18 @@ self_check: |
   <strong style="color:#14595a;font-size:18px;">🧭 기억해 둘 것</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>이평선은 종가를 더해 기간으로 나눈 값을 이은 선입니다.</li><li>기간이 짧을수록 빠르고, 길수록 완만합니다.</li><li>교차는 지나간 가격끼리의 비교라 신호가 늦고, 예측이 아닙니다.</li></ul>
 </div>
+
+<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">주식 투자자가 이평선을 쓰는 방식과 한계</h2>
+
+<p>이평선은 차트를 처음 열면 가장 먼저 보이는 선이라, 쓰는 방식과 한계를 같이 알아 두는 편이 좋아요.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>추세 확인:</strong> 가격이 120일선 위에 오래 머무는지 아래에 머무는지로 반년 흐름을 한눈에 봅니다. 선의 기울기가 위인지 아래인지도 같이 봐요.</li>
+  <li><strong>신호가 늦게 옵니다:</strong> 위 예시에서 종가 정점은 17일차였는데 두 선이 만난 건 23일차였어요. 6거래일 늦게 확인된 셈이고, 그 사이 종가는 11,000원에서 10,550원으로 내려와 있었습니다.</li>
+  <li><strong>실적은 들어 있지 않아요:</strong> 이평선은 가격만으로 만든 선이라 회사가 돈을 얼마나 버는지는 담지 않습니다. 가격이 이익에 비해 어느 수준인지는 <a href="https://sensitiveboss3.tistory.com/entry/per-meaning-calculation" target="_blank" rel="noopener">PER 계산 글</a> 같은 가치 지표로 따로 봐요.</li>
+</ul>
+
+<p>골든크로스나 데드크로스 같은 이름이 붙어 있어도, 지나간 가격의 평균끼리 순서가 바뀌었다는 기록이에요. 이 신호만으로 매수나 매도를 정하는 건 일반적인 사용법이 아닙니다.</p>
 
 <h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">이평선 보면서 떠오르는 의문</h2>
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">이동평균선은 종가로만 그리나요?</summary><p>대부분의 차트는 종가를 기본값으로 씁니다. 지표 설정에서 시가나 고가를 고르게 만든 서비스도 있으니, 쓰는 차트의 기본 설정을 먼저 확인해 보세요.</p></details>
@@ -204,13 +222,15 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/moving-average-5-20-day-cross"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/moving-average-5-20-day-cross-1.png"
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">5일선과 20일선이 만나는 지점 (가상 종가)</text>
+<text x="70" y="122" font-size="25" fill="#666">16~25일차 · 단위 원 · 20일선은 20일차부터 계산</text>
+<line x1="130" y1="570" x2="1130" y2="570" stroke="#eee" stroke-width="2"/>
+<text x="116" y="578" font-size="21" text-anchor="end" fill="#777">10,000</text>
+<line x1="130" y1="475" x2="1130" y2="475" stroke="#eee" stroke-width="2"/>
+<text x="116" y="483" font-size="21" text-anchor="end" fill="#777">10,300</text>
+<line x1="130" y1="380" x2="1130" y2="380" stroke="#eee" stroke-width="2"/>
+<text x="116" y="388" font-size="21" text-anchor="end" fill="#777">10,600</text>
+<line x1="130" y1="285" x2="1130" y2="285" stroke="#eee" stroke-width="2"/>
+<text x="116" y="293" font-size="21" text-anchor="end" fill="#777">10,900</text>
+<line x1="130" y1="190" x2="1130" y2="190" stroke="#eee" stroke-width="2"/>
+<text x="116" y="198" font-size="21" text-anchor="end" fill="#777">11,200</text>
+<text x="130" y="608" font-size="21" text-anchor="middle" fill="#555">16일</text>
+<text x="241" y="608" font-size="21" text-anchor="middle" fill="#555">17일</text>
+<text x="352" y="608" font-size="21" text-anchor="middle" fill="#555">18일</text>
+<text x="463" y="608" font-size="21" text-anchor="middle" fill="#555">19일</text>
+<text x="574" y="608" font-size="21" text-anchor="middle" fill="#555">20일</text>
+<text x="686" y="608" font-size="21" text-anchor="middle" fill="#555">21일</text>
+<text x="797" y="608" font-size="21" text-anchor="middle" fill="#555">22일</text>
+<text x="908" y="608" font-size="21" text-anchor="middle" fill="#555">23일</text>
+<text x="1019" y="608" font-size="21" text-anchor="middle" fill="#555">24일</text>
+<text x="1130" y="608" font-size="21" text-anchor="middle" fill="#555">25일</text>
+<polyline points="130,269 241,253 352,285 463,317 574,348 686,380 797,412 908,396 1019,443 1130,475" fill="none" stroke="#9aa0a6" stroke-width="5" stroke-linejoin="round"/>
+<rect x="130" y="628" width="30" height="8" fill="#9aa0a6"/>
+<text x="170" y="638" font-size="23" fill="#333">종가</text>
+<polyline points="130,307 241,285 352,279 463,285 574,294 686,317 797,348 908,370 1019,396 1130,421" fill="none" stroke="#e67e22" stroke-width="5" stroke-linejoin="round"/>
+<rect x="430" y="628" width="30" height="8" fill="#e67e22"/>
+<text x="470" y="638" font-size="23" fill="#333">5일선</text>
+<polyline points="574,394 686,385 797,378 908,370 1019,367 1130,367" fill="none" stroke="#1a2744" stroke-width="5" stroke-linejoin="round"/>
+<rect x="730" y="628" width="30" height="8" fill="#1a2744"/>
+<text x="770" y="638" font-size="23" fill="#333">20일선</text>
+<circle cx="241" cy="253" r="9" fill="#9aa0a6"/>
+<text x="255" y="239" font-size="24" font-weight="bold" fill="#9aa0a6" text-anchor="start">종가 정점 17일차</text>
+<circle cx="908" cy="370" r="9" fill="#c0392b"/>
+<text x="922" y="330" font-size="24" font-weight="bold" fill="#c0392b" text-anchor="start">23일차 두 선이 같아짐</text>
+<text x="70" y="692" font-size="21" fill="#888">계산 예시: 본문 A씨 가상 종가. 실제 종목 가격 아님</text>
+</g></svg>
