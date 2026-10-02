@@ -108,15 +108,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>오버행이 정확히 무엇을 뜻하나요</li>
-  <li>보호예수 의무기간은 얼마나 되나요</li>
-  <li>오버행이 주가에 어떤 영향을 주나요</li>
-  <li>보호예수 해제일은 어디서 확인하나요</li>
-  <li>2026년 오버행 사례는 어떤 게 있나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">오버행이 정확히 무엇을 뜻하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">보호예수 의무기간은 얼마나 되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">오버행이 주가에 어떤 영향을 주나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">보호예수 해제일은 어디서 확인하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 오버행 사례는 어떤 게 있나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">오버행이 정확히 무엇을 뜻하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">오버행이 정확히 무엇을 뜻하나요</h2>
 
 <p>오버행(Overhang)은 <b>앞으로 시장에 나올 가능성이 있는 대규모 주식 물량</b>을 말합니다. 아직 실제로 팔리지 않았지만, 언제든 매물로 쏟아질 수 있다는 점에서 투자자들이 부담을 느끼는 요소입니다.</p>
 
@@ -130,7 +130,7 @@ self_check: |
   <li>인수합병(M&A) 이후 <b>기존 대주주가 지분을 정리</b>하는 경우</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보호예수 의무기간은 얼마나 되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보호예수 의무기간은 얼마나 되나요</h2>
 
 <p>가장 흔한 오버행 원인은 <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">상장 당시 최대주주 등에게 부과되는 의무보호예수 기간이 끝나는 것</span>입니다. 이 기간과 조건은 코스피와 코스닥이 다릅니다.</p>
 
@@ -158,7 +158,7 @@ self_check: |
 
 <p>즉 코스닥은 상장 후 1년이 다 지나야 전량 해제되는 것이 아니라, <b>6개월째부터 매달 조금씩</b> 시장에 나올 수 있는 구조입니다. 그래서 코스닥 종목은 상장 6개월 시점부터 오버행 이슈가 반복적으로 거론됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">오버행이 주가에 어떤 영향을 주나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">오버행이 주가에 어떤 영향을 주나요</h2>
 
 <p>대기 매도 물량이 실제로 시장에 풀리면 <b>수급 불균형</b>이 생겨 주가가 하락 압력을 받을 수 있습니다. 물량을 보유한 투자자들이 차익 실현을 위해 한꺼번에 매도에 나설 수 있기 때문입니다.</p>
 
@@ -169,7 +169,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">오버행은 "물량이 나올 수 있다"는 가능성을 뜻할 뿐, 실제로 매도가 나올지·언제 나올지는 보유 주체의 판단에 달려 있습니다. 해제 물량 규모가 유통주식수 대비 얼마나 큰지를 함께 확인하는 것이 중요합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보호예수 해제일은 어디서 확인하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보호예수 해제일은 어디서 확인하나요</h2>
 
 <p>추측하지 않고 실제 해제일과 물량을 확인하는 방법이 있습니다. <a href="https://seibro.or.kr" target="_blank" rel="noopener">한국예탁결제원 세이브로(SEIBRO)</a>는 상장주식의 의무보호예수 해제 물량을 조회할 수 있는 공식 시스템을 제공합니다.</p>
 
@@ -179,7 +179,7 @@ self_check: |
   <li>증권사 리서치센터가 매월 발표하는 "이달의 보호예수 해제 예정 종목" 리포트 참고</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 오버행 사례는 어떤 게 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 오버행 사례는 어떤 게 있나요</h2>
 
 <p>실제 사례를 보면 오버행이 어떻게 진행되는지 감이 잡힙니다. <b>케이뱅크는 2026년 6월 상장했고, 상장 6개월 시점(2026년 9월)에 발행주식의 20%가 넘는 물량에 대한 매각 제한이 풀렸습니다.</b> 이어 우리은행이 보유한 지분(9%대)도 순차적으로 보호예수 해제 구간에 들어설 예정입니다.</p>
 
@@ -188,7 +188,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">위 사례는 언론 보도를 바탕으로 한 진행 상황 설명입니다. 특정 종목의 매수·매도 시점을 제시하는 것이 아니며, 투자 판단은 각자의 몫입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">오버행 뜻은 정확히 무엇인가요</summary>

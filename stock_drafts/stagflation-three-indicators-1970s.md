@@ -68,16 +68,16 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
 
 <h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>물가와 성장률 조합으로 보는 네 가지 경기 상황</li>
-  <li>스태그플레이션이 생기는 원인</li>
-  <li>1970년대 오일쇼크 때는 어땠을까요</li>
-  <li>지금 상황을 직접 판별하는 3지표 확인 순서</li>
-  <li>지금 한국의 3지표는 어디쯤일까요</li>
-  <li>스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</li>
-  <li>주식 투자자에게 스태그플레이션이 무서운 이유</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물가와 성장률 조합으로 보는 네 가지 경기 상황</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">스태그플레이션이 생기는 원인</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">1970년대 오일쇼크 때는 어땠을까요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 상황을 직접 판별하는 3지표 확인 순서</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 한국의 3지표는 어디쯤일까요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자에게 스태그플레이션이 무서운 이유</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">물가와 성장률 조합으로 보는 네 가지 경기 상황</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">물가와 성장률 조합으로 보는 네 가지 경기 상황</h2>
 <p>물가가 오르는지 내리는지, 성장이 늘어나는지 줄어드는지를 겹치면 경기 상황은 네 가지로 나뉘어요. 스태그플레이션은 그중 물가 상승과 성장 둔화가 겹친 칸이에요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -96,7 +96,7 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stagflation-three-indicators-1970s-1.png" alt="물가와 성장률로 나눈 4분면 그림. 물가 오름과 성장 멈춤은 스태그플레이션, 물가 오름과 성장 늘어남은 경기 과열형, 물가 안정과 성장 늘어남은 골디락스형, 물가 안정과 성장 멈춤은 디플레이션형" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">개념도: 물가와 성장 조합 4분면</figcaption></figure>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션이 생기는 원인</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션이 생기는 원인</h2>
 <p>가장 대표적인 원인은 <mark>원유 같은 원자재 가격이 갑자기 오르는 공급 충격</mark>이에요. 생산 비용이 올라 물가는 뛰는데 기업은 생산을 줄이니 성장은 꺾이고 일자리도 줄어요.</p>
 
 <p>스태그플레이션이라는 말은 침체를 뜻하는 스태그네이션(stagnation)과 물가 상승을 뜻하는 인플레이션(inflation)을 합친 단어예요. 정의는 <a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9C%EA%B7%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98" target="_blank" rel="noopener">위키백과 스태그플레이션</a>에도 같은 구성으로 나와요.</p>
@@ -114,7 +114,7 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
 
 <p>기준금리가 움직이는 방식은 <a href="https://sensitiveboss3.tistory.com/entry/base-rate-meaning-interest-calc" target="_blank" rel="noopener">기준금리 뜻과 이자 계산</a> 편에 정리해 두었어요.</p>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">1970년대 오일쇼크 때는 어땠을까요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">1970년대 오일쇼크 때는 어땠을까요</h2>
 <p>1970년대 두 차례 오일쇼크가 스태그플레이션의 대표 사례로 꼽혀요. 1974년에는 주요 선진국이 두 자릿수 물가 상승과 성장 둔화를 함께 겪었어요.</p>
 
 <p>한국도 해외 의존도가 높은 경제 구조라서 1차 석유파동 때 불황 속 물가 상승을 겪었고, 2차 석유파동에서도 반복됐어요. 이 흐름은 <a href="https://theme.archives.go.kr/next/koreaOfRecord/gasoline.do" target="_blank" rel="noopener">국가기록원 기록으로 만나는 대한민국 석유파동</a>에 정리돼 있어요.</p>
@@ -134,7 +134,7 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">지금 상황을 직접 판별하는 3지표 확인 순서</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">지금 상황을 직접 판별하는 3지표 확인 순서</h2>
 <p>스태그플레이션 여부는 <mark>뉴스 헤드라인이 아니라 공식 통계 세 가지</mark>로 확인할 수 있어요. 아래 순서대로 보면 5분이면 충분해요.</p>
 
 <ol style="line-height:1.9;">
@@ -149,7 +149,7 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>물가만 보지 말고 성장률과 실업률까지 세 숫자를 함께 봅니다.</li><li>한 달 수치보다 몇 달 이어지는 흐름을 봅니다.</li><li>판별은 현재 상황을 이해하는 용도이고, 매매 신호가 아닙니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">지금 한국의 3지표는 어디쯤일까요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">지금 한국의 3지표는 어디쯤일까요</h2>
 
 <p>판별 순서를 지금 숫자에 그대로 적용해 볼게요. 물가는 2%대 후반, 성장률은 플러스여서 4분면에서 스태그플레이션 칸과는 거리가 있어요. 다만 한 분기 숫자만으로 정하지 않고 몇 달 흐름을 이어서 봐요.</p>
 
@@ -166,7 +166,7 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
 
 <p>물가 숫자는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법 글</a>의 최근 물가 표, 성장률은 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목·실질 계산 글</a>의 2분기 숫자와 같아요. 실업률은 출처마다 계절조정 여부가 달라 값이 엇갈려서, 원문을 확인한 뒤 채울게요.</p>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</h2>
 <p>우려라는 말이 붙은 기사와 실제 스태그플레이션은 다른 이야기예요. 우려 기사는 가능성을 말하고, 판별은 확정된 통계로만 할 수 있어요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -180,7 +180,7 @@ refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지�
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">주식 투자자에게 스태그플레이션이 무서운 이유</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">주식 투자자에게 스태그플레이션이 무서운 이유</h2>
 
 <p>주식시장이 스태그플레이션이라는 단어에 예민한 건, 주가를 받치는 두 기둥이 동시에 흔들리기 때문이에요.</p>
 

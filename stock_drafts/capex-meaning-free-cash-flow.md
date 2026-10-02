@@ -59,16 +59,16 @@ self_check: |
 <h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>가상 기업으로 잉여현금흐름 먼저 계산해 보기</li>
-  <li>CAPEX 뜻: 설비투자로 나간 현금</li>
-  <li>자본적지출과 수익적지출이 갈리는 지점</li>
-  <li>CAPEX와 감가상각비 비교</li>
-  <li>현금흐름표에서 CAPEX 찾는 순서</li>
-  <li>CAPEX 숫자 해석에서 조심할 점</li>
-  <li>CAPEX 읽다 막히는 대목</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가상 기업으로 잉여현금흐름 먼저 계산해 보기</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAPEX 뜻: 설비투자로 나간 현금</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자본적지출과 수익적지출이 갈리는 지점</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAPEX와 감가상각비 비교</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">현금흐름표에서 CAPEX 찾는 순서</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAPEX 숫자 해석에서 조심할 점</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAPEX 읽다 막히는 대목</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">가상 기업으로 잉여현금흐름 먼저 계산해 보기</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">가상 기업으로 잉여현금흐름 먼저 계산해 보기</h2>
 
 <p>결론부터 보면 <mark>잉여현금흐름 = 영업활동현금흐름 - CAPEX</mark>입니다. 아래 두 표의 숫자는 이해를 돕기 위해 만든 가상 값이고 실제 기업의 수치가 아닙니다.</p>
 
@@ -115,7 +115,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX 뜻: 설비투자로 나간 현금</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX 뜻: 설비투자로 나간 현금</h2>
 
 <p>CAPEX는 Capital Expenditures의 약자로 자본적지출 또는 설비투자비라고 부릅니다. 미래에 이익을 만들려고 기계, 공장, 건물 같은 비유동자산을 사거나 기존 자산을 개량할 때 쓴 돈을 말합니다. 정의는 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=40" target="_blank" rel="noopener">기획재정부 시사경제용어사전</a>에서도 확인할 수 있습니다.</p>
 
@@ -128,7 +128,7 @@ self_check: |
   <li>회사에 따라 소프트웨어, 개발비 같은 무형자산 취득</li>
 </ul>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">자본적지출과 수익적지출이 갈리는 지점</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">자본적지출과 수익적지출이 갈리는 지점</h2>
 
 <p>자산에 쓴 돈이라고 모두 CAPEX가 되지는 않습니다. 지출의 효과가 다음 해 이후로 이어지면 자본적지출로 자산에 더하고, 현상 유지에 그치면 그해 비용으로 처리하는 것이 회계의 기본 구분입니다.</p>
 
@@ -146,7 +146,7 @@ self_check: |
 
 <p>이 구분은 K-IFRS 제1016호(유형자산)의 자본화 원칙에 따르며, 회사가 어떻게 분류하는지에 따라 이익과 CAPEX 수치가 달라질 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX와 감가상각비 비교</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX와 감가상각비 비교</h2>
 
 <p>CAPEX는 현금이 나가는 시점의 숫자이고 감가상각비는 그 돈이 여러 해에 나뉘어 비용이 되는 숫자입니다. 감가상각비 계산 자체는 <a href="https://sensitiveboss3.tistory.com/entry/depreciation-meaning-calculation" target="_blank" rel="noopener">감가상각비 뜻과 계산 방법</a> 편에서 다뤘습니다.</p>
 
@@ -165,7 +165,7 @@ self_check: |
 
 <p>이 나눔은 공식 회계 분류가 아니라 분석용 추정이므로, 실제 회사가 공시한 구분이 아니라는 점을 기억해야 합니다.</p>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">현금흐름표에서 CAPEX 찾는 순서</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">현금흐름표에서 CAPEX 찾는 순서</h2>
 
 <ol style="line-height:1.9;">
   <li><strong>공시 열기:</strong> <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">DART 전자공시</a>에서 회사명을 검색하고 사업보고서나 분기보고서를 엽니다.</li>
@@ -177,7 +177,7 @@ self_check: |
 
 <p>현금흐름표에서 CAPEX는 보통 <mark>투자활동 현금유출</mark>로 나타나므로 괄호나 음수로 표시됩니다. 계산할 때는 부호를 헷갈리지 않게 절댓값으로 바꿔서 빼야 합니다.</p>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX 숫자 해석에서 조심할 점</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX 숫자 해석에서 조심할 점</h2>
 
 <ul style="line-height:1.9;">
   <li><strong>업종 차이:</strong> 설비가 핵심인 제조업과 설비가 적은 서비스업은 CAPEX 수준이 다릅니다.</li>
@@ -195,7 +195,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX 읽다 막히는 대목</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #00897b;padding-left:12px;margin-top:36px;">CAPEX 읽다 막히는 대목</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">CAPEX가 크면 회사에 나쁜 신호인가요</summary>

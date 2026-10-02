@@ -38,14 +38,14 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>증권사 수수료는 어디서 비교하나요</li>
-  <li>같은 증권사인데 수수료가 왜 다르게 나오나요</li>
-  <li>실제 수수료는 얼마나 차이 날까요</li>
-  <li>공시 화면을 볼 때 무엇을 확인해야 하나요</li>
-  <li>수수료가 가장 싼 곳을 고르면 되나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증권사 수수료는 어디서 비교하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 증권사인데 수수료가 왜 다르게 나오나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 수수료는 얼마나 차이 날까요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공시 화면을 볼 때 무엇을 확인해야 하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수수료가 가장 싼 곳을 고르면 되나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권사 수수료는 어디서 비교하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권사 수수료는 어디서 비교하나요</h2>
 
 <p>증권사 주식 위탁매매 수수료는 금융투자협회 전자공시 사이트에서 비교할 수 있습니다. 협회 홈페이지의 <b>금융투자상품 수수료비교</b> 메뉴가 그 창구입니다.</p>
 
@@ -63,7 +63,7 @@ self_check: |
   </ol>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">같은 증권사인데 수수료가 왜 다르게 나오나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">같은 증권사인데 수수료가 왜 다르게 나오나요</h2>
 
 <p>같은 회사라도 조건에 따라 적용되는 수수료가 다릅니다. 공시가 조건별로 나뉘어 있는 이유입니다.</p>
 
@@ -94,7 +94,7 @@ self_check: |
 
 <p>스마트폰으로 주문하는 초보 투자자라면 오프라인 조건의 수수료는 참고 대상이 아닙니다. 조건을 잘못 놓고 비교하면 실제와 다른 숫자를 보게 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 수수료는 얼마나 차이 날까요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 수수료는 얼마나 차이 날까요</h2>
 
 <!-- [이미지 삽입 위치] 티스토리 HTML 편집기에서 여기에 커서를 놓고
      금융투자협회 비교공시 화면 캡처 사진을 직접 업로드하세요.
@@ -132,7 +132,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">표의 기준일자는 2012년부터 2026년까지 걸쳐 있습니다. 이는 각 증권사가 지금 공시된 수수료를 마지막으로 바꾼 시점이 다르다는 뜻입니다. 기준일자가 오래됐다고 해서 값을 못 믿는다는 뜻은 아니고, 그 이후로 해당 회사가 수수료를 바꾸지 않았다는 의미입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공시 화면을 볼 때 무엇을 확인해야 하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공시 화면을 볼 때 무엇을 확인해야 하나요</h2>
 
 <p>공시는 수수료율이 아니라 <b>거래금액 구간별 수수료 금액</b>으로 보여줍니다. 투자자가 직접 계산하지 않아도 되도록 바뀐 부분입니다.</p>
 
@@ -164,7 +164,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">10만 원, 50만 원 구간을 먼저 보세요. 1천만 원 기준으로 유리한 곳이 소액에서도 유리하다는 보장은 없습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수수료가 가장 싼 곳을 고르면 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수수료가 가장 싼 곳을 고르면 되나요</h2>
 
 <p>수수료만 보고 정하기 어려운 이유가 두 가지 있습니다.</p>
 

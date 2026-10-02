@@ -156,22 +156,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>개인투자용국채란 무엇인가요</li>
-  <li>매입 방법과 만기 종류</li>
-  <li>매입한도와 분리과세, 정확한 수치</li>
-  <li>일반 국채와 다른 점</li>
-  <li>중도환매하면 어떻게 되나요</li>
-  <li>원문에서 직접 확인하는 방법</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">개인투자용국채란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매입 방법과 만기 종류</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매입한도와 분리과세, 정확한 수치</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">일반 국채와 다른 점</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도환매하면 어떻게 되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">원문에서 직접 확인하는 방법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">개인투자용국채란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">개인투자용국채란 무엇인가요</h2>
 
 <p>2024년 6월 처음 발행된 저축성 국채로, 매입 자격이 개인으로 한정됩니다. 기관이나 법인은 살 수 없고, 개인이 소액 단위로 안정적인 장기 자산을 모으도록 설계된 상품입니다.</p>
 
 <p>일반 국채는 증권사 계좌를 통해 장내에서 누구나 사고팔 수 있지만, 개인투자용국채는 전용 계좌를 만들어 청약해야 하고 발행 후에는 시장에서 거래되지 않습니다.</p>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">매입 방법과 만기 종류</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">매입 방법과 만기 종류</h2>
 
 <p>만기는 5년·10년·20년 세 종류로 나뉘고, <mark>매월 정해진 기간에 청약 방식으로 모집</mark>합니다. 최소 매입 금액은 10만 원이며 10만 원 단위로 금액을 늘릴 수 있습니다.</p>
 
@@ -194,7 +194,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">매입한도와 분리과세, 정확한 수치</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">매입한도와 분리과세, 정확한 수치</h2>
 
 <p>검색해보면 연간 매입한도를 <b>2억 원</b>이라고 쓴 자료와 <b>1억 원</b>이라고 쓴 자료가 동시에 나오고, 분리과세 세율도 <b>15.4%</b>라는 자료와 <b>14%</b>라는 자료가 섞여 있습니다. 기획재정부 국채시장 공식 페이지 원문을 직접 확인한 결과, <mark>매입한도는 1인당 연간 2억 원, 분리과세 세율은 14%</mark>가 맞습니다.</p>
 
@@ -210,7 +210,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">실제 표면금리·가산금리는 청약 시점마다 다르고, 종합과세 여부와 세율도 개인의 다른 소득 수준에 따라 달라지므로 이 예시는 구조를 보여주기 위한 가정치입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">일반 국채와 다른 점</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">일반 국채와 다른 점</h2>
 
 <p>가장 큰 차이는 <mark>만기 전에 시장에서 팔 수 있는지 여부</mark>입니다. 일반 국채(장내 국채)는 증권사 계좌로 언제든 사고팔 수 있지만, 개인투자용국채는 소유권 자체를 다른 사람에게 넘길 수 없습니다.</p>
 
@@ -246,7 +246,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">중도환매하면 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">중도환매하면 어떻게 되나요</h2>
 
 <p>매입 후 1년이 지나면 중도환매를 신청할 수 있습니다. 그런데 이 경우 가산금리·복리 효과·분리과세 혜택이 전부 빠지고 원금과 기본 이자만 돌려받는 구조입니다.</p>
 
@@ -256,7 +256,7 @@ self_check: |
   <li>만기까지 보유할 자신이 없다면 일반 국채나 예금 등 다른 상품과 비교해보는 편이 낫습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">원문에서 직접 확인하는 방법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">원문에서 직접 확인하는 방법</h2>
 
 <p>이 글의 매입한도(2억원)·분리과세 세율(14%)은 <mark>기획재정부 국채시장 사이트 원문</mark>으로 확인한 수치입니다. 다만 가산금리는 매월 바뀌고 제도 자체도 개정될 수 있으므로, 청약 직전에는 아래 페이지에서 그 시점 기준으로 다시 확인하는 편이 안전합니다.</p>
 
@@ -268,7 +268,7 @@ self_check: |
 
 <p>채권 이자소득세 전반에 대해서는 별도로 정리한 <a href="https://sensitiveboss3.tistory.com/entry/bond-tax-guide" target="_blank" rel="noopener">채권 세금 글</a>도 참고할 만합니다. 단, 개인투자용국채의 분리과세 특례는 일반 채권 과세와는 별도 제도라는 점을 구분해서 봐야 합니다.</p>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">개인투자용국채는 누구나 살 수 있나요</summary>

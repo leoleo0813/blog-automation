@@ -141,21 +141,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>데드캣바운스 뜻</li>
-  <li>진짜 반등과 구별하는 법</li>
-  <li>2026년 코스피는 데드캣바운스였나요</li>
-  <li>서킷브레이커 발동과 어떤 관계가 있나요</li>
-  <li>데드캣바운스 앞에서 흔한 착각</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">데드캣바운스 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">진짜 반등과 구별하는 법</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 코스피는 데드캣바운스였나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">서킷브레이커 발동과 어떤 관계가 있나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">데드캣바운스 앞에서 흔한 착각</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">데드캣바운스 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">데드캣바운스 뜻</h2>
 
 <p>데드캣바운스(Dead Cat Bounce)는 급락하던 주가나 지수가 단기적으로 반등했다가 다시 하락세로 돌아가는 현상을 가리키는 투자 용어입니다. 반등처럼 보이지만 실제로는 하락 추세가 끝나지 않은 상태라는 뜻을 담고 있습니다.</p>
 
 <p>이런 반등은 주로 하락 속도가 너무 가팔랐던 데 대한 기술적 되돌림이나 공매도 세력의 숏커버링에서 비롯됩니다. 기업 실적이나 업황 같은 펀더멘털 개선 없이 나타나는 경우가 많아, 시간이 지나면 다시 하락세로 이어질 가능성이 있습니다.</p>
 
-<h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">진짜 반등과 구별하는 법</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">진짜 반등과 구별하는 법</h2>
 
 <p>데드캣바운스인지 추세 전환인지를 한 번에 확신할 방법은 없지만, 투자 정보에서 흔히 쓰이는 두 가지 판단 틀이 있습니다.</p>
 
@@ -185,7 +185,7 @@ self_check: |
 
 <p>물론 이 틀이 100% 들어맞는 공식은 아닙니다. 참고용 판단 기준으로 쓰고, 실제 지수·거래대금 데이터는 아래 사례처럼 직접 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">2026년 코스피는 데드캣바운스였나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">2026년 코스피는 데드캣바운스였나요</h2>
 
 <p>2026년 7월 코스피는 한 달간 <b>-22.19%</b> 하락해 주요국 지수 중 하락률 1위를 기록했습니다. 7월 1일부터 30일(마지막 거래일 제외)까지의 낙폭만 보면 <b>-34.01%</b>로, 1997년 외환위기(-27.25%)나 2008년 금융위기(-23.13%) 당시보다 컸습니다.</p>
 
@@ -195,13 +195,13 @@ self_check: |
 
 <p>거래량 지표로 봐도 같은 결론입니다. 코스피200 변동성지수는 7월 31일 84.35에서 8월 28일 50.08로 40.6% 낮아져 시장이 진정된 듯 보였지만, 8월 코스피 일평균 거래대금은 25조 7,707억 원으로 올해 들어 가장 낮았습니다. 가격은 안정됐어도 거래는 붙지 않았다는 뜻으로, 앞서 정리한 "거래량이 마른 반등"이라는 데드캣바운스 신호와 겹치는 부분입니다.</p>
 
-<h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">서킷브레이커 발동과 어떤 관계가 있나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">서킷브레이커 발동과 어떤 관계가 있나요</h2>
 
 <p>2026년 7월 28일과 29일, 코스피는 제도 도입 이후 처음으로 이틀 연속 서킷브레이커가 발동됐습니다. 7월 한 달 동안만 서킷브레이커가 4차례 걸렸는데, 이는 제도 도입 이후 역대 총 15차례 발동 중 약 4분의 1에 해당합니다.</p>
 
 <p>서킷브레이커는 지수가 일정 비율 급락하면 거래를 강제로 멈추는 제도적 장치이고, 데드캣바운스는 그 급락 이후 나타나는 반등이 진짜인지 아닌지를 해석하는 개념이라는 점에서 서로 다릅니다. 발동 조건과 3단계 절차는 <a href="https://sensitiveboss3.tistory.com/entry/circuit-breaker-trigger-levels" target="_blank" rel="noopener">서킷브레이커 뜻과 발동조건 3단계</a> 글에서 따로 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">데드캣바운스 앞에서 흔한 착각</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">데드캣바운스 앞에서 흔한 착각</h2>
 
 <p>가장 흔한 착각은 "큰 폭으로 올랐으니 바닥을 확인했다"고 단정하는 것입니다. 7월 31일 하루 17.91% 오른 것만 보고 반등을 확신했다면, 8월 한 달 회복분이 3.40%에 그친 결과와는 거리가 있었습니다.</p>
 
@@ -219,7 +219,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #e11d48;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">데드캣바운스와 일반적인 반등은 어떻게 다른가요</summary>

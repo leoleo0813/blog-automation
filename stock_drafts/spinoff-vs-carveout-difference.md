@@ -127,15 +127,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>물적분할과 인적분할의 핵심 차이</li>
-  <li>물적분할 발표에 주가가 흔들리는 이유</li>
-  <li>물적분할 반대 주주는 어떻게 보호받나</li>
-  <li>자회사 신주 우선배정 제도는 지금 어디까지 왔나</li>
-  <li>내가 투자한 회사의 물적분할 여부 확인하는 법</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물적분할과 인적분할의 핵심 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물적분할 발표에 주가가 흔들리는 이유</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물적분할 반대 주주는 어떻게 보호받나</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자회사 신주 우선배정 제도는 지금 어디까지 왔나</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">내가 투자한 회사의 물적분할 여부 확인하는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">물적분할과 인적분할의 핵심 차이</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">물적분할과 인적분할의 핵심 차이</h2>
 
 <p>회사분할은 기존 회사의 특정 사업부문을 떼어 별도 법인을 새로 만드는 절차입니다. 이때 신설회사 주식을 누가 갖는지에 따라 물적분할과 인적분할로 나뉩니다.</p>
 
@@ -170,7 +170,7 @@ self_check: |
 
 <p>국내 상장사는 물적분할을 더 자주 택합니다. 자회사를 나중에 별도로 상장해 신주를 발행하면 외부 투자금을 새로 끌어올 수 있고, 모회사는 지주회사처럼 자회사 지분을 계속 지배할 수 있기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">물적분할 발표에 주가가 흔들리는 이유</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">물적분할 발표에 주가가 흔들리는 이유</h2>
 
 <p>물적분할이 발표되면 대체로 주가가 하락합니다. 핵심 사업부가 자회사로 넘어가는데, 기존 주주는 그 자회사 주식을 한 주도 받지 못하기 때문입니다.</p>
 
@@ -182,7 +182,7 @@ self_check: |
 
 <p>반면 물적분할이 곧바로 손해로 이어지는 것은 아닙니다. 사업부문을 떼어내 전문성을 높이거나, 신설회사가 독자적으로 투자를 유치해 전체 기업가치를 키우는 사례도 있습니다.</p>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">물적분할 반대 주주는 어떻게 보호받나</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">물적분할 반대 주주는 어떻게 보호받나</h2>
 
 <p>2022년 9월 5일 금융위원회는 물적분할로 인한 소수주주 피해를 막기 위해 3중 보호장치를 발표했고, 이미 시행 중입니다.</p>
 
@@ -194,7 +194,7 @@ self_check: |
 
 <p><mark>이 3가지는 2022년에 확정돼 이미 시행되고 있는 제도</mark>라는 점에서, 다음 절에서 다룰 신주 우선배정 논의와는 성격이 다릅니다.</p>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">자회사 신주 우선배정 제도는 지금 어디까지 왔나</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">자회사 신주 우선배정 제도는 지금 어디까지 왔나</h2>
 
 <p>2024년 12월 2일 금융위원회는 '일반주주 이익 보호 강화를 위한 자본시장법 개정방향'을 발표했습니다. 물적분할 후 자회사를 상장할 때, 대주주를 제외한 모회사 일반주주에게 공모신주 중 20% 범위 내에서 우선배정할 수 있는 근거를 마련하고, 거래소의 5년 심사기간 제한을 없애는 내용이었습니다.</p>
 
@@ -236,7 +236,7 @@ self_check: |
 
 <p>관련 법안의 진행 상황은 <a href="https://www.fsc.go.kr" target="_blank" rel="noopener">금융위원회</a> 보도자료에서 계속 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">내가 투자한 회사의 물적분할 여부 확인하는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">내가 투자한 회사의 물적분할 여부 확인하는 법</h2>
 
 <p>보유 종목의 물적분할 추진 여부는 전자공시시스템(DART)에서 직접 확인할 수 있습니다.</p>
 
@@ -247,7 +247,7 @@ self_check: |
   <li>주식매수청구권 행사 기간이 함께 공시되므로, 반대 의사가 있다면 이 기간을 놓치지 않아야 합니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">물적분할과 인적분할 중 뭐가 더 흔한가요</summary>

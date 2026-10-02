@@ -98,22 +98,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ETF 수수료는 언제 어떻게 빠져나가나요</li>
-  <li>총보수 말고 또 무슨 비용이 있나요</li>
-  <li>실제 부담은 어디서 확인하나요</li>
-  <li>격차가 얼마나 벌어지나요</li>
-  <li>왜 상품마다 차이가 나나요</li>
-  <li>보수 차이가 수익에 얼마나 영향을 주나요</li>
-  <li>증권사 거래 수수료와는 다른 건가요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETF 수수료는 언제 어떻게 빠져나가나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">총보수 말고 또 무슨 비용이 있나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 부담은 어디서 확인하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">격차가 얼마나 벌어지나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 상품마다 차이가 나나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">보수 차이가 수익에 얼마나 영향을 주나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증권사 거래 수수료와는 다른 건가요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ETF 수수료는 언제 어떻게 빠져나가나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ETF 수수료는 언제 어떻게 빠져나가나요</h2>
 
 <p>ETF 보수는 따로 청구서가 오지 않습니다. <mark>보유하는 동안 매일 조금씩 순자산가치에서 자동으로 차감</mark>되기 때문에, 투자자는 돈이 빠져나가는 것을 직접 보지 못합니다.</p>
 
 <p>그래서 "수수료를 낸 적이 없다"고 느끼기 쉽지만, 실제로는 가격에 이미 반영된 뒤의 숫자를 보고 있는 것입니다. 오래 들고 있을수록 누적 부담이 커지는 이유이기도 합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">총보수 말고 또 무슨 비용이 있나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">총보수 말고 또 무슨 비용이 있나요</h2>
 
 <p>상품 페이지에 크게 적힌 <b>총보수</b>는 운용사·판매사·수탁사 등에 가는 고정 보수입니다. 여기에 <mark>두 가지가 따로 붙습니다.</mark></p>
 
@@ -152,7 +152,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">출처: <a href="https://dis.kofia.or.kr" target="_blank" rel="noopener">금융투자협회 전자공시</a> 펀드별 보수비용비교, 2026-09-07 조회. 이 집계는 <b>파생형 ETF 242개</b> 기준이며 일반 지수형 ETF는 포함되지 않았습니다. 공시값은 주기적으로 갱신됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 부담은 어디서 확인하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 부담은 어디서 확인하나요</h2>
 
 <p>운용사 페이지나 증권사 앱에는 보통 총보수만 크게 나옵니다. 세 항목을 나눠서 보려면 <mark><a href="https://dis.kofia.or.kr" target="_blank" rel="noopener">금융투자협회 전자공시서비스</a>의 펀드별 보수비용비교</mark>를 이용합니다.</p>
 
@@ -165,7 +165,7 @@ self_check: |
 
 <p>조회 결과에는 <b>총보수(합계 A)</b>, <b>기타비용(B)</b>, <b>합성총보수 TER(A+B)</b>, <b>매매·중개수수료율(D)</b>이 각각 다른 열로 나옵니다. 상품 페이지에 크게 적힌 숫자는 대개 첫 번째 열 하나뿐입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">격차가 얼마나 벌어지나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">격차가 얼마나 벌어지나요</h2>
 
 <p>실제 공시값으로 보면 상품에 따라 차이가 큽니다. 아래는 위 조회 결과에서 그대로 뽑은 숫자입니다.</p>
 
@@ -192,7 +192,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">첫 줄을 보세요. 총보수는 <b>0.022%</b>로 이 표에서 가장 낮은데, 매매·중개수수료가 붙자 실부담은 <mark>0.611%로 27.8배</mark>가 됐습니다. 두 번째 줄은 실부담이 <b>2.7%</b>까지 올라갑니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 상품마다 차이가 나나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 상품마다 차이가 나나요</h2>
 
 <p>매매·중개수수료는 <mark>펀드가 편입 종목을 얼마나 자주 사고파는지</mark>에 따라 정해집니다. 그래서 회전율이 높은 구조일수록 이 항목이 커집니다.</p>
 
@@ -216,7 +216,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">레버리지·인버스는 구조상 매일 기초자산을 재조정해야 해서 회전율이 높습니다. 비용이 크다는 것이 상품이 나쁘다는 뜻은 아니며, 성격이 다른 상품이라는 의미입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보수 차이가 수익에 얼마나 영향을 주나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보수 차이가 수익에 얼마나 영향을 주나요</h2>
 
 <p>연 몇 %p 차이는 작아 보이지만 <mark>보유 기간이 길수록 누적</mark>됩니다. 매년 자산에서 비율로 빠져나가기 때문에, 원금이 커질수록 절대 금액도 함께 커집니다.</p>
 
@@ -243,7 +243,7 @@ self_check: |
 
 <p>다만 비용이 낮다고 언제나 유리한 것은 아닙니다. 추종하는 지수가 다르거나 추적오차가 크면 결과가 달라지므로, <b>비용은 여러 판단 기준 중 하나</b>로 보는 편이 맞습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권사 거래 수수료와는 다른 건가요</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권사 거래 수수료와는 다른 건가요</h2>
 
 <p>다릅니다. 두 비용은 내는 상대도 시점도 다릅니다.</p>
 

@@ -122,21 +122,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>리밸런싱이란 무엇인가요</li>
-  <li>리밸런싱 계산은 이렇게 합니다</li>
-  <li>리밸런싱 주기와 두 가지 방법</li>
-  <li>계좌 종류마다 리밸런싱 세금이 다르게 붙습니다</li>
-  <li>리밸런싱과 매매 타이밍을 혼동하면 안 되는 이유</li>
-  <li>이 부분도 자주 헷갈립니다</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리밸런싱이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리밸런싱 계산은 이렇게 합니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리밸런싱 주기와 두 가지 방법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">계좌 종류마다 리밸런싱 세금이 다르게 붙습니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리밸런싱과 매매 타이밍을 혼동하면 안 되는 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이 부분도 자주 헷갈립니다</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱이란 무엇인가요</h2>
 
 <p>리밸런싱(Rebalancing)은 "다시(Re) 균형(Balance)을 맞춘다"는 뜻으로, 처음 정해둔 자산군 비중(예: 주식형 60% : 채권형 40%)이 시세 변화로 흐트러졌을 때 원래 비중으로 되돌리는 작업입니다.</p>
 
 <p>한쪽 자산군이 많이 오르면 비중이 저절로 커지고, 그만큼 포트폴리오 전체의 위험도도 처음 계획보다 높아집니다. 리밸런싱은 이 위험도를 원래 계획한 수준으로 되돌리는 절차이지, 오르거나 내릴 종목을 미리 맞히는 작업이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱 계산은 이렇게 합니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱 계산은 이렇게 합니다</h2>
 
 <p>필요한 매매 금액은 <b>목표 비중 × 현재 총자산 − 현재 보유액</b>으로 구합니다. 아래는 가상의 숫자로 만든 예시입니다.</p>
 
@@ -148,7 +148,7 @@ self_check: |
 
 <p>이때 90만원을 어느 자산에서, 어느 계좌로 팔았는지에 따라 세금이 달라집니다. 이어서 살펴봅니다.</p>
 
-<h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱 주기와 두 가지 방법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱 주기와 두 가지 방법</h2>
 
 <p>리밸런싱 방법은 크게 두 가지입니다. 하나는 <b>주기적 방법</b>으로 월·분기·반기·1년처럼 미리 정한 기간마다 실행합니다. 다른 하나는 <b>밴드형(threshold) 방법</b>으로, 목표 비중에서 일정 %p 이상 벗어났을 때만 실행합니다.</p>
 
@@ -159,7 +159,7 @@ self_check: |
 
 <p>둘 중 어느 쪽이 더 낫다고 못 박기는 어렵고, 관리 시간과 거래비용을 얼마나 들일 수 있는지에 따라 고르면 됩니다.</p>
 
-<h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">계좌 종류마다 리밸런싱 세금이 다르게 붙습니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">계좌 종류마다 리밸런싱 세금이 다르게 붙습니다</h2>
 
 <p>리밸런싱은 결국 매도와 매수로 이뤄지고, 매도에는 세금이 붙을 수 있습니다. <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">같은 자산을 같은 금액만큼 팔아도 어느 계좌에서 파느냐에 따라 세금이 붙는 시점과 세율이 달라집니다.</span></p>
 
@@ -192,13 +192,13 @@ self_check: |
 
 <p>앞의 계산 예시로 이어가 보면, 90만원어치를 팔았는데 그중 이익이 30만원이었다고 합시다. 국내 상장주식이라면 계좌 종류와 관계없이 그 30만원에는 세금이 없고 증권거래세 1,800원(90만원 × 0.20%)만 발생합니다. 반면 해외 ETF였다면 일반계좌는 이 30만원이 연 250만원 공제 한도를 채워나가는 과세대상 이익으로 바로 잡히지만, <mark>ISA 계좌는 그 시점에는 잡히지 않고 계좌를 유지하는 동안의 다른 손익과 합쳐져 나중에 한 번에, 더 낮은 세율로 정산</mark>됩니다.</p>
 
-<h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱과 매매 타이밍을 혼동하면 안 되는 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">리밸런싱과 매매 타이밍을 혼동하면 안 되는 이유</h2>
 
 <p>리밸런싱은 "이 종목이 오를 것 같아서" 사고파는 것이 아니라, 미리 정해둔 자산군 비중을 기계적으로 되돌리는 절차입니다. 이 글에서 다룬 계산과 세금 정보는 그 절차를 이해하는 데 필요한 사실 정리이며, 특정 종목이나 상품을 언제 사고팔라는 조언이 아닙니다.</p>
 
 <p>실제로 어떤 자산군을 얼마나 담을지, 리밸런싱 기준을 몇 %p로 잡을지는 개인의 투자 목표와 위험 감내 수준에 따라 다르므로, 투자 판단은 본인이 직접 내려야 합니다.</p>
 
-<h2 style="border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">이 부분도 자주 헷갈립니다</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d9812c;padding-left:12px;margin-top:36px;">이 부분도 자주 헷갈립니다</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">리밸런싱은 반드시 정해진 날짜에 해야 하나요</summary>

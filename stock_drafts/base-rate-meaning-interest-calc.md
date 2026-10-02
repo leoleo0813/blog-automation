@@ -64,22 +64,22 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
 <h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>기준금리 뜻과 정하는 곳</li>
-  <li>금통위는 연 8회 열립니다</li>
-  <li>2025~2026 기준금리 경과표</li>
-  <li>기준금리 인상 때 이자가 얼마나 달라지는지 계산</li>
-  <li>기준금리에서 내 예금·대출금리까지 가는 길</li>
-  <li>기준금리가 주식시장에 전해지는 길</li>
-  <li>금통위 발표 전후로 많이 묻는 5가지</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기준금리 뜻과 정하는 곳</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금통위는 연 8회 열립니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2025~2026 기준금리 경과표</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기준금리 인상 때 이자가 얼마나 달라지는지 계산</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기준금리에서 내 예금·대출금리까지 가는 길</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기준금리가 주식시장에 전해지는 길</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금통위 발표 전후로 많이 묻는 5가지</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 뜻과 정하는 곳</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 뜻과 정하는 곳</h2>
 
 <p><mark>기준금리는 한국은행이 통화정책의 기준으로 삼아 정하는 금리입니다.</mark> 한국은행 금융통화위원회가 결정하며, 이 금리가 시중의 예금·대출금리가 움직이는 출발점이 됩니다. 기획재정부 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=730" target="_blank" rel="noopener">시사경제용어사전</a>도 기준금리를 같은 의미로 설명합니다.</p>
 
 <p>기준금리가 오르면 일반적으로 금융기관의 자금조달 비용과 시장금리가 오르고, 내리면 반대로 움직입니다. 다만 상품별 금리가 같은 폭으로 같은 날 바뀌는 것은 아닙니다.</p>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">금통위는 연 8회 열립니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">금통위는 연 8회 열립니다</h2>
 
 <p>금융통화위원회는 한국은행 총재와 부총재를 포함해 7인으로 구성됩니다. 총재가 의장을 겸하고, 나머지 5인은 정해진 기관의 추천을 받아 대통령이 임명합니다. 위원 구성과 회의 안내는 한국은행 <a href="https://www.bok.or.kr/portal/main/contents.do?menuNo=201696" target="_blank" rel="noopener">금융통화위원회</a> 페이지에서 볼 수 있습니다.</p>
 
@@ -92,7 +92,7 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
 
 <p>일정은 2026년 금통위 발표일 정리 자료 기준이며, 앞선 결과는 언론 보도로 확인했습니다. 10월과 11월 회의 일정은 바뀔 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">2025~2026 기준금리 경과표</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">2025~2026 기준금리 경과표</h2>
 
 <p><mark>2025년 5월 연 2.50%가 된 이후 기준금리는 2026년 5월까지 움직이지 않았습니다.</mark> 그 뒤 7월과 8월에 두 달 연속으로 0.25%p씩 올랐습니다. 두 달 연속 인상은 코로나19 이후 처음이라고 보도됐습니다.</p>
 
@@ -105,7 +105,7 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/base-rate-meaning-interest-calc-1.png" alt="2024년 11월부터 2026년 8월까지 한국은행 기준금리 계단형 그래프. 3.00퍼센트에서 2.50퍼센트로 내린 뒤 8회 동결, 2026년 7월과 8월에 올라 3.00퍼센트" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국은행 금융통화위원회 결정, 2026년 10월 기준</figcaption></figure>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 인상 때 이자가 얼마나 달라지는지 계산</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 인상 때 이자가 얼마나 달라지는지 계산</h2>
 
 <p><mark>기준금리가 0.25%p 오르면 같은 폭이 그대로 반영된다고 가정할 때 대출 3억 원의 연 이자는 75만 원 늘어납니다.</mark> 계산은 이자만 따졌고 원금 상환 구조는 반영하지 않았습니다. 금액과 반영 폭은 이해를 돕기 위한 가상의 값입니다.</p>
 
@@ -127,7 +127,7 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
   표는 기준금리 변화폭이 상품 금리에 100% 반영된다고 가정한 상한선 계산입니다. 내 대출의 연동 지표와 금리 변경 주기는 대출 약정서나 금융사 안내에서 확인해야 정확합니다.
 </div>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리에서 내 예금·대출금리까지 가는 길</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리에서 내 예금·대출금리까지 가는 길</h2>
 
 <p>예금금리와 대출금리는 기준금리에 은행의 비용·위험·마진이 더해져 정해집니다. 기준금리는 그 계산의 출발점이고, 실제 금리는 상품과 금융사마다 다릅니다. 이 구조는 <a href="https://www.tossbank.com/articles/interest" target="_blank" rel="noopener">토스뱅크 금리 해설</a>에서도 같은 방식으로 설명합니다.</p>
 
@@ -140,7 +140,7 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
 
 <p>2번의 채권시장 금리가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/government-bond-yield-meaning" target="_blank" rel="noopener">국채금리 뜻과 채권가격 반비례 계산</a>에서 국채금리와 기준금리 차이를 표로 볼 수 있습니다. 물가가 금리 결정과 어떻게 이어지는지는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법과 보는 순서</a>에 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리가 주식시장에 전해지는 길</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리가 주식시장에 전해지는 길</h2>
 
 <p>기준금리는 대출이자만 바꾸는 숫자가 아닙니다. 주식시장에서는 보통 네 갈래로 읽힙니다.</p>
 
@@ -153,7 +153,7 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
 
 <p>시장은 결정 자체보다 예상과의 차이에 반응합니다. 10월 22일 결정을 앞두고는 동결과 인상 중 시장이 어느 쪽을 예상하는지가 이미 국채금리에 반영돼 있어서, 결과가 예상과 같으면 움직임이 작을 수 있습니다. 이 글은 결정 방향을 예측하지 않습니다.</p>
 
-<h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">금통위 발표 전후로 많이 묻는 5가지</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">금통위 발표 전후로 많이 묻는 5가지</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리가 오르면 내 대출이자도 바로 같은 폭만큼 오르나요</summary><p style="margin-top:8px;line-height:1.8;">같은 폭으로 바로 오른다고 단정할 수 없습니다. 대출금리는 기준금리에 은행의 비용·위험·마진이 더해져 정해지고, 상품마다 연동하는 지표와 변경 주기가 다릅니다. 본문의 이자 계산은 같은 폭이 그대로 반영된다고 가정한 계산입니다.</p></details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리는 누가 정하나요</summary><p style="margin-top:8px;line-height:1.8;">한국은행 금융통화위원회가 정합니다. 한국은행 총재와 부총재를 포함해 7인으로 구성되고, 총재가 의장을 맡습니다. 통화정책방향 결정회의는 연 8회 열립니다.</p></details>

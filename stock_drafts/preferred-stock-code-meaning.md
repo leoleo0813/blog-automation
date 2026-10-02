@@ -125,21 +125,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>우선주란 무엇인가요</li>
-  <li>보통주와 우선주는 뭐가 다른가요</li>
-  <li>종목명의 "우"·"우B"·"2우B"는 무슨 뜻인가요</li>
-  <li>우선주는 왜 보통주보다 싸게 거래되나요</li>
-  <li>우선주 괴리율은 어디서 확인하나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우선주란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">보통주와 우선주는 뭐가 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">종목명의 "우"·"우B"·"2우B"는 무슨 뜻인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우선주는 왜 보통주보다 싸게 거래되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우선주 괴리율은 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">우선주란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">우선주란 무엇인가요</h2>
 
 <p>우선주는 <mark>이익 배당이나 잔여재산 분배에서 보통주보다 우선권을 갖는 주식</mark>입니다. 상법 제344조는 회사가 이익의 배당, 잔여재산의 분배, 의결권 행사 등에 관해 내용이 다른 종류주식을 정관으로 정해 발행할 수 있다고 규정하는데, 우선주는 이 종류주식 제도에 근거해 발행됩니다.</p>
 
 <p>대신 우선주는 <mark>의결권이 없는 경우가 대부분</mark>입니다. 상법 제344조의3은 회사가 의결권이 없거나 제한되는 종류주식을 발행할 때 정관에 그 조건을 정하도록 규정합니다. 배당을 더 받는 대신 경영 참여권(의결권)을 포기하는 구조라고 이해하면 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보통주와 우선주는 뭐가 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보통주와 우선주는 뭐가 다른가요</h2>
 
 <p>같은 회사가 발행한 주식이라도 <mark>의결권·배당·유동성에서 구조적으로 차이</mark>가 납니다.</p>
 
@@ -177,7 +177,7 @@ self_check: |
 
 <p>배당을 더 받는 참가적 우선주도 있지만, 국내 상장 우선주 대부분은 <mark>정해진 우선 배당 외에 추가 배당을 요구할 수 없는 비참가적 우선주</mark>입니다. 실제 배당률·조건은 종목마다 정관에서 다르게 정해지므로, 투자 전 각 종목의 사업보고서나 정관을 직접 확인해야 합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종목명의 "우"·"우B"·"2우B"는 무슨 뜻인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종목명의 "우"·"우B"·"2우B"는 무슨 뜻인가요</h2>
 
 <p>같은 회사의 우선주인데 <mark>"우"만 붙은 것과 "우B"가 붙은 것이 따로 거래되는 경우</mark>가 있습니다. 이건 발행 시기와 순서를 나타내는 표기입니다.</p>
 
@@ -210,7 +210,7 @@ self_check: |
 
 <p>실제로 같은 회사가 <mark>우선주를 여러 차례 나눠 발행</mark>하면 "우"·"우B"·"2우B"가 동시에 거래되기도 합니다. 발행 시기·조건이 다르므로 같은 회사 주식이라도 서로 가격이 다르게 움직일 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">우선주는 왜 보통주보다 싸게 거래되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">우선주는 왜 보통주보다 싸게 거래되나요</h2>
 
 <p>우선주는 <mark>의결권이 없고 유통 물량도 적어</mark>, 같은 회사의 보통주보다 낮은 가격에 거래되는 경우가 많습니다. 이 가격 차이를 <mark>괴리율</mark>이라고 부릅니다.</p>
 
@@ -221,7 +221,7 @@ self_check: |
 
 <p>괴리율이 벌어지는 폭은 <mark>종목과 시점마다 다르므로</mark>, 이 글에서 특정 시점의 수치를 고정해서 안내하지는 않습니다. 실시간 수치는 아래 방법으로 직접 확인하는 게 정확합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">우선주 괴리율은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">우선주 괴리율은 어디서 확인하나요</h2>
 
 <p>추측이나 커뮤니티 글 대신 <mark>한국거래소 정보데이터시스템</mark>에서 직접 통계를 확인하는 게 가장 정확합니다.</p>
 
@@ -242,7 +242,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">우선주가 뭔가요</summary>

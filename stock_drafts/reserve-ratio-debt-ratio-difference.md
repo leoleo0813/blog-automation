@@ -73,15 +73,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>유보율과 부채비율, 두 회사로 비교하면</li>
-  <li>유보율 계산식과 세 가지 항목</li>
-  <li>유보율이 높다고 현금이 많은 건 아닙니다</li>
-  <li>무상증자를 하면 유보율은 얼마나 떨어지나요</li>
-  <li>유보율은 어디서 확인하나요</li>
-  <li>헷갈리는 질문 몇 가지</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">유보율과 부채비율, 두 회사로 비교하면</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">유보율 계산식과 세 가지 항목</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">유보율이 높다고 현금이 많은 건 아닙니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">무상증자를 하면 유보율은 얼마나 떨어지나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">유보율은 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리는 질문 몇 가지</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율과 부채비율, 두 회사로 비교하면</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율과 부채비율, 두 회사로 비교하면</h2>
 
 <p>유보율이 높은 회사와 낮은 회사가 재무구조까지 그 순서대로 좋은 것은 아닙니다. 가상의 A사·B사로 두 지표를 나란히 놓으면 이유가 바로 보입니다.</p>
 
@@ -130,7 +130,7 @@ self_check: |
   <li>두 지표는 분모와 분자가 달라서 하나로 다른 하나를 대신할 수 없습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율 계산식과 세 가지 항목</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율 계산식과 세 가지 항목</h2>
 
 <p>유보율은 재무상태표의 자본 항목 세 개만 있으면 계산됩니다. 기획재정부 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=1986" target="_blank" rel="noopener">시사경제용어사전</a> 등 여러 경제용어 사전이 같은 식으로 정의합니다.</p>
 
@@ -151,7 +151,7 @@ self_check: |
 
 <p>자본금은 액면가에 비례하므로 같은 규모의 회사라도 액면가가 낮으면 유보율이 크게 나옵니다. 그래서 유보율은 기업 간 비교보다 한 회사의 시간에 따른 변화를 볼 때 더 쓸모가 있습니다. 액면가가 자본금에 어떻게 반영되는지는 <a href="https://sensitiveboss3.tistory.com/entry/par-value-dividend-rate-calculation" target="_blank" rel="noopener">액면가 뜻 글</a>에서 먼저 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율이 높다고 현금이 많은 건 아닙니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율이 높다고 현금이 많은 건 아닙니다</h2>
 
 <p>유보율은 잉여금의 장부상 크기이고, 그 돈은 이미 공장·재고·투자자산으로 바뀌어 있는 경우가 대부분입니다. 유보율 1,000%가 곧 자본금의 열 배 현금이라는 해석은 성립하지 않습니다.</p>
 
@@ -166,7 +166,7 @@ self_check: |
   <p style="margin:6px 0 0 0;">유보율은 재무 건전성의 한 조각입니다. 부채비율, 영업활동현금흐름, 이익의 지속성과 함께 볼 때 의미가 생깁니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">무상증자를 하면 유보율은 얼마나 떨어지나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">무상증자를 하면 유보율은 얼마나 떨어지나요</h2>
 
 <p>무상증자는 잉여금 일부를 자본금으로 옮기는 절차라서, 하면 자본금이 늘고 유보율은 낮아집니다. 위 계산 예시의 기업이 1주당 0.5주 무상증자를 한다고 가정해 보겠습니다.</p>
 
@@ -211,7 +211,7 @@ self_check: |
 
 <p>그래서 유보율이 낮아졌다고 회사가 나빠진 것은 아닙니다. 무상증자 전후로 유보율을 비교할 때는 이 계산 구조부터 떠올리면 됩니다.</p>
 
-<h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">유보율은 어디서 확인하나요</h2>
 
 <p>증권사 앱과 포털 금융 페이지의 재무비율에서 바로 볼 수 있고, 원자료는 <a href="https://dart.fss.or.kr/" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART)</a>의 재무상태표입니다. 기업마다 계산 기준이 조금씩 다를 수 있어 직접 나눠보는 습관이 도움이 됩니다.</p>
 
@@ -221,7 +221,7 @@ self_check: |
   <li>(자본잉여금 + 이익잉여금) ÷ 자본금 × 100 으로 계산합니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">헷갈리는 질문 몇 가지</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #ef6c00;padding-left:12px;margin-top:36px;">헷갈리는 질문 몇 가지</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">유보율이 높으면 무조건 좋은 회사인가요</summary>

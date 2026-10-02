@@ -117,21 +117,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ISA 계좌 이전, 해지하지 않아도 됩니다</li>
-  <li>ISA 계좌 이전 절차 5단계</li>
-  <li>유형이 달라도 이전할 수 있나요</li>
-  <li>계좌 이전이 불가능한 경우</li>
-  <li>이전 전 무엇을 확인해야 하나요</li>
-  <li>이전 전에 자주 나오는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 계좌 이전, 해지하지 않아도 됩니다</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 계좌 이전 절차 5단계</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">유형이 달라도 이전할 수 있나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">계좌 이전이 불가능한 경우</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이전 전 무엇을 확인해야 하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이전 전에 자주 나오는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">ISA 계좌 이전, 해지하지 않아도 됩니다</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">ISA 계좌 이전, 해지하지 않아도 됩니다</h2>
 
 <p>ISA를 가입한 금융회사가 마음에 안 들거나 더 나은 조건의 증권사로 옮기고 싶을 때, 많은 사람이 기존 계좌를 해지하고 새로 가입해야 한다고 생각합니다. 그렇게 하면 <a href="https://sensitiveboss3.tistory.com/entry/isa-limit-benefit">비과세 한도</a>와 의무가입기간이 처음부터 다시 시작됩니다.</p>
 
 <p>실제로는 <b>계좌이전제도</b>를 이용하면 이런 손해 없이 옮길 수 있습니다. 가입일, 비과세 한도, 그동안 채운 의무가입기간이 새 금융회사로 그대로 넘어갑니다.</p>
 
-<h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">ISA 계좌 이전 절차 5단계</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">ISA 계좌 이전 절차 5단계</h2>
 
 <p>절차는 아래 순서로 진행됩니다. 신규 금융회사 쪽에서 대부분의 안내를 받을 수 있습니다.</p>
 
@@ -145,7 +145,7 @@ self_check: |
 
 <p><b>여기서 핵심은</b> 보유하던 종목을 그대로 옮기는 게 아니라 일단 현금화한다는 점입니다. 이 과정에서 <mark>펀드 환매수수료나 파생결합증권 중도상환 비용이 차감될 수 있어</mark> 이전 전 보유 상품 구성을 확인해두는 편이 좋습니다.</p>
 
-<h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">유형이 달라도 이전할 수 있나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">유형이 달라도 이전할 수 있나요</h2>
 
 <p>가능합니다. ISA는 신탁형, 중개형, 일임형 세 가지 유형이 있는데, 유형이 다른 금융회사로 옮길 때도 해지 없이 계좌이전제도를 이용할 수 있습니다.</p>
 
@@ -182,7 +182,7 @@ self_check: |
 
 <p>중개형은 투자자가 직접 국내 상장 주식·ETF를 사고파는 방식이고, 신탁형은 금융회사에 운용을 맡기고 예금·펀드 중에서 상품을 고르는 방식입니다. 요즘은 직접 매매가 가능한 중개형으로 갈아타려는 수요가 많은데, 이 경우에도 해지 대신 이전을 이용하면 됩니다.</p>
 
-<h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">계좌 이전이 불가능한 경우</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">계좌 이전이 불가능한 경우</h2>
 
 <p>다음에 해당하면 계좌 이전 신청이 거절될 수 있습니다.</p>
 
@@ -194,7 +194,7 @@ self_check: |
 
 <p>이런 사유가 있다면 이전보다 사유 해소가 먼저입니다. 해당 사항이 없다면 대부분 절차대로 진행됩니다.</p>
 
-<h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">이전 전 무엇을 확인해야 하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">이전 전 무엇을 확인해야 하나요</h2>
 
 <p>먼저 보유 중인 상품 구성을 확인합니다. 펀드나 파생결합증권이 있다면 현금화 과정에서 수수료가 발생할 수 있어, 만기가 임박한 상품이 있다면 만기 이후 이전을 고려할 만합니다.</p>
 
@@ -205,7 +205,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">본인 의사확인 지연이나 배당·이자 지급 일정과 겹치는 경우 처리 기간이 늘어날 수 있습니다. 정확한 표준 처리기간은 공식 자료에 구체적으로 명시돼 있지 않아, 이 글에서는 특정 일수를 단정하지 않습니다. 신청 전 옮기려는 금융회사에 예상 소요기간을 직접 문의하는 편이 정확합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">이전 전에 자주 나오는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1f9e8a;padding-left:12px;margin-top:36px;">이전 전에 자주 나오는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ISA 계좌를 이전하려면 기존 계좌를 먼저 해지해야 하나요</summary>

@@ -125,20 +125,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>IRP와 ISA 기본 성격 차이</li>
-  <li>세액공제 구조 비교</li>
-  <li>인출 조건과 중도해지 세금 차이</li>
-  <li>ISA 만기자금 IRP로 옮기면 세액공제가 늘어나나요</li>
-  <li>두 계좌를 함께 쓰면 한도가 어떻게 되나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">IRP와 ISA 기본 성격 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세액공제 구조 비교</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">인출 조건과 중도해지 세금 차이</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 만기자금 IRP로 옮기면 세액공제가 늘어나나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">두 계좌를 함께 쓰면 한도가 어떻게 되나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">IRP와 ISA 기본 성격 차이</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">IRP와 ISA 기본 성격 차이</h2>
 
 <p>IRP(개인형퇴직연금)는 <b>퇴직급여와 개인 추가 납입금을 함께 관리하며 55세 이후 연금으로 받는 것을 전제로 만들어진 계좌</b>입니다. ISA(개인종합자산관리계좌)는 예금·펀드·ETF 등 여러 금융상품을 한 계좌에 담아 <b>비교적 자유롭게 운용하는 종합자산관리 계좌</b>입니다.</p>
 
 <p>두 계좌는 목적 자체가 다릅니다. IRP는 세액공제와 노후 준비에, ISA는 비과세 혜택과 자산 운용 유연성에 초점이 맞춰져 있습니다. 이 차이가 세액공제·인출 조건·중도해지 세금까지 전부 갈라놓습니다.</p>
 
-<h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">세액공제 구조 비교</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">세액공제 구조 비교</h2>
 
 <p>IRP는 연금저축과 합산해 연 <mark>900만원</mark>까지 세액공제 대상입니다. 총급여 5,500만원(종합소득금액 4,500만원) 이하는 16.5%, 초과하면 13.2%가 적용됩니다. 900만원을 다 채우면 각각 148.5만원, 118.8만원을 돌려받는 셈입니다.</p>
 
@@ -181,13 +181,13 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">인출 조건과 중도해지 세금 차이</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">인출 조건과 중도해지 세금 차이</h2>
 
 <p>IRP는 <b>연금으로 받는 것이 기본값</b>입니다. 무주택자의 주택구입, 전세보증금 마련, 6개월 이상 요양 등 법정 사유에 해당해야만 중도인출이 가능하고, 그 외에는 55세가 될 때까지 사실상 묶입니다. 자세한 인출 사유별 세금은 70편(퇴직연금 중도인출 세금)에서 원 단위 계산 예시와 함께 정리했습니다.</p>
 
 <p>ISA는 반대로 <b>원금 범위 안에서는 언제든 인출해도 불이익이 없습니다.</b> 문제는 원금을 초과해서 뺄 때입니다. 이 경우 세법상 중도해지로 간주되어, 3년을 채우지 못하면 비과세·분리과세 혜택이 사라지고 수익 전체에 15.4% 일반과세가 붙습니다. 단, 사망·해외이주 등 특별중도해지 사유에 해당하면 그 시점까지의 혜택은 유지됩니다. 이 계산 예시는 67편(ISA 중도해지 세금)에 있습니다.</p>
 
-<h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">ISA 만기자금 IRP로 옮기면 세액공제가 늘어나나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">ISA 만기자금 IRP로 옮기면 세액공제가 늘어나나요</h2>
 
 <p>늘어납니다. ISA 만기자금 3,000만원을 IRP나 연금저축으로 옮기면 이전금액의 10%인 300만원이 그해 세액공제 한도에 추가로 더해집니다. 900만원 한도를 이미 채운 상태에서 300만원이 더 생기면, 공제율에 따라 <mark>495,000원(16.5%)</mark> 또는 396,000원(13.2%)을 추가로 돌려받을 수 있습니다.</p>
 
@@ -197,7 +197,7 @@ self_check: |
   <li>이전은 ISA 만기일 이후 일정 기간 안에 마쳐야 하며, 구체적인 절차는 8편에서 확인</li>
 </ul>
 
-<h2 style="border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">두 계좌를 함께 쓰면 한도가 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7c5fd1;padding-left:12px;margin-top:36px;">두 계좌를 함께 쓰면 한도가 어떻게 되나요</h2>
 
 <p>IRP 세액공제 한도(900만원)와 ISA 납입한도(연 2,000만원)는 서로 다른 제도라 겹치지 않습니다. ISA에 2,000만원을 넣으면서 동시에 IRP·연금저축에 900만원을 넣어 세액공제를 받는 것도 가능합니다. 다만 현금 여력이 한정돼 있다면 어느 쪽을 먼저 채울지는 각자의 자금 계획에 달려 있습니다.</p>
 

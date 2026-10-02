@@ -147,22 +147,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>네마녀의 날 뜻</li>
-  <li>왜 네 마녀라고 부르나요</li>
-  <li>2026년 네마녀의 날 일정</li>
-  <li>한국과 미국의 날짜가 다른 이유</li>
-  <li>네마녀의 날에는 주가가 무조건 떨어지나요</li>
-  <li>만기일 확인하는 법</li>
-  <li>궁금한 점 모아보기</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">네마녀의 날 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 네 마녀라고 부르나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 네마녀의 날 일정</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">한국과 미국의 날짜가 다른 이유</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">네마녀의 날에는 주가가 무조건 떨어지나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">만기일 확인하는 법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 모아보기</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">네마녀의 날 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">네마녀의 날 뜻</h2>
 
 <p>네마녀의 날(쿼드러플 위칭데이)은 <b>주가지수 선물, 주가지수 옵션, 개별주식 선물, 개별주식 옵션</b>의 만기일이 하루에 몰리는 날을 가리킵니다. 네 개의 파생상품이 동시에 "마녀처럼 심술을 부린다"는 뜻에서 붙은 이름입니다.</p>
 
 <p>평소에는 각 상품의 만기가 서로 다른 날에 흩어져 있지만, 이 날만큼은 청산해야 할 물량이 한꺼번에 시장에 나오면서 거래량과 가격 변동이 커지는 경향이 있습니다.</p>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">왜 네 마녀라고 부르나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">왜 네 마녀라고 부르나요</h2>
 
 <p>네 가지 파생상품이 각각 청산되는 방식과 그 파급 효과를 표로 정리했습니다.</p>
 
@@ -200,7 +200,7 @@ self_check: |
 
 <p>옵션은 원래 매월 만기가 있고, 선물은 분기 말에만 만기가 있습니다. <mark>3·6·9·12월에는 이 네 가지 만기가 전부 같은 날 겹치기 때문에</mark> 청산 물량과 재조정 물량이 한꺼번에 쏟아지면서 다른 달보다 변동성이 커질 여지가 생깁니다.</p>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">2026년 네마녀의 날 일정</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">2026년 네마녀의 날 일정</h2>
 
 <p>한국의 네마녀의 날은 <b>3·6·9·12월 둘째주 목요일</b>입니다. 2026년 전체 일정은 아래와 같습니다.</p>
 
@@ -238,7 +238,7 @@ self_check: |
 
 <p>이 글을 쓰는 오늘(2026년 9월 20일) 기준으로 이미 세 차례가 지났고, 올해 남은 네마녀의 날은 <b>12월 10일</b> 하루뿐입니다.</p>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">한국과 미국의 날짜가 다른 이유</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">한국과 미국의 날짜가 다른 이유</h2>
 
 <p>미국의 쿼드러플 위칭데이는 한국과 달리 <b>3·6·9·12월 셋째주 금요일</b>에 발생합니다. 요일 기준 자체가 다르기 때문에 같은 분기라도 날짜가 다르게 잡힙니다.</p>
 
@@ -266,13 +266,13 @@ self_check: |
 
 <p>미국주식에 함께 투자하는 사람이라면 두 시장의 네마녀의 날이 서로 다른 날이라는 점을 기억해 둘 필요가 있습니다. 같은 주에 몰릴 때도 있지만, 정확히 같은 날인 경우는 없습니다.</p>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">네마녀의 날에는 주가가 무조건 떨어지나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">네마녀의 날에는 주가가 무조건 떨어지나요</h2>
 
 <p>아닙니다. <mark>네마녀의 날은 주가가 반드시 떨어지는 날이 아니라, 수급이 평소보다 크게 흔들릴 수 있는 날</mark>입니다. 프로그램 매매 청산 물량이 매도 우위로 쏠리면 하락 압력이, 매수 우위로 쏠리면 상승 압력이 생깁니다.</p>
 
 <p>단, 장 마감 직전 동시호가 시간대에 거래량이 평소보다 크게 튀는 경우는 흔합니다. 이 시간대에 특정 종목의 호가 변동이 유독 크게 보인다면, 실제 기업 가치 변화보다 만기 청산 물량 때문일 가능성을 먼저 의심해 보는 편이 좋습니다.</p>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">만기일 확인하는 법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">만기일 확인하는 법</h2>
 
 <p>다음 네마녀의 날이 정확히 언제인지는 <a href="https://www.krx.co.kr" target="_blank" rel="noopener">한국거래소</a> 홈페이지나 <a href="https://data.krx.co.kr" target="_blank" rel="noopener">정보데이터시스템</a>의 파생상품 결제월 일정에서 확인할 수 있습니다.</p>
 
@@ -290,7 +290,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">궁금한 점 모아보기</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #d97706;padding-left:12px;margin-top:36px;">궁금한 점 모아보기</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">네마녀의 날에 주식을 사거나 팔면 안 되나요</summary>

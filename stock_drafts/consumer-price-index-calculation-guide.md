@@ -68,16 +68,16 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
 
 <h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>물가 뉴스를 읽는 5단계 순서</li>
-  <li>지수는 어떻게 계산하는가</li>
-  <li>물가상승률 3%가 내 돈에 뜻하는 것</li>
-  <li>최근 물가상승률 흐름 표로 보기</li>
-  <li>근원물가지수가 따로 있는 이유</li>
-  <li>가중치 개편으로 달라진 것</li>
-  <li>물가 지표, 자주 걸리는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물가 뉴스를 읽는 5단계 순서</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지수는 어떻게 계산하는가</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물가상승률 3%가 내 돈에 뜻하는 것</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">최근 물가상승률 흐름 표로 보기</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">근원물가지수가 따로 있는 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가중치 개편으로 달라진 것</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">물가 지표, 자주 걸리는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">물가 뉴스를 읽는 5단계 순서</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">물가 뉴스를 읽는 5단계 순서</h2>
 <p>물가 기사는 아래 다섯 단계로 나눠 읽으면 숫자가 서로 헷갈리지 않습니다.</p>
 <ol style="line-height:1.9;">
   <li><strong>지수 수준 확인:</strong> 2020년 평균이 100이므로 지수가 115면 2020년보다 15% 높은 물가 수준입니다.</li>
@@ -88,7 +88,7 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
 </ol>
 <p>국가데이터처는 옛 통계청이며, 소비자물가지수를 매월 발표합니다. 최신 수치는 위 링크에서 직접 확인하시고, 이 글의 계산 예시는 모두 가상의 숫자입니다.</p>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">지수는 어떻게 계산하는가</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">지수는 어떻게 계산하는가</h2>
 <p>종합지수는 품목별 지수에 가중치를 곱해 전부 더한 뒤 가중치 총합으로 나눠 구합니다. 가중치 총합은 1,000입니다. 계산 원리는 국가데이터처 <a href="https://kostat.go.kr/menu.es?mid=b70101050000" target="_blank" rel="noopener">계산식 설명</a>에서 볼 수 있습니다.</p>
 <p>아래는 이해를 돕기 위해 만든 가상의 3개 부문 예시입니다. 실제 부문 지수가 아닙니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -121,7 +121,7 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">물가상승률 3%가 내 돈에 뜻하는 것</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">물가상승률 3%가 내 돈에 뜻하는 것</h2>
 <p>물가상승률은 지수의 전년 동월 대비 변화율이고, 공식은 (당월 지수 ÷ 전년 동월 지수 − 1) × 100입니다. 전년 동월 지수가 110.0이고 당월 지수가 113.3이면 <mark>3.0%</mark>입니다.</p>
 <p>이 3%를 현금의 구매력으로 옮겨 보면 감이 옵니다. 가상의 사례입니다.</p>
 <ul style="line-height:1.9;">
@@ -130,7 +130,7 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
   <li>은행 이자율이 물가상승률보다 낮으면 명목 금액은 늘어도 살 수 있는 양은 줄어듭니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">최근 물가상승률 흐름 표로 보기</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">최근 물가상승률 흐름 표로 보기</h2>
 <p>2026년 9월 소비자물가상승률은 전년 동월 대비 2.9%였고, 같은 달 근원물가는 2.7%, 생활물가는 2.5%였습니다. 아래 표는 e-나라지표에 게시된 전년비·전년동월비 수치입니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -160,7 +160,7 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
 <p>2022년에는 소비자물가가 5.1%, 생활물가가 6.0%까지 올랐고 2024년부터는 2%대로 내려왔습니다. 2026년 4월부터 9월까지는 2.6%에서 3.2% 사이를 오갔습니다.</p>
 <p>생활물가지수는 소비자가 자주 구입하는 기본 생필품 144개 품목으로 만든 지수입니다. 이 표의 "근원물가"는 e-나라지표 설명 기준으로 농산물 및 석유류 제외지수입니다. 최신 값은 <a href="https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1060" target="_blank" rel="noopener">e-나라지표</a>에서 확인하세요.</p>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">근원물가지수가 따로 있는 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">근원물가지수가 따로 있는 이유</h2>
 <p>근원물가지수는 날씨나 국제유가처럼 일시적 요인으로 크게 출렁이는 품목을 빼고 물가의 기조를 보려는 지표입니다. 우리나라는 두 가지 방식으로 작성합니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -175,7 +175,7 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
 </table>
 <p>식료품·에너지 제외지수가 더 넓게 빼기 때문에 두 지수의 상승률이 다르게 나오는 달이 있습니다. 기사에서 "근원물가"라고만 적혀 있으면 어느 쪽인지 본문에서 확인해야 합니다.</p>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">가중치 개편으로 달라진 것</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">가중치 개편으로 달라진 것</h2>
 <p>국가데이터처(당시 통계청)는 2023년 12월 19일 보도자료에서 2022년 소비 구조를 반영한 가중치를 2023년 12월 소비자물가동향부터 적용한다고 발표했습니다. 이후 추가 개편이 있었는지는 국가데이터처 최신 공지에서 확인하세요. 가중치가 커진 부문과 작아진 부문은 아래와 같습니다. 출처는 <a href="https://kostat.go.kr/board.es?mid=a10301040200&amp;bid=213&amp;act=view&amp;list_no=428549" target="_blank" rel="noopener">국가데이터처 보도자료</a>입니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -192,7 +192,7 @@ refresh_reason: "10월 소비자물가 발표 후 최근 물가상승률 표 갱
 <p>보도자료는 2020년 코로나19 영향으로 커졌던 식료품·보건·가정용품 비중이 줄고, 교육·교통·오락 비중이 다시 늘었다고 설명합니다. 같은 자료에서 2023년 11월 전년누계비 상승률은 2022년 기준 가중치로 <mark>3.6%</mark>, 2020년 기준으로는 3.7%였습니다.</p>
 <p>가중치를 바꿔도 결과 차이는 0.1%p에 그쳤습니다. 부문별 기여도를 볼 때는 어느 해 가중치인지 확인해야 합니다.</p>
 
-<h2 style="border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">물가 지표, 자주 걸리는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #d98200;padding-left:12px;margin-top:36px;">물가 지표, 자주 걸리는 질문</h2>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">소비자물가지수와 소비자물가상승률은 같은 건가요</summary>
   <p style="margin:10px 0 0 0;">다릅니다. 소비자물가지수는 2020년을 100으로 놓은 수준 값이고, 소비자물가상승률은 그 지수가 전년 동월보다 몇 퍼센트 변했는지 계산한 값입니다. 뉴스에서 말하는 "물가 3% 상승"은 후자입니다.</p>

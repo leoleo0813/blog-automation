@@ -111,21 +111,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>숏커버링이란 무엇인가요</li>
-  <li>숏커버링과 숏스퀴즈는 뭐가 다른가요</li>
-  <li>숏커버링이 일어나면 주가는 왜 오르나요</li>
-  <li>숏커버링이 실제로 일어나는지 어떻게 확인하나요</li>
-  <li>공매도 잔고 공시는 왜 2영업일 늦게 나오나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">숏커버링이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">숏커버링과 숏스퀴즈는 뭐가 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">숏커버링이 일어나면 주가는 왜 오르나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">숏커버링이 실제로 일어나는지 어떻게 확인하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공매도 잔고 공시는 왜 2영업일 늦게 나오나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링이란 무엇인가요</h2>
 
 <p>숏(short)은 주가 하락에 베팅해 주식을 먼저 파는 것을, 커버(cover)는 그 포지션을 되갚아 정리하는 것을 뜻합니다. 두 단어를 합친 <b>숏커버링(short covering)</b>은 <mark>공매도나 신용융자 매도로 미리 판 주식을 다시 사들여 갚는 환매수</mark>를 가리킵니다.</p>
 
 <p>공매도 투자자는 결국 언젠가 빌린 주식을 갚아야 하므로, 목표한 만큼 수익을 냈거나 시장 상황이 바뀌면 자발적으로 숏커버링에 나섭니다. 이 매수 물량 자체가 주가에 영향을 줄 수 있어 시장에서 자주 언급되는 용어입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링과 숏스퀴즈는 뭐가 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링과 숏스퀴즈는 뭐가 다른가요</h2>
 
 <p>두 용어 모두 결과적으로는 "공매도 물량이 되사들여진다"는 점에서 비슷해 보이지만, <mark>일어나는 이유가 다릅니다.</mark></p>
 
@@ -158,7 +158,7 @@ self_check: |
 
 <p>즉 <mark>숏스퀴즈는 숏커버링이 일어나는 여러 상황 중 하나</mark>이며, 특히 손실 회피가 목적인 다급한 경우를 가리키는 말입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링이 일어나면 주가는 왜 오르나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링이 일어나면 주가는 왜 오르나요</h2>
 
 <p>공매도는 <mark>없는 주식을 빌려서 먼저 파는 거래</mark>이므로, 언젠가는 반드시 같은 수량을 다시 사서 갚아야 합니다. 숏커버링 시점에 매수 주문이 몰리면 이 자체가 매수세로 작용해 주가를 밀어 올립니다.</p>
 
@@ -167,7 +167,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">숏커버링은 공매도 잔고를 줄이는 매수일 뿐, 기업 실적이나 업황이 바뀐 것은 아닙니다. 단기 반등 이후 다시 하락하는 사례도 흔합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링이 실제로 일어나는지 어떻게 확인하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">숏커버링이 실제로 일어나는지 어떻게 확인하나요</h2>
 
 <p>"숏커버링이 있었다"는 뉴스나 커뮤니티 글만으로는 사실인지 확인하기 어렵습니다. <mark>한국거래소가 매일 공시하는 공매도 순보유잔고 데이터</mark>를 직접 보면, 특정 종목의 공매도 잔고가 실제로 줄었는지 확인할 수 있습니다.</p>
 
@@ -202,13 +202,13 @@ self_check: |
 
 <p>기준이 0.5%에서 0.01%로 낮아지면서 <mark>공시 대상이 되는 투자자와 종목의 범위가 크게 넓어졌습니다.</mark> 이전에는 보이지 않던 중소형 공매도 잔고도 이제는 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공매도 잔고 공시는 왜 2영업일 늦게 나오나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공매도 잔고 공시는 왜 2영업일 늦게 나오나요</h2>
 
 <p>공매도 잔고 공시는 실시간이 아닙니다. <mark>보고의무가 발생한 날(T)로부터 2영업일째(T+2)에 공시</mark>되므로, 오늘 조회한 자료는 이틀 전 기준의 잔고입니다.</p>
 
 <p>이는 투자자가 보고서를 작성해 제출하고, 금융감독원이 이를 취합해 거래소로 넘기는 절차에 걸리는 시간 때문입니다. <mark>실시간 매매 신호로 쓰기보다는, 특정 종목의 공매도 잔고 추이를 며칠 단위로 지켜보는 참고 자료</mark>로 활용하는 것이 적절합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">숏커버링이 뭔가요</summary>

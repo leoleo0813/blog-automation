@@ -150,21 +150,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>TDF는 어떤 구조의 펀드인가요</li>
-  <li>빈티지는 이렇게 고릅니다</li>
-  <li>디폴트옵션 제도에서 TDF가 쓰이는 이유</li>
-  <li>연금계좌와 일반계좌는 세금이 다릅니다</li>
-  <li>합성보수, 놓치면 안 되는 이유</li>
-  <li>자주 나오는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">TDF는 어떤 구조의 펀드인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">빈티지는 이렇게 고릅니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">디폴트옵션 제도에서 TDF가 쓰이는 이유</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금계좌와 일반계좌는 세금이 다릅니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">합성보수, 놓치면 안 되는 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 나오는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">TDF는 어떤 구조의 펀드인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">TDF는 어떤 구조의 펀드인가요</h2>
 
 <p>TDF(Target Date Fund, 타겟데이트펀드)는 투자자가 정한 은퇴 목표 연도에 맞춰 펀드가 알아서 주식과 채권 비중을 조정하는 상품입니다. 은퇴 시점이 멀면 주식처럼 수익률이 높은 자산 비중을 늘리고, 가까워지면 채권 같은 안정적인 자산 비중을 늘립니다. 상품명에 TDF2040, TDF2050처럼 연도가 붙는 이유입니다.</p>
 
 <p>이 자산배분은 '재간접펀드' 구조로 이뤄집니다. TDF는 주식·채권을 직접 담기보다 여러 하위 펀드에 나눠 투자하고, 그 비중을 나이에 따라 자동으로 재조정합니다.</p>
 
-<h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">빈티지는 이렇게 고릅니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">빈티지는 이렇게 고릅니다</h2>
 
 <p>목표 은퇴 연도를 흔히 '빈티지'라고 부릅니다. 본인이 은퇴하려는 해와 가장 가까운 숫자가 붙은 상품을 고르면 됩니다.</p>
 
@@ -173,13 +173,13 @@ self_check: |
   <li>은퇴 후에도 더 보수적으로 자산을 굴리고 싶다면 실제 은퇴 연도보다 이른 빈티지를 고르는 경우도 있습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">디폴트옵션 제도에서 TDF가 쓰이는 이유</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">디폴트옵션 제도에서 TDF가 쓰이는 이유</h2>
 
 <p>퇴직연금 사전지정운용제도(디폴트옵션)는 근로자가 운용 지시를 하지 않을 때 자동으로 적용될 상품을 미리 정해두는 제도입니다. 법적 근거는 <mark>근로자퇴직급여보장법 제21조의2~제21조의4</mark>이며 2023년 7월 12일 시행됐습니다.</p>
 
 <p>TDF는 이 제도에서 승인된 상품 유형 중 하나입니다. 근로자가 따로 운용 지시를 하지 않아도 생애주기에 맞춰 자산 비중이 자동으로 바뀐다는 점 때문에 널리 활용됩니다. 단, 디폴트옵션 상품이 TDF만 있는 것은 아니고 원리금보장상품 등 다른 유형도 승인 대상입니다.</p>
 
-<h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">연금계좌와 일반계좌는 세금이 다릅니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">연금계좌와 일반계좌는 세금이 다릅니다</h2>
 
 <p>TDF는 어느 계좌에서 사느냐에 따라 세금 처리가 완전히 달라집니다. 납입·운용·인출 세 시점으로 나눠 비교하면 다음과 같습니다.</p>
 
@@ -219,7 +219,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">연금계좌 세제 혜택은 연금 형태로 받을 때 기준입니다. 5년 이내 중도해지하거나 연금 외 방법으로 인출하면 기타소득세 16.5%가 붙을 수 있어, 가입 전 자금 계획을 함께 세워야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">합성보수, 놓치면 안 되는 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">합성보수, 놓치면 안 되는 이유</h2>
 
 <p>TDF는 재간접펀드 구조라 TDF 자체 운용보수와 투자 대상인 하위 펀드 보수가 함께 붙습니다. 이 둘을 합친 값을 '합성보수(합성총보수비용률)'라고 부릅니다.</p>
 
@@ -237,7 +237,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">자주 나오는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #b5375f;padding-left:12px;margin-top:36px;">자주 나오는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">TDF는 가입만 하면 신경 쓸 게 없나요</summary>

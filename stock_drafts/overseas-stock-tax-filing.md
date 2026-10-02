@@ -42,19 +42,19 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>해외주식 양도소득세는 누가 내야 하나요</li>
-  <li>세율과 공제는 얼마인가요</li>
-  <li>실제로 세금이 얼마나 나오나요</li>
-  <li>언제까지, 어떻게 신고하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외주식 양도소득세는 누가 내야 하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세율과 공제는 얼마인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 세금이 얼마나 나오나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">언제까지, 어떻게 신고하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세는 누가 내야 하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 양도소득세는 누가 내야 하나요</h2>
 
 <p>국내 상장주식은 대주주가 아니면 양도소득세를 내지 않는 경우가 많습니다. 반면 해외주식은 <mark>보유 지분이나 금액과 상관없이 일반 투자자도 신고 대상</mark>이 됩니다.</p>
 
 <p>연간 해외주식 양도차익 합계가 기본공제 250만원을 넘으면, 그 초과분에 대해 투자자 본인이 직접 세금을 계산해 신고·납부해야 합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율과 공제는 얼마인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율과 공제는 얼마인가요</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
@@ -72,7 +72,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">출처: 국세청 공식 책자 「2024년 해외주식과 세금(개인투자자용)」. 기본공제 250만원은 국내·해외주식을 통산해 연 1회만 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 세금이 얼마나 나오나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 세금이 얼마나 나오나요</h2>
 
 <p>양도차익에서 기본공제 250만원을 뺀 금액(과세표준)에 세율을 곱하면 납부세액이 나옵니다.</p>
 
@@ -93,7 +93,7 @@ self_check: |
 
 <p>양도차익이 200만원처럼 기본공제(250만원) 이하이면 <b>납부할 세금이 없습니다.</b> 다만 향후 손익통산을 위해 신고 자체는 해두는 것이 유리할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">언제까지, 어떻게 신고하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">언제까지, 어떻게 신고하나요</h2>
 
 <p>해외주식 양도소득세는 <b>예정신고 없이, 거래한 해의 다음 해 5월 1일부터 31일까지 확정신고</b>만 하면 됩니다.</p>
 

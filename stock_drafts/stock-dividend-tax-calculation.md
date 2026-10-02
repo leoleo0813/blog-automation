@@ -145,15 +145,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>주식배당과 무상증자는 다른 제도입니다</li>
-  <li>주식배당 세금, 액면가 기준으로 계산합니다</li>
-  <li>세금은 언제, 누가 원천징수하나요</li>
-  <li>배당받은 주식을 나중에 팔 때</li>
-  <li>금융소득종합과세와의 관계</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식배당과 무상증자는 다른 제도입니다</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식배당 세금, 액면가 기준으로 계산합니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세금은 언제, 누가 원천징수하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당받은 주식을 나중에 팔 때</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금융소득종합과세와의 관계</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">주식배당과 무상증자는 다른 제도입니다</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">주식배당과 무상증자는 다른 제도입니다</h2>
 
 <p>주식배당은 회사가 현금 대신 주식으로 배당을 지급하는 것입니다. 세법에서는 이를 실제로 돈을 받은 것과 같다고 보아 <mark>이익잉여금을 자본에 전입해 주는 것</mark>을 배당으로 간주합니다(의제배당, 소득세법 제17조).</p>
 
@@ -188,7 +188,7 @@ self_check: |
 
 <p>단, 무상증자라도 재원 일부가 이익잉여금이면 그 부분은 의제배당으로 과세됩니다. "무상증자니까 무조건 세금이 없다"고 단순하게 넘겨짚으면 틀릴 수 있어, 공시된 증자 재원 구성을 확인하는 것이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">주식배당 세금, 액면가 기준으로 계산합니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">주식배당 세금, 액면가 기준으로 계산합니다</h2>
 
 <p>현금배당은 실제로 받은 금액(시가) 그대로 과세하지만, 주식배당은 <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">받은 주식의 시가가 아니라 액면가액을 기준으로 과세표준을 계산</span>합니다. 무액면주식이면 발행가액이 기준입니다.</p>
 
@@ -240,25 +240,25 @@ self_check: |
 
 <p>코스닥 성장주나 액면분할을 거친 종목은 액면가가 100원·500원인 경우가 흔합니다. 같은 금액어치를 주식배당받아도 액면가가 낮은 종목일수록 실제 세부담률이 낮아진다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">세금은 언제, 누가 원천징수하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">세금은 언제, 누가 원천징수하나요</h2>
 
 <p>주식배당의 수입시기(세금이 부과되는 시점)는 실제로 주식을 받은 날이 아니라, 회사가 <b>이익잉여금의 자본전입을 결정한 날</b>입니다(소득세법 시행령 제46조).</p>
 
 <p>원천징수의무자는 배당을 지급하는 발행회사입니다. 회사가 세금을 미리 떼고 남은 주식 수만큼만 배정하거나, 별도로 원천징수세액에 해당하는 주식을 처분해 세금을 정산하는 방식이 일반적입니다. 정확한 처리 방식은 배당을 지급하는 회사의 공시를 확인해야 합니다.</p>
 
-<h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">배당받은 주식을 나중에 팔 때</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">배당받은 주식을 나중에 팔 때</h2>
 
 <p>주식배당으로 받은 주식을 나중에 매도하면, 이미 배당소득세를 낸 금액(과세표준으로 쓰인 액면가액)이 그 주식의 취득가액으로 인정됩니다. 배당받을 때 한 번 세금을 냈으니, 매도할 때 같은 금액을 다시 과세소득으로 잡지는 않는다는 뜻입니다.</p>
 
 <p>다만 국내 상장주식은 소액주주라면 매도차익 자체에 양도소득세가 붙지 않고, 매도할 때는 증권거래세(코스피 0.20%, 코스닥 0.20%)만 부담합니다. 대주주에 해당하면 양도소득세도 별도로 계산해야 합니다.</p>
 
-<h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">금융소득종합과세와의 관계</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">금융소득종합과세와의 관계</h2>
 
 <p>주식배당으로 원천징수된 세금은 다른 이자·배당소득과 합산됩니다. 여기서 주의할 점은 합산 대상이 원천징수세액이 아니라 배당소득 금액(과세표준) 자체라는 것입니다.</p>
 
 <p>연간 이자·배당소득 합계가 2,000만원을 넘으면 금융소득종합과세 대상이 되어 다른 소득과 합산해 종합소득세율(최고 49.5%, 지방소득세 포함)이 적용됩니다. 자세한 판단 기준은 <a href="https://sensitiveboss3.tistory.com/entry/financial-income-comprehensive-tax" target="_blank" rel="noopener">금융소득종합과세 2천만원 기준 확인법</a>에서 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #db2777;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">주식배당도 세금을 내나요</summary>

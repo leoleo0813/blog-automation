@@ -126,27 +126,27 @@ self_check: |
 
 <h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>동시호가란 무엇인가요</li>
-  <li>동시호가라는 이름과 실제 체결 방식의 차이</li>
-  <li>하루 중 동시호가가 적용되는 시간대</li>
-  <li>동시호가에서 주문이 체결되는 순서</li>
-  <li>시간외 거래와 동시호가, 헷갈리지 않는 법</li>
-  <li>이런 것도 궁금하시죠</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">동시호가란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">동시호가라는 이름과 실제 체결 방식의 차이</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">하루 중 동시호가가 적용되는 시간대</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">동시호가에서 주문이 체결되는 순서</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">시간외 거래와 동시호가, 헷갈리지 않는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이런 것도 궁금하시죠</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">동시호가란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">동시호가란 무엇인가요</h2>
 
 <p>동시호가(同時呼價)는 "같은 시간"을 뜻하는 동시와 "부르는 가격"을 뜻하는 호가가 합쳐진 말입니다. 일정 시간 동안 들어온 모든 매수·매도 주문을 접수 순서와 상관없이 동시에 접수된 것으로 취급해, 그 시간이 끝나는 순간 단 하나의 가격으로 한꺼번에 체결합니다.</p>
 
 <p>이 방식으로 결정되는 가격이 바로 그날의 시가(장 시작 가격)와 종가(장 마감 가격)입니다. 정규장 시간에는 주문이 들어오는 즉시 개별적으로 체결되지만, 동시호가 시간에는 주문을 모아뒀다가 한 번에 처리한다는 점이 다릅니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">동시호가라는 이름과 실제 체결 방식의 차이</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">동시호가라는 이름과 실제 체결 방식의 차이</h2>
 
 <p>사람들이 보통 "동시호가"라고 부르는 08:30~09:00, 15:20~15:30 시간대는 정확히는 <mark>단일가매매</mark>라는 체결 방식이 적용되는 구간입니다. 동시호가는 이 단일가매매 안에서 주문을 처리하는 원칙(접수 순서를 따지지 않는다)을 가리키는 말이고, 단일가매매는 그 원칙으로 하나의 가격을 정하는 방법 전체를 가리킵니다.</p>
 
 <p>실무에서는 두 용어를 구분 없이 섞어 쓰는 경우가 많아 크게 문제 되지 않습니다. 그런데 시간외단일가매매처럼 단일가매매 방식을 쓰면서도 동시호가 시간대는 아닌 구간도 있어, 뒤에서 다룰 시간외 거래와 헷갈리는 경우가 종종 생깁니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">하루 중 동시호가가 적용되는 시간대</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">하루 중 동시호가가 적용되는 시간대</h2>
 
 <p>코스피·코스닥 정규장을 기준으로 하루 동안 단일가매매(동시호가 포함)가 적용되는 구간은 아래와 같습니다.</p>
 
@@ -201,7 +201,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">동시호가에서 주문이 체결되는 순서</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">동시호가에서 주문이 체결되는 순서</h2>
 
 <p>정규장 중 개별 체결에서는 가격이 유리한 주문이 먼저, 가격이 같으면 먼저 낸 주문이 먼저, 그마저 같으면 수량이 많은 주문이 먼저 체결됩니다. 동시호가 시간에도 이 원칙이 기본으로 적용됩니다.</p>
 
@@ -214,7 +214,7 @@ self_check: |
 
 <p>이 예외는 특정 시간에 대량 주문을 먼저 넣는다고 반드시 유리해지지 않는다는 뜻이기도 합니다. 실제 체결 결과는 그날 접수된 전체 주문에 따라 달라집니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">시간외 거래와 동시호가, 헷갈리지 않는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">시간외 거래와 동시호가, 헷갈리지 않는 법</h2>
 
 <p>장전·장후 시간외종가매매는 이름에 "시간외"가 붙어 있지만 동시호가와는 다릅니다. 이 구간은 이미 정해진 가격(전일 종가 또는 당일 종가)으로 주문을 접수 순서대로 체결하는 방식이라, 시간 우선 원칙이 그대로 적용됩니다.</p>
 
@@ -222,7 +222,7 @@ self_check: |
 
 <p>정확한 매매제도 원문은 <a href="https://regulation.krx.co.kr/contents/RGL/03/03010201/RGL03010201.jsp" target="_blank" rel="noopener">한국거래소 매매거래제도 규정</a>이나 <a href="https://easylaw.go.kr" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a>에서 확인할 수 있고, 이용 중인 증권사 앱의 거래시간 안내 페이지에서도 같은 내용을 볼 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">이런 것도 궁금하시죠</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">이런 것도 궁금하시죠</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">동시호가와 단일가매매는 같은 뜻인가요</summary>

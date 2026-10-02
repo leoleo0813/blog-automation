@@ -56,16 +56,16 @@ self_check: |
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>가상 종가 15일치로 14일 RSI 구하기</li>
-  <li>하루 뒤 RSI 이어 계산하기</li>
-  <li>평균 방식에 따라 값이 달라지는 이유</li>
-  <li>70과 30 구간을 읽는 관례와 한계</li>
-  <li>RSI를 볼 때 자주 생기는 오해</li>
-  <li>RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간</li>
-  <li>RSI 확인하다 궁금해지는 점</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가상 종가 15일치로 14일 RSI 구하기</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">하루 뒤 RSI 이어 계산하기</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">평균 방식에 따라 값이 달라지는 이유</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">70과 30 구간을 읽는 관례와 한계</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">RSI를 볼 때 자주 생기는 오해</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">RSI 확인하다 궁금해지는 점</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">가상 종가 15일치로 14일 RSI 구하기</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">가상 종가 15일치로 14일 RSI 구하기</h2>
 <p>A씨가 어떤 주식의 종가를 15일 동안 적어 두었다고 가정합니다. 아래 숫자는 설명용 가상 값이며 실제 종목의 가격이 아닙니다.</p>
 
 <p>RSI는 전날과 비교한 변화량에서 시작합니다. 오른 날은 오른 폭을 상승분에, 내린 날은 내린 폭을 하락분에 적고 반대쪽은 0으로 둡니다.</p>
@@ -108,7 +108,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>내린 날의 하락분은 음수가 아니라 양수로 적습니다. -300원 하락이면 하락분은 300입니다.</li><li>평균 하락폭이 0이면 RS를 구할 수 없으니 RSI를 100으로 보고, 평균 상승폭이 0이면 RSI는 0입니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">하루 뒤 RSI 이어 계산하기</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">하루 뒤 RSI 이어 계산하기</h2>
 <p>15일차에 종가가 10,700원으로 300원 내렸습니다. 이 날의 상승분은 0, 하락분은 300입니다.</p>
 
 <p>와일더 방식은 새 평균을 (전날 평균 × 13 + 오늘 값) ÷ 14로 이어 갑니다. 이 식은 <a href="https://en.wikipedia.org/wiki/Relative_strength_index" target="_blank" rel="noopener">위키백과 Relative strength index</a>와 <a href="https://help.tc2000.com/m/69404/l/747071-rsi-wilder-s-rsi" target="_blank" rel="noopener">TC2000 도움말 RSI &amp; Wilder's RSI</a>에 같은 형태로 나옵니다.</p>
@@ -122,7 +122,7 @@ self_check: |
 
 <p>하락분 300원 하나가 들어오자 RSI가 67.86에서 60.84로 약 7 낮아졌습니다. 오늘 값이 평균에 14분의 1만 반영되어도 하락 한 번이 RSI를 눈에 띄게 움직입니다.</p>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">평균 방식에 따라 값이 달라지는 이유</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">평균 방식에 따라 값이 달라지는 이유</h2>
 <p>같은 15일차인데 평균을 어떻게 내느냐에 따라 RSI가 달라집니다. 가장 단순한 방식은 최근 14일(2~15일차)의 상승분과 하락분을 매번 새로 평균내는 것입니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -143,7 +143,7 @@ self_check: |
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/rsi-meaning-14day-calculation-1.png" alt="0에서 100까지 RSI 눈금 그림. 30 이하 과매도 관례 구간, 70 이상 과매수 관례 구간 표시. 14일차 67.86, 15일차 와일더 방식 60.84, 단순평균 방식 58.62 위치 표시" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 종가로 계산</figcaption></figure>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">70과 30 구간을 읽는 관례와 한계</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">70과 30 구간을 읽는 관례와 한계</h2>
 <p>RSI 70 이상을 과매수, 30 이하를 과매도 구간으로 부르는 것이 가장 흔한 관례입니다. <a href="https://wikidocs.net/289404" target="_blank" rel="noopener">위키독스 RSI 설명</a>과 <a href="https://economybloc.com/article/117186" target="_blank" rel="noopener">이코노미블록 상대강도지수</a>도 같은 기준을 소개합니다.</p>
 
 <p>이 기준은 해석의 관례일 뿐 앞으로 가격이 내리거나 오른다는 예측이 아닙니다. 상승세가 강한 구간에서는 RSI가 70 위에 머무는 기간이 길어질 수 있습니다.</p>
@@ -164,7 +164,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>RSI는 최근 14일의 등락만 요약합니다. 기업의 실적이나 가치는 담겨 있지 않습니다.</li><li>이 글의 가격과 숫자는 계산 연습용 가상 값이며 어떤 종목의 신호도 아닙니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI를 볼 때 자주 생기는 오해</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI를 볼 때 자주 생기는 오해</h2>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">흔한 오해</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">실제로는</th></tr>
@@ -178,7 +178,7 @@ self_check: |
 
 <p>이동평균과 표준편차로 만드는 다른 보조지표가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/bollinger-bands-calculation" target="_blank" rel="noopener">볼린저밴드 뜻과 계산법</a>을 함께 보세요. 두 지표 모두 과거 가격에서 계산한 값이라는 점은 같습니다.</p>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI가 투자 판단에 쓸모 있는 순간과 아닌 순간</h2>
 
 <p>RSI는 최근 등락의 크기를 비교하는 도구라서, 쓰는 자리를 가려야 도움이 됩니다.</p>
 
@@ -190,7 +190,7 @@ self_check: |
 
 <p>RSI 숫자 하나로 매수나 매도를 정하는 방식은 일반적인 사용법이 아닙니다. 이동평균이나 거래량, 그리고 기업 실적과 같이 놓고 읽는 보조 자료입니다.</p>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI 확인하다 궁금해지는 점</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">RSI 확인하다 궁금해지는 점</h2>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">RSI는 몇 일 기준으로 보는 게 맞나요</summary>
   <p style="margin:10px 0 0 0;">정해진 정답은 없고 14일이 기본값입니다. 개발자 웰스 와일더가 1978년에 14일을 표준으로 제안했고 대부분의 차트 서비스가 이 값을 초기 설정으로 둡니다. 기간을 줄이면 값이 더 크게 출렁이고, 늘리면 완만해집니다.</p>

@@ -58,16 +58,16 @@ self_check: |
 <h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>CAGR 계산 5단계</li>
-  <li>산술평균과 CAGR이 갈리는 이유</li>
-  <li>같은 총수익, 다른 CAGR</li>
-  <li>CAGR로 앞날 금액 거꾸로 따져 보기</li>
-  <li>CAGR이 담지 못하는 것</li>
-  <li>주식 투자에서 CAGR이 쓰이는 자리</li>
-  <li>숫자를 넣기 전에 확인할 항목</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAGR 계산 5단계</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">산술평균과 CAGR이 갈리는 이유</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 총수익, 다른 CAGR</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAGR로 앞날 금액 거꾸로 따져 보기</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CAGR이 담지 못하는 것</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자에서 CAGR이 쓰이는 자리</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">숫자를 넣기 전에 확인할 항목</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR 계산 5단계</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR 계산 5단계</h2>
 
 <p>CAGR은 다섯 단계로 계산합니다. 가상 인물 A씨가 5년 전 1,000만 원으로 시작해 지금 1,507만 원이 됐다고 가정하고 따라가 보겠습니다. 중간에 넣거나 뺀 돈은 없습니다.</p>
 
@@ -104,7 +104,7 @@ self_check: |
   셀에 <code>=(끝값/시작값)^(1/연수)-1</code> 을 입력하면 됩니다. 같은 값을 <code>=RRI(연수, 시작값, 끝값)</code> 함수로도 구할 수 있습니다.
 </div>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">산술평균과 CAGR이 갈리는 이유</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">산술평균과 CAGR이 갈리는 이유</h2>
 
 <p><mark>수익률이 오르내리면 산술평균이 CAGR보다 커집니다.</mark> A씨의 5년 연도별 수익률(전부 가상)로 직접 확인해 보겠습니다.</p>
 
@@ -134,7 +134,7 @@ self_check: |
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/cagr-annual-return-calculation-1.png" alt="A씨 계좌와 매년 8.55퍼센트씩 일정하게 늘어난 경우의 5년 평가금액 꺾은선 그래프. 두 선 모두 1,000만 원에서 시작해 약 1,507만 원에서 끝나지만 A씨 계좌는 중간에 1,674만 원까지 올랐다가 내려옴" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 A씨 사례(가상)</figcaption></figure>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">같은 총수익, 다른 CAGR</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">같은 총수익, 다른 CAGR</h2>
 
 <p><mark>총수익이 같아도 걸린 기간이 길수록 CAGR은 낮아집니다.</mark> 총수익 +50%(끝값이 시작값의 1.5배)를 기준으로 비교하면 이렇습니다.</p>
 
@@ -157,7 +157,7 @@ self_check: |
 
 <p>"3년 만에 50% 올랐다"와 "10년 만에 50% 올랐다"는 전혀 다른 성적입니다. 총수익률만 나란히 놓고 비교하면 이 차이가 가려집니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR로 앞날 금액 거꾸로 따져 보기</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR로 앞날 금액 거꾸로 따져 보기</h2>
 
 <p>공식을 거꾸로 쓰면 끝값은 시작값 × (1 + CAGR)^연수입니다. 5,000만 원을 10년 동안 일정한 연 복리로 굴린다고 가정한 표입니다.</p>
 
@@ -184,7 +184,7 @@ self_check: |
   "과거 5년 CAGR 12%"는 그 구간에서 있었던 일을 요약한 숫자입니다. 다음 5년도 같은 값이 나온다는 뜻으로 읽으면 안 됩니다.
 </div>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR이 담지 못하는 것</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR이 담지 못하는 것</h2>
 
 <p>CAGR은 시작과 끝, 두 점만 봅니다. 그 사이에 어떤 길을 지나왔는지는 숫자에 들어 있지 않습니다.</p>
 
@@ -197,7 +197,7 @@ self_check: |
 
 <p>배당을 어떻게 수익률에 넣는지는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-yield-calculation" target="_blank" rel="noopener">배당수익률 계산법</a>에서, 성장률을 주가 배수와 엮는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/peg-ratio-meaning-calculation" target="_blank" rel="noopener">PEG 뜻 계산 방법과 해석 기준</a>에서 이어서 볼 수 있습니다. 계좌 비중을 맞추는 문제는 <a href="https://sensitiveboss3.tistory.com/entry/rebalancing-account-tax-difference" target="_blank" rel="noopener">리밸런싱 글</a>에서 다룹니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">주식 투자에서 CAGR이 쓰이는 자리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">주식 투자에서 CAGR이 쓰이는 자리</h2>
 
 <p>CAGR은 계좌 성적표에만 쓰이는 숫자가 아닙니다. 주식 투자 자료에서 이름을 바꿔 자주 나옵니다.</p>
 
@@ -209,7 +209,7 @@ self_check: |
 
 <p>어느 경우든 CAGR은 지나간 구간을 한 숫자로 줄인 값이어서, 높은 CAGR이 앞으로의 수익을 약속하지는 않습니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">숫자를 넣기 전에 확인할 항목</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">숫자를 넣기 전에 확인할 항목</h2>
 
 <p>같은 공식이라도 입력값이 다르면 결과가 달라집니다. 계산하기 전에 아래 네 가지를 맞춰 두세요.</p>
 

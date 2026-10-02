@@ -111,27 +111,27 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>액면분할이 뭔가요</li>
-  <li>액면분할을 하면 왜 거래가 멈추나요</li>
-  <li>매매정지 기간은 실제로 며칠인가요</li>
-  <li>액면분할은 어떤 순서로 진행되나요</li>
-  <li>액면분할과 무상증자는 뭐가 다른가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할을 하면 왜 거래가 멈추나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매매정지 기간은 실제로 며칠인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할은 어떤 순서로 진행되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할과 무상증자는 뭐가 다른가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할이 뭔가요</h2>
 
 <p>액면분할은 주식 1주의 액면가를 낮추는 대신 발행주식수를 그만큼 늘리는 절차입니다. 예를 들어 액면가 500원인 주식을 5대1로 분할하면 액면가는 100원이 되고, 주식 수는 5배로 늘어납니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">주식 수만 늘어날 뿐 회사가 가진 자산이나 시가총액은 액면분할 전후로 그대로입니다.</span> 1주당 가격만 낮아져 소액 투자자의 접근성이 좋아지고 거래량이 늘어나는 효과를 기대할 수 있어, 상장기업이 자주 활용하는 절차입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할을 하면 왜 거래가 멈추나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할을 하면 왜 거래가 멈추나요</h2>
 
 <p>기존 주권(옛 액면가 기준)을 회수하고 새 액면가로 바뀐 신주권을 새로 발행해서 상장해야 하기 때문입니다. 이 교체 작업이 끝나기 전까지는 어느 시점의 주식이 진짜 내 주식인지 시스템상 확정할 수 없어, <b>한국거래소가 그 기간 동안 매매 자체를 정지</b>시킵니다.</p>
 
 <p>정지 기간에도 <mark>주식을 사고팔 수만 없을 뿐, 보유하고 있던 주식과 그 권리(배당 등)는 그대로 유지</mark>됩니다. 정지 기간이 끝나고 신주가 변경상장되면 늘어난 주식 수만큼 계좌에 자동으로 반영되고, 다시 거래가 가능해집니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매매정지 기간은 실제로 며칠인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매매정지 기간은 실제로 며칠인가요</h2>
 
 <p><b>매매정지 기간은 분할기준일 1매매거래일 전부터 변경상장일 전일까지입니다.</b> 한국거래소가 발간한 코스닥시장 공시·상장관리해설서에 명시된 기준이며, 근거 규정은 코스닥시장업무규정 제25조와 그 시행세칙 제30조입니다.</p>
 
@@ -170,7 +170,7 @@ self_check: |
 
 <p>두 사례 모두 <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">19일이라는 같은 정지 기간</span>이 나온 것은 분할 비율(2대1이든 5대1이든)과 무관하게, 정지 기간이 "구주권 회수 → 신주권 발행 → 변경상장"이라는 행정 절차에 걸리는 시간이라 대체로 비슷하기 때문입니다. 다만 회사마다 며칠씩 차이가 날 수 있으므로, 보유 종목의 정확한 일정은 한국거래소 <a href="https://kind.krx.co.kr/investwarn/tradinghaltissue.do?method=searchTradingHaltIssueMain" target="_blank" rel="noopener">KIND 매매거래정지 공시</a>에서 종목명으로 검색해 확인하는 것이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할은 어떤 순서로 진행되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할은 어떤 순서로 진행되나요</h2>
 
 <ol style="line-height:1.9;">
   <li><b>이사회 결의 및 공시</b>: 액면분할 결정 사실과 분할 비율을 공시합니다.</li>
@@ -180,7 +180,7 @@ self_check: |
   <li><b>신주권 발행 및 변경상장</b>: 새 액면가의 신주권이 발행·상장되며 거래가 재개됩니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할과 무상증자는 뭐가 다른가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할과 무상증자는 뭐가 다른가요</h2>
 
 <p>둘 다 "주식 수가 늘어난다"는 결과만 보면 비슷해 보이지만 늘어나는 방식이 다릅니다.</p>
 
@@ -213,7 +213,7 @@ self_check: |
 
 <p>즉 액면분할은 기존 자산을 잘게 쪼개는 것이고, 무상증자는 회사가 쌓아둔 잉여금을 주식으로 바꿔 추가로 나눠주는 것입니다. 그래서 액면분할에만 신주권 교체를 위한 매매정지가 따라붙습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">액면분할이란 정확히 무엇인가요</summary>

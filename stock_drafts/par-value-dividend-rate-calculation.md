@@ -109,22 +109,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>액면가란 무엇인가요</li>
-  <li>액면가와 시가 발행가는 다릅니다</li>
-  <li>액면가 최저 기준, 상법이 정합니다</li>
-  <li>액면배당률과 시가배당률 계산법</li>
-  <li>무액면주식은 액면가가 아예 없습니다</li>
-  <li>액면분할 액면병합과 액면가 변화</li>
-  <li>궁금한 점 모아보기</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면가란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면가와 시가 발행가는 다릅니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면가 최저 기준, 상법이 정합니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면배당률과 시가배당률 계산법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">무액면주식은 액면가가 아예 없습니다</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할 액면병합과 액면가 변화</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 모아보기</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면가란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면가란 무엇인가요</h2>
 
 <p>액면가(액면가액)는 주식회사가 처음 주식을 발행할 때 주권 표면에 적어 넣은 금액입니다. 회사의 자본금을 발행주식수로 나눈 값이 곧 액면가이며, 국내 상장사는 보통 5,000원을 표준으로 삼되 100원, 200원, 500원, 1,000원, 2,500원 단위도 함께 쓰입니다.</p>
 
 <p>액면가는 실제 매매 가격이 아닙니다. 주식은 시장에서 수요와 공급에 따라 정해지는 시가로 거래되고, 액면가는 그 뒤에서 <mark>배당률 산정이나 자본금 계산의 기준값</mark>으로만 쓰입니다.</p>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면가와 시가 발행가는 다릅니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면가와 시가 발행가는 다릅니다</h2>
 
 <p>액면가, 발행가, 시가는 서로 다른 세 가지 숫자입니다. 헷갈리기 쉬워서 표로 구분하면 이렇습니다.</p>
 
@@ -157,7 +157,7 @@ self_check: |
 
 <p>발행가는 액면가보다 높은 경우(액면가 이상 발행이 원칙)가 대부분이고, 시가는 상장 이후 시장에서 계속 바뀝니다. 세 숫자 중 액면가만 정관을 바꾸지 않는 한 고정돼 있습니다.</p>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면가 최저 기준, 상법이 정합니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면가 최저 기준, 상법이 정합니다</h2>
 
 <p><a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C329%EC%A1%B0" target="_blank" rel="noopener">상법 제329조</a>는 액면주식 1주의 금액을 100원 이상으로 하도록 정하고 있습니다. 회사가 마음대로 1원, 10원 같은 극단적으로 낮은 액면가를 매길 수 없다는 뜻입니다.</p>
 
@@ -169,7 +169,7 @@ self_check: |
 
 <p>이 100원이라는 하한선은 2011년 상법 개정(2012년 시행) 이후 바뀐 적이 없는 안정적인 법정 기준입니다.</p>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면배당률과 시가배당률 계산법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면배당률과 시가배당률 계산법</h2>
 
 <p>배당률은 어떤 금액을 기준으로 계산하느냐에 따라 액면배당률과 시가배당률로 나뉩니다. <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">액면배당률은 액면가를 기준으로 계산하고, 시가배당률은 배당 기준일의 실제 주가를 기준으로 계산합니다.</span></p>
 
@@ -183,13 +183,13 @@ self_check: |
 
 <p>배당금이 똑같이 1,000원이어도 액면배당률은 20%로 고정되지만, 시가배당률은 주가 수준에 따라 5%가 되기도 10%가 되기도 합니다. 실제로 그 주식을 시가로 산 투자자 입장에서는 액면배당률보다 시가배당률이 실질 수익률에 더 가깝습니다.</p>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">무액면주식은 액면가가 아예 없습니다</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">무액면주식은 액면가가 아예 없습니다</h2>
 
 <p>2012년 시행된 개정 상법부터는 회사가 정관으로 정하는 바에 따라 액면가 없이 주식을 발행하는 무액면주식 제도를 도입할 수 있게 됐습니다. 무액면주식은 액면가라는 개념 자체가 없고, 발행가와 시가만 존재합니다.</p>
 
 <p>회사는 액면주식과 무액면주식 중 하나를 선택해야 하며, 둘을 동시에 발행할 수는 없습니다. 국내 상장사 대부분은 여전히 액면주식을 채택하고 있어, 액면배당률 같은 개념도 그만큼 자주 쓰입니다.</p>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면분할 액면병합과 액면가 변화</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">액면분할 액면병합과 액면가 변화</h2>
 
 <p>액면분할은 액면가를 낮추면서 발행주식수를 늘리는 조치이고, 액면병합은 반대로 액면가를 높이면서 발행주식수를 줄이는 조치입니다. 둘 다 회사의 자본금 총액 자체는 바뀌지 않습니다.</p>
 
@@ -201,7 +201,7 @@ self_check: |
 
 <p>단, 액면분할이나 액면병합을 결정하면 신주가 상장되기까지 일정 기간 매매가 정지됩니다. 실제 정지 기간과 사례는 이 시리즈의 액면분할 매매정지 기간 편에서 별도로 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">궁금한 점 모아보기</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #c2185b;padding-left:12px;margin-top:36px;">궁금한 점 모아보기</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">액면가가 높으면 좋은 주식인가요</summary>

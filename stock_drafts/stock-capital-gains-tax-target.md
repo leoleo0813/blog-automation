@@ -86,14 +86,14 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>국내 주식, 일반 개인도 양도소득세를 내나요</li>
-  <li>대주주는 정확히 어떤 기준으로 판정하나요</li>
-  <li>시장별 대주주 기준이 어떻게 다른가요</li>
-  <li>대주주 기준은 계속 같았나요</li>
-  <li>소액주주도 세금을 내는 예외가 있나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내 주식, 일반 개인도 양도소득세를 내나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">대주주는 정확히 어떤 기준으로 판정하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">시장별 대주주 기준이 어떻게 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">대주주 기준은 계속 같았나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">소액주주도 세금을 내는 예외가 있나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내 주식, 일반 개인도 양도소득세를 내나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내 주식, 일반 개인도 양도소득세를 내나요</h2>
 
 <p>대부분 내지 않습니다. <mark>주권상장법인의 소액주주가 증권시장 안에서 주식을 팔면 양도소득세 과세 대상이 아닙니다.</mark> 반면 대주주가 파는 주식은 단 1주를 팔아도 과세 대상입니다.</p>
 
@@ -108,7 +108,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 「주식등 양도소득세 - 세액계산요령」</a>(2026-09-04 확인). 증권거래세·세율·신고 방법은 별도로 정리한 "주식 매도 세금 얼마" 글을 참고하세요.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">대주주는 정확히 어떤 기준으로 판정하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">대주주는 정확히 어떤 기준으로 판정하나요</h2>
 
 <p>대주주 여부는 <b>지분율 또는 시가총액</b> 중 하나만 기준을 넘어도 해당됩니다. 본인이 소유한 주식뿐 아니라 배우자·직계존비속 등 특수관계인의 지분까지 포함해 계산합니다.</p>
 
@@ -120,7 +120,7 @@ self_check: |
   <li>판정 기준일: 양도일이 속한 사업연도의 직전 사업연도 종료일</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">시장별 대주주 기준이 어떻게 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">시장별 대주주 기준이 어떻게 다른가요</h2>
 
 <p>시장에 따라 지분율 기준이 다르고, 시가총액 기준은 <b>2024년 1월 1일 이후 양도분부터 시장 구분 없이 50억원</b>으로 통일됐습니다(비상장은 예외).</p>
 
@@ -144,7 +144,7 @@ self_check: |
 
 <p>지분율과 시가총액 둘 중 <mark>하나만 넘어도</mark> 대주주가 됩니다. 예를 들어 코스피 종목을 지분율 0.5%만 보유했더라도, 그 주식의 시가총액이 50억원을 넘으면 대주주로 분류됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">대주주 기준은 계속 같았나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">대주주 기준은 계속 같았나요</h2>
 
 <p>아닙니다. 시가총액 기준은 <b>여러 차례 상향</b>됐습니다. 2016년 코스피 기준 25억원이었던 것이 단계적으로 올라 2024년부터는 50억원입니다.</p>
 
@@ -170,7 +170,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">인터넷에 남아 있는 "대주주 기준 10억원"이라는 정보는 2020~2023년 기준입니다. 2026년 현재는 <b>시가총액 50억원</b>이 맞는 현행 기준이니, 오래된 글의 숫자를 그대로 믿지 않도록 주의하세요.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">소액주주도 세금을 내는 예외가 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">소액주주도 세금을 내는 예외가 있나요</h2>
 
 <p>있습니다. 대주주 요건과 무관하게 과세되는 경우가 두 가지 있습니다.</p>
 

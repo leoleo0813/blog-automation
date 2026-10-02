@@ -113,21 +113,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>배당수익률이 뭔가요</li>
-  <li>배당수익률은 어떻게 계산하나요</li>
-  <li>배당수익률과 시가배당률은 뭐가 다른가요</li>
-  <li>세금을 떼면 실제 수익률은 얼마나 낮아지나요</li>
-  <li>배당수익률이 높으면 무조건 좋은가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당수익률이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당수익률은 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당수익률과 시가배당률은 뭐가 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세금을 떼면 실제 수익률은 얼마나 낮아지나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당수익률이 높으면 무조건 좋은가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률이 뭔가요</h2>
 
 <p>배당수익률은 지금 주가로 그 주식을 산다면 배당금만으로 연간 몇 %의 수익을 얻을 수 있는지 나타내는 지표입니다. 증권사 앱이나 포털의 종목 정보 화면에 함께 표시되는 숫자입니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">주가와 배당금이 서로 다른 종목의 배당 매력을 같은 기준(%)으로 비교할 수 있다는 것이 배당수익률의 쓸모입니다.</span> 배당금 자체의 크기(원)만으로는 비싼 주식과 싼 주식을 나란히 비교하기 어렵기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률은 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률은 어떻게 계산하나요</h2>
 
 <p><b>배당수익률(%) = 주당배당금 ÷ 현재 주가 × 100</b>입니다. 1주당 연간 배당금을 지금 주가로 나눈 뒤 100을 곱하면 됩니다.</p>
 
@@ -158,7 +158,7 @@ self_check: |
 
 <p>같은 2,000원을 배당하더라도 <mark>주가가 낮을수록 배당수익률은 높게 계산</mark>됩니다. 분모(주가)가 매일 바뀌기 때문에, 배당수익률도 배당금이 그대로여도 주가에 따라 매일 달라집니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률과 시가배당률은 뭐가 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률과 시가배당률은 뭐가 다른가요</h2>
 
 <p>둘 다 "주당배당금 ÷ 주가"라는 공식은 같지만, <b>어느 시점의 주가를 쓰는지가 다릅니다.</b> 이 기준일 차이 때문에 같은 종목인데 숫자가 서로 다르게 보이는 혼동이 자주 생깁니다.</p>
 
@@ -191,7 +191,7 @@ self_check: |
 
 <p>예를 들어 배당 공시 당시 주가가 40,000원이고 연간 배당금이 2,000원이라면 <b>시가배당률은 5.0%로 공시</b>됩니다. 이후 주가가 50,000원으로 오르면 같은 배당금인데도 <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">오늘 화면에 뜨는 배당수익률은 4.0%(2,000 ÷ 50,000 × 100)로 더 낮게 표시</span>됩니다. 배당금이 줄어든 게 아니라 주가가 올라서 벌어진 차이입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세금을 떼면 실제 수익률은 얼마나 낮아지나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세금을 떼면 실제 수익률은 얼마나 낮아지나요</h2>
 
 <p>화면에 뜨는 배당수익률은 <b>세금을 떼기 전(세전) 수치</b>입니다. 국내 배당소득은 15.4%(소득세 14%+지방소득세 1.4%)가 원천징수되므로, 실제로 계좌에 들어오는 금액을 기준으로 다시 계산하면 수익률은 더 낮아집니다.</p>
 
@@ -227,7 +227,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">배당소득 원천징수 15.4%의 근거 조문과 금융소득종합과세(2천만원 초과 시)까지 이어지는 내용은 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">이전 글(배당소득세 얼마 떼나)</a>에서 자세히 다룹니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률이 높으면 무조건 좋은가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당수익률이 높으면 무조건 좋은가요</h2>
 
 <p><b>아닙니다. 배당수익률은 분모인 주가가 급락해도 똑같이 높아집니다.</b> 배당금(분자)이 늘어난 게 아니라 주가(분모)가 떨어져서 수익률 숫자만 커지는 경우를 구분해야 합니다.</p>
 
@@ -239,7 +239,7 @@ self_check: |
 
 <p>이 글은 배당수익률이라는 지표를 읽는 방법을 설명하는 것으로, 특정 종목의 매수·매도를 권하는 내용이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">배당수익률이란 정확히 무엇인가요</summary>

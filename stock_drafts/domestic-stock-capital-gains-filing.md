@@ -137,21 +137,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>국내주식 양도소득세는 누가 신고하나요</li>
-  <li>예정신고와 확정신고, 언제 하나요</li>
-  <li>신고는 실제로 어떻게 하나요</li>
-  <li>신고를 놓치면 어떻게 되나요</li>
-  <li>해외주식 신고와는 뭐가 다른가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내주식 양도소득세는 누가 신고하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">예정신고와 확정신고, 언제 하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고는 실제로 어떻게 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고를 놓치면 어떻게 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외주식 신고와는 뭐가 다른가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내주식 양도소득세는 누가 신고하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내주식 양도소득세는 누가 신고하나요</h2>
 
 <p>국내 상장주식을 증권시장 안에서 파는 <b>소액주주는 원칙적으로 양도소득세 신고 대상이 아닙니다.</b> 신고 의무가 생기는 쪽은 <mark>대주주(코스피 1%·50억원, 코스닥 2%·50억원, 코넥스 4%·50억원 등)와 비상장·장외거래 양도자</mark>입니다.</p>
 
 <p>본인이 대주주 요건에 해당하는지부터 확인해야 이 글이 필요한지 알 수 있습니다. 지분율·보유금액 기준과 판정 시점은 <a href="https://sensitiveboss3.tistory.com/entry/stock-capital-gains-tax-target" target="_blank" rel="noopener">주식 양도소득세 대주주 요건</a> 글에서 자세히 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예정신고와 확정신고, 언제 하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예정신고와 확정신고, 언제 하나요</h2>
 
 <p>국내주식 양도소득세는 <b>두 단계</b>로 신고합니다. 먼저 <mark>주식을 판 반기(1~6월, 7~12월)의 말일부터 2개월 이내에 예정신고</mark>를 하고 세액을 냅니다. 이후 같은 해에 여러 번 양도해 세액이 달라지면 <mark>다음 해 5월 1일부터 31일까지 확정신고</mark>로 정산합니다.</p>
 
@@ -180,7 +180,7 @@ self_check: |
 
 <p>세율표와 실제 세액 계산 예시(과세표준 구간별 20%·25%·30%)는 <a href="https://sensitiveboss3.tistory.com/entry/stock-sell-tax-amount" target="_blank" rel="noopener">주식 매도 세금 얼마</a> 글에 정리해 두었으니, 이 글은 계산이 끝난 다음의 "신고 실무"에만 집중합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 실제로 어떻게 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 실제로 어떻게 하나요</h2>
 
 <p>신고 경로는 두 가지 중 하나를 고르면 됩니다.</p>
 
@@ -196,7 +196,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">증권사 거래내역서(양도가액·취득가액 확인용), 신고인 기본정보, 대주주 판정 근거자료(지분율·보유금액)를 미리 준비해두면 신고서 작성이 수월합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고를 놓치면 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고를 놓치면 어떻게 되나요</h2>
 
 <p>예정신고·확정신고를 하지 않으면 <mark>무신고가산세(내야 할 세액의 20%)</mark>가 붙고, 여기에 <b>납부지연가산세</b>가 추가됩니다.</p>
 
@@ -207,7 +207,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">과세표준 3,000만원(세율 20% 구간)이라면 양도소득세는 <mark>600만원</mark>입니다. 예정신고를 놓쳐 2개월 늦게 신고·납부했다면 무신고가산세 20%(120만원)에 납부지연가산세(월 1만분의67 기준 2개월분 약 8만원)가 더해져, <mark>대략 128만원의 가산세가 추가</mark>로 붙습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 신고와는 뭐가 다른가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 신고와는 뭐가 다른가요</h2>
 
 <p>해외주식은 <b>예정신고 의무가 없습니다.</b> 대주주 여부와 상관없이 다음 해 5월 확정신고만 하면 되고, 신고서식에는 종목코드 대신 <b>ISIN코드</b>를 적습니다. 해외주식 신고 절차는 <a href="https://sensitiveboss3.tistory.com/entry/overseas-stock-tax-filing" target="_blank" rel="noopener">해외주식 양도소득세 신고 방법</a> 글에서 따로 정리했습니다.</p>
 
@@ -220,7 +220,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">국내주식도 양도소득세를 신고해야 하나요</summary>

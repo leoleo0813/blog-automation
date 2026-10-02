@@ -128,22 +128,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ELS 뜻과 기본 구조</li>
-  <li>낙인배리어는 어떻게 계산하나요</li>
-  <li>조기상환 조건은 어떻게 정해지나요</li>
-  <li>홍콩H지수 ELS 사태로 본 실제 손실 사례</li>
-  <li>ELS 수익에 붙는 세금 계산법</li>
-  <li>ELS 투자 전 확인할 점</li>
-  <li>ELS 관련 자주 나오는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ELS 뜻과 기본 구조</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">낙인배리어는 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">조기상환 조건은 어떻게 정해지나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">홍콩H지수 ELS 사태로 본 실제 손실 사례</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ELS 수익에 붙는 세금 계산법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ELS 투자 전 확인할 점</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ELS 관련 자주 나오는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 뜻과 기본 구조</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 뜻과 기본 구조</h2>
 
 <p>ELS(주가연계증권, Equity Linked Securities)는 코스피200이나 홍콩H지수 같은 주가지수, 또는 특정 종목의 가격 흐름과 수익이 연결된 파생결합증권입니다. 예금처럼 원금이 보장되지 않는 투자상품입니다.</p>
 
 <p>가입 시점에 두 가지 숫자가 정해집니다. 정해진 시점마다 얼마나 올라야 조기상환되는지(조기상환 조건), 얼마까지 떨어지면 원금손실이 시작되는지(낙인배리어)입니다. 이 두 숫자를 모르고 가입하면 상품이 어떻게 움직이는지 이해하기 어렵습니다.</p>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">낙인배리어는 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">낙인배리어는 어떻게 계산하나요</h2>
 
 <p>낙인배리어(Knock-In Barrier)는 원금손실이 시작되는 기준선입니다. 기초자산 가격이 가입 시점(기준가) 대비 이 비율 밑으로 한 번이라도 떨어지고, 만기까지 상환 조건을 채우지 못하면 하락률만큼 원금손실이 확정됩니다.</p>
 
@@ -176,7 +176,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">조기상환 조건은 어떻게 정해지나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">조기상환 조건은 어떻게 정해지나요</h2>
 
 <p>ELS는 보통 만기(3년) 전에 6개월 단위로 조기상환 기회가 옵니다. 각 시점마다 기초자산이 기준가의 몇 % 이상이어야 조기상환되는지가 정해지는데, 이 비율은 시간이 지날수록 낮아지는 구조가 흔합니다.</p>
 
@@ -201,7 +201,7 @@ self_check: |
 
 <p>이 예시대로라면 6개월 뒤 지수가 기준가의 95%만 넘어도 조기상환되어 수익을 받고 끝납니다. 반대로 매번 조건을 못 채우고 만기까지 가서 낙인배리어까지 건드리면, 그제야 원금손실 여부가 확정됩니다.</p>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">홍콩H지수 ELS 사태로 본 실제 손실 사례</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">홍콩H지수 ELS 사태로 본 실제 손실 사례</h2>
 
 <p>낙인배리어가 어떤 의미인지는 실제 사례로 보면 더 분명해집니다. 2021~2023년 홍콩H지수가 큰 폭으로 하락하면서, 이 지수를 기초자산으로 한 ELS 상품 다수가 낙인배리어를 건드려 대규모 원금손실이 발생했습니다.</p>
 
@@ -225,7 +225,7 @@ self_check: |
 
 <p>2024년 10월 기준으로 판매사들이 자율배상한 비율은 평균 31.6%였고(손실이 확정된 계좌 원금 10조4,000억 원, 손실금액 4조6,000억 원), 배상은 투자자마다 조건에 따라 갈렸습니다. 이후 2026년 2월 12일에는 금융감독원이 5개 은행에 대한 제재 수위를 당초 통보한 과징금 약 2조 원대에서 약 1조4,000억 원대로 감경 확정했습니다. 단, 관련 사안은 2026년 5월에도 금융위원회 논의가 이어질 정도로 계속 진행 중이므로, 최신 진행 상황은 별도로 확인하는 편이 좋습니다.</p>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 수익에 붙는 세금 계산법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 수익에 붙는 세금 계산법</h2>
 
 <p>ELS는 원금보장이 되지 않는 투자상품이라 수익이 발생하면 배당소득세 15.4%(지방소득세 포함)가 원천징수됩니다. 예금처럼 이자소득으로 과세되는 ELD(주가연계예금)와는 이 점에서 다릅니다.</p>
 
@@ -233,7 +233,7 @@ self_check: |
 
 <p>이 4,500만 원은 다른 이자·배당소득과 합쳐 연간 2천만 원을 넘으므로 금융소득종합과세 대상이 됩니다. 종합과세의 기준과 계산법은 <a href="https://sensitiveboss3.tistory.com/entry/financial-income-comprehensive-tax">금융소득종합과세 2천만원 기준 확인법</a> 편에서 자세히 다뤘습니다. ISA 계좌 안에 ELS를 담으면 손익통산과 세제혜택이 어떻게 적용되는지는 <a href="https://sensitiveboss3.tistory.com/entry/isa-gain-loss-netting">ISA 손익통산 계산 방법</a> 편을 참고하세요.</p>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 투자 전 확인할 점</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 투자 전 확인할 점</h2>
 
 <p>가입 전에 아래 항목을 투자설명서에서 직접 확인하는 편이 좋습니다.</p>
 
@@ -249,7 +249,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">기초자산 2~3개를 묶은 상품은 그중 가장 많이 떨어진 자산 하나만으로 낙인 여부가 판정되는 경우가 흔합니다. 지수 1개짜리보다 손실 가능성을 더 보수적으로 봐야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 관련 자주 나오는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #c98a1f;padding-left:12px;margin-top:36px;">ELS 관련 자주 나오는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ELS와 ELD는 뭐가 다른가요</summary>

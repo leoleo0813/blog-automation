@@ -54,15 +54,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>배당수익률이 같은 두 회사, 배당성향은 왜 다를까</li>
-  <li>배당성향 공식 두 가지와 분모 확인법</li>
-  <li>이익이 25% 줄면 배당은 어떻게 되나</li>
-  <li>배당성향이 100%를 넘으면 읽는 법</li>
-  <li>배당주를 볼 때 배당성향을 쓰는 순서</li>
-  <li>배당수익률과 PER로 이어 보는 법</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당수익률이 같은 두 회사, 배당성향은 왜 다를까</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당성향 공식 두 가지와 분모 확인법</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이익이 25% 줄면 배당은 어떻게 되나</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당성향이 100%를 넘으면 읽는 법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당주를 볼 때 배당성향을 쓰는 순서</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당수익률과 PER로 이어 보는 법</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당수익률이 같은 두 회사, 배당성향은 왜 다를까</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당수익률이 같은 두 회사, 배당성향은 왜 다를까</h2>
 
 <p>가상의 투자자 A씨가 가나다전자와 라마바화학의 배당수익률이 모두 4.0%인 것을 발견했습니다. 두 회사와 A씨는 실제 인물이나 기업이 아닌 설명용 가상 설정입니다.</p>
 
@@ -89,7 +89,7 @@ self_check: |
 
 <p>배당수익률 자체가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/dividend-yield-calculation" target="_blank" rel="noopener">배당수익률 계산법</a> 편을 먼저 보면 이어집니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당성향 공식 두 가지와 분모 확인법</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당성향 공식 두 가지와 분모 확인법</h2>
 
 <p>배당성향은 배당금 총액 ÷ 순이익 × 100, 또는 주당배당금(DPS) ÷ 주당순이익(EPS) × 100으로 구합니다. 두 식은 같은 값을 줍니다. 분자와 분모를 주식 수로 나눴을 뿐입니다.</p>
 
@@ -109,7 +109,7 @@ self_check: |
 
 <p>EPS 계산이 필요하면 <a href="https://sensitiveboss3.tistory.com/entry/eps-meaning-calculation" target="_blank" rel="noopener">EPS 뜻과 계산 방법</a> 편에 순서가 있습니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">이익이 25% 줄면 배당은 어떻게 되나</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">이익이 25% 줄면 배당은 어떻게 되나</h2>
 
 <p>순이익이 25% 줄면 EPS는 가나다전자 3,750원, 라마바화학 1,500원이 됩니다. 이때 회사가 배당을 정하는 방식은 크게 두 가지로 나눠서 따져 볼 수 있습니다.</p>
 
@@ -138,7 +138,7 @@ self_check: |
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dividend-payout-ratio-formula-cushion-1.png" alt="가상 두 회사의 배당성향 막대그래프. 지금은 가나다전자 40퍼센트, 라마바화학 90퍼센트이고, 순이익이 25퍼센트 줄었는데 배당금을 유지하면 53.3퍼센트와 120퍼센트가 되어 라마바화학이 100퍼센트 선을 넘음" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 두 회사</figcaption></figure>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당성향이 100%를 넘으면 읽는 법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당성향이 100%를 넘으면 읽는 법</h2>
 
 <p>배당성향이 100%를 넘는다는 것은 그해 순이익보다 많은 금액을 배당했다는 뜻입니다. 배당은 그해 순이익만이 아니라 쌓아 둔 이익잉여금 한도 안에서 줄 수 있어서 가능한 일입니다.</p>
 
@@ -152,7 +152,7 @@ self_check: |
 
 <p>고배당기업 배당소득 분리과세 특례처럼 배당성향이 세금 요건에 들어가는 제도도 있습니다. 요건 수치는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">배당소득세 얼마 떼나</a> 편과 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 원문에서 확인하세요.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당주를 볼 때 배당성향을 쓰는 순서</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당주를 볼 때 배당성향을 쓰는 순서</h2>
 
 <p>배당주를 고르는 사람에게 배당성향은 배당수익률 다음에 보는 두 번째 숫자입니다. 순서대로 놓으면 이렇습니다.</p>
 
@@ -165,7 +165,7 @@ self_check: |
 
 <p>배당성향이 낮다고 배당이 늘어난다는 보장은 없고, 높다고 곧 줄어든다는 뜻도 아닙니다. 회사가 이익 변화에 대응할 수 있는 폭을 보여 주는 숫자입니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당수익률과 PER로 이어 보는 법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">배당수익률과 PER로 이어 보는 법</h2>
 
 <p>배당수익률은 배당성향을 PER로 나눈 값과 같습니다. 배당수익률 = DPS ÷ 주가이고, DPS = 배당성향 × EPS, 주가 = PER × EPS이므로 EPS가 서로 사라집니다.</p>
 

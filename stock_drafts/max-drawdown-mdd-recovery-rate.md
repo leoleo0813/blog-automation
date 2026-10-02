@@ -56,15 +56,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>가상 계좌 15개월 기록으로 MDD 구하기</li>
-  <li>MDD 공식과 부호 읽는 법</li>
-  <li>낙폭 회복에 필요한 수익률 표</li>
-  <li>같은 원금에서 MDD가 다르면 생기는 차이</li>
-  <li>MDD가 알려 주지 못하는 것</li>
-  <li>펀드·ETF를 고를 때 MDD를 쓰는 법</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가상 계좌 15개월 기록으로 MDD 구하기</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">MDD 공식과 부호 읽는 법</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">낙폭 회복에 필요한 수익률 표</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 원금에서 MDD가 다르면 생기는 차이</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">MDD가 알려 주지 못하는 것</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">펀드·ETF를 고를 때 MDD를 쓰는 법</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">가상 계좌 15개월 기록으로 MDD 구하기</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">가상 계좌 15개월 기록으로 MDD 구하기</h2>
 
 <div style="background:#fffaf4;border:1px solid #f0c9a0;border-radius:8px;padding:14px 18px;margin:16px 0;">
   <strong>계산 박스 (가상 데이터)</strong>
@@ -103,7 +103,7 @@ self_check: |
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/max-drawdown-mdd-recovery-rate-1.png" alt="가상 계좌 15개월 평가액과 그때까지의 최고점 꺾은선 그래프. 5월차에 고점 대비 -20퍼센트, 8월차 최고점 13,000원 이후 11월차 8,450원으로 -35퍼센트가 MDD, 14월차에 13,000원 회복" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 계좌 기록</figcaption></figure>
 
-<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD 공식과 부호 읽는 법</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD 공식과 부호 읽는 법</h2>
 
 <p>MDD는 (저점 - 직전 최고점) ÷ 직전 최고점으로 구하고, 결과는 항상 0 이하의 음수입니다. 위 표에서는 (8,450 - 13,000) ÷ 13,000 = -0.35, 즉 -35%입니다.</p>
 
@@ -118,7 +118,7 @@ self_check: |
 
 <p>KB자산운용도 <a href="https://m.kbam.co.kr/board/view/786" target="_blank" rel="noopener">MDD 활용법 칼럼</a>에서 MDD를 투자 위험 관리 지표로 소개합니다.</p>
 
-<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">낙폭 회복에 필요한 수익률 표</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">낙폭 회복에 필요한 수익률 표</h2>
 
 <p>낙폭 d를 되찾는 데 필요한 상승률은 d ÷ (1 - d)입니다. 떨어진 비율보다 오를 비율이 항상 더 큽니다.</p>
 
@@ -141,7 +141,7 @@ self_check: |
 
 <p>낙폭이 깊어질수록 회복 부담은 곡선으로 커집니다. 10%에서 20%로 두 배가 되는 사이 필요 상승률은 11.1%에서 25.0%로 두 배 넘게 뜁니다.</p>
 
-<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">같은 원금에서 MDD가 다르면 생기는 차이</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">같은 원금에서 MDD가 다르면 생기는 차이</h2>
 
 <p>MDD는 같은 원금이 고점 이후 얼마까지 줄었는지를 금액으로 바꿔 보면 체감이 됩니다. 원금 1억 원이 최고점에서 1억 원이었다고 가정한 가상 비교입니다.</p>
 
@@ -163,7 +163,7 @@ self_check: |
 
 <p>자산 비중을 정기적으로 다시 맞춰 한쪽으로 쏠린 위험을 줄이는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/rebalancing-account-tax-difference" target="_blank" rel="noopener">리밸런싱 뜻 글</a>에서 이어집니다.</p>
 
-<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD가 알려 주지 못하는 것</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">MDD가 알려 주지 못하는 것</h2>
 
 <p>MDD는 과거 기록에서 가장 크게 빠진 한 번만 보여 줍니다. 앞으로 그보다 더 크게 빠질 수 있는지는 알려 주지 않습니다.</p>
 
@@ -181,7 +181,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>낙폭 = (현재 평가액 - 그때까지 최고점) ÷ 그때까지 최고점, 그중 가장 작은 값이 MDD입니다.</li><li>회복에 필요한 상승률 = 낙폭 ÷ (1 - 낙폭)입니다. -50%면 +100%입니다.</li><li>수익률과 MDD는 함께 놓고, 측정 기간이 같은지부터 확인합니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">펀드·ETF를 고를 때 MDD를 쓰는 법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">펀드·ETF를 고를 때 MDD를 쓰는 법</h2>
 
 <p>MDD는 상품 설명서나 비교 사이트에서 수익률 옆에 붙어 나오는 경우가 많습니다. 주식 투자자가 쓰는 자리는 세 군데입니다.</p>
 

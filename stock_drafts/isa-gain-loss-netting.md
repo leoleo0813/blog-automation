@@ -117,20 +117,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ISA 손익통산이 뭔가요</li>
-  <li>손익통산 대상에 국내주식도 포함되나요</li>
-  <li>손익통산 후 세금은 얼마나 나오나요</li>
-  <li>손실만 났을 때는 어떻게 되나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 손익통산이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">손익통산 대상에 국내주식도 포함되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">손익통산 후 세금은 얼마나 나오나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">손실만 났을 때는 어떻게 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 손익통산이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 손익통산이 뭔가요</h2>
 
 <p>일반 증권계좌라면 상품마다 따로 세금을 계산합니다. 펀드에서 600만원 벌고 다른 상품에서 200만원 잃어도, 번 600만원에는 세금이 붙고 잃은 200만원은 세금 계산에 반영되지 않습니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">ISA는 계좌 안의 이익과 손실을 전부 합쳐서 순이익 하나만 남긴 뒤, 그 순이익을 기준으로 세제 혜택과 세금을 계산합니다.</span> 예를 들어 펀드에서 500만원 벌고 다른 상품에서 200만원 잃었다면, ISA는 둘을 통산해 300만원을 과세 기준 순이익으로 봅니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손익통산 대상에 국내주식도 포함되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손익통산 대상에 국내주식도 포함되나요</h2>
 
 <p>여기서 자주 헷갈리는 부분이 국내 상장주식입니다. <b>국내 상장주식의 매매차익은 원래 비과세</b>이기 때문에, ISA 안에서 벌었더라도 애초에 세금을 매길 대상이 아니라서 통산 대상 이익에 들어가지 않습니다.</p>
 
@@ -160,7 +160,7 @@ self_check: |
 
 <p>펀드·파생결합증권(ELS·DLS 등)·예금이자처럼 원래 과세 대상인 상품은 이익과 손실 모두 그대로 통산에 반영됩니다. 예외는 국내 상장주식뿐입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손익통산 후 세금은 얼마나 나오나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손익통산 후 세금은 얼마나 나오나요</h2>
 
 <p>통산으로 계산된 순이익에 <b>비과세 한도(일반형 200만원, 서민형·농어민형 400만원)</b>를 먼저 적용하고, 넘는 부분에만 <mark>9.9%(지방소득세 포함) 분리과세</mark>가 붙습니다. 일반 계좌에서 금융소득에 붙는 15.4% 원천징수보다 낮은 세율입니다.</p>
 
@@ -171,7 +171,7 @@ self_check: |
 
 <p>같은 상황을 일반 계좌로 했다면 국내주식 손실은 애초에 반영되지 않아 펀드 이익 500만원 전체에 15.4%가 붙어 세금이 770,000원입니다. ISA 손익통산과 저율 분리과세 덕분에 이 예시에서는 세금이 약 67만원 줄어듭니다(실제 세액은 상품 구성과 시점에 따라 달라집니다).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손실만 났을 때는 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손실만 났을 때는 어떻게 되나요</h2>
 
 <p>반대로 <b>국내주식에서는 이익</b>이 나고 <b>다른 상품에서는 손실</b>이 난 경우를 보겠습니다.</p>
 
@@ -182,7 +182,7 @@ self_check: |
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">순손실이 났다고 해서 그 손실이 다음 해나 다른 계좌로 이월되지는 않습니다.</span> ISA는 계좌 만기 시점에 그 안에서 발생한 손익만 정산하는 구조이기 때문에, 손실은 "세금을 0원으로 만드는 역할"까지만 하고 소멸합니다. 자세한 유형별 납입한도·비과세 한도 구조는 <a href="https://sensitiveboss3.tistory.com/entry/isa-limit-benefit" target="_blank" rel="noopener">이전 글(ISA 계좌 한도와 비과세 혜택)</a>에서 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ISA 손익통산이란 정확히 무엇인가요</summary>

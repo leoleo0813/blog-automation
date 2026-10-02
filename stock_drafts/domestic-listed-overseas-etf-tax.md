@@ -113,16 +113,16 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>국내상장 해외ETF, 왜 세금이 다르게 매겨지나요</li>
-  <li>매매차익은 어떻게 계산하나요</li>
-  <li>분배금은 얼마나 떼나요</li>
-  <li>손익통산이 안 된다는 게 무슨 뜻인가요</li>
-  <li>해외 직접 상장 ETF와 세금이 어떻게 다른가요</li>
-  <li>2025년부터 외국납부세액 공제는 어떻게 바뀌었나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내상장 해외ETF, 왜 세금이 다르게 매겨지나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매매차익은 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금은 얼마나 떼나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">손익통산이 안 된다는 게 무슨 뜻인가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외 직접 상장 ETF와 세금이 어떻게 다른가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2025년부터 외국납부세액 공제는 어떻게 바뀌었나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내상장 해외ETF, 왜 세금이 다르게 매겨지나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내상장 해외ETF, 왜 세금이 다르게 매겨지나요</h2>
 
 <p>같은 국내 증권거래소에 상장된 ETF라도, 담고 있는 자산이 국내주식인지 해외주식·채권·원자재인지에 따라 세법상 분류가 달라집니다. <b>국내주식형 ETF</b>(대부분 국내 시장대표·섹터 ETF)는 국내 개별주식과 형평을 맞춰 매매차익에 세금을 매기지 않습니다.</p>
 
@@ -133,7 +133,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">국내주식형 ETF라도 <b>레버리지·인버스·TR(토탈리턴)·액티브</b> 유형이면 매매차익 비과세 대상에서 빠지고, 국내상장 해외ETF와 동일하게 보유기간과세(배당소득세 15.4%)가 적용됩니다. "국내주식만 담으면 세금이 없다"고 단순하게 판단하면 안 되는 이유입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매매차익은 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매매차익은 어떻게 계산하나요</h2>
 
 <p>국내상장 해외ETF의 매매차익 과세에는 <b>보유기간과세</b>라는 방식이 적용됩니다. 실제로 벌어들인 매매차익 전부에 세금을 매기는 것이 아니라, <b>매수 시점과 매도 시점의 과표기준가격 차이(증가분)와 실제 매매차익 중 더 작은 금액</b>에만 15.4%가 과세됩니다.</p>
 
@@ -144,7 +144,7 @@ self_check: |
 
 <p>과표기준가격은 펀드가 실제로 보유한 자산의 손익을 반영해 매일 산출되는 기준가로, 운용사·증권사 앱에서 종목별로 조회할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분배금은 얼마나 떼나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분배금은 얼마나 떼나요</h2>
 
 <p>분배금(배당)은 계산이 단순합니다. <b>지급 시점에 15.4%가 원천징수</b>되고, 세후 금액이 계좌로 들어옵니다. 매매차익처럼 보유기간과세를 따지지 않고 지급액 전체에 곧바로 세율이 적용됩니다.</p>
 
@@ -155,7 +155,7 @@ self_check: |
 
 <p>매매차익과 분배금을 합친 금융소득이 연 2,000만 원을 넘으면 다른 소득과 합산되는 <a href="https://sensitiveboss3.tistory.com/entry/financial-income-comprehensive-tax" target="_blank" rel="noopener">금융소득종합과세</a> 대상이 될 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손익통산이 안 된다는 게 무슨 뜻인가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">손익통산이 안 된다는 게 무슨 뜻인가요</h2>
 
 <p>국내상장 해외ETF는 배당소득으로 과세되기 때문에, <b>같은 해에 여러 종목을 매도해도 이익과 손실을 서로 상계(손익통산)할 수 없습니다.</b> 이익이 난 종목은 그 이익 전액에 과세되고, 손실이 난 종목의 손실은 세금 계산에 반영되지 않습니다.</p>
 
@@ -164,7 +164,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">같은 해에 ETF A를 팔아 100만 원 이익을, ETF B를 팔아 50만 원 손실을 봤다면, 두 금액을 합쳐 순이익 50만 원으로 계산할 수 없습니다. <mark>이익 100만 원 전액에 15.4%(약 15만 4천 원)가 원천징수</mark>되고, 50만 원 손실은 반영되지 않습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외 직접 상장 ETF와 세금이 어떻게 다른가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외 직접 상장 ETF와 세금이 어떻게 다른가요</h2>
 
 <p>같은 미국 지수를 추종해도, <b>국내 거래소에 상장된 ETF</b>와 <b>미국 거래소에 직접 상장된 ETF</b>를 사는 것은 과세 방식이 전혀 다릅니다. 아래 표로 비교합니다.</p>
 
@@ -207,7 +207,7 @@ self_check: |
 
 <p>개별 해외주식을 직접 매수했을 때의 양도소득세 신고 절차는 <a href="https://sensitiveboss3.tistory.com/entry/overseas-stock-tax-filing" target="_blank" rel="noopener">이전 글(해외주식 양도소득세 신고 방법)</a>에서 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2025년부터 외국납부세액 공제는 어떻게 바뀌었나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2025년부터 외국납부세액 공제는 어떻게 바뀌었나요</h2>
 
 <p>국내상장 해외ETF가 해외 주식에서 배당을 받으면 해외에서도 세금이 원천징수됩니다. 예전에는 이 해외 납부세액을 <b>먼저 돌려받아('선환급') 세전 배당금에 얹은 뒤</b> 국내에서 15.4%를 다시 원천징수했습니다.</p>
 
@@ -218,7 +218,7 @@ self_check: |
   <li>ISA·연금계좌: 각 계좌의 별도 과세체계가 적용돼 처리 방식이 다르며, 향후 세부 규정이 추가로 조정될 수 있습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">국내상장 해외ETF와 국내주식형 ETF는 세금이 왜 다른가요</summary>

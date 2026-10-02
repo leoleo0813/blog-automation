@@ -127,15 +127,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>감가상각비 뜻과 두 가지 계산 방식</li>
-  <li>정액법과 정률법, 5년치를 직접 비교하면</li>
-  <li>감가상각비가 이익을 줄이는데 현금은 왜 안 나가나요</li>
-  <li>설비투자가 많은 업종일수록 나타나는 특징</li>
-  <li>실제 기업이 쓰는 방법은 어디서 확인하나요</li>
-  <li>실무에서 자주 헷갈리는 부분</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감가상각비 뜻과 두 가지 계산 방식</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">정액법과 정률법, 5년치를 직접 비교하면</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감가상각비가 이익을 줄이는데 현금은 왜 안 나가나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">설비투자가 많은 업종일수록 나타나는 특징</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 기업이 쓰는 방법은 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실무에서 자주 헷갈리는 부분</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">감가상각비 뜻과 두 가지 계산 방식</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">감가상각비 뜻과 두 가지 계산 방식</h2>
 
 <p>감가상각비는 건물·기계장치 같은 유형자산을 사용하면서 줄어드는 가치를 내용연수 동안 나눠 비용으로 인식하는 회계 처리입니다. 이 방식은 <a href="https://www.kasb.or.kr/" target="_blank" rel="noopener">한국회계기준원</a>이 관장하는 K-IFRS 제1016호(유형자산) 등 회계기준을 따릅니다.</p>
 
@@ -146,7 +146,7 @@ self_check: |
 
 <p>정액법은 매년 똑같은 금액을 상각해 단순하고, 정률법은 초반에 더 많이 상각하고 갈수록 금액이 줄어듭니다. 실제로 숫자를 넣어보면 두 방식의 차이가 뚜렷하게 드러납니다.</p>
 
-<h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">정액법과 정률법, 5년치를 직접 비교하면</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">정액법과 정률법, 5년치를 직접 비교하면</h2>
 
 <p>취득원가 1억원, 잔존가치 1,000만원(취득원가의 10%), 내용연수 5년인 기계장치를 예로 계산해보겠습니다. 정액법 상각비는 (10,000만원-1,000만원)÷5년 = <mark>매년 1,800만원</mark>으로 고정됩니다.</p>
 
@@ -213,7 +213,7 @@ self_check: |
 
 <p>1년 차 상각비만 보면 정률법(3,690만원)이 정액법(1,800만원)의 두 배가 넘습니다. 반면 5년을 합치면 두 방식 모두 <mark>9,000만원</mark>으로 똑같습니다. 총 비용은 같고 시기만 다르다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">감가상각비가 이익을 줄이는데 현금은 왜 안 나가나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">감가상각비가 이익을 줄이는데 현금은 왜 안 나가나요</h2>
 
 <p>감가상각비는 손익계산서에서 비용으로 잡혀 영업이익과 당기순이익을 줄이지만, 그해에 실제로 현금이 빠져나가는 것은 아닙니다. 자산을 살 때 이미 목돈이 나갔고, 감가상각비는 그 지출을 이후 여러 해에 걸쳐 장부에 나눠 반영하는 절차이기 때문입니다.</p>
 
@@ -224,7 +224,7 @@ self_check: |
   <li>이 차이를 보여주는 대표적인 지표가 EBITDA(이자·세금·감가상각비 차감 전 영업이익)입니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">설비투자가 많은 업종일수록 나타나는 특징</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">설비투자가 많은 업종일수록 나타나는 특징</h2>
 
 <p>반도체·조선·항공처럼 설비에 큰 돈을 투자하는 업종은 감가상각비 규모도 커서, 당기순이익과 영업활동현금흐름의 차이가 눈에 띄게 벌어지는 경우가 많습니다.</p>
 
@@ -240,7 +240,7 @@ self_check: |
   <p style="margin:6px 0 0 0;">감가상각 방법을 바꾸면 매년 비용이 잡히는 시점이 달라져 이익 흐름이 바뀝니다. 하지만 총 상각액과 기업이 실제로 쓴 현금의 총량은 달라지지 않습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">실제 기업이 쓰는 방법은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">실제 기업이 쓰는 방법은 어디서 확인하나요</h2>
 
 <p>특정 기업이 정액법을 쓰는지 정률법을 쓰는지는 <a href="https://dart.fss.or.kr/" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART)</a>에서 확인할 수 있습니다. 기업명을 검색해 최근 사업보고서를 열고, 재무제표 주석 중 유형자산 항목을 보면 상각 방법이 명시되어 있습니다.</p>
 
@@ -250,7 +250,7 @@ self_check: |
   <li>상각 방법과 내용연수가 함께 명시되어 있는지 확인</li>
 </ul>
 
-<h2 style="border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">실무에서 자주 헷갈리는 부분</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1565c0;padding-left:12px;margin-top:36px;">실무에서 자주 헷갈리는 부분</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">감가상각비는 실제로 돈이 나가는 비용인가요</summary>

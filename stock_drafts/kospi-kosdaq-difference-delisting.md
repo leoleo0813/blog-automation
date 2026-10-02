@@ -101,20 +101,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>코스피와 코스닥은 뭐가 다른가요</li>
-  <li>상장요건은 얼마나 차이 나나요</li>
-  <li>2026년 상장폐지 요건이 왜 강화됐나요</li>
-  <li>구체적으로 뭐가 바뀌었나요</li>
-  <li>내 종목이 위험한지 어떻게 확인하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">코스피와 코스닥은 뭐가 다른가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장요건은 얼마나 차이 나나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 상장폐지 요건이 왜 강화됐나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">구체적으로 뭐가 바뀌었나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">내 종목이 위험한지 어떻게 확인하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피와 코스닥은 뭐가 다른가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피와 코스닥은 뭐가 다른가요</h2>
 
 <p><b>코스피(유가증권시장)</b>는 한국을 대표하는 본시장으로, 시가총액이 크고 실적이 안정적인 대형·우량 기업이 주로 상장돼 있습니다. <b>코스닥</b>은 IT·바이오·콘텐츠 등 기술력과 성장성을 갖춘 중소·중견기업 중심의 시장입니다.</p>
 
 <p>코스피는 배당과 안정성을, 코스닥은 성장 스토리를 중시한다고 보면 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장요건은 얼마나 차이 나나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장요건은 얼마나 차이 나나요</h2>
 
 <p>코스피 상장을 위해서는 <mark>자기자본 300억원 이상, 상장예정주식수 100만주 이상, 최근 매출액 1,000억원 및 3년 평균 매출액 700억원 이상</mark> 등의 요건을 충족해야 합니다.</p>
 
@@ -122,11 +122,11 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 한국거래소·찾기쉬운 생활법령정보(<a href="https://easylaw.go.kr" target="_blank" rel="noopener">easylaw.go.kr</a>) 및 언론 보도 교차 확인(2026-09-12).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 상장폐지 요건이 왜 강화됐나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 상장폐지 요건이 왜 강화됐나요</h2>
 
 <p>금융위원회와 한국거래소는 2026년 2월 12일 <mark>「부실기업 신속·엄정 퇴출을 위한 상장폐지 개혁 방안」</mark>을 발표했습니다. 부실 기업이 관리종목·상장폐지 절차를 오래 버티면서 개인투자자 피해가 커진다는 문제의식에서, 퇴출 기준을 더 엄격하고 빠르게 적용하도록 바꾼 것입니다. 코스닥에 먼저 <b>2026년 7월 1일부터</b> 시행됐고, 같은 4대 기준 강화가 코스피에도 동일하게 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">구체적으로 뭐가 바뀌었나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">구체적으로 뭐가 바뀌었나요</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
@@ -147,7 +147,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 금융위원회·한국거래소 「부실기업 신속·엄정 퇴출을 위한 상장폐지 개혁 방안」(2026-02-12 발표) 관련 보도 및 법무법인 자료 교차 확인(2026-09-12). fsc.go.kr 원문 직접 접속은 이번 세션에서 차단돼 복수 독립 출처로 대체.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">내 종목이 위험한지 어떻게 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">내 종목이 위험한지 어떻게 확인하나요</h2>
 
 <p>보유 종목이 관리종목으로 지정되면 <mark>한국거래소 상장공시시스템(KIND)이나 증권사 앱의 공시 알림</mark>에서 즉시 확인할 수 있습니다. 시가총액·매출액·주가가 기준에 근접한 종목은 분기 실적 발표 때마다 체크해두는 것이 안전합니다.</p>
 

@@ -118,21 +118,21 @@ source_conflict_resolved: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>공매도 과열종목 지정이란 무엇인가요</li>
-  <li>왜 이런 제도가 필요한가요</li>
-  <li>지정되면 어떤 효과가 있나요</li>
-  <li>정확히 어떤 기준으로 지정되나요</li>
-  <li>지정 여부는 어디서 확인하나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공매도 과열종목 지정이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 이런 제도가 필요한가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지정되면 어떤 효과가 있나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">정확히 어떤 기준으로 지정되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지정 여부는 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공매도 과열종목 지정이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공매도 과열종목 지정이란 무엇인가요</h2>
 
 <p>공매도 과열종목 지정제도는 <mark>공매도 거래가 비정상적으로 급증하고 주가가 크게 떨어진 종목을 한국거래소가 골라 공개하는 시장경보제도</mark>입니다. 2016년 11월 10일 금융위원회가 신설했습니다.</p>
 
 <p>이름이 비슷한 "관리종목"이나 "투자경고종목"과는 다른 별개의 제도로, 오직 <b>공매도 쏠림 현상</b>만을 근거로 지정됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 이런 제도가 필요한가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 이런 제도가 필요한가요</h2>
 
 <p>공매도 자체는 합법적인 투자 기법이지만, 특정 종목에 공매도가 짧은 시간에 몰리면 <mark>주가 하락을 가속시키는 요인</mark>이 될 수 있습니다.</p>
 
@@ -141,7 +141,7 @@ source_conflict_resolved: |
   <p style="margin:8px 0 0 0;">공매도 과열종목 지정은 해당 기업이나 투자자의 위법 행위를 처벌하는 것이 아닙니다. "공매도가 비정상적으로 몰리고 있다"는 사실을 시장에 알려, 투자자가 냉정하게 상황을 판단할 시간을 벌어주는 취지입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지정되면 어떤 효과가 있나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지정되면 어떤 효과가 있나요</h2>
 
 <p>공매도 과열종목으로 지정되면 <mark>지정된 날의 다음 거래일 하루 동안 해당 종목의 공매도 주문이 자동으로 금지</mark>됩니다. 별도의 신청이나 처분 절차 없이 시스템으로 즉시 적용됩니다.</p>
 
@@ -153,7 +153,7 @@ source_conflict_resolved: |
 
 <p>제도 효과에 대한 평가는 엇갈립니다. 지정 이후 해당 종목의 주가 하락 폭이 줄었다는 분석이 있는 반면, 공매도는 원래 장기간에 걸쳐 이뤄지는 경우가 많아 <mark>하루짜리 금지로는 전체 흐름에 큰 영향을 주기 어렵다</mark>는 지적도 함께 나옵니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">정확히 어떤 기준으로 지정되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">정확히 어떤 기준으로 지정되나요</h2>
 
 <p>지정 기준은 <mark>주가 하락률·공매도 비중·공매도 거래대금 증가배율</mark>을 조합한 4가지 유형(①~④)으로 나뉘고, 시장마다 적용되는 유형이 다릅니다. 한 종목이 유형을 하나라도 충족하면 지정됩니다.</p>
 
@@ -210,7 +210,7 @@ source_conflict_resolved: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지정 여부는 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지정 여부는 어디서 확인하나요</h2>
 
 <p>공매도 과열종목 지정 여부와 지정 기준은 <mark><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a></mark>에서 누구나 무료로 확인할 수 있습니다.</p>
 
@@ -233,7 +233,7 @@ source_conflict_resolved: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">공매도 과열종목 지정이 뭔가요</summary>

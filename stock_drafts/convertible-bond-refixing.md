@@ -142,22 +142,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>전환사채가 뭔가요</li>
-  <li>전환가액과 전환청구권의 관계</li>
-  <li>리픽싱과 최저한도 70%</li>
-  <li>2024년 개정으로 달라진 점</li>
-  <li>콜옵션 조항, 놓치기 쉬운 부분</li>
-  <li>발행공시에서 확인하는 법</li>
-  <li>이런 점도 자주 묻습니다</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">전환사채가 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">전환가액과 전환청구권의 관계</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리픽싱과 최저한도 70%</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2024년 개정으로 달라진 점</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">콜옵션 조항, 놓치기 쉬운 부분</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">발행공시에서 확인하는 법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이런 점도 자주 묻습니다</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">전환사채가 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">전환사채가 뭔가요</h2>
 
 <p>전환사채는 회사가 돈을 빌리며 발행하는 채권이지만, 일정 기간 안에 정해진 조건으로 그 회사의 주식으로 바꿀 수 있는 권리(전환권)가 함께 붙어 있습니다. 영어 표기 Convertible Bond를 줄여 CB라고도 부릅니다.</p>
 
 <p>투자자 입장에서는 주가가 오르면 전환청구를 해서 주식으로 이익을 실현하고, 주가가 기대만큼 오르지 않으면 그냥 채권으로 들고 있다가 만기에 원금과 이자를 받으면 됩니다. 회사 입장에서는 일반 회사채보다 낮은 금리로 자금을 조달할 수 있는 대신, 전환이 이뤄지면 기존 주주의 지분이 그만큼 희석됩니다.</p>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">전환가액과 전환청구권의 관계</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">전환가액과 전환청구권의 관계</h2>
 
 <p>전환가액은 사채를 주식 몇 주로 바꿔줄지 정하는 기준 가격입니다. 전환주식수는 사채 금액을 전환가액으로 나눈 값입니다.</p>
 
@@ -168,7 +168,7 @@ self_check: |
   <li>상장회사가 발행한 CB라면, 전환으로 새로 생기는 주식은 한국예탁결제원을 통해 예탁·발행됩니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">리픽싱과 최저한도 70%</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">리픽싱과 최저한도 70%</h2>
 
 <p>리픽싱은 주가가 하락했을 때 전환가액을 낮춰 조정해 주는 조항입니다. 전환가액이 낮아지면 같은 사채로 받을 수 있는 주식 수가 늘어나 채권자(투자자)에게 유리해집니다.</p>
 
@@ -193,7 +193,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">2024년 개정으로 달라진 점</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">2024년 개정으로 달라진 점</h2>
 
 <p>2024년 12월 1일부터 시행된 「증권의 발행 및 공시 등에 관한 규정」 개정으로 리픽싱 관련 조건이 더 까다로워졌습니다. 경영정상화가 불가피한 경우에 한해 70% 밑으로 조정하는 예외를 허용해 온 것은 그대로지만, 그 예외를 적용받는 방법이 바뀌었습니다.</p>
 
@@ -226,7 +226,7 @@ self_check: |
 
 <p>정관을 근거로 한 예외가 사라졌기 때문에, 지금은 어떤 회사가 CB의 전환가액을 70% 밑으로 낮추려면 그때마다 주주총회에서 특별결의를 받아야 합니다. 그 결정 과정 자체가 공시로 남으니, 투자자는 이 절차를 거쳤는지를 확인 지표로 삼을 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">콜옵션 조항, 놓치기 쉬운 부분</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">콜옵션 조항, 놓치기 쉬운 부분</h2>
 
 <p>콜옵션은 발행회사나 특정인이 유통 중인 전환사채를 정해진 조건에 되사올 수 있는 권리입니다. 최대주주가 콜옵션을 확보해 두면, 나중에 전환사채를 되사들여 경영권 방어나 지분 확대에 쓸 수 있습니다.</p>
 
@@ -235,7 +235,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">2024년 개정 이후로는 콜옵션 행사자를 지정하거나 제3자에게 양도한 경우, 그 대가를 받았는지와 구체적인 금액까지 주요사항보고서로 공시해야 합니다. 콜옵션이 있다는 사실만으로는 좋고 나쁨을 판단하기 어렵고, 실제 공시 내용을 확인하는 것이 중요합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">발행공시에서 확인하는 법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">발행공시에서 확인하는 법</h2>
 
 <p>전환가액, 리픽싱 조항, 콜옵션 조항은 모두 회사가 CB를 발행할 때 내는 공시에 담겨 있습니다. 다음 순서로 직접 확인할 수 있습니다.</p>
 
@@ -246,7 +246,7 @@ self_check: |
   <li>이후 전환가액이 조정됐다면 "전환가액의 조정" 관련 정정·발행 후 공시가 별도로 올라오므로 함께 확인합니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">이런 점도 자주 묻습니다</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">이런 점도 자주 묻습니다</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">전환사채(CB)와 신주인수권부사채(BW)는 뭐가 다른가요</summary>

@@ -71,15 +71,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>PER이 다른 가상 기업 3곳으로 PEG 비교하기</li>
-  <li>PEG 뜻과 계산 공식</li>
-  <li>PEG 수치를 읽는 기준</li>
-  <li>성장률 가정에 따라 PEG가 얼마나 달라지나요</li>
-  <li>PEG가 잘 맞지 않는 경우</li>
-  <li>PEG를 볼 때 자주 걸리는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PER이 다른 가상 기업 3곳으로 PEG 비교하기</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PEG 뜻과 계산 공식</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PEG 수치를 읽는 기준</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">성장률 가정에 따라 PEG가 얼마나 달라지나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PEG가 잘 맞지 않는 경우</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PEG를 볼 때 자주 걸리는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PER이 다른 가상 기업 3곳으로 PEG 비교하기</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PER이 다른 가상 기업 3곳으로 PEG 비교하기</h2>
 
 <p>PER 순서와 PEG 순서는 서로 다를 수 있습니다. 아래는 이해를 돕기 위해 만든 가상의 기업 A, B, C입니다. 실제 종목이 아닙니다.</p>
 
@@ -103,7 +103,7 @@ self_check: |
 
 <p>반대로 A는 PER이 30배로 가장 높지만, 성장률이 30%여서 PEG는 1.0입니다. PEG는 "이 PER을 성장 속도가 얼마나 받쳐주는가"를 보는 지표입니다.</p>
 
-<h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG 뜻과 계산 공식</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG 뜻과 계산 공식</h2>
 
 <p>PEG(Price/Earnings-to-Growth ratio, 주가이익성장비율)는 PER을 EPS 증가율로 나눈 값입니다. 미국 투자자 피터 린치가 널리 알린 지표로, PER이 기업의 성장성을 반영하지 못하는 약점을 보완하려는 목적입니다.</p>
 
@@ -124,7 +124,7 @@ self_check: |
   <li>이 기업의 PER이 20배라면 PEG는 20 ÷ 14.5 = <mark>약 1.38</mark>입니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG 수치를 읽는 기준</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG 수치를 읽는 기준</h2>
 
 <p>가장 널리 쓰이는 해석은 PEG 1을 기준선으로 보는 방식입니다. 1보다 낮으면 성장에 비해 PER이 낮은 편, 1보다 높으면 성장에 비해 PER이 높은 편으로 읽습니다.</p>
 
@@ -147,7 +147,7 @@ self_check: |
 
 <p>이 표는 지표를 읽는 방법일 뿐 매수·매도 신호가 아닙니다. 어느 기준을 따를지는 읽는 사람이 정합니다.</p>
 
-<h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">성장률 가정에 따라 PEG가 얼마나 달라지나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">성장률 가정에 따라 PEG가 얼마나 달라지나요</h2>
 
 <p>PEG의 분모는 사람이 고르는 숫자라서, 같은 PER도 성장률 가정에 따라 값이 달라집니다. 성장률로는 최근 3년 EPS 연평균 증가율(과거 기준)을 쓰기도 하고, 향후 2~3년 예상 EPS 증가율(증권사 전망 기준)을 쓰기도 합니다.</p>
 
@@ -175,7 +175,7 @@ self_check: |
 
 <p>그런데 3년 전 1,000원에서 올해 1,000원이라 3년 연평균 증가율은 0%입니다. 같은 기업이 어느 기간을 잡느냐에 따라 저평가처럼도, 계산 불가처럼도 보입니다.</p>
 
-<h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG가 잘 맞지 않는 경우</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG가 잘 맞지 않는 경우</h2>
 
 <p>이익이 줄거나 적자인 기업에는 PEG를 그대로 쓸 수 없습니다. 증가율이 음수면 PEG도 음수가 되고, 음수 PEG는 "싸다"는 뜻이 아닙니다.</p>
 
@@ -188,7 +188,7 @@ self_check: |
 
 <p>PEG는 PER 하나만 볼 때의 빈틈을 채우는 보조 지표입니다. 부채 수준, 현금흐름, 업종 특성 같은 다른 정보를 대신해 주지 않으므로 여러 지표 중 하나로 읽는 편이 안전합니다.</p>
 
-<h2 style="border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG를 볼 때 자주 걸리는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #6a3fa0;padding-left:12px;margin-top:36px;">PEG를 볼 때 자주 걸리는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">PEG가 1보다 낮으면 무조건 사도 되나요</summary>

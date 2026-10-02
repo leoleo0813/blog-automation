@@ -93,6 +93,16 @@ def lint(path, series):
     if '이 글은' in intro:
         fails.append("인트로에 '이 글은 ~' 메타 문장")
 
+    # 목차 항목은 전부 본문 H2로 이동하는 링크여야 한다(toc_anchors.py로 만든다).
+    toc = re.search(r'<h2[^>]*>\s*목차\s*</h2>\s*<ol[^>]*>(.*?)</ol>', html, re.S)
+    if toc:
+        ids = set(re.findall(r'<h2[^>]*\bid="([^"]+)"', html))
+        items = re.findall(r'<li[^>]*>(.*?)</li>', toc.group(1), re.S)
+        unlinked = [re.sub(r'<[^>]+>', '', i).strip() for i in items
+                    if not (m := re.search(r'<a href="#([^"]+)"', i)) or m.group(1) not in ids]
+        if unlinked:
+            fails.append(f"목차 링크 없음/대상 없음 {len(unlinked)}개(python -m blog_automation.toc_anchors 실행): {unlinked[:2]}")
+
     due = fm.get('refresh_due')
     if due is not None and not isinstance(due, datetime.date):
         fails.append(f"refresh_due 형식 오류(YYYY-MM-DD): {due}")

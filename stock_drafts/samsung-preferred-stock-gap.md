@@ -138,20 +138,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>삼성전자우 뜻</li>
-  <li>가격이 실제로 얼마나 다른가요</li>
-  <li>배당은 실제로 얼마나 차이나나요</li>
-  <li>가격 차이가 생기는 이유</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">삼성전자우 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가격이 실제로 얼마나 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당은 실제로 얼마나 차이나나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가격 차이가 생기는 이유</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">삼성전자우 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">삼성전자우 뜻</h2>
 
 <p>삼성전자우는 삼성전자가 발행한 <b>우선주</b>입니다. 종목명 끝에 붙는 "우"는 우선주라는 표시로, 의결권이 없는 대신 배당 등 재산적 이익에서 우선권을 주는 주식 종류입니다. 우선주 자체의 개념, 보통주와의 차이, 종목명 표기 규칙(우·우B·2우B)은 이미 정리해 둔 <a href="https://sensitiveboss3.tistory.com/entry/preferred-stock-code-meaning">우선주 뜻과 2우B 표기 확인법</a> 편에서 자세히 다룹니다.</p>
 
 <p>이 글은 그 개념을 전제로, <b>국내에서 가장 많이 검색되는 우선주</b>인 삼성전자우를 실제 사례로 삼아 "삼성전자와 얼마나 다른가"에 구체적인 수치로 답합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">가격이 실제로 얼마나 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">가격이 실제로 얼마나 다른가요</h2>
 
 <p>2026년 9월 23일 기준, 삼성전자(005930)는 <b>282,500원</b>, 삼성전자우(005935)는 <b>218,500원</b>에 거래됐습니다. 두 종목의 가격 차이는 64,000원으로, 삼성전자우가 삼성전자보다 <mark>약 22.7% 낮게</mark> 거래되고 있는 셈입니다. 이 차이를 괴리율이라고 부르며, 괴리율을 계산하고 해석하는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/preferred-stock-code-meaning">우선주 뜻과 2우B 표기 확인법</a> 편에서 자세히 다룹니다.</p>
 
@@ -178,7 +178,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">이 가격은 2026년 9월 23일 특정 시점의 스냅샷입니다. 주가는 매일 바뀌므로, 지금 정확한 숫자가 궁금하다면 네이버페이 증권이나 한국거래소 정보데이터시스템에서 실시간으로 다시 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당은 실제로 얼마나 차이나나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당은 실제로 얼마나 차이나나요</h2>
 
 <p>2026년 9월 23일 기준 주당배당금은 삼성전자 1,668원, 삼성전자우 1,669원으로 <b>정확히 1원</b> 차이입니다. 배당금 자체는 거의 같지만, 가격은 삼성전자우가 훨씬 낮기 때문에 배당수익률로 계산하면 삼성전자 0.59%, 삼성전자우 0.77%로 우선주 쪽이 눈에 띄게 높게 나옵니다.</p>
 
@@ -206,13 +206,13 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">배당금·배당수익률도 2026년 9월 23일 스냅샷입니다. 배당수익률은 가격이 바뀌면 함께 바뀌므로, 최신 수치는 증권사 앱의 배당 탭에서 다시 확인하시기 바랍니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">가격 차이가 생기는 이유</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">가격 차이가 생기는 이유</h2>
 
 <p>가장 큰 이유는 <mark>의결권이 없다는 점과 유통 주식 수가 적다는 점</mark>입니다. 주주총회에서 투표권을 행사하고 싶은 투자자, 기관투자자, 대주주 입장에서는 의결권이 있는 보통주를 선호하는 경향이 있어 상대적으로 수요가 많습니다. 반면 우선주는 발행 주식 수 자체가 적어 적은 매매에도 가격이 더 크게 움직이는 경향이 있습니다.</p>
 
 <p>삼성전자의 경우 그 결과가 숫자로 뚜렷하게 나타납니다. 가격은 22.7% 낮은데 배당금은 딱 1원밖에 차이 나지 않다 보니, 배당수익률로 계산하면 삼성전자우(0.77%)가 삼성전자(0.59%)보다 눈에 띄게 높게 나옵니다. 정확한 이유와 괴리율을 확인하는 절차는 <a href="https://sensitiveboss3.tistory.com/entry/preferred-stock-code-meaning">우선주 뜻과 2우B 표기 확인법</a> 편에서 더 자세히 다룹니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">삼성전자우도 삼성전자 주주총회에 참여할 수 있나요</summary>

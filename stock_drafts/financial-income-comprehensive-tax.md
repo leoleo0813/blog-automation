@@ -95,14 +95,14 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>금융소득종합과세는 무엇인가요</li>
-  <li>2,000만원 기준은 어떻게 계산하나요</li>
-  <li>2,000만원 넘으면 세금이 어떻게 달라지나요</li>
-  <li>배우자 소득도 합산되나요</li>
-  <li>종합소득세 신고는 어떻게 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금융소득종합과세는 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2,000만원 기준은 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2,000만원 넘으면 세금이 어떻게 달라지나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배우자 소득도 합산되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">종합소득세 신고는 어떻게 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">금융소득종합과세는 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">금융소득종합과세는 무엇인가요</h2>
 
 <p>금융소득종합과세는 <b>이자소득과 배당소득을 합친 금액이 연 2,000만원을 넘을 때</b> 적용되는 제도입니다. 예금·적금 이자, 채권 이자와 할인액, 주식 배당금, 펀드 분배금이 모두 합산 대상에 포함됩니다.</p>
 
@@ -113,7 +113,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">출처: <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 공식 책자 「2024년 해외주식과 세금(개인투자자용)」(2024년 5월 발간) · <a href="https://easylaw.go.kr" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a>(2026-08-15 기준).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 기준은 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 기준은 어떻게 계산하나요</h2>
 
 <p>본인의 금융소득만 아래 순서로 더해보면 종합과세 대상인지 바로 확인할 수 있습니다.</p>
 
@@ -129,7 +129,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">국내 상장주식을 팔아서 생긴 <b>양도차익</b>은 대주주가 아니면 애초에 과세 대상이 아니므로 이 2,000만원 합산에 포함되지 않습니다. 합산되는 것은 배당금과 이자뿐입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 넘으면 세금이 어떻게 달라지나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2,000만원 넘으면 세금이 어떻게 달라지나요</h2>
 
 <p>2,000만원을 넘었다고 <mark>전체 금액에 누진세율이 붙는 것은 아닙니다.</mark> 2,000만원까지는 그대로 15.4% 원천징수로 계산되고, <b>넘는 부분만</b> 다른 소득(근로소득·사업소득 등)과 합산되어 종합소득세율로 다시 계산됩니다.</p>
 
@@ -207,11 +207,11 @@ self_check: |
 
 <p>세무서에서 받은 금융자료와 금융회사에서 받은 자료의 숫자가 다를 때가 있습니다. 국세청은 <mark>금융회사에서 제공받은 자료를 기준으로 신고</mark>하라고 안내합니다. 금융회사가 이자·배당소득지급명세서를 제출하지 않았거나 중복·오류 자료를 제출한 경우, 세무서가 제공한 자료가 사실과 다를 수 있기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배우자 소득도 합산되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배우자 소득도 합산되나요</h2>
 
 <p>아닙니다. 금융소득종합과세는 <mark>본인 명의의 소득만 합산</mark>합니다. 배우자나 다른 가족 명의의 예금·주식에서 나온 이자·배당소득은 본인의 2,000만원 기준에 포함되지 않습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종합소득세 신고는 어떻게 하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종합소득세 신고는 어떻게 하나요</h2>
 
 <p>금융소득이 2,000만원을 넘은 해가 있다면, <b>다음 해 5월 1일부터 31일까지</b> <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 종합소득세 확정신고를 해야 합니다.</p>
 

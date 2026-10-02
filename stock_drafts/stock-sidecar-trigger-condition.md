@@ -91,21 +91,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>사이드카란 무엇인가요</li>
-  <li>사이드카는 언제 발동되나요</li>
-  <li>사이드카와 서킷브레이커는 어떻게 다른가요</li>
-  <li>2026년 사이드카는 왜 이렇게 자주 발동됐나요</li>
-  <li>사이드카가 발동되면 내 주문은 어떻게 되나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사이드카란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사이드카는 언제 발동되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사이드카와 서킷브레이커는 어떻게 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 사이드카는 왜 이렇게 자주 발동됐나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사이드카가 발동되면 내 주문은 어떻게 되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카란 무엇인가요</h2>
 
 <p>사이드카(Sidecar)는 정식 명칭이 <b>프로그램매매호가 관리제도</b>로, 선물시장의 급격한 변동이 그대로 현물시장(주식시장)으로 번지는 것을 막기 위한 안전장치입니다. 한국거래소 유가증권시장업무규정 제16조에 근거를 둡니다.</p>
 
 <p>선물가격이 짧은 시간에 크게 움직이면, 이를 좇아 대량으로 실행되는 프로그램매매 주문이 현물시장을 더 크게 흔들 수 있습니다. 사이드카는 이럴 때 <mark>프로그램매매 호가의 효력만 5분간 정지</mark>시켜 시장이 숨 고를 시간을 줍니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카는 언제 발동되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카는 언제 발동되나요</h2>
 
 <p>코스피와 코스닥은 발동 요건이 다릅니다. 둘 다 <mark>기준가 대비 일정 비율 이상 등락한 상태가 1분간 지속</mark>돼야 발동됩니다.</p>
 
@@ -138,7 +138,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">사이드카는 <b>하루 1회만</b> 발동할 수 있고, 정규시장 개시 후 5분간과 장 종료 40분 전 이후에는 발동하지 않습니다. 발동되면 5분 뒤 자동으로 해제됩니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카와 서킷브레이커는 어떻게 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카와 서킷브레이커는 어떻게 다른가요</h2>
 
 <p>이름과 상황이 비슷해 헷갈리기 쉽지만, 둘은 <mark>정지되는 범위와 발동 방향이 전혀 다릅니다.</mark></p>
 
@@ -179,7 +179,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 사이드카는 왜 이렇게 자주 발동됐나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 사이드카는 왜 이렇게 자주 발동됐나요</h2>
 
 <p>2026년은 사이드카 발동 빈도가 <mark>예년과 비교해 이례적으로 잦았다</mark>는 보도가 이어졌습니다. 언론 보도에 따르면 7월 16일 기준 코스피에서만 37회, 코스닥을 포함한 전체로는 57회 발동됐습니다.</p>
 
@@ -190,13 +190,13 @@ self_check: |
   <p style="margin:8px 0 0 0;">사이드카 발동 횟수는 매일 누적되는 수치라, 이 글에 적은 숫자는 <mark>2026년 7월 16일 기준</mark>입니다. 최신 발동 현황은 거래 중인 증권사 홈트레이딩시스템(HTS)이나 시장정보 화면에서 그날그날 확인하는 것이 정확합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카가 발동되면 내 주문은 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사이드카가 발동되면 내 주문은 어떻게 되나요</h2>
 
 <p>사이드카가 발동돼도 <mark>일반 개인 투자자의 매수·매도 주문은 그대로 체결</mark>됩니다. 정지되는 것은 컴퓨터 프로그램이 자동으로 대량 실행하는 프로그램매매 호가뿐입니다.</p>
 
 <p>따라서 사이드카 발동 소식을 봤다고 해서 직접 낸 주문이 취소되거나 막히지는 않습니다. 다만 시장 변동성이 커진 국면이라는 신호이므로, 주문 전에 호가창과 체결 상황을 한 번 더 확인하는 편이 좋습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">사이드카란 무엇인가요</summary>

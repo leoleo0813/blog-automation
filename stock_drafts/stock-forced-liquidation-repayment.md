@@ -92,15 +92,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>반대매매란 무엇인가요</li>
-  <li>미수거래는 언제 반대매매되나요</li>
-  <li>신용거래 반대매매 기준은 무엇인가요</li>
-  <li>실제로 얼마나 떨어져야 반대매매되나요</li>
-  <li>반대매매를 피하려면 언제까지 뭘 해야 하나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">반대매매란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">미수거래는 언제 반대매매되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신용거래 반대매매 기준은 무엇인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 떨어져야 반대매매되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">반대매매를 피하려면 언제까지 뭘 해야 하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">반대매매란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">반대매매란 무엇인가요</h2>
 
 <p>반대매매(反對賣買)는 투자자가 증권사에서 빌린 돈이나 부족한 담보를 <mark>정해진 기한까지 채우지 못했을 때</mark>, 증권사가 투자자의 동의 없이 해당 주식을 강제로 파는 제도입니다.</p>
 
@@ -111,7 +111,7 @@ self_check: |
   <li><b>주식담보대출</b>: 보유 중인 주식을 담보로 현금을 빌리는 방식</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">미수거래는 언제 반대매매되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">미수거래는 언제 반대매매되나요</h2>
 
 <p>미수거래로 산 주식은 <mark>매매일을 포함해 3거래일째(T+2)</mark>까지 미수금(증거금을 낸 나머지 금액)을 갚지 못하면 반대매매됩니다.</p>
 
@@ -122,7 +122,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">미수금을 못 갚아 반대매매가 나오면 그다음 날부터 <b>30일간 위탁증거금을 현금으로 100%</b> 내야 하는 '미수동결계좌'로 지정됩니다. 이 기간에는 미수거래 자체가 불가능합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신용거래 반대매매 기준은 무엇인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신용거래 반대매매 기준은 무엇인가요</h2>
 
 <p>신용거래(융자)는 계좌의 <mark>담보유지비율이 최소 140%</mark> 아래로 떨어지면 반대매매 대상이 됩니다. 담보유지비율은 증권사별로 140~160% 사이에서 다르게 정합니다.</p>
 
@@ -155,7 +155,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 떨어져야 반대매매되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 떨어져야 반대매매되나요</h2>
 
 <p>신용거래로 자기 돈(담보) 400만원에 신용융자금 600만원을 더해 총 1,000만원어치 주식을 샀다고 가정해봅니다. 담보유지비율 140% 기준을 적용하면, 융자금 600만원의 140%인 <mark>840만원</mark> 이상의 평가금액을 계속 유지해야 합니다.</p>
 
@@ -163,7 +163,7 @@ self_check: |
 
 <p>이 하락 허용폭은 자기 돈(담보) 비율이 클수록 커집니다. 반대로 신용융자 비중이 높을수록 더 적은 하락에도 반대매매 위험이 커집니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">반대매매를 피하려면 언제까지 뭘 해야 하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">반대매매를 피하려면 언제까지 뭘 해야 하나요</h2>
 
 <p>담보가 부족해지면 증권사는 보통 <mark>다음 영업일(D+1)까지 추가담보 납입을 요구</mark>하고, 이때까지 채우지 못하면 그다음 영업일(D+2) 아침 반대매매가 실행됩니다.</p>
 
@@ -174,7 +174,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">증권사 시스템은 통상 반대매매 실행일 아침 일찍 반대매매 수량을 계산해 거래소에 주문을 보냅니다. 그 이전에 부족 금액을 입금하면 반대매매를 취소할 수 있는 경우가 많지만, 정확한 마감 시각은 증권사마다 다르므로 거래 중인 증권사 고객센터나 공지로 미리 확인해야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">반대매매란 무엇인가요</summary>

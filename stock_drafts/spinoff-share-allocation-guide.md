@@ -118,21 +118,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>인적분할 뜻과 물적분할 차이</li>
-  <li>인적분할하면 신주는 어떻게 배정되나요</li>
-  <li>인적분할 주식 취득가액 계산법</li>
-  <li>인적분할 주식 세금 내는 시점</li>
-  <li>2024년 자사주 신주배정 금지 규정</li>
-  <li>헷갈리기 쉬운 부분 정리</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">인적분할 뜻과 물적분할 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">인적분할하면 신주는 어떻게 배정되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">인적분할 주식 취득가액 계산법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">인적분할 주식 세금 내는 시점</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2024년 자사주 신주배정 금지 규정</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리기 쉬운 부분 정리</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할 뜻과 물적분할 차이</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할 뜻과 물적분할 차이</h2>
 
 <p>인적분할은 회사를 둘로 나누면서 신설회사 주식을 기존 주주에게 보유 지분율대로 직접 배정하는 방식입니다. 분할 전 회사와 분할 후 두 회사의 주주 구성이 동일하게 유지되는 "형제 회사" 구조가 됩니다.</p>
 
 <p>물적분할은 이와 달리 신설회사 주식 전부를 모회사가 갖습니다. 주주 입장에서는 신설회사 주식을 직접 받지 못하고, 모회사를 통해 간접적으로만 지분을 보유하게 됩니다. 두 방식의 지배구조·소수주주 보호 장치에 대한 자세한 비교는 이미 <a href="https://sensitiveboss3.tistory.com/entry/spinoff-vs-carveout-difference" target="_blank" rel="noopener">물적분할 뜻과 인적분할 차이</a> 글에서 다뤘으므로, 이 글에서는 인적분할 자체의 신주배정과 세금 계산에 집중합니다.</p>
 
-<h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할하면 신주는 어떻게 배정되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할하면 신주는 어떻게 배정되나요</h2>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">인적분할의 신주는 원칙적으로 분할 전 보유 지분율 그대로 배정됩니다.</span> 상법상 인적분할이 성립하려면 분할대가 전액이 주식이어야 하고, 그 주식이 기존 지분 비율에 따라 배정돼야 합니다.</p>
 
@@ -169,7 +169,7 @@ self_check: |
 
 <p>위 표처럼 가상의 주주 갑·을·병이 분할 전 A회사에서 각각 60%, 25%, 15%를 보유했다면, 인적분할로 신설된 B회사에서도 같은 비율의 주식을 받습니다. 분할비율(존속회사와 신설회사에 배분되는 순자산 비율)에 따라 각 회사의 주식 수 자체는 달라지지만, 갑·을·병 사이의 상대적 지분율은 두 회사 모두 동일하게 유지됩니다.</p>
 
-<h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할 주식 취득가액 계산법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할 주식 취득가액 계산법</h2>
 
 <p>인적분할로 받은 신설법인 주식을 나중에 팔 때 양도차익을 계산하려면 취득가액을 알아야 합니다. <mark>1주당 취득가액은 (총 취득가액 - 분할존속법인 주식 상당가액 + 의제배당금 등) ÷ 분할신설법인 주식 수로 계산</mark>합니다. 소득세법 시행령 제176조의2 제3항에 근거한 공식입니다.</p>
 
@@ -180,7 +180,7 @@ self_check: |
 
 <p>총 취득가액 중 일부가 불분명하면 매매사례가액이나 환산가액으로 대신 계산합니다. 정확한 금액은 거래 증권사의 매매내역서나 국세청 홈택스에서 확인하는 것이 안전합니다.</p>
 
-<h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할 주식 세금 내는 시점</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">인적분할 주식 세금 내는 시점</h2>
 
 <p>적격분할 요건(사업목적, 지분 비율 유지, 사업 계속 등)을 갖추면 분할 시점에는 세금이 과세되지 않고 이연됩니다. 실제로 세금을 내는 시점은 주주가 보유한 신설법인 주식을 팔 때입니다.</p>
 
@@ -192,7 +192,7 @@ self_check: |
 
 <p><mark>국내 상장주식은 대주주가 아니면 양도소득세 대상이 아닙니다.</mark> 따라서 일반 소액주주가 인적분할로 받은 상장주식을 파는 경우 대부분 양도소득세를 신경 쓸 필요가 없습니다. 대주주 기준이나 양도소득세 계산 방식은 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 주식등 양도소득세 안내</a>에서 직접 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">2024년 자사주 신주배정 금지 규정</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">2024년 자사주 신주배정 금지 규정</h2>
 
 <p><mark>2024년 12월 31일부터 상장법인이 인적분할할 때 회사가 보유한 자기주식(자사주)에는 신주를 배정할 수 없게 됐습니다.</mark> 금융위원회가 자본시장법 시행령을 개정해 시행한 규정입니다.</p>
 
@@ -200,7 +200,7 @@ self_check: |
 
 <p>이 개정은 인적분할뿐 아니라 상장법인 간 합병에서 소멸법인이 보유한 자사주에도 동일하게 적용됩니다. 반면 물적분할은 애초에 모회사가 신주 전부를 받는 구조라 이 규정의 직접적인 영향을 받지 않습니다.</p>
 
-<h2 style="border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">헷갈리기 쉬운 부분 정리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #8e2436;padding-left:12px;margin-top:36px;">헷갈리기 쉬운 부분 정리</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">인적분할과 물적분할 중 세금 부담이 더 큰 쪽이 있나요</summary>

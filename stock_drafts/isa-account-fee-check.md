@@ -157,22 +157,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ISA 계좌도 수수료를 따로 내야 하나요</li>
-  <li>신탁형·일임형 수수료 구조</li>
-  <li>중개형 ISA는 수수료가 다른가요</li>
-  <li>금융사별 ISA 수수료 비교표</li>
-  <li>내 계좌 수수료 직접 확인하는 방법</li>
-  <li>수수료를 낮추는 방법</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 계좌도 수수료를 따로 내야 하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신탁형·일임형 수수료 구조</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중개형 ISA는 수수료가 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금융사별 ISA 수수료 비교표</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">내 계좌 수수료 직접 확인하는 방법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수수료를 낮추는 방법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">ISA 계좌도 수수료를 따로 내야 하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">ISA 계좌도 수수료를 따로 내야 하나요</h2>
 
 <p>네, 유형에 따라 다릅니다. ISA는 가입할 때 중개형·신탁형·일임형 중 하나를 고르는데, 이 선택이 수수료 구조 자체를 바꿉니다.</p>
 
 <p>중개형은 국내 상장주식을 직접 사고팔 수 있는 유일한 유형으로, 계좌를 유지하는 데 드는 별도 비용이 없습니다. 반면 신탁형과 일임형은 은행이나 증권사가 자산을 대신 굴려주는 구조라, 보유하는 동안 정해진 비율의 보수가 계속 빠져나갑니다.</p>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">신탁형·일임형 수수료 구조</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">신탁형·일임형 수수료 구조</h2>
 
 <p>신탁형은 예금·펀드 위주로 운용되며 <b>신탁보수</b>가 붙습니다. 일임형은 전문가가 포트폴리오를 대신 운용해주는 대가로 <b>운용관리수수료</b>가 붙습니다.</p>
 
@@ -189,7 +189,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">단, 이 범위는 세율처럼 정해진 하나의 답이 아니라 금융사·상품마다 실제로 다르게 매기는 값입니다. 본인이 가입한(또는 가입할) 금융사의 정확한 요율은 아래 「내 계좌 수수료 직접 확인하는 방법」에서 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">중개형 ISA는 수수료가 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">중개형 ISA는 수수료가 다른가요</h2>
 
 <p>네, 다릅니다. 중개형은 계좌를 갖고 있다는 이유만으로 빠져나가는 돈이 없습니다.</p>
 
@@ -201,7 +201,7 @@ self_check: |
 
 <p>그런데 국내 상장주식을 직접 사고팔 수 있는 유형은 중개형뿐입니다. 신탁형·일임형은 펀드·예금 등 편입 가능한 상품이 정해져 있어 매매수수료라는 개념 자체가 다르게 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">금융사별 ISA 수수료 비교표</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">금융사별 ISA 수수료 비교표</h2>
 
 <div style="background:#fdf3e3;border-left:4px solid #c98a1f;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>금융사별 정확한 요율은 원문 확인 중입니다</b>
@@ -235,7 +235,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">내 계좌 수수료 직접 확인하는 방법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">내 계좌 수수료 직접 확인하는 방법</h2>
 
 <p><mark>가장 정확한 방법은 금융투자협회가 운영하는 ISA다모아에서 직접 조회하는 것</mark>입니다. 상품 안내 페이지에는 대표 요율만 크게 적혀 있는 경우가 많아, 비교공시 화면에서 확인하는 편이 확실합니다.</p>
 
@@ -248,7 +248,7 @@ self_check: |
 
 <p>중개형이라면 이용 중인 증권사의 위탁수수료율을 앱이나 홈페이지의 수수료 안내 메뉴에서 바로 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">수수료를 낮추는 방법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">수수료를 낮추는 방법</h2>
 
 <p>비용만 생각하면 <b>중개형이 상대적으로 유리</b>합니다. 매매하지 않는 기간에는 아무 비용도 발생하지 않기 때문입니다.</p>
 
@@ -260,7 +260,7 @@ self_check: |
 
 <p>단, 수수료만으로 금융사를 정하면 안 됩니다. 편입 가능한 상품 구성이나 운용 성과도 함께 봐야 전체 그림이 맞습니다.</p>
 
-<h2 style="border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #c2540e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">중개형 ISA는 정말 수수료가 하나도 없나요</summary>

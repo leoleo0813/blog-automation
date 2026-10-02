@@ -150,21 +150,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>커버드콜 ETF는 왜 세금이 다르게 붙나요</li>
-  <li>국내주식형 커버드콜 ETF는 이렇게 과세됩니다</li>
-  <li>해외지수형은 왜 전액 과세되나요</li>
-  <li>분배금 100원으로 보는 세후 수령액 차이</li>
-  <li>분배금 과세 비중 확인하는 법</li>
-  <li>자주 나오는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">커버드콜 ETF는 왜 세금이 다르게 붙나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내주식형 커버드콜 ETF는 이렇게 과세됩니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외지수형은 왜 전액 과세되나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금 100원으로 보는 세후 수령액 차이</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금 과세 비중 확인하는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 나오는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">커버드콜 ETF는 왜 세금이 다르게 붙나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">커버드콜 ETF는 왜 세금이 다르게 붙나요</h2>
 
 <p>커버드콜 ETF는 기초자산을 보유하면서 동시에 콜옵션을 매도해 옵션 프리미엄을 함께 받는 구조입니다. 분배금의 재원은 두 가지, 기초자산에서 나오는 배당·이자 수익과 콜옵션 매도로 받는 옵션 프리미엄입니다.</p>
 
 <p>세법은 이 두 재원을 다르게 취급합니다. 배당·이자 수익은 어떤 ETF든 배당소득세 과세 대상이지만, 국내 주식을 기초자산으로 하는 상품의 옵션 프리미엄은 <b>국내 장내파생상품 매매차익 비과세 규정</b>의 적용을 받습니다.</p>
 
-<h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">국내주식형 커버드콜 ETF는 이렇게 과세됩니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">국내주식형 커버드콜 ETF는 이렇게 과세됩니다</h2>
 
 <p>국내 주식을 기초자산으로 하는 커버드콜 ETF는 분배금 중 <mark>옵션 프리미엄 부분이 소득세법 시행령 제26조의2제4항에 따라 비과세</mark>됩니다. 이 조항은 국내 장내파생상품 매매차익 전반에 적용되는 비과세 규정으로, 커버드콜 ETF만을 위한 특례는 아닙니다.</p>
 
@@ -177,7 +177,7 @@ self_check: |
   <li>배당수익이 목표 분배율을 넘는 달: 분배금 전액 과세 가능</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">해외지수형은 왜 전액 과세되나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">해외지수형은 왜 전액 과세되나요</h2>
 
 <p>앞서 설명한 비과세 규정은 <b>국내 장내파생상품</b>에만 적용됩니다. 미국 대형주 지수나 나스닥100 같은 해외 지수를 기초자산으로 하는 커버드콜 ETF는 이 규정의 적용 대상이 아닙니다.</p>
 
@@ -185,7 +185,7 @@ self_check: |
 
 <p>여기서 핵심은 두 상품이 "커버드콜"이라는 같은 이름을 쓰더라도, 기초자산이 국내인지 해외인지에 따라 세금 구조 자체가 다르다는 점입니다. 상품명만 보고 세금이 같을 거라 짐작하면 안 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">분배금 100원으로 보는 세후 수령액 차이</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">분배금 100원으로 보는 세후 수령액 차이</h2>
 
 <p>두 유형의 차이를 가상의 숫자로 직접 계산해 보겠습니다. 아래 표의 "배당 40원 + 옵션 프리미엄 60원"은 실제 특정 상품의 확정 수치가 아니라, 구조를 보여주기 위한 가정값입니다.</p>
 
@@ -219,7 +219,7 @@ self_check: |
 
 <p>같은 100원을 분배해도 국내형은 93.84원, 해외형은 84.6원을 받습니다. 좌당 9.24원, 분배금 대비로는 9.24%p 차이입니다. 배당수익 비중이 이 가정보다 크거나 작으면 국내형의 실제 세후 수령액도 달라집니다.</p>
 
-<h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">분배금 과세 비중 확인하는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">분배금 과세 비중 확인하는 법</h2>
 
 <p>내가 보유한 ETF의 실제 배당수익·옵션 프리미엄 비중은 이 글의 가정값과 다를 수 있습니다. 정확한 비중은 아래 두 곳에서 확인할 수 있습니다.</p>
 
@@ -242,7 +242,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">자주 나오는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a5fc1;padding-left:12px;margin-top:36px;">자주 나오는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">커버드콜 ETF는 다른 ETF보다 세금이 항상 적은가요</summary>

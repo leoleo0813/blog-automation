@@ -124,15 +124,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>토큰증권 뜻과 전자증권 차이</li>
-  <li>조각투자와 토큰증권은 어떻게 다른가</li>
-  <li>토큰증권 법과 시행 일정, 지금 어디까지 왔나</li>
-  <li>2027년부터 뭐가 단계적으로 바뀌나</li>
-  <li>지금 토큰증권에 투자할 수 있나</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">토큰증권 뜻과 전자증권 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">조각투자와 토큰증권은 어떻게 다른가</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">토큰증권 법과 시행 일정, 지금 어디까지 왔나</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2027년부터 뭐가 단계적으로 바뀌나</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 토큰증권에 투자할 수 있나</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">토큰증권 뜻과 전자증권 차이</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">토큰증권 뜻과 전자증권 차이</h2>
 
 <p>토큰증권(Security Token)은 증권의 발행·유통 정보를 종이나 중앙 서버가 아니라 <b>블록체인 분산원장</b>에 기록하는 증권을 말합니다. 자금 조달 방식으로서 토큰증권을 발행하는 과정은 STO(Security Token Offering)라고 부릅니다.</p>
 
@@ -140,7 +140,7 @@ self_check: |
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">토큰증권은 발행 형태만 다를 뿐 자본시장법상 증권 그 자체입니다.</span> 그래서 증권신고서 제출, 불공정거래 금지, 투자자 보호 규제 같은 기존 증권 규제가 토큰증권에도 동일하게 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">조각투자와 토큰증권은 어떻게 다른가</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">조각투자와 토큰증권은 어떻게 다른가</h2>
 
 <p>"조각투자"는 이미 몇 년 전부터 익숙한 개념입니다. 건물이나 미술품처럼 가격이 비싼 자산을 여러 사람이 지분처럼 나눠 사는 방식으로, 비금전신탁 수익증권 형태(전자증권 기반)로 지금도 운영되고 있습니다. 반면 이번에 금융위원회가 발표한 정책방향은 조각투자에 그치지 않고, 주식·채권·펀드 같은 기존 정형증권까지 토큰화 대상을 넓히는 것이 핵심입니다.</p>
 
@@ -171,7 +171,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">토큰증권 법과 시행 일정, 지금 어디까지 왔나</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">토큰증권 법과 시행 일정, 지금 어디까지 왔나</h2>
 
 <p>토큰증권 제도화는 하루아침에 나온 이야기가 아닙니다. 2023년 첫 정책 발표 이후 논의가 이어지다, <mark>2026년 1월 15일 전자증권법·자본시장법 개정안이 국회 본회의를 통과</mark>했습니다. 이 개정안은 분산원장 기반 토큰증권 발행 인프라를 전자증권법 체계 안에 넣고, 자본시장법상 투자계약증권을 증권사가 유통할 수 있도록 허용하는 내용을 담고 있습니다.</p>
 
@@ -179,7 +179,7 @@ self_check: |
 
 <p>보스턴컨설팅그룹(BCG) 추산으로 보도된 바에 따르면 국내 토큰증권 시장 규모는 2026년 119조원에서 2030년 367조원까지 커질 것으로 전망됩니다. 단, 이는 업계 전망치이지 확정된 수치가 아니라는 점은 감안해야 합니다.</p>
 
-<h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">2027년부터 뭐가 단계적으로 바뀌나</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">2027년부터 뭐가 단계적으로 바뀌나</h2>
 
 <p>이번 정책방향은 한 번에 모든 증권을 토큰화하지 않고, 아래처럼 3단계로 나눠 접근합니다.</p>
 
@@ -212,13 +212,13 @@ self_check: |
 
 <p>1단계 대상이 기관 전용 상품(사모펀드·사모사채) 위주라는 점을 눈여겨봐야 합니다. 일반 개인이 익숙한 상장주식·공모펀드의 토큰화는 2단계에 해당해, 1단계 시행 이후에도 곧바로 체감하기는 어려울 가능성이 큽니다.</p>
 
-<h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">지금 토큰증권에 투자할 수 있나</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">지금 토큰증권에 투자할 수 있나</h2>
 
 <p>부분적으로는 가능합니다. 부동산·미술품·한우 같은 실물자산 기반 조각투자 상품은 기존 증권사 계좌를 통해 지금도 거래할 수 있습니다. 이런 상품은 비금전신탁 수익증권 형태로 이미 자본시장법 규제 안에 들어와 있기 때문입니다.</p>
 
 <p>반대로 상장주식이나 채권을 토큰 형태로 사는 상품은 아직 없습니다. 관련 인프라(발행인 계좌관리기관, 장외거래소 인가 등)가 2027년 법 시행에 맞춰 구축되는 단계라, 정형증권 토큰화 상품은 하위법규 확정과 인프라 구축이 끝난 뒤에야 순차적으로 나올 예정입니다. 특정 플랫폼이나 상품을 미리 알아보기보다는, 하위법규 입법예고(2026년 9월 말)와 1단계 시행(2027년 2월) 소식을 지켜보는 편이 안전합니다.</p>
 
-<h2 style="border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">토큰증권과 가상화폐는 같은 건가요</summary>

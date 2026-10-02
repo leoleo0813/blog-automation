@@ -42,14 +42,14 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>배당소득세 원천징수세율은 얼마인가요</li>
-  <li>배당소득세란 무엇인가요</li>
-  <li>배당금별로 실제 얼마나 떼나요</li>
-  <li>금융소득종합과세는 언제 적용되나요</li>
-  <li>2026년부터 달라진 점이 있나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당소득세 원천징수세율은 얼마인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당소득세란 무엇인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당금별로 실제 얼마나 떼나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금융소득종합과세는 언제 적용되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년부터 달라진 점이 있나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당소득세 원천징수세율은 얼마인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당소득세 원천징수세율은 얼마인가요</h2>
 
 <p>배당소득세 원천징수세율은 <b>소득세 14%에 지방소득세 1.4%를 더한 15.4%</b>입니다. 배당소득금액에 14%를 곱해 소득세를 산출하고(소득세법 제129조제1항제2호나목), 지방소득세는 그 소득세액의 10%가 별도로 붙습니다.</p>
 
@@ -69,13 +69,13 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">출처: 법제처 찾기쉬운 생활법령정보(easylaw.go.kr, 2026-08-15 기준). 원천징수한 세액은 징수일이 속하는 달의 다음 달 10일까지 납부됩니다(소득세법 제127조·제128조·제130조).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당소득세란 무엇인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당소득세란 무엇인가요</h2>
 
 <p>배당소득세는 주식을 보유해 받은 <b>배당금에 부과되는 세금</b>입니다. 근로소득세처럼 따로 신고서를 내는 것이 아니라, 배당금을 지급하는 회사(또는 증권사)가 지급 시점에 세금을 미리 떼는 <b>원천징수</b> 방식으로 처리됩니다.</p>
 
 <p><mark>배당금이 통장에 들어올 때는 이미 세금이 빠진 금액</mark>인 경우가 대부분이라, 투자자가 별도로 계산해서 납부할 일이 적습니다. 다만 다른 금융소득과 합산되는 경우는 예외입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당금별로 실제 얼마나 떼나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당금별로 실제 얼마나 떼나요</h2>
 
 <p>배당금에 15.4%를 곱하면 실제 원천징수세액을 바로 계산할 수 있습니다.</p>
 
@@ -94,7 +94,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">금융소득종합과세는 언제 적용되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">금융소득종합과세는 언제 적용되나요</h2>
 
 <p>이자소득과 배당소득을 <b>1년 동안 합친 금액이 2,000만원을 넘으면</b>, 그 초과분이 다른 소득(근로소득·사업소득 등)과 합산되어 종합소득세율(6~45%)로 다시 계산됩니다.</p>
 
@@ -108,7 +108,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">출처: 소득세법 제14조(금융소득 2천만원 기준). 대부분의 개인 투자자는 이 기준을 넘지 않아 원천징수만으로 끝납니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년부터 달라진 점이 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년부터 달라진 점이 있나요</h2>
 
 <p>2025년 12월 2일 국회를 통과한 조세특례제한법 개정으로, <mark>2026년 1월 1일 지급분부터 3년간 한시적으로 배당소득 분리과세 특례</mark>가 신설됐습니다. 다만 이건 모든 배당에 적용되는 게 아니라 <b>일정 요건을 갖춘 고배당 상장기업</b>의 배당에 한정된 선택적 제도입니다.</p>
 

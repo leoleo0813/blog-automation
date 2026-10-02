@@ -108,16 +108,16 @@ self_check: |
 
 <h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>PER 뜻과 계산 공식</li>
-  <li>PER이 낮으면 무조건 저평가인가요</li>
-  <li>트레일링 PER과 선행 PER은 이렇게 다릅니다</li>
-  <li>적자 기업은 PER이 이렇게 표시됩니다</li>
-  <li>업종마다 PER 기준이 다른 이유</li>
-  <li>PER은 어디서 확인하나요</li>
-  <li>이런 질문도 자주 나옵니다</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PER 뜻과 계산 공식</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PER이 낮으면 무조건 저평가인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">트레일링 PER과 선행 PER은 이렇게 다릅니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">적자 기업은 PER이 이렇게 표시됩니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">업종마다 PER 기준이 다른 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PER은 어디서 확인하나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이런 질문도 자주 나옵니다</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">PER 뜻과 계산 공식</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">PER 뜻과 계산 공식</h2>
 
 <p>PER(Price Earning Ratio, 주가수익비율)은 <mark>현재 주가가 회사의 주당순이익(EPS)의 몇 배인지를 나타내는 지표</mark>입니다. 계산식은 PER = 주가 ÷ EPS입니다.</p>
 
@@ -129,7 +129,7 @@ self_check: |
   <li>시가총액 ÷ 당기순이익으로 계산해도 같은 값이 나옵니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">PER이 낮으면 무조건 저평가인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">PER이 낮으면 무조건 저평가인가요</h2>
 
 <p>아닙니다. PER이 낮다고 반드시 저평가는 아닙니다. 이익이 일시적으로 늘어 PER이 낮아 보이거나, 시장이 앞으로의 실적 둔화를 미리 반영해 낮은 값을 준 경우도 있습니다.</p>
 
@@ -141,7 +141,7 @@ self_check: |
   <li>같은 업종 평균 PER과 비교합니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">트레일링 PER과 선행 PER은 이렇게 다릅니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">트레일링 PER과 선행 PER은 이렇게 다릅니다</h2>
 
 <p>PER은 어떤 EPS를 쓰느냐에 따라 두 가지로 나뉩니다. <mark>트레일링 PER은 최근 4분기 실적(과거 EPS)을 쓰고, 선행 PER은 증권가가 예상하는 다음 해 실적(예상 EPS)을 씁니다.</mark></p>
 
@@ -154,23 +154,23 @@ self_check: |
 
 <p>같은 회사, 같은 주가인데도 이익이 늘어날 것으로 예상되면 선행 PER이 더 낮게 나타납니다. 증권사 리포트가 "12개월 선행 PER"이라는 표현을 자주 쓰는 이유가 여기 있습니다. 실적 성장이 빠른 회사일수록 두 수치의 차이가 커집니다.</p>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">적자 기업은 PER이 이렇게 표시됩니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">적자 기업은 PER이 이렇게 표시됩니다</h2>
 
 <p>적자 기업은 당기순이익이 마이너스라 EPS도 음수가 됩니다. 주가를 음수로 나누면 PER이 마이너스 값이 되는데, 이 값은 투자 판단에 의미가 없어 대부분의 증권사 자료와 시세 화면에서 <mark>"적자" 또는 해당없음(N/A)으로 표시</mark>합니다.</p>
 
 <p>PER 칸이 비어 있거나 "적자"로만 표시된 종목을 보고 저평가 신호로 오해하지 않아야 합니다. 실적이 흑자로 돌아선 뒤에야 PER 비교가 다시 의미를 갖습니다.</p>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">업종마다 PER 기준이 다른 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">업종마다 PER 기준이 다른 이유</h2>
 
 <p>PER은 업종 성격에 따라 평균 수준이 크게 달라집니다. 이익 성장 기대가 큰 업종은 현재 이익보다 미래 이익 기대가 주가에 더 크게 반영돼 PER이 높게 형성되는 경향이 있습니다. 반대로 이익 변동이 적고 성장 속도가 느린 업종은 PER이 낮은 수준에서 안정적으로 유지되는 경향이 있습니다.</p>
 
 <p>이 때문에 서로 다른 업종의 PER을 그대로 비교하면 오해가 생깁니다. 같은 업종 안에서 비교하거나, PBR·ROE 등 다른 지표와 함께 봐야 합니다. PBR과의 관계식이 궁금하다면 88편(PBR 뜻과 계산 방법)을, ROE와의 관계가 궁금하다면 89편(ROE 뜻과 계산 방법)을 먼저 보는 편이 도움이 됩니다.</p>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">PER은 어디서 확인하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">PER은 어디서 확인하나요</h2>
 
 <p>종목별·업종별 PER은 <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>의 PER/PBR/배당수익률 메뉴에서 무료로 조회할 수 있습니다. EPS 산출 근거가 되는 재무제표 원문은 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART)</a>에서 확인할 수 있습니다. 증권사 MTS의 종목 상세 화면에도 대부분 PER이 함께 표시됩니다.</p>
 
-<h2 style="border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">이런 질문도 자주 나옵니다</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #00695c;padding-left:12px;margin-top:36px;">이런 질문도 자주 나옵니다</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">PER과 PBR 중 뭐가 더 중요한가요</summary>

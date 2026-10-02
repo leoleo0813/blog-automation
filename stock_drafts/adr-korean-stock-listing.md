@@ -111,22 +111,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ADR이란 무엇인가요</li>
-  <li>ADR은 예탁은행이 원주를 담보로 발행합니다</li>
-  <li>국내 기업의 미국 ADR 상장 현황</li>
-  <li>SK하이닉스, 나스닥에 역대 최대 규모로 상장했습니다</li>
-  <li>ADR 가격과 원주 가격이 다른 이유</li>
-  <li>ADR 투자 시 세금은 해외주식과 동일합니다</li>
-  <li>이것만 더 알아두면</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ADR이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ADR은 예탁은행이 원주를 담보로 발행합니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내 기업의 미국 ADR 상장 현황</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">SK하이닉스, 나스닥에 역대 최대 규모로 상장했습니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ADR 가격과 원주 가격이 다른 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ADR 투자 시 세금은 해외주식과 동일합니다</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이것만 더 알아두면</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR이란 무엇인가요</h2>
 
 <p>ADR(American Depositary Receipt, 미국예탁증서)은 외국 기업이 발행한 주식(원주)을 미국의 예탁은행이 대신 보관하고, 그 주식을 담보로 미국 증권시장에서 거래할 수 있도록 발행하는 증서입니다. 미국 투자자 입장에서는 환전이나 해외 계좌 개설 없이 달러로 외국 기업에 투자할 수 있는 수단입니다.</p>
 
 <p>반대로 국내 투자자 입장에서 보면, 국내 기업이 발행한 ADR을 미국 나스닥이나 뉴욕증권거래소에서 <mark>해외주식처럼 직접 매수할 수 있는 종목</mark>이라는 뜻이 됩니다.</p>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR은 예탁은행이 원주를 담보로 발행합니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR은 예탁은행이 원주를 담보로 발행합니다</h2>
 
 <p>ADR이 만들어지는 과정은 이렇습니다. 국내 기업이 발행한 원주를 예탁은행(또는 그 현지 보관기관)에 맡기면, 예탁은행이 그 원주를 담보로 ADR 증서를 발행합니다. 이 ADR이 나스닥이나 뉴욕증권거래소에 상장되어 거래됩니다.</p>
 
@@ -138,7 +138,7 @@ self_check: |
 
 <p>따라서 국내 기업이 ADR을 상장한다고 해서 국내 상장이 폐지되는 것은 아닙니다. 두 시장에 동시에 상장되는 구조입니다.</p>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">국내 기업의 미국 ADR 상장 현황</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">국내 기업의 미국 ADR 상장 현황</h2>
 
 <p>2026년 9월 기준으로 아래 국내 대형 상장사들이 미국 증시에 ADR로 상장돼 있습니다.</p>
 
@@ -201,13 +201,13 @@ self_check: |
 
 <p>이 중 금융지주(신한·KB·우리)와 통신·에너지·철강 대형사들은 오래전부터 ADR을 유지해 왔고, SK하이닉스는 2026년에 새로 합류한 사례입니다.</p>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">SK하이닉스, 나스닥에 역대 최대 규모로 상장했습니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">SK하이닉스, 나스닥에 역대 최대 규모로 상장했습니다</h2>
 
 <p>SK하이닉스는 2026년 7월 나스닥에 ADR을 상장하며 공모가 1주당 149달러, 공모수량 1억 7,790만 주로 <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">약 265억 달러(약 40조 원) 규모의 자금을 조달했습니다.</span> 이는 외국 기업이 미국 증시에서 조달한 금액 중 역대 최대 규모로 보도됐습니다.</p>
 
 <p>SK하이닉스는 국내 유가증권시장 상장을 그대로 유지하면서 나스닥에 ADR로 추가 상장한 것입니다. 국내 투자자가 보유한 원주는 이 절차와 무관하게 그대로 코스피에서 거래됩니다.</p>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR 가격과 원주 가격이 다른 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR 가격과 원주 가격이 다른 이유</h2>
 
 <p>ADR 가격은 원주 가격에 전환비율과 환율을 적용한 이론가와 비슷하게 움직이지만, 정확히 같지는 않습니다. 두 시장의 거래시간이 다르고 수급도 따로 형성되기 때문입니다.</p>
 
@@ -220,13 +220,13 @@ self_check: |
 
 <p>실제 ADR 시장 가격은 이 이론가와 정확히 일치하지 않을 수 있습니다. 한국 시장이 닫혀 있는 시간에도 미국 시장은 열려 있어 그사이 뉴스나 수급에 따라 괴리가 생기기 때문입니다. 이 괴리를 이용한 매매를 재정거래라고 부릅니다.</p>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR 투자 시 세금은 해외주식과 동일합니다</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">ADR 투자 시 세금은 해외주식과 동일합니다</h2>
 
 <p>국내 투자자가 미국에 상장된 ADR을 매매해 얻은 양도차익은 국내 세법상 해외 상장주식 양도소득과 동일하게 취급됩니다. 연 250만 원 기본공제 후 22%(지방소득세 포함) 세율이 적용되며, 신고 절차나 공제 계산의 자세한 예시는 이 시리즈의 해외주식 양도소득세 신고 방법 편에서 이미 다뤘습니다.</p>
 
 <p>보관수수료(예탁수수료)가 매매수수료와 별도로 부과될 수 있다는 점도 증권사별로 확인이 필요합니다. 종목과 증권사에 따라 부과 여부와 금액이 다르기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">이것만 더 알아두면</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #455a64;padding-left:12px;margin-top:36px;">이것만 더 알아두면</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ADR과 원주는 같은 주식인가요</summary>

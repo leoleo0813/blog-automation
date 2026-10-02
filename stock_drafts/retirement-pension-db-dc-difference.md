@@ -149,15 +149,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>퇴직연금 DB형과 DC형, 운용 주체부터 다릅니다</li>
-  <li>임금상승률과 투자수익률 비교로 보는 유불리</li>
-  <li>DC형 계좌를 방치하면 벌어지는 일</li>
-  <li>디폴트옵션도 위험자산 한도가 적용되나요</li>
-  <li>DB에서 DC로 전환하면 되돌릴 수 있나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">퇴직연금 DB형과 DC형, 운용 주체부터 다릅니다</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">임금상승률과 투자수익률 비교로 보는 유불리</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">DC형 계좌를 방치하면 벌어지는 일</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">디폴트옵션도 위험자산 한도가 적용되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">DB에서 DC로 전환하면 되돌릴 수 있나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">퇴직연금 DB형과 DC형, 운용 주체부터 다릅니다</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">퇴직연금 DB형과 DC형, 운용 주체부터 다릅니다</h2>
 
 <p>DB형(확정급여형)은 <mark>회사가 적립금을 직접 운용</mark>하고, 근로자는 운용 성과와 무관하게 근로자퇴직급여보장법에 정해진 방식(퇴직 전 3개월 평균임금 × 근속연수)대로 계산된 금액을 받습니다.</p>
 
@@ -195,7 +195,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">임금상승률과 투자수익률 비교로 보는 유불리</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">임금상승률과 투자수익률 비교로 보는 유불리</h2>
 
 <p>"임금이 많이 오르면 DB, 투자를 잘하면 DC가 유리하다"는 설명은 많지만, 두 조건이 <b>같을 때</b> 실제로 어떤 결과가 나오는지 계산으로 확인한 글은 드뭅니다. 연봉 4,000만원, 근속 10년을 가정해(수수료·세제는 제외한 단순화 계산) 직접 계산해봤습니다.</p>
 
@@ -234,7 +234,7 @@ self_check: |
 
 <p>반대로 두 비율이 벌어질수록 그 차이도 벌어집니다. 근속 기간이 길고 회사 임금 인상 곡선이 가파른 편이면 DB형을, 이직이 잦거나 투자 성과에 자신 있는 편이면 DC형을 유리하게 보는 경우가 많지만, 임금상승률 자체는 회사와 개인마다 달라 이 계산은 직접 자신의 연봉 인상률을 넣어봐야 정확합니다.</p>
 
-<h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">DC형 계좌를 방치하면 벌어지는 일</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">DC형 계좌를 방치하면 벌어지는 일</h2>
 
 <p>DC형과 IRP는 근로자가 직접 운용상품을 지정해야 합니다. 아무 지시도 하지 않으면 <b>사전지정운용제도(디폴트옵션)</b>가 작동해 미리 골라둔 상품으로 자동 매수됩니다. 이 제도는 2022년 7월 12일 도입돼 1년의 유예기간을 거쳐 2023년 7월 12일부터 전면 시행 중입니다.</p>
 
@@ -245,19 +245,19 @@ self_check: |
 
 <p>주의할 점은 디폴트옵션 상품에는 <mark>일반 DC·IRP 계좌에 적용되는 위험자산 70% 한도가 적용되지 않는다</mark>는 것입니다. 근로자퇴직급여보장법이 원리금보장 상품을 포함하도록 규정해 일반 한도를 그대로 적용하면 제도가 작동하기 어렵기 때문에, 디폴트옵션 상품은 예외적으로 적립금의 100%까지 편입할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">디폴트옵션도 위험자산 한도가 적용되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">디폴트옵션도 위험자산 한도가 적용되나요</h2>
 
 <p>적용되지 않습니다. 일반 DC·IRP 계좌는 주식형 펀드 같은 위험자산을 적립금의 70%까지만 담을 수 있지만, <a href="https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=13711" target="_blank" rel="noopener">고용노동부</a>와 <a href="https://fsc.go.kr/no010107/77805" target="_blank" rel="noopener">금융위원회</a>가 함께 도입한 디폴트옵션 상품은 이 한도의 예외로 인정돼 100%까지 위험자산으로 채울 수 있습니다.</p>
 
 <p>따라서 "디폴트옵션은 안전한 상품일 것"이라고 넘겨짚으면 안 됩니다. 연금사업자가 제시하는 디폴트옵션 상품 목록에는 원리금보장형뿐 아니라 위험자산 비중이 높은 상품도 포함되어 있어, 가입 전에 상품 성격을 직접 확인해야 합니다.</p>
 
-<h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">DB에서 DC로 전환하면 되돌릴 수 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">DB에서 DC로 전환하면 되돌릴 수 있나요</h2>
 
 <p>되돌릴 수 없습니다. DB형에서 DC형으로 전환하는 것은 가능하지만, 반대로 DC형에서 DB형으로 되돌아가는 전환은 원칙적으로 인정되지 않습니다.</p>
 
 <p>회사가 퇴직연금 제도를 DB에서 DC로 바꾸는 경우, 근로자는 전환 시점까지 쌓인 금액을 DC 계좌로 옮기고 이후 적립분부터는 DC 방식이 적용됩니다. 전환을 고민 중이라면 남은 근속연수와 예상 임금 인상률, 본인의 투자 성향을 함께 따져본 뒤 결정해야 합니다.</p>
 
-<h2 style="border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0284c7;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">DC형에서 DB형으로 다시 돌아갈 수 있나요</summary>

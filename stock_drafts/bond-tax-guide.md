@@ -127,15 +127,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>채권 투자하면 세금이 얼마나 나오나요</li>
-  <li>채권을 사고팔아 남긴 매매차익에도 세금이 붙나요</li>
-  <li>채권ETF는 왜 다르게 과세되나요</li>
-  <li>해외채권(미국채)을 사면 세금이 어떻게 다른가요</li>
-  <li>채권 이자소득도 금융소득종합과세에 포함되나요</li>
-  <li>실제로 얼마나 떼는지 계산해보면</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">채권 투자하면 세금이 얼마나 나오나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">채권을 사고팔아 남긴 매매차익에도 세금이 붙나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">채권ETF는 왜 다르게 과세되나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외채권(미국채)을 사면 세금이 어떻게 다른가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">채권 이자소득도 금융소득종합과세에 포함되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 떼는지 계산해보면</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권 투자하면 세금이 얼마나 나오나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권 투자하면 세금이 얼마나 나오나요</h2>
 
 <p>채권에서 나오는 이익은 크게 <b>이자소득</b>과 <b>매매차익</b> 두 가지입니다. 이 중 이자소득에만 세금이 붙습니다. 표면금리에 따라 지급되는 이자를 받을 때마다 <mark>15.4%(소득세 14%+지방소득세 1.4%)</mark>가 원천징수되고, 별도로 신고할 필요는 없습니다.</p>
 
@@ -158,7 +158,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://www.hankyung.com/article/2022081535621" target="_blank" rel="noopener">한국경제 - 금리 상승기 각광받는 채권 매매차익 과세 안해</a>, <a href="https://www.pwc.com/kr/ko/insights/issue-brief/one-point-tax-10.html" target="_blank" rel="noopener">삼일PwC - 채권투자 세무정보</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권을 사고팔아 남긴 매매차익에도 세금이 붙나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권을 사고팔아 남긴 매매차익에도 세금이 붙나요</h2>
 
 <p>원칙적으로 <mark>일반 채권(이표채)의 매매차익은 비과세</mark>입니다. 표면금리대로 이자를 지급하는 채권을 싸게 사서 비싸게 팔아도 그 차익에는 세금이 붙지 않습니다.</p>
 
@@ -168,7 +168,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C46%EC%A1%B0" target="_blank" rel="noopener">CaseNote - 소득세법 제46조(채권 등에 대한 소득금액의 계산 특례)</a>, <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권ETF는 왜 다르게 과세되나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권ETF는 왜 다르게 과세되나요</h2>
 
 <p>개별 채권을 직접 사지 않고 <b>채권ETF</b>로 투자하면 과세 구조가 달라집니다. 채권ETF는 이자에 해당하는 분배금뿐 아니라 <mark>매매차익까지 전부 배당소득으로 과세</mark>돼 15.4%가 원천징수됩니다.</p>
 
@@ -181,7 +181,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://marketin.edaily.co.kr/News/ReadE?newsId=01817126642303400" target="_blank" rel="noopener">이데일리 마켓인 - 채권ETF 자본차익에도 과세</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외채권(미국채)을 사면 세금이 어떻게 다른가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외채권(미국채)을 사면 세금이 어떻게 다른가요</h2>
 
 <p>미국채 같은 <b>해외채권</b>도 국내채권과 과세 원칙은 비슷합니다. <mark>매매차익과 환차익은 비과세</mark>이고, 이자소득에만 세금이 붙습니다.</p>
 
@@ -197,13 +197,13 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://www.tfmedia.co.kr/news/article.html?no=38923" target="_blank" rel="noopener">조세금융신문 - 해외채권은 어떻게 과세되는가</a>, <a href="https://m.newspim.com/news/view/20130326000458" target="_blank" rel="noopener">뉴스핌 - 해외채권 가이드 세금 알고 투자하세요</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권 이자소득도 금융소득종합과세에 포함되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">채권 이자소득도 금융소득종합과세에 포함되나요</h2>
 
 <p>네, 채권 이자소득은 다른 이자·배당소득과 합산됩니다. 연간 금융소득 합계가 <mark>2천만원을 초과</mark>하면 초과분에 대해 다른 소득과 합쳐 6~45% 누진세율이 적용되는 금융소득종합과세 대상이 됩니다.</p>
 
 <p>2천만원 기준을 판단하는 구체적인 절차와 계산 예시는 이 시리즈 6편(<a href="https://sensitiveboss3.tistory.com/entry/financial-income-comprehensive-tax" target="_blank" rel="noopener">금융소득종합과세 2천만원 기준 확인법</a>)에서 자세히 다루고 있으니 함께 참고하세요.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 떼는지 계산해보면</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 떼는지 계산해보면</h2>
 
 <p>세 가지 대표 사례로 실제 세후 금액을 계산해봤습니다. 정확한 원천징수 세액은 거래 증권사가 자동으로 계산해 지급하므로, 아래 계산은 규모를 가늠하는 참고용입니다.</p>
 

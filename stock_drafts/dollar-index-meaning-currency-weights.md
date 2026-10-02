@@ -72,14 +72,14 @@ refresh_reason: "현재 달러인덱스 수치 없음 — 최신 값과 기준�
 
 <h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>산식에 숫자를 넣어 직접 계산하기</li>
-  <li>달러인덱스 뜻과 구성 통화 비중</li>
-  <li>달러 1% 강세가 지수에 미치는 영향</li>
-  <li>달러인덱스와 원/달러 환율은 어떻게 다른가요</li>
-  <li>알아두면 덜 헷갈리는 것들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">산식에 숫자를 넣어 직접 계산하기</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">달러인덱스 뜻과 구성 통화 비중</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">달러 1% 강세가 지수에 미치는 영향</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">달러인덱스와 원/달러 환율은 어떻게 다른가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">알아두면 덜 헷갈리는 것들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">산식에 숫자를 넣어 직접 계산하기</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">산식에 숫자를 넣어 직접 계산하기</h2>
 
 <p>달러인덱스는 6개 환율을 비중만큼 거듭제곱해서 곱한 값입니다. 산식은 아래와 같습니다.</p>
 
@@ -113,7 +113,7 @@ refresh_reason: "현재 달러인덱스 수치 없음 — 최신 값과 기준�
 
 <p>이제 유로만 1% 약해져 EURUSD가 1.089가 됐다고 가정합니다. 나머지 환율은 그대로 두고 다시 계산하면 지수는 <mark>약 103.37</mark>로 0.58% 오릅니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">달러인덱스 뜻과 구성 통화 비중</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">달러인덱스 뜻과 구성 통화 비중</h2>
 
 <p>달러인덱스는 유로, 일본 엔, 영국 파운드, 캐나다 달러, 스웨덴 크로나, 스위스 프랑 6개 통화 대비 미국 달러의 가치를 하나의 숫자로 나타낸 지표입니다. 약칭은 USDX 또는 DXY이고, 1973년 3월의 가치를 100으로 놓고 비교합니다.</p>
 
@@ -138,7 +138,7 @@ refresh_reason: "현재 달러인덱스 수치 없음 — 최신 값과 기준�
 
 <p>유럽 통화(유로, 파운드, 크로나, 프랑)를 합치면 77.3%입니다. 달러인덱스는 사실상 "달러 대 유럽 통화" 지표에 가깝습니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">달러 1% 강세가 지수에 미치는 영향</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">달러 1% 강세가 지수에 미치는 영향</h2>
 
 <p>한 통화 대비 달러가 1% 강해지면 지수는 그 통화의 비중과 거의 같은 비율로 움직입니다. 위의 가상 환율에서 통화 하나씩만 바꿔 계산한 결과입니다.</p>
 
@@ -161,7 +161,7 @@ refresh_reason: "현재 달러인덱스 수치 없음 — 최신 값과 기준�
 
 <p>엔화가 아무리 크게 움직여도 유로가 같은 폭으로 움직일 때보다 지수 영향은 4분의 1 수준입니다. 지수가 오르내릴 때는 유로 흐름부터 확인하는 편이 빠릅니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">달러인덱스와 원/달러 환율은 어떻게 다른가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">달러인덱스와 원/달러 환율은 어떻게 다른가요</h2>
 
 <p>원화는 달러인덱스 6개 구성 통화에 들어 있지 않습니다. 원/달러 환율은 원화와 달러의 관계만 보여주고, 달러인덱스는 유럽·일본 등 6개 통화와 달러의 관계를 보여줍니다.</p>
 
@@ -183,7 +183,7 @@ refresh_reason: "현재 달러인덱스 수치 없음 — 최신 값과 기준�
 
 <p>그래서 달러인덱스가 내려가는 날에도 원/달러 환율은 오를 수 있습니다. 두 지표가 다른 방향으로 갈 때는 원화만의 요인이 있다는 신호로 읽습니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">알아두면 덜 헷갈리는 것들</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">알아두면 덜 헷갈리는 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">달러인덱스가 100이면 무슨 뜻인가요</summary>

@@ -103,28 +103,28 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>예수금이 정확히 뭔가요</li>
-  <li>증거금과는 뭐가 다른가요</li>
-  <li>D+2는 무슨 뜻인가요</li>
-  <li>종목마다 증거금율이 다른 이유는 뭔가요</li>
-  <li>2026년 5월부터 뭐가 바뀌나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">예수금이 정확히 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증거금과는 뭐가 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">D+2는 무슨 뜻인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">종목마다 증거금율이 다른 이유는 뭔가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 5월부터 뭐가 바뀌나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예수금이 정확히 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예수금이 정확히 뭔가요</h2>
 
 <p>예수금(預受金)은 증권 계좌에 입금해 둔 돈 중 <mark>아직 주식을 사는 데 쓰지 않은 순수한 현금</mark>입니다. 언제든 본인 은행 계좌로 출금할 수 있는 대기 자금이라고 보면 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증거금과는 뭐가 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증거금과는 뭐가 다른가요</h2>
 
 <p><b>증거금</b>은 주식을 매수할 때 일종의 계약금처럼 계좌에서 묶이는 금액입니다. 실제 결제가 이틀 뒤(D+2)에 완료되기 때문에, 그 사이 매도하지 못하도록 미리 잡아두는 개념입니다.</p>
 
 <p>예를 들어 예수금 200만원 중 100만원어치 주식을 매수하면, 증거금율이 40%인 종목이라면 40만원만 증거금으로 묶이고 나머지 160만원은 여전히 사용 가능합니다. 반대로 증거금율이 100%인 종목이면 100만원 전액이 묶여 사용 가능 잔액이 100만원으로 줄어듭니다. <mark>초보 투자자가 "예수금은 있는데 왜 주문이 거부되지"라고 헷갈리는 이유</mark>가 대부분 여기에 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">D+2는 무슨 뜻인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">D+2는 무슨 뜻인가요</h2>
 
 <p>D는 거래일(Day), +2는 영업일 기준 이틀 뒤라는 뜻입니다. 주식을 팔면 그 돈이 바로 들어오지 않고, <mark>매매일을 포함해 3거래일째(D+2)</mark>에 실제 결제가 완료되고 출금 가능한 예수금으로 바뀝니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종목마다 증거금율이 다른 이유는 뭔가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종목마다 증거금율이 다른 이유는 뭔가요</h2>
 
 <p>위탁증거금율은 종목의 가격 변동성·유동성·부실 위험도에 따라 <mark>20%부터 100%까지</mark> 증권사·거래소가 차등 지정합니다. 정기적으로 재평가되고, 특정 종목에 이슈가 생기면 수시로 변경되기도 합니다.</p>
 
@@ -137,7 +137,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 증권사 공식 위탁증거금 안내(2026-09-13 확인) 및 <a href="https://easylaw.go.kr" target="_blank" rel="noopener">찾기쉬운 생활법령정보</a> 시장경보제도 설명 교차 확인.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 5월부터 뭐가 바뀌나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 5월부터 뭐가 바뀌나요</h2>
 
 <p>한국거래소는 <mark>위탁증거금 100% 의무 징수 대상을 축소</mark>하는 개정을 2026년 5월 중 시행할 예정이라고 보도됐습니다. 기존에는 투자경고·투자위험·투자유의 3종 모두 100% 현금 증거금이 강제됐는데, 개정 후에는 <b>투자유의종목만 의무 대상으로 남고</b> 투자경고·투자위험종목은 증권사 재량으로 신용·미수 거래를 허용할 수 있게 됩니다.</p>
 

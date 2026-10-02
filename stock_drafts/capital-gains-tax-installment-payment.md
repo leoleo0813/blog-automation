@@ -112,21 +112,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>양도소득세 분납이 뭔가요</li>
-  <li>얼마부터 분납할 수 있나요</li>
-  <li>분납은 어떻게 신청하나요</li>
-  <li>분납하면 이자가 붙나요</li>
-  <li>분납을 신청 안 하면 어떻게 되나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">양도소득세 분납이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">얼마부터 분납할 수 있나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분납은 어떻게 신청하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분납하면 이자가 붙나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분납을 신청 안 하면 어떻게 되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세 분납이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세 분납이 뭔가요</h2>
 
 <p>양도소득세 분납은 <mark>한 번에 내야 할 세금이 부담스러울 때, 정해진 기간 안에 나눠서 낼 수 있게 해주는 제도</mark>입니다. 해외주식을 팔아 양도차익이 크게 났거나, 국내 상장주식 대주주로 분류돼 예정신고·확정신고 대상이 된 경우 이 제도를 쓸 수 있습니다.</p>
 
 <p>해외주식·국내주식 대주주의 신고 자체가 처음이라면, <a href="https://sensitiveboss3.tistory.com/entry/overseas-stock-tax-filing" target="_blank" rel="noopener">해외주식 양도소득세 신고 방법</a>과 <a href="https://sensitiveboss3.tistory.com/entry/domestic-stock-capital-gains-filing" target="_blank" rel="noopener">국내주식 양도소득세 신고방법</a>에서 신고 대상과 기한을 먼저 확인하는 것이 순서입니다. 이 글은 "신고는 끝냈는데 낼 세금이 너무 크다"는 다음 단계를 다룹니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">얼마부터 분납할 수 있나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">얼마부터 분납할 수 있나요</h2>
 
 <p>납부할 양도소득세가 <b>1,000만원을 초과</b>하면 그중 일부를 나눠 낼 수 있습니다. 나눠 낼 수 있는 금액은 세액 구간에 따라 다릅니다.</p>
 
@@ -157,7 +157,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 소득세법 제77조(분할납부). 이 조문은 중간예납(제65조)뿐 아니라 양도소득세 확정신고(제76조)에도 같은 기준으로 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납은 어떻게 신청하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납은 어떻게 신청하나요</h2>
 
 <p>별도 신청서를 따로 제출하는 절차가 아닙니다. <b>예정신고서 또는 확정신고서 자체에 분납할 금액을 적어서 함께 제출</b>하면 그게 신청입니다.</p>
 
@@ -167,7 +167,7 @@ self_check: |
   <li><mark>신청 시점은 예정신고 또는 확정신고 기한과 같습니다.</mark> 세금을 일단 신고·납부한 뒤 나중에 분납으로 바꿀 수는 없습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납하면 이자가 붙나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납하면 이자가 붙나요</h2>
 
 <p>분납 자체에는 이자가 붙지 않습니다. 다만 나눠 낸 두 번째 분납분을 정해진 기한(원래 납부기한으로부터 2개월) 안에 내지 못하면, 그 시점부터 <b>납부지연가산세</b>가 붙습니다. 하루당 0.025%(연 9.125%) 비율이라 큰 금액을 오래 미룰수록 부담이 커집니다.</p>
 
@@ -176,7 +176,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">분납은 "제때 신고했지만 낼 돈이 커서 나눠 내는 것"이고, 신고 자체를 놓쳤을 때 붙는 가산세는 별개입니다. 신고 기한을 놓친 경우에는 무신고가산세와 납부지연가산세가 따로 붙습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납을 신청 안 하면 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분납을 신청 안 하면 어떻게 되나요</h2>
 
 <p><b>분납은 의무가 아니라 선택입니다.</b> 신청하지 않으면 원래대로 납부기한까지 전액을 한 번에 내야 합니다. 분납을 신청했다고 세금 자체가 줄어드는 것은 아니고, 내는 시점을 나누는 것일 뿐입니다.</p>
 
@@ -188,7 +188,7 @@ self_check: |
 
 <p>이 글은 양도소득세 분납 제도의 절차를 설명하는 것으로, 특정 종목이나 상품의 매수·매도를 권하는 내용이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">양도소득세 분납이란 무엇인가요</summary>

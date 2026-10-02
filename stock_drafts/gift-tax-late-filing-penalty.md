@@ -130,21 +130,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>증여세 기한후신고란 무엇인가요</li>
-  <li>기한후신고를 하면 가산세가 얼마나 붙나요</li>
-  <li>무신고가산세와 과소신고가산세는 뭐가 다른가요</li>
-  <li>빨리 신고하면 가산세를 감면받을 수 있나요</li>
-  <li>신고와 별도로 붙는 납부지연가산세는 무엇인가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증여세 기한후신고란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기한후신고를 하면 가산세가 얼마나 붙나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">무신고가산세와 과소신고가산세는 뭐가 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">빨리 신고하면 가산세를 감면받을 수 있나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고와 별도로 붙는 납부지연가산세는 무엇인가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증여세 기한후신고란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증여세 기한후신고란 무엇인가요</h2>
 
 <p>증여세는 <mark>재산을 증여받은 날이 속하는 달의 말일부터 3개월 이내</mark>에 신고해야 합니다. 기본적인 신고 대상·계산 방법은 <a href="https://sensitiveboss3.tistory.com/entry/stock-gift-tax" target="_blank" rel="noopener">이전 글(주식 증여세 계산 방법)</a>에서 다뤘습니다.</p>
 
 <p>이 기한을 넘긴 뒤 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>이 세액을 결정·통지하기 전에 스스로 신고하는 것이 "기한후신고"입니다. 아예 신고하지 않고 버티다 국세청이 먼저 알아내는 경우보다 가산세 부담이 가볍습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">기한후신고를 하면 가산세가 얼마나 붙나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">기한후신고를 하면 가산세가 얼마나 붙나요</h2>
 
 <p>기한후신고에는 원래 냈어야 할 세금(본세)에 더해 두 가지 가산세가 붙을 수 있습니다. 신고 자체를 안 한 것이므로 기본적으로 <b>무신고가산세</b>가 적용되고, 늦게 낸 기간만큼 <b>납부지연가산세</b>가 별도로 붙습니다.</p>
 
@@ -177,7 +177,7 @@ self_check: |
 
 <p>여기에 더해 부과제척기간(국세청이 과세할 수 있는 기간)도 늘어납니다. 제때 신고했다면 10년이지만, 무신고나 부정행위로 포탈했다면 <b>15년</b>까지 과세할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">무신고가산세와 과소신고가산세는 뭐가 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">무신고가산세와 과소신고가산세는 뭐가 다른가요</h2>
 
 <p>둘의 차이는 "신고를 아예 안 했는가, 신고는 했는데 금액을 적게 썼는가"입니다.</p>
 
@@ -188,7 +188,7 @@ self_check: |
 
 <p>기한후신고는 신고 자체를 안 하고 있다가 뒤늦게 처음 신고하는 것이므로, 원칙적으로 무신고가산세가 적용되는 상황입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">빨리 신고하면 가산세를 감면받을 수 있나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">빨리 신고하면 가산세를 감면받을 수 있나요</h2>
 
 <p>네, 국세청이 결정·통지하기 전에 스스로 기한후신고를 하면 <mark>무신고가산세 중 일부를 감면</mark>받을 수 있습니다(<a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 국세기본법 제48조). 신고가 늦어질수록 감면율이 줄어드는 구조입니다.</p>
 
@@ -226,7 +226,7 @@ self_check: |
 
 <p>한 가지 분명한 점은, 이 감면은 <b>무신고가산세에만</b> 적용된다는 것입니다. 다음 항목에서 다룰 납부지연가산세는 이 감면과 무관하게 그대로 부과됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고와 별도로 붙는 납부지연가산세는 무엇인가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고와 별도로 붙는 납부지연가산세는 무엇인가요</h2>
 
 <p>납부지연가산세는 <mark>내야 할 세금을 늦게 낸 기간만큼</mark> 매일 붙는 이자 성격의 가산세로, 무신고가산세·과소신고가산세와는 별개로 부과됩니다.</p>
 
@@ -235,7 +235,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">기존에는 미납 기간 하루하루에 비례해 계산됐지만, 2026-07-01부터는 고지 전 구간과 지정납부기한 경과 후 구간의 계산 방식이 달라졌다는 정보가 확인됩니다. 정확한 세부 조건과 적용 예시는 원문 확인 후 이 글에 반영하겠습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">증여세 기한후신고란 무엇인가요</summary>

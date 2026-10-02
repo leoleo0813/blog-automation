@@ -72,15 +72,15 @@ refresh_reason: "9월 생산자물가 잠정치(10월 하순 발표) 반영해 �
 
 <h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>최근 생산자물가 숫자</li>
-  <li>소비자물가지수와 무엇이 다른가</li>
-  <li>지수와 상승률은 이렇게 계산합니다</li>
-  <li>원재료, 중간재, 최종재로 나눠 보기</li>
-  <li>소비자물가로 번지는 경로</li>
-  <li>주식 투자자에게 왜 중요한가</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">최근 생산자물가 숫자</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">소비자물가지수와 무엇이 다른가</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지수와 상승률은 이렇게 계산합니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">원재료, 중간재, 최종재로 나눠 보기</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">소비자물가로 번지는 경로</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자에게 왜 중요한가</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">최근 생산자물가 숫자</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">최근 생산자물가 숫자</h2>
 
 <p>가장 최근 발표는 2026년 9월 18일에 나온 8월 잠정치입니다. 전월 대비로는 7월에 0.4% 내린 뒤 한 달 만에 다시 올랐습니다.</p>
 
@@ -100,7 +100,7 @@ refresh_reason: "9월 생산자물가 잠정치(10월 하순 발표) 반영해 �
 
 <p>8월 상승은 폭염으로 농림수산품이 전월보다 3.8% 오르고, 산업용 도시가스가 11.0% 오른 영향이 컸습니다(<a href="https://www.g-enews.com/article/Finance/2026/09/202609180820009244bb91c46fcd_1" target="_blank" rel="noopener">글로벌이코노믹</a>, <a href="https://www.fnnews.com/news/202609171712222751" target="_blank" rel="noopener">파이낸셜뉴스</a> 보도). 잠정치는 다음 달 발표 때 조금 수정될 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">소비자물가지수와 무엇이 다른가</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">소비자물가지수와 무엇이 다른가</h2>
 
 <p>차이는 <mark>누구의 거래가격을 재느냐</mark>입니다. 생산자물가지수는 생산자가 파는 가격이고, 소비자물가지수는 가구가 사는 가격입니다.</p>
 
@@ -122,7 +122,7 @@ refresh_reason: "9월 생산자물가 잠정치(10월 하순 발표) 반영해 �
 
 <p>격차가 4.8%포인트나 됩니다. 생산자물가에는 원재료와 에너지처럼 값이 크게 출렁이는 품목 비중이 크고, 소비자물가에는 집세와 개인서비스처럼 천천히 움직이는 품목이 많습니다. 범위 정의는 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=1411" target="_blank" rel="noopener">기획재정부 시사경제용어사전</a>을, 소비자물가 쪽 숫자는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법 글</a>의 최근 물가 표를 따랐습니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">지수와 상승률은 이렇게 계산합니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">지수와 상승률은 이렇게 계산합니다</h2>
 
 <p>종합지수는 품목 묶음별 지수에 거래액 비중(가중치)을 곱해 더한 가중 평균입니다. 아래 표는 원리를 보여 주는 가상의 세 묶음이고, 실제 가중치와 다릅니다.</p>
 
@@ -146,7 +146,7 @@ refresh_reason: "9월 생산자물가 잠정치(10월 하순 발표) 반영해 �
   <li>전년 동월 대비는 1년 전 같은 달 지수로 나눕니다. 기사에서 "전월 대비"와 "전년 동월 대비"가 섞여 나오니 기준부터 봅니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">원재료, 중간재, 최종재로 나눠 보기</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">원재료, 중간재, 최종재로 나눠 보기</h2>
 
 <p>한국은행은 수입품까지 넣은 국내공급물가지수를 생산 단계별로 따로 발표합니다. 8월에는 생산자물가가 올랐는데도 <mark>국내공급물가는 1.3% 내렸습니다</mark>.</p>
 
@@ -165,7 +165,7 @@ refresh_reason: "9월 생산자물가 잠정치(10월 하순 발표) 반영해 �
 
 <p>원재료는 국내 출하 가격이 2.8% 올랐지만 수입 가격이 6.4% 내려 전체로는 떨어졌습니다. 한국은행은 원·달러 환율 하락과 7월 국제유가 약세가 수입가격을 낮췄다고 설명했습니다. 같은 달에도 국내에서 만든 것과 들여온 것의 가격이 반대로 움직일 수 있다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">소비자물가로 번지는 경로</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">소비자물가로 번지는 경로</h2>
 
 <p>생산자물가는 원가 부담이 앞단에서 먼저 드러나는 지표라 소비자물가의 선행 신호로 자주 인용됩니다. 다만 번지는 크기와 속도는 매번 다릅니다.</p>
 
@@ -178,7 +178,7 @@ refresh_reason: "9월 생산자물가 잠정치(10월 하순 발표) 반영해 �
 
 <p>8월처럼 생산자물가 상승률이 소비자물가의 두 배가 넘는 달이 이어지면, 그 차이를 기업이 떠안고 있는지 나중에 판매가로 넘길지가 다음 물가 기사의 쟁점이 됩니다.</p>
 
-<h2 style="border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">주식 투자자에게 왜 중요한가</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #3a9a5b;padding-left:12px;margin-top:36px;">주식 투자자에게 왜 중요한가</h2>
 
 <p>생산자물가는 주가를 직접 정하지 않지만, 시장이 <mark>금리와 기업 마진</mark>을 다시 계산하게 만드는 재료입니다. 시장은 보통 두 갈래로 받아들입니다.</p>
 

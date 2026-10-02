@@ -100,20 +100,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>스톡옵션을 행사하면 세금이 어떻게 붙나요</li>
-  <li>벤처기업 스톡옵션은 비과세 특례가 있나요</li>
-  <li>한도를 넘으면 어떻게 되나요</li>
-  <li>과세이연 특례는 무엇이 다른가요</li>
-  <li>실제로 계산하면 얼마나 차이 나나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">스톡옵션을 행사하면 세금이 어떻게 붙나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">벤처기업 스톡옵션은 비과세 특례가 있나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">한도를 넘으면 어떻게 되나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">과세이연 특례는 무엇이 다른가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 계산하면 얼마나 차이 나나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">스톡옵션을 행사하면 세금이 어떻게 붙나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">스톡옵션을 행사하면 세금이 어떻게 붙나요</h2>
 
 <p>스톡옵션을 행사하면 <mark>행사 당시 시가에서 행사가격을 뺀 차액(행사이익)</mark>이 과세 대상이 됩니다. 원칙적으로 이 행사이익은 근로소득으로 보아 다른 급여와 합산해 종합소득세 누진세율(6~45%)이 적용됩니다.</p>
 
 <p>이 원칙만 적용되면 특례가 없는 일반 기업 임직원은 행사이익 전액이 과세 대상입니다. 벤처기업이라면 다음 절에서 보는 비과세 특례로 부담이 크게 줄어듭니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">벤처기업 스톡옵션은 비과세 특례가 있나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">벤처기업 스톡옵션은 비과세 특례가 있나요</h2>
 
 <p>네. 「벤처기업육성에 관한 특별법」에 따른 벤처기업(그 벤처기업이 발행주식 총수의 30% 이상을 인수한 기업 포함)의 임직원이 부여받은 스톡옵션은, 행사이익 <mark>연간 2억원까지, 누적 5억원까지 소득세가 비과세</mark>됩니다.</p>
 
@@ -131,7 +131,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 조세특례제한법 시행령(대통령령 제36423호, 2026.6.23. 타법개정) 제14조의2. 비과세 한도·적용기한은 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6586&amp;cntntsId=7865" target="_blank" rel="noopener">국세청 벤처기업 주식매수선택권 행사이익 안내</a> 확인(2026-09-08).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한도를 넘으면 어떻게 되나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한도를 넘으면 어떻게 되나요</h2>
 
 <p>2억원 한도를 넘는 행사이익은 <mark>과세 대상</mark>이 되지만, 그 초과분에 대해 <b>납부특례(조세특례제한법 제16조의3)</b>를 신청하면 납부 시기를 조정할 수 있습니다.</p>
 
@@ -149,7 +149,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 조세특례제한법 시행령 제14조의3.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">과세이연 특례는 무엇이 다른가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">과세이연 특례는 무엇이 다른가요</h2>
 
 <p>비과세·납부특례와 별개로, <mark>행사이익을 아예 근로소득으로 과세하지 않고 나중에 주식을 처분할 때 양도소득세로 과세</mark>받는 특례(조세특례제한법 제16조의4)도 있습니다. 근로소득 누진세율보다 양도소득세율이 유리한 경우 선택할 만합니다.</p>
 
@@ -159,7 +159,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 조세특례제한법 시행령 제14조의4.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 계산하면 얼마나 차이 나나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 계산하면 얼마나 차이 나나요</h2>
 
 <p>같은 1억원의 행사이익도 <mark>벤처기업 여부와 한도 초과 여부에 따라 세금이 크게 달라집니다.</mark> 다른 소득이 없다고 단순화해 계산한 예시입니다.</p>
 

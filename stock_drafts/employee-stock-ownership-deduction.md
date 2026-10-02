@@ -127,15 +127,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>우리사주 소득공제 받는 조건</li>
-  <li>소득공제 한도 얼마까지 받나요</li>
-  <li>우리사주 인출 시 세금 계산법</li>
-  <li>우리사주 소득공제 계산 예시</li>
-  <li>연말정산 신청방법과 가입 제외 대상</li>
-  <li>많이 묻는 질문들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우리사주 소득공제 받는 조건</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">소득공제 한도 얼마까지 받나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우리사주 인출 시 세금 계산법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우리사주 소득공제 계산 예시</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연말정산 신청방법과 가입 제외 대상</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">많이 묻는 질문들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">우리사주 소득공제 받는 조건</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #059669;padding-left:12px;margin-top:36px;">우리사주 소득공제 받는 조건</h2>
 
 <p>우리사주 소득공제는 근로복지기본법상 우리사주조합원이 조합을 통해 직접 출자한 금액에만 적용됩니다. 회사가 다니는 직장에 우리사주조합이 설립되어 있어야 하고, 급여에서 본인이 실제로 돈을 내서 출자했어야 합니다.</p>
 
@@ -147,7 +147,7 @@ self_check: |
 
 <p>회사나 대주주가 무상으로 나눠준 우리사주는 소득공제를 받을 수 없습니다. 그런데도 인출 시점까지 소득세를 부과하지 않는 과세이연 혜택은 그대로 적용되므로, 무상 지급분이라고 세제 혜택이 아예 없는 것은 아닙니다.</p>
 
-<h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">소득공제 한도 얼마까지 받나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #059669;padding-left:12px;margin-top:36px;">소득공제 한도 얼마까지 받나요</h2>
 
 <p>조세특례제한법 제88조의4 제1항에 따르면, 우리사주조합원이 해당 연도에 출자한 금액과 400만 원 중 적은 금액을 근로소득금액에서 공제합니다. <mark>벤처기업 등의 우리사주조합원은 출자금액과 1,500만 원 중 적은 금액</mark>까지 공제 범위가 넓어집니다.</p>
 
@@ -175,7 +175,7 @@ self_check: |
 
 <p>공제는 출자한 해의 근로소득에서 바로 빠지는 방식이라, 공제받는 시점에는 세금 부담이 줄어듭니다. 세부 요건은 <a href="https://www.law.go.kr/lsLawLinkInfo.do?lsJoLnkSeq=1001060464&amp;chrClsCd=010202" target="_blank" rel="noopener">국가법령정보센터</a>에서 조문 원문으로 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">우리사주 인출 시 세금 계산법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #059669;padding-left:12px;margin-top:36px;">우리사주 인출 시 세금 계산법</h2>
 
 <p>우리사주는 낼 때 공제받고 뺄 때(인출 시) 과세하는 구조입니다. 출자할 때 소득공제를 받은 만큼, 나중에 조합에서 주식을 인출하면 그 인출금을 근로소득으로 봅니다.</p>
 
@@ -210,7 +210,7 @@ self_check: |
 
 <p>그런데 회사나 대주주가 무상으로 지급한 우리사주는 애초에 소득공제를 받지 않았으므로, 인출 시에도 이 감면 비율과는 별도로 취급됩니다. 조합기금이나 조합 보유 우리사주에서 생긴 소득 자체에는 소득세가 부과되지 않는 별도 비과세 규정도 있습니다.</p>
 
-<h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">우리사주 소득공제 계산 예시</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #059669;padding-left:12px;margin-top:36px;">우리사주 소득공제 계산 예시</h2>
 
 <p>과세표준이 1,400만 원 초과 5,000만 원 이하 구간(세율 15%, 누진공제 126만 원)에 해당하는 근로자를 예로 들어보겠습니다. 이 근로자가 우리사주조합에 300만 원을 출자했다면, 400만 원 한도 안이라 출자금 전액이 소득공제 대상입니다.</p>
 
@@ -223,7 +223,7 @@ self_check: |
 
 <p>실제 절세액은 개인의 과세표준 구간과 다른 소득공제·세액공제 적용 여부에 따라 달라질 수 있습니다. 정확한 금액은 연말정산 시 회사의 원천징수 결과로 확인하는 것이 가장 정확합니다.</p>
 
-<h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">연말정산 신청방법과 가입 제외 대상</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #059669;padding-left:12px;margin-top:36px;">연말정산 신청방법과 가입 제외 대상</h2>
 
 <p>우리사주 소득공제는 별도로 국세청에 신청서를 내는 방식이 아니라, 회사가 진행하는 연말정산 절차 안에서 반영됩니다.</p>
 
@@ -238,7 +238,7 @@ self_check: |
 
 <p>제도의 구조와 법적 근거는 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>과 <a href="https://www.moel.go.kr" target="_blank" rel="noopener">고용노동부</a> 홈페이지에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #059669;padding-left:12px;margin-top:36px;">많이 묻는 질문들</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #059669;padding-left:12px;margin-top:36px;">많이 묻는 질문들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">우리사주 소득공제는 누구나 받을 수 있나요</summary>

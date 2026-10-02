@@ -102,21 +102,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>증권거래세는 어떤 세금인가요</li>
-  <li>시장별 세율은 얼마인가요</li>
-  <li>코스피는 왜 세율이 두 개인가요</li>
-  <li>2026년에 무엇이 바뀌었나요</li>
-  <li>매도 금액별로 얼마나 떼나요</li>
-  <li>따로 신고해야 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증권거래세는 어떤 세금인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">시장별 세율은 얼마인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">코스피는 왜 세율이 두 개인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년에 무엇이 바뀌었나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매도 금액별로 얼마나 떼나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">따로 신고해야 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권거래세는 어떤 세금인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권거래세는 어떤 세금인가요</h2>
 
 <p>증권거래세는 <mark>주식을 팔 때 매도 금액에 대해 매기는 세금</mark>입니다. 이익에 매기는 세금이 아니라 거래 자체에 매기는 세금이라, <b>손실을 보고 팔아도 내야 합니다.</b></p>
 
 <p>이 점이 양도소득세와 다릅니다. 양도소득세는 이익이 났을 때 대주주 등 일부만 내지만, 증권거래세는 국내 상장주식을 파는 모든 사람이 냅니다. 매도 시 내는 세금 전반은 따로 정리한 "주식 매도 세금 얼마" 글을 참고하세요.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">시장별 세율은 얼마인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">시장별 세율은 얼마인가요</h2>
 
 <p>세율은 어느 시장에서 파는지에 따라 다릅니다. <mark>코스피는 증권거래세와 농어촌특별세를 합쳐서 봐야</mark> 실제 부담이 나옵니다.</p>
 
@@ -144,7 +144,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">증권거래세법 시행령이 코스피(유가증권시장)만 탄력세율로 0.05%까지 낮춰주고, 낮춘 만큼을 농어촌특별세(0.15%)로 별도 징수해 실질 부담을 맞추는 구조입니다. 코스닥·코넥스·장외는 애초에 탄력세율 자체가 낮지 않아(0.10~0.20%) 농특세를 얹을 필요가 없습니다. 그래서 네 시장 모두 <b>합계는 0.10~0.20% 사이</b>로 수렴합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피는 왜 세율이 두 개인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피는 왜 세율이 두 개인가요</h2>
 
 <p>코스피에서 주식을 팔면 <b>증권거래세와 농어촌특별세가 함께</b> 부과되기 때문입니다. 두 세금은 근거 법이 다르지만 매도할 때 같이 떼입니다.</p>
 
@@ -170,13 +170,13 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.law.go.kr" target="_blank" rel="noopener">농어촌특별세법</a>(법률 제21611호) 제3조제4호·제4조제7호·제5조제1항제5호, 「증권거래세법 시행령」(대통령령 제35947호) 제5조(탄력세율). 증권사가 매도 대금에서 증권거래세를 거래징수할 때 농어촌특별세도 함께 징수해 납부합니다(농어촌특별세법 제7조제4항).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년에 무엇이 바뀌었나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년에 무엇이 바뀌었나요</h2>
 
 <p>2026년 1월 1일 이후 양도분부터 <mark>증권거래세율이 인상</mark>됐습니다. 증권거래세법 시행령 부칙에 따르면 <b>2025년 12월 31일 개정, 2026년 1월 1일 시행</b>이며, 개정 이전 세율이 시행령 본문에 남아 있지 않아 정확한 인상 폭은 이 문서만으로는 알 수 없습니다. 다만 여러 언론 보도가 "금융투자소득세 도입을 전제로 단계적으로 낮췄던 세율을, 금투세 폐지에 따라 되돌리는 개정"이라고 전하고 있어 맥락상 인상이 맞습니다.</p>
 
 <p style="font-size:13px;color:#888;">근거: 「증권거래세법 시행령」(대통령령 제35947호) 부칙 제1조(시행일)·제2조(탄력세율에 관한 적용례).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매도 금액별로 얼마나 떼나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">매도 금액별로 얼마나 떼나요</h2>
 
 <p>증권거래세와 농어촌특별세 모두 <mark>매도 금액에 세율을 곱해</mark> 계산합니다. 매수 금액이나 손익과는 무관합니다.</p>
 
@@ -198,7 +198,7 @@ self_check: |
 
 <p>코스피 칸은 증권거래세(0.05%)와 농어촌특별세(0.15%)를 합친 금액입니다. <mark>코스피와 코스닥은 세금 구성만 다를 뿐 최종 부담은 같습니다.</mark> 세율이 낮다고 알려진 코스피가 실제로는 코스닥과 똑같이 떼인다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">따로 신고해야 하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">따로 신고해야 하나요</h2>
 
 <p>아닙니다. 증권사가 매도 대금을 정산할 때 <mark>자동으로 떼고 대신 납부</mark>합니다. 투자자가 따로 신고하거나 납부할 일은 없습니다.</p>
 

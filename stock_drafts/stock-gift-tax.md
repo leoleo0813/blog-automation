@@ -97,15 +97,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>주식 증여세는 어떻게 계산하나요</li>
-  <li>상장주식은 얼마로 평가하나요</li>
-  <li>증여재산공제는 얼마까지인가요</li>
-  <li>세율은 어떻게 적용하나요</li>
-  <li>실제로 계산하면 얼마인가요</li>
-  <li>신고는 언제, 어떻게 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 증여세는 어떻게 계산하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장주식은 얼마로 평가하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증여재산공제는 얼마까지인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세율은 어떻게 적용하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 계산하면 얼마인가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고는 언제, 어떻게 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식 증여세는 어떻게 계산하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식 증여세는 어떻게 계산하나요</h2>
 
 <p>증여세는 <mark>증여재산가액에서 증여재산공제를 뺀 과세표준에 세율을 곱하고 누진공제액을 빼서</mark> 계산합니다. 순서는 다음과 같습니다.</p>
 
@@ -116,7 +116,7 @@ self_check: |
 
 <p>상장주식을 증여하는 경우 이 계산의 출발점인 <b>증여재산가액</b> 자체가 관건입니다. 증여일 당일 종가로 계산하는 사람이 많은데, 정확한 방법은 다음과 같습니다. 전체 계산 흐름은 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2340&amp;cntntsId=7728" target="_blank" rel="noopener">국세청 세액계산 흐름도</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장주식은 얼마로 평가하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장주식은 얼마로 평가하나요</h2>
 
 <p>상장주식(코스피·코스닥)은 <mark>증여일(평가기준일) 전후 각 2개월, 총 4개월간 공표된 매일의 최종시세가액 평균액</mark>으로 평가합니다. 「상속세및증여세법 시행령」 제52조의2 제1항이 유가증권시장(코스피)과 코스닥시장 둘 다 이 방식이 적용되는 증권시장이라고 정하고 있습니다.</p>
 
@@ -138,7 +138,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 「상속세및증여세법 시행령」[시행 2026.2.27.][대통령령 제36131호] 제52조의2(유가증권시장 및 코스닥시장에서 거래되는 주식등의 평가) 전문(2026-09-08 <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증여재산공제는 얼마까지인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증여재산공제는 얼마까지인가요</h2>
 
 <p>증여자와의 관계에 따라 <mark>10년간 합산해서</mark> 아래 금액까지 공제받을 수 있습니다. 이미 10년 이내에 공제받은 금액이 있다면 이번 공제에서 그만큼 줄어듭니다.</p>
 
@@ -160,7 +160,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6533&amp;cntntsId=7960" target="_blank" rel="noopener">국세청 증여세 항목별 설명</a>(2026-09-08 확인). 창업자금·가업승계용 중소기업주식 등은 별도로 5억원 공제(위 표와 중복적용 불가).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율은 어떻게 적용하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율은 어떻게 적용하나요</h2>
 
 <p>과세표준 구간에 따라 <mark>5단계 초과누진세율</mark>이 적용됩니다. 과세표준에 세율을 곱한 뒤 누진공제액을 빼면 산출세액이 나옵니다.</p>
 
@@ -185,7 +185,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2340&amp;cntntsId=7728" target="_blank" rel="noopener">국세청 증여세 세액계산 흐름도</a>(2026-09-08 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 계산하면 얼마인가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 계산하면 얼마인가요</h2>
 
 <p>2개월 평균으로 평가한 금액을 기준으로 실제 계산해보겠습니다.</p>
 
@@ -208,7 +208,7 @@ self_check: |
 
 <p>배우자 증여는 공제 한도(6억원)가 커서 <mark>과세표준이 세율 구간을 하나 넘어가면(1억원 초과) 누진공제액을 반드시 빼야</mark> 정확한 세액이 나옵니다. 20%를 그대로 곱하고 누진공제를 빼먹으면 세액을 과대 계산하게 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 언제, 어떻게 하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 언제, 어떻게 하나요</h2>
 
 <p>증여받은 날이 속하는 달의 말일부터 <mark>3개월 이내</mark>에 수증자(재산을 받은 사람)가 신고·납부합니다. <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 전자신고할 수 있습니다.</p>
 

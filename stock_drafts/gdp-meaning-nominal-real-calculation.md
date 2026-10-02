@@ -65,18 +65,18 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 <h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>명목 GDP, 실질 GDP, 디플레이터 계산</li>
-  <li>GDP가 재는 범위</li>
-  <li>지출 쪽에서 GDP 더하는 법</li>
-  <li>성장률 기사 읽는 법</li>
-  <li>2026년 2분기 실제 숫자로 읽기</li>
-  <li>기준년 개편이 GDP 크기를 바꾸는 이유</li>
-  <li>GDP 디플레이터와 소비자물가지수 비교</li>
-  <li>GDP 발표가 주식시장에 닿는 길</li>
-  <li>GDP 발표 날 궁금해지는 6가지</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">명목 GDP, 실질 GDP, 디플레이터 계산</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">GDP가 재는 범위</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지출 쪽에서 GDP 더하는 법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">성장률 기사 읽는 법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 2분기 실제 숫자로 읽기</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기준년 개편이 GDP 크기를 바꾸는 이유</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">GDP 디플레이터와 소비자물가지수 비교</a></li>
+  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">GDP 발표가 주식시장에 닿는 길</a></li>
+  <li><a href="#sec-9" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">GDP 발표 날 궁금해지는 6가지</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">명목 GDP, 실질 GDP, 디플레이터 계산</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">명목 GDP, 실질 GDP, 디플레이터 계산</h2>
 
 <p>세 값은 쌀과 빵만 만드는 가상의 나라로 계산하면 한 번에 이해됩니다. 아래 숫자는 이해를 돕기 위한 가상의 값이며 실제 통계가 아닙니다.</p>
 
@@ -112,7 +112,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 
 <p>실제 숫자로도 확인할 수 있습니다. <a href="https://eiec.kdi.re.kr/material/clickView.do?click_yymm=201001&amp;cidx=1284" target="_blank" rel="noopener">KDI 경제교육정보센터 GDP디플레이터 설명</a>은 2007년 우리나라 명목 GDP 901조 원, 실질 GDP 798조 원, 디플레이터 112.9(기준연도 2000년)를 예로 듭니다. 901 ÷ 798 × 100을 계산하면 약 112.9가 나오고, 7년간 물가가 12.9% 올랐다는 해석이 됩니다.</p>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP가 재는 범위</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP가 재는 범위</h2>
 
 <p>GDP는 국내에서 1년간 새로 생산된 재화와 서비스의 시장 가치를 합친 값입니다. 정의와 명목·실질 구분은 <a href="https://eiec.kdi.re.kr/material/clickView.do?click_yymm=201512&amp;cidx=1936" target="_blank" rel="noopener">KDI 경제교육정보센터 명목과 실질 사이</a>과 같은 공공 교육 자료에서 같은 방향으로 설명합니다.</p>
 
@@ -122,7 +122,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
   <li>국민이 해외에서 번 소득은 GDP가 아니라 GNI 쪽에서 다룹니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">지출 쪽에서 GDP 더하는 법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">지출 쪽에서 GDP 더하는 법</h2>
 
 <p>GDP를 지출 쪽에서 보면 소비, 투자, 정부지출, 순수출의 합입니다. <a href="https://eiec.kdi.re.kr/material/clickView.do?click_yymm=201512&amp;cidx=966" target="_blank" rel="noopener">KDI 경제교육정보센터 국내총생산을 계산하는 세 가지 방법</a>과 <a href="https://sgsg.hankyung.com/article/2023111742051" target="_blank" rel="noopener">한국경제 경제학 원론 산책</a>도 같은 구성을 설명합니다.</p>
 
@@ -144,7 +144,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 
 <p>수입을 빼는 이유는 수입품 가치가 소비와 투자 항목에 섞여 있지만 국내에서 생산된 것이 아니기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">성장률 기사 읽는 법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">성장률 기사 읽는 법</h2>
 
 <p>성장률 기사에는 전기 대비와 전년 동기 대비가 섞여 나오므로 어느 기준인지 먼저 봐야 합니다. 가상의 실질 GDP로 두 방식을 계산해 보겠습니다.</p>
 
@@ -155,7 +155,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 
 <p>한국은행은 분기가 끝난 뒤 약 23일 만에 실질 GDP 속보치를 발표하고, 3분기는 10월 하순입니다. 이후 잠정치가 나오면 값이 수정될 수 있습니다. 2026년 2분기 실제 숫자는 다음 섹션에서 따로 봅니다.</p>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">2026년 2분기 실제 숫자로 읽기</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">2026년 2분기 실제 숫자로 읽기</h2>
 
 <p>가장 최근 숫자는 2026년 9월 8일에 나온 2분기 잠정치입니다. 실질 성장률 0.6%는 7월 23일 속보치와 같았고, 명목 GDP 증가율은 <mark>전년 동기 대비 26.4%로 47년 만에 가장 높았습니다</mark>.</p>
 
@@ -176,7 +176,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 
 <p>위 계산법을 실제 숫자에 그대로 적용할 수 있습니다. 명목이 9.2%, 실질이 0.6% 늘었으니 디플레이터 변화는 (1.092 ÷ 1.006 − 1) × 100 = 약 8.5%입니다. 생산량은 조금 늘었고, 늘어난 금액 대부분은 가격 쪽에서 나왔다는 뜻입니다. 보도에서는 반도체 수출과 교역조건 개선이 2분기 성장을 이끈 요인으로 꼽혔습니다(<a href="https://www.g-enews.com/article/Finance/2026/09/202609080822348979bb91c46fcd_1" target="_blank" rel="noopener">글로벌이코노믹</a>, <a href="https://www.leadeconomy.co.kr/news/articleView.html?idxno=9600" target="_blank" rel="noopener">리드경제</a>).</p>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">기준년 개편이 GDP 크기를 바꾸는 이유</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">기준년 개편이 GDP 크기를 바꾸는 이유</h2>
 
 <p>한국은행은 기초자료의 작성 주기에 따라 5년마다 국민계정 기준년을 개편하고, 2020년 개편에서 기준년을 2015년에서 2020년으로 바꿨습니다. 개편 결과는 <a href="https://www.bok.or.kr/portal/bbs/B0000217/view.do?nttId=10086131&amp;oldMenuNo=201151&amp;menuNo=200144&amp;programType=multiCont&amp;depth=200144&amp;relate=Y" target="_blank" rel="noopener">한국은행 국민계정 2020년 기준년 개편 결과</a>와 <a href="https://www.etoday.co.kr/news/view/2366992" target="_blank" rel="noopener">이투데이 기준년 개편 기사</a>에 정리되어 있습니다.</p>
 
@@ -198,7 +198,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>같은 연도의 GDP라도 신계열과 구계열 값이 다를 수 있습니다.</li><li>1인당 GNI 3만 달러 돌파 시기가 2017년에서 2014년으로 앞당겨진 것도 이 개편의 결과입니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP 디플레이터와 소비자물가지수 비교</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP 디플레이터와 소비자물가지수 비교</h2>
 
 <p>두 지표 모두 물가를 보지만 범위가 다릅니다. 소비자물가지수는 소비자가 구입하는 재화와 서비스, GDP 디플레이터는 국내에서 생산되는 모든 경제활동의 가격을 반영합니다.</p>
 
@@ -215,7 +215,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 
 <p>소비자물가지수 계산 과정은 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법을 다룬 글</a>에, 기업 간 가격은 <a href="https://sensitiveboss3.tistory.com/entry/producer-price-index-cpi-difference" target="_blank" rel="noopener">생산자물가지수 글</a>에 따로 정리했습니다. 세 지표를 같이 보면 가격 흐름이 어디서 시작해 어디로 번지는지 읽을 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP 발표가 주식시장에 닿는 길</h2>
+<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP 발표가 주식시장에 닿는 길</h2>
 
 <p>GDP는 주가를 직접 정하지 않지만, 시장이 기업 이익과 금리 전망을 고치는 계기가 됩니다. 읽을 때는 세 가지를 나눠 봅니다.</p>
 
@@ -227,7 +227,7 @@ refresh_reason: "3분기 실질 GDP 속보치(10월 하순 발표) 반영해 실
 
 <p>지출 항목도 같이 봅니다. 수출과 설비투자 중 무엇이 성장을 이끌었는지에 따라 실적이 함께 움직이는 업종이 달라집니다. 어느 쪽이든 GDP 한 줄로 개별 종목의 방향을 정할 수는 없습니다.</p>
 
-<h2 style="border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP 발표 날 궁금해지는 6가지</h2>
+<h2 id="sec-9" style="scroll-margin-top:72px;border-left:6px solid #d6455d;padding-left:12px;margin-top:36px;">GDP 발표 날 궁금해지는 6가지</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">명목 GDP와 실질 GDP 중 뉴스의 경제성장률은 어느 쪽인가요</summary>

@@ -144,21 +144,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>상속세 연부연납 조건</li>
-  <li>담보는 무엇으로 얼마나 제공하나요</li>
-  <li>상속세와 증여세, 기간이 다르다</li>
-  <li>상속받은 주식을 담보로 쓸 수 있나요</li>
-  <li>가업상속공제와 만나면 기간이 늘어나는 이유</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상속세 연부연납 조건</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">담보는 무엇으로 얼마나 제공하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상속세와 증여세, 기간이 다르다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상속받은 주식을 담보로 쓸 수 있나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가업상속공제와 만나면 기간이 늘어나는 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">상속세 연부연납 조건</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">상속세 연부연납 조건</h2>
 
 <p>연부연납은 상속세나 증여세를 한 번에 내기 어려울 때, 국세청 허가를 받아 여러 해에 걸쳐 나눠 내는 제도입니다. 아무 세액에나 적용되지는 않고, 납부할 세액이 2,000만원을 초과해야 신청할 수 있습니다.</p>
 
 <p>신청은 상속세·증여세 신고기한 안에 관할 세무서에 연부연납허가신청서를 제출하는 방식으로 합니다. 신고기한을 넘겨 고지서를 받은 경우에도 고지서에 적힌 납부기한 안에 신청할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">담보는 무엇으로 얼마나 제공하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">담보는 무엇으로 얼마나 제공하나요</h2>
 
 <p>연부연납을 받으려면 담보 제공이 필수입니다. 담보로 인정되는 자산은 부동산, 금전, 국채·지방채 같은 유가증권, 납세보증보험증권, 은행의 납세보증서 등입니다.</p>
 
@@ -188,19 +188,19 @@ self_check: |
 
 <p>이자상당액을 계산할 때 쓰는 가산율은 <b>연 1천분의 35(연 3.5%)</b>입니다. 국세기본법 시행규칙 제19조의3(국세환급가산금의 이율)에 정해진 값을 그대로 준용합니다. 예를 들어 상속세 3억원을 연부연납으로 신청하면, 아직 갚지 않은 잔액에 대해 연 3.5%씩 가산금이 붙습니다. 3억원이 고스란히 남아 있는 첫해를 기준으로 하면 연간 가산금은 약 1,050만원(3억원×3.5%)입니다. 실제로는 매회 분납하면서 잔액이 줄어들기 때문에, 전체 기간 동안 내는 가산금 총액은 이보다 적습니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">상속세와 증여세, 기간이 다르다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">상속세와 증여세, 기간이 다르다</h2>
 
 <p>연부연납 기간은 세금 종류에 따라 다릅니다. 상속세는 허가받은 날로부터 <mark>10년 이내</mark>이고, 증여세는 5년 이내입니다. 증여세는 최초 납부분을 포함해 총 6회로 나눠 내는 구조입니다.</p>
 
 <p>세무서장은 신청서를 받으면 허가 여부를 서면으로 통지해야 합니다. 통지 기한은 상속세가 신고기한부터 6개월, 증여세가 3개월입니다. 이 기간 안에 통지가 없으면 자동으로 허가된 것으로 봅니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">상속받은 주식을 담보로 쓸 수 있나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">상속받은 주식을 담보로 쓸 수 있나요</h2>
 
 <p>가능합니다. 국채나 상장주식처럼 시장에서 바로 사고팔 수 있는 자산을 담보로 제공하면, 신청과 동시에 <b>자동 승인</b>됩니다. 다른 담보와 달리 세무서 심사 결과를 따로 기다릴 필요가 없다는 뜻입니다.</p>
 
 <p>여기서 주의할 점은 모든 주식이 해당하지는 않는다는 것입니다. 거래소에 상장돼 시세가 형성된 주식이라야 담보 인정을 받기 쉽고, 비상장주식은 담보 가치를 별도로 평가받아야 해 절차가 더 걸립니다. 현금이 부족해도 상속받은 주식을 그대로 들고 세금을 나눠 낼 방법이 있다는 점이 이 제도의 핵심입니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">가업상속공제와 만나면 기간이 늘어나는 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">가업상속공제와 만나면 기간이 늘어나는 이유</h2>
 
 <p><a href="https://sensitiveboss3.tistory.com/entry/business-succession-deduction">가업상속공제</a>를 받는 가업상속재산이라면 연부연납 기간이 최대 <mark>20년</mark>까지 늘어납니다. 공제로 세금을 줄이는 데 그치지 않고, 남은 세금을 갚는 기간까지 길게 열어줘 상속인이 회사 지분을 급하게 팔지 않아도 되게 하려는 취지입니다.</p>
 
@@ -208,7 +208,7 @@ self_check: |
 
 <p>담보로 쓸 자산이 있는지부터 확인해 보시기 바랍니다. 상속받은 주식이나 국채가 있다면 별도 담보를 마련할 필요 없이 그대로 활용할 수 있어 훨씬 수월합니다. 가산율은 매년 고시가 바뀔 수 있으므로, 신청 직전에 <a href="https://taxlaw.nts.go.kr" target="_blank" rel="noopener">국세법령정보시스템</a>에서 그해 적용되는 최신 이자율을 다시 확인하는 편이 안전합니다.</p>
 
-<h2 style="border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">연부연납은 아무 세금에나 신청할 수 있나요</summary>

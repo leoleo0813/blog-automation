@@ -148,21 +148,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>자사주 소각이 뭔가요</li>
-  <li>자사주를 팔면 회사에, 소각하면 주주에게 세금이 붙습니다</li>
-  <li>계속 보유한 주주는 세금을 내지 않습니다</li>
-  <li>2026년부터 자사주 소각이 의무입니다</li>
-  <li>예외적으로 의제배당세가 발생하는 경우</li>
-  <li>이것도 궁금하셨나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자사주 소각이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자사주를 팔면 회사에, 소각하면 주주에게 세금이 붙습니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">계속 보유한 주주는 세금을 내지 않습니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년부터 자사주 소각이 의무입니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">예외적으로 의제배당세가 발생하는 경우</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이것도 궁금하셨나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">자사주 소각이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">자사주 소각이 뭔가요</h2>
 
 <p>자사주 소각은 회사가 사들여 보유하고 있던 자기 회사 주식을 완전히 없애는 절차입니다. 시중에 풀린 주식 수 자체가 줄어드는 효과가 있습니다.</p>
 
 <p>자사주를 사는 것(매입)과 없애는 것(소각)은 서로 다른 단계입니다. 회사는 시장에서 자사주를 사들인 뒤 계속 보유할 수도, 임직원 보상용으로 쓸 수도, 소각할 수도 있습니다. 세금 문제는 이 중 "처분" 단계, 즉 매각하느냐 소각하느냐에서 갈립니다.</p>
 
-<h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">자사주를 팔면 회사에, 소각하면 주주에게 세금이 붙습니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">자사주를 팔면 회사에, 소각하면 주주에게 세금이 붙습니다</h2>
 
 <p>회사가 갖고 있던 자사주를 제3자에게 되팔면, 취득가보다 비싸게 팔아 남은 이익에 법인세가 붙습니다. 회사(법인) 입장의 세금입니다.</p>
 
@@ -192,7 +192,7 @@ self_check: |
 
 <p>의제배당의 원천징수 시기는 실제로 돈이 오간 날이 아니라 <b>주식의 소각을 결정한 날</b>입니다. 세율은 배당소득세와 동일하게 원천징수 15.4%이고, 다른 금융소득과 합쳐 연 2,000만원을 넘으면 종합과세 대상이 됩니다.</p>
 
-<h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">계속 보유한 주주는 세금을 내지 않습니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">계속 보유한 주주는 세금을 내지 않습니다</h2>
 
 <p>여기서 가장 많이 헷갈리는 부분이 남습니다. 자사주가 소각되면 시중 주식 수가 줄어 남은 주주의 지분율은 자연히 올라갑니다. 그런데 이 지분율 상승 자체에는 세금이 붙지 않습니다.</p>
 
@@ -209,7 +209,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">그 자체로 개인 주주가 세금 신고를 해야 하는 일은 생기지 않습니다. 회사에 직접 주식을 팔아 소각대금을 받은 경우가 아니라면, 시장에서 계속 주식을 들고 있는 이상 이번 소각으로 발생하는 세금은 없습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">2026년부터 자사주 소각이 의무입니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">2026년부터 자사주 소각이 의무입니다</h2>
 
 <p>2026년 2월 25일 국회 본회의를 통과하고 같은 해 3월 6일 공포와 동시에 시행된 3차 상법 개정으로, 자사주는 원칙적으로 취득 후 <mark>1년 안에 소각</mark>해야 합니다. 임직원 보상 등 활용 목적이 있으면 매년 주주총회 승인을 받아 예외적으로 보유할 수 있습니다.</p>
 
@@ -238,7 +238,7 @@ self_check: |
 
 <p>상장회사뿐 아니라 비상장회사, 벤처기업까지 예외 없이 적용됩니다. 그동안 자사주를 지분 방어나 우호지분 확보 수단으로 오래 들고 있던 회사들은 이제 보유·처분 계획서를 만들어 매년 주주총회 승인을 받거나, 정해진 기한 안에 실제로 소각해야 합니다.</p>
 
-<h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">예외적으로 의제배당세가 발생하는 경우</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">예외적으로 의제배당세가 발생하는 경우</h2>
 
 <p>일반 소액주주가 시장에서 상장주식을 그냥 팔 때와, 회사가 특정 주주와 직접 협의해 주식을 사들여 소각하는 것(유상소각·이익소각)은 완전히 다른 상황입니다. 그런데 뉴스에서 "자사주 소각 세금 폭탄"이라는 표현이 나오는 것도 대부분 이 후자, 즉 회사와 직접 거래하는 특정 주주(주로 지주회사나 대주주)에게 해당하는 이야기입니다.</p>
 
@@ -267,7 +267,7 @@ self_check: |
 
 <p>결국 핵심은 "누가 회사로부터 실제로 돈을 받았는가"입니다. 돈을 받은 사람에게만 그 차액에 대한 세금 문제가 생기고, 그렇지 않은 주주에게는 소각 자체가 별도의 세금 이벤트가 아닙니다.</p>
 
-<h2 style="border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">이것도 궁금하셨나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #16a34a;padding-left:12px;margin-top:36px;">이것도 궁금하셨나요</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">내가 보유한 회사가 자사주를 소각하면 저도 세금을 내야 하나요</summary>

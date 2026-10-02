@@ -53,15 +53,15 @@ self_check: |
 <h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>환헤지 뜻: 환율을 미리 고정해 두는 계약</li>
-  <li>환율이 움직이면 수익률은 얼마나 달라질까</li>
-  <li>환헤지 비용이 생기는 이유와 계산법</li>
-  <li>(H)와 (UH) 상품명 읽는 법</li>
-  <li>환헤지 결정 전 확인할 점</li>
-  <li>환헤지 관련 짚고 갈 것들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환헤지 뜻: 환율을 미리 고정해 두는 계약</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환율이 움직이면 수익률은 얼마나 달라질까</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환헤지 비용이 생기는 이유와 계산법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">(H)와 (UH) 상품명 읽는 법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환헤지 결정 전 확인할 점</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환헤지 관련 짚고 갈 것들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 뜻: 환율을 미리 고정해 두는 계약</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 뜻: 환율을 미리 고정해 두는 계약</h2>
 
 <p><mark>환헤지는 환율 변동으로 생기는 손익을 없애거나 줄이려고 미리 거래 환율을 정해 두는 것입니다.</mark> 헤지(Hedge)는 위험을 피한다는 뜻이고, 실무에서는 선물환 같은 계약으로 처리합니다.</p>
 
@@ -69,7 +69,7 @@ self_check: |
 
 <p>환헤지가 없는 상태는 환노출이라고 부릅니다. 국내 상장 해외 ETF는 <a href="https://www.samsungfund.com/etf/insight/guide/view07.do" target="_blank" rel="noopener">삼성자산운용 KODEX ETF 투자기초가이드</a>처럼 운용사 안내에서 (H)와 (UH)로 구분해 설명합니다.</p>
 
-<h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환율이 움직이면 수익률은 얼마나 달라질까</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환율이 움직이면 수익률은 얼마나 달라질까</h2>
 
 <p>환노출형의 원화 수익률은 <mark>(1 + 지수 수익률) × (1 + 환율 변동률) - 1</mark>로 계산합니다. 아래 표의 숫자는 이해를 돕기 위한 가상 값이며 실제 상품의 수익률이 아닙니다.</p>
 
@@ -94,7 +94,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>환헤지는 환율로 인한 이익과 손실을 함께 없애는 장치입니다.</li><li>환율이 변하지 않는 해에는 환헤지형이 비용만큼 조금 뒤처집니다.</li><li>위 계산은 원리를 보여 주는 단순화이며 실제 수익률은 상품과 시기마다 다릅니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 비용이 생기는 이유와 계산법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 비용이 생기는 이유와 계산법</h2>
 
 <p><mark>환헤지 비용은 대체로 원화 금리와 외화 금리의 차이만큼 생깁니다.</mark> 헤지를 하면 금리가 높은 외화의 이자를 포기하고 금리가 낮은 원화 쪽에 서는 셈이기 때문입니다.</p>
 
@@ -111,7 +111,7 @@ self_check: |
 
 <p>환헤지형 ETF는 이 비용을 상품 안에서 처리하므로 총보수와는 따로 움직입니다. 표면적인 보수가 같아도 실제 수익률 차이가 벌어지는 이유가 여기에 있습니다.</p>
 
-<h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">(H)와 (UH) 상품명 읽는 법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">(H)와 (UH) 상품명 읽는 법</h2>
 
 <p>국내 상장 해외 ETF는 상품명 끝의 기호로 환헤지 여부를 구분합니다. 아래 표는 일반적인 표기 관행이며, 최종 확인은 운용사 상품 설명서로 하세요.</p>
 
@@ -128,7 +128,7 @@ self_check: |
 
 <p>구체적인 상품 예시는 <a href="https://sensitiveboss3.tistory.com/entry/tiger-sp500-hedged" target="_blank" rel="noopener">TIGER 미국S&amp;P500(H) 뜻</a> 글과 <a href="https://sensitiveboss3.tistory.com/entry/tiger-sp500-unhedged" target="_blank" rel="noopener">환노출형 비교 글</a>에서 다뤘습니다. 이 글은 특정 상품이 아니라 환헤지 원리 자체에 초점을 둡니다.</p>
 
-<h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 결정 전 확인할 점</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 결정 전 확인할 점</h2>
 
 <p>환율 방향을 맞히는 것은 어렵기 때문에 환헤지 여부는 손익 예측보다 흔들림을 얼마나 줄이고 싶은지의 문제로 접근하는 경우가 많습니다. 아래 항목을 먼저 확인해 보세요.</p>
 
@@ -144,7 +144,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>환헤지는 환율 변동을 줄이는 대신 헤지 비용과 환율 이익을 함께 내주는 선택입니다.</li><li>비용은 금리 차이를 따라가므로 시기마다 달라집니다.</li><li>환노출형과 환헤지형의 우열은 환율 방향에 달려 있어 미리 정할 수 없습니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 관련 짚고 갈 것들</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #e67700;padding-left:12px;margin-top:36px;">환헤지 관련 짚고 갈 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">환헤지를 하면 환율 걱정이 완전히 사라지나요</summary>

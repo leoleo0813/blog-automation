@@ -42,14 +42,14 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ISA 계좌 한도는 얼마인가요</li>
-  <li>ISA 계좌란 무엇인가요</li>
-  <li>왜 한도가 다르게 알려져 있나요</li>
-  <li>생산적금융 ISA는 무엇인가요</li>
-  <li>비과세 한도를 넘으면 세금은 어떻게 되나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 계좌 한도는 얼마인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 계좌란 무엇인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 한도가 다르게 알려져 있나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">생산적금융 ISA는 무엇인가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비과세 한도를 넘으면 세금은 어떻게 되나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 한도는 얼마인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌 한도는 얼마인가요</h2>
 
 <p>ISA 계좌의 연간 납입한도와 계좌 총한도는 가입 유형과 관계없이 <b>동일하게 적용</b>됩니다. 유형에 따라 달라지는 것은 비과세 한도입니다.</p>
 
@@ -73,13 +73,13 @@ self_check: |
 
 <p>연간 납입한도를 다 채우지 못한 해가 있어도, 남은 한도는 이후 연도로 이월해 <b>가입 기간 동안 총 1억원</b>까지 납입할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌란 무엇인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ISA 계좌란 무엇인가요</h2>
 
 <p>ISA(개인종합자산관리계좌)는 예금, 펀드, ETF 등 여러 금융상품을 <b>하나의 계좌</b>에 담아 운용하고, 계좌 안에서 발생한 손익을 통산해 세금 혜택을 받을 수 있는 절세 계좌입니다.</p>
 
 <p>2016년에 도입된 이후 개인 투자자의 대표적인 절세 수단으로 꼽힙니다. <mark>여러 상품의 이익과 손실을 합쳐 계산한다는 점</mark>이 일반 위탁계좌와 가장 큰 차이입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 한도가 다르게 알려져 있나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 한도가 다르게 알려져 있나요</h2>
 
 <p>최근 "ISA 한도가 연 4천만원, 비과세는 500만원·1000만원으로 오른다"는 내용을 접했다면, <mark>기존 ISA 이야기가 아니라 2027년에 신설되는 별도 상품 이야기가 섞인 것</mark>입니다.</p>
 
@@ -92,7 +92,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">생산적금융 ISA는 무엇인가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">생산적금융 ISA는 무엇인가요</h2>
 
 <p>생산적금융 ISA는 국내 상장주식·국내 주식형 펀드·국민성장펀드 등에 투자하는 계좌에 <b>이자·배당소득을 전액 비과세</b>하는, 기존 ISA와는 별개의 신설 상품입니다.</p>
 
@@ -116,7 +116,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">생산적금융 ISA는 2026년 세제개편안에 담긴 <b>정부안</b>입니다. 2026년 9월 1일 국무회의에서 정부안으로 확정되어 9월 3일 국회에 제출됐지만, 정기국회 심의 과정에서 내용이 바뀌거나 무산될 수 있습니다. 실제 시행 여부와 최종 조건은 국회 통과 이후 다시 확인해야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">비과세 한도를 넘으면 세금은 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">비과세 한도를 넘으면 세금은 어떻게 되나요</h2>
 
 <p>비과세 한도(일반형 200만원, 서민형·농어민형 400만원)를 넘는 순소득에 대해서는 <mark>9.9%(지방소득세 포함) 분리과세</mark>가 적용됩니다.</p>
 

@@ -112,16 +112,16 @@ self_check: |
 
 <h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ROE 뜻과 계산 공식</li>
-  <li>ROE가 높으면 무조건 좋은 회사인가요</li>
-  <li>듀폰 분해로 ROE 뜯어보기</li>
-  <li>업종별로 ROE 수준이 다릅니다</li>
-  <li>코리아 밸류업 지수와 ROE</li>
-  <li>ROE는 어디서 확인하나요</li>
-  <li>더 알아두면 좋은 것들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ROE 뜻과 계산 공식</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ROE가 높으면 무조건 좋은 회사인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">듀폰 분해로 ROE 뜯어보기</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">업종별로 ROE 수준이 다릅니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">코리아 밸류업 지수와 ROE</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ROE는 어디서 확인하나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">더 알아두면 좋은 것들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">ROE 뜻과 계산 공식</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">ROE 뜻과 계산 공식</h2>
 
 <p>ROE(Return On Equity, 자기자본이익률)는 <mark>회사가 주주의 자본을 이용해 1년 동안 얼마를 벌었는지 비율로 나타낸 지표</mark>입니다. 계산식은 ROE = 당기순이익 ÷ 자기자본 × 100(%)입니다.</p>
 
@@ -133,7 +133,7 @@ self_check: |
   <li>ROE가 시중 예금·채권 금리보다 낮으면 굳이 그 회사에 자본을 맡길 이유가 약해집니다</li>
 </ul>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">ROE가 높으면 무조건 좋은 회사인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">ROE가 높으면 무조건 좋은 회사인가요</h2>
 
 <p>아닙니다. ROE가 높다고 반드시 좋은 회사는 아닙니다. 이익을 잘 내서 ROE가 높은 경우도 있지만, 빚을 늘려 자기자본 비중을 줄이는 방식으로도 ROE 숫자는 똑같이 올라갑니다.</p>
 
@@ -145,7 +145,7 @@ self_check: |
   <li>최근 몇 년간 ROE 추세가 꾸준한지, 특정 해만 튄 것은 아닌지 봅니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">듀폰 분해로 ROE 뜯어보기</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">듀폰 분해로 ROE 뜯어보기</h2>
 
 <p><mark>듀폰 분해는 ROE를 순이익률 × 총자산회전율 × 재무레버리지, 세 항목의 곱으로 나누는 방법</mark>입니다. 이렇게 나누면 ROE가 어디에서 나왔는지 원인을 구분할 수 있습니다.</p>
 
@@ -160,13 +160,13 @@ self_check: |
 
 <p>이 가상 사례에서 재무레버리지를 3배로 바꾸면 자기자본이 더 작아지면서 ROE는 30%까지 뛰어오릅니다. 순이익률과 매출은 그대로인데 빚만 늘려도 ROE 숫자가 커질 수 있다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">업종별로 ROE 수준이 다릅니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">업종별로 ROE 수준이 다릅니다</h2>
 
 <p>업종 특성에 따라 평균 ROE는 크게 갈립니다. 은행·보험처럼 원래 부채(예금·보험부채) 비중이 큰 업종은 재무레버리지가 높아 ROE도 높게 나오는 구조이고, 설비 투자가 많은 제조업은 자기자본 비중이 상대적으로 커 ROE가 낮게 나오는 경우가 흔합니다.</p>
 
 <p>그런데 은행업의 높은 레버리지는 업종 자체의 사업 구조 때문이지 경영을 잘해서만은 아닙니다. 그래서 서로 다른 업종의 ROE를 그대로 비교하면 오해가 생기기 쉽습니다. 같은 업종 안에서 비교하거나, <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>의 업종별 투자지표를 참고하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">코리아 밸류업 지수와 ROE</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">코리아 밸류업 지수와 ROE</h2>
 
 <p>한국거래소가 2024년 9월 24일 처음 발표한 <mark>코리아 밸류업 지수는 종목 선정 과정에서 최근 2년 평균 ROE를 산업군별 순위비율로 반영</mark>합니다.</p>
 
@@ -178,11 +178,11 @@ self_check: |
   <li>지수 편입 자체가 특정 종목의 매수 추천을 뜻하지는 않습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">ROE는 어디서 확인하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">ROE는 어디서 확인하나요</h2>
 
 <p>종목별·업종별 ROE는 <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>의 투자지표 메뉴에서 무료로 조회할 수 있습니다. 증권사 MTS의 종목 상세 화면이나 재무제표 메뉴에도 대부분 ROE가 함께 표시됩니다.</p>
 
-<h2 style="border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">더 알아두면 좋은 것들</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2e7d32;padding-left:12px;margin-top:36px;">더 알아두면 좋은 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ROE와 ROA는 무엇이 다른가요</summary>

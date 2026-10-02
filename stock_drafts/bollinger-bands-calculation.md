@@ -129,21 +129,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>볼린저밴드란 무엇인가요</li>
-  <li>상단 하단 밴드 계산법</li>
-  <li>실제 숫자로 계산해보기</li>
-  <li>밴드 폭이 좁아지고 넓어지는 이유</li>
-  <li>밴드를 읽는 두 가지 관점</li>
-  <li>헷갈리는 부분 정리</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">볼린저밴드란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상단 하단 밴드 계산법</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 숫자로 계산해보기</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">밴드 폭이 좁아지고 넓어지는 이유</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">밴드를 읽는 두 가지 관점</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리는 부분 정리</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">볼린저밴드란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">볼린저밴드란 무엇인가요</h2>
 
 <p>볼린저밴드(Bollinger Bands)는 미국의 투자자 존 볼린저가 1980년대에 고안한 기술적 분석 도구입니다. 가격 차트 위에 3개의 선, 즉 중심선과 상단 밴드, 하단 밴드를 함께 그려 가격의 평균 수준과 변동성을 한 번에 보여줍니다.</p>
 
 <p>중심선은 일정 기간의 평균 가격이고, 상단·하단 밴드는 그 평균에서 가격이 얼마나 벌어져 있는지를 나타내는 통계적 범위입니다. 변동성이 커지면 밴드 폭이 넓어지고, 변동성이 줄어들면 밴드 폭도 좁아집니다.</p>
 
-<h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">상단 하단 밴드 계산법</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">상단 하단 밴드 계산법</h2>
 
 <p>볼린저밴드는 세 단계로 계산합니다. 표준 설정값은 20일 기간, 표준편차 2배입니다.</p>
 
@@ -172,7 +172,7 @@ self_check: |
 
 <p>기간을 20일보다 짧게 잡으면 밴드가 가격 변화에 더 민감하게 반응하고, 길게 잡으면 완만하게 움직입니다. 표준편차 배수를 2보다 높이면 밴드 폭이 넓어져 밴드를 벗어나는 경우가 줄어듭니다.</p>
 
-<h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">실제 숫자로 계산해보기</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">실제 숫자로 계산해보기</h2>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>계산 예시 (가상의 종가, 실제 종목 아님)</b>
@@ -187,13 +187,13 @@ self_check: |
 
 <p>실제 계산에서는 매일 종가가 바뀌므로 중심선과 표준편차도 하루마다 새로 계산됩니다. 대부분의 증권사 차트 프로그램이 이 계산을 자동으로 해주지만, 원리를 알아두면 밴드가 왜 넓어지고 좁아지는지 스스로 판단할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">밴드 폭이 좁아지고 넓어지는 이유</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">밴드 폭이 좁아지고 넓어지는 이유</h2>
 
 <p>밴드 폭은 표준편차, 즉 가격이 평균에서 얼마나 흩어져 있는지에 따라 정해집니다. 최근 가격이 좁은 범위에서 오르내리면 표준편차가 작아지고 밴드도 좁아지는데, 이 상태를 <b>스퀴즈</b>라고 부릅니다. 스퀴즈는 변동성이 낮아졌다는 뜻일 뿐, 다음 움직임이 위로 갈지 아래로 갈지까지 알려주지는 않습니다.</p>
 
 <p>반대로 가격이 한 방향으로 강하게 움직이면 표준편차가 커지면서 밴드도 넓어집니다. 이때 가격이 상단이나 하단 밴드에 붙어 계속 이동하는 모습을 <b>밴드워크</b>라고 합니다. 밴드워크가 나타나면 추세가 강하다는 뜻으로 해석하는 경우가 많습니다.</p>
 
-<h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">밴드를 읽는 두 가지 관점</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">밴드를 읽는 두 가지 관점</h2>
 
 <p>가격이 상단이나 하단 밴드에 닿았을 때 이를 해석하는 방식은 <b>한 가지로 정해져 있지 않습니다.</b> 크게 두 관점이 있습니다.</p>
 
@@ -218,7 +218,7 @@ self_check: |
 
 <p>같은 신호를 두고 정반대로 해석하는 두 관점이 공존하는 이유는, 밴드 하나만으로는 지금이 스퀴즈 이후 반전 국면인지 밴드워크 중인 추세 국면인지 구분하기 어렵기 때문입니다. 그래서 거래량이나 다른 보조지표를 함께 확인하는 경우가 많고, 이 글에서는 어느 한쪽 해석이 항상 옳다고 안내하지 않습니다.</p>
 
-<h2 style="border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0277bd;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">볼린저밴드란 무엇인가요</summary>

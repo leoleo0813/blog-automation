@@ -104,15 +104,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>EPS 뜻과 계산 공식</li>
-  <li>기본EPS와 희석EPS는 왜 다른가요</li>
-  <li>EPS 성장률 확인하는 법</li>
-  <li>EPS만으로 판단하면 위험한 이유</li>
-  <li>EPS는 어디서 확인하나요</li>
-  <li>더 짚어두면 좋은 것들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EPS 뜻과 계산 공식</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기본EPS와 희석EPS는 왜 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EPS 성장률 확인하는 법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EPS만으로 판단하면 위험한 이유</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EPS는 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">더 짚어두면 좋은 것들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS 뜻과 계산 공식</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS 뜻과 계산 공식</h2>
 
 <p>EPS(Earnings Per Share, 주당순이익)는 <mark>회사의 당기순이익을 유통주식수로 나눈 값</mark>입니다. 계산식은 EPS = 당기순이익 ÷ 유통주식수입니다.</p>
 
@@ -124,7 +124,7 @@ self_check: |
   <li>주가를 EPS로 나누면 PER이 되어, 88편(PBR)·89편(ROE)에서 다룬 PER=주가/EPS 관계식으로 이어집니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">기본EPS와 희석EPS는 왜 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">기본EPS와 희석EPS는 왜 다른가요</h2>
 
 <p>전환사채나 스톡옵션처럼 나중에 주식으로 바뀔 수 있는 권리가 있으면, 그 권리가 전부 행사됐다고 가정한 EPS를 별도로 계산합니다. 이것이 희석EPS입니다.</p>
 
@@ -138,7 +138,7 @@ self_check: |
 
 <p>순이익은 그대로인데 나눠 갖는 주식수만 늘어나므로, 희석EPS는 기본EPS와 같거나 낮게 나오는 구조입니다. 그런데 사업보고서 재무제표 주석에는 두 수치가 함께 표시되므로, 기본EPS만 보고 판단하면 잠재적 희석 효과를 놓칠 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS 성장률 확인하는 법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS 성장률 확인하는 법</h2>
 
 <p>EPS 성장률은 <mark>(올해 EPS − 작년 EPS) ÷ 작년 EPS × 100</mark>으로 계산합니다. 작년 EPS가 800원이고 올해 EPS가 1,000원이라면, 성장률은 (1,000−800)÷800×100 = 25%입니다.</p>
 
@@ -148,7 +148,7 @@ self_check: |
   <li>EPS 성장률과 PER을 함께 보면, 이익이 빠르게 늘어나는 회사인지 그렇지 않은지 가늠하는 데 도움이 됩니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS만으로 판단하면 위험한 이유</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS만으로 판단하면 위험한 이유</h2>
 
 <p>EPS는 순이익뿐 아니라 주식수 변화만으로도 달라집니다. 순이익이 그대로여도 주식수가 줄면 EPS는 오르고, 주식수가 늘면 EPS는 내려갑니다.</p>
 
@@ -160,11 +160,11 @@ self_check: |
   <li>EPS 하나만 보지 말고 매출·영업이익 추세와 함께 봅니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS는 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">EPS는 어디서 확인하나요</h2>
 
 <p>기업의 기본EPS와 희석EPS는 <a href="https://dart.fss.go.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART)</a>에서 해당 기업의 사업보고서나 분기보고서를 열어 재무제표 주석의 '주당손익' 항목을 확인하면 됩니다. <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>이나 증권사 MTS의 종목 상세 화면에서도 EPS를 함께 보여줍니다.</p>
 
-<h2 style="border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">더 짚어두면 좋은 것들</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #b8860b;padding-left:12px;margin-top:36px;">더 짚어두면 좋은 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">EPS가 마이너스면 무슨 뜻인가요</summary>

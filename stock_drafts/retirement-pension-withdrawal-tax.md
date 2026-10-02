@@ -139,21 +139,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>퇴직연금 중도인출이 뭔가요</li>
-  <li>중도인출할 수 있는 법정 사유 5가지</li>
-  <li>중도인출하면 세금은 얼마나 내나요</li>
-  <li>실제 계산 예시로 보는 세금 차이</li>
-  <li>DC형과 개인형IRP, 의료비 요건이 다르다</li>
-  <li>많이 물어보는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">퇴직연금 중도인출이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도인출할 수 있는 법정 사유 5가지</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도인출하면 세금은 얼마나 내나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 계산 예시로 보는 세금 차이</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">DC형과 개인형IRP, 의료비 요건이 다르다</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">많이 물어보는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">퇴직연금 중도인출이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">퇴직연금 중도인출이 뭔가요</h2>
 
 <p>퇴직연금 중도인출은 DC형(확정기여형)이나 IRP(개인형 퇴직연금) 가입자가 퇴직하기 전에 적립금 일부 또는 전부를 미리 찾아 쓰는 제도입니다. 아무 때나 인출할 수 있는 것은 아니고, <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=262801" target="_blank" rel="noopener">근로자퇴직급여 보장법 시행령</a>이 정한 사유에 해당해야만 신청할 수 있습니다.</p>
 
 <p>DB형(확정급여형)은 회사가 퇴직금 운용을 책임지는 구조라 원칙적으로 중도인출 대상이 아닙니다. 중도인출은 개인이 직접 운용 방식을 정하는 DC형·IRP 가입자에게만 해당합니다.</p>
 
-<h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">중도인출할 수 있는 법정 사유 5가지</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">중도인출할 수 있는 법정 사유 5가지</h2>
 
 <p>법으로 정한 인출 사유는 다섯 가지입니다. 사유마다 조건이 다르고, 뒤에서 다룰 세금 감면 여부도 사유별로 갈립니다.</p>
 
@@ -196,7 +196,7 @@ self_check: |
 
 <p>여기서 헷갈리기 쉬운 부분은 주택 구입과 전세보증금입니다. 인출 자체는 법정 사유로 허용되지만, 다음 장에서 볼 세금 감면 대상인 "부득이한 사유"에는 포함되지 않습니다.</p>
 
-<h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">중도인출하면 세금은 얼마나 내나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">중도인출하면 세금은 얼마나 내나요</h2>
 
 <p>중도인출한 돈은 두 부분으로 나눠 과세됩니다. 원래 회사가 적립해준 퇴직급여 원금과, 그 돈을 운용해서 불어난 운용수익입니다.</p>
 
@@ -226,7 +226,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">실제 계산 예시로 보는 세금 차이</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">실제 계산 예시로 보는 세금 차이</h2>
 
 <p>운용수익이 300만원이라고 가정해 보겠습니다. 55~69세 기준으로 계산하면 사유에 따라 세금 차이가 이렇게 벌어집니다.</p>
 
@@ -238,7 +238,7 @@ self_check: |
 
 <p>여기에 원금 부분의 30% 감면까지 더해지면, 부득이한 사유로 인출할 때와 그렇지 않을 때의 전체 세금 차이는 이보다 더 커집니다. 정확한 원금 세액은 근속연수와 환산급여에 따라 달라지므로, <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880" target="_blank" rel="noopener">국세청 퇴직소득세 계산방법</a> 페이지에서 본인 상황에 맞게 다시 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">DC형과 개인형IRP, 의료비 요건이 다르다</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">DC형과 개인형IRP, 의료비 요건이 다르다</h2>
 
 <p>같은 "6개월 이상 요양" 사유라도 어떤 계좌에 가입했는지에 따라 인정 요건이 달라집니다. 이 차이를 모르고 신청했다가 요건 미달로 반려되는 경우가 있습니다.</p>
 
@@ -268,7 +268,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">부득이한 사유로 중도인출하려면 그 사유가 확인된 날로부터 6개월 이내에 증빙 서류를 금융기관에 제출해야 합니다. 기한을 넘기면 저율 과세 대상에서 제외될 수 있으니 서류 준비를 미루지 않는 편이 안전합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">많이 물어보는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #6a4fb6;padding-left:12px;margin-top:36px;">많이 물어보는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">퇴직연금은 아무 때나 중도인출할 수 있나요</summary>

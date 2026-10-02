@@ -114,21 +114,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>해외금융계좌 신고, 누가 얼마나 보유하면 해야 하나요</li>
-  <li>여러 계좌를 갖고 있으면 어떻게 합산하나요</li>
-  <li>신고는 언제 어떻게 하나요</li>
-  <li>신고를 안 하면 과태료가 얼마나 나오나요</li>
-  <li>과태료가 늘거나 줄어드는 경우도 있나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외금융계좌 신고, 누가 얼마나 보유하면 해야 하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">여러 계좌를 갖고 있으면 어떻게 합산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고는 언제 어떻게 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고를 안 하면 과태료가 얼마나 나오나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">과태료가 늘거나 줄어드는 경우도 있나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외금융계좌 신고, 누가 얼마나 보유하면 해야 하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외금융계좌 신고, 누가 얼마나 보유하면 해야 하나요</h2>
 
 <p>국내 거주자나 내국법인이 보유한 <b>해외금융계좌(해외가상자산계좌 포함)</b> 잔액의 합계액이, 해당 연도의 매월 말일 중 <mark>어느 하루라도 5억원을 초과</mark>하면 다음 해에 신고해야 합니다. 매년 말 잔액이 아니라 <b>매월 말일마다 확인</b>한다는 점이 자주 놓치는 부분입니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">해외증권사 위탁계좌로 해외주식·해외ETF를 사고 있다면 이 신고 대상에 포함될 수 있다</span>는 점을 신경 써야 합니다. 해외주식 자체에 붙는 세금은 <a href="https://sensitiveboss3.tistory.com/entry/overseas-stock-tax-filing" target="_blank" rel="noopener">이전 글(해외주식 양도소득세 신고 방법)</a>에서 다뤘지만, 이 글의 신고는 세금이 아니라 <b>계좌 정보 자체를 알리는 별개의 의무</b>입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">여러 계좌를 갖고 있으면 어떻게 합산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">여러 계좌를 갖고 있으면 어떻게 합산하나요</h2>
 
 <p>기관이 다르거나 계좌 종류(예금·증권·가상자산 등)가 달라도, 본인 명의의 해외금융계좌는 <b>전부 합산</b>해서 5억원 초과 여부를 판단합니다.</p>
 
@@ -143,7 +143,7 @@ self_check: |
   <li>기준 방향: <b>단 하루라도</b> 초과하면 그 연도분은 신고 대상</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 언제 어떻게 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 언제 어떻게 하나요</h2>
 
 <p>신고 대상이 된 해의 <b>다음 해 6월 1일부터 6월 30일까지</b> 관할 세무서에 신고서를 제출하거나, <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 전자신고할 수 있습니다.</p>
 
@@ -170,7 +170,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고를 안 하면 과태료가 얼마나 나오나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고를 안 하면 과태료가 얼마나 나오나요</h2>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">2025년 1월 1일 국제조세조정에 관한 법률 시행령 개정으로 과태료율이 달라졌습니다.</span> 개정 전에는 미신고·과소신고 금액에 따라 10~20% 누진율이 적용됐지만, 개정 후에는 <mark>10% 단일율</mark>로 바뀌었고 과태료 한도도 낮아졌습니다.</p>
 
@@ -203,7 +203,7 @@ self_check: |
 
 <p>미·과소신고 금액이 <b>50억원을 초과</b>하면 과태료 외에도 위반자의 성명·나이·직업·주소·위반금액 등이 <b>명단공개</b>되고, <b>2년 이하 징역 또는 미·과소신고 금액의 13% 이상 20% 이하 벌금</b>의 형사처벌 대상이 될 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">과태료가 늘거나 줄어드는 경우도 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">과태료가 늘거나 줄어드는 경우도 있나요</h2>
 
 <p>같은 사람이 반복해서 위반하거나 재산을 숨기려 한 정황이 있으면 과태료가 <b>가중</b>되고, 반대로 이미 계좌 정보 일부가 확인된 단순 미신고라면 <b>감경</b>됩니다.</p>
 
@@ -219,7 +219,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">가중·감경 사유가 겹치는 경우의 최종 과태료율은 개별 사실관계에 따라 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> 안내나 세무 전문가 상담으로 정확히 확인하는 것이 안전합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">해외금융계좌 신고 기준금액은 얼마인가요</summary>

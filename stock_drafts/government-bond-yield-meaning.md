@@ -56,17 +56,17 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 <h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>국채금리는 무엇을 뜻하나요</li>
-  <li>국채금리와 기준금리 차이 비교</li>
-  <li>금리가 오르면 국채 가격이 내리는 계산</li>
-  <li>만기가 길수록 가격이 크게 흔들리는 이유</li>
-  <li>뉴스에 나오는 bp 읽는 법</li>
-  <li>국채금리가 예금, 대출, 주식에 닿는 경로</li>
-  <li>국채금리 확인하는 곳</li>
-  <li>자주 걸리는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리는 무엇을 뜻하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리와 기준금리 차이 비교</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금리가 오르면 국채 가격이 내리는 계산</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">만기가 길수록 가격이 크게 흔들리는 이유</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">뉴스에 나오는 bp 읽는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리가 예금, 대출, 주식에 닿는 경로</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리 확인하는 곳</a></li>
+  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 걸리는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리는 무엇을 뜻하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리는 무엇을 뜻하나요</h2>
 
 <p>국채금리는 정부가 발행한 채권을 시장에서 사고팔 때 형성되는 수익률입니다. 정확히는 지금 그 채권을 사서 만기까지 보유할 때 얻는 연 환산 수익률, 곧 만기수익률을 가리킵니다.</p>
 
@@ -74,7 +74,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 
 <p>국채는 발행할 때 정한 이자(표면금리)를 만기까지 그대로 지급합니다. 그런데 시장에서 거래되는 가격은 매일 바뀝니다. <mark>이자는 고정이고 가격이 변하기 때문에, 국채금리는 가격이 바뀔 때마다 새로 계산되는 값</mark>입니다.</p>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리와 기준금리 차이 비교</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리와 기준금리 차이 비교</h2>
 
 <p>국채금리와 기준금리는 이름이 비슷하지만 정하는 주체와 방식이 다릅니다. 기준금리는 한국은행 금융통화위원회가 회의에서 정하고, 국채금리는 시장의 매매로 정해집니다.</p>
 
@@ -97,7 +97,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>회의로 정하면 기준금리, 시장이 정하면 국채금리입니다.</li><li>국채 기사에 나오는 "금리"는 대부분 국채금리를 뜻합니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">금리가 오르면 국채 가격이 내리는 계산</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">금리가 오르면 국채 가격이 내리는 계산</h2>
 
 <p>가상의 국채로 직접 계산해 보겠습니다. 액면 10,000원, 표면금리 연 3%(이자 300원을 매년 1회 지급), 만기 2년인 채권입니다. 세금과 수수료는 넣지 않았습니다.</p>
 
@@ -126,7 +126,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 
 <p>이 반비례의 구조와 만기별 민감도를 수치로 재는 지표가 듀레이션입니다. 계산법은 <a href="https://sensitiveboss3.tistory.com/entry/duration-meaning-calculation" target="_blank" rel="noopener">듀레이션 뜻과 계산 방법</a>에서 따로 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">만기가 길수록 가격이 크게 흔들리는 이유</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">만기가 길수록 가격이 크게 흔들리는 이유</h2>
 
 <p>같은 금리 변화라도 만기가 길수록 채권 가격은 더 크게 움직입니다. 낮은 이자를 받는 기간이 길어질수록 시장금리와의 차이가 오래 쌓이기 때문입니다.</p>
 
@@ -150,7 +150,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>만기까지 보유하면 원금과 약속된 이자를 받으므로, 가격 변동이 곧 손실로 확정되지는 않습니다.</li><li>중간에 팔 때만 그날의 시장 가격이 적용됩니다.</li><li>표의 금리와 가격은 이해를 돕기 위한 가상 값입니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">뉴스에 나오는 bp 읽는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">뉴스에 나오는 bp 읽는 법</h2>
 
 <p>bp(베이시스포인트)는 금리 변화를 나타내는 단위로, 1bp는 0.01%p입니다. 100bp가 1%p이고 25bp가 0.25%p입니다.</p>
 
@@ -168,7 +168,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 
 <p>%와 %p는 다른 말입니다. 금리가 3%에서 4%로 올랐다면 1%p(100bp) 오른 것이고, 상승률로는 약 33.3%입니다.</p>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리가 예금, 대출, 주식에 닿는 경로</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리가 예금, 대출, 주식에 닿는 경로</h2>
 
 <p>국채금리는 다른 금리를 매길 때 기준이 되는 값이라 여러 곳으로 번집니다. 이 경로가 곧 방향을 보장하지는 않으므로, 어디에 닿는지만 정리합니다.</p>
 
@@ -181,7 +181,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 
 <p>주식 시장에 미치는 영향은 그때의 물가, 경기, 기업 실적에 따라 달라서 한 방향으로 정해져 있지 않습니다. 채권으로 얻는 이자에 붙는 세금은 <a href="https://sensitiveboss3.tistory.com/entry/bond-tax-guide" target="_blank" rel="noopener">채권 세금 얼마 떼나</a>에 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 확인하는 곳</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 확인하는 곳</h2>
 
 <ol style="line-height:1.9;">
   <li><strong>한국은행 경제통계시스템(ECOS):</strong> 국고채 만기별 시장금리의 일별, 월별 통계를 조회합니다.</li>
@@ -196,7 +196,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>국채금리는 시장이 정한 만기별 수익률이고 기준금리와 다릅니다.</li><li>금리가 오르면 국채 가격은 내리고, 만기가 길수록 그 폭이 큽니다.</li><li>기사 속 bp는 0.01%p 단위이며, 25bp는 0.25%p입니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 볼 때 자주 걸리는 질문</h2>
+<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 볼 때 자주 걸리는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">국채금리와 기준금리는 같은 금리인가요</summary>

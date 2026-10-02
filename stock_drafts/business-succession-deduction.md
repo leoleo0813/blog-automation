@@ -69,13 +69,13 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>가업상속공제 한도는 얼마인가요</li>
-  <li>주식보유기준은 상장·비상장이 왜 다른가요</li>
-  <li>그 외 어떤 요건을 충족해야 하나요</li>
-  <li>실제로 얼마나 차이 나나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가업상속공제 한도는 얼마인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식보유기준은 상장·비상장이 왜 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">그 외 어떤 요건을 충족해야 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 차이 나나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">가업상속공제 한도는 얼마인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">가업상속공제 한도는 얼마인가요</h2>
 
 <p>가업상속재산가액에 상당하는 금액을 <mark>피상속인의 가업 계속영위 기간에 따라</mark> 한도까지 추가로 공제합니다.</p>
 
@@ -98,7 +98,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&amp;cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 항목별 설명</a>(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식보유기준은 상장·비상장이 왜 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식보유기준은 상장·비상장이 왜 다른가요</h2>
 
 <p>가업상속공제를 받으려면 <mark>피상속인을 포함한 최대주주 등의 지분율</mark>이 일정 비율 이상을 10년 이상 계속 유지해야 합니다.</p>
 
@@ -111,7 +111,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&amp;cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 항목별 설명</a>(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">그 외 어떤 요건을 충족해야 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">그 외 어떤 요건을 충족해야 하나요</h2>
 
 <p>주식보유기준 외에도 <mark>피상속인과 상속인 양쪽 모두</mark> 아래 요건을 충족해야 합니다.</p>
 
@@ -130,7 +130,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&amp;cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 항목별 설명</a>(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 차이 나나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 차이 나나요</h2>
 
 <p>30년 이상 경영한 회사를 가업상속재산가액 500억원어치 물려받는 경우로 비교하면, <mark>지분 25%를 보유했을 때 상장 여부만으로 공제 여부가 갈립니다.</mark></p>
 

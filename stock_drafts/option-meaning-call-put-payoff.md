@@ -54,10 +54,17 @@ self_check: |
 
 <h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">목차</h2>
 
-<ol style="line-height:1.9;"><li>콜옵션과 풋옵션 네 가지 포지션 비교</li><li>만기 손익 계산법</li><li>프리미엄이 정해지는 방식</li><li>옵션과 선물의 차이</li><li>매도 포지션의 위험 구조</li><li>코스피200 옵션의 실제 규격</li>
-  <li>옵션을 거래하지 않아도 알아 둘 이유</li></ol>
+<ol style="line-height:1.9;">
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">콜옵션과 풋옵션 네 가지 포지션 비교</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">만기 손익 계산법</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">프리미엄이 정해지는 방식</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">옵션과 선물의 차이</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매도 포지션의 위험 구조</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">코스피200 옵션의 실제 규격</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">옵션을 거래하지 않아도 알아 둘 이유</a></li>
+</ol>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">콜옵션과 풋옵션 네 가지 포지션 비교</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">콜옵션과 풋옵션 네 가지 포지션 비교</h2>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
   <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">네 가지 포지션 한눈에 비교 (가상 조건: 행사가격 300, 프리미엄 3.00포인트, 만기 손익 기준)</caption>
@@ -78,7 +85,7 @@ self_check: |
 
 <p>이 표의 숫자는 전부 계산 설명을 위해 만든 가상 값입니다. 실제 거래되는 옵션의 행사가격과 프리미엄이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">만기 손익 계산법</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">만기 손익 계산법</h2>
 
 <div style="background:#faf7fe;border:1px solid #d6c6ef;border-radius:8px;padding:14px 18px;margin:16px 0;">
   <strong>계산 순서 (콜 매수 기준)</strong>
@@ -121,7 +128,7 @@ self_check: |
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/option-meaning-call-put-payoff-1.png" alt="콜옵션 매수와 풋옵션 매수의 만기 손익 꺾은선 그래프. 행사가격 300, 프리미엄 3에서 손실은 -3으로 막히고 콜은 303 위에서, 풋은 297 아래에서 이익" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 행사가격 300, 프리미엄 3.00(가상)</figcaption></figure>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">프리미엄이 정해지는 방식</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">프리미엄이 정해지는 방식</h2>
 
 <p>프리미엄은 내재가치와 시간가치를 더한 값입니다. 내재가치는 지금 당장 행사하면 생기는 이익이고, 시간가치는 만기까지 남은 시간 동안 지수가 유리하게 움직일 가능성에 매기는 값입니다.</p>
 
@@ -141,7 +148,7 @@ self_check: |
 
 <p>시간가치는 만기가 다가올수록 줄어듭니다. 이 글의 3.00 프리미엄이 만기 지수 300에서 전부 사라지는 것도 같은 이유입니다. 프리미엄이 시장에서 어떤 값으로 형성되는지는 거래소 시세에서 직접 확인합니다. 콜옵션의 정의는 <a href="https://mofe.go.kr/sisa/dictionary/detail?idx=2583" target="_blank" rel="noopener">기획재정부 시사경제용어사전 - 콜옵션</a>에서도 같은 구조로 설명합니다.</p>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">옵션과 선물의 차이</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">옵션과 선물의 차이</h2>
 
 <p>선물은 만기에 사고팔 의무이고 옵션은 사고팔 권리입니다. 권리를 가진 매수자만 행사 여부를 고를 수 있습니다.</p>
 
@@ -165,7 +172,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>내가 매수자인지 매도자인지부터 확인합니다. 같은 표에서 부호가 정반대입니다.</li><li>손익분기는 콜이면 행사가격 + 프리미엄, 풋이면 행사가격 - 프리미엄입니다.</li><li>프리미엄은 <mark>1포인트당 곱하는 승수</mark>를 곱해야 실제 금액이 됩니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">매도 포지션의 위험 구조</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">매도 포지션의 위험 구조</h2>
 
 <p>매도자의 이익은 처음 받은 프리미엄이 상한입니다. 이 글의 가상 조건에서는 3.00포인트, 25만 원 곱셈으로 75만 원입니다.</p>
 
@@ -173,7 +180,7 @@ self_check: |
 
 <ul><li>프리미엄을 받는다고 손실이 막히는 것은 아닙니다.</li><li>증거금 금액은 상품과 시점에 따라 바뀌므로 이용하는 증권사 안내에서 확인합니다.</li><li>개인이 파생상품을 거래하려면 증권사가 정한 가입 요건(사전 교육, 기본예탁금 등)을 먼저 갖춰야 할 수 있습니다.</li></ul>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">코스피200 옵션의 실제 규격</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">코스피200 옵션의 실제 규격</h2>
 
 <p>코스피200 옵션의 거래승수는 25만 원이라 옵션 가격 1포인트가 25만 원입니다. 최종 결제는 현금으로 이뤄집니다. 한국투자증권, KB증권, 신한투자증권의 상품 안내가 같은 규격을 설명합니다. 거래소 원문은 <a href="https://www.krx.co.kr/contents/OPN/01/01040202/OPN01040202.jsp" target="_blank" rel="noopener">한국거래소(KRX)</a> 상품 안내에서 확인합니다.</p>
 
@@ -181,7 +188,7 @@ self_check: |
 
 <p>상품 규격과 승수는 거래소 공지로 바뀔 수 있습니다. 이 글의 계산은 개념 설명용이고, 실제 거래에는 그 시점의 거래소 상품명세가 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">옵션을 거래하지 않아도 알아 둘 이유</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">옵션을 거래하지 않아도 알아 둘 이유</h2>
 
 <p>옵션을 직접 사고팔지 않는 주식 투자자도 옵션 시장에서 나오는 숫자를 자주 만납니다. 세 군데에서 특히 그렇습니다.</p>
 

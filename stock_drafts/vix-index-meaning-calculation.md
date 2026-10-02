@@ -119,15 +119,15 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
 
 <h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>VIX 지수 뜻과 탄생 배경</li>
-  <li>VIX는 어떻게 계산되나요</li>
-  <li>VIX와 V코스피 비교</li>
-  <li>위기 때 VIX는 얼마나 치솟았나요</li>
-  <li>VIX 지수 실시간으로 확인하는 법</li>
-  <li>궁금한 점 몇 가지 더</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX 지수 뜻과 탄생 배경</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX는 어떻게 계산되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX와 V코스피 비교</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">위기 때 VIX는 얼마나 치솟았나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX 지수 실시간으로 확인하는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 몇 가지 더</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지수 뜻과 탄생 배경</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지수 뜻과 탄생 배경</h2>
 
 <p>VIX(Volatility Index)는 시카고옵션거래소(CBOE)가 1993년 처음 발표한 지수로, S&P500 지수옵션 가격에 내재된 변동성을 계산해 만듭니다. 2003년에는 산출 방법론이 한 차례 개편되어 지금의 방식으로 자리 잡았습니다.</p>
 
@@ -139,7 +139,7 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
   <li>VIX를 기초자산으로 한 선물·옵션·ETN 같은 파생 상품은 별도로 거래됩니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX는 어떻게 계산되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX는 어떻게 계산되나요</h2>
 
 <p>VIX는 만기가 가까운 S&P500 지수옵션 중 등가격 밖에 있는 콜옵션과 풋옵션 여러 개의 가격을 모아 가중평균한 뒤, 이를 향후 30일 동안의 예상 변동성으로 환산해 연율화한 숫자입니다.</p>
 
@@ -152,7 +152,7 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
 
 <p>계산에 들어가는 옵션 종목 수가 많고 만기가 다른 두 옵션군을 보간하는 과정도 있어 구조 자체는 복잡하지만, 결과적으로 나오는 숫자는 '앞으로 예상되는 변동성을 백분율로 나타낸 값' 하나라고 이해하면 충분합니다.</p>
 
-<h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX와 V코스피 비교</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX와 V코스피 비교</h2>
 
 <p>한국거래소도 2009년 4월 13일부터 같은 방식의 지수를 발표하고 있습니다. 이름은 V코스피(코스피200 변동성지수)이며, 아시아 국가가 만든 최초의 변동성지수로 알려져 있습니다.</p>
 
@@ -195,7 +195,7 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
 
 <p>두 지수는 계산 원리와 해석 방식이 사실상 같습니다. 미국 시장 전체 분위기를 보고 싶으면 VIX를, 국내 코스피 시장의 분위기를 보고 싶으면 V코스피를 참고하면 됩니다.</p>
 
-<h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">위기 때 VIX는 얼마나 치솟았나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">위기 때 VIX는 얼마나 치솟았나요</h2>
 
 <p>평상시 VIX는 대체로 10~20 사이에서 오르내리는 경우가 많습니다. 그런데 시장에 큰 충격이 오면 이 범위를 크게 벗어납니다.</p>
 
@@ -207,7 +207,7 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
 
 <p>같은 시기 국내 시장에서도 V코스피가 크게 뛰었던 사례가 있습니다. <a href="https://sensitiveboss3.tistory.com/entry/dead-cat-bounce-meaning" target="_blank" rel="noopener">2026년 8월 코스피 급락·반등 사례</a>에서는 V코스피가 84.35까지 뛰었다가 이후 50.08로 낮아진 실제 수치를 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지수 실시간으로 확인하는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지수 실시간으로 확인하는 법</h2>
 
 <p>V코스피는 <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>에서 실시간으로 확인할 수 있습니다. 대다수 국내 증권사 MTS·HTS의 해외지수 화면에서도 VIX와 V코스피를 함께 보여줍니다.</p>
 
@@ -216,7 +216,7 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
   <li>단기간의 숫자 하나보다 최근 며칠간의 흐름을 함께 보는 편이 해석에 도움이 됩니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">궁금한 점 몇 가지 더</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">궁금한 점 몇 가지 더</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">VIX가 몇 이상이면 위험한 건가요</summary>

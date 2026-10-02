@@ -169,16 +169,16 @@ self_check: |
 
 <h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>비상장주식도 양도소득세를 내야 하나요</li>
-  <li>비상장주식 양도소득세율</li>
-  <li>상장주식과 세금이 어떻게 다른가요</li>
-  <li>K-OTC 비과세 요건</li>
-  <li>양도소득세 계산 예시</li>
-  <li>신고 기한과 방법</li>
-  <li>자주 묻는 것들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비상장주식도 양도소득세를 내야 하나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비상장주식 양도소득세율</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장주식과 세금이 어떻게 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">K-OTC 비과세 요건</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">양도소득세 계산 예시</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고 기한과 방법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 것들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">비상장주식도 양도소득세를 내야 하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">비상장주식도 양도소득세를 내야 하나요</h2>
 
 <p>네, 내야 합니다. 상장주식은 대주주가 아닌 일반 소액주주라면 매매차익에 세금이 붙지 않는 것이 원칙입니다. 비상장주식은 이 원칙이 반대로 적용됩니다.</p>
 
@@ -186,7 +186,7 @@ self_check: |
 
 <p>단, 뒤에서 설명할 K-OTC 시장을 통한 거래는 예외가 있습니다. 이 예외를 모르고 "비상장주식은 어차피 세금 낸다"고만 알고 있으면, 실제로 낼 필요가 없는 세금까지 걱정하게 됩니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">비상장주식 양도소득세율</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">비상장주식 양도소득세율</h2>
 
 <p>세율은 두 가지 기준, 중소기업인지 여부와 대주주인지 여부로 갈립니다. 아래 표는 지방소득세 10%를 포함한 실제 부담 세율까지 함께 정리한 것입니다.</p>
 
@@ -226,7 +226,7 @@ self_check: |
 
 <p>어느 구간에 속하는지는 대주주 판정 기준(지분율·보유 주식 평가액)에 따라 갈리는데, 이 기준 수치는 출처마다 다르게 나와 이 글에서는 단정하지 않았습니다. 자세한 내용은 아래 안내를 참고해 주세요.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">상장주식과 세금이 어떻게 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">상장주식과 세금이 어떻게 다른가요</h2>
 
 <p>가장 큰 차이는 소액주주 과세 여부입니다. 상장주식은 소액주주 비과세가 원칙이고, 비상장주식은 소액주주 과세가 원칙입니다.</p>
 
@@ -258,7 +258,7 @@ self_check: |
 
 <p>비상장주식은 시세가 공개된 시장이 없어 가격을 따로 입증해야 하는 번거로움도 있습니다. 그런데도 과세 원칙 자체는 위 표처럼 단순하게 나뉘니, 우선 이 틀부터 기억해 두면 됩니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">K-OTC 비과세 요건</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">K-OTC 비과세 요건</h2>
 
 <p>비상장주식 과세 원칙에도 예외가 있습니다. 한국금융투자협회가 운영하는 <a href="https://www.k-otc.or.kr/public/rule/registBenefit" target="_blank" rel="noopener">K-OTC 시장</a>을 통해 거래하면 조건에 따라 세금이 아예 없을 수 있습니다.</p>
 
@@ -271,7 +271,7 @@ self_check: |
 
 <p>즉 "K-OTC에서 팔면 세금이 없다"는 말은 절반만 맞습니다. 대주주가 아니고, 회사가 벤처·중소·중견기업 요건을 갖췄을 때만 적용되는 예외입니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">양도소득세 계산 예시</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">양도소득세 계산 예시</h2>
 
 <p>중소기업 비상장주식을 가진 소액주주를 예로 들어보겠습니다. 5천만 원에 사서 8천만 원에 팔았다고 가정합니다.</p>
 
@@ -286,7 +286,7 @@ self_check: |
 
 <p>같은 차익이라도 중소기업이 아닌 회사 주식이라면 세율이 20%로 올라가 산출세액이 두 배(55만 원)가 됩니다. 대주주라면 과세표준 구간에 따라 20~25%가 적용되어 부담이 더 커집니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">신고 기한과 방법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">신고 기한과 방법</h2>
 
 <p>비상장주식을 팔았다면 양도일이 속한 반기의 말일부터 2개월 이내에 예정신고를 해야 합니다. 예를 들어 2026년 상반기(1~6월)에 팔았다면 2026년 8월 31일까지 신고 기한입니다.</p>
 
@@ -298,7 +298,7 @@ self_check: |
 
 <p>예정신고를 놓쳤다면 다음 해 5월 확정신고 기간에 다른 양도소득과 합산해 정산할 수 있지만, 무신고가산세가 붙을 수 있으니 기한 안에 신고하는 편이 유리합니다. 세율과 판정 기준의 최신 내용은 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 주식등 양도소득세</a> 안내에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">자주 묻는 것들</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">자주 묻는 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">비상장주식을 손해 보고 팔았다면 신고해야 하나요</summary>

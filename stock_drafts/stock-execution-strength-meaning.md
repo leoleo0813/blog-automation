@@ -122,15 +122,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>체결강도 뜻과 계산 공식</li>
-  <li>체결강도 100을 기준으로 매수세 매도세를 어떻게 판단하나요</li>
-  <li>거래량과 체결강도는 뭐가 다른가요</li>
-  <li>체결강도를 매매 신호로 쓰면 위험한 이유</li>
-  <li>체결강도 확인할 수 있는 HTS MTS 화면</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도 뜻과 계산 공식</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도 100을 기준으로 매수세 매도세를 어떻게 판단하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">거래량과 체결강도는 뭐가 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도를 매매 신호로 쓰면 위험한 이유</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도 확인할 수 있는 HTS MTS 화면</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 뜻과 계산 공식</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 뜻과 계산 공식</h2>
 
 <p>체결강도는 일정 시간 동안 실제로 체결된 매수 수량과 매도 수량을 비교해, 그 시점의 매수세와 매도세 중 어느 쪽이 더 강한지를 숫자로 보여주는 지표입니다. 공식은 다음과 같습니다.</p>
 
@@ -143,7 +143,7 @@ self_check: |
   <li>체결강도 66.7 → 매수 체결(600주)보다 매도 체결(900주)이 많아 매도 우위입니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 100을 기준으로 매수세 매도세를 어떻게 판단하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 100을 기준으로 매수세 매도세를 어떻게 판단하나요</h2>
 
 <p>체결강도 100은 매수 체결량과 매도 체결량이 정확히 같다는 뜻으로, 어느 쪽도 우위가 아닌 균형 상태입니다. 이 100을 기준으로 시장에서 흔히 쓰는 해석은 아래 표와 같습니다.</p>
 
@@ -172,7 +172,7 @@ self_check: |
 
 <p><mark>이 표는 시장에서 통용되는 일반적 해석 기준일 뿐, 특정 종목의 매수·매도 시점을 정해주는 공식이 아닙니다.</mark> 같은 100이라도 종목별 평소 거래 규모나 시간대에 따라 의미가 달라질 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">거래량과 체결강도는 뭐가 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">거래량과 체결강도는 뭐가 다른가요</h2>
 
 <p>거래량은 매수·매도를 구분하지 않고 일정 시간 동안 체결된 주식 수량을 모두 더한 값입니다. 반면 체결강도는 그 체결량을 매수 쪽과 매도 쪽으로 나눠 비율로 비교한 지표입니다. 아래 표로 정리했습니다.</p>
 
@@ -210,7 +210,7 @@ self_check: |
 
 <p><mark>거래량이 크다고 반드시 체결강도가 높은 것은 아닙니다.</mark> 매수와 매도가 똑같이 활발하게 체결되면 거래량은 크지만 체결강도는 100 근처에 머물 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도를 매매 신호로 쓰면 위험한 이유</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도를 매매 신호로 쓰면 위험한 이유</h2>
 
 <p>체결강도는 그 순간의 스냅샷일 뿐입니다. 1분 뒤에는 완전히 다른 값이 나올 수 있고, 시장가격은 매수·매도 수량만이 아니라 참여자들의 심리에도 크게 좌우됩니다. 분위기가 좋으면 적은 매수량으로도 호가가 급등할 수 있고, 반대로 적은 매도량으로도 급락할 수 있습니다.</p>
 
@@ -222,7 +222,7 @@ self_check: |
   <li>체결강도만 보고 특정 종목의 매수·매도 시점을 단정하는 것은 이 지표의 한계를 넘어서는 해석입니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 확인할 수 있는 HTS MTS 화면</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 확인할 수 있는 HTS MTS 화면</h2>
 
 <p>체결강도는 대부분의 국내 증권사 HTS·MTS에서 종목 상세 화면이나 호가창 근처에 기본으로 제공합니다. 증권사별로 화면 위치가 조금씩 다릅니다.</p>
 
@@ -260,7 +260,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">체결강도 100은 무슨 뜻인가요</summary>

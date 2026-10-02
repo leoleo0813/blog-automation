@@ -143,22 +143,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ETN이 뭔가요</li>
-  <li>ETN과 ETF, 신용위험부터 다릅니다</li>
-  <li>조기상환 사유, 지금은 세 가지입니다</li>
-  <li>상장폐지까지 이어지는 요건</li>
-  <li>ETN 세금, ETF와 이렇게 다릅니다</li>
-  <li>지표가치와 괴리율 확인하는 법</li>
-  <li>묻고 답하기</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETN이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETN과 ETF, 신용위험부터 다릅니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">조기상환 사유, 지금은 세 가지입니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장폐지까지 이어지는 요건</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETN 세금, ETF와 이렇게 다릅니다</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지표가치와 괴리율 확인하는 법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">묻고 답하기</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">ETN이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">ETN이 뭔가요</h2>
 
 <p>ETN은 Exchange Traded Note의 줄임말로, 우리말로는 상장지수증권이라고 합니다. 증권회사가 발행해 거래소에 상장하고, 주식처럼 실시간으로 사고팔 수 있습니다.</p>
 
 <p>ETN을 발행한 증권회사는 기초지수(코스피200, 특정 원자재, 해외지수 등)의 움직임을 따라가도록 설계하고, 만기(1년 이상 20년 이내)가 되면 투자 기간 동안의 누적 수익에서 제비용을 뺀 금액을 투자자에게 지급합니다.</p>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">ETN과 ETF, 신용위험부터 다릅니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">ETN과 ETF, 신용위험부터 다릅니다</h2>
 
 <p>ETF(상장지수펀드)는 펀드가 기초자산을 직접 사서 별도의 신탁재산으로 보관합니다. 운용사가 파산하더라도 그 자산을 팔아 투자자에게 돌려줄 수 있습니다.</p>
 
@@ -191,7 +191,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">조기상환 사유, 지금은 세 가지입니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">조기상환 사유, 지금은 세 가지입니다</h2>
 
 <p>ETN은 만기 전에도 특정 조건에 해당하면 강제로 조기상환(조기청산)됩니다. 2026년 현재 유효한 사유는 다음 세 가지입니다.</p>
 
@@ -208,7 +208,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">2020년 원유 ETN 괴리율 급등 사태 이후 한때 "지표가치 기준 괴리율 100% 이상"도 조기상환 사유에 포함됐지만, 2022년 5월 18일 개정으로 삭제됐습니다. 일부 증권사 교육자료에는 이 옛 조항이 아직도 남아 있어, 지금 기준으로는 위 세 가지만 유효하다는 점을 구분해서 봐야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">상장폐지까지 이어지는 요건</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">상장폐지까지 이어지는 요건</h2>
 
 <p>조기상환이 개별 ETN 종목에 생기는 일이라면, 상장폐지는 발행 증권사 자체의 문제로 생기는 더 큰 위험입니다.</p>
 
@@ -220,13 +220,13 @@ self_check: |
 
 <p>ETN 시장에 새로 진입하려는 증권사는 자기자본 5,000억원 이상을 갖춰야 합니다. 상장폐지 기준(2,500억원)은 이 진입 기준의 절반 수준으로, 이미 발행 중인 증권사의 재무 상태가 크게 나빠졌을 때 투자자를 보호하기 위한 하한선입니다.</p>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">ETN 세금, ETF와 이렇게 다릅니다</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">ETN 세금, ETF와 이렇게 다릅니다</h2>
 
 <p>ETN의 매매차익과 분배금은 배당소득세 15.4%(지방소득세 포함) 대상이고, 다른 금융소득과 합쳐 연 2,000만원을 넘으면 금융소득종합과세 대상에도 포함됩니다. 증권거래세는 붙지 않습니다.</p>
 
 <p>여기서 ETF와 헷갈리기 쉬운 지점이 있습니다. 국내 주식으로만 구성된 ETF는 매매차익이 비과세지만, <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">ETN은 코스피200처럼 국내지수를 추종하더라도 이런 비과세 특례가 적용되지 않아 매매차익 전액이 배당소득세 대상</span>입니다. "국내 지수니까 세금이 없겠지"라고 짐작하면 틀리기 쉬운 부분입니다.</p>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">지표가치와 괴리율 확인하는 법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">지표가치와 괴리율 확인하는 법</h2>
 
 <p>지표가치(IV)는 ETN 1증권의 실질 가치로, 한국예탁결제원이 매 영업일 1회 산출합니다. 장중에는 전일 지표가치에 당일 기초지수 변화율을 반영한 실시간 지표가치(IIV)가 쓰입니다.</p>
 
@@ -239,7 +239,7 @@ self_check: |
 
 <p>괴리율이 크게 벌어진 종목은 실제 가치보다 비싸게(또는 싸게) 거래되고 있다는 뜻이라 주의가 필요합니다. 종목별 지표가치·괴리율 추이는 <a href="https://etn.krx.co.kr/" target="_blank" rel="noopener">한국거래소 ETN 시장 정보</a>와 <a href="https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC020103020801" target="_blank" rel="noopener">한국거래소 데이터 상세검색</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">묻고 답하기</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #0d9488;padding-left:12px;margin-top:36px;">묻고 답하기</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ETN과 ETF 중 뭐가 더 안전한가요</summary>

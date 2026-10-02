@@ -103,20 +103,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>공매도가 정확히 뭔가요</li>
-  <li>차입공매도와 무차입공매도는 뭐가 다른가요</li>
-  <li>왜 금지와 재개를 반복하나요</li>
-  <li>2025년 재개되면서 뭐가 달라졌나요</li>
-  <li>개인도 공매도를 할 수 있나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공매도가 정확히 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">차입공매도와 무차입공매도는 뭐가 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 금지와 재개를 반복하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2025년 재개되면서 뭐가 달라졌나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">개인도 공매도를 할 수 있나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공매도가 정확히 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공매도가 정확히 뭔가요</h2>
 
 <p>공매도(空賣渡)는 말 그대로 <mark>없는 것을 판다</mark>는 뜻입니다. 주가가 떨어질 것으로 예상될 때, 그 주식을 먼저 빌려서 지금 가격에 팔고, 나중에 주가가 떨어지면 싸게 다시 사서 빌린 주식을 갚아 그 차익을 얻는 거래입니다.</p>
 
 <p>일반적인 투자(주가가 오를 때 이익)와 반대 방향으로 돈을 버는 구조라, 시장 하락에 베팅하는 대표적인 방법으로 꼽힙니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">차입공매도와 무차입공매도는 뭐가 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">차입공매도와 무차입공매도는 뭐가 다른가요</h2>
 
 <p><b>차입공매도</b>는 한국예탁결제원이나 증권사 등에서 실제로 주식을 빌린 뒤 매도하는 방식입니다. 한국에서 합법적으로 허용되는 유일한 공매도 방식입니다.</p>
 
@@ -127,11 +127,11 @@ self_check: |
   <p style="margin:8px 0 0 0;">공매도 호가를 직전 체결가보다 낮게 낼 수 없도록 한 규칙입니다. 공매도가 주가를 더 빨리 끌어내리는 것을 막기 위한 장치로, 시장조성자의 헤지거래 등 일부 예외가 있습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 금지와 재개를 반복하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 금지와 재개를 반복하나요</h2>
 
 <p>한국은 시장이 크게 흔들릴 때마다 공매도를 한시적으로 금지한 전례가 여러 차례 있습니다. 가장 최근에는 <mark>2023년 11월 무차입 공매도 근절을 명분으로 전면 금지</mark>됐고, 제도 개선을 거쳐 <b>2025년 3월 31일 전면 재개</b>됐습니다. 이번 금지 기간(약 17개월)은 역대 가장 길었던 것으로 알려져 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2025년 재개되면서 뭐가 달라졌나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2025년 재개되면서 뭐가 달라졌나요</h2>
 
 <p>단순히 다시 허용된 것이 아니라, <mark>"기울어진 운동장"이라는 지적을 받아온 제도 몇 가지가 함께 바뀌었습니다.</mark></p>
 
@@ -146,7 +146,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 금융위원회 공매도 재개·제도개선 관련 보도자료(WebSearch 교차 확인, 2026-09-12). fsc.go.kr 원문 직접 접속은 이번 세션에서 차단돼 언론·연구기관 교차 확인으로 대체.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">개인도 공매도를 할 수 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">개인도 공매도를 할 수 있나요</h2>
 
 <p>네. 증권사의 <b>대주(貸株) 서비스</b>를 통해 개인도 차입공매도에 참여할 수 있습니다. 다만 <mark>공매도에 처음 참여하는 개인투자자는 투자자 보호를 위한 사전 의무교육을 이수</mark>해야 합니다.</p>
 

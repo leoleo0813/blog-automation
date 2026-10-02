@@ -141,26 +141,26 @@ self_check: |
 
 <h2 style="border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ETF 뜻</li>
-  <li>ETF는 무엇을 담고 있나요</li>
-  <li>ETF 구성종목 확인하는 법</li>
-  <li>ETF 종류 살펴보기</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETF 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETF는 무엇을 담고 있나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETF 구성종목 확인하는 법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETF 종류 살펴보기</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF 뜻</h2>
 
 <p>ETF(Exchange Traded Fund)는 우리말로 상장지수펀드라고 부릅니다. 여러 종목에 나눠 투자하는 펀드이면서도, 증권거래소에 상장돼 있어 주식처럼 장중 아무 때나 실시간 가격으로 사고팔 수 있습니다.</p>
 
 <p>일반 펀드는 하루 한 번 정해진 기준가로만 거래되지만, ETF는 주식 계좌만 있으면 장중 시세를 보면서 바로 매수·매도할 수 있습니다. 이 차이가 ETF와 일반 펀드를 가르는 가장 큰 특징입니다.</p>
 
-<h2 style="border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF는 무엇을 담고 있나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF는 무엇을 담고 있나요</h2>
 
 <p>ETF는 대부분 특정 지수를 그대로 따라가도록 설계됩니다. 예를 들어 코스피200 지수를 추종하는 ETF라면, 코스피200에 속한 200개 종목을 지수와 비슷한 비중으로 나눠 담습니다. 지수가 오르내리면 ETF 가격도 같은 방향으로 움직이는 구조입니다.</p>
 
 <p>지수 구성종목은 정기적으로 재평가돼 교체되기도 합니다. 이때 ETF도 지수 변경에 맞춰 보유 종목을 함께 조정합니다. 그래서 <mark>ETF 이름만 보고 "이 종목이 계속 들어있겠지"라고 단정하기보다, 실제 구성종목을 직접 확인하는 습관</mark>이 필요합니다.</p>
 
-<h2 style="border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF 구성종목 확인하는 법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF 구성종목 확인하는 법</h2>
 
 <p>특정 ETF가 실제로 어떤 종목을 얼마나 담고 있는지는 아래 순서로 확인할 수 있습니다.</p>
 
@@ -193,7 +193,7 @@ self_check: |
 
 <p>증권사 MTS 앱에서도 ETF 종목명을 검색하면 "구성종목" 또는 "PDF" 탭에서 같은 정보를 바로 볼 수 있는 경우가 많습니다. <mark>구성종목과 비중은 매일 바뀔 수 있으니</mark>, 투자 전에는 항상 최신 자료로 다시 확인하는 편이 안전합니다.</p>
 
-<h2 style="border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF 종류 살펴보기</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">ETF 종류 살펴보기</h2>
 
 <p>ETF는 무엇을 추종하느냐에 따라 성격이 크게 갈립니다.</p>
 
@@ -239,7 +239,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #be123c;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ETF와 일반 펀드는 뭐가 다른가요</summary>

@@ -105,17 +105,17 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>연금저축 세액공제란 무엇인가요</li>
-  <li>연금저축 세액공제 한도는 얼마인가요</li>
-  <li>소득 구간별 공제율은 어떻게 다른가요</li>
-  <li>실제로 얼마나 돌려받나요</li>
-  <li>IRP와 함께 넣으면 한도가 어떻게 되나요</li>
-  <li>한도까지 넣으면 그 금액을 다 돌려받나요</li>
-  <li>중도에 해지하면 어떻게 되나요</li>
-  <li>세액공제는 언제까지 신청해야 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금저축 세액공제란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금저축 세액공제 한도는 얼마인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">소득 구간별 공제율은 어떻게 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 돌려받나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">IRP와 함께 넣으면 한도가 어떻게 되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">한도까지 넣으면 그 금액을 다 돌려받나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도에 해지하면 어떻게 되나요</a></li>
+  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세액공제는 언제까지 신청해야 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제란 무엇인가요</h2>
 
 <p>연금저축은 노후자금을 준비하면서 <mark>납입한 금액의 일부를 세금에서 직접 빼주는</mark> 개인연금 계좌입니다. 소득공제가 아니라 세액공제라서, 계산된 세금 자체에서 공제율만큼 금액이 빠집니다.</p>
 
@@ -124,7 +124,7 @@ self_check: |
   <li>개인형 퇴직연금(IRP)도 별도로 또는 연금저축과 함께 세액공제 대상이 됩니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제 한도는 얼마인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제 한도는 얼마인가요</h2>
 
 <p>세액공제를 받을 수 있는 납입한도는 <b>연금저축 단독</b>인지 <b>IRP를 함께 넣는지</b>에 따라 달라집니다.</p>
 
@@ -154,7 +154,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">예전에는 소득에 따라 납입한도까지 달랐지만, 현재 국세청 표에서는 <b>두 소득 구간의 한도가 600만원(합산 900만원)으로 같습니다.</b> 소득에 따라 달라지는 것은 한도가 아니라 공제율입니다. 오래된 글에는 소득별로 한도가 다르게 적혀 있을 수 있습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">소득 구간별 공제율은 어떻게 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">소득 구간별 공제율은 어떻게 다른가요</h2>
 
 <p>공제율은 <b>총급여(근로소득자) 또는 종합소득금액(사업소득자 등)</b> 구간에 따라 두 단계로 나뉩니다. 소득이 낮은 구간일수록 공제율이 더 높게 적용됩니다.</p>
 
@@ -192,7 +192,7 @@ self_check: |
   <p style="margin:10px 0 0 0;">체감상 손에 돌아오는 비율은 <mark>16.5% / 13.2%</mark>가 맞습니다. 다만 세법 조문이나 국세청 표를 직접 보면 15% / 12%로 적혀 있어 혼란스러울 수 있는데, 서로 다른 숫자가 아니라 지방소득세를 포함했는지의 차이입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 돌려받나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 돌려받나요</h2>
 
 <p>한도를 꽉 채워 납입했을 때 돌려받는 금액은 <mark>납입한도 × 공제율</mark>로 계산합니다. 아래는 지방소득세를 포함한 실제 체감 금액 기준입니다.</p>
 
@@ -217,7 +217,7 @@ self_check: |
 
 <p>총급여가 5,500만원 경계를 넘으면 같은 900만원을 넣어도 <b>29만 7천원</b>이 줄어듭니다. 경계 근처라면 신경 쓸 만한 차이입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IRP와 함께 넣으면 한도가 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IRP와 함께 넣으면 한도가 어떻게 되나요</h2>
 
 <p>연금저축 단독 한도를 넘는 금액을 IRP에 추가로 넣으면, 합산한도까지 세액공제를 더 받을 수 있습니다. 즉 연금저축과 IRP는 <b>경쟁 관계가 아니라 보완 관계</b>입니다.</p>
 
@@ -234,7 +234,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">ISA 자체의 한도와 비과세 혜택은 따로 정리한 "ISA 계좌 한도와 비과세 혜택" 글을 참고하세요.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한도까지 넣으면 그 금액을 다 돌려받나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한도까지 넣으면 그 금액을 다 돌려받나요</h2>
 
 <p>아닐 수 있습니다. 이 지점이 "최대 얼마 환급"이라는 홍보 문구와 실제 결과가 갈리는 자리입니다.</p>
 
@@ -249,7 +249,7 @@ self_check: |
   <p style="margin:10px 0 0 0;">두 경우 모두 남은 공제액은 <b>다음 해로 이월되지 않고 그대로 사라집니다.</b> 연말정산 결과를 먼저 확인한 뒤 납입액을 정하는 편이 안전한 이유입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">중도에 해지하면 어떻게 되나요</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">중도에 해지하면 어떻게 되나요</h2>
 
 <p>세액공제를 받은 뒤 연금 개시 전에 해지하면 <mark>그동안 받은 혜택을 되돌려 내야 합니다.</mark> 공제받았던 납입 원금과 그 운용수익에 기타소득세가 매겨지는 방식입니다.</p>
 
@@ -257,7 +257,7 @@ self_check: |
 
 <p>다만 사망·해외이주, 가입자나 부양가족의 장기 요양, 개인회생·파산처럼 부득이한 사유로 인정되는 경우에는 낮은 세율이 적용됩니다. 해당 여부와 정확한 세율은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>에서 확인하는 것이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세액공제는 언제까지 신청해야 하나요</h2>
+<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세액공제는 언제까지 신청해야 하나요</h2>
 
 <p>세액공제는 <b>해당 연도 12월 31일까지 납입한 금액</b>을 기준으로 다음 해 연말정산(근로소득자) 또는 5월 종합소득세 신고(사업소득자 등)에서 반영됩니다. 신청은 별도 서류 제출보다는 연말정산 자료나 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 연금계좌 납입증명서 조회로 확인합니다.</p>
 

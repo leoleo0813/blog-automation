@@ -133,21 +133,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>공모주 청약이 뭔가요</li>
-  <li>청약 증거금은 어떻게 계산하나요</li>
-  <li>균등배정과 비례배정은 어떻게 다른가요</li>
-  <li>공모주 청약은 어떤 순서로 진행되나요</li>
-  <li>최근 배정 규정이 바뀐다는데 무슨 내용인가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공모주 청약이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">청약 증거금은 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">균등배정과 비례배정은 어떻게 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공모주 청약은 어떤 순서로 진행되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">최근 배정 규정이 바뀐다는데 무슨 내용인가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공모주 청약이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공모주 청약이 뭔가요</h2>
 
 <p>공모주 청약은 새로 증시에 상장하는 기업이 일반투자자에게 파는 주식을 신청해서 받는 절차입니다. 증권사 계좌에 청약증거금을 넣고 원하는 수량을 신청하면, 그 증권사가 대표주관사로 참여한 공모에서 배정 결과에 따라 주식을 받습니다.</p>
 
 <p>공모주가 상장 후 공모가보다 오르는 경우가 많다 보니 인기가 높지만, <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">신청한 수량을 그대로 받는 것이 아니라 증거금과 배정 방식에 따라 실제 받는 주식 수가 달라진다는 점</span>을 먼저 이해해야 합니다. IPO 전체 절차(주관사 선정부터 상장까지)와 기관투자자의 의무보유확약 제도는 <a href="https://sensitiveboss3.tistory.com/entry/ipo-mandatory-holding-allocation-2026" target="_blank" rel="noopener">이전 글(IPO 뜻과 의무보유확약 우선배정제도)</a>에서 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">청약 증거금은 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">청약 증거금은 어떻게 계산하나요</h2>
 
 <p><b>청약증거금은 공모가 × 신청 주수 × 증거금률로 계산합니다.</b> 증거금률은 증권사·종목에 따라 다를 수 있지만 대부분 50%를 적용합니다.</p>
 
@@ -158,7 +158,7 @@ self_check: |
 
 <p>증거금을 낼 때는 신청 주수의 절반만 실제 현금으로 내는 셈이지만, <mark>배정이 확정되기 전까지는 신청 주수 전체를 기준으로 증거금을 미리 준비해야 합니다.</mark> 최종 배정 결과에 따라 배정받지 못한 만큼의 증거금은 환불됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">균등배정과 비례배정은 어떻게 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">균등배정과 비례배정은 어떻게 다른가요</h2>
 
 <p>일반청약자에게 배정되는 물량은 <b>50% 이상이 균등배정, 나머지가 비례배정</b>으로 운영됩니다. 이 비율은 금융투자협회의 <a href="https://law.kofia.or.kr/service/law/lawFullScreen.do?seq=140&amp;historySeq=1728" target="_blank" rel="noopener">「증권 인수업무 등에 관한 규정」</a>에 근거합니다.</p>
 
@@ -191,7 +191,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">300주를 신청했는데 경쟁률이 1,000:1이라면, 배정 주수는 <b>300 ÷ 1,000 = 0.3</b>이고 소수점은 버리므로 실제 배정은 <b>0주</b>입니다. 경쟁률이 높은 인기 공모주일수록 증거금을 많이 넣어도 비례배정에서는 한 주도 못 받는 경우가 흔합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공모주 청약은 어떤 순서로 진행되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공모주 청약은 어떤 순서로 진행되나요</h2>
 
 <p>공모주 청약은 대체로 아래 순서로 진행됩니다.</p>
 
@@ -203,13 +203,13 @@ self_check: |
   <li><b>환불금 입금 및 상장</b>: 배정받지 못한 증거금은 환불일에 계좌로 자동 입금되고, 배정받은 주식은 상장일부터 거래할 수 있습니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">최근 배정 규정이 바뀐다는데 무슨 내용인가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">최근 배정 규정이 바뀐다는데 무슨 내용인가요</h2>
 
 <p><mark>2026년 1월 1일 이후 증권신고서를 제출하는 코스닥 상장 예정기업은 공모주의 30% 이상을 코스닥벤처펀드에 우선 배정해야 합니다.</mark> 기존 25%에서 확대된 것으로, <a href="https://www.kofia.or.kr/brd/m_211/view.do?seq=223" target="_blank" rel="noopener">금융투자협회</a>가 2025년 10월 31일 관련 규정 개정을 예고했고 같은 내용을 <a href="https://www.fsc.go.kr/no010101/85897" target="_blank" rel="noopener">금융위원회</a>도 보도자료로 확인했습니다.</p>
 
 <p>이 규정은 <b>코스닥 공모주에만 적용</b>되며, 2028년 12월 31일까지 3년간 한시적으로 시행됩니다. 코스닥벤처펀드 우선배정은 기관투자자 배정 물량 안에서 이뤄지는 절차라, 이 글에서 다룬 일반청약자의 균등배정 50% 이상·비례배정 규정 자체가 바뀌는 것은 아닙니다. 다만 코스닥 공모주에 청약할 계획이라면 알아두면 좋은 최신 변화입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">공모주 청약이란 정확히 무엇인가요</summary>

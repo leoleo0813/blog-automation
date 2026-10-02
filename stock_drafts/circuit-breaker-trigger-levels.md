@@ -125,21 +125,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>서킷브레이커란 무엇인가요</li>
-  <li>코스피 서킷브레이커는 언제 발동되나요</li>
-  <li>서킷브레이커와 사이드카·VI는 어떻게 다른가요</li>
-  <li>서킷브레이커가 발동되면 어떻게 되나요</li>
-  <li>2026년 서킷브레이커는 왜 이렇게 자주 발동됐나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">서킷브레이커란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">코스피 서킷브레이커는 언제 발동되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">서킷브레이커와 사이드카·VI는 어떻게 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">서킷브레이커가 발동되면 어떻게 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 서킷브레이커는 왜 이렇게 자주 발동됐나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">서킷브레이커란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">서킷브레이커란 무엇인가요</h2>
 
 <p>서킷브레이커(매매거래중단제도)는 <mark>주가지수가 급락할 때 시장 전체의 매매를 일시적으로 멈추는 제도</mark>입니다. 전기 회로에 과부하가 걸리면 차단기가 내려가듯, 투자자들에게 냉정하게 생각할 시간을 강제로 주기 위한 장치입니다.</p>
 
 <p>한국거래소는 1998년부터 이 제도를 운영하고 있으며, 하락 폭에 따라 <b>1단계·2단계·3단계</b> 순서로 발동됩니다. 코스피와 코스닥 시장에 각각 독립적으로 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피 서킷브레이커는 언제 발동되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">코스피 서킷브레이커는 언제 발동되나요</h2>
 
 <p>발동 기준은 <b>전일 종가 대비 지수 하락률이 일정 수준을 1분 이상 유지</b>하는지로 판단합니다.</p>
 
@@ -172,7 +172,7 @@ self_check: |
 
 <p><mark>1·2단계는 하루에 한 번만 발동</mark>할 수 있고, 장이 열린 뒤 5분이 지난 시점부터 장 마감 40분 전까지만 발동됩니다. 발동 중에는 새 주문을 넣을 수 없고, 이미 낸 주문을 취소하는 것만 가능합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">서킷브레이커와 사이드카·VI는 어떻게 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">서킷브레이커와 사이드카·VI는 어떻게 다른가요</h2>
 
 <p>세 가지 모두 주가 급변 시 매매를 일시적으로 조정하는 안전장치지만, <b>적용 대상과 강도</b>가 다릅니다.</p>
 
@@ -209,7 +209,7 @@ self_check: |
 
 <p>즉 <mark>VI는 종목 하나, 사이드카는 선물시장 충격의 파급, 서킷브레이커는 시장 전체를 대상으로 한다</mark>는 점이 가장 큰 차이입니다. 사이드카의 코스피·코스닥별 세부 조건과 실제 숫자 계산 예시는 <a href="https://sensitiveboss3.tistory.com/entry/stock-sidecar-trigger-condition" target="_blank" rel="noopener">사이드카 뜻과 발동 조건</a> 글에서 더 자세히 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">서킷브레이커가 발동되면 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">서킷브레이커가 발동되면 어떻게 되나요</h2>
 
 <p>1·2단계가 발동되면 코스피·코스닥은 물론 관련 선물·옵션 시장까지 <b>20분간 모든 매매가 멈춥니다</b>(채권시장 제외). 이 시간 동안 이미 낸 주문을 취소하는 것은 가능하지만, 새로운 매수·매도 주문은 접수되지 않습니다.</p>
 
@@ -220,7 +220,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">서킷브레이커가 풀렸다고 해서 하락이 끝났다는 뜻은 아닙니다. 20분의 냉각 시간을 준 것일 뿐, 재개 이후 지수가 다시 급락하면 다음 단계가 이어서 발동될 수 있습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 서킷브레이커는 왜 이렇게 자주 발동됐나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 서킷브레이커는 왜 이렇게 자주 발동됐나요</h2>
 
 <p>2026년 코스피는 <mark>제도 도입 이후 서킷브레이커가 가장 잦았던 해</mark>로 꼽힙니다. 3월에는 미국-이란 전쟁 여파로 코스피·코스닥이 동반 8%대로 급락하며 발동됐고, 7월에는 반도체주 투매 등으로 발동이 잇따랐습니다.</p>
 
@@ -237,7 +237,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">서킷브레이커가 발동되면 주식을 살 수 없나요</summary>

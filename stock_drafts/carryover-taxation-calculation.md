@@ -120,28 +120,28 @@ self_check: |
 
 <h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>이월과세의 기본 개념</li>
-  <li>주식도 이월과세 대상에 포함되나요</li>
-  <li>적용 기간 1년의 기산일 계산법</li>
-  <li>실제 계산 예시로 보는 이월과세</li>
-  <li>부동산 이월과세와 무엇이 다른가요</li>
-  <li>이월과세가 적용되지 않는 경우</li>
-  <li>헷갈리는 부분 정리</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이월과세의 기본 개념</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식도 이월과세 대상에 포함되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">적용 기간 1년의 기산일 계산법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 계산 예시로 보는 이월과세</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">부동산 이월과세와 무엇이 다른가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이월과세가 적용되지 않는 경우</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리는 부분 정리</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">이월과세의 기본 개념</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">이월과세의 기본 개념</h2>
 
 <p>이월과세(소득세법 제97조의2)는 배우자나 직계존비속(부모·자녀·조부모 등)에게 자산을 증여받은 사람이 그 자산을 짧은 기간 안에 팔면, 증여받은 날의 가격이 아니라 <mark>증여해 준 사람이 원래 그 자산을 산 가격</mark>을 취득가액으로 삼아 양도소득세를 계산하는 제도입니다.</p>
 
 <p>증여세는 증여받을 때 이미 별도로 계산해 납부합니다. 이월과세는 그 이후 자산을 팔 때 양도소득세를 어떤 가격 기준으로 계산할지를 정하는 특례일 뿐, 증여세 자체를 늘리거나 다시 매기는 규정이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">주식도 이월과세 대상에 포함되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">주식도 이월과세 대상에 포함되나요</h2>
 
 <p>포함됩니다. 2025년 세법 개정 전까지는 부동산과 일부 회원권 등에만 이월과세가 적용됐고, 주식은 별도의 부당행위계산부인 규정으로 다뤘습니다. 2025년 1월 1일 이후 증여받은 분부터는 상장주식, 비상장주식, 해외주식이 모두 이월과세 적용 대상에 새로 들어왔습니다.</p>
 
 <p>취득가액뿐 아니라 취득시기도 증여자가 원래 그 주식을 산 시점을 기준으로 계산합니다. 증여받은 날짜가 아니라 증여자의 보유 이력을 그대로 이어받는다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">적용 기간 1년의 기산일 계산법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">적용 기간 1년의 기산일 계산법</h2>
 
 <p>기산일은 주식을 증여받은 날(수증일)입니다. 그날로부터 1년이 되는 날까지 팔면 이월과세가 적용되고, 그 날짜를 넘겨 팔면 적용되지 않습니다.</p>
 
@@ -151,7 +151,7 @@ self_check: |
   <li>증여받은 날 이후 매도까지 걸린 실제 날짜 수로 따지며, 반대로 1년을 며칠이라도 넘기면 적용되지 않습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">실제 계산 예시로 보는 이월과세</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">실제 계산 예시로 보는 이월과세</h2>
 
 <p>가상의 사례로 계산 방식을 비교해 보겠습니다. 아버지가 5년 전 2천만원에 산 비상장주식을 2025년 3월 아들에게 증여했고, 증여 당시 시가는 8천만원이었습니다(증여세는 이 금액을 기준으로 별도 계산). 아들이 8개월 만인 2025년 11월 9천만원에 매도했다고 가정합니다.</p>
 
@@ -164,7 +164,7 @@ self_check: |
 
 <p>같은 매도가격이라도 양도차익이 7천만원과 1천만원으로 6천만원 차이가 납니다. 과세표준이 커지면 적용 세율 구간도 함께 올라갈 수 있어, 실제 세금 차이는 이보다 더 벌어질 수 있습니다. 구체적인 세율 구간은 이 시리즈의 다른 주식 양도소득세 관련 글을 참고하시기 바랍니다.</p>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">부동산 이월과세와 무엇이 다른가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">부동산 이월과세와 무엇이 다른가요</h2>
 
 <p>같은 이월과세 규정이라도 자산 종류에 따라 적용 기간이 다릅니다. 아래 표로 비교합니다.</p>
 
@@ -197,7 +197,7 @@ self_check: |
 
 <p>반대로 말하면, 부동산은 10년이라는 기간만 생각하고 주식도 똑같이 여유가 있다고 오해하기 쉽습니다. 주식은 기간이 훨씬 짧다는 점을 따로 기억해야 합니다.</p>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">이월과세가 적용되지 않는 경우</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">이월과세가 적용되지 않는 경우</h2>
 
 <p>아래 요건에 해당하면 이월과세가 적용되지 않거나, 애초에 적용할 세금 자체가 없습니다.</p>
 
@@ -207,7 +207,7 @@ self_check: |
   <li>국내 상장주식을 장내에서 거래하는 소액주주인 경우: 애초에 양도소득세 과세 대상이 아니므로, 이월과세를 적용할 세금 자체가 없습니다. <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 주식등 양도소득세 안내</a>에서 본인이 대주주인지, 장외거래인지부터 확인하는 편이 정확합니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #7b3fa0;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">이월과세를 적용받으면 증여세도 다시 내야 하나요</summary>

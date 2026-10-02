@@ -127,27 +127,27 @@ self_check: |
 
 <h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>리츠 뜻이 뭔가요</li>
-  <li>배당을 많이 주는 법적 근거</li>
-  <li>상장리츠·비상장리츠·리츠ETF 차이</li>
-  <li>리츠 배당소득세는 얼마나 내나요</li>
-  <li>공모리츠 9% 특례 받는 법</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리츠 뜻이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당을 많이 주는 법적 근거</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장리츠·비상장리츠·리츠ETF 차이</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">리츠 배당소득세는 얼마나 내나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공모리츠 9% 특례 받는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">리츠 뜻이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">리츠 뜻이 뭔가요</h2>
 
 <p>리츠(REITs, Real Estate Investment Trusts)는 우리말로 <b>부동산투자회사</b>입니다. 여러 투자자에게서 자금을 모아 오피스, 물류센터, 상가, 호텔 같은 부동산에 투자하고, 그 부동산에서 나오는 임대료와 매각차익을 투자자에게 배당으로 나눠주는 구조입니다.</p>
 
 <p>건물을 직접 사려면 목돈이 필요하지만, 상장리츠는 주식처럼 증권 계좌에서 몇만 원 단위로도 살 수 있습니다. 소액으로 부동산에 간접 투자하는 방법인 셈입니다.</p>
 
-<h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">배당을 많이 주는 법적 근거</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">배당을 많이 주는 법적 근거</h2>
 
 <p>리츠가 일반 주식보다 배당에 적극적인 이유는 회사의 선택이 아니라 법 때문입니다. <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsId=009205" target="_blank" rel="noopener">부동산투자회사법</a> 제25조제1항은 총자산의 <mark>70%</mark> 이상을 부동산(건축 중인 건축물 포함)으로 구성하도록 정하고 있습니다.</p>
 
 <p>같은 법 제28조는 한 발 더 나갑니다. 상법 제462조제1항에 따른 해당 연도 이익배당한도의 <mark>90%</mark> 이상을 주주에게 배당하도록 의무를 두고 있습니다. 배당이 선택이 아니라 의무라는 점이 일반 배당주와의 근본적인 차이입니다.</p>
 
-<h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">상장리츠·비상장리츠·리츠ETF 차이</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">상장리츠·비상장리츠·리츠ETF 차이</h2>
 
 <p>리츠라는 이름이 붙어도 실제로 투자하는 방식은 세 가지로 갈립니다. 어떤 형태인지에 따라 유동성과 매매 방법이 크게 달라집니다.</p>
 
@@ -180,7 +180,7 @@ self_check: |
 
 <p>초보 투자자가 부담 없이 접근하기 쉬운 쪽은 상장리츠와 리츠ETF입니다. 비상장리츠는 청약 절차와 환매 제한을 먼저 확인할 필요가 있습니다.</p>
 
-<h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">리츠 배당소득세는 얼마나 내나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">리츠 배당소득세는 얼마나 내나요</h2>
 
 <p>리츠 배당도 기본적으로는 다른 주식 배당과 같은 배당소득세 15.4%(소득세 14%+지방소득세 1.4%)가 원천징수됩니다. 여기서 끝이 아닙니다. 공모리츠에는 별도의 세제 혜택이 있습니다.</p>
 
@@ -218,7 +218,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">공모리츠 9% 특례 받는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">공모리츠 9% 특례 받는 법</h2>
 
 <p>이 특례는 모든 리츠가 아니라 <b>일반 공모 절차로 발행된 리츠</b>에 한해 적용됩니다. 비상장·사모 형태로 발행된 리츠 배당에는 해당하지 않습니다.</p>
 
@@ -231,7 +231,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">이 글의 수치는 2026년 9월 기준입니다. 큰 금액을 투자하기 전에는 <a href="https://reits.molit.go.kr/pub/intro/info/infoReits01?pmn=4" target="_blank" rel="noopener">국토교통부 리츠정보시스템</a>이나 <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsId=009205" target="_blank" rel="noopener">국가법령정보센터</a>에서 최신 조문을 다시 확인하는 편이 안전합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1e8a6e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">리츠와 일반 주식은 무엇이 다른가요</summary>

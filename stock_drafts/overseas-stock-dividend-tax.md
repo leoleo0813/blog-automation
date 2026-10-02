@@ -122,21 +122,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>해외주식 배당소득세는 어떻게 원천징수되나요</li>
-  <li>나라마다 세율이 왜 다른가요</li>
-  <li>국내에서 추가로 세금을 더 내야 하나요</li>
-  <li>금융소득종합과세 대상이 되면 어떻게 되나요</li>
-  <li>국내주식 배당소득세와 무엇이 다른가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외주식 배당소득세는 어떻게 원천징수되나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">나라마다 세율이 왜 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내에서 추가로 세금을 더 내야 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금융소득종합과세 대상이 되면 어떻게 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국내주식 배당소득세와 무엇이 다른가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 배당소득세는 어떻게 원천징수되나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">해외주식 배당소득세는 어떻게 원천징수되나요</h2>
 
 <p>해외주식 배당금은 <b>투자한 나라(현지)에서 먼저 세금을 뗀 뒤</b> 나머지 금액이 국내 증권계좌로 들어옵니다. <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>이 발간한 「2024년 해외주식과 세금」에 따르면, 국내 세법상 배당소득 원천징수세율 14%에서 이미 낸 외국 원천징수세액을 차감해 이중과세를 조정합니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">국내 배당소득세(4편, 15.4%)와 다른 점은 세금을 떼는 주체와 순서다</span>는 것입니다. 국내주식은 국내 세법 하나만 적용되지만, 해외주식은 현지 세율과 국내 세율(14%)을 비교해 부족한 부분만 추가로 걷습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">나라마다 세율이 왜 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">나라마다 세율이 왜 다른가요</h2>
 
 <p>현지 원천징수세율은 나라마다 다르고, 이 세율이 <b>국내 기준 14%보다 높은지 낮은지</b>에 따라 국내 추가 징수 여부가 갈립니다.</p>
 
@@ -177,7 +177,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">위 세율은 각국 세법과 한국과의 조세조약에 따라 정해지며, 조약 개정이나 세법 변경으로 달라질 수 있습니다. 투자 전 증권사 고객센터나 국세청 안내로 최신 세율을 다시 확인하는 것이 안전합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내에서 추가로 세금을 더 내야 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내에서 추가로 세금을 더 내야 하나요</h2>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">100만원을 배당받았다고 가정하면, 나라별로 실제 손에 쥐는 금액이 달라집니다.</span></p>
 
@@ -220,7 +220,7 @@ self_check: |
 
 <p>중국처럼 현지 세율이 14%보다 낮으면 <b>부족한 부분만</b> 국내에서 걷고, 지방소득세는 그 부족분(4%)의 10%인 0.4%만 붙습니다. 홍콩처럼 현지 원천징수가 아예 없으면 국내주식과 동일하게 14%+지방소득세 1.4%=15.4%가 그대로 적용됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">금융소득종합과세 대상이 되면 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">금융소득종합과세 대상이 되면 어떻게 되나요</h2>
 
 <p>이자·배당을 합친 연간 금융소득이 <mark>2,000만원을 넘으면</mark> 해외주식 배당도 다른 금융소득과 합산해 다음 해 5월 종합소득세로 신고해야 합니다. 이때 해외에서 이미 낸 세금을 다시 내지 않도록 <b>외국납부세액공제</b>가 적용됩니다.</p>
 
@@ -235,13 +235,13 @@ self_check: |
   <p style="margin:8px 0 0 0;">공제 한도는 그해 전체 종합소득 구성(근로·사업·금융소득 등)에 따라 달라져 일률적인 원 단위 계산이 어렵습니다. 종합과세 대상이라면 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 종합소득세 신고 안내나 세무 전문가 상담으로 본인의 정확한 공제액을 확인해야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내주식 배당소득세와 무엇이 다른가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">국내주식 배당소득세와 무엇이 다른가요</h2>
 
 <p>국내주식 배당은 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">이전 글(배당소득세 얼마 떼나)</a>에서 다룬 것처럼 국내 세법 15.4%(14%+지방소득세 1.4%) 하나만 적용됩니다. 해외주식은 여기에 <b>현지 원천징수</b>라는 단계가 하나 더 있고, 국가별로 실효세율이 15%~15.4% 사이에서 달라진다는 점이 다릅니다.</p>
 
 <p>미국주식을 보유하다 사망하는 경우의 <b>미국 연방 상속세</b> 이슈는 배당·양도세와는 완전히 다른 세목입니다. 자세한 내용은 <a href="https://sensitiveboss3.tistory.com/entry/us-stock-tax" target="_blank" rel="noopener">이전 글(미국주식 세금 종류와 상속세 주의점)</a>에서 다룹니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">해외주식 배당소득세는 얼마인가요</summary>

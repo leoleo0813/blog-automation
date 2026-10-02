@@ -55,16 +55,16 @@ self_check: |
 <h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>테이퍼링은 무슨 뜻인가요</li>
-  <li>양적완화, 테이퍼링, 양적긴축 구분표</li>
-  <li>2013년 테이퍼링 경과</li>
-  <li>2021년 월 1,200억 달러 축소 계산</li>
-  <li>발표와 실행 때 시장 반응이 엇갈린 사례</li>
-  <li>테이퍼링 기사 읽는 법</li>
-  <li>테이퍼링 기사 읽다 막히는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">테이퍼링은 무슨 뜻인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">양적완화, 테이퍼링, 양적긴축 구분표</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2013년 테이퍼링 경과</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2021년 월 1,200억 달러 축소 계산</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">발표와 실행 때 시장 반응이 엇갈린 사례</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">테이퍼링 기사 읽는 법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">테이퍼링 기사 읽다 막히는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">테이퍼링은 무슨 뜻인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">테이퍼링은 무슨 뜻인가요</h2>
 
 <p>테이퍼링(tapering)은 "점점 가늘어진다"는 뜻으로, 양적완화의 규모를 단계적으로 줄이는 것을 가리킵니다. 2013년 5월 벤 버냉키 당시 미국 연준 의장이 언급하면서 널리 알려진 말입니다.</p>
 
@@ -72,7 +72,7 @@ self_check: |
 
 <p><mark>테이퍼링을 해도 매입액이 0이 되기 전까지는 연준이 계속 자산을 사고 있습니다.</mark> 그래서 "돈줄을 죄는 정책"이라기보다 "돈을 푸는 속도를 늦추는 정책"으로 이해하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">양적완화, 테이퍼링, 양적긴축 구분표</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">양적완화, 테이퍼링, 양적긴축 구분표</h2>
 
 <p>뉴스에는 이 용어들이 한꺼번에 나와 헷갈리기 쉽습니다. 단계별로 나누면 아래와 같이 정리됩니다.</p>
 
@@ -96,7 +96,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>테이퍼링은 "매입 속도"를 줄이는 것이고, 양적긴축은 "보유 잔액"을 줄이는 것입니다.</li><li>테이퍼링과 기준금리 인상은 서로 다른 수단이라 같은 날 발표되지 않을 수 있습니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">2013년 테이퍼링 경과</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">2013년 테이퍼링 경과</h2>
 
 <p>2013년 테이퍼링은 발언이 먼저 나오고 실제 축소가 몇 달 뒤에 시작된 사례입니다. 2013년 5월 버냉키 의장이 자산매입 축소 가능성을 언급했고, 같은 해 12월 FOMC(연방공개시장위원회)에서 실제 축소가 결정됐습니다.</p>
 
@@ -108,7 +108,7 @@ self_check: |
   <li>2014년 10월: 축소를 이어 간 끝에 신규 매입 종료</li>
 </ol>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">2021년 월 1,200억 달러 축소 계산</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">2021년 월 1,200억 달러 축소 계산</h2>
 
 <p>2021년 테이퍼링은 코로나19 대응으로 커진 매입 규모를 줄인 사례입니다. 연준은 2020년 3월부터 매달 1,200억 달러(국채 800억 달러, MBS 400억 달러)를 사들이고 있었고, 2021년 11월부터 월 150억 달러씩 줄이기 시작했습니다.</p>
 
@@ -149,7 +149,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">발표와 실행 때 시장 반응이 엇갈린 사례</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">발표와 실행 때 시장 반응이 엇갈린 사례</h2>
 
 <p>테이퍼링 기사는 "주가 하락"이 제목으로 자주 붙지만, 실제 반응은 시점마다 달랐습니다. 2013년 5월 발언 직후에는 신흥국 금융시장이 크게 흔들려 이를 테이퍼 텐트럼(긴축 발작)이라고 부르게 됐습니다.</p>
 
@@ -157,7 +157,7 @@ self_check: |
 
 <p>달러 가치와 신흥국 자금 흐름도 함께 거론됩니다. 달러 지수의 구성과 움직임은 <a href="https://sensitiveboss3.tistory.com/entry/dollar-index-meaning-currency-weights" target="_blank" rel="noopener">달러인덱스 뜻과 통화 비중</a>에서 따로 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">테이퍼링 기사 읽는 법</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">테이퍼링 기사 읽는 법</h2>
 
 <p>기사를 읽을 때는 네 가지만 확인하면 흐름이 잡힙니다. 각각 해당 기사의 본문에서 찾을 수 있습니다.</p>
 
@@ -175,7 +175,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>테이퍼링은 매입 규모를 줄이는 단계이며, 0이 되기 전까지는 매입이 이어집니다.</li><li>같은 테이퍼링이라도 출발 규모와 속도에 따라 끝나는 시점이 크게 달라집니다.</li><li>시장 반응은 발표 시점과 사전 기대에 따라 달랐으므로 한 방향으로 단정할 수 없습니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">테이퍼링 기사 읽다 막히는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #7a52c7;padding-left:12px;margin-top:36px;">테이퍼링 기사 읽다 막히는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">테이퍼링과 양적긴축은 같은 말인가요</summary>

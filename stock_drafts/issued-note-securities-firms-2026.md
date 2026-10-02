@@ -122,26 +122,26 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>발행어음이 정확히 뭔가요</li>
-  <li>발행어음도 예금처럼 보호받나요</li>
-  <li>지금 발행어음을 파는 증권사는 몇 곳인가요</li>
-  <li>종투사로 지정되면 바로 발행어음을 팔 수 있나요</li>
-  <li>발행 한도는 정해져 있나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">발행어음이 정확히 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">발행어음도 예금처럼 보호받나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 발행어음을 파는 증권사는 몇 곳인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">종투사로 지정되면 바로 발행어음을 팔 수 있나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">발행 한도는 정해져 있나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">발행어음이 정확히 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">발행어음이 정확히 뭔가요</h2>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">발행어음은 고객이 맡긴 돈을 담보로, 증권사가 스스로의 신용으로 발행하는 만기 1년 이내의 약속어음</span>입니다. 증권사는 이 돈을 기업금융·부동산금융 등에 굴려 얻은 수익 일부를 약정 수익률로 고객에게 돌려줍니다.</p>
 
 <p>아무 증권사나 발행할 수 있는 건 아닙니다. 금융당국으로부터 <b>자기자본 4조원 이상의 종합금융투자사업자(종투사)</b>로 지정되고, 그 위에 <b>단기금융업 인가</b>까지 별도로 받아야 합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">발행어음도 예금처럼 보호받나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">발행어음도 예금처럼 보호받나요</h2>
 
 <p>아닙니다. <mark>발행어음은 예금자보호법에 따른 보호 대상이 아닙니다.</mark> <a href="https://www.kdic.or.kr" target="_blank" rel="noopener">예금보험공사</a>가 보호하는 것은 은행·저축은행 등이 취급하는 "예금등"에 한정되고, 실적배당형·증권사 자체신용 상품은 애초에 보호 대상 목록에 들어가지 않습니다.</p>
 
 <p>다만 증권사가 파산하지 않는 한 원금과 수익금을 정상적으로 돌려받으므로, 실제로 손실이 발생한 사례는 드문 편입니다. 그렇다고 법적으로 보장된 것은 아니라는 점이 예금과의 근본적인 차이입니다. 제도의 일반 원칙은 <a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&amp;csmSeq=1771&amp;ccfNo=3&amp;cciNo=1&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a>에서도 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지금 발행어음을 파는 증권사는 몇 곳인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지금 발행어음을 파는 증권사는 몇 곳인가요</h2>
 
 <p><mark>2026년 9월 9일 삼성증권이 금융위원회로부터 단기금융업 인가를 받으면서, 발행어음을 파는 증권사는 총 8곳</mark>이 됐습니다. 2021년 미래에셋증권 이후 4년 넘게 신규 인가가 없다가, 2025년 하반기부터 잇달아 늘어난 결과입니다.</p>
 
@@ -175,13 +175,13 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종투사로 지정되면 바로 발행어음을 팔 수 있나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">종투사로 지정되면 바로 발행어음을 팔 수 있나요</h2>
 
 <p>아닙니다. <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">종합금융투자사업자(종투사) 지정과 발행어음(단기금융업) 인가는 서로 다른 별개 절차</span>입니다. 종투사는 자기자본 4조원 이상이면 금융위원회가 지정하지만, 발행어음을 팔려면 그 이후 추가로 단기금융업 인가 심사를 통과해야 합니다.</p>
 
 <p>삼성증권이 대표적인 사례입니다. <b>2017년에 이미 자기자본 4조원 종투사로 지정</b>됐지만, 발행어음 인가는 그로부터 <mark>9년 뒤인 2026년 9월에야</mark> 받았습니다. 제재 이력 등이 인가 심사에서 결격 사유로 작용하면 종투사 지정만으로는 발행어음을 팔 수 없다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">발행 한도는 정해져 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">발행 한도는 정해져 있나요</h2>
 
 <p>네. <mark>발행어음은 증권사 자기자본의 200% 이내로만 발행할 수 있습니다.</mark> 무제한으로 고객 돈을 끌어모아 위험한 곳에 투자하지 못하도록 자본시장법 시행령이 정한 건전성 규제입니다.</p>
 

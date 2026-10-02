@@ -126,21 +126,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ISA 중도해지 기준</li>
-  <li>중도해지하면 세금이 얼마나 늘어나나요</li>
-  <li>납입원금 범위 인출은 다르다</li>
-  <li>특별중도해지로 인정되는 경우는 무엇인가요</li>
-  <li>중도해지 전에 확인할 점</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ISA 중도해지 기준</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도해지하면 세금이 얼마나 늘어나나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">납입원금 범위 인출은 다르다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">특별중도해지로 인정되는 경우는 무엇인가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도해지 전에 확인할 점</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">ISA 중도해지 기준</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">ISA 중도해지 기준</h2>
 
 <p>ISA(개인종합자산관리계좌)의 <b>의무가입기간은 3년</b>입니다. 이 기간을 채우면 <a href="https://sensitiveboss3.tistory.com/entry/isa-limit-benefit">비과세 한도(일반형 200만원)</a>까지는 세금이 없고, 초과분에는 9.9% 분리과세만 적용됩니다. 3년을 못 채우고 계좌를 없애면 이 혜택이 전부 취소됩니다.</p>
 
 <p>여기서 "해지"란 계좌 자체를 없애는 것을 말합니다. 계좌를 유지하면서 돈을 일부만 빼는 <b>인출</b>과는 다른 개념이며, 이 차이는 아래에서 따로 다룹니다.</p>
 
-<h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">중도해지하면 세금이 얼마나 늘어나나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">중도해지하면 세금이 얼마나 늘어나나요</h2>
 
 <p>3년을 채우지 못하고 해지하면 그동안 받은 비과세·저율 분리과세 혜택이 취소되고, 발생한 순수익 전체에 <mark>이자소득세 등 일반과세(15.4%)</mark>가 새로 적용됩니다. 단, 원천징수된 세액은 정산 과정에서 반영됩니다.</p>
 
@@ -170,7 +170,7 @@ self_check: |
 
 <p>같은 수익이라도 만기를 채우느냐, 중도에 해지하느냐에 따라 세금이 0원에서 30만원대로 벌어집니다. 급하게 돈이 필요하더라도 계좌를 통째로 해지하기 전에 아래 인출 방법을 먼저 확인할 필요가 있습니다.</p>
 
-<h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">납입원금 범위 인출은 다르다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">납입원금 범위 인출은 다르다</h2>
 
 <p>ISA는 계좌를 유지한 채로 <b>납입원금 범위 안에서 돈을 빼는 것</b>이 가능합니다. 예를 들어 원금 1,000만원을 넣었고 그중 800만원까지만 인출한다면, 이는 해지가 아니라 인출이라 세금 불이익이 없습니다.</p>
 
@@ -198,7 +198,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">특별중도해지로 인정되는 경우는 무엇인가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">특별중도해지로 인정되는 경우는 무엇인가요</h2>
 
 <p>3년을 못 채우고 계좌를 해지해도 세금 불이익이 없는 예외가 있습니다. 아래 사유로 해지하는 경우를 <b>특별중도해지</b>라고 부르며, 해지일까지 쌓인 비과세·저율 분리과세 혜택이 그대로 인정됩니다.</p>
 
@@ -214,7 +214,7 @@ self_check: |
 
 <p>특별중도해지로 인정받으려면 그냥 사유만 말해서는 안 되고, 금융회사에 <b>특별해지사유신고서</b>와 사유를 증명할 서류(가족관계증명서, 퇴직증명서 등)를 함께 제출해야 합니다.</p>
 
-<h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">중도해지 전에 확인할 점</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">중도해지 전에 확인할 점</h2>
 
 <p>먼저 지금 필요한 금액이 납입원금 범위 안에 들어오는지 계산해 봅니다. 원금 범위 안이라면 해지 대신 인출로 처리해 세금 불이익을 피할 수 있습니다.</p>
 
@@ -225,7 +225,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">이 글의 수치는 2026년 9월 기준입니다. 신청 직전에는 <a href="https://www.fsc.go.kr/po020201/27339" target="_blank" rel="noopener">금융위원회 ISA 주요정책문답</a>이나 가입한 금융회사에서 최신 기준을 다시 확인하는 편이 안전합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d98324;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ISA는 최소 몇 년을 유지해야 하나요</summary>

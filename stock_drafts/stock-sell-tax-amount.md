@@ -47,14 +47,14 @@ correction_2026_09_08: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>주식 팔면 세금 얼마나 내나요</li>
-  <li>증권거래세는 얼마나 내나요</li>
-  <li>양도소득세도 내야 하나요</li>
-  <li>양도소득세는 얼마나 내나요</li>
-  <li>세금은 언제 어떻게 내나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 팔면 세금 얼마나 내나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증권거래세는 얼마나 내나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">양도소득세도 내야 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">양도소득세는 얼마나 내나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세금은 언제 어떻게 내나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식 팔면 세금 얼마나 내나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식 팔면 세금 얼마나 내나요</h2>
 
 <p>주식을 팔 때 붙는 세금은 <b>증권거래세</b>와 <b>양도소득세</b> 두 가지입니다. 증권거래세는 국내 상장주식을 팔 때마다 예외 없이 부과됩니다.</p>
 
@@ -68,7 +68,7 @@ correction_2026_09_08: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권거래세는 얼마나 내나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권거래세는 얼마나 내나요</h2>
 
 <p>증권거래세는 <b>주식의 양도가액에 시장별 세율을 곱해</b> 계산합니다. 시장에 따라 세율이 다릅니다. <mark>코스피는 증권거래세 외에 농어촌특별세가 따로 붙는다는 점에 주의하세요.</mark></p>
 
@@ -110,7 +110,7 @@ correction_2026_09_08: |
 
 <p>증권거래세와 농어촌특별세 모두 <b>매도할 때 증권사가 자동으로 징수</b>합니다. 따로 신고하거나 납부할 필요가 없습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세도 내야 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세도 내야 하나요</h2>
 
 <p>대부분의 개인 투자자는 양도소득세를 내지 않습니다. <mark>국내 상장주식을 증권시장 안에서 파는 소액주주는 양도소득세 과세 대상이 아니기 때문입니다.</mark></p>
 
@@ -126,7 +126,7 @@ correction_2026_09_08: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세는 얼마나 내나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도소득세는 얼마나 내나요</h2>
 
 <p>양도소득세는 <b>양도소득과세표준에 세율을 곱해</b> 계산합니다. 과세표준은 양도소득금액에서 필요경비와 기본공제(연 250만 원)를 뺀 금액입니다.</p>
 
@@ -151,7 +151,7 @@ correction_2026_09_08: |
 
 <p>대주주가 <b>과세표준 2억 원</b>의 양도차익을 냈다면 3억 원 이하 구간이므로 <b>20%인 4천만 원</b>이 세금입니다. 과세표준이 <b>5억 원</b>이라면 3억 원 초과분(2억 원)에 25%를 곱한 5천만 원에 6천만 원을 더해 <b>1억 1천만 원</b>이 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세금은 언제 어떻게 내나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세금은 언제 어떻게 내나요</h2>
 
 <p>증권거래세는 <b>매도 시점에 증권사가 자동으로 원천징수</b>합니다. 투자자가 별도로 할 일은 없습니다.</p>
 

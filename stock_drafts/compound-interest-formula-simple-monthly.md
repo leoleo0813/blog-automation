@@ -54,16 +54,16 @@ self_check: |
 
 <h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>복리 계산 순서, 네 단계</li>
-  <li>단리와 복리, 기간별 차이표</li>
-  <li>월복리와 연복리가 벌어지는 폭</li>
-  <li>72법칙의 오차</li>
-  <li>매달 넣는 적립식 계산</li>
-  <li>주식 투자에서 복리가 작동하는 곳</li>
-  <li>복리가 거꾸로 돌 때</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">복리 계산 순서, 네 단계</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">단리와 복리, 기간별 차이표</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">월복리와 연복리가 벌어지는 폭</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">72법칙의 오차</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매달 넣는 적립식 계산</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자에서 복리가 작동하는 곳</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">복리가 거꾸로 돌 때</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">복리 계산 순서, 네 단계</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">복리 계산 순서, 네 단계</h2>
 <p>복리 계산은 숫자 세 개를 식에 넣고 거듭제곱만 하면 돼요. 아래 순서대로 따라가 보세요.</p>
 
 <ol>
@@ -87,7 +87,7 @@ self_check: |
 
 <p>검산은 짧게 해요. 16,288,946 ÷ 10,000,000 = 1.6289이고, 이 값의 10분의 1 제곱이 다시 1.05로 돌아오면 맞게 계산한 거예요.</p>
 
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">단리와 복리, 기간별 차이표</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">단리와 복리, 기간별 차이표</h2>
 <p>단리와 복리는 1년째엔 똑같고, 기간이 길수록 벌어져요. 단리는 원금에만 이자가 붙고 복리는 이자에도 이자가 붙기 때문이에요.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
@@ -115,7 +115,7 @@ self_check: |
 </div>
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/compound-interest-formula-simple-monthly-1.png" alt="원금 1,000만 원을 연 5퍼센트로 30년 굴린 단리와 복리 꺾은선 그래프. 단리는 직선으로 2,500만 원, 복리는 점점 가팔라져 약 4,322만 원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 원금 1,000만 원, 연 5%(가상)</figcaption></figure>
 
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">월복리와 연복리가 벌어지는 폭</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">월복리와 연복리가 벌어지는 폭</h2>
 <p>이자가 붙는 횟수가 많을수록 최종 금액이 커져요. 일반식은 A = P × (1 + r/n)<sup>n×t</sup>이고, n은 1년에 이자가 붙는 횟수예요.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
@@ -138,7 +138,7 @@ self_check: |
 
 <p>주기를 아무리 잘게 쪼개도 한계가 있어요. 일복리도 연복리보다 19만 7,702원 많은 선에서 멈춰요.</p>
 
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">72법칙의 오차</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">72법칙의 오차</h2>
 <p>72법칙은 72를 연 이율(%)로 나눠 원금이 2배 되는 햇수를 어림하는 방법이에요. 연 6%면 72 ÷ 6 = 12년이에요.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
@@ -160,7 +160,7 @@ self_check: |
 
 <p>이율이 2% 같은 낮은 구간에서는 1년 가까이 어긋나요. 그럴 땐 계산기로 정확한 햇수를 구하는 편이 나아요.</p>
 
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">매달 넣는 적립식 계산</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">매달 넣는 적립식 계산</h2>
 <p>매달 일정액을 넣는 적립식은 한 번에 넣는 거치식과 식이 달라요. 월 납입액 M, 월 이율 i(연 이율 ÷ 12), 개월 수 n이면 월말 납입 기준 최종 금액은 M × ((1 + i)<sup>n</sup> - 1) ÷ i예요.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
@@ -183,7 +183,7 @@ self_check: |
   <strong style="color:#7a5a00;font-size:18px;">✅ 계산 전에 확인할 것</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>이율이 세전인지 세후인지 적어 둬요.</li><li>이자가 붙는 주기(n)를 확인해요.</li><li>납입 시점이 월초인지 월말인지 맞춰요.</li></ul>
 </div>
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">주식 투자에서 복리가 작동하는 곳</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">주식 투자에서 복리가 작동하는 곳</h2>
 
 <p>복리는 예금에만 있는 게 아니에요. 주식 계좌에서는 세 군데에서 조용히 작동해요.</p>
 
@@ -195,7 +195,7 @@ self_check: |
 
 <p>주식 수익률은 예금처럼 해마다 일정하지 않아서, 위 표의 복리 금액이 그대로 나오지는 않아요. 시간이 길수록 작은 비율 차이가 크게 벌어진다는 구조만 같아요.</p>
 
-<h2 style="border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">복리가 거꾸로 돌 때</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">복리가 거꾸로 돌 때</h2>
 <p>수익률이 마이너스면 복리는 손실에도 곱셈으로 작용해요. 평균 수익률이 0%여도 원금이 줄어들 수 있어요.</p>
 
 <ul>

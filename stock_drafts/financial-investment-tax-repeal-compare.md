@@ -113,33 +113,33 @@ self_check: |
 
 <h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>금투세 도입부터 폐지까지</li>
-  <li>금투세 폐지로 국내주식 투자자가 얻은 것</li>
-  <li>해외주식 투자자는 왜 그대로인가</li>
-  <li>금투세 있었다면 세금 얼마였을지 계산법</li>
-  <li>지금 남아있는 주식 세금 확인법</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금투세 도입부터 폐지까지</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금투세 폐지로 국내주식 투자자가 얻은 것</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외주식 투자자는 왜 그대로인가</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">금투세 있었다면 세금 얼마였을지 계산법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 남아있는 주식 세금 확인법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">금투세 도입부터 폐지까지</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">금투세 도입부터 폐지까지</h2>
 
 <p>금투세는 주식·펀드·채권 같은 금융투자상품에서 번 소득에 매기는 세금으로, 2020년 소득세법 개정으로 처음 만들어졌습니다. 원래 2023년부터 시행될 예정이었지만 2025년으로 한 차례 미뤄졌고, 그마저도 시행되지 못한 채 2024년 12월 10일 국회 본회의에서 폐지 법안이 통과됐습니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">4년 넘게 논의만 되다가 실제로 걷힌 적은 단 한 번도 없는 세금입니다.</span> 그래서 "폐지"라는 표현보다는 "시행되지 못하고 사라졌다"는 표현이 더 정확합니다.</p>
 
-<h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">금투세 폐지로 국내주식 투자자가 얻은 것</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">금투세 폐지로 국내주식 투자자가 얻은 것</h2>
 
 <p>금투세가 시행됐다면 국내 상장주식은 1그룹으로 분류돼 연간 기본공제 5,000만원을 넘는 매매차익에 22%(3억원 초과분은 27.5%)의 세율이 붙을 예정이었습니다. 폐지되면서 이 구조 자체가 없어졌습니다.</p>
 
 <p>지금은 <mark>대주주가 아닌 이상 국내 상장주식 매매차익에는 양도소득세가 아예 없습니다.</mark> 대주주 요건은 코스피 기준 지분 1% 또는 보유금액 50억원 이상(2024년 1월 1일 이후)인데, 여기 해당되지 않는 대부분의 개인 투자자는 매매차익 규모와 무관하게 세금을 내지 않습니다.</p>
 
-<h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">해외주식 투자자는 왜 그대로인가</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">해외주식 투자자는 왜 그대로인가</h2>
 
 <p>해외주식은 금투세와 별개로, 원래부터 양도소득세를 내는 상품이었습니다. 기본공제 250만원을 넘는 매매차익에 22%(지방소득세 포함) 세율이 적용되는 구조는 금투세 도입 논의 이전부터 있었고, 금투세가 폐지된 뒤에도 바뀌지 않았습니다.</p>
 
 <p>공교롭게도 금투세의 2그룹(국내 상장주식 외 상품) 공제·세율 구조가 해외주식 양도소득세와 거의 같았습니다. 그래서 <b>해외주식 투자자는 금투세가 시행됐어도, 폐지된 지금도 실질적인 세부담 차이가 거의 없습니다.</b> 국내주식 투자자만 누린 혜택인 셈입니다.</p>
 
-<h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">금투세 있었다면 세금 얼마였을지 계산법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">금투세 있었다면 세금 얼마였을지 계산법</h2>
 
 <p>1년간 매매차익이 8,000만원이라고 가정하고, 국내주식과 해외주식 각각의 세금을 비교하면 아래와 같습니다.</p>
 
@@ -167,7 +167,7 @@ self_check: |
 
 <p>같은 매매차익이라도 국내주식은 660만원 차이가 나지만, 해외주식은 차이가 0원입니다. 금투세 폐지 효과가 어디에 집중됐는지가 이 표 하나로 정리됩니다.</p>
 
-<h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">지금 남아있는 주식 세금 확인법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">지금 남아있는 주식 세금 확인법</h2>
 
 <p>금투세가 없어졌다고 주식 관련 세금이 전부 사라진 건 아닙니다. 배당을 받으면 배당소득세(15.4% 원천징수)를 그대로 내고, 매도할 때마다 증권거래세도 자동으로 차감됩니다. 대주주라면 국내주식 매매차익에도 기존 양도소득세 방식이 그대로 적용됩니다.</p>
 
@@ -180,7 +180,7 @@ self_check: |
 
 <p>본인이 대주주 요건에 해당하는지, 정확한 신고 방법이 궁금하다면 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8800&amp;mi=12274" target="_blank" rel="noopener">국세청 주식등 양도소득세 안내</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4338ca;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">금투세는 결국 시행됐나요</summary>

@@ -111,27 +111,27 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>권리락이 뭔가요</li>
-  <li>권리락일에는 왜 주가가 인위적으로 떨어지나요</li>
-  <li>권리락 기준가는 어떻게 계산하나요</li>
-  <li>권리락과 배당락은 뭐가 다른가요</li>
-  <li>내가 가진 종목의 권리락 기준가는 어디서 확인하나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">권리락이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">권리락일에는 왜 주가가 인위적으로 떨어지나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">권리락 기준가는 어떻게 계산하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">권리락과 배당락은 뭐가 다른가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">내가 가진 종목의 권리락 기준가는 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락이 뭔가요</h2>
 
 <p>권리락(權利落)은 회사가 유상증자나 무상증자를 할 때, 신주를 배정받을 자격이 있는 기준일이 지나 그 권리가 사라진 상태로 주식이 거래되는 것을 말합니다. 기준일까지 주식을 보유해야 신주를 받을 수 있고, 그다음 날부터는 같은 주식을 사도 신주를 받지 못합니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">권리락일이 되면 한국거래소가 신주인수권의 가치만큼 그 종목의 기준가격을 직접 낮춰서 거래를 시작시킵니다.</span> 즉 전날 종가에서 그냥 시작하는 게 아니라, 계산식으로 산출한 조정된 가격에서 하루를 시작하는 것입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락일에는 왜 주가가 인위적으로 떨어지나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락일에는 왜 주가가 인위적으로 떨어지나요</h2>
 
 <p>유상증자든 무상증자든 발행주식수가 늘어나면 회사 전체의 가치는 그대로인데 주식 수만 늘어나는 셈입니다. <b>신주를 받을 권리가 있던 기존 주주와, 권리락 이후에 산 새 주주 사이의 형평성을 맞추기 위해</b> 거래소가 기준가격을 낮춰서 조정합니다.</p>
 
 <p>조정하지 않으면 권리락 전날 주식을 판 사람은 신주 가치만큼 손해를 보고, 권리락 이후 산 사람은 상대적으로 비싸게 사는 셈이 되기 때문입니다. <mark>이 조정은 회사의 실적이나 가치가 나빠져서가 아니라, 순전히 주식 수가 늘어나는 데 따른 산술적 조정</mark>입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락 기준가는 어떻게 계산하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락 기준가는 어떻게 계산하나요</h2>
 
 <p>계산식은 유상증자와 무상증자가 다릅니다. 유상증자는 신주를 발행가에 사는 조건이 붙어 있어 발행가를 반영하고, 무상증자는 주주가 돈을 내지 않고 받으므로 증자비율만 반영합니다.</p>
 
@@ -167,7 +167,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">무상증자 1:1(증자비율 100%)이면 이론상 주가가 절반이 되고, 2:1(증자비율 200%)이면 3분의 1로 낮아집니다. 회사가치가 줄어든 게 아니라 주식 수만 늘어난 것이므로, 보유 주식 수도 그만큼 늘어나 평가금액 총합은 이론상 동일합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락과 배당락은 뭐가 다른가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">권리락과 배당락은 뭐가 다른가요</h2>
 
 <p>둘 다 "기준일 다음 날 주가가 떨어진다"는 결과만 보면 비슷해 보이지만, <b>거래소가 기준가를 조정하는지 여부</b>가 다릅니다.</p>
 
@@ -200,7 +200,7 @@ self_check: |
 
 <p>즉 권리락은 한국거래소가 계산식을 적용해 그날 시초가의 기준을 직접 낮추는 반면, 배당락은 별도의 공식 없이 시장에서 배당금 가치만큼 자연스럽게 가격이 반영되는 것에 가깝습니다. 배당기준일·배당락일 매수 타이밍을 계산하는 방법은 배당락일 매수 마감일 계산법에서 따로 다루고 있으니 함께 참고하면 좋습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">내가 가진 종목의 권리락 기준가는 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">내가 가진 종목의 권리락 기준가는 어디서 확인하나요</h2>
 
 <p>계산식으로 대략을 가늠할 수는 있지만, 실제 조정된 기준가격은 종목마다 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 KIND(상장공시시스템)</a>에 회사별로 "권리락 기준가격 안내" 공시가 올라옵니다. 종목명으로 검색하면 해당 종목의 실제 조정 기준가를 확인할 수 있습니다.</p>
 
@@ -210,7 +210,7 @@ self_check: |
   <li>공시 원문에서 증자 비율·발행가·조정 후 기준가격 확인</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">권리락이란 정확히 무엇인가요</summary>

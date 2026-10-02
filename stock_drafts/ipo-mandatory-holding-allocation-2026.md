@@ -160,21 +160,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>IPO(기업공개)가 정확히 뭔가요</li>
-  <li>상장과 IPO는 어떻게 다른가요</li>
-  <li>IPO는 어떤 절차로 진행되나요</li>
-  <li>의무보유확약 우선배정제도가 뭔가요</li>
-  <li>상장 첫날 가격이 왜 최대 4배까지 오를 수 있나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">IPO(기업공개)가 정확히 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장과 IPO는 어떻게 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">IPO는 어떤 절차로 진행되나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">의무보유확약 우선배정제도가 뭔가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상장 첫날 가격이 왜 최대 4배까지 오를 수 있나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IPO(기업공개)가 정확히 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IPO(기업공개)가 정확히 뭔가요</h2>
 
 <p>IPO(Initial Public Offering)는 우리말로 <mark>기업공개</mark>라고 합니다. 소수의 창업자·투자자만 지분을 갖고 있던 비상장기업이, 처음으로 일반 투자자에게 주식을 공개하고 증권거래소에 상장해 누구나 사고팔 수 있는 "열린 회사"로 바뀌는 과정입니다.</p>
 
 <p>기업이 IPO를 하는 가장 큰 이유는 <b>자금 조달</b>입니다. 은행 대출이나 사모 투자에 의존하지 않고, 주식시장에서 한 번에 대규모 자금을 모을 수 있기 때문입니다. 동시에 상장 기업이라는 지위 자체가 거래처·고객·인재 채용에서 신뢰도를 높여주는 효과도 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장과 IPO는 어떻게 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장과 IPO는 어떻게 다른가요</h2>
 
 <p>두 단어가 같은 뜻으로 쓰이는 경우가 많지만, 엄밀히는 <mark>IPO가 전체 과정이고 상장은 그 마지막 단계</mark>입니다. IPO 안에는 주관사 선정, 심사, 수요예측, 공모가 확정, 일반투자자 청약까지의 모든 절차가 포함되고, 이 절차가 끝나 실제로 거래소에서 주식이 거래되기 시작하는 시점이 상장입니다.</p>
 
@@ -201,7 +201,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IPO는 어떤 절차로 진행되나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IPO는 어떤 절차로 진행되나요</h2>
 
 <p>기업마다 세부 일정은 다르지만, 큰 흐름은 대체로 아래 순서를 따릅니다.</p>
 
@@ -214,7 +214,7 @@ self_check: |
   <li><b>상장</b>: 거래소에서 실제 매매가 시작됩니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">의무보유확약 우선배정제도가 뭔가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">의무보유확약 우선배정제도가 뭔가요</h2>
 
 <p><mark>의무보유확약 우선배정제도</mark>는 기관투자자가 배정받은 공모주를 <b>일정 기간 팔지 않겠다고 확약</b>할수록 더 많은 물량을 우선 배정받도록 하는 제도입니다. 2025년 1월 21일 금융위원회가 발표한 「IPO 및 상장폐지 제도개선 방안」에 포함돼 <b>2025년 7월 1일부터 시행</b>됐습니다.</p>
 
@@ -225,7 +225,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">시행 첫해인 2025년 7월부터는 기관 배정물량의 <mark>30% 이상</mark>을 의무보유확약 기관에 우선 배정했고, <mark>2026년(올해)부터는 이 비율이 40% 이상</mark>으로 올라갔습니다. 만약 확약 물량이 이 기준에 못 미치면, 상장주관사가 공모물량의 1%(최대 30억원 한도)를 자기 자금으로 사들여 6개월간 의무적으로 보유해야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장 첫날 가격이 왜 최대 4배까지 오를 수 있나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상장 첫날 가격이 왜 최대 4배까지 오를 수 있나요</h2>
 
 <p>2023년 6월 26일부터 <mark>신규 상장 종목의 상장 첫날 가격 변동폭이 공모가의 60~400%로 확대</mark>됐습니다. 그 이전에는 90~200% 범위였고, 그마저도 "시초가"(공모가와 별개로 첫 거래를 통해 정해지는 가격)를 기준으로 상하 30%만 더 움직일 수 있었습니다.</p>
 
@@ -245,7 +245,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">IPO가 정확히 뭔가요</summary>

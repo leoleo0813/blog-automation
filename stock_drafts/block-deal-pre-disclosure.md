@@ -113,21 +113,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>블록딜이란 무엇인가요</li>
-  <li>블록딜 할인율은 어떻게 계산하나요</li>
-  <li>블록딜을 하기 전에 왜 미리 공시해야 하나요</li>
-  <li>사전공시 의무를 위반하면 어떻게 되나요</li>
-  <li>블록딜 소식이 뜨면 주가는 어떻게 되나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 할인율은 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜을 하기 전에 왜 미리 공시해야 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사전공시 의무를 위반하면 어떻게 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 소식이 뜨면 주가는 어떻게 되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜이란 무엇인가요</h2>
 
 <p>블록딜(Block Deal)은 주식을 대량으로 보유한 매도자가 <b>사전에 매수자를 구해</b> 가격과 수량을 미리 정해두고, 장이 열리기 전이나 끝난 뒤 <mark>시간외매매로 한꺼번에 거래</mark>하는 방식입니다. 우리말로는 일괄매각이라고도 부릅니다.</p>
 
 <p>일반 장중 거래로 대량의 물량을 팔면 매도 압력 자체가 주가를 크게 떨어뜨릴 수 있습니다. 블록딜은 이런 <mark>시장 충격을 피하기 위해</mark> 가격과 물량을 미리 정해두고 거래하는 방법입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜 할인율은 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜 할인율은 어떻게 계산하나요</h2>
 
 <p>블록딜 가격은 보통 <mark>전일 또는 당일 종가를 기준으로 일정 비율 할인</mark>해서 정해집니다. 할인율은 거래 규모, 종목의 유동성, 매도자가 얼마나 급하게 팔아야 하는지에 따라 달라지며, 사례마다 2~8%, 5~8% 등으로 조금씩 다르게 보도되지만 대체로 <b>5~10% 범위</b>에 걸쳐 있습니다.</p>
 
@@ -138,7 +138,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">할인율이 지나치게 높으면 "매도자가 그만큼 급하게 팔아야 할 사정이 있다"는 뜻으로 해석되기도 해, 해당 기업의 상황에 대한 의구심을 키울 수 있습니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜을 하기 전에 왜 미리 공시해야 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜을 하기 전에 왜 미리 공시해야 하나요</h2>
 
 <p>2024년 7월 24일부터 자본시장법 제173조의3에 따라 <mark>임원·주요주주(내부자)의 특정증권등 거래계획 사전공시 제도</mark>가 시행되고 있습니다. 이전에는 대주주가 예고 없이 블록딜을 진행해 일반 투자자가 뒤늦게 알고 손해를 보는 사례가 많았는데, 이를 막기 위해 도입된 제도입니다.</p>
 
@@ -171,19 +171,19 @@ self_check: |
 
 <p>이 제도의 세부 내용을 정한 시행령은 그 뒤로도 몇 차례 개정됐습니다. 가장 최근에는 대통령령 제35994호(2025-12-30 개정)가 2026-01-02부터 적용되고 있어, <mark>제도 자체는 2024년부터 계속 운영 중이지만 세부 규정은 계속 손질되고 있다</mark>는 점을 함께 알아두는 게 좋습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사전공시 의무를 위반하면 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사전공시 의무를 위반하면 어떻게 되나요</h2>
 
 <p>거래계획을 아예 공시하지 않거나, 허위로 공시하거나, 공시한 계획을 이행하지 않으면 <mark>과징금 최대 20억원</mark>이 부과될 수 있습니다. 여기에 더해 형사처벌(최대 징역 1년 또는 벌금 3천만원)까지 받을 수 있어 처벌 수위가 낮지 않습니다.</p>
 
 <p>부득이한 사유(사망, 회생·파산절차 개시, 공동관리절차 개시 등)가 생기면 이미 공시한 거래계획을 철회할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜 소식이 뜨면 주가는 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜 소식이 뜨면 주가는 어떻게 되나요</h2>
 
 <p>블록딜은 규모와 할인율, 매도 의도에 따라 정도는 다르지만 통상 <mark>주가에 단기 악재로 작용</mark>합니다. 대량의 매도 물량이 시장에 나왔다는 사실 자체가 투자심리에 부담을 주기 때문입니다.</p>
 
 <p>다만 사전공시 제도 덕분에 지분 1% 또는 거래금액 50억원이 넘는 내부자 거래는 최소 30일 전부터 공시된 내용을 확인할 수 있게 됐습니다. 관심 있는 종목이 있다면 갑작스러운 소식보다는, 사전공시 여부를 미리 챙겨보는 습관이 도움이 됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">블록딜이 뭔가요</summary>

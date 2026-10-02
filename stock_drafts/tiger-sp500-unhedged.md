@@ -122,15 +122,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>TIGER 미국S&amp;P500 뜻</li>
-  <li>비슷한 이름의 TIGER 상품 비교</li>
-  <li>구성종목 상위 10</li>
-  <li>수익률은 어떻게 되나요</li>
-  <li>배당(분배금)은 나오나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">TIGER 미국S&amp;P500 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비슷한 이름의 TIGER 상품 비교</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">구성종목 상위 10</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수익률은 어떻게 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당(분배금)은 나오나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">TIGER 미국S&amp;P500 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">TIGER 미국S&amp;P500 뜻</h2>
 
 <p>TIGER 미국S&amp;P500은 미래에셋자산운용이 운용하고 코스피에 상장된 ETF로, 기초지수는 <b>S&amp;P500</b>입니다. S&amp;P500은 미국 증시에 상장된 종목 중 시가총액 상위 500개를 담은 대형주 대표 지수입니다.</p>
 
@@ -167,7 +167,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">비슷한 이름의 TIGER 상품 비교</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">비슷한 이름의 TIGER 상품 비교</h2>
 
 <p>미래에셋자산운용은 S&amp;P500을 활용한 TIGER 상품을 여러 개 운용합니다. 이름이 비슷해 헷갈리기 쉬우므로, 매수 전 정확한 종목코드를 확인해야 합니다.</p>
 
@@ -210,7 +210,7 @@ self_check: |
 
 <p>이 글은 이 중 가장 기본형인 <b>환노출형(360750)</b>을 다룹니다. 환헤지형(H, 448290)은 별도 편에서 다룹니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">구성종목 상위 10</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">구성종목 상위 10</h2>
 
 <p>2026-09-21 공식 상품 페이지 기준, 구성종목 상위 10개는 다음과 같습니다. <mark>비중은 매일 바뀌는 실시간 값</mark>이라 정확한 최신 수치는 공식 페이지에서 다시 확인하는 편이 안전합니다.</p>
 
@@ -237,7 +237,7 @@ self_check: |
 
 <p>상위 10개 대부분이 미국 대형 기술주라는 점이 눈에 띕니다. S&amp;P500이 시가총액 비중대로 종목을 담다 보니, 시가총액이 큰 소수 기술주에 비중이 쏠리는 구조입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수익률은 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수익률은 어떻게 되나요</h2>
 
 <p>2026-09-21 공식 페이지 기준, 지수와 펀드의 수익률은 다음과 같습니다.</p>
 
@@ -268,7 +268,7 @@ self_check: |
 
 <p><mark>설정(2020년 8월) 이후 누적 수익률이 160%를 넘는다</mark>는 점이 눈에 띕니다. 다만 이는 과거 실적일 뿐 앞으로도 같은 흐름이 이어진다는 보장은 아닙니다. 정확한 1개월·3개월·6개월 단위 수익률과 최신 수치는 공식 페이지에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당(분배금)은 나오나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당(분배금)은 나오나요</h2>
 
 <p>이 상품은 보유 주식에서 나온 배당금을 분배금 형태로 투자자에게 지급합니다. 분배금의 일반적인 개념과 지급주기·분배락은 <a href="https://sensitiveboss3.tistory.com/entry/monthly-dividend-etf-basics">월배당 ETF 뜻과 분배금 지급방식</a> 편에서 다룹니다.</p>
 
@@ -276,7 +276,7 @@ self_check: |
 
 <p>ETF의 기본 개념과 구성종목을 조회하는 일반적인 방법은 <a href="https://sensitiveboss3.tistory.com/entry/etf-basics-holdings">ETF 뜻과 구성종목 확인하는 법</a> 편, 총보수·괴리율 같은 비용 문제는 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison">ETF 수수료 총보수 실부담 확인법</a>·<a href="https://sensitiveboss3.tistory.com/entry/etf-divergence-rate-2026">ETF 괴리율 계산법</a> 편, 세금은 <a href="https://sensitiveboss3.tistory.com/entry/domestic-listed-overseas-etf-tax">국내상장 해외ETF 세금</a> 편에서 각각 자세히 다룹니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">TIGER 미국S&amp;P500과 TIGER 미국S&amp;P500(H)는 뭐가 다른가요</summary>

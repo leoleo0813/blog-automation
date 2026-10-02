@@ -57,15 +57,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>CPI와 PCE, 한 표로 비교</li>
-  <li>연준이 PCE를 기준으로 삼는 이유</li>
-  <li>주거비 비중이 만드는 격차 계산</li>
-  <li>근원 PCE가 빼는 것</li>
-  <li>두 지표를 함께 읽는 순서</li>
-  <li>PCE 지표를 볼 때 걸리는 지점</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CPI와 PCE, 한 표로 비교</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연준이 PCE를 기준으로 삼는 이유</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주거비 비중이 만드는 격차 계산</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">근원 PCE가 빼는 것</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">두 지표를 함께 읽는 순서</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PCE 지표를 볼 때 걸리는 지점</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">CPI와 PCE, 한 표로 비교</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">CPI와 PCE, 한 표로 비교</h2>
 <p>두 지표는 조사 대상, 발표 기관, 가중치 방식이 다릅니다. 핵심 차이는 아래 표로 먼저 확인하세요.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -81,7 +81,7 @@ self_check: |
 </table>
 <p>주거비 비중은 자료마다 소수점 단위 차이가 있어 표에는 "약"으로 적었습니다. 정확한 최신 가중치는 <a href="https://www.clevelandfed.org/publications/economic-trends/2014/et-20140417-pce-and-cpi-inflation-difference" target="_blank" rel="noopener">클리블랜드 연준 해설</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">연준이 PCE를 기준으로 삼는 이유</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">연준이 PCE를 기준으로 삼는 이유</h2>
 <p>연준은 2012년 1월에 물가안정 목표를 <mark>PCE 물가지수 연간 변화율 2%</mark>로 정했습니다. 이 내용은 <a href="https://www.atlantafed.org/what-we-study/inflation/2026/05/20/what-is-pce-explaining-the-feds-preferred-inflation-measure" target="_blank" rel="noopener">애틀랜타 연준 해설</a>과 <a href="https://www.bok.or.kr/portal/cmmn/file/fileDown.do?menuNo=200081&amp;atchFileId=KO_00000000000116506&amp;fileSn=2" target="_blank" rel="noopener">한국은행 자료</a>에서 확인됩니다.</p>
 <p>PCE를 선호하는 이유로 자주 꼽히는 것은 세 가지입니다.</p>
 <ul style="line-height:1.9;">
@@ -91,7 +91,7 @@ self_check: |
 </ul>
 <p>이 설명은 <a href="https://www.cmegroup.com/ko/insights/economic-research/2025/why-the-fed-prefers-pce-over-cpi-for-inflation-insights.html" target="_blank" rel="noopener">CME그룹 해설</a>과 <a href="https://www.kiplinger.com/investing/economy/why-does-the-fed-prefer-pce-over-cpi" target="_blank" rel="noopener">키플링어</a>를 포함한 여러 자료에서 같은 방향으로 나옵니다.</p>
 
-<h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">주거비 비중이 만드는 격차 계산</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">주거비 비중이 만드는 격차 계산</h2>
 <p>같은 가격 변화라도 가중치가 다르면 종합 상승률이 달라집니다. 아래는 이해를 돕기 위해 만든 <mark>가상의 두 부문 예시</mark>이고, 실제 통계가 아닙니다.</p>
 <p>전제는 단순합니다. 주거비가 1년간 6% 오르고, 나머지 모든 품목이 2% 올랐다고 가정합니다.</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -113,7 +113,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">근원 PCE가 빼는 것</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">근원 PCE가 빼는 것</h2>
 <p>근원 PCE는 식료품과 에너지를 뺀 PCE입니다. 이 두 품목은 날씨와 국제 유가에 따라 크게 출렁이기 때문에 물가의 기조를 보려고 따로 계산합니다.</p>
 <ul style="line-height:1.9;">
   <li><strong>헤드라인 PCE:</strong> 모든 품목을 포함한 값입니다.</li>
@@ -121,7 +121,7 @@ self_check: |
 </ul>
 <p>기사에서 "PCE가 2.9% 올랐다"고 할 때 어느 쪽인지 본문에서 확인해야 합니다. 두 값이 다르게 나오는 달이 흔합니다.</p>
 
-<h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">두 지표를 함께 읽는 순서</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">두 지표를 함께 읽는 순서</h2>
 <ol style="line-height:1.9;">
   <li><strong>연준 목표와 비교:</strong> PCE 연간 변화율을 2%와 견줍니다.</li>
   <li><strong>헤드라인과 근원 구분:</strong> 어느 값인지 확인합니다.</li>
@@ -129,7 +129,7 @@ self_check: |
   <li><strong>원자료 확인:</strong> <a href="https://www.bea.gov" target="_blank" rel="noopener">BEA</a>와 <a href="https://www.bls.gov" target="_blank" rel="noopener">BLS</a>에서 최신 값을 직접 봅니다.</li>
 </ol>
 
-<h2 style="border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">PCE 지표를 볼 때 걸리는 지점</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7a8f2a;padding-left:12px;margin-top:36px;">PCE 지표를 볼 때 걸리는 지점</h2>
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">PCE 물가지수와 CPI 중 어느 쪽이 더 정확한가요</summary>
   <p style="margin:10px 0 0 0;">정확도의 문제가 아니라 목적이 다릅니다. CPI는 도시 소비자가 직접 내는 가격을, PCE는 고용주와 정부가 대신 낸 비용까지 포함한 경제 전체의 소비지출 가격을 잽니다.</p>

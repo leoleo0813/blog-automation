@@ -132,21 +132,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>넥스트레이드가 뭔가요</li>
-  <li>거래시간은 세 구간으로 나뉩니다</li>
-  <li>체결가격이 다르게 나오는 이유</li>
-  <li>세금은 KRX와 똑같이 적용됩니다</li>
-  <li>넥스트레이드 이용 시 확인할 점</li>
-  <li>궁금한 점 살펴보기</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">넥스트레이드가 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">거래시간은 세 구간으로 나뉩니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결가격이 다르게 나오는 이유</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세금은 KRX와 똑같이 적용됩니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">넥스트레이드 이용 시 확인할 점</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 살펴보기</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">넥스트레이드가 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">넥스트레이드가 뭔가요</h2>
 
 <p>넥스트레이드는 한국거래소(KRX)에 상장된 주식을 별도의 시장에서 사고팔 수 있게 해주는 대체거래소(ATS)입니다. 한국금융투자협회와 코스콤, 주요 증권사 등 34개사가 공동 출자해 만들었고 2025년 3월 4일 영업을 시작했습니다.</p>
 
 <p>KRX와 완전히 다른 거래소가 하나 더 생겼다기보다는, <b>같은 주식을 두 시장 중 어디서 체결할지 고를 수 있게 됐다</b>고 이해하면 됩니다. 상장이나 상장폐지 같은 결정은 여전히 KRX가 담당합니다.</p>
 
-<h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">거래시간은 세 구간으로 나뉩니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">거래시간은 세 구간으로 나뉩니다</h2>
 
 <p>KRX는 오전 9시부터 오후 3시 30분까지만 열리지만, 넥스트레이드는 오전 8시부터 밤 8시까지로 거래 시간이 늘어납니다. 단, 하루 종일 쉬지 않고 거래되는 것은 아닙니다.</p>
 
@@ -179,7 +179,7 @@ self_check: |
 
 <p>08:50부터 09:00:30까지, 15:20부터 15:30까지는 <mark>넥스트레이드에서 매매 자체가 이뤄지지 않는</mark> 휴장 구간입니다. 정규시장이 아닌 프리마켓과 애프터마켓에서는 시장가 주문이 막혀 있다는 점도 KRX 시간외거래와 다른 부분입니다.</p>
 
-<h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">체결가격이 다르게 나오는 이유</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">체결가격이 다르게 나오는 이유</h2>
 
 <p>같은 종목이라도 그 순간 KRX와 넥스트레이드의 호가창은 따로 움직입니다. 두 시장에 걸린 주문량이 다르기 때문에 체결 가격이 서로 달라질 수 있습니다.</p>
 
@@ -196,7 +196,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">넥스트레이드가 증권사에 부과하는 매매체결수수료는 KRX보다 20~40% 낮지만, 이는 증권사가 거래소에 내는 도매 수수료입니다. 투자자가 실제로 내는 위탁수수료는 각 증권사가 별도로 정하므로, 넥스트레이드에서 체결됐다고 자동으로 저렴해지는 것은 아닙니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">세금은 KRX와 똑같이 적용됩니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">세금은 KRX와 똑같이 적용됩니다</h2>
 
 <p>매도할 때 내는 증권거래세는 어느 시장에서 체결됐는지와 관계없이 동일한 세율로 부과됩니다. 코스피 상장주식은 0.20%(증권거래세 0.05%+농어촌특별세 0.15%), 코스닥은 0.20%, 코넥스는 0.10%입니다.</p>
 
@@ -230,7 +230,7 @@ self_check: |
 
 <p>2025년 3월 개장 초기에는 예탁결제원이 세액을 산정하는 과정에서 같은 투자자·종목·가격의 체결 내역을 합산 처리하다 금액이 미세하게 어긋난 사례가 언론에 보도된 적이 있습니다. 당시 투자자에게 실제 피해는 없었던 것으로 확인됐고, 세율 자체가 달라진 것도 아니었습니다.</p>
 
-<h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">넥스트레이드 이용 시 확인할 점</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">넥스트레이드 이용 시 확인할 점</h2>
 
 <p>넥스트레이드를 쓰기 위해 새 계좌를 만들거나 별도로 신청할 필요는 없습니다. 기존 증권사 계좌에서 시장을 지정하지 않고 주문하면 자동으로 SOR이 작동합니다.</p>
 
@@ -242,7 +242,7 @@ self_check: |
 
 <p><mark>내가 가진 종목이 넥스트레이드 대상인지는 증권사 앱의 종목 상세 화면이나 <a href="https://www.nextrade.co.kr/" target="_blank" rel="noopener">넥스트레이드 홈페이지</a>에서 확인할 수 있습니다.</mark> 대상이 아니면 이전처럼 KRX에서만 체결됩니다.</p>
 
-<h2 style="border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">궁금한 점 살펴보기</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #f5a623;padding-left:12px;margin-top:36px;">궁금한 점 살펴보기</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">넥스트레이드에서 체결되면 세금이 더 싸지나요</summary>

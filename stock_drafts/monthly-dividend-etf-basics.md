@@ -145,25 +145,25 @@ self_check: |
 
 <h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>월배당 ETF 뜻</li>
-  <li>분배금은 어떻게 나오나요</li>
-  <li>월배당과 연배당은 뭐가 다른가요</li>
-  <li>분배기준일 확인하는 법</li>
-  <li>분배율만 보고 판단하면 안 되는 이유</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">월배당 ETF 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금은 어떻게 나오나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">월배당과 연배당은 뭐가 다른가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배기준일 확인하는 법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배율만 보고 판단하면 안 되는 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">월배당 ETF 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">월배당 ETF 뜻</h2>
 
 <p>월배당 ETF는 ETF가 보유한 주식·채권 등에서 나온 수익을 매달 나눠 투자자에게 지급하는 ETF를 가리킵니다. 일반 ETF도 보유 자산에서 수익이 나오면 분배금을 지급하지만, 그 주기를 매달로 맞춘 상품을 따로 월배당 ETF라고 부릅니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">분배금은 어떻게 나오나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">분배금은 어떻게 나오나요</h2>
 
 <p>ETF가 보유한 주식에서 나온 배당금이나 채권에서 나온 이자 수익을 투자자에게 나눠주는 돈을 분배금이라고 부릅니다. 일반 주식의 배당금과 성격은 비슷하지만, ETF·펀드 쪽에서는 관행적으로 분배금이라는 용어를 씁니다.</p>
 
 <p>분배금을 지급하면 그만큼 ETF의 기준가격이 낮아지는데, 이를 <mark>분배락</mark>이라고 합니다. 통장에 분배금이 들어온 만큼 ETF 자체 가치가 줄어드는 회계상 조정이라, 그 자체가 손해는 아닙니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">월배당과 연배당은 뭐가 다른가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">월배당과 연배당은 뭐가 다른가요</h2>
 
 <p>지급주기가 다를 뿐 분배금의 성격 자체는 같습니다. 그런데 체감되는 현금흐름은 크게 다릅니다.</p>
 
@@ -196,13 +196,13 @@ self_check: |
 
 <p>정확한 지급주기와 횟수는 ETF마다 정관·투자설명서에 정해져 있으므로, 해당 ETF의 공식 공지에서 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">분배기준일 확인하는 법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">분배기준일 확인하는 법</h2>
 
 <p>분배금을 받으려면 분배기준일 전날까지 해당 ETF를 보유하고 있어야 합니다. 주식의 배당기준일과 같은 원리로, 기준일 당일에는 이미 분배락이 반영돼 있어 그날 새로 사면 이번 분배금은 받을 수 없습니다.</p>
 
 <p>정확한 분배기준일은 ETF마다 다르고 운용사가 별도로 공지합니다. 자산운용사 홈페이지의 해당 ETF 상품 페이지나 공시 게시판에서 다음 분배기준일을 미리 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">분배율만 보고 판단하면 안 되는 이유</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">분배율만 보고 판단하면 안 되는 이유</h2>
 
 <p><mark>분배율 숫자가 높다고 반드시 수익이 좋은 것은 아닙니다.</mark> 일부 ETF는 분배금의 일부를 수익이 아니라 보유 자산 자체에서 되돌려주는 방식으로 지급하는데, 이를 원본 반환(ROC, Return of Capital)이라고 합니다.</p>
 
@@ -224,7 +224,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0891b2;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">월배당 ETF와 일반 ETF는 뭐가 다른가요</summary>

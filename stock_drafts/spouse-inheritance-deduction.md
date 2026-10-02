@@ -110,15 +110,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>배우자 상속공제는 얼마까지인가요</li>
-  <li>기초공제·일괄공제는 무엇이 다른가요</li>
-  <li>상속재산이 주식이면 무엇이 달라지나요</li>
-  <li>세율은 어떻게 적용하나요</li>
-  <li>배우자 유무로 세금이 얼마나 차이 나나요</li>
-  <li>신고는 언제, 어떻게 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배우자 상속공제는 얼마까지인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">기초공제·일괄공제는 무엇이 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상속재산이 주식이면 무엇이 달라지나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세율은 어떻게 적용하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배우자 유무로 세금이 얼마나 차이 나나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고는 언제, 어떻게 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배우자 상속공제는 얼마까지인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배우자 상속공제는 얼마까지인가요</h2>
 
 <p>피상속인의 배우자가 생존해 있으면 <mark>배우자가 실제 상속받은 금액에 따라</mark> 공제액이 정해집니다.</p>
 
@@ -144,7 +144,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&amp;cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 항목별 설명</a>(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">기초공제·일괄공제는 무엇이 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">기초공제·일괄공제는 무엇이 다른가요</h2>
 
 <p>배우자공제와 별개로 <mark>기초공제 2억원</mark>이 기본으로 적용됩니다. 다만 상속인이 배우자와 자녀 등 여러 명이면 기초공제 대신 <b>일괄공제 5억원</b>을 선택할 수 있습니다.</p>
 
@@ -160,7 +160,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&amp;cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 항목별 설명</a>(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상속재산이 주식이면 무엇이 달라지나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상속재산이 주식이면 무엇이 달라지나요</h2>
 
 <p>상장주식(코스피·코스닥)이 상속재산에 포함되면 두 가지를 추가로 챙겨야 합니다.</p>
 
@@ -188,7 +188,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 상속세및증여세법 시행령 제52조의2(11편 확인) + <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&amp;cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 항목별 설명</a>(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율은 어떻게 적용하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세율은 어떻게 적용하나요</h2>
 
 <p>상속세 세율은 <mark>증여세와 완전히 동일한 5단계 초과누진세율</mark>입니다.</p>
 
@@ -213,7 +213,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 국세청 「국세신고안내 > 상속세 > 세액계산흐름도」(2026-09-09 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배우자 유무로 세금이 얼마나 차이 나나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배우자 유무로 세금이 얼마나 차이 나나요</h2>
 
 <p>같은 30억원 상당의 상장주식을 상속하더라도, <mark>배우자가 있는지 없는지에 따라 세액이 크게 갈립니다.</mark></p>
 
@@ -237,7 +237,7 @@ self_check: |
 
 <p>배우자공제 한 항목의 차이만으로 세액이 <b>8배 넘게</b> 벌어집니다. 배우자가 있다면 상속재산 분할과 신고를 6개월 기한 안에 마치는 것이 그만큼 중요합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 언제, 어떻게 하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고는 언제, 어떻게 하나요</h2>
 
 <p>상속개시일(사망일)이 속하는 달의 말일부터 <mark>6개월 이내</mark>에 상속인이 신고·납부합니다. 배우자 실제 상속액을 기준으로 공제받으려면 앞서 본 것처럼 같은 기한(신고기한 다음날부터 6개월) 안에 별도로 <b>배우자 상속재산 분할 신고</b>도 해야 합니다. <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 전자신고할 수 있습니다.</p>
 

@@ -55,17 +55,17 @@ self_check: |
 
 <h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>5일선, 20일선, 60일선 기간별 차이</li>
-  <li>가상 종가로 5일선과 20일선 계산하기</li>
-  <li>하루 지날 때 선이 움직이는 원리</li>
-  <li>두 선이 만나는 지점 확인하는 순서</li>
-  <li>단순 평균과 지수 평균의 차이</li>
-  <li>이평선을 볼 때 흔한 오해</li>
-  <li>주식 투자자가 이평선을 쓰는 방식과 한계</li>
-  <li>이평선 보면서 떠오르는 의문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">5일선, 20일선, 60일선 기간별 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가상 종가로 5일선과 20일선 계산하기</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">하루 지날 때 선이 움직이는 원리</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">두 선이 만나는 지점 확인하는 순서</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">단순 평균과 지수 평균의 차이</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이평선을 볼 때 흔한 오해</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자가 이평선을 쓰는 방식과 한계</a></li>
+  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">이평선 보면서 떠오르는 의문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">5일선, 20일선, 60일선 기간별 차이</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">5일선, 20일선, 60일선 기간별 차이</h2>
 <p>기간이 짧을수록 선이 가격을 바짝 따라가고, 길수록 완만해집니다. 아래 표는 기간별로 관례처럼 쓰이는 이름과 성격이에요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -84,7 +84,7 @@ self_check: |
 
 <p>볼린저밴드의 중심선이 바로 20일 이동평균입니다. 그 지표가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/bollinger-bands-calculation" target="_blank" rel="noopener">볼린저밴드 계산 편</a>을 같이 보세요.</p>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">가상 종가로 5일선과 20일선 계산하기</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">가상 종가로 5일선과 20일선 계산하기</h2>
 <p>A씨가 어떤 주식의 종가를 25일 동안 적었다고 해 볼게요. 아래 값은 설명용 가상 숫자이고 실제 종목 가격이 아닙니다.</p>
 
 <p>5일선은 5일차부터 만들 수 있어요. 1~5일차 종가는 10,000, 10,100, 10,050, 10,200, 10,300원입니다.</p>
@@ -102,7 +102,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>평균에 쓰는 날짜 수가 모자라면 선이 아직 안 그려집니다. 20일선은 19일차까지 값이 없어요.</li><li>휴장일은 거래일에 들어가지 않으니, 달력 날짜가 아니라 장이 열린 날로 세어야 합니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">하루 지날 때 선이 움직이는 원리</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">하루 지날 때 선이 움직이는 원리</h2>
 <p>새 평균은 이전 평균에서 빠지는 값과 들어오는 값만 반영해 구할 수 있어요. 새 평균 = 이전 평균 + (들어오는 종가 - 빠지는 종가) ÷ 기간이라는 식입니다.</p>
 
 <p>21일차를 예로 들어 볼까요? 21일차 종가는 10,600원이고, 20일선에서 빠지는 값은 1일차 종가 10,000원이에요.</p>
@@ -115,7 +115,7 @@ self_check: |
 
 <p>같은 600원 차이가 5일선에서는 5로 나뉘기 때문에 네 배 큰 120원으로 반영돼요. 5일선이 빠르고 20일선이 느린 이유가 이 나눗셈 하나입니다.</p>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">두 선이 만나는 지점 확인하는 순서</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">두 선이 만나는 지점 확인하는 순서</h2>
 <p>5일선이 20일선을 아래에서 위로 넘으면 골든크로스, 위에서 아래로 넘으면 데드크로스라고 불러요. 두 선의 값 차이가 플러스에서 마이너스로 바뀌는 날을 찾으면 됩니다.</p>
 
 <p>아래 표는 가상 종가의 16~25일차 구간입니다. 마지막 칸은 5일선에서 20일선을 뺀 값이에요.</p>
@@ -144,7 +144,7 @@ self_check: |
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/moving-average-5-20-day-cross-1.png" alt="16일차부터 25일차까지 가상 종가와 5일선, 20일선 꺾은선 그래프. 종가는 17일차 11,000원이 정점이고, 5일선이 내려와 23일차에 20일선과 10,630원에서 만난 뒤 아래로 내려감" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 본문 가상 종가</figcaption></figure>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">단순 평균과 지수 평균의 차이</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">단순 평균과 지수 평균의 차이</h2>
 <p>이 글의 계산은 모두 단순이동평균(SMA)입니다. 지수이동평균(EMA)은 최근 값에 더 큰 비중을 주는 방식이에요.</p>
 
 <ul style="line-height:1.9;">
@@ -155,7 +155,7 @@ self_check: |
 
 <p>두 방식의 정의는 <a href="https://economybloc.com/article/37380/" target="_blank" rel="noopener">이코노미블록 이동평균선 설명</a>과 <a href="https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%8F%99%ED%8F%89%EA%B7%A0%EC%84%A0" target="_blank" rel="noopener">위키백과 이동평균선</a>에서도 같은 구분으로 나옵니다. 차트에서 이평선 값이 다르게 보이면 방식 항목이 SMA인지 EMA인지 먼저 보세요.</p>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">이평선을 볼 때 흔한 오해</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">이평선을 볼 때 흔한 오해</h2>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">흔한 오해</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">실제</th></tr>
@@ -173,7 +173,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>이평선은 종가를 더해 기간으로 나눈 값을 이은 선입니다.</li><li>기간이 짧을수록 빠르고, 길수록 완만합니다.</li><li>교차는 지나간 가격끼리의 비교라 신호가 늦고, 예측이 아닙니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">주식 투자자가 이평선을 쓰는 방식과 한계</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">주식 투자자가 이평선을 쓰는 방식과 한계</h2>
 
 <p>이평선은 차트를 처음 열면 가장 먼저 보이는 선이라, 쓰는 방식과 한계를 같이 알아 두는 편이 좋아요.</p>
 
@@ -185,7 +185,7 @@ self_check: |
 
 <p>골든크로스나 데드크로스 같은 이름이 붙어 있어도, 지나간 가격의 평균끼리 순서가 바뀌었다는 기록이에요. 이 신호만으로 매수나 매도를 정하는 건 일반적인 사용법이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">이평선 보면서 떠오르는 의문</h2>
+<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #1f8a8a;padding-left:12px;margin-top:36px;">이평선 보면서 떠오르는 의문</h2>
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">이동평균선은 종가로만 그리나요?</summary><p>대부분의 차트는 종가를 기본값으로 씁니다. 지표 설정에서 시가나 고가를 고르게 만든 서비스도 있으니, 쓰는 차트의 기본 설정을 먼저 확인해 보세요.</p></details>
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">5일선이 20일선보다 먼저 움직이는 이유는 뭔가요?</summary><p>평균에 들어가는 날짜 수가 적기 때문입니다. 5일선은 하루 값이 5분의 1, 20일선은 20분의 1만 반영되어서 같은 하루 변화에도 5일선이 네 배 크게 반응합니다.</p></details>
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">골든크로스가 나오면 오른다는 뜻인가요?</summary><p>아닙니다. 골든크로스는 단기 평균이 장기 평균을 위로 넘었다는 사실만 알려 줍니다. 이미 오른 가격을 평균이 뒤따라온 결과일 수 있어서 앞으로의 방향을 보장하지 않습니다.</p></details>

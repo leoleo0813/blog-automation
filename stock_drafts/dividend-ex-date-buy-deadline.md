@@ -112,20 +112,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>배당기준일과 배당락일은 뭐가 다른가요</li>
-  <li>배당금 받으려면 언제까지 사야 하나요</li>
-  <li>왜 배당락일에 주가가 떨어지나요</li>
-  <li>예전과 달라진 점은 무엇인가요</li>
-  <li>분기배당은 실제로 어떻게 진행되나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당기준일과 배당락일은 뭐가 다른가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당금 받으려면 언제까지 사야 하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 배당락일에 주가가 떨어지나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">예전과 달라진 점은 무엇인가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분기배당은 실제로 어떻게 진행되나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당기준일과 배당락일은 뭐가 다른가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당기준일과 배당락일은 뭐가 다른가요</h2>
 
 <p><b>배당기준일</b>은 "이날 주식을 갖고 있는 사람에게 배당금을 준다"고 정해놓은 날입니다. <b>배당락일</b>은 배당을 받을 권리가 떨어져 나가는 날로, <mark>보통 배당기준일 바로 전 영업일</mark>입니다.</p>
 
 <p>주의할 점은 배당락일에 주식을 사도 배당을 못 받는다는 것입니다. 배당락일 아침부터는 이미 그 주식에 배당받을 권리가 붙어있지 않은 상태(권리락)로 거래되기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당금 받으려면 언제까지 사야 하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당금 받으려면 언제까지 사야 하나요</h2>
 
 <p>한국 주식시장은 매수 후 <mark>2영업일(T+2)</mark>이 지나야 결제(내 명의로 등록)가 완료됩니다. 그래서 배당기준일에 주주명부에 이름을 올리려면, 배당기준일이 아니라 <b>배당기준일로부터 2영업일 전</b>까지 매수를 마쳐야 합니다. 주말·공휴일은 영업일에서 빠집니다.</p>
 
@@ -145,13 +145,13 @@ self_check: |
 
 <p>즉 3월 27일(금) 장 마감까지 주식을 보유하고 있었다면, 3월 30일(월) 배당락일 아침에 바로 팔아도 배당금은 예정대로 들어옵니다. 반대로 3월 30일에 처음 산다면 배당기준일(3월 31일)까지 결제가 끝나지 않아 배당을 받지 못합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 배당락일에 주가가 떨어지나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 배당락일에 주가가 떨어지나요</h2>
 
 <p>배당은 회사가 보유한 현금을 주주에게 나눠주는 것이라, 배당금만큼 회사 밖으로 현금이 빠져나가 <mark>이론적으로 그만큼 기업가치가 줄어듭니다.</mark> 그래서 시장에서는 배당락일에 예상 배당금만큼 주가를 미리 낮춰서 거래를 시작하는 경향이 있습니다.</p>
 
 <p>다만 실제 하락폭은 종목·시장에 따라 다릅니다. 자본시장연구원의 한 발간물에 따르면, 12월 말을 배당기준일로 정한 기업들의 배당락일 평균 주가 하락폭은 <b>코스피 42.8bp, 코스닥 10.7bp</b> 수준으로, 코스피 쪽이 더 뚜렷했습니다(법령상 수치가 아닌 연구 통계이므로 참고용입니다).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예전과 달라진 점은 무엇인가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예전과 달라진 점은 무엇인가요</h2>
 
 <p>예전에는 대부분 상장사가 <mark>매년 12월 말에 배당기준일부터 미리 정해놓고, 실제 배당금액은 다음 해 3월 주주총회에서야 결정</mark>했습니다. 그래서 투자자는 배당금이 얼마인지, 언제 받는지 모르는 채로 배당락을 맞는 "깜깜이 배당" 문제가 있었습니다.</p>
 
@@ -164,7 +164,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 「자본시장과 금융투자업에 관한 법률」 제165조의12(<a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 조문번호 확인) 및 금융위원회 배당절차 개선방안 관련 보도자료(WebSearch 교차 확인, 2026-09-11).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분기배당은 실제로 어떻게 진행되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분기배당은 실제로 어떻게 진행되나요</h2>
 
 <p>분기배당의 새 절차는 다음 순서로 진행됩니다.</p>
 

@@ -123,22 +123,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>퇴직연금 실물이전이 무엇인가요</li>
-  <li>지금 실물이전 할 수 있는 상품은 무엇인가요</li>
-  <li>DB DC IRP 사이 어떤 조합이 안 되나요</li>
-  <li>사전조회 서비스는 어떻게 신청하나요</li>
-  <li>실제로 얼마나 이용했나요</li>
-  <li>2027년까지 무엇이 바뀌나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">퇴직연금 실물이전이 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 실물이전 할 수 있는 상품은 무엇인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">DB DC IRP 사이 어떤 조합이 안 되나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사전조회 서비스는 어떻게 신청하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 이용했나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2027년까지 무엇이 바뀌나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">퇴직연금 실물이전이 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">퇴직연금 실물이전이 무엇인가요</h2>
 
 <p>퇴직연금 실물이전은 <b>보유하고 있는 펀드·ETF 같은 상품을 매도하거나 해지하지 않고</b>, 퇴직연금을 운용하는 금융회사(사업자)만 바꾸는 서비스입니다. <a href="https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=17141" target="_blank" rel="noopener">고용노동부</a>에 따르면 2024년 10월 31일부터 시행됐습니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">기존에는 계좌를 옮기려면 상품을 전부 현금화한 뒤 다시 사야 해서, 매도 시점의 손실이나 재매수 공백이 생기는 문제가 있었습니다.</span> 실물이전은 이 과정 없이 상품 그대로 새 회사 계좌로 넘어갑니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지금 실물이전 할 수 있는 상품은 무엇인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">지금 실물이전 할 수 있는 상품은 무엇인가요</h2>
 
 <p>모든 상품이 실물로 옮겨지는 것은 아닙니다. 옮기려는 회사(수관회사)가 해당 상품을 취급하는 경우에만 실물이전이 되고, 그렇지 않으면 예전처럼 현금화해서 옮겨야 합니다.</p>
 
@@ -182,7 +182,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">같은 표에 있는 상품이라도, 옮기려는 회사가 그 상품을 팔지 않으면 실물로는 못 옮기고 현금화해야 합니다. 신청 전에 반드시 다음 항목의 사전조회로 확인해야 하는 이유입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">DB DC IRP 사이 어떤 조합이 안 되나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">DB DC IRP 사이 어떤 조합이 안 되나요</h2>
 
 <p>실물이전은 <b>같은 퇴직연금 제도 사이에서만</b> 가능합니다. 확정급여형(DB)은 DB끼리, 확정기여형(DC)은 DC끼리, 개인형퇴직연금(IRP)은 IRP끼리만 실물로 옮길 수 있습니다.</p>
 
@@ -195,7 +195,7 @@ self_check: |
 
 <p>퇴사·이직으로 DC형 퇴직금을 받아 IRP로 옮기는 경우가 많은데, 지금은 이 구간에서 실물이전이 되지 않아 상품을 팔고 다시 사야 합니다. 관련 세액공제는 <a href="https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit" target="_blank" rel="noopener">이전 글(연금저축 세액공제 얼마 돌려받나)</a>에서 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사전조회 서비스는 어떻게 신청하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사전조회 서비스는 어떻게 신청하나요</h2>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">2025년 7월 21일부터 사전조회 서비스가 시작돼, 계좌를 새로 만들지 않고도 실물이전 가능 여부를 미리 확인</span>할 수 있게 됐습니다. 신청 취소로 번거로웠던 문제를 줄이기 위해 도입됐습니다.</p>
 
@@ -206,7 +206,7 @@ self_check: |
   <li>신청한 날의 <b>다음 영업일까지</b> 조회 결과 통보</li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 이용했나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 이용했나요</h2>
 
 <p>2024년 10월 31일 도입 후 <mark>2026년 6월 말까지 누적 실물이전 금액은 15조 9,000억원(25만여건)</mark>입니다. 제도별로 나누면 다음과 같습니다.</p>
 
@@ -235,7 +235,7 @@ self_check: |
 
 <p>세 금액을 더하면 15조 9,000억원으로, 전체 누적 금액과 정확히 일치합니다. IRP 계좌 이동이 가장 활발했습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2027년까지 무엇이 바뀌나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2027년까지 무엇이 바뀌나요</h2>
 
 <p>2026년 8월, 금융감독원은 예탁결제원·금융투자협회·한국증권금융·주요 퇴직연금 사업자 등 17개 기관과 <b>퇴직연금 실물이전 개선 태스크포스(TF)</b>를 꾸려 개선 방안을 논의하기 시작했습니다.</p>
 
@@ -250,7 +250,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">위 계획은 2026년 9월 기준 추진·검토 단계입니다. DC→IRP 실물이전이 실제로 언제부터 가능해지는지는 <a href="https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=17141" target="_blank" rel="noopener">고용노동부</a>·금융감독원 공지를 확인해야 합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">퇴직연금 실물이전이 무엇인가요</summary>

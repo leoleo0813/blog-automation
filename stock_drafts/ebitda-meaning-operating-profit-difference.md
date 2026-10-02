@@ -54,15 +54,15 @@ self_check: |
 <h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>EBITDA 계산식과 두 가지 계산 경로</li>
-  <li>영업이익이 같은 두 회사 비교</li>
-  <li>EBITDA 마진과 EV/EBITDA 읽는 법</li>
-  <li>EBITDA가 놓치는 것</li>
-  <li>공시에서 EBITDA를 직접 계산하는 순서</li>
-  <li>자주 나오는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EBITDA 계산식과 두 가지 계산 경로</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">영업이익이 같은 두 회사 비교</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EBITDA 마진과 EV/EBITDA 읽는 법</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">EBITDA가 놓치는 것</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공시에서 EBITDA를 직접 계산하는 순서</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 나오는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA 계산식과 두 가지 계산 경로</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA 계산식과 두 가지 계산 경로</h2>
 
 <p>EBITDA는 Earnings Before Interest, Taxes, Depreciation and Amortization의 약자입니다. <mark>EBITDA = 영업이익 + 감가상각비 + 무형자산상각비</mark>로 계산하는 것이 가장 간단합니다.</p>
 
@@ -80,7 +80,7 @@ self_check: |
 
 <p>두 경로가 일치하는 이유는 영업이익에서 이자와 법인세를 반영하면 순이익이 되기 때문입니다. 이 예시는 영업외손익을 이자비용 하나로 단순화했고, 법인세는 세전이익의 25%로 가정했습니다.</p>
 
-<h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">영업이익이 같은 두 회사 비교</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">영업이익이 같은 두 회사 비교</h2>
 
 <p>결론부터 말하면, 영업이익이 같아도 감가상각비가 다르면 EBITDA 순위가 달라집니다. 회사 X는 설비가 많은 제조업, 회사 Y는 설비가 적은 서비스업이라고 가정했습니다.</p>
 
@@ -106,7 +106,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>EBITDA는 설비 규모의 영향을 걷어내 업종이 다른 회사를 같은 잣대로 놓게 해 줍니다.</li><li>걷어낸 감가상각비는 실제로 설비를 쓰면서 닳은 비용이라, 사라진 것이 아니라 가려진 것입니다.</li><li>위 숫자는 이해를 돕기 위한 가상 값입니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA 마진과 EV/EBITDA 읽는 법</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA 마진과 EV/EBITDA 읽는 법</h2>
 
 <p>EBITDA 마진은 매출 100원당 EBITDA가 얼마인지 보여 줍니다. 계산은 EBITDA를 매출로 나누면 끝납니다.</p>
 
@@ -127,7 +127,7 @@ self_check: |
 
 <p>산식은 6,000 ÷ 1,000 = 6.0배, 3,600 ÷ 450 = 8.0배입니다. 이 배수가 낮다고 저평가, 높다고 고평가라는 결론은 나오지 않으며, 같은 업종 안에서 비교할 때만 참고가 됩니다.</p>
 
-<h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA가 놓치는 것</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA가 놓치는 것</h2>
 
 <p>EBITDA는 현금흐름과 다릅니다. 재고와 외상 대금의 변화, 설비투자로 나간 현금이 빠져 있기 때문입니다.</p>
 
@@ -154,7 +154,7 @@ self_check: |
   <li>설비 교체가 반드시 필요한 업종에서는 감가상각비를 빼고 보는 것이 실제와 멀어질 수 있습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">공시에서 EBITDA를 직접 계산하는 순서</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">공시에서 EBITDA를 직접 계산하는 순서</h2>
 
 <ol style="line-height:1.9;">
   <li><strong>공시 열기:</strong> <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">DART 전자공시</a>에서 회사명을 검색해 사업보고서를 엽니다.</li>
@@ -171,7 +171,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>EBITDA는 영업이익에 감가상각비와 무형자산상각비를 더해 구합니다.</li><li>설비가 많은 회사는 영업이익과 EBITDA의 차이가 커서 지표에 따라 순위가 뒤집힐 수 있습니다.</li><li>현금 창출력을 볼 때는 CAPEX와 영업활동현금흐름을 함께 확인합니다.</li></ul>
 </div>
 
-<h2 style="border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA 읽다가 자주 막히는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #6d4fc2;padding-left:12px;margin-top:36px;">EBITDA 읽다가 자주 막히는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">EBITDA가 높으면 현금을 많이 번다는 뜻인가요</summary>

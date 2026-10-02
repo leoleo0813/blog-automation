@@ -63,18 +63,18 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 <h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">목차</h2>
 
 <ol style="line-height:1.9;">
-  <li>지금 원/달러 환율 숫자</li>
-  <li>환율 오른다는 말, 방향 용어 정리표</li>
-  <li>환율 10% 상승이 원화 가치 -10%가 아닌 이유</li>
-  <li>같은 1,000달러도 환전 방식에 따라 달라지는 비용</li>
-  <li>엔화는 100엔 기준으로 환산하는 법</li>
-  <li>환율은 무엇에 따라 움직이나요</li>
-  <li>우리나라 환율제도는 1997년에 바뀌었습니다</li>
-  <li>해외주식·수출주 투자자에게 환율이 중요한 이유</li>
-  <li>환율 뉴스 앞에서 생기는 4가지 의문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지금 원/달러 환율 숫자</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환율 오른다는 말, 방향 용어 정리표</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환율 10% 상승이 원화 가치 -10%가 아닌 이유</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 1,000달러도 환전 방식에 따라 달라지는 비용</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">엔화는 100엔 기준으로 환산하는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환율은 무엇에 따라 움직이나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">우리나라 환율제도는 1997년에 바뀌었습니다</a></li>
+  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">해외주식·수출주 투자자에게 환율이 중요한 이유</a></li>
+  <li><a href="#sec-9" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환율 뉴스 앞에서 생기는 4가지 의문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">지금 원/달러 환율 숫자</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">지금 원/달러 환율 숫자</h2>
 
 <p>최근 이틀 동안만 봐도 환율은 하루 몇 원씩 오르내렸습니다. 아래는 서울 외환시장 주간거래 종가입니다.</p>
 
@@ -90,7 +90,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <p>10월 2일 하루 움직임을 이 글의 계산법으로 바꿔 보면, 환율은 (1,350.6 ÷ 1,358.4 − 1) × 100 = 약 -0.57% 내렸고 원화 가치는 (1,358.4 ÷ 1,350.6 − 1) × 100 = 약 +0.58% 올랐습니다. 움직임이 작으면 두 비율이 거의 같고, 클수록 벌어집니다. 출처는 <a href="https://www.seoul.co.kr/news/economy/securities/2026/10/02/20261002500187" target="_blank" rel="noopener">서울신문 10월 2일 마감 기사</a>와 <a href="https://v.daum.net/v/20261001153632882" target="_blank" rel="noopener">10월 1일 오후 3시 30분 환율 기사</a>이고, 은행 환전의 기준이 되는 매매기준율은 매일 <a href="http://www.smbs.biz" target="_blank" rel="noopener">서울외국환중개</a>가 고시합니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 오른다는 말, 방향 용어 정리표</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 오른다는 말, 방향 용어 정리표</h2>
 
 <p><mark>환율은 외국 돈 1단위를 사는 데 필요한 우리 돈의 양입니다.</mark> 원/달러 환율이 1,300원이라면 1달러를 사려면 1,300원이 필요하다는 뜻입니다. 아래 표의 환율 숫자는 이해를 돕기 위한 가상의 값입니다.</p>
 
@@ -114,7 +114,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
   <li>"원화 가치가 올랐다" = 환율 숫자는 내려간 것</li>
 </ul>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 10% 상승이 원화 가치 -10%가 아닌 이유</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 10% 상승이 원화 가치 -10%가 아닌 이유</h2>
 
 <p><mark>환율이 오른 비율과 원화 가치가 내린 비율은 서로 다릅니다.</mark> 원화 가치는 1원으로 살 수 있는 달러의 양이라 환율의 역수로 계산하기 때문입니다.</p>
 
@@ -139,7 +139,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/exchange-rate-meaning-won-value-1.png" alt="환율 변동률과 원화 가치 변동률 비교 막대그래프. 환율 25퍼센트 상승 때 원화 가치 20퍼센트 하락, 10퍼센트 상승 때 9.1퍼센트 하락, 10퍼센트 하락 때 11.1퍼센트 상승, 20퍼센트 하락 때 25퍼센트 상승" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 기준 환율 1,300원(가상)</figcaption></figure>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">같은 1,000달러도 환전 방식에 따라 달라지는 비용</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">같은 1,000달러도 환전 방식에 따라 달라지는 비용</h2>
 
 <p>뉴스에 나오는 환율과 은행 창구에서 적용되는 환율은 다릅니다. 매매기준율은 서울외국환중개가 외국환중개회사를 통한 거래를 가중평균해 고시하는 은행 간 시장 평균환율이고, 고객이 환전할 때는 여기에 스프레드가 붙습니다.</p>
 
@@ -166,7 +166,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <p><mark>환율이 한 번도 움직이지 않아도 사고 바로 파는 것만으로 우대 없이는 약 3.34%가 사라집니다.</mark> 우대율 적용 방식과 스프레드 크기는 금융사와 통화, 거래 방법(현찰·계좌 이체)에 따라 달라서, 금융사 환율표에 적힌 값이 실제 적용 환율입니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">엔화는 100엔 기준으로 환산하는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">엔화는 100엔 기준으로 환산하는 법</h2>
 
 <p>일본 엔화는 은행 환율표에 100엔 기준으로 적혀 있는 경우가 많습니다. 표시된 숫자를 1엔 가격으로 착각하면 환산 금액이 100배 어긋납니다.</p>
 
@@ -178,7 +178,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <p>엔화 외에 위안화 등 다른 통화의 표시 단위는 은행과 통화마다 달라서 환율표의 단위 표기부터 봅니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율은 무엇에 따라 움직이나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율은 무엇에 따라 움직이나요</h2>
 
 <p>환율은 외환시장에서 달러를 사려는 수요와 팔려는 공급이 만나는 지점에서 정해집니다. 달러를 구하려는 사람이 늘면 환율이 오르고, 달러가 시장에 많이 풀리면 환율이 내리는 방향으로 움직입니다.</p>
 
@@ -191,13 +191,13 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <p>이 요인들이 같은 방향으로만 작용하는 것은 아니라서 실제 환율 방향은 예측이 어렵습니다. 달러 가치를 여러 통화와 비교해 한 숫자로 보는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/dollar-index-meaning-currency-weights" target="_blank" rel="noopener">달러인덱스 계산 글</a>에, 해외 ETF 수익률에서 환율이 하는 역할은 <a href="https://sensitiveboss3.tistory.com/entry/currency-hedge-cost-meaning" target="_blank" rel="noopener">환헤지 비용 글</a>에 정리했습니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">우리나라 환율제도는 1997년에 바뀌었습니다</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">우리나라 환율제도는 1997년에 바뀌었습니다</h2>
 
 <p>우리나라는 1997년 12월 16일 원/달러 환율의 일일 변동폭 10% 제한을 폐지하고 자유변동환율제도를 채택했습니다. 이 제도 아래에서 환율은 외환시장의 수급에 따라 자유롭게 결정됩니다.</p>
 
 <p>제도 도입 이전에는 하루에 움직일 수 있는 폭이 제한되어 있었고, 환율이 제한 폭까지 오르는 날이 계속되며 외환시장이 마비되는 일이 있었다고 합니다. 매일 고시되는 매매기준율은 <a href="http://www.smbs.biz" target="_blank" rel="noopener">서울외국환중개</a>에서, 제도와 통계는 <a href="https://www.bok.or.kr" target="_blank" rel="noopener">한국은행</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">해외주식·수출주 투자자에게 환율이 중요한 이유</h2>
+<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">해외주식·수출주 투자자에게 환율이 중요한 이유</h2>
 
 <p>주식 투자자에게 환율은 수익률 계산과 기업 실적, 외국인 자금 흐름 세 곳에서 동시에 작용합니다.</p>
 
@@ -209,7 +209,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <p>어느 방향이 주가에 좋다고 단정할 수는 없습니다. 내가 가진 자산이 달러를 받는 쪽인지 쓰는 쪽인지부터 나눠 보면 환율 기사가 내 계좌에 어떤 뜻인지 읽힙니다.</p>
 
-<h2 style="border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 뉴스 앞에서 생기는 4가지 의문</h2>
+<h2 id="sec-9" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">환율 뉴스 앞에서 생기는 4가지 의문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">환율이 오르면 무조건 나쁜 건가요</summary>

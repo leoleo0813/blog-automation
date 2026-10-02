@@ -106,16 +106,16 @@ refresh_reason: "11/2 저PBR 명단 첫 공표 후 예정 문장을 결과로 �
 
 <h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>PBR 뜻과 계산 공식</li>
-  <li>PBR이 낮으면 무조건 저평가인가요</li>
-  <li>PBR PER ROE는 이렇게 연결됩니다</li>
-  <li>업종마다 적정 PBR 기준이 다릅니다</li>
-  <li>저PBR 기업 명단, 11월부터 공개됩니다</li>
-  <li>PBR은 어디서 확인하나요</li>
-  <li>궁금한 점 몇 가지</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PBR 뜻과 계산 공식</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PBR이 낮으면 무조건 저평가인가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PBR PER ROE는 이렇게 연결됩니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">업종마다 적정 PBR 기준이 다릅니다</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">저PBR 기업 명단, 11월부터 공개됩니다</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">PBR은 어디서 확인하나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 몇 가지</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR 뜻과 계산 공식</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR 뜻과 계산 공식</h2>
 
 <p>PBR(Price to Book-value Ratio, 주가순자산비율)은 <mark>현재 주가가 회사의 주당순자산가치(BPS)의 몇 배인지를 나타내는 지표</mark>입니다. 계산식은 간단합니다. PBR = 주가 ÷ BPS.</p>
 
@@ -127,7 +127,7 @@ refresh_reason: "11/2 저PBR 명단 첫 공표 후 예정 문장을 결과로 �
   <li>PBR 1배 미만 = 시장 가격이 장부상 순자산보다 낮게 거래되는 상태</li>
 </ul>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR이 낮으면 무조건 저평가인가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR이 낮으면 무조건 저평가인가요</h2>
 
 <p>아닙니다. PBR이 낮다고 반드시 저평가는 아닙니다. 회사의 자산 구성이나 수익성에 따라 낮은 PBR이 오히려 정당한 가격일 수 있습니다.</p>
 
@@ -139,7 +139,7 @@ refresh_reason: "11/2 저PBR 명단 첫 공표 후 예정 문장을 결과로 �
   <li>같은 업종 평균 PBR과 비교합니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR PER ROE는 이렇게 연결됩니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR PER ROE는 이렇게 연결됩니다</h2>
 
 <p><mark>PBR은 PER에 ROE를 곱한 값과 같습니다(PBR = PER × ROE)</mark>. PER은 주가를 이익(EPS)으로 나눈 값이고, ROE는 이익을 자기자본(BPS)으로 나눈 값이므로, 두 값을 곱하면 이익이 서로 상쇄되면서 주가를 자기자본으로 나눈 값, 즉 PBR이 남기 때문입니다.</p>
 
@@ -152,13 +152,13 @@ refresh_reason: "11/2 저PBR 명단 첫 공표 후 예정 문장을 결과로 �
 
 <p>이 관계 때문에 PER이 낮아도 ROE가 낮으면 PBR도 함께 낮게 나타날 수 있습니다. 반대로 PER이 다소 높아도 ROE가 아주 높다면 PBR은 오히려 높은 수준일 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">업종마다 적정 PBR 기준이 다릅니다</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">업종마다 적정 PBR 기준이 다릅니다</h2>
 
 <p>PBR은 업종 특성에 따라 평균 수준이 크게 다릅니다. 설비 투자가 많은 제조업은 순자산 비중이 커 PBR이 낮게 형성되는 경우가 많고, 브랜드나 기술력이 중요한 업종은 장부에 잡히지 않는 무형자산 가치 때문에 PBR이 높게 나타나는 경우가 많습니다.</p>
 
 <p>따라서 서로 다른 업종의 PBR을 단순 비교하면 오해가 생길 수 있습니다. 같은 업종 안에서 비교하거나, <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>의 업종별 PBR 통계를 참고하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">저PBR 기업 명단, 11월부터 공개됩니다</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">저PBR 기업 명단, 11월부터 공개됩니다</h2>
 
 <p>한국거래소는 <mark>2026년 11월 2일부터 업종별 PBR 하위권에 오래 머문 상장사 명단을 처음 공표</mark>합니다. 코스피는 업종별 PBR 하위 25%, 코스닥은 하위 10%에 6개 반기(3년) 연속 속한 기업이 대상입니다.</p>
 
@@ -170,11 +170,11 @@ refresh_reason: "11/2 저PBR 명단 첫 공표 후 예정 문장을 결과로 �
   <li>기업가치제고계획을 미리 공시하면 첫 공표에서 제외될 수 있습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR은 어디서 확인하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">PBR은 어디서 확인하나요</h2>
 
 <p>종목별·업종별 PBR은 <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>의 PER/PBR/배당수익률 메뉴에서 무료로 조회할 수 있습니다. 증권사 MTS의 종목 상세 화면에도 대부분 PBR이 함께 표시됩니다.</p>
 
-<h2 style="border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">궁금한 점 몇 가지</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #c0562f;padding-left:12px;margin-top:36px;">궁금한 점 몇 가지</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">PBR과 PER 중 어떤 지표를 더 믿어야 하나요</summary>

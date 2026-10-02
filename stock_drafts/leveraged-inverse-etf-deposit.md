@@ -107,20 +107,20 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>곱버스가 정확히 뭔가요</li>
-  <li>왜 그렇게 위험하다는 말이 나오나요</li>
-  <li>곱버스도 아무나 투자할 수 있나요</li>
-  <li>단일종목 레버리지 ETF와는 뭐가 다른가요</li>
-  <li>투자 전에 뭘 확인해야 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">곱버스가 정확히 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 그렇게 위험하다는 말이 나오나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">곱버스도 아무나 투자할 수 있나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">단일종목 레버리지 ETF와는 뭐가 다른가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">투자 전에 뭘 확인해야 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">곱버스가 정확히 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">곱버스가 정확히 뭔가요</h2>
 
 <p><b>곱버스</b>는 "곱하기+인버스"의 줄임말로, <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">코스피200 선물지수의 하루 수익률을 -2배로 추종하는 ETF·ETN</span>을 말합니다. 대표 상품이 KODEX 200선물인버스2X입니다.</p>
 
 <p>지수가 하루에 1% 떨어지면 곱버스는 약 +2% 오르고, 반대로 지수가 1% 오르면 곱버스는 약 -2% 손실을 봅니다. 이 배수는 <b>매일 새로 계산</b>됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 그렇게 위험하다는 말이 나오나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 그렇게 위험하다는 말이 나오나요</h2>
 
 <p>매일의 수익률이 복리로 쌓이기 때문에, <mark>지수가 결국 원래 가격으로 돌아와도 곱버스는 원금을 회복하지 못하는</mark> 현상이 생깁니다. 이를 변동성 손실(음의 복리효과)이라고 부릅니다.</p>
 
@@ -136,7 +136,7 @@ self_check: |
 
 <p>그래서 곱버스는 방향성이 뚜렷한 단기 구간에서만 짧게 활용하는 상품이지, 오래 들고 있을수록 유리해지는 상품이 아닙니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">곱버스도 아무나 투자할 수 있나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">곱버스도 아무나 투자할 수 있나요</h2>
 
 <p>아닙니다. <mark>지수형 곱버스도 2020년 9월 7일부터 개인 일반투자자에게 기본예탁금과 사전교육이 의무화</mark>됐습니다. 위험이 큰 상품이라는 것을 투자자가 미리 알게 하려는 조치입니다.</p>
 
@@ -147,7 +147,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: 미래에셋증권 공식 블로그(2020-09-16 게시)·아시아타임(언론)·한국투자증권 TRUE ETN 공식 안내·KB증권 공지 4개 독립 출처 교차 확인(2026-09-16).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">단일종목 레버리지 ETF와는 뭐가 다른가요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">단일종목 레버리지 ETF와는 뭐가 다른가요</h2>
 
 <p>2025년 이후 <b>삼성전자·SK하이닉스·테슬라·엔비디아처럼 개별 종목 하나를 기초자산으로 삼는 "단일종목 레버리지·인버스 ETF·ETN"</b>이 새로 등장했습니다. 곱버스(지수 기반)와 이름이 비슷해 헷갈리기 쉽지만, <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">변동성이 개별 종목 단위라 더 위험하다고 판단돼 예탁금·교육 기준이 곱버스보다 훨씬 강화됐습니다.</span></p>
 
@@ -178,7 +178,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">투자 전에 뭘 확인해야 하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">투자 전에 뭘 확인해야 하나요</h2>
 
 <p>매매하려는 증권사 앱의 상품 상세 화면에서 <b>기본예탁금 충족 여부</b>를 바로 확인할 수 있고, 사전교육 이수번호는 <a href="https://www.kifin.or.kr/common/edu/1/detail.do" target="_blank" rel="noopener">금융투자교육원</a> 홈페이지에서 발급받아 증권사 계좌에 등록하면 됩니다. 기본예탁금 제도의 구체적인 산정 기준(원화예수금·외화예수금 합산 등)은 <a href="https://www.trueetn.com/trueetn/nkis/invest/invEtn.jsp?cmd=FR13000" target="_blank" rel="noopener">한국투자증권 TRUE ETN 안내 페이지</a>처럼 각 증권사 공지에서 확인하는 것이 정확합니다.</p>
 

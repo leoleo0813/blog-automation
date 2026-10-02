@@ -117,21 +117,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>감자란 무엇인가요</li>
-  <li>유상감자와 무상감자는 뭐가 다른가요</li>
-  <li>감자비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</li>
-  <li>감자하면 왜 매매거래가 정지되나요, 기간은 얼마나 되나요</li>
-  <li>감자 결정은 어디서 확인하나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감자란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">유상감자와 무상감자는 뭐가 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감자비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감자하면 왜 매매거래가 정지되나요, 기간은 얼마나 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감자 결정은 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자란 무엇인가요</h2>
 
 <p>감자(減資)는 <mark>기업이 자본금을 줄이는 것</mark>을 뜻합니다. 자본금을 늘리는 증자와 정반대 개념으로, 주식 수를 줄이거나 액면가를 낮추는 방식으로 이뤄집니다.</p>
 
 <p>기업이 감자를 하는 이유는 크게 두 가지입니다. 누적된 손실로 자본이 잠식된 상태를 회계상 정리하기 위해서거나, 사업 규모를 축소하면서 남는 자본을 주주에게 돌려주기 위해서입니다. <mark>이 목적에 따라 유상감자와 무상감자로 나뉩니다.</mark></p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">유상감자와 무상감자는 뭐가 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">유상감자와 무상감자는 뭐가 다른가요</h2>
 
 <p>두 방식 모두 회사의 자본금은 줄어들지만, <mark>주주가 대가를 받느냐에서 완전히 갈립니다.</mark></p>
 
@@ -169,7 +169,7 @@ self_check: |
 
 <p>실제로 상장사에서 뉴스에 오르내리는 감자는 대부분 <mark>무상감자</mark>입니다. 재무구조가 나빠진 회사가 자본잠식을 벗어나기 위해 택하는 경우가 많기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</h2>
 
 <p>무상감자는 <mark>감자비율만큼 주식 수를 줄이는 대신, 기준주가를 그 비율의 역수로 올려</mark> 이론상 평가금액이 변하지 않도록 설계됩니다.</p>
 
@@ -180,7 +180,7 @@ self_check: |
 
 <p>다만 이건 이론상 계산일 뿐입니다. <mark>실제로는 재상장 이후 회사에 대한 투자자 신뢰가 흔들려 이론가보다 주가가 낮게 형성되는 경우가 흔합니다.</mark> 감자 자체가 재무구조 악화를 알리는 신호로 받아들여지기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자하면 왜 매매거래가 정지되나요, 기간은 얼마나 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자하면 왜 매매거래가 정지되나요, 기간은 얼마나 되나요</h2>
 
 <p>무상감자는 <mark>기존 주식을 병합해 새 주식으로 바꾸는 작업</mark>이라, 이 처리가 끝날 때까지 거래를 잠시 멈춥니다. 회계 처리와 법인등기, 신주 발행 절차에 물리적인 시간이 걸리기 때문입니다.</p>
 
@@ -213,7 +213,7 @@ self_check: |
 
 <p>정지 기간은 회사와 감자 규모에 따라 다르지만, <mark>공시에 적힌 감자기준일과 변경상장(예정)일 사이의 구간이 곧 거래정지 구간</mark>이라고 이해하면 됩니다. 거래가 재개되는 첫날에는 그동안 대기하던 매도 물량이 몰려 주가가 급락하는 경우도 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자 결정은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자 결정은 어디서 확인하나요</h2>
 
 <p>감자 여부는 뉴스나 커뮤니티 글이 아니라 <mark>금융감독원 전자공시시스템(DART)</mark>에서 회사가 직접 제출한 공시 원문으로 확인하는 게 가장 정확합니다.</p>
 
@@ -233,7 +233,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">감자가 뭔가요</summary>

@@ -79,21 +79,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>배당세는 어떻게 붙나요</li>
-  <li>양도세는 어떻게 붙나요</li>
-  <li>미국 상속세는 왜 주의해야 하나요</li>
-  <li>한국 상속세와 같이 내야 하나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당세는 어떻게 붙나요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">양도세는 어떻게 붙나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">미국 상속세는 왜 주의해야 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">한국 상속세와 같이 내야 하나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당세는 어떻게 붙나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당세는 어떻게 붙나요</h2>
 
 <p>미국주식 배당금은 <mark>미국에서 15%가 먼저 원천징수</mark>되고, 한국에서 다른 금융소득과 합산해 배당소득세로 정산합니다. 자세한 세율·정산 방법은 "배당소득세 얼마 떼나" 글을 참고하세요.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도세는 어떻게 붙나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">양도세는 어떻게 붙나요</h2>
 
 <p>미국주식을 팔아 이익이 나면 <mark>연 250만원 기본공제 후 22%(지방세 포함)</mark> 양도소득세를 신고·납부해야 합니다. 신고 방법과 절차는 "해외주식 양도소득세 신고 방법" 글에 정리돼 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">미국 상속세는 왜 주의해야 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">미국 상속세는 왜 주의해야 하나요</h2>
 
 <p>미국주식을 보유한 채 사망하면 <mark>미국 연방 상속세(Estate Tax)</mark> 대상이 될 수 있습니다. 미국 시민권자·영주권자가 아닌 사람(한국 거주자 포함, "비거주 외국인")은 미국 내 자산("situs" 자산 — 미국 기업 주식, 미국 소재 부동산 등)에 대해서만 과세되지만, 기초공제가 매우 낮습니다.</p>
 
@@ -117,7 +117,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">한국 상속세만 생각하고 미국주식을 계속 늘리면, 정작 상속이 개시됐을 때 상속인이 미국에도 별도로 신고·납부해야 하는 상황을 놓칠 수 있습니다. 보유 규모가 크다면 세무 전문가와 함께 확인하는 것이 안전합니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한국 상속세와 같이 내야 하나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한국 상속세와 같이 내야 하나요</h2>
 
 <p>네, 미국 상속세와 한국 상속세는 <mark>서로 다른 세목</mark>이라 둘 다 신고 대상이 될 수 있습니다. 한국 거주자가 사망하면 전 세계 재산에 대해 한국 상속세가 부과되는데(배우자상속공제 등은 "배우자 상속공제 한도 계산 방법" 글 참고), 미국주식은 여기에 더해 미국 상속세도 함께 걸릴 수 있는 구조입니다. 이중과세를 조정하는 한미 조세조약이 존재하지만, 세부 조항까지는 이 글에서 확정하지 못했습니다 — 실제 상속이 임박했다면 국제조세 전문가 확인이 필요합니다.</p>
 

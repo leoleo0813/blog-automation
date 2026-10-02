@@ -158,21 +158,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>파생상품 양도소득세란</li>
-  <li>어떤 파생상품에 과세되나요</li>
-  <li>세율은 얼마인가요</li>
-  <li>실제 숫자로 계산해보기</li>
-  <li>신고납부 방법과 기한</li>
-  <li>헷갈리는 부분 정리</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">파생상품 양도소득세란</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">어떤 파생상품에 과세되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세율은 얼마인가요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 숫자로 계산해보기</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고납부 방법과 기한</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리는 부분 정리</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">파생상품 양도소득세란</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">파생상품 양도소득세란</h2>
 
 <p>파생상품 양도소득세는 선물·옵션 같은 파생상품을 사고팔아 얻은 이익에 매기는 세금입니다. 2016년 소득세법 개정으로 처음 도입됐고, 코스피200선물·옵션(미니 포함)부터 과세를 시작했습니다.</p>
 
 <p>주식 양도소득세와 마찬가지로 매도할 때마다 세금을 떼는 방식이 아니라, 1년 동안의 손익을 모아 다음 해에 한 번 신고·납부하는 구조입니다.</p>
 
-<h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">어떤 파생상품에 과세되나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">어떤 파생상품에 과세되나요</h2>
 
 <p>과세대상은 도입 이후 여러 차례 넓어졌습니다. 처음에는 코스피200선물·옵션만 대상이었지만, 지금은 훨씬 넓은 범위를 포함합니다.</p>
 
@@ -209,7 +209,7 @@ self_check: |
 
 <p>여기에 해외선물·해외옵션도 처음부터 과세대상에 포함돼 있습니다. 즉 지금은 국내 장내파생상품, 해외 파생상품, CFD 세 갈래 모두 과세대상이라고 보면 됩니다.</p>
 
-<h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">세율은 얼마인가요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">세율은 얼마인가요</h2>
 
 <p>법에 정해진 기본세율은 20%(지방소득세 2%를 더하면 22%)입니다. <mark>하지만 소득세법 시행령의 탄력세율 규정에 따라 실제로는 이보다 낮은 세율을 적용받습니다.</mark></p>
 
@@ -234,7 +234,7 @@ self_check: |
 
 <p>이 11%는 국내 파생상품, 해외 파생상품, CFD 구분 없이 동일하게 적용됩니다. 국세청 "알기 쉬운 양도소득세" 파생상품 편도 국내·국외 장내파생상품과 CFD를 하나의 "파생상품"으로 묶어 같은 세율을 적용한다고 안내합니다. 자료를 찾다 보면 CFD에 다른 세율을 적용한다고 쓴 글도 보이는데, 이는 탄력세율 적용 전 기본세율을 실제 세율로 착각한 경우입니다.</p>
 
-<h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">실제 숫자로 계산해보기</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">실제 숫자로 계산해보기</h2>
 
 <p>가상의 사례로 계산 순서를 짚어보겠습니다. 1년 동안 국내 코스피200선물에서 700만원 이익, 해외선물에서 200만원 손실, CFD에서 100만원 이익이 났다고 가정합니다.</p>
 
@@ -249,7 +249,7 @@ self_check: |
 
 <p>여기서 중요한 점은 국내·해외·CFD를 따로따로 계산하지 않고 하나로 합쳐서 계산한다는 것입니다. 만약 해외선물에서 손실이 나지 않았다면 통산 손익은 800만원이 되어 세금도 그만큼 늘어납니다. 반대로 손실이 컸다면 통산 후 금액이 250만원 아래로 내려가 세금이 아예 없을 수도 있습니다.</p>
 
-<h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">신고납부 방법과 기한</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">신고납부 방법과 기한</h2>
 
 <p>파생상품 양도소득세는 1년(1월 1일~12월 31일) 동안 발생한 손익을 다음 해 5월에 확정신고·납부합니다. <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 또는 손택스(모바일 앱)에서 전자신고할 수 있습니다.</p>
 
@@ -259,7 +259,7 @@ self_check: |
   <li>기한을 넘기면 무신고 가산세(20%)와 납부지연가산세(1일당 22/100,000, 연 약 8%)가 추가로 붙습니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #8d6e63;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">모든 선물옵션 거래에 다 세금이 붙나요</summary>

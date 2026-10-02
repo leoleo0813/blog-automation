@@ -112,21 +112,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>사모펀드란 무엇인가요</li>
-  <li>공모펀드와 다른 점</li>
-  <li>사모펀드 최소투자금액 기준</li>
-  <li>일반투자자가 가입하는 방법</li>
-  <li>사모펀드 세금 계산법</li>
-  <li>헷갈리기 쉬운 부분</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사모펀드란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공모펀드와 다른 점</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사모펀드 최소투자금액 기준</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">일반투자자가 가입하는 방법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사모펀드 세금 계산법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리기 쉬운 부분</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">사모펀드란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">사모펀드란 무엇인가요</h2>
 
 <p>사모펀드(Private Equity Fund, PEF)는 불특정 다수가 아니라 49인 이하의 소수 투자자에게서 비공개로 자금을 모아 주식, 채권, 기업 지분, 부동산 등에 투자하는 펀드입니다. 자본시장법상 집합투자기구의 한 종류입니다.</p>
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">저평가된 기업의 지분을 인수해 경영에 참여하거나 구조조정을 거쳐 기업가치를 높인 뒤 되파는 것이 대표적인 전략</span>입니다. 이 때문에 고수익을 추구하지만 그만큼 위험도 큰 상품으로 분류됩니다.</p>
 
-<h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">공모펀드와 다른 점</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">공모펀드와 다른 점</h2>
 
 <p>공모펀드는 불특정 다수를 대상으로 자금을 모으는 만큼 금융당국의 엄격한 규제와 공시 의무를 받습니다. 사모펀드는 사적 계약 형태라 이런 제약이 완화돼 있습니다.</p>
 
@@ -162,7 +162,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">사모펀드 최소투자금액 기준</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">사모펀드 최소투자금액 기준</h2>
 
 <p><mark>일반 사모펀드의 최소투자금액은 2021년 10월 21일부터 1억원에서 3억원으로 올랐습니다.</mark> 라임·옵티머스 사모펀드 사태 이후 투자자 보호를 강화하기 위한 자본시장법 시행령 개정에 따른 조치입니다.</p>
 
@@ -190,7 +190,7 @@ self_check: |
 
 <p>전문투자자는 이 최소투자금액 규정에서 제외됩니다. 여기서 말하는 최소투자금액은 개인·법인 일반투자자가 일반 사모펀드에 가입할 때 적용되는 기준입니다.</p>
 
-<h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">일반투자자가 가입하는 방법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">일반투자자가 가입하는 방법</h2>
 
 <p>일반투자자가 일반 사모펀드에 가입하려면 위 최소투자금액 요건을 충족해야 하고, 증권사나 은행 등 판매사를 통해 가입 절차를 밟습니다. 전문투자자로 등록돼 있다면 최소투자금액 제한 없이 가입할 수 있습니다.</p>
 
@@ -202,7 +202,7 @@ self_check: |
 
 <p>단, 어떤 판매사가 어떤 상품을 취급하는지, 실제 수익률이 얼마인지는 이 글에서 다루지 않습니다. 특정 상품의 매수를 권하는 것이 아니라 제도 자체를 설명하는 글이기 때문입니다.</p>
 
-<h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">사모펀드 세금 계산법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">사모펀드 세금 계산법</h2>
 
 <p>사모펀드에서 발생한 배당·이자 성격의 수익에는 <mark>배당소득세 15.4%(소득세 14%+지방소득세 1.4%)</mark>가 원천징수됩니다. 배당소득세의 구체적인 근거와 계산 방식은 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">배당소득세 얼마 떼나</a> 글에서 자세히 다뤘습니다.</p>
 
@@ -213,7 +213,7 @@ self_check: |
 
 <p>그런데 이 2,000만원이 다른 이자·배당소득과 합쳐 연 2,000만원을 넘으면 금융소득종합과세 대상이 됩니다. 2천만원 기준을 판단하는 구체적인 절차와 계산 예시는 <a href="https://sensitiveboss3.tistory.com/entry/financial-income-comprehensive-tax" target="_blank" rel="noopener">금융소득종합과세 2천만원 기준 확인법</a>에서 자세히 다루고 있으니 함께 참고하세요.</p>
 
-<h2 style="border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">헷갈리기 쉬운 부분</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #673ab7;padding-left:12px;margin-top:36px;">헷갈리기 쉬운 부분</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">사모펀드와 헤지펀드는 같은 말인가요</summary>

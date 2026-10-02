@@ -98,14 +98,14 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>TIGER 미국S&amp;P500(H) 뜻</li>
-  <li>환헤지는 실제로 뭘 바꾸나요</li>
-  <li>환노출형(360750)과 비교</li>
-  <li>분배금도 재투자되나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">TIGER 미국S&amp;P500(H) 뜻</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환헤지는 실제로 뭘 바꾸나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">환노출형(360750)과 비교</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금도 재투자되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">TIGER 미국S&amp;P500(H) 뜻</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">TIGER 미국S&amp;P500(H) 뜻</h2>
 
 <p>TIGER 미국S&amp;P500(H)는 미래에셋자산운용이 운용하고 코스피에 상장된 ETF로, 기초지수는 환노출형과 같은 <b>S&amp;P500</b>입니다. 이름 끝의 (H, Hedge)가 나타내듯 환헤지 전략을 함께 씁니다.</p>
 
@@ -142,13 +142,13 @@ self_check: |
 
 <p>360750(환노출형)보다 순자산총액이 훨씬 작은데, 상장 시점이 2년 이상 늦은 데다(2022년 11월) 뒤에서 다룰 "분배금 재투자형" 구조 특성상 정기적인 현금흐름을 원하는 투자자에게는 상대적으로 덜 알려진 편입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">환헤지는 실제로 뭘 바꾸나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">환헤지는 실제로 뭘 바꾸나요</h2>
 
 <p>환헤지는 원/달러 환율이 오르내려도 그 영향을 최대한 상쇄하도록 설계된 전략입니다. 지수 자체의 움직임에만 집중하고 싶을 때 쓰입니다.</p>
 
 <p>그런데 헤지가 공짜는 아닙니다. 선물 등을 활용해 환율 변동을 상쇄하는 과정에서 <b>헤지 비용</b>이 발생하고, 이 비용이 수익률에서 조용히 빠져나갑니다. 그래서 환헤지형이라고 해서 환노출형보다 항상 수익률이 좋거나 나쁘다고 단정할 수 없고, 그 시기의 환율 방향과 헤지 비용 수준에 따라 결과가 달라집니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">환노출형(360750)과 비교</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">환노출형(360750)과 비교</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -179,7 +179,7 @@ self_check: |
 
 <p>정확한 헤지 비용 수치는 같은 기준일에 두 상품의 기간별 수익률을 나란히 비교해야 계산할 수 있는데, 상장 시점 자체가 달라(360750은 2020년 8월, 448290은 2022년 11월) 설정 이후 수익률을 그대로 비교하기는 어렵습니다. 같은 최근 기간(예: 최근 1년) 수익률을 공식 페이지에서 나란히 확인하는 방법을 권합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분배금도 재투자되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분배금도 재투자되나요</h2>
 
 <p>이 상품은 <mark>분배금을 현금으로 지급하지 않고 펀드 내에서 자동으로 재투자</mark>하는 구조입니다. 미래에셋 공식 상품 페이지에도 "S&amp;P500에 환헤지로 분배금까지 재투자하는 ETF"라고 명시돼 있습니다.</p>
 
@@ -187,7 +187,7 @@ self_check: |
 
 <p>같은 S&amp;P500 지수를 추종하므로 구성종목 자체는 360750과 거의 동일하지만, 재투자형 구조상 분배락 없이 기준가에 수익이 그대로 누적된다는 차이가 있습니다. 분배금·분배락의 일반적인 개념은 <a href="https://sensitiveboss3.tistory.com/entry/monthly-dividend-etf-basics">월배당 ETF 뜻과 분배금 지급방식</a> 편, 세금은 <a href="https://sensitiveboss3.tistory.com/entry/domestic-listed-overseas-etf-tax">국내상장 해외ETF 세금</a> 편에서 각각 자세히 다룹니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">환헤지형이 환노출형보다 항상 유리한가요</summary>

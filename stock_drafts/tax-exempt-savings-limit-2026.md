@@ -123,21 +123,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>비과세종합저축이란 무엇인가요</li>
-  <li>가입할 수 있는 사람과 저축 한도</li>
-  <li>2026년 가입자부터 달라지는 조건</li>
-  <li>비과세 혜택, 얼마나 차이 날까요</li>
-  <li>가입 전 놓치기 쉬운 점</li>
-  <li>많이 묻는 질문들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비과세종합저축이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가입할 수 있는 사람과 저축 한도</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 가입자부터 달라지는 조건</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비과세 혜택, 얼마나 차이 날까요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가입 전 놓치기 쉬운 점</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">많이 묻는 질문들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">비과세종합저축이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">비과세종합저축이란 무엇인가요</h2>
 
 <p>조세특례제한법 제88조의2에 근거한 저축 상품으로, 은행·증권사 등에서 정한 요건을 갖춘 사람이 가입하면 그 저축에서 나오는 이자소득과 배당소득에 소득세를 매기지 않습니다.</p>
 
 <p>일반 예금이나 펀드는 이자·배당소득에 15.4%(소득세 14% + 지방소득세 1.4%)를 원천징수하지만, 비과세종합저축은 이 세금이 통째로 빠집니다. 예금, 적금, 펀드, 채권 등 대부분의 금융상품에 이 특례를 적용할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">가입할 수 있는 사람과 저축 한도</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">가입할 수 있는 사람과 저축 한도</h2>
 
 <p><mark>저축 원금 기준으로 전 금융기관을 합산해 1인당 5천만원까지</mark> 비과세 혜택을 받을 수 있습니다. 한 은행에서 5천만원을 채웠다면 다른 은행에서는 추가로 가입할 수 없습니다.</p>
 
@@ -161,7 +161,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">2026년 가입자부터 달라지는 조건</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">2026년 가입자부터 달라지는 조건</h2>
 
 <p>2025년 세제개편안에 이 제도의 개정 내용이 담겼고, 2025년 12월 2일 국회 본회의에서 의결됐습니다. 핵심은 고령자 가입 조건이 좁아졌다는 점입니다.</p>
 
@@ -199,7 +199,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">소득과 재산이 적은 고령층에게 세제 혜택을 집중하려는 취지의 개편이라고 언론에 보도됐습니다. 조문 원문은 <a href="https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&amp;lsJoLnkSeq=1017631657" target="_blank" rel="noopener">국가법령정보센터 조세특례제한법 제88조의2</a>에서 확인할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">비과세 혜택, 얼마나 차이 날까요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">비과세 혜택, 얼마나 차이 날까요</h2>
 
 <p>한도인 5천만원을 연 3.5% 금리 상품에 1년 동안 예치했다고 가정해봅니다. 세전 이자는 5천만원 × 3.5% = 175만원입니다.</p>
 
@@ -232,7 +232,7 @@ self_check: |
 
 <p>같은 상품, 같은 금리라도 비과세종합저축으로 가입하면 269,500원을 더 받습니다. 금리가 높거나 한도를 꽉 채울수록 절세 금액은 더 커집니다.</p>
 
-<h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">가입 전 놓치기 쉬운 점</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">가입 전 놓치기 쉬운 점</h2>
 
 <p>한도는 개별 상품이 아니라 사람 기준입니다. 여러 은행에 나눠 가입해도 저축원금 합계가 5천만원을 넘으면 초과분은 비과세 혜택을 받지 못합니다.</p>
 
@@ -244,7 +244,7 @@ self_check: |
 
 <p>본인이 가입 대상에 해당하는지 정확히 확인하려면 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=10602&amp;cntntsId=7910" target="_blank" rel="noopener">국세청 비과세 금융소득 안내</a> 페이지나 가입하려는 은행·증권사 창구에서 직접 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">많이 묻는 질문들</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #a4243b;padding-left:12px;margin-top:36px;">많이 묻는 질문들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">비과세종합저축은 아무나 가입할 수 있나요</summary>

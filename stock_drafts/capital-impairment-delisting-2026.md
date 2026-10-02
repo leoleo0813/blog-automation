@@ -148,21 +148,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>자본잠식이 뭔가요</li>
-  <li>완전자본잠식은 부분자본잠식과 뭐가 다른가요</li>
-  <li>자본잠식이면 왜 관리종목이 되나요 (코스피·코스닥 비교)</li>
-  <li>2026년에 뭐가 바뀌었나요</li>
-  <li>감자와는 어떤 관계인가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자본잠식이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">완전자본잠식은 부분자본잠식과 뭐가 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자본잠식이면 왜 관리종목이 되나요 (코스피·코스닥 비교)</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년에 뭐가 바뀌었나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">감자와는 어떤 관계인가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자본잠식이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자본잠식이 뭔가요</h2>
 
 <p>자본잠식(資本蠶食)은 <mark>회사의 자본총계(자기자본)가 자본금보다 적어진 상태</mark>를 말합니다. "잠식"이라는 말 그대로, 누적된 적자가 이익잉여금을 다 갉아먹고 나아가 주주들이 처음 납입한 자본금까지 조금씩 갉아먹고 있다는 뜻입니다.</p>
 
 <p>여기서 헷갈리기 쉬운 두 용어를 구분해야 합니다. <b>자본금</b>은 주주가 처음 납입한 금액(액면가×발행주식수)이고, <b>자본총계(자기자본)</b>는 자본금에 이익잉여금·자본잉여금 등을 더하고 결손금을 뺀 현재 시점의 순자산입니다. 회사가 적자를 내지 않으면 자본총계는 보통 자본금보다 크지만, 적자가 누적되면 자본총계가 자본금 아래로 내려갈 수 있고 이 상태가 자본잠식입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">완전자본잠식은 부분자본잠식과 뭐가 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">완전자본잠식은 부분자본잠식과 뭐가 다른가요</h2>
 
 <p>자본잠식은 정도에 따라 두 단계로 나뉩니다. <mark>자본총계가 자본금보다는 적지만 아직 0보다는 큰 상태를 부분자본잠식</mark>, <mark>자본총계 자체가 마이너스(-)로 돌아선 상태를 완전자본잠식(자본전액잠식)</mark>이라고 합니다.</p>
 
@@ -201,7 +201,7 @@ self_check: |
   </tbody>
 </table>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자본잠식이면 왜 관리종목이 되나요 (코스피·코스닥 비교)</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자본잠식이면 왜 관리종목이 되나요 (코스피·코스닥 비교)</h2>
 
 <p>자본잠식률이 일정 수준을 넘으면 거래소는 투자자 보호를 위해 해당 종목을 <mark>관리종목</mark>으로 지정합니다. 다만 <b>코스피(유가증권시장)와 코스닥은 근거 조문과 세부 기준이 다릅니다.</b></p>
 
@@ -233,7 +233,7 @@ self_check: |
 
 <p>즉 <b>완전자본잠식이 사업연도말(결산 시점) 재무제표에서 확인되면</b> 심사 없이 곧바로 상장폐지 사유가 되는 "형식적 요건"이고, 부분자본잠식이 50%를 넘는 정도라면 우선 관리종목으로 지정돼 회사에 회복할 기회를 주는 구조입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년에 뭐가 바뀌었나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년에 뭐가 바뀌었나요</h2>
 
 <p>금융위원회와 한국거래소는 2026년 2월 12일 <mark>「부실기업 신속·엄정 퇴출을 위한 상장폐지 개혁방안」</mark>을 발표했고, 이를 반영한 상장규정 개정이 2026년 5월 13일 승인됐습니다. 자본잠식과 직접 관련된 핵심 변화는 다음과 같습니다.</p>
 
@@ -246,7 +246,7 @@ self_check: |
 
 <p>쉽게 말해, 예전에는 연말 결산까지 기다려야 완전자본잠식 여부를 공식적으로 걸러낼 수 있었다면, 이제는 <mark>반기(6월 말) 시점에도 완전자본잠식 상태면 상장폐지 심사에 올라갈 수 있게</mark> 된 것입니다. 재무구조가 급격히 나빠진 회사를 더 빨리 시장에서 걸러내려는 취지입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자와는 어떤 관계인가요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자와는 어떤 관계인가요</h2>
 
 <p>자본잠식 상태의 회사가 이를 벗어나기 위해 흔히 택하는 방법이 <b>무상감자</b>입니다. 무상감자는 주주에게 보상 없이 주식 수(자본금)를 줄이는 방식인데, 이렇게 자본금 자체를 줄이면 <mark>같은 자본총계라도 자본잠식률이 낮아지는 효과</mark>가 있기 때문입니다.</p>
 
@@ -261,7 +261,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">자본잠식이 뭔가요</summary>

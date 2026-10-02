@@ -95,22 +95,22 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>ETF 괴리율이란 무엇인가요</li>
-  <li>괴리율은 어떻게 계산하나요</li>
-  <li>괴리율은 어디서 확인하나요</li>
-  <li>괴리율이 커지면 왜 문제가 되나요</li>
-  <li>2026년 관리기준이 얼마나 강화됐나요</li>
-  <li>투자유의종목 지정과 거래정지 기준은 무엇인가요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">ETF 괴리율이란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">괴리율은 어떻게 계산하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">괴리율은 어디서 확인하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">괴리율이 커지면 왜 문제가 되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 관리기준이 얼마나 강화됐나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">투자유의종목 지정과 거래정지 기준은 무엇인가요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ETF 괴리율이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">ETF 괴리율이란 무엇인가요</h2>
 
 <p>ETF는 주식처럼 실시간으로 거래되지만, 그 안에 담긴 자산의 실제 가치인 <b>순자산가치(NAV, Net Asset Value)</b>는 별도로 계산됩니다. 이 둘 사이의 차이를 비율로 나타낸 것이 <mark>괴리율</mark>입니다.</p>
 
 <p>괴리율이 <b>양수(+)</b>면 ETF가 실제 가치보다 비싸게(고평가) 거래되고 있다는 뜻이고, <b>음수(−)</b>면 실제 가치보다 싸게(저평가) 거래되고 있다는 뜻입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율은 어떻게 계산하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율은 어떻게 계산하나요</h2>
 
 <p>계산식은 <b>{(시장가격 − NAV) ÷ NAV} × 100</b>입니다. 시장가격과 NAV의 차이가 NAV 대비 몇 %인지를 구하는 방식입니다.</p>
 
@@ -121,7 +121,7 @@ self_check: |
 
 <p>NAV는 하루 한 번 장 마감 후 확정되므로, 장중에는 실시간으로 추정한 참고 NAV(iNAV)를 기준으로 괴리율이 계산됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율은 어디서 확인하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율은 어디서 확인하나요</h2>
 
 <p>가장 간단한 방법은 <b>증권사 앱이나 ETF 운용사 홈페이지</b>에서 종목별 NAV와 괴리율을 함께 조회하는 것입니다. 대부분의 증권사 앱은 ETF 상세 화면에 괴리율을 실시간 추정치로 표시합니다.</p>
 
@@ -133,13 +133,13 @@ self_check: |
   <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 상장공시시스템(KIND)</a>: 괴리율 초과 공시 원문</li>
 </ul>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율이 커지면 왜 문제가 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">괴리율이 커지면 왜 문제가 되나요</h2>
 
 <p>ETF의 시장가격이 NAV에 가깝게 유지되도록 호가를 촘촘히 제공하는 역할은 <b>유동성공급자(LP, Liquidity Provider)</b>인 증권사가 맡습니다. 시장 변동성이 크거나 헤지가 어려운 레버리지·인버스 상품일수록 LP가 가격을 붙잡아두기 어려워 괴리율이 벌어지기 쉽습니다.</p>
 
 <p>괴리율이 크다는 것은 <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">투자자가 실제 가치보다 비싸게 사거나 싸게 팔 위험이 커졌다는 뜻</span>이라, 거래소는 LP에게 종가 기준 괴리율을 일정 범위 안으로 관리할 의무를 지웁니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 관리기준이 얼마나 강화됐나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 관리기준이 얼마나 강화됐나요</h2>
 
 <p>2026년 8월 19일부터 <b>모든 ETF·ETN에 적용되는 LP의 종가 기준 괴리율 관리기준이 강화</b>됐습니다. 단일종목 레버리지·인버스 상품 출시 이후 커진 변동성에 대응하기 위한 조치입니다.</p>
 
@@ -167,7 +167,7 @@ self_check: |
 
 <p>괴리율이 음수로 산출되는 경우 절대값을 적용하도록 산정 기준도 함께 명확해졌습니다. 고의·중과실이나 상습적으로 관리의무를 위반한 LP는 신규 유동성공급 업무 자체가 제한됩니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">투자유의종목 지정과 거래정지 기준은 무엇인가요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">투자유의종목 지정과 거래정지 기준은 무엇인가요</h2>
 
 <p>괴리율이 관리기준의 <b>2배(국내 4%, 해외 10%)</b>를 넘으면 적출과 동시에 지정예고됩니다. 2거래일 연속 기준을 넘기면 최단 2거래일 만에 투자유의종목으로 지정될 수 있습니다. 지정 절차도 기존 3단계(적출→지정예고→지정)에서 <b>2단계(적출 및 지정예고→지정)</b>로 줄었습니다.</p>
 
@@ -186,7 +186,7 @@ self_check: |
 
 <p>ETF 매매 수수료·보수 자체가 궁금하다면 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison" target="_blank" rel="noopener">이전 글(ETF 수수료 총보수 실부담 확인법)</a>에서 총보수와 실부담비용의 차이를 다뤘습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">ETF 괴리율이란 무엇인가요</summary>

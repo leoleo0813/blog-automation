@@ -136,21 +136,21 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>주식병합(액면병합)이 뭔가요</li>
-  <li>액면분할·무상감자와는 어떻게 다른가요</li>
-  <li>병합비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</li>
-  <li>주식병합을 하면 왜, 얼마나 거래가 정지되나요</li>
-  <li>주식병합 결정은 어디서 확인하나요</li>
-  <li>자주 묻는 질문</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합(액면병합)이 뭔가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할·무상감자와는 어떻게 다른가요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">병합비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합을 하면 왜, 얼마나 거래가 정지되나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합 결정은 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합(액면병합)이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합(액면병합)이 뭔가요</h2>
 
 <p>주식병합은 <mark>여러 개의 주식을 하나로 합쳐 액면가를 높이는 것</mark>을 뜻합니다. 예를 들어 액면가 100원짜리 주식 5주를 액면가 500원짜리 주식 1주로 바꾸는 식입니다. 이 과정에서 <mark>회사의 자본금 규모나 주주의 지분율은 전혀 바뀌지 않습니다.</mark></p>
 
 <p>회사가 주식병합을 하는 이유는 대부분 <b>저가주("동전주") 이미지에서 벗어나기 위해서</b>입니다. 주당 가격이 너무 낮으면 주가 변동 폭이 상대적으로 커 보이고 투자심리에도 부정적인 영향을 줄 수 있다는 판단에서, 주식 수를 줄이고 한 주당 가격을 높이는 것입니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할·무상감자와는 어떻게 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할·무상감자와는 어떻게 다른가요</h2>
 
 <p>세 제도 모두 주식 수를 조정한다는 점은 비슷하지만, <mark>방향과 자본금 변화 여부에서 완전히 갈립니다.</mark></p>
 
@@ -193,7 +193,7 @@ self_check: |
 
 <p>즉 <mark>주식병합과 무상감자는 둘 다 주식 수가 줄어든다는 점만 같을 뿐, 자본금이 줄어드는지 여부는 정반대</mark>입니다. 뉴스에서 "주식 수가 줄었다"는 소식을 보면 자본금 변화까지 함께 확인해야 어떤 제도인지 정확히 구분할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">병합비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">병합비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</h2>
 
 <p>주식병합은 <mark>병합비율만큼 주식 수를 줄이는 대신, 기준주가를 그 비율만큼 올려</mark> 이론상 평가금액이 변하지 않도록 설계됩니다.</p>
 
@@ -204,7 +204,7 @@ self_check: |
 
 <p>다만 이건 표시 가격이 바뀌는 것일 뿐입니다. <mark>주식병합 자체가 기업의 실적이나 재무구조를 바꾸는 것은 아니어서, 병합했다고 주가가 오르거나 기업가치가 좋아진다고 단정할 수는 없습니다.</mark> 시장에서는 대체로 중립적인 이벤트로 받아들여집니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합을 하면 왜, 얼마나 거래가 정지되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합을 하면 왜, 얼마나 거래가 정지되나요</h2>
 
 <p>기존 주식을 새 주식으로 바꾸는 처리에는 물리적인 시간이 걸리기 때문에, 이 기간 동안 매매가 일시적으로 멈춥니다. 이때 자주 혼동되는 게 <mark>"법이 정한 최소 공고기간"과 "실제 거래소 매매정지 일수"는 서로 다른 개념</mark>이라는 점입니다.</p>
 
@@ -237,7 +237,7 @@ self_check: |
 
 <p>즉 <b>"1개월"은 회사가 지켜야 할 공고·통지의 법정 최소 기간</b>이지, 여러분의 주식이 정확히 며칠 동안 거래정지되는지를 보장하는 숫자는 아닙니다. 실제 매매정지 시작일과 재개일(신주상장일)은 회사가 공시로 개별 공고하므로, 아래 방법으로 직접 확인하는 게 가장 정확합니다.</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합 결정은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합 결정은 어디서 확인하나요</h2>
 
 <p>주식병합 여부와 정확한 일정은 뉴스나 커뮤니티 글이 아니라 <mark>금융감독원 전자공시시스템(DART)</mark>에서 회사가 직접 제출한 공시 원문으로 확인하는 게 가장 정확합니다.</p>
 
@@ -258,7 +258,7 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">주식병합이 뭔가요</summary>

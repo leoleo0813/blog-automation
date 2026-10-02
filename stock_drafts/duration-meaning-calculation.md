@@ -121,15 +121,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>듀레이션 계산부터 먼저 보면</li>
-  <li>듀레이션이 뜻하는 것</li>
-  <li>표면금리가 듀레이션을 좌우하는 이유</li>
-  <li>만기별 듀레이션 비교표</li>
-  <li>듀레이션은 어디서 확인하나요</li>
-  <li>빠뜨리기 쉬운 질문들</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">듀레이션 계산부터 먼저 보면</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">듀레이션이 뜻하는 것</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">표면금리가 듀레이션을 좌우하는 이유</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">만기별 듀레이션 비교표</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">듀레이션은 어디서 확인하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">빠뜨리기 쉬운 질문들</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">듀레이션 계산부터 먼저 보면</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">듀레이션 계산부터 먼저 보면</h2>
 
 <p>액면 10,000원, 표면금리 4%, 만기수익률 5%인 3년 만기 이표채를 예로 직접 계산해보겠습니다.</p>
 
@@ -146,7 +146,7 @@ self_check: |
   <p style="margin:10px 0 0 0;">수정듀레이션 2.75는 금리가 1%포인트 오르면 이 채권 가격이 대략 <mark>2.75% 하락</mark>한다고 추정할 수 있다는 뜻입니다.</p>
 </div>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">듀레이션이 뜻하는 것</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">듀레이션이 뜻하는 것</h2>
 
 <p>듀레이션은 채권에 투자한 돈을 평균적으로 몇 년 만에 돌려받는지를 현금흐름별 비중으로 가중평균한 값입니다. 만기가 원금 전액을 돌려받는 마지막 시점이라면, 듀레이션은 이자와 원금을 포함한 모든 현금흐름의 회수 시점을 가중평균한 시점입니다.</p>
 
@@ -158,7 +158,7 @@ self_check: |
   <li>실제 투자 판단에는 맥컬리 듀레이션보다 가격 변동률 추정에 바로 쓰는 수정듀레이션이 더 자주 쓰입니다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">표면금리가 듀레이션을 좌우하는 이유</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">표면금리가 듀레이션을 좌우하는 이유</h2>
 
 <p>표면금리가 높을수록 만기 전에 받는 이자 비중이 커져서, 가중평균 회수 시점이 앞으로 당겨집니다. 반대로 표면금리가 낮거나 아예 없으면 현금흐름이 만기 시점 하나에 몰리게 됩니다.</p>
 
@@ -170,7 +170,7 @@ self_check: |
   <li>같은 만기라도 표면금리가 낮은 채권일수록 듀레이션이 더 길고, 금리 변화에 더 민감하다.</li>
 </ul>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">만기별 듀레이션 비교표</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">만기별 듀레이션 비교표</h2>
 
 <p>표면금리 4%, 만기수익률 5%인 조건을 그대로 두고 만기만 1년, 3년, 10년으로 바꿔 계산하면 아래와 같습니다.</p>
 
@@ -219,11 +219,11 @@ self_check: |
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">듀레이션은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">듀레이션은 어디서 확인하나요</h2>
 
 <p>개별 채권의 듀레이션은 증권사 HTS·MTS의 채권 상세 화면에서 대부분 함께 표시됩니다. 채권 종목 자체를 찾아보려면 <a href="https://www.kofiabond.or.kr/" target="_blank" rel="noopener">금융투자협회 채권정보센터</a>에서 종목별 수익률과 만기 정보를 조회할 수 있습니다.</p>
 
-<h2 style="border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">빠뜨리기 쉬운 질문들</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #3949ab;padding-left:12px;margin-top:36px;">빠뜨리기 쉬운 질문들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">듀레이션이 길면 무조건 위험한 채권인가요</summary>

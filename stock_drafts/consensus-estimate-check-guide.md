@@ -105,27 +105,27 @@ self_check: |
 
 <h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>컨센서스란 무엇인가요</li>
-  <li>컨센서스는 이렇게 만들어집니다</li>
-  <li>실제 실적과 비교하면 서프라이즈 쇼크로 갈립니다</li>
-  <li>컨센서스 확인하는 법</li>
-  <li>컨센서스와 가이던스는 다른 개념입니다</li>
-  <li>헷갈리는 부분 정리</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스란 무엇인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스는 이렇게 만들어집니다</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 실적과 비교하면 서프라이즈 쇼크로 갈립니다</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스 확인하는 법</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스와 가이던스는 다른 개념입니다</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리는 부분 정리</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스란 무엇인가요</h2>
 
 <p>컨센서스(Consensus)는 여러 증권사에 소속된 애널리스트들이 한 기업에 대해 각자 내놓은 실적 전망치를 평균 낸 숫자입니다. 매출액, 영업이익, 순이익처럼 재무제표의 핵심 항목마다 따로 존재합니다.</p>
 
 <p>애널리스트 한 명의 예측이 아니라 여러 명의 예측을 평균 낸 숫자이기 때문에, 시장 전체가 그 기업의 다음 실적을 어느 정도로 기대하고 있는지를 보여주는 기준선 역할을 합니다.</p>
 
-<h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스는 이렇게 만들어집니다</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스는 이렇게 만들어집니다</h2>
 
 <p>증권사 리서치센터 애널리스트들은 기업 탐방, 산업 동향, 과거 실적 흐름을 바탕으로 다음 분기나 연간 실적을 각자 추정해 리포트로 냅니다. 금융정보업체는 이 추정치들을 모아 평균을 계산해 컨센서스로 제공합니다.</p>
 
 <p>추정치를 내는 애널리스트 수는 기업마다 다릅니다. <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">시가총액이 크고 거래량이 많은 기업일수록 추정치를 내는 애널리스트가 많아 컨센서스의 신뢰도가 높아지는 경향이 있고, 관심이 적은 소형주는 추정치 자체가 없는 경우도 있습니다.</span></p>
 
-<h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">실제 실적과 비교하면 서프라이즈 쇼크로 갈립니다</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">실제 실적과 비교하면 서프라이즈 쇼크로 갈립니다</h2>
 
 <p>기업이 실제 실적을 발표하면 그 숫자를 컨센서스와 비교합니다. <mark>실제 실적이 컨센서스를 웃돌면 어닝서프라이즈, 밑돌면 어닝쇼크</mark>라고 부릅니다. 둘 사이 차이가 크지 않으면 컨센서스에 부합했다, 또는 인라인이라고 표현합니다.</p>
 
@@ -137,7 +137,7 @@ self_check: |
 
 <p>정확히 몇 % 이상 차이 나야 서프라이즈나 쇼크로 부르는지는 정해진 기준이 없습니다. 언론이나 증권사마다 판단하는 폭이 다르지만, 실제 실적이 컨센서스를 웃돌면 서프라이즈 방향, 밑돌면 쇼크 방향이라는 큰 틀은 동일합니다.</p>
 
-<h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스 확인하는 법</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스 확인하는 법</h2>
 
 <p>컨센서스는 개인 투자자도 무료로 확인할 수 있습니다. 포털 증권 서비스에서 관심 있는 종목을 검색한 뒤 종목 상세 페이지의 실적·기업분석 관련 메뉴로 들어가면, 애널리스트들이 제시한 향후 분기·연간 실적 전망치 평균을 볼 수 있습니다.</p>
 
@@ -149,7 +149,7 @@ self_check: |
 
 <p>단, 컨센서스는 매일 조금씩 바뀔 수 있습니다. 새 리포트가 나오거나 기존 애널리스트가 전망치를 수정하면 평균값도 함께 움직이기 때문에, 실적 발표 직전 최신 숫자를 다시 확인하는 편이 정확합니다.</p>
 
-<h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스와 가이던스는 다른 개념입니다</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스와 가이던스는 다른 개념입니다</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -180,7 +180,7 @@ self_check: |
 
 <p>가이던스는 회사가 스스로 내놓는 숫자라 낙관적으로 잡히기 쉽고, 컨센서스는 외부 시선을 모은 평균이라 상대적으로 객관적이라고 여겨집니다. 두 숫자가 크게 다르면 그 자체가 시장의 관심사가 되기도 합니다.</p>
 
-<h2 style="border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">컨센서스는 누가 만드나요</summary>

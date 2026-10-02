@@ -125,15 +125,15 @@ self_check: |
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li>상속세 신고기한은 언제까지인가요</li>
-  <li>신고기한 안에 내면 어떤 혜택이 있나요</li>
-  <li>신고기한을 놓치면 가산세가 얼마나 붙나요</li>
-  <li>뒤늦게라도 신고하면 가산세를 줄일 수 있나요</li>
-  <li>상속재산에 상장주식이 있으면 신고기한 안에 평가가 끝나나요</li>
-  <li>실제로 얼마나 차이 나나요</li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상속세 신고기한은 언제까지인가요</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고기한 안에 내면 어떤 혜택이 있나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신고기한을 놓치면 가산세가 얼마나 붙나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">뒤늦게라도 신고하면 가산세를 줄일 수 있나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">상속재산에 상장주식이 있으면 신고기한 안에 평가가 끝나나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 차이 나나요</a></li>
 </ol>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상속세 신고기한은 언제까지인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상속세 신고기한은 언제까지인가요</h2>
 
 <p>상속세 납부의무가 있는 상속인 또는 수유자는 <mark>상속개시일(사망일)이 속하는 달의 말일부터 6개월 이내</mark>에 상속세 과세가액과 과세표준을 신고해야 합니다.</p>
 
@@ -149,7 +149,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2328&amp;cntntsId=7722" target="_blank" rel="noopener">국세청 개인신고안내 - 상속세 신고시 유의사항</a>, <a href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&amp;csmSeq=255&amp;ccfNo=7&amp;cciNo=2&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보 - 상속세 계산 및 납부</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고기한 안에 내면 어떤 혜택이 있나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고기한 안에 내면 어떤 혜택이 있나요</h2>
 
 <p>법정신고기한 안에 상속세 신고서를 제출하면 <mark>산출세액의 3%를 신고세액공제</mark>로 깎아줍니다. 세금을 계산만 해보고 신고를 미루면 이 혜택을 그냥 놓치게 됩니다.</p>
 
@@ -157,7 +157,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2328&amp;cntntsId=7722" target="_blank" rel="noopener">국세청 개인신고안내 - 상속세 신고시 유의사항</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고기한을 놓치면 가산세가 얼마나 붙나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고기한을 놓치면 가산세가 얼마나 붙나요</h2>
 
 <p>신고기한을 넘기면 가산세가 두 갈래로 붙습니다. <mark>신고 자체를 안 한 것에 대한 가산세</mark>와 <b>세금을 늦게 낸 것에 대한 가산세</b>가 각각 따로 계산됩니다.</p>
 
@@ -182,7 +182,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2327&amp;cntntsId=7721" target="_blank" rel="noopener">국세청 가산세 - 상속세</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">뒤늦게라도 신고하면 가산세를 줄일 수 있나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">뒤늦게라도 신고하면 가산세를 줄일 수 있나요</h2>
 
 <p>네. 법정신고기한을 넘겼어도 <mark>스스로 빨리 신고할수록 무신고가산세를 감면</mark>받습니다. 감면은 무신고가산세에만 적용되고, 납부지연가산세는 감면되지 않습니다.</p>
 
@@ -204,7 +204,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2327&amp;cntntsId=7721" target="_blank" rel="noopener">국세청 가산세 - 상속세</a> (2026-09-15 확인).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상속재산에 상장주식이 있으면 신고기한 안에 평가가 끝나나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">상속재산에 상장주식이 있으면 신고기한 안에 평가가 끝나나요</h2>
 
 <p>네, <mark>상장주식의 평가액은 신고기한보다 항상 먼저 확정</mark>됩니다. 상속재산에 코스피·코스닥 상장주식이 있으면 평가기준일(사망일) 전후 각 2개월, 총 4개월간의 종가 평균으로 가액을 계산합니다.</p>
 
@@ -219,7 +219,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;margin-top:6px;">근거: 상속세및증여세법 시행령 제52조의2 (11·13편에서 국가법령정보센터 원문으로 확정).</p>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 차이 나나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 차이 나나요</h2>
 
 <p>상속세 산출세액이 <mark>1억원</mark>이라고 가정하고, 제때 신고한 경우와 2개월 늦게 신고한 경우를 비교하면 아래와 같습니다.</p>
 
