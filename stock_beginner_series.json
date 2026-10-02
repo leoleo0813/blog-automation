@@ -2437,6 +2437,26 @@
       "cannibalization_note": "111편(CAGR)은 역산, 이 글은 순방향 미래가치. CAGR·MDD 편으로 링크.",
       "gate_pass": false,
       "gate_pass_note": "게이트4 미충족. KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '복리' 정의를 확인하면 true로 전환."
+    },
+    {
+      "id": 118,
+      "order": 118,
+      "title": "옵션 뜻 콜옵션 풋옵션 손익 구조",
+      "slug": "option-meaning-call-put-payoff",
+      "keyword": "옵션 뜻",
+      "type": "파생상품 개념",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1720 (PC 160 / 모바일 1560, 2026-10-02 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 토스뱅크·KB Think·기재부 용어사전·CME·소규모 블로그. 정의와 한 줄 예시 중심이라 네 포지션 비교표·만기 손익표·원화 환산표는 요약에서 미확인.",
+      "unique_asset_plan": "네 포지션 비교표, 만기 지수별 손익표, 원화 환산표, 내재가치 구분표, 옵션 vs 선물표(전부 가상 계산)",
+      "primary_source": "open.krx.co.kr WebFetch 1회 EGRESS_BLOCKED. 정의는 기재부 용어사전·KB Think·토스뱅크, 코스피200 옵션 승수 25만 원·현금결제는 증권사 4곳 상품 안내 검색 요약에서 일치(본문 미열람)",
+      "status": "drafted",
+      "draft_path": "stock_drafts/option-meaning-call-put-payoff.md",
+      "cannibalization_note": "커버드콜 ETF 세금(옵션은 배경)·네마녀의 날(만기일)과 달리 옵션 손익 구조 자체가 주제. 두 편으로 이름 안내.",
+      "gate_pass": true,
+      "gate_pass_note": "교차검증 진행. 발행 전 KRX 코스피200 옵션 상품명세에서 승수 25만 원·현금결제 한 번 대조 권장."
     }
   ],
   "backlog": {
@@ -3058,6 +3078,24 @@
         "keyword": "순환매 뜻",
         "monthly_search_volume": "880 (PC 140 / 모바일 740, 2026-10-02 실측)",
         "hold_reason": "게이트1 통과(880회). SERP는 개인 블로그 다수라 진입 여지는 있으나 사전형 개념이고 1차 출처·정보이득 각도 미확보, 매매 타이밍 조언으로 읽힐 위험."
+      },
+      {
+        "title": "선물옵션 만기일",
+        "keyword": "선물옵션 만기일",
+        "monthly_search_volume": "7030 (PC 1550 / 모바일 5480, 2026-10-02 실측)",
+        "hold_reason": "게이트1 통과(7,030회)했으나 60편(네마녀의 날 뜻, quadruple-witching-day-2026)이 선물옵션 동시만기와 만기일 구조를 이미 상세히 다뤄 검색 의도가 겹친다. 118편(옵션 뜻)이 옵션 기초를 깔았으므로, 만기 직전 프리미엄 소멸(시간가치)이나 위클리 옵션 만기 구조 등 60편이 다루지 않는 각도를 확보하기 전까지 보류."
+      },
+      {
+        "title": "레버리지 ETF 뜻",
+        "keyword": "레버리지 ETF 뜻",
+        "monthly_search_volume": "6490 (PC 540 / 모바일 5950, 2026-10-02 실측)",
+        "hold_reason": "게이트1 통과(6,490회)했으나 40편(곱버스 뜻)과 leveraged-inverse-etf-deposit 편이 레버리지·인버스 구조를 이미 30회 이상 다뤄 겹친다. 새 각도(일일 복제 구조로 인한 장기 보유 시 수익률 괴리 가상 계산표 등, 종목 추천 없이)를 확보하면 재검토. 단순 순서 대기 아님."
+      },
+      {
+        "title": "스톡옵션 뜻",
+        "keyword": "스톡옵션 뜻",
+        "monthly_search_volume": "2110 (PC 400 / 모바일 1710, 2026-10-02 실측)",
+        "hold_reason": "게이트1 통과(2,110회)했으나 stock-option-tax 편이 스톡옵션을 23회 다뤄 겹친다. 세금이 아닌 부여·행사 구조 중심 각도로 차별화 가능한지 다음 실행에서 해당 편 H2를 grep 확인 후 재검토."
       }
     ],
     "failed_gate1": [
@@ -5353,6 +5391,22 @@
       {
         "keyword": "따상 뜻",
         "monthly_search_volume": "200 (PC 40 / 모바일 160, 2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "신용융자 이자",
+        "monthly_search_volume": "20 (2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "주식 평단가 계산",
+        "monthly_search_volume": "50 (2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "시간외거래 뜻",
+        "monthly_search_volume": "20 (2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "샤프지수 뜻",
+        "monthly_search_volume": "20 (2026-10-02 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
