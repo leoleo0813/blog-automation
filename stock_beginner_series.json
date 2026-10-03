@@ -2588,6 +2588,26 @@
       "cannibalization_note": "기존 편 중 엔 캐리를 직접 다룬 글 없음. 환헤지 뜻(103)은 헤지 비용, 이 글은 캐리 손익분기 계산으로 각도가 다름",
       "gate_pass": false,
       "gate_pass_note": "일본은행 정책금리 현재 값 원문 미확인. capture_guide 1순위(일본은행 2026년 9월 결정문) 캡처 후 true"
+    },
+    {
+      "id": 124,
+      "order": 124,
+      "title": "디플레이션 뜻과 디스인플레이션 차이",
+      "slug": "deflation-disinflation-difference-guide",
+      "keyword": "디플레이션 뜻",
+      "type": "비교",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "870 (PC 140 / 모바일 730, 2026-10-03 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-03 게이트2 v3 통과: 상위에 a-ha.io Q&A·위키형 사이트가 섞여 진입 여지 있음, 탐색형 의도, 가상 대출 실질 부채 계산과 현재 한국 물가 대조를 보여 주는 글 미확인",
+      "unique_asset_plan": "3자 비교표, 대출 1억 원 가상 사례(물가 -2%: 1년 약 2.04%, 3년 약 6.25%), 물가 수준 비교 그림, 현재 소비자물가 대조표",
+      "primary_source": "mods.go.kr WebFetch EGRESS_BLOCKED. 정의는 한국은행·KDI·KB사전·한국경제 4곳 교차검증, 현재 물가 2.9%는 언론 3곳 일치, 원문 대조 전 gate_pass:false",
+      "status": "drafted",
+      "draft_path": "stock_drafts/deflation-disinflation-difference-guide.md",
+      "cannibalization_note": "스태그플레이션(113)·경기침체(120)는 경기 국면, 소비자물가지수(100)는 계산 구조. 이 글은 물가 하락의 정의 구분과 실질 부채 계산으로 각도가 다름",
+      "gate_pass": false,
+      "gate_pass_note": "현재 소비자물가 수치 원문 미확인. capture_guide 1순위(mods.go.kr/cpi) 캡처 후 true"
     }
   ],
   "backlog": {
@@ -3245,6 +3265,12 @@
         "keyword": "현금흐름표",
         "monthly_search_volume": "830 (PC 490 / 모바일 340, 2026-10-03 실측)",
         "hold_reason": "게이트1 통과. 게이트2 미실시. 사전형 개념이라 실제 기업 공시 사례 같은 정보이득 각도 필요."
+      },
+      {
+        "title": "헤지펀드 뜻",
+        "keyword": "헤지펀드 뜻",
+        "monthly_search_volume": "810 (PC 160 / 모바일 650, 2026-10-03 실측)",
+        "hold_reason": "게이트1 통과. 게이트2 미실시. 사모펀드 뜻(91편)과 카니벌라이제이션 점검 필요. 운용보수 2 and 20 수수료 계산 같은 각도가 있을 때 진행."
       }
     ],
     "failed_gate1": [
@@ -5588,6 +5614,30 @@
       {
         "keyword": "양적긴축",
         "monthly_search_volume": "150 (PC 60 / 모바일 90, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "FOMC 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "점도표 뜻",
+        "monthly_search_volume": "70 (PC 30 / 모바일 40, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "양적긴축 뜻",
+        "monthly_search_volume": "30 (PC 10 / 모바일 20, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "마진콜 뜻",
+        "monthly_search_volume": "480 (PC 100 / 모바일 380, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "어닝시즌 뜻",
+        "monthly_search_volume": "100 (PC 10 / 모바일 90, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "베이시스포인트 뜻",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-03 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },
