@@ -2528,6 +2528,26 @@
       "cannibalization_note": "113편(스태그플레이션)과 달리 침체 판정 기준과 기준순환일이 주제. 113편은 gate_pass:false라 링크 안 함. 108·100편으로 링크.",
       "gate_pass": "True",
       "gate_pass_note": "교차검증 진행. 발행 전 통계청 기준순환일 보도자료에서 2013.3/2017.9/2020.5, 54·32·86개월만 대조 권장."
+    },
+    {
+      "id": 121,
+      "order": 121,
+      "title": "인덱스펀드 뜻과 클래스 보수 고르는 순서",
+      "slug": "index-fund-meaning-class-fee-check",
+      "keyword": "인덱스펀드 뜻",
+      "type": "시장 개념",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1560 (PC 270 / 모바일 1290)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-03 게이트2 v3 통과: 상위에 brunch 개인 글 2개·소규모 콘텐츠 사이트 혼재, 진입 여지 있음. 클래스 읽는 법과 보수 누적 계산표는 요약 단계에서 확인 못 함.",
+      "unique_asset_plan": "가상 1,000만원 보수 0.1/0.5/1.0% 10·20·30년 결과표와 막대 그림, A·C클래스 손익분기 계산, 클래스 비교표",
+      "primary_source": "kcie.or.kr WebFetch 1회 EGRESS_BLOCKED, dis.kofia는 JS 앱. 한국경제 2건·한국일보·이코노믹리뷰 교차검증 일치.",
+      "status": "drafted",
+      "draft_path": "stock_drafts/index-fund-meaning-class-fee-check.md",
+      "cannibalization_note": "61편(ETF 뜻)·10편(ETF 수수료)·22편(ETF 괴리율)과 달리 일반 펀드 클래스와 보수 누적이 주제. 세 편으로 내부 링크.",
+      "gate_pass": true,
+      "gate_pass_note": "교차검증 진행. 발행 전 금융투자협회 전자공시에서 펀드 한 곳의 클래스별 총보수 방향만 대조 권장. 본문 계산 수치는 가상 값."
     }
   ],
   "backlog": {
@@ -2537,13 +2557,7 @@
         "title": "빅테크 뜻",
         "keyword": "빅테크 뜻",
         "monthly_search_volume": "1570 (PC 190 / 모바일 1380, 2026-10-02 실측)",
-        "hold_reason": "게이트1 통과. 119편 공포탐욕지수 채택으로 순서 대기. 게이트2는 아직 미실시. 특정 기업 나열이 종목 언급으로 읽히지 않는 각도 필요."
-      },
-      {
-        "title": "인덱스펀드 뜻",
-        "keyword": "인덱스펀드 뜻",
-        "monthly_search_volume": "1560 (PC 270 / 모바일 1290, 2026-10-02 실측)",
-        "hold_reason": "게이트1 통과. 순서 대기. 게이트2 미실시. 61편(ETF 뜻)·10편(ETF 수수료)·인덱스펀드 세금 키워드와 카니벌라이제이션 점검 필요."
+        "hold_reason": "게이트1 통과. 119편 공포탐욕지수 채택으로 순서 대기. 게이트2는 아직 미실시. 특정 기업 나열이 종목 언급으로 읽히지 않는 각도 필요. [2026-10-03] 121편 인덱스펀드 채택으로 순서 대기 유지. 특정 기업 나열 없는 각도(정의와 규제 이슈 구조)가 있을 때 진행."
       },
       {
         "title": "숏스퀴즈 뜻",
