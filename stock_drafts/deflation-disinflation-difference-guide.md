@@ -4,7 +4,7 @@ title: 디플레이션 뜻과 디스인플레이션 차이
 slug: deflation-disinflation-difference-guide
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 870 (PC 140 / 모바일 730, 2026-10-03 실측)
+monthly_search_volume: 870 (PC 140 / 모바일 730)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-03 - 통과]
