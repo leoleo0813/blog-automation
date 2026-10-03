@@ -4,7 +4,7 @@ title: 인덱스펀드 뜻과 클래스 보수 고르는 순서
 slug: index-fund-meaning-class-fee-check
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1560 (PC 270 / 모바일 1290, 2026-10-02 실측)
+monthly_search_volume: 1410 (PC 220 / 모바일 1190)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-03 - 통과]
