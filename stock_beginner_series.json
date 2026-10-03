@@ -2626,6 +2626,25 @@
       "gate_pass": true,
       "drafted_at": "2026-10-03",
       "cannibalization_note": "49편 넥스트레이드(국내 거래시간)·80편 동시호가와 시장이 다름(미국장)"
+    },
+    {
+      "id": 126,
+      "order": 126,
+      "title": "삼성전자 배당금 3분기 30조, 1주당 얼마 언제 받나",
+      "slug": "samsung-electronics-dividend-q3-2026",
+      "keyword": "삼성전자 배당금",
+      "type": "종목 배당 사실·이슈",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "290100 (PC 32,100 / 모바일 258,000, 2026-10-03 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-03 게이트2 v4 통과: 확정/미확정 구분표, 주식 수 역산으로 1주당 금액 계산, 2천만 원 기준 주식 수 계산, 최근 4분기 이력표가 정보이득",
+      "status": "drafted",
+      "draft_path": "stock_drafts/samsung-electronics-dividend-q3-2026.md",
+      "gate_pass": true,
+      "drafted_at": "2026-10-03",
+      "refresh_due": "2026-10-31",
+      "cannibalization_note": "66편(삼성전자우 가격 차이)은 가격·배당수익률 비교, 이 글은 3분기 배당 금액·일정·세금"
     }
   ],
   "backlog": {
@@ -5735,7 +5754,7 @@
           "type": "종목 배당 사실",
           "angle": "분기 주당 배당금·기준일·지급일 이력 표, 보통주·우선주 비교, 기준일 종가로 계산한 배당수익률, 3분기 배당 결정 시점",
           "plan": "새 글(126편 착수). '삼성전자 배당일' 13,100 함께 커버",
-          "status": "todo"
+          "status": "drafted 126편 (2026-10-03)"
         },
         {
           "keyword": "SCHD",

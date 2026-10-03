@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">삼성전자 보통주 분기별 주당 배당금</text>
+<text x="70" y="122" font-size="25" fill="#666">파란색은 확정, 주황색은 30조 원 ÷ 주식 수로 계산한 추정치 · 단위 원</text>
+<line x1="70" y1="580" x2="1130" y2="580" stroke="#999" stroke-width="2"/>
+<rect x="130" y="533" width="190" height="47" fill="#1a2744" rx="6"/>
+<text x="225" y="517" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">566원</text>
+<text x="225" y="630" font-size="27" text-anchor="middle" fill="#333">'25년 4분기</text>
+<rect x="380" y="549" width="190" height="31" fill="#1a2744" rx="6"/>
+<text x="475" y="533" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">372원</text>
+<text x="475" y="630" font-size="27" text-anchor="middle" fill="#333">'26년 1분기</text>
+<rect x="630" y="549" width="190" height="31" fill="#1a2744" rx="6"/>
+<text x="725" y="533" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">374원</text>
+<text x="725" y="630" font-size="27" text-anchor="middle" fill="#333">'26년 2분기</text>
+<rect x="880" y="200" width="190" height="380" fill="#e67e22" rx="6"/>
+<text x="975" y="184" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">4,569원</text>
+<text x="975" y="630" font-size="27" text-anchor="middle" fill="#333">'26년 3분기(추정)</text>
+<text x="70" y="692" font-size="21" fill="#888">자료: 삼성전자 이사회 결의 보도(2026-01-29, 04-30, 07-30, 08-21). 3분기는 10월 말 이사회에서 확정</text>
+</g></svg>

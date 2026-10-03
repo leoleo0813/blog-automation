@@ -57,6 +57,11 @@ def lint(path, series):
         if w in text:
             fails.append(f"작업용 표현 노출: '{w}'")
 
+    # 글 번호("4편", "61편과")는 독자에게 보이지 않는 내부 번호다(2026-10-03 발행 글 18편에서 발견).
+    nums = re.findall(r'\b\d{1,3}편', text)
+    if nums:
+        fails.append(f"내부 글 번호 노출 {len(nums)}개(예: {nums[0]}) — 글 제목으로 쓰고 링크를 건다")
+
     imgs = re.findall(r'<img[^>]*src="([^"]+)"', html)
     if not imgs:
         fails.append("본문 이미지 0장 (썸네일 제외 최소 1장)")
