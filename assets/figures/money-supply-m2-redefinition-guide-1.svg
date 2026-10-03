@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">7월 M2, 늘린 쪽은 기업 줄인 쪽은 가계</text>
+<text x="70" y="122" font-size="25" fill="#666">경제주체별 M2 보유액 전월 대비 증감 · 단위 조 원 · 2026년 7월</text>
+<line x1="640" y1="160" x2="640" y2="520" stroke="#999" stroke-width="2"/>
+<text x="70" y="226" font-size="26" fill="#333">비금융 기업</text>
+<rect x="640" y="190" width="288.40000000000003" height="52" fill="#2a9d5c"/>
+<text x="940.4000000000001" y="227" font-size="28" font-weight="bold" fill="#2a9d5c">+20.6</text>
+<text x="70" y="308" font-size="26" fill="#333">기타 부문</text>
+<rect x="640" y="272" width="88.2" height="52" fill="#2a9d5c"/>
+<text x="740.2" y="309" font-size="28" font-weight="bold" fill="#2a9d5c">+6.3</text>
+<text x="70" y="390" font-size="26" fill="#333">기타 금융기관</text>
+<rect x="560.2" y="354" width="79.8" height="52" fill="#c0392b"/>
+<text x="548.2" y="391" font-size="28" font-weight="bold" fill="#c0392b" text-anchor="end">-5.7</text>
+<text x="70" y="472" font-size="26" fill="#333">가계·비영리단체</text>
+<rect x="477.6" y="436" width="162.4" height="52" fill="#c0392b"/>
+<text x="465.6" y="473" font-size="28" font-weight="bold" fill="#c0392b" text-anchor="end">-11.6</text>
+<text x="70" y="580" font-size="22" fill="#888">자료: 한국은행 2026년 7월 통화 및 유동성(9월 15일 발표) 보도 기준</text>
+<text x="70" y="612" font-size="22" fill="#888">전체 M2 4,225.6조 원(+12.7조 원). 보도에 나온 주체만 표시해 합계는 다를 수 있음</text>
+</g></svg>
