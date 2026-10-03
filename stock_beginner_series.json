@@ -2511,7 +2511,7 @@
     },
     {
       "id": "120",
-      "order": "120",
+      "order": 120,
       "title": "경기침체 판단 기준 3가지와 기준순환일",
       "slug": "recession-criteria-business-cycle-dates",
       "keyword": "경기침체",
@@ -3271,6 +3271,72 @@
         "keyword": "헤지펀드 뜻",
         "monthly_search_volume": "810 (PC 160 / 모바일 650, 2026-10-03 실측)",
         "hold_reason": "게이트1 통과. 게이트2 미실시. 사모펀드 뜻(91편)과 카니벌라이제이션 점검 필요. 운용보수 2 and 20 수수료 계산 같은 각도가 있을 때 진행."
+      },
+      {
+        "keyword": "삼성전자 배당금",
+        "title": "삼성전자 배당금",
+        "monthly_search_volume": "290,100 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "삼성전자 배당일",
+        "title": "삼성전자 배당일",
+        "monthly_search_volume": "13,100 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "SK하이닉스 배당금",
+        "title": "SK하이닉스 배당금",
+        "monthly_search_volume": "6,890 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "SCHD",
+        "title": "SCHD",
+        "monthly_search_volume": "53,000 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "미국 배당주 ETF",
+        "title": "미국 배당주 ETF",
+        "monthly_search_volume": "1,970 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "공모주 일정",
+        "title": "공모주 일정",
+        "monthly_search_volume": "5,500 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "배당락일",
+        "title": "배당락일",
+        "monthly_search_volume": "3,350 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "주식 계좌 개설",
+        "title": "주식 계좌 개설",
+        "monthly_search_volume": "2,310 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "ISA 계좌 추천",
+        "title": "ISA 계좌 추천",
+        "monthly_search_volume": "2,570 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고. 제목에 \"추천\" 금지 — \"ISA 계좌 고르는 순서\" 같은 사실 각도로."
+      },
+      {
+        "keyword": "IRP 세액공제 한도",
+        "title": "IRP 세액공제 한도",
+        "monthly_search_volume": "790 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
+      },
+      {
+        "keyword": "연금저축 연말정산",
+        "title": "연금저축 연말정산",
+        "monthly_search_volume": "610 (2026-10-03 실측)",
+        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
       }
     ],
     "failed_gate1": [
@@ -5639,7 +5705,108 @@
         "keyword": "베이시스포인트 뜻",
         "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-03 실측, 일반 주제 기준 500 미달)"
       }
-    ]
+    ],
+    "priority_queue": {
+      "note": "2026-10-03 주제 선정 v3(RULES.md 최상단). 루틴은 새 초안 전에 이 목록을 위에서부터 본다. 각 항목을 쓰면 상태를 기록하고, 이슈 스캔으로 더 시의성 있는 후보가 나오면 그 순서에 끼워 넣는다.",
+      "items": [
+        {
+          "keyword": "미국주식 거래시간",
+          "monthly_search_volume": "20,730 (2026-09~10 실측)",
+          "type": "이슈·일정",
+          "angle": "2026-11-01 서머타임 종료 전후 한국시간 비교표, 프리·정규·애프터·주간거래 한 장 표, 2026 남은 미국 휴장일",
+          "plan": "새 글(125편 착수)",
+          "status": "todo"
+        },
+        {
+          "keyword": "삼성전자 배당금",
+          "monthly_search_volume": "290,100 (2026-09~10 실측)",
+          "type": "종목 배당 사실",
+          "angle": "분기 주당 배당금·기준일·지급일 이력 표, 보통주·우선주 비교, 기준일 종가로 계산한 배당수익률, 3분기 배당 결정 시점",
+          "plan": "새 글(126편 착수). '삼성전자 배당일' 13,100 함께 커버",
+          "status": "todo"
+        },
+        {
+          "keyword": "SCHD",
+          "monthly_search_volume": "53,000 (2026-09~10 실측)",
+          "type": "ETF 분배 사실",
+          "angle": "미국 SCHD와 국내 상장 동일 지수 ETF의 분배 주기·보수·세금 차이 표",
+          "plan": "새 글",
+          "status": "todo"
+        },
+        {
+          "keyword": "레버리지 ETF",
+          "monthly_search_volume": "16,850 (2026-09~10 실측)",
+          "type": "개념(5천 이상)",
+          "angle": "40편 곱버스 글을 '레버리지 ETF' 키워드로 갱신",
+          "plan": "기존 40편 키우기",
+          "status": "todo"
+        },
+        {
+          "keyword": "유상증자 뜻",
+          "monthly_search_volume": "13,190 (2026-09~10 실측)",
+          "type": "개념(5천 이상)",
+          "angle": "주주배정·일반공모 차이, 신주인수권·권리락 계산, 주가가 빠지는 이유",
+          "plan": "새 글",
+          "status": "todo"
+        },
+        {
+          "keyword": "선물옵션 만기일",
+          "monthly_search_volume": "7,030 (2026-09~10 실측)",
+          "type": "일정",
+          "angle": "60편 네마녀의 날을 2026년 남은 만기일(12월) 중심으로 갱신",
+          "plan": "기존 60편 키우기",
+          "status": "todo"
+        },
+        {
+          "keyword": "SK하이닉스 배당금",
+          "monthly_search_volume": "6,890 (2026-09~10 실측)",
+          "type": "종목 배당 사실",
+          "angle": "분기 배당금·지급일 이력, 기준일 종가 배당수익률",
+          "plan": "새 글",
+          "status": "todo"
+        },
+        {
+          "keyword": "공모주 일정",
+          "monthly_search_volume": "5,500 (2026-09~10 실측)",
+          "type": "일정",
+          "angle": "월간 청약·상장 일정 표(매달 갱신), 청약 증거금 계산은 44편 링크",
+          "plan": "새 글, 매달 갱신",
+          "status": "todo"
+        },
+        {
+          "keyword": "증여세 신고기한",
+          "monthly_search_volume": "5,410 (2026-09~10 실측)",
+          "type": "세금 실무",
+          "angle": "11편을 '증여세 신고기한' 키워드로 갱신(기한 계산 예시 날짜 표)",
+          "plan": "기존 11편 키우기",
+          "status": "todo"
+        },
+        {
+          "keyword": "증시 휴장일",
+          "monthly_search_volume": "4,800 (2026-09~10 실측)",
+          "type": "일정",
+          "angle": "2026년 남은 휴장일·연말 폐장일·2027년 휴장일 표",
+          "plan": "새 글",
+          "status": "todo"
+        },
+        {
+          "keyword": "배당락일",
+          "monthly_search_volume": "3,350 (2026-09~10 실측)",
+          "type": "일정",
+          "angle": "16편을 2026년 12월 결산 배당락 일정으로 갱신",
+          "plan": "기존 16편 키우기",
+          "status": "todo"
+        },
+        {
+          "keyword": "연말 절세 갱신 묶음",
+          "monthly_search_volume": "-",
+          "type": "세금 실무",
+          "angle": "6편 금융소득종합과세(12,270)·5편 해외주식 양도세(7,530)·15편 미국주식 세금(6,660)·7편 대주주 요건(4,240)·8편 연금저축 세액공제(3,180)를 12월 마감 기준으로 갱신",
+          "plan": "기존 글 키우기, 11월 안에",
+          "status": "todo"
+        }
+      ]
+    }
   },
   "deferred_concept_topics": "개념 설명형(PER·PBR 뜻, 호가창, 캔들차트, 이동평균선, ETF란, 시가총액 등 21편)은 폐기가 아니라 보류입니다. 제도형 5편이 4주 검증을 통과해 사이트에 신뢰가 쌓이면 출발선이 달라집니다.",
   "archive": [
