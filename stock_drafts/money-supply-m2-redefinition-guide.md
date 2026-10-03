@@ -4,7 +4,7 @@ title: 통화량 M2 뜻과 개편 후 달라진 점
 slug: money-supply-m2-redefinition-guide
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 830 (PC 80 / 모바일 750, 2026-10-01 이전 backlog 실측)
+monthly_search_volume: 820 (PC 70 / 모바일 750)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-03 - 통과]
