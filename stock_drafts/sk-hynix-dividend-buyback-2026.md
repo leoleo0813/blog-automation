@@ -4,8 +4,8 @@ title: SK하이닉스 배당금 분기 375원, 지급일과 추가배당
 slug: sk-hynix-dividend-buyback-2026
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 6890 (2026-10-03 실측, 우선순위 목록 기준)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 6890 (PC 1400 / 모바일 5490)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-03 - 통과] 월 6,890으로 v4 대상(5,000 이상). WebSearch(미국 기준, 참고용) 결과에 개인 블로그형 글(wikitree, make2t, bujamam, dobiho, 다음 블로그)이 다수 섞여 있어 진입 여지 있음(탈락조건1 해당 없음).
   조회·계산기 의도가 아니라 "얼마, 언제, 앞으로 어떻게"를 묻는 의도라 콘텐츠로 답 가능(탈락조건2 해당 없음).

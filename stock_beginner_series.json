@@ -2672,10 +2672,11 @@
       "title": "SK하이닉스 배당금 분기 375원, 지급일과 추가배당",
       "slug": "sk-hynix-dividend-buyback-2026",
       "status": "drafted",
-      "monthly_search_volume": "6890 (2026-10-03 실측)",
+      "monthly_search_volume": "6890 (PC 1400 / 모바일 5490)",
       "gate_pass": true,
       "refresh_due": "2026-10-28",
-      "draft": "stock_drafts/sk-hynix-dividend-buyback-2026.md"
+      "draft": "stock_drafts/sk-hynix-dividend-buyback-2026.md",
+      "gate1_pass": true
     }
   ],
   "backlog": {
