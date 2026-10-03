@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">미국주식 거래시간, 한국시간으로 보면</text>
+<text x="70" y="122" font-size="25" fill="#666">11월 1일 서머타임이 끝나면 모든 시간대가 1시간씩 늦어짐</text>
+<line x1="200" y1="215" x2="200" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="200" y="590" font-size="21" text-anchor="middle" fill="#666">09시</text>
+<line x1="315" y1="215" x2="315" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="315" y="590" font-size="21" text-anchor="middle" fill="#666">12시</text>
+<line x1="430" y1="215" x2="430" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="430" y="590" font-size="21" text-anchor="middle" fill="#666">15시</text>
+<line x1="546" y1="215" x2="546" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="546" y="590" font-size="21" text-anchor="middle" fill="#666">18시</text>
+<line x1="661" y1="215" x2="661" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="661" y="590" font-size="21" text-anchor="middle" fill="#666">21시</text>
+<line x1="776" y1="215" x2="776" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="776" y="590" font-size="21" text-anchor="middle" fill="#666">00시</text>
+<line x1="891" y1="215" x2="891" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="891" y="590" font-size="21" text-anchor="middle" fill="#666">03시</text>
+<line x1="1006" y1="215" x2="1006" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="1006" y="590" font-size="21" text-anchor="middle" fill="#666">06시</text>
+<line x1="1122" y1="215" x2="1122" y2="560" stroke="#eee" stroke-width="2"/>
+<text x="1122" y="590" font-size="21" text-anchor="middle" fill="#666">09시</text>
+<text x="776" y="618" font-size="19" text-anchor="middle" fill="#999">(다음 날)</text>
+<text x="186" y="292" font-size="23" text-anchor="end" fill="#333" font-weight="bold">서머타임</text>
+<text x="186" y="320" font-size="18" text-anchor="end" fill="#666">(~10월 31일)</text>
+<rect x="200" y="250" width="307" height="90" fill="#cbd5e1" stroke="#fff" stroke-width="3"/>
+<text x="354" y="290" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f2937">주간거래</text>
+<text x="354" y="320" font-size="19" text-anchor="middle" fill="#1f2937">09:00~17:00</text>
+<rect x="507" y="250" width="211" height="90" fill="#93c5fd" stroke="#fff" stroke-width="3"/>
+<text x="613" y="290" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f2937">프리마켓</text>
+<text x="613" y="320" font-size="19" text-anchor="middle" fill="#1f2937">17:00~22:30</text>
+<rect x="718" y="250" width="250" height="90" fill="#1a2744" stroke="#fff" stroke-width="3"/>
+<text x="843" y="290" font-size="23" font-weight="bold" text-anchor="middle" fill="#fff">정규장</text>
+<text x="843" y="320" font-size="19" text-anchor="middle" fill="#fff">22:30~05:00</text>
+<rect x="968" y="250" width="154" height="90" fill="#fdba74" stroke="#fff" stroke-width="3"/>
+<text x="1045" y="290" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f2937">애프터</text>
+<text x="1045" y="320" font-size="19" text-anchor="middle" fill="#1f2937">05:00~09:00</text>
+<text x="186" y="472" font-size="23" text-anchor="end" fill="#333" font-weight="bold">11월 2일부터</text>
+<text x="186" y="500" font-size="18" text-anchor="end" fill="#666">(~2027년 3월)</text>
+<rect x="238" y="430" width="307" height="90" fill="#cbd5e1" stroke="#fff" stroke-width="3"/>
+<text x="392" y="470" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f2937">주간거래</text>
+<text x="392" y="500" font-size="19" text-anchor="middle" fill="#1f2937">10:00~18:00</text>
+<rect x="546" y="430" width="211" height="90" fill="#93c5fd" stroke="#fff" stroke-width="3"/>
+<text x="651" y="470" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f2937">프리마켓</text>
+<text x="651" y="500" font-size="19" text-anchor="middle" fill="#1f2937">18:00~23:30</text>
+<rect x="757" y="430" width="250" height="90" fill="#1a2744" stroke="#fff" stroke-width="3"/>
+<text x="882" y="470" font-size="23" font-weight="bold" text-anchor="middle" fill="#fff">정규장</text>
+<text x="882" y="500" font-size="19" text-anchor="middle" fill="#fff">23:30~06:00</text>
+<rect x="1006" y="430" width="154" height="90" fill="#fdba74" stroke="#fff" stroke-width="3"/>
+<text x="1083" y="470" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f2937">애프터</text>
+<text x="1083" y="500" font-size="19" text-anchor="middle" fill="#1f2937">06:00~10:00</text>
+<text x="70" y="672" font-size="21" fill="#888">거래소 기준 시간(주간거래는 국내 증권사가 대체거래소로 제공). 증권사마다 프리·애프터 제공 시간이 다를 수 있음</text>
+</g></svg>
