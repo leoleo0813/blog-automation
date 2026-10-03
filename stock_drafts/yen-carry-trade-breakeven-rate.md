@@ -4,8 +4,8 @@ title: 엔캐리트레이드 청산 원리와 손익분기 환율
 slug: yen-carry-trade-breakeven-rate
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 2200 (PC 750 / 모바일 1450, 2026-10-03 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 2200 (PC 750 / 모바일 1450)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-03 - 통과]
   WebSearch "엔캐리트레이드 뜻 청산 원리 금리차" 상위 9개: brunch.co.kr(개인), kbthink.com 2개(KB 사전·이슈), eiec.kdi.re.kr(국책 교육), a-ha.io 3개(Q&A 커뮤니티), ecodemy.cafe24.com(개인 경제 블로그), news.hada.io(커뮤니티).
