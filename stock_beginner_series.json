@@ -2655,7 +2655,7 @@
       "type": "ETF 분배 사실",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "53000 (2026-09~10 실측, 우선순위 대기열)",
+      "monthly_search_volume": "53000 (PC 14900 / 모바일 38100)",
       "gate1_pass": true,
       "serp_check": "2026-10-03 게이트2 v4 통과: 한 장 비교표, 7개 분기 분배금 그래프, 세후 비교가 정보이득",
       "status": "drafted",

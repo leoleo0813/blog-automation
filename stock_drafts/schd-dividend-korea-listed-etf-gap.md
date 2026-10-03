@@ -4,8 +4,8 @@ title: SCHD 분배금과 국내 ETF 3종 차이
 slug: schd-dividend-korea-listed-etf-gap
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 53000 (2026-09~10 실측, 우선순위 대기열)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 53000 (PC 14900 / 모바일 38100)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-03 - 통과] 월 53,000으로 v4 대상. WebSearch(미국 기준)는 한국어 SERP를 직접 반영하지 못해 참고용.
   검색에 나온 한국어 글은 개인 블로그 다수(simpleinvest, kosmos13, dividend-nomad, eorim, brunch 등)라 진입 여지 있음. 조회형 의도 아님.
