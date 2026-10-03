@@ -2568,6 +2568,26 @@
       "cannibalization_note": "108편(GDP)·100편(소비자물가지수)·106편(테이퍼링)과 겹치지 않는 통화지표 편. 세 편과 61편(ETF)으로 내부 링크.",
       "gate_pass": false,
       "gate_pass_note": "한국은행 7월 통화 및 유동성 보도자료(또는 ECOS) 캡처로 M2 4,225.6조 원·+0.3%·+5.8%와 개편 병행 공표 기간 확정 필요. 일치하면 gate_pass true. refresh_due 2026-10-16(8월 통계 10/15 발표 예정)."
+    },
+    {
+      "id": 123,
+      "order": 123,
+      "title": "엔캐리트레이드 청산 원리와 손익분기 환율",
+      "slug": "yen-carry-trade-breakeven-rate",
+      "keyword": "엔캐리트레이드",
+      "type": "계산",
+      "keyword_class": "human-assisted",
+      "publish_effort": "capture",
+      "monthly_search_volume": "2200 (PC 750 / 모바일 1450, 2026-10-03 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-03 게이트2 v3 통과: 상위에 brunch·개인 경제 블로그·a-ha.io Q&A가 섞여 진입 여지 있음, 탐색형 의도, 손익분기 환율 계산을 보여 주는 글 미확인",
+      "unique_asset_plan": "1억 엔 차입 사례 손익표와 손익분기 환율(약 144.29엔), 엔 조달금리별 손익분기 비교표, 환율별 손익 막대 그림, 일본 정책금리 시점별 표",
+      "primary_source": "일본은행 WebFetch EGRESS_BLOCKED. 2024-08-05 사례와 정책금리(0.25%/0.75%/1.0%/1.25%)는 보도 다수 교차검증, 원문 대조 전 gate_pass:false",
+      "status": "drafted",
+      "draft_path": "stock_drafts/yen-carry-trade-breakeven-rate.md",
+      "cannibalization_note": "기존 편 중 엔 캐리를 직접 다룬 글 없음. 환헤지 뜻(103)은 헤지 비용, 이 글은 캐리 손익분기 계산으로 각도가 다름",
+      "gate_pass": false,
+      "gate_pass_note": "일본은행 정책금리 현재 값 원문 미확인. capture_guide 1순위(일본은행 2026년 9월 결정문) 캡처 후 true"
     }
   ],
   "backlog": {
@@ -3201,6 +3221,30 @@
         "keyword": "스톡옵션 뜻",
         "monthly_search_volume": "2110 (PC 400 / 모바일 1710, 2026-10-02 실측)",
         "hold_reason": "게이트1 통과(2,110회)했으나 stock-option-tax 편이 스톡옵션을 23회 다뤄 겹친다. 세금이 아닌 부여·행사 구조 중심 각도로 차별화 가능한지 다음 실행에서 해당 편 H2를 grep 확인 후 재검토."
+      },
+      {
+        "title": "신용등급",
+        "keyword": "신용등급",
+        "monthly_search_volume": "4950 (PC 920 / 모바일 4030, 2026-10-03 실측)",
+        "hold_reason": "게이트1 통과. 개인 신용점수·기업 신용등급 의도가 섞여 있고 게이트2 미실시. 123편 엔캐리트레이드 채택으로 순서 대기."
+      },
+      {
+        "title": "회사채",
+        "keyword": "회사채",
+        "monthly_search_volume": "1720 (PC 820 / 모바일 900, 2026-10-03 실측)",
+        "hold_reason": "게이트1 통과. 게이트2 미실시(증권사 상품 페이지로 SERP가 잠겼을 가능성). 채권 세금(기존 편)과 겹치지 않는 각도 필요."
+      },
+      {
+        "title": "비농업고용지표",
+        "keyword": "비농업고용지표",
+        "monthly_search_volume": "1710 (PC 230 / 모바일 1480, 2026-10-03 실측)",
+        "hold_reason": "게이트1 통과. 게이트2 부분 판정: 상위에 tradingeconomics·KB자산운용·토스뱅크·CME·investing.com이 많아 진입 여지 약함, 개인 글은 kko-kkuri.com 1개. 지표 글이라 현재 수치 표(미국 노동통계국 접속 불가) 확보 방법이 필요."
+      },
+      {
+        "title": "현금흐름표",
+        "keyword": "현금흐름표",
+        "monthly_search_volume": "830 (PC 490 / 모바일 340, 2026-10-03 실측)",
+        "hold_reason": "게이트1 통과. 게이트2 미실시. 사전형 개념이라 실제 기업 공시 사례 같은 정보이득 각도 필요."
       }
     ],
     "failed_gate1": [
@@ -5532,6 +5576,18 @@
       {
         "keyword": "금리인상 주식",
         "monthly_search_volume": "350 (2026-10-02 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "장단기금리차",
+        "monthly_search_volume": "480 (PC 190 / 모바일 290, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "수익률곡선",
+        "monthly_search_volume": "70 (PC 40 / 모바일 30, 2026-10-03 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "양적긴축",
+        "monthly_search_volume": "150 (PC 60 / 모바일 90, 2026-10-03 실측, 일반 주제 기준 500 미달)"
       }
     ]
   },

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">엔화가 오르면 캐리 수익이 사라진다</text>
+<text x="70" y="122" font-size="25" fill="#666">1억 엔 차입 1년 뒤 손익 · 만 엔 · 가정: 150엔/달러, 엔 금리 1%, 달러 자산 5%</text>
+<line x1="640" y1="160" x2="640" y2="520" stroke="#999" stroke-width="2"/>
+<text x="70" y="226" font-size="26" fill="#333">130엔</text>
+<rect x="300.0" y="190" width="340.0" height="52" fill="#d9534f"/>
+<text x="652.0" y="227" font-size="28" font-weight="bold" fill="#d9534f">-1,000</text>
+<text x="70" y="294" font-size="26" fill="#333">140엔</text>
+<rect x="538.0" y="258" width="102.0" height="52" fill="#d9534f"/>
+<text x="652.0" y="295" font-size="28" font-weight="bold" fill="#d9534f">-300</text>
+<text x="70" y="362" font-size="26" fill="#333">145엔</text>
+<rect x="640.0" y="326" width="17.0" height="52" fill="#2a9d5c"/>
+<text x="669.0" y="363" font-size="28" font-weight="bold" fill="#2a9d5c">+50</text>
+<text x="70" y="430" font-size="26" fill="#333">150엔 (변화 없음)</text>
+<rect x="640.0" y="394" width="136.0" height="52" fill="#2a9d5c"/>
+<text x="788.0" y="431" font-size="28" font-weight="bold" fill="#2a9d5c">+400</text>
+<text x="70" y="498" font-size="26" fill="#333">155엔</text>
+<rect x="640.0" y="462" width="255.0" height="52" fill="#2a9d5c"/>
+<text x="907.0" y="499" font-size="28" font-weight="bold" fill="#2a9d5c">+750</text>
+<text x="70" y="580" font-size="24" fill="#666">손익분기 환율 약 144.29엔 · 세금·수수료·헤지비용 제외한 계산 예시</text>
+</g></svg>
