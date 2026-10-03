@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="72" font-size="36" font-weight="bold" fill="#111">SK하이닉스 주주환원, 돈의 크기 비교</text>
+<text x="60" y="114" font-size="24" fill="#666">막대 길이는 금액에 비례합니다 (단위: 조 원)</text>
+<text x="60" y="210" font-size="26" font-weight="bold" fill="#333">자사주 매입·소각 한도</text>
+<text x="60" y="244" font-size="21" fill="#666">2026-08-19 이사회, 8/20~11/19 취득</text>
+<rect x="60" y="262" width="800" height="64" fill="#b45309"/>
+<text x="880" y="306" font-size="32" font-weight="bold" fill="#b45309">40.04조</text>
+<text x="60" y="400" font-size="26" font-weight="bold" fill="#333">2025년 결산배당 (주당 1,875원)</text>
+<text x="60" y="434" font-size="21" fill="#666">2026-01-28 이사회 결의</text>
+<rect x="60" y="452" width="26" height="40" fill="#d97706"/>
+<text x="106" y="484" font-size="32" font-weight="bold" fill="#b45309">1.32조</text>
+<text x="60" y="548" font-size="26" font-weight="bold" fill="#333">2분기 분기배당 (주당 375원)</text>
+<rect x="60" y="566" width="6" height="40" fill="#f59e0b"/>
+<text x="86" y="598" font-size="32" font-weight="bold" fill="#b45309">0.27조 (2,733억 원)</text>
+<text x="1140" y="620" font-size="19" text-anchor="end" fill="#999">자료: SK하이닉스 이사회 결의 보도</text>
+</g>
+</svg>

@@ -2664,6 +2664,18 @@
       "drafted_at": "2026-10-03",
       "refresh_due": "2026-12-16",
       "cannibalization_note": "23편(국내상장 해외ETF 세금)·63편(월배당 ETF)은 세금·구조 일반론, 이 글은 SCHD 분배 이력과 국내 3종 상품 비교"
+    },
+    {
+      "id": 128,
+      "order": 128,
+      "keyword": "SK하이닉스 배당금",
+      "title": "SK하이닉스 배당금 분기 375원, 지급일과 추가배당",
+      "slug": "sk-hynix-dividend-buyback-2026",
+      "status": "drafted",
+      "monthly_search_volume": "6890 (2026-10-03 실측)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-28",
+      "draft": "stock_drafts/sk-hynix-dividend-buyback-2026.md"
     }
   ],
   "backlog": {
@@ -3332,12 +3344,6 @@
         "keyword": "삼성전자 배당일",
         "title": "삼성전자 배당일",
         "monthly_search_volume": "13,100 (2026-10-03 실측)",
-        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
-      },
-      {
-        "keyword": "SK하이닉스 배당금",
-        "title": "SK하이닉스 배당금",
-        "monthly_search_volume": "6,890 (2026-10-03 실측)",
         "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
       },
       {
@@ -5813,7 +5819,7 @@
           "type": "종목 배당 사실",
           "angle": "분기 배당금·지급일 이력, 기준일 종가 배당수익률",
           "plan": "새 글",
-          "status": "todo"
+          "status": "drafted 128편 (2026-10-03)"
         },
         {
           "keyword": "공모주 일정",
