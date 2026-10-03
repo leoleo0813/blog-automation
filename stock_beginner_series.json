@@ -2645,6 +2645,25 @@
       "drafted_at": "2026-10-03",
       "refresh_due": "2026-10-31",
       "cannibalization_note": "66편(삼성전자우 가격 차이)은 가격·배당수익률 비교, 이 글은 3분기 배당 금액·일정·세금"
+    },
+    {
+      "id": 127,
+      "order": 127,
+      "title": "SCHD 분배금과 국내 ETF 3종 차이",
+      "slug": "schd-dividend-korea-listed-etf-gap",
+      "keyword": "SCHD",
+      "type": "ETF 분배 사실",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "53000 (2026-09~10 실측, 우선순위 대기열)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-03 게이트2 v4 통과: 한 장 비교표, 7개 분기 분배금 그래프, 세후 비교가 정보이득",
+      "status": "drafted",
+      "draft_path": "stock_drafts/schd-dividend-korea-listed-etf-gap.md",
+      "gate_pass": true,
+      "drafted_at": "2026-10-03",
+      "refresh_due": "2026-12-16",
+      "cannibalization_note": "23편(국내상장 해외ETF 세금)·63편(월배당 ETF)은 세금·구조 일반론, 이 글은 SCHD 분배 이력과 국내 3종 상품 비교"
     }
   ],
   "backlog": {
@@ -5762,7 +5781,7 @@
           "type": "ETF 분배 사실",
           "angle": "미국 SCHD와 국내 상장 동일 지수 ETF의 분배 주기·보수·세금 차이 표",
           "plan": "새 글",
-          "status": "todo"
+          "status": "drafted 127편 (2026-10-03)"
         },
         {
           "keyword": "레버리지 ETF",
