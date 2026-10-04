@@ -4,7 +4,7 @@ title: 원유 ETF 3분기 수익률과 롤오버 비용
 slug: oil-etf-rollover-cost-q3-2026
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 760 (PC 250 / 모바일 510, 2026-10-04 실측)
+monthly_search_volume: 760 (PC 250 / 모바일 510)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-04 - 통과] WebSearch(미국 기준, 참고용) "원유 ETF 롤오버 콘탱고 수익률 차이 WTI 선물 ETF 괴리" 상위 10개: munhwa.com(언론) / dealsite.co.kr(언론) / brunch.co.kr(개인) / straightnews.co.kr(언론) / hankyung.com(언론) / wikipedia(무관) / ebc.com(해외 브로커) / seekingalpha(해외). 보조 검색 "원유 ETF 롤오버 비용 콘탱고 백워데이션 개인투자자 ETF ETN 차이": v.daum.net(언론) / brunch.co.kr(개인) / postype.com(개인) / benzinga(해외).
