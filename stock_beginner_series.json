@@ -2729,6 +2729,19 @@
       "refresh_due": "2026-11-04",
       "draft": "stock_drafts/oil-etf-rollover-cost-q3-2026.md",
       "gate1_pass": true
+    },
+    {
+      "id": 133,
+      "order": 133,
+      "keyword": "10월 공모주",
+      "title": "10월 공모주 일정 2026 청약일과 상장일",
+      "slug": "ipo-schedule-october-2026",
+      "status": "drafted",
+      "monthly_search_volume": "8130 (PC 3000 / 모바일 5130)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-08",
+      "draft": "stock_drafts/ipo-schedule-october-2026.md",
+      "gate1_pass": true
     }
   ],
   "backlog": {
@@ -3406,12 +3419,6 @@
         "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
       },
       {
-        "keyword": "공모주 일정",
-        "title": "공모주 일정",
-        "monthly_search_volume": "5,500 (2026-10-03 실측)",
-        "hold_reason": "주제 선정 v3 후보. priority_queue 참고."
-      },
-      {
         "keyword": "배당락일",
         "title": "배당락일",
         "monthly_search_volume": "3,350 (2026-10-03 실측)",
@@ -3458,6 +3465,48 @@
         "keyword": "신용점수 올리는 법",
         "monthly_search_volume": "970 (PC 230 / 모바일 740, 2026-10-04 실측)",
         "hold_reason": "게이트1 통과(970회)했으나 주식 주제가 아니라 시리즈 성격과 맞지 않아 제외. 신용등급(4,950회)과 함께 개인 신용 주제로 따로 판단 필요."
+      },
+      {
+        "title": "삼성전자 실적발표",
+        "keyword": "삼성전자 실적발표",
+        "monthly_search_volume": "6860 (PC 1390 / 모바일 5470, 2026-10-04 실측)",
+        "hold_reason": "게이트1 통과. 삼성전자 3분기 잠정실적 발표(10월 초) 이슈형 후보. 126편(삼성전자 배당금)과 겹침 점검 후 '실적 발표일과 확인 순서' 사실 각도로만 작성, 제목에 전망 금지."
+      },
+      {
+        "title": "옵션만기일",
+        "keyword": "옵션만기일",
+        "monthly_search_volume": "6650 (PC 2150 / 모바일 4500, 2026-10-04 실측)",
+        "hold_reason": "게이트1 통과. 60편(네마녀의 날, 발행 완료)을 이 키워드로 갱신하는 방식 검토(RULES 주제선정 v3 4번). 10월 옵션만기일은 둘째 목요일(10/8) 전후라 시의성 있음."
+      },
+      {
+        "title": "공모주 일정",
+        "keyword": "공모주 일정",
+        "monthly_search_volume": "5520 (PC 2500 / 모바일 3020, 2026-10-04 실측)",
+        "hold_reason": "133편(10월 공모주 일정)으로 채택해 해소, 11월 공모주 일정은 10월 말 갱신 때 반영."
+      },
+      {
+        "title": "공모주 청약일정",
+        "keyword": "공모주 청약일정",
+        "monthly_search_volume": "1280 (PC 590 / 모바일 690, 2026-10-04 실측)",
+        "hold_reason": "133편 키워드와 의도 겹침. 별도 편 불필요."
+      },
+      {
+        "title": "IRP 세액공제 한도",
+        "keyword": "IRP 세액공제 한도",
+        "monthly_search_volume": "780 (PC 290 / 모바일 490, 2026-10-04 실측)",
+        "hold_reason": "게이트1 통과(제도 기준 100 이상). 세액공제 한도는 오류 이력 유형 숫자라 원문 캡처 필요. 연말 접근 시 4순위 후보."
+      },
+      {
+        "title": "연금저축 연말정산",
+        "keyword": "연금저축 연말정산",
+        "monthly_search_volume": "600 (PC 190 / 모바일 410, 2026-10-04 실측)",
+        "hold_reason": "게이트1 통과. IRP 세액공제 한도와 묶어 연말(11~12월) 작성 검토."
+      },
+      {
+        "title": "삼성전자 잠정실적",
+        "keyword": "삼성전자 잠정실적",
+        "monthly_search_volume": "1180 (PC 330 / 모바일 850, 2026-10-04 실측)",
+        "hold_reason": "게이트1 통과. 삼성전자 실적발표(6,860) 편으로 통합 검토."
       }
     ],
     "failed_gate1": [

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="816" viewBox="0 0 1200 816" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="30" y="46" font-size="30" font-weight="bold" fill="#222">2026년 10월 공모주 일반청약·상장 타임라인</text>
+<text x="30" y="84" font-size="22" fill="#555">가로축은 10월 1일~22일, 회색 칸은 휴장일(주말·대체공휴일·한글날)</text>
+<text x="250.5" y="142" font-size="22" text-anchor="middle" fill="#333">1</text>
+<text x="291.5" y="142" font-size="22" text-anchor="middle" fill="#333">2</text>
+<rect x="312" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="332.5" y="142" font-size="22" text-anchor="middle" fill="#333">3</text>
+<rect x="353" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="373.5" y="142" font-size="22" text-anchor="middle" fill="#333">4</text>
+<rect x="394" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="414.5" y="142" font-size="22" text-anchor="middle" fill="#333">5</text>
+<text x="455.5" y="142" font-size="22" text-anchor="middle" fill="#333">6</text>
+<text x="496.5" y="142" font-size="22" text-anchor="middle" fill="#333">7</text>
+<text x="537.5" y="142" font-size="22" text-anchor="middle" fill="#333">8</text>
+<rect x="558" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="578.5" y="142" font-size="22" text-anchor="middle" fill="#333">9</text>
+<rect x="599" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="619.5" y="142" font-size="22" text-anchor="middle" fill="#333">10</text>
+<rect x="640" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="660.5" y="142" font-size="22" text-anchor="middle" fill="#333">11</text>
+<text x="701.5" y="142" font-size="22" text-anchor="middle" fill="#333">12</text>
+<text x="742.5" y="142" font-size="22" text-anchor="middle" fill="#333">13</text>
+<text x="783.5" y="142" font-size="22" text-anchor="middle" fill="#333">14</text>
+<text x="824.5" y="142" font-size="22" text-anchor="middle" fill="#333">15</text>
+<text x="865.5" y="142" font-size="22" text-anchor="middle" fill="#333">16</text>
+<rect x="886" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="906.5" y="142" font-size="22" text-anchor="middle" fill="#333">17</text>
+<rect x="927" y="120" width="41" height="526" fill="#eceff1"/>
+<text x="947.5" y="142" font-size="22" text-anchor="middle" fill="#333">18</text>
+<text x="988.5" y="142" font-size="22" text-anchor="middle" fill="#333">19</text>
+<text x="1029.5" y="142" font-size="22" text-anchor="middle" fill="#333">20</text>
+<text x="1070.5" y="142" font-size="22" text-anchor="middle" fill="#333">21</text>
+<text x="1111.5" y="142" font-size="22" text-anchor="middle" fill="#333">22</text>
+<line x1="30" x2="1132" y1="212" y2="212" stroke="#ddd"/>
+<text x="30" y="189" font-size="24" font-weight="bold" fill="#222">멜콘</text>
+<rect x="233" y="162" width="76" height="38" rx="6" fill="#1d4ed8"/>
+<polygon points="783.5,164 800.5,181 783.5,198 766.5,181" fill="#ea580c"/>
+<line x1="30" x2="1132" y1="274" y2="274" stroke="#ddd"/>
+<text x="30" y="251" font-size="24" font-weight="bold" fill="#222">진코스텍</text>
+<rect x="274" y="224" width="35" height="38" rx="6" fill="#1d4ed8"/>
+<rect x="438" y="224" width="35" height="38" rx="6" fill="#1d4ed8"/>
+<polygon points="824.5,226 841.5,243 824.5,260 807.5,243" fill="#ea580c"/>
+<line x1="30" x2="1132" y1="336" y2="336" stroke="#ddd"/>
+<text x="30" y="313" font-size="24" font-weight="bold" fill="#222">엘리스그룹</text>
+<rect x="479" y="286" width="76" height="38" rx="6" fill="#1d4ed8"/>
+<polygon points="988.5,288 1005.5,305 988.5,322 971.5,305" fill="#ea580c"/>
+<line x1="30" x2="1132" y1="398" y2="398" stroke="#ddd"/>
+<text x="30" y="375" font-size="24" font-weight="bold" fill="#222">엠에스바이오</text>
+<rect x="684" y="348" width="76" height="38" rx="6" fill="#1d4ed8"/>
+<line x1="30" x2="1132" y1="460" y2="460" stroke="#ddd"/>
+<text x="30" y="437" font-size="24" font-weight="bold" fill="#222">디티에스</text>
+<rect x="725" y="410" width="76" height="38" rx="6" fill="#1d4ed8"/>
+<line x1="30" x2="1132" y1="522" y2="522" stroke="#ddd"/>
+<text x="30" y="499" font-size="24" font-weight="bold" fill="#222">유캐스트</text>
+<rect x="971" y="472" width="35" height="38" rx="6" fill="#1d4ed8"/>
+<line x1="30" x2="1132" y1="584" y2="584" stroke="#ddd"/>
+<text x="30" y="561" font-size="24" font-weight="bold" fill="#222">다비오</text>
+<rect x="971" y="534" width="76" height="38" rx="6" fill="#1d4ed8"/>
+<line x1="30" x2="1132" y1="646" y2="646" stroke="#ddd"/>
+<text x="30" y="623" font-size="24" font-weight="bold" fill="#222">티앤이코리아</text>
+<rect x="1012" y="596" width="76" height="38" rx="6" fill="#1d4ed8"/>
+<rect x="30" y="686" width="44" height="26" rx="5" fill="#1d4ed8"/><text x="84" y="709" font-size="22" fill="#222">일반청약일 (유캐스트는 시작일만 확인)</text>
+<polygon points="44,746 61,763 44,780 27,763" fill="#ea580c"/><text x="84" y="772" font-size="22" fill="#222">상장 예정일 (멜콘·진코스텍·엘리스그룹만 확인)</text>
+<text x="30" y="800" font-size="22" fill="#666">자료: 언론 보도 교차 확인, 2026-10-04 기준 (일정은 바뀔 수 있음)</text>
+</svg>
