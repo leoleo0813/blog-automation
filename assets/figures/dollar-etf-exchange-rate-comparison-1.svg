@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Noto Sans CJK KR, Noto Sans KR, sans-serif">
+<rect width="1200" height="700" fill="#ffffff"/>
+<text x="60" y="70" font-size="34" font-weight="bold" fill="#0f3d2e">가상 1,000만 원, 환율 1,300원일 때 환전한 뒤 환율이 변하면</text>
+<text x="60" y="112" font-size="22" fill="#555">세금·수수료·롤오버 비용 제외, 평가금액(원)</text>
+<line x1="160" y1="600" x2="1120" y2="600" stroke="#999" stroke-width="2"/>
+<line x1="160" y1="300" x2="1120" y2="300" stroke="#bbb" stroke-width="2" stroke-dasharray="8 8"/>
+<text x="150" y="308" font-size="20" fill="#555" text-anchor="end">1,000만</text>
+<rect x="240" y="333" width="190" height="267" fill="#9ca3af"/>
+<rect x="580" y="300" width="190" height="300" fill="#059669"/>
+<rect x="920" y="268" width="190" height="332" fill="#047857" transform="translate(-30 0)"/>
+<text x="335" y="322" font-size="26" font-weight="bold" fill="#333" text-anchor="middle">9,230,769</text>
+<text x="675" y="290" font-size="26" font-weight="bold" fill="#333" text-anchor="middle">10,000,000</text>
+<text x="985" y="258" font-size="26" font-weight="bold" fill="#333" text-anchor="middle">10,769,231</text>
+<text x="335" y="645" font-size="26" fill="#222" text-anchor="middle">1,200원</text>
+<text x="675" y="645" font-size="26" fill="#222" text-anchor="middle">1,300원</text>
+<text x="985" y="645" font-size="26" fill="#222" text-anchor="middle">1,400원</text>
+<text x="335" y="678" font-size="20" fill="#777" text-anchor="middle">-769,231원</text>
+<text x="675" y="678" font-size="20" fill="#777" text-anchor="middle">0원</text>
+<text x="985" y="678" font-size="20" fill="#777" text-anchor="middle">+769,231원</text>
+</svg>
