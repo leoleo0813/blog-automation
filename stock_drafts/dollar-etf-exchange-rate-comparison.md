@@ -4,8 +4,8 @@ title: 달러 ETF 달러예금 차이와 환율 손익 계산
 slug: dollar-etf-exchange-rate-comparison
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3310 (PC 660 / 모바일 2650, 2026-10-04 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 3310 (PC 660 / 모바일 2650)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-04 - 통과] WebSearch(미국 기준, 참고용) "달러 ETF 달러선물 ETF 차이 세금 환노출 개인투자자" 상위 9개: kbam.co.kr(KB자산운용) / open.shinhansec.com(신한투자증권) / news.mt.co.kr(언론) / brunch.co.kr(개인) / hankyung.com(언론) / wikipedia(무관) / clien.net(커뮤니티) / kr.investing.com(언론). 추가 검색에서 eiec.kdi.re.kr(KDI), edaily.co.kr, investpension.miraeasset.com 확인.
   1) 진입 여지 - 있음. brunch 개인 글, clien 커뮤니티가 상위에 있어 SERP가 잠기지 않음.
