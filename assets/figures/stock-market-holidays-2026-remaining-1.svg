@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="762" viewBox="0 0 1200 762">
+<rect width="1200" height="762" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="64" font-size="36" font-weight="bold" fill="#111">2026년 한국 증시 월별 휴장일 수 (합계 17일)</text>
+<text x="60" y="108" font-size="24" fill="#666">초록색은 10월 4일 기준 아직 남은 달입니다</text>
+<text x="60" y="178" font-size="24" fill="#333">1월</text>
+<rect x="140" y="150" width="200" height="38" fill="#94a3b8"/>
+<text x="350" y="179" font-size="24" font-weight="bold" fill="#94a3b8">1일</text>
+<text x="60" y="224" font-size="24" fill="#333">2월</text>
+<rect x="140" y="196" width="600" height="38" fill="#94a3b8"/>
+<text x="750" y="225" font-size="24" font-weight="bold" fill="#94a3b8">3일</text>
+<text x="60" y="270" font-size="24" fill="#333">3월</text>
+<rect x="140" y="242" width="200" height="38" fill="#94a3b8"/>
+<text x="350" y="271" font-size="24" font-weight="bold" fill="#94a3b8">1일</text>
+<text x="60" y="316" font-size="24" fill="#333">4월</text>
+<text x="150" y="317" font-size="24" font-weight="bold" fill="#94a3b8">0일</text>
+<text x="60" y="362" font-size="24" fill="#333">5월</text>
+<rect x="140" y="334" width="600" height="38" fill="#94a3b8"/>
+<text x="750" y="363" font-size="24" font-weight="bold" fill="#94a3b8">3일</text>
+<text x="60" y="408" font-size="24" fill="#333">6월</text>
+<rect x="140" y="380" width="200" height="38" fill="#94a3b8"/>
+<text x="350" y="409" font-size="24" font-weight="bold" fill="#94a3b8">1일</text>
+<text x="60" y="454" font-size="24" fill="#333">7월</text>
+<rect x="140" y="426" width="200" height="38" fill="#94a3b8"/>
+<text x="350" y="455" font-size="24" font-weight="bold" fill="#94a3b8">1일</text>
+<text x="60" y="500" font-size="24" fill="#333">8월</text>
+<rect x="140" y="472" width="200" height="38" fill="#94a3b8"/>
+<text x="350" y="501" font-size="24" font-weight="bold" fill="#94a3b8">1일</text>
+<text x="60" y="546" font-size="24" fill="#333">9월</text>
+<rect x="140" y="518" width="400" height="38" fill="#94a3b8"/>
+<text x="550" y="547" font-size="24" font-weight="bold" fill="#94a3b8">2일</text>
+<text x="60" y="592" font-size="24" fill="#333">10월</text>
+<rect x="140" y="564" width="400" height="38" fill="#0f766e"/>
+<text x="550" y="593" font-size="24" font-weight="bold" fill="#0f766e">2일</text>
+<text x="60" y="638" font-size="24" fill="#333">11월</text>
+<text x="150" y="639" font-size="24" font-weight="bold" fill="#94a3b8">0일</text>
+<text x="60" y="684" font-size="24" fill="#333">12월</text>
+<rect x="140" y="656" width="400" height="38" fill="#0f766e"/>
+<text x="550" y="685" font-size="24" font-weight="bold" fill="#0f766e">2일</text>
+<text x="1140" y="738" font-size="22" text-anchor="end" fill="#999">자료: 증권사 2026년 휴장일 안내, 2026-10-04 기준</text>
+</g>
+</svg>
