@@ -4,7 +4,7 @@ title: 주식 휴장일 2026, 남은 4일과 연말 폐장일
 slug: stock-market-holidays-2026-remaining
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 6390 (PC 940 / 모바일 5450, 2026-10-04 실측. 같은 글이 커버하는 증시 휴장일 5260, 증시 폐장일 4430)
+monthly_search_volume: 6390 (PC 940 / 모바일 5450)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-04 - 통과] 월 6,390으로 v4 대상(5,000 이상). WebSearch(미국 기준, 참고용) 상위: tossinvest 공지(핀테크 공지), glasswallet.com·jangjeon.kr·tmhub.co.kr(개인·소규모 콘텐츠), kbsec·samsungpop(증권사 공지), investing.com(캘린더), 위키.
