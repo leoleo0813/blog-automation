@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="64" font-size="36" font-weight="bold" fill="#111">권리락 뒤 내 자산, 선택별 합계 (가상 사례)</text>
+<text x="60" y="106" font-size="24" fill="#666">100주 보유, 증자 전 주식 1,000,000원 + 청약 준비금 120,000원 (단위: 원)</text>
+<text x="60" y="208" font-size="26" font-weight="bold" fill="#333">청약해서 신주 받기</text>
+<rect x="330" y="170" width="720" height="56" fill="#2563eb"/>
+<text x="340" y="207" font-size="22" fill="#fff">주식 1,120,000</text>
+<text x="330" y="266" font-size="26" font-weight="bold" fill="#111">합계 1,120,000원</text>
+<text x="60" y="348" font-size="26" font-weight="bold" fill="#333">인수권 팔기</text>
+<rect x="330" y="310" width="600" height="56" fill="#2563eb"/>
+<text x="340" y="347" font-size="22" fill="#fff">주식 933,333</text>
+<rect x="930" y="310" width="43" height="56" fill="#16a34a"/>
+<rect x="973" y="310" width="77" height="56" fill="#94a3b8"/>
+<text x="330" y="406" font-size="26" font-weight="bold" fill="#111">합계 1,120,000원</text>
+<text x="60" y="488" font-size="26" font-weight="bold" fill="#333">그냥 포기하기</text>
+<rect x="330" y="450" width="600" height="56" fill="#2563eb"/>
+<text x="340" y="487" font-size="22" fill="#fff">주식 933,333</text>
+<rect x="930" y="450" width="77" height="56" fill="#94a3b8"/>
+<text x="330" y="546" font-size="26" font-weight="bold" fill="#dc2626">합계 1,053,333원</text>
+<rect x="60" y="590" width="22" height="22" fill="#2563eb"/><text x="92" y="609" font-size="22" fill="#333">주식</text><rect x="170" y="590" width="22" height="22" fill="#16a34a"/><text x="202" y="609" font-size="22" fill="#333">인수권 매도 대금</text><rect x="420" y="590" width="22" height="22" fill="#94a3b8"/><text x="452" y="609" font-size="22" fill="#333">현금</text>
+<text x="640" y="609" font-size="20" fill="#888">이론 권리락 주가 9,333원 기준 계산</text></g></svg>
