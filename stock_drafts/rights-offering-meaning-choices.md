@@ -4,8 +4,8 @@ title: 유상증자 뜻과 방식 차이, 청약 손익 계산
 slug: rights-offering-meaning-choices
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 13190 (2026-09~10 실측, 우선순위 목록 기록값)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 월 5,000 이상 개념형이라 주제 선정 v3 유형 5 조건 충족)
+monthly_search_volume: 9880 (PC 1180 / 모바일 8700)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-04 - 통과] 월 13,190으로 v4 대상(5,000 이상). WebSearch(미국 기준, 참고용) "유상증자 뜻 주주배정 일반공모 권리락 신주인수권 차이" 상위: kbthink.com(KB, 사전형) / shinhansec.com(신한투자증권 안내) / newspim.com(언론 해설) / easylaw.go.kr(법제처) / ebc.com(해외 브로커 콘텐츠) / econowide.com(개인·소규모 블로그).
   1) 진입 여지 - 있음. econowide.com 같은 소규모 콘텐츠가 상위에 있고 SERP가 완전히 잠기지 않음(다만 금융사·언론 비중이 큼).
