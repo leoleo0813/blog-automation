@@ -4,8 +4,8 @@ title: 환전 우대율 계산법과 증권사별 차이
 slug: exchange-preferential-rate-calc
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3490 (PC 690 / 모바일 2800, 2026-10-04 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 3490 (PC 690 / 모바일 2800)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-04 - 통과] WebSearch(미국 기준, 참고용) "환전 우대 90% 증권사 해외주식 환전 스프레드 2026" 상위: securities.miraeasset.com(증권사) / samsungpop.com(증권사) / tilnote.io 2건(개인·소형 콘텐츠) / simpleinvest.co.kr(개인 블로그) / easyzetec.com(개인 블로그) / apps.apple.com 환전 앱 2건.
   1) 진입 여지 - 있음. 개인 블로그와 소형 콘텐츠 사이트가 상위 절반을 차지해 SERP가 잠기지 않음.
