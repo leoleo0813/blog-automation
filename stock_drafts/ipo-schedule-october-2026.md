@@ -4,8 +4,8 @@ title: 10월 공모주 일정 2026 청약일과 상장일
 slug: ipo-schedule-october-2026
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 8130 (PC 3000 / 모바일 5130, 2026-10-04 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상, 연관 "공모주 일정" 5,520, "공모주 청약일정" 1,280)
+monthly_search_volume: 8130 (PC 3000 / 모바일 5130)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-04 - 통과] WebSearch(미국 기준, 참고용) "10월 공모주 청약 일정 2026 상장일 공모가" 상위: bizwatch(언론) / assetnote.co.kr(개인·소규모) / stockology.co.kr(개인·소규모) / dailian(언론) / foxcg.com(소규모) / achimgol.com(개인) / naver.economic-news24.com(소규모). 보조 검색 상위: asiae·consumernews·etoday(언론), make2t.kr(개인).
   1) 진입 여지 - 있음. 개인·소규모 콘텐츠 사이트가 상위 절반 이상.
