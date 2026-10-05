@@ -27,6 +27,7 @@ gate_pass_note: |
   게이트1 통과, 게이트2 v3 통과, 게이트3 표 5개 확보. 게이트4 미충족: 공식과 예시는 독립 출처 7곳에서 일치하나 금융감독원·KDI 사전 원문은 열람하지 못했다.
   사람이 할 일: KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '복리'를 검색해 정의가 이자에 이자가 붙는 방식인지 확인하면 true로 바꿀 수 있습니다. 본문 계산값은 파이썬으로 재계산해 일치 확인함.
   [2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전이 복리를 이자를 원금에 더해 다음 기간 이자를 계산하는 방식으로 정의해 본문과 일치. 공식은 수학적 정의.
+  [2026-10-05 KDI 확인] 사람이 KDI 시사용어사전 '복리이자' 항목(https://eiec.kdi.re.kr/material/wordDic.do?stype=all&skey=복리)을 직접 열어 확인: 복리는 원금뿐 아니라 이자에 대한 이자도 함께 계산하고, 예시로 10% 이율 100원이 110원, 다음 해 121원이라고 나와 본문 개념과 일치. 사전에 '70의 법칙' 항목도 있으나 내용은 미확인.
 cannibalization_note: 111편(CAGR)은 과거 수익률에서 연평균을 거꾸로 구하는 글이고 이 글은 원금에서 미래 금액을 앞으로 구하는 글이다. 본문에서 CAGR 편과 115편(MDD)으로 링크한다.
 self_check: |
   [2026-10-02 gate_pass:false, 게이트4 기관 원문 미열람]
@@ -222,7 +223,7 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처 (기준일 2026년 10월, 복리는 기관이 수치를 공표하는 지표가 아니라 수학적 정의이며 아래 자료는 공식 교차 확인용입니다):
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://eiec.kdi.re.kr/material/wordDic.do" target="_blank" rel="noopener">KDI 경제교육·정보센터 - 시사용어사전</a></li>
+    <li><a href="https://eiec.kdi.re.kr/material/wordDic.do?stype=all&amp;skey=%EB%B3%B5%EB%A6%AC" target="_blank" rel="noopener">KDI 경제교육·정보센터 - 시사용어사전(복리이자)</a></li>
     <li><a href="https://kbthink.com/saving-guide/simple-vs-compound.html" target="_blank" rel="noopener">KB Think - 단리, 복리 차이, 계산법 비교</a></li>
     <li><a href="https://www.tossbank.com/articles/simple-compound-interest" target="_blank" rel="noopener">토스뱅크 - 단리와 복리</a></li>
     <li><a href="https://kbthink.com/dictionary/view.html?dictId=KED-00015893" target="_blank" rel="noopener">KB Think 경제용어사전 복리</a></li>
