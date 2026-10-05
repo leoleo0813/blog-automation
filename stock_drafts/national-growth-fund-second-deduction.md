@@ -4,7 +4,7 @@ title: 국민참여성장펀드 2차 가입 방법과 소득공제
 slug: national-growth-fund-second-deduction
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 15450 (PC 3650 / 모바일 11800, 2026-10-05 실측)
+monthly_search_volume: 15450 (PC 3650 / 모바일 11800)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-05 - 통과] WebSearch(미국 기준, 참고용) "국민참여성장펀드 2차 가입방법 소득공제 판매처 분리과세" 상위: etoday.co.kr, ajunews.co.kr, fnnews.com, heraldcorp.com, newspim.com, nate 뉴스(언론) / korea.kr 정책뉴스(정부) / make2t.kr, thecheck.co.kr, itsdwayne.co.kr, knowmoney.kr, mnt.kr(개인·소규모 콘텐츠 사이트) / kbthink.com, samsungfund.com(금융사).
