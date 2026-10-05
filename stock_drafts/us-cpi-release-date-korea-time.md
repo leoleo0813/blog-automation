@@ -4,7 +4,7 @@ title: 미국 CPI 발표 시간 2026 일정과 한국시간
 slug: us-cpi-release-date-korea-time
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 8340 (PC 850 / 모바일 7490, 2026-10-05 실측)
+monthly_search_volume: 8340 (PC 850 / 모바일 7490)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-05 - 통과] WebSearch(미국 기준, 참고용) 상위: tossbank.com(핀테크 은행 콘텐츠) / tmsstory.co.kr·rentalusedcars.com·usstock.today(소규모 콘텐츠 사이트 3건) / brunch.co.kr(개인 블로그) / ebc.com(해외 브로커 콘텐츠) / tradingeconomics(데이터 사이트) / BLS 공식.

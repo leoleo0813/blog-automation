@@ -2803,7 +2803,7 @@
       "title": "미국 CPI 발표 시간 2026 일정과 한국시간",
       "slug": "us-cpi-release-date-korea-time",
       "status": "drafted",
-      "monthly_search_volume": "8340 (PC 850 / 모바일 7490, 2026-10-05 실측)",
+      "monthly_search_volume": "8340 (PC 850 / 모바일 7490)",
       "gate_pass": true,
       "refresh_due": "2026-10-15",
       "draft": "stock_drafts/us-cpi-release-date-korea-time.md",
