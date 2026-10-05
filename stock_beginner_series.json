@@ -2808,6 +2808,19 @@
       "refresh_due": "2026-10-15",
       "draft": "stock_drafts/us-cpi-release-date-korea-time.md",
       "gate1_pass": true
+    },
+    {
+      "id": 139,
+      "order": 139,
+      "title": "옵션만기일 2026 남은 날짜 달력표",
+      "slug": "option-expiry-date-calendar-2026",
+      "keyword": "옵션만기일",
+      "status": "drafted",
+      "monthly_search_volume": "6500 (PC 2080 / 모바일 4420, 2026-10-05 실측)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-09",
+      "draft": "stock_drafts/option-expiry-date-calendar-2026.md",
+      "gate1_pass": true
     }
   ],
   "backlog": {
@@ -2817,7 +2830,7 @@
         "title": "옵션만기일",
         "keyword": "옵션만기일",
         "monthly_search_volume": "6500 (PC 2080 / 모바일 4420, 2026-10-05 실측)",
-        "hold_reason": "게이트1 통과. 60편 네마녀의 날과 의도가 겹쳐 새 글 대신 기존 글을 '옵션만기일' 키워드로 갱신(남은 만기일 12월 중심). 10월 만기일은 10/8."
+        "hold_reason": "139편으로 채택 완료(2026-10-05, 매월 달력·결제일 각도의 새 글). 60편은 분기 4회 기준이라 상호 링크."
       },
       {
         "title": "삼성전자 잠정실적",
@@ -3560,7 +3573,7 @@
         "title": "옵션만기일",
         "keyword": "옵션만기일",
         "monthly_search_volume": "6650 (PC 2150 / 모바일 4500, 2026-10-04 실측)",
-        "hold_reason": "게이트1 통과. 60편(네마녀의 날, 발행 완료)을 이 키워드로 갱신하는 방식 검토(RULES 주제선정 v3 4번). 10월 옵션만기일은 둘째 목요일(10/8) 전후라 시의성 있음."
+        "hold_reason": "139편으로 채택 완료(2026-10-05, 매월 달력·결제일 각도의 새 글). 60편은 분기 4회 기준이라 상호 링크."
       },
       {
         "title": "공모주 일정",
@@ -6071,7 +6084,7 @@
           "type": "일정",
           "angle": "60편 네마녀의 날을 2026년 남은 만기일(12월) 중심으로 갱신",
           "plan": "기존 60편 키우기",
-          "status": "todo"
+          "status": "139편(옵션만기일)으로 새 글 처리(2026-10-05), 60편 갱신은 불필요"
         },
         {
           "keyword": "SK하이닉스 배당금",
