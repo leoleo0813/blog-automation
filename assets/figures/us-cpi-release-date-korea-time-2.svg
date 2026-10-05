@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="30" y="48" font-size="30" font-weight="bold" fill="#222">8월 미국 CPI: 전월 대비와 전년 동월 대비</text>
+<text x="30" y="86" font-size="22" fill="#555">같은 지표인데 비교 기준에 따라 숫자 크기가 이만큼 달라요 (단위 %)</text>
+<line x1="330" y1="120" x2="330" y2="470" stroke="#9aa5b1" stroke-width="3"/>
+<text x="310" y="188" font-size="24" font-weight="bold" text-anchor="end" fill="#333">전체 CPI</text>
+<text x="310" y="214" font-size="20" text-anchor="end" fill="#555">전월 대비</text>
+<rect x="330" y="160" width="70" height="60" fill="#fdba74"/>
+<text x="412" y="200" font-size="26" font-weight="bold" fill="#9a3412">0.4%</text>
+<text x="310" y="288" font-size="24" font-weight="bold" text-anchor="end" fill="#333">전체 CPI</text>
+<text x="310" y="314" font-size="20" text-anchor="end" fill="#555">전년 동월 대비</text>
+<rect x="330" y="260" width="595" height="60" fill="#c2410c"/>
+<text x="937" y="300" font-size="26" font-weight="bold" fill="#9a3412">3.4%</text>
+<text x="310" y="388" font-size="24" font-weight="bold" text-anchor="end" fill="#333">근원 CPI</text>
+<text x="310" y="414" font-size="20" text-anchor="end" fill="#555">전월 대비</text>
+<rect x="330" y="360" width="52" height="60" fill="#93c5fd"/>
+<text x="394" y="400" font-size="26" font-weight="bold" fill="#1e3a8a">0.3%</text>
+<text x="310" y="488" font-size="24" font-weight="bold" text-anchor="end" fill="#333">근원 CPI</text>
+<text x="310" y="514" font-size="20" text-anchor="end" fill="#555">전년 동월 대비</text>
+<rect x="330" y="460" width="420" height="60" fill="#1d4ed8"/>
+<text x="762" y="500" font-size="26" font-weight="bold" fill="#1e3a8a">2.4%</text>
+<text x="1170" y="548" font-size="18" text-anchor="end" fill="#777">자료: 미국 노동통계국(BLS) 9월 11일 발표를 보도한 언론 교차 확인, 2026-10-05 기준</text>
+</svg>
