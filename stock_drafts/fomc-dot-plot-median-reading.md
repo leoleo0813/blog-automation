@@ -4,7 +4,7 @@ title: 점도표 보는 법 중앙값 계산
 slug: fomc-dot-plot-median-reading
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1140 (PC 440 / 모바일 700, 2026-10-01 실측)
+monthly_search_volume: 1050 (PC 410 / 모바일 640)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-05 - 통과] WebSearch(미국 기준, 참고용) 상위: kbthink(KB증권 계열 콘텐츠) / investing.com 한국어판 / KCIF 국제금융센터 / 이든포스트·vanillahai·thecheck·94bit 등 소규모 콘텐츠 사이트 다수 / ebc 중개사 콘텐츠 / 블라인드 / YTN.
