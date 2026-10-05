@@ -56,13 +56,12 @@ self_check: |
 refresh_due: 2026-11-05
 refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지표 표 갱신"
 user_todo:
-  why: '1970년대 물가·성장률·실업률이 사이트마다 다르게 나오고(예: 미국 1974년 물가 11%와 12%), 지금 한국 실업률도 2.0%와 2.7%(계절조정)로 엇갈려 원래 통계로 확정해야 합니다. 본문 표 21칸이 비어 있습니다.'
+  why: '1970년대 물가·성장률·실업률이 사이트마다 다르게 나오고(예: 미국 1974년 물가 11%와 12%), 원래 통계로 확정해야 합니다. 본문 표 21칸이 비어 있습니다.'
   steps:
   - '미국 물가: 이 링크를 열면 숫자 목록이 바로 뜹니다 → https://fred.stlouisfed.org/graph/fredgraph.csv?id=FPCPITOTLZGUSA&cosd=1973-01-01&coed=1982-12-31 (파일로 내려받아지면 열어서) 화면 캡처'
   - '미국 실업률: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&fq=Annual&fam=avg&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
   - '한국 물가: https://fred.stlouisfed.org/graph/fredgraph.csv?id=FPCPITOTLZGKOR&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
   - '한국 경제성장률: 한국은행 경제통계시스템 https://ecos.bok.or.kr 접속 → 첫 화면 "100대 통계지표" → "경제성장률(실질)" 클릭 → 주기를 "연"으로 바꾸고 기간 1973~1982 → 표 캡처'
-  - '지금 한국 실업률: e-나라지표 https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1063 열고 → 2026년 8월 실업률이 나온 표 캡처(계절조정인지 표시된 부분까지)'
   - 위 링크가 안 열리면 그 단계는 건너뛰고 열린 것만 보내 주세요.
   must_show:
   - 연도(1973~1982)와 숫자가 한 화면에 같이 보일 것
@@ -175,11 +174,11 @@ user_todo:
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">소비자물가 상승률</td><td style="border:1px solid #ddd;padding:8px;">2.9% (전년 동월 대비)</td><td style="border:1px solid #ddd;padding:8px;">2026년 9월, 국가데이터처</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">실질 GDP 성장률</td><td style="border:1px solid #ddd;padding:8px;">0.6% (전기 대비)</td><td style="border:1px solid #ddd;padding:8px;">2026년 2분기 잠정치, 한국은행</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">실업률</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월, 국가데이터처</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">실업률</td><td style="border:1px solid #ddd;padding:8px;">2.0% (원계열) / 2.7% (계절조정)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월, 국가데이터처 경제활동인구조사(한국은행 ECOS 수록)</td></tr>
   </tbody>
 </table>
 
-<p>물가 숫자는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법 글</a>의 최근 물가 표, 성장률은 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목·실질 계산 글</a>의 2분기 숫자와 같아요. 실업률은 출처마다 계절조정 여부가 달라 값이 엇갈려서, 원문을 확인한 뒤 채울게요.</p>
+<p>물가 숫자는 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법 글</a>의 최근 물가 표, 성장률은 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목·실질 계산 글</a>의 2분기 숫자와 같아요. 실업률은 원계열 2.0%, 계절조정 2.7%로 집계 방식에 따라 값이 달라요. 계절 요인을 지운 계절조정치가 달마다 흐름을 비교하기에 알맞아서 두 값을 함께 적었어요.</p>
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2a8c8a;padding-left:12px;margin-top:36px;">스태그플레이션 뉴스를 읽을 때 놓치기 쉬운 점</h2>
 <p>우려라는 말이 붙은 기사와 실제 스태그플레이션은 다른 이야기예요. 우려 기사는 가능성을 말하고, 판별은 확정된 통계로만 할 수 있어요.</p>
