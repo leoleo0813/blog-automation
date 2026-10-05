@@ -39,9 +39,13 @@ self_check: |
   어투 모드: A 해설형(합쇼체). 직전 129 B, 128 C와 다름. 꾸며낸 1인칭 경험 없음.
   기관 안내 문장 3개(한국거래소 KIND, DART, 국가법령정보센터) 링크 처리, 출처 목록 5개 전부 링크 처리.
   AI 티 점검: em대시 0개, 다만 0회, mark 4개, FAQ 7개(직전 129의 5개, 128의 6개와 다름), FAQ 헤딩 "증자 공시 받아 든 주주의 질문 7개"(신규, 걸리는·막히는·헷갈 계열 어휘 없음), 요약박스 제목 "🧾 증자 공시 뜬 날 체크 포인트"(신규 문구, 보라색), H2 6개 중 "~나요"형 0개.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 청약·인수권 매도·포기 자산 비교 막대
+  2: 공시부터 신주 상장까지 7단계 흐름도
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-04</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>보유 종목이 유상증자를 공시하면 먼저 따질 것은 방식, 권리락 날짜, 내가 고를 수 있는 선택지입니다. 청약하거나 신주인수권을 팔면 이론상 자산 가치는 그대로고, 아무것도 안 하면 아래 가상 사례에서 66,667원이 줄어듭니다.</p>
 
@@ -112,6 +116,8 @@ self_check: |
 </ol>
 
 <p>권리락 기준가 산식은 <a href="https://sensitiveboss3.tistory.com/entry/ex-rights-price-calculation" target="_blank" rel="noopener">권리락 기준가 계산 방법 글</a>에 단계별로 있으니, 이 글에서는 아래 계산에 필요한 식 한 줄만 씁니다. 배당을 받는 날짜 구조가 궁금하면 <a href="https://sensitiveboss3.tistory.com/entry/dividend-ex-date-buy-deadline" target="_blank" rel="noopener">배당락일 매수 마감일 계산법 글</a>도 같이 보시면 됩니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/rights-offering-meaning-choices-2.png" alt="주주배정 유상증자 일정 흐름도. 이사회 결의와 공시, 마지막 매수일, 권리락일, 신주인수권증서 거래, 구주주 청약, 실권주 일반공모, 납입 뒤 신주 상장 순서" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 본문 일정 순서(일반 절차). 실제 날짜는 증권신고서 기준</figcaption></figure>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7c3aed;padding-left:12px;margin-top:36px;">청약, 인수권 매도, 포기의 손익 계산</h2>
 
@@ -231,7 +237,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-04",
-  "dateModified": "2026-10-04",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/rights-offering-meaning-choices"

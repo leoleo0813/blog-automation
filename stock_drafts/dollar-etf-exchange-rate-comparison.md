@@ -56,12 +56,12 @@ user_todo:
   if_skipped: 계속 발행 보류입니다. 세금 칸을 빼고 "세금은 상품 설명서 기준"으로만 적어 발행하는 방법도 있으니 원하시면 말씀해 주세요.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-04</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>환율이 똑같이 올라도 달러예금과 달러 ETF는 돈이 들어오는 길이 다릅니다. 하나는 은행에서 달러로 바꿔 두는 일이고, 다른 하나는 원화로 거래하는 선물 기반 상품입니다. 아래에서 두 방식의 구조를 나란히 놓고, 가상의 1,000만 원으로 환율 손익을 계산합니다.</p>
 
 <div style="background:#ecfdf5;border:2px solid #059669;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#047857;font-size:18px;">💵 달러 ETF 고르기 전 세 줄</strong>
+  <strong style="color:#047857;font-size:18px;">💵 달러 ETF 고르기 전 볼 것</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;">
     <li>국내 달러 ETF는 달러 현금이 아니라 달러선물을 담아 환율을 따라가는 상품입니다.</li>
     <li>환율 변화만 계산하면 1,300원에서 1,400원으로 오를 때 약 7.69%가 남습니다.</li>
@@ -216,11 +216,20 @@ user_todo:
   "headline": "달러 ETF 달러예금 차이와 환율 손익 계산",
   "description": "달러 ETF가 환율을 따라가는 방식과 달러예금의 구조 차이, 환율 1,300원 기준 가상 1,000만 원 손익 계산, 과세 확인처를 정리했습니다.",
   "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dollar-etf-exchange-rate-comparison-1.png",
-  "author": { "@type": "Person", "name": "센시티브보스" },
-  "publisher": { "@type": "Person", "name": "센시티브보스" },
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
   "datePublished": "2026-10-04",
-  "dateModified": "2026-10-04",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://sensitiveboss3.tistory.com/entry/dollar-etf-exchange-rate-comparison" }
+  "dateModified": "2026-10-05",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/dollar-etf-exchange-rate-comparison"
+  }
 }
 </script>
 
@@ -229,11 +238,46 @@ user_todo:
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "달러 ETF를 사면 실제 달러를 갖게 되나요", "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 국내 달러 ETF는 원·달러 환율을 따라가는 달러선물에 투자하는 상품이라, 달러 현금이 계좌에 생기지 않습니다. 원화로 사고 원화로 파는 구조입니다."}},
-    {"@type": "Question", "name": "달러 ETF는 환율이 오르면 그대로 오르나요", "acceptedAnswer": {"@type": "Answer", "text": "대체로 환율 방향을 따라가지만 똑같지는 않습니다. 월물 교체 때 생기는 롤오버 효과, 운용보수, 시장가와 순자산가치의 괴리율이 수익률을 환율과 다르게 만듭니다."}},
-    {"@type": "Question", "name": "달러 ETF는 환전 수수료가 드나요", "acceptedAnswer": {"@type": "Answer", "text": "ETF를 원화로 거래하므로 환전 과정이 없습니다. 대신 운용보수가 계속 나가고, 검색으로 확인한 자료 기준 연 0.2~0.4%대로 안내되며 상품마다 다릅니다."}},
-    {"@type": "Question", "name": "환율이 내려가면 달러 ETF는 손실인가요", "acceptedAnswer": {"@type": "Answer", "text": "환율이 내려가면 가격도 내려가 손실이 납니다. 손실이 나도 다른 금융소득과 합쳐 줄여 주는지 여부는 과세 기준에 달려 있어서, 아래 과세 확인 절차를 따라가 보시면 됩니다."}},
-    {"@type": "Question", "name": "달러 ETF와 환헤지 ETF는 같은 말인가요", "acceptedAnswer": {"@type": "Answer", "text": "다릅니다. 달러 ETF는 환율 자체에 투자하는 상품이고, 환헤지는 해외 자산을 살 때 환율 변동을 없애려는 장치입니다. 방향이 정반대여서 환헤지 구조는 환헤지 뜻 글에서 따로 다룹니다."}}
+    {
+      "@type": "Question",
+      "name": "달러 ETF를 사면 실제 달러를 갖게 되나요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아닙니다. 국내 달러 ETF는 원·달러 환율을 따라가는 달러선물에 투자하는 상품이라, 달러 현금이 계좌에 생기지 않습니다. 원화로 사고 원화로 파는 구조입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "달러 ETF는 환율이 오르면 그대로 오르나요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "대체로 환율 방향을 따라가지만 똑같지는 않습니다. 월물 교체 때 생기는 롤오버 효과, 운용보수, 시장가와 순자산가치의 괴리율이 수익률을 환율과 다르게 만듭니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "달러 ETF는 환전 수수료가 드나요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ETF를 원화로 거래하므로 환전 과정이 없습니다. 대신 운용보수가 계속 나가고, 검색으로 확인한 자료 기준 연 0.2~0.4%대로 안내되며 상품마다 다릅니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "환율이 내려가면 달러 ETF는 손실인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "환율이 내려가면 가격도 내려가 손실이 납니다. 손실이 나도 다른 금융소득과 합쳐 줄여 주는지 여부는 과세 기준에 달려 있어서, 아래 과세 확인 절차를 따라가 보시면 됩니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "달러 ETF와 환헤지 ETF는 같은 말인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "다릅니다. 달러 ETF는 환율 자체에 투자하는 상품이고, 환헤지는 해외 자산을 살 때 환율 변동을 없애려는 장치입니다. 방향이 정반대여서 환헤지 구조는 환헤지 뜻 글에서 따로 다룹니다."
+      }
+    }
   ]
 }
 </script>

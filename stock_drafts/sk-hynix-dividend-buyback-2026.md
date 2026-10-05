@@ -42,9 +42,13 @@ self_check: |
   어투 모드: C 사례형(가상의 A씨, 가상임을 명시, 끝까지 따라감). 직전 125 B, 126 A, 127 A와 다름. 꾸며낸 1인칭 경험 없음.
   기관 안내 문장 1개(DART) 링크 처리, 출처 목록 9개 전부 링크 처리.
   AI 티 점검: em대시 0개, 다만 0회, mark 3개, FAQ 6개(직전 126·127의 4개, 125의 5개와 다름), FAQ 헤딩 "하이닉스 배당 받기 전 궁금한 6가지"(신규), 요약박스 제목 "🔢 입금액부터 계산해 본 숫자"(신규 문구, 앰버색), H2 6개 중 "~나요"형 1개.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 주주환원 규모 막대(자사주 vs 배당)
+  2: 주당 배당금 이력 막대
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-03</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>SK하이닉스 보통주 1주가 1년에 받는 정규 배당은 1,500원인데, 회사가 8월에 내놓은 자사주 매입 한도는 40조 434억 원입니다. 분기 배당 375원을 모든 주주에게 한 번 주는 데 드는 돈이 약 2,733억 원이니, 주주에게 돌려주는 돈의 무게는 배당보다 자사주 쪽에 실려 있습니다.</p>
 
@@ -113,6 +117,8 @@ self_check: |
 <p>2분기 배당은 <a href="https://www.fnnews.com/news/202608071621010849" target="_blank" rel="noopener">파이낸셜뉴스</a>와 <a href="https://www.etnews.com/20260807000333" target="_blank" rel="noopener">전자신문</a>이 같은 주당 375원, 기준일 8월 31일로 보도했습니다. 1분기 기준일과 지급일은 보도마다 달라 표에 비웠고, 회사 공시는 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">DART</a>에서 회사명을 검색한 뒤 "현금·현물배당결정"을 열면 볼 수 있습니다.</p>
 
 <p>기준일 8월 31일은 월요일이었습니다. 주식 결제에 2영업일이 걸리므로 마지막 매수일은 8월 27일, 배당락일은 8월 28일이었습니다. 이 계산 원리는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-ex-date-buy-deadline" target="_blank" rel="noopener">배당락일 매수 마감일 계산법 글</a>에 정리했습니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/sk-hynix-dividend-buyback-2026-2.png" alt="SK하이닉스 보통주 주당 배당금 막대그래프. 2025년 결산 1,875원, 2026년 1분기 375원, 2분기 375원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: SK하이닉스 이사회 결의 보도</figcaption></figure>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #b45309;padding-left:12px;margin-top:36px;">배당보다 큰 40조 자사주 매입</h2>
 
@@ -227,7 +233,7 @@ SK하이닉스가 공시·발표한 배당 정보를 모아 계산한 글로, �
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-03",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/sk-hynix-dividend-buyback-2026"

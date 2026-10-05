@@ -44,9 +44,13 @@ self_check: |
   [2026-10-02 독자 관점 규칙 반영]
   그림 1장(평가액과 최고점 간격으로 MDD 표시). 말로만 언급하던 "CAGR 편"(111편 gate_pass:false라 링크 불가) 문장 삭제, "리밸런싱 뜻 편"은 링크로 교체. 111편 발행 후 CAGR 링크 다시 추가할 것.
   "펀드·ETF를 고를 때 MDD를 쓰는 법" H2 추가(같은 기간 비교·레버리지·금액 환산, 추천 없음). 내부 링크 3개(10·40·81편 발행 완료). gate_pass:false 사유(게이트4)는 그대로.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고).
+figure_plan: |
+  1: 15개월 평가액과 최고점(MDD 위치)
+  2: 낙폭별 회복 필요 상승률
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>MDD는 투자 기간 중 고점에서 저점까지 떨어진 가장 큰 폭을 백분율로 나타낸 값입니다. 공식은 (저점 - 직전 최고점) ÷ 직전 최고점이고, 최고점 13,000원에서 8,450원까지 내려갔다면 -35%입니다. 가상 계좌의 15개월 기록으로 이 값을 직접 구하고, 떨어진 만큼 되찾으려면 얼마나 올라야 하는지까지 표로 확인합니다.</p>
 
@@ -142,6 +146,8 @@ self_check: |
 
 <p>낙폭이 깊어질수록 회복 부담은 곡선으로 커집니다. 10%에서 20%로 두 배가 되는 사이 필요 상승률은 11.1%에서 25.0%로 두 배 넘게 뜁니다.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/max-drawdown-mdd-recovery-rate-2.png" alt="낙폭별 본전 회복에 필요한 상승률 막대그래프. -10퍼센트는 11.1퍼센트, -20퍼센트는 25퍼센트, -30퍼센트는 42.9퍼센트, -35퍼센트는 53.8퍼센트, -50퍼센트는 100퍼센트, -70퍼센트는 233.3퍼센트" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산: 필요 상승률 = 낙폭 ÷ (1 − 낙폭)</figcaption></figure>
+
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #d9731a;padding-left:12px;margin-top:36px;">같은 원금에서 MDD가 다르면 생기는 차이</h2>
 
 <p>MDD는 같은 원금이 고점 이후 얼마까지 줄었는지를 금액으로 바꿔 보면 체감이 됩니다. 원금 1억 원이 최고점에서 1억 원이었다고 가정한 가상 비교입니다.</p>
@@ -229,7 +235,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-02",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/max-drawdown-mdd-recovery-rate"

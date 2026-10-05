@@ -37,9 +37,13 @@ self_check: |
   카니벌라이제이션: 66편(삼성전자우 가격 차이)과 다름(배당 금액·일정). 66·4·6·16편 내부 링크 4개.
   첫 문장 유형: 사실 제시형(30조 배당). 어투 A(합쇼체, 직전 125편 B와 다름). 투자자 섹션 "배당 뒤 주가와 우선주에서 볼 것" 문단형.
   FAQ 4개(직전 125편 5개와 다름), 헤딩 "삼성전자 배당 받는 사람의 질문 4개". mark 3개, em대시 0. 그림 1장.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 분기별 주당 배당금 막대(확정 3개 + 추정 1개)
+  2: 3분기 배당 날짜 타임라인 — 지난 단계와 남은 단계 구분
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-03</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>삼성전자는 2026년 3분기에 정규 배당을 포함해 약 30조 원을 현금으로 배당합니다. 1주당 금액은 10월 말 이사회에서 확정되는데, 30조 원을 지난 분기 배당 기준 주식 수로 나누면 1주당 약 4,569원입니다. 2분기 374원의 12배가 넘는 금액이고, 배당 기준일은 이미 지난 9월 30일이었습니다.</p>
 
@@ -81,6 +85,8 @@ self_check: |
 </table>
 
 <p>삼성전자는 2024~2026년 3년 동안 잉여현금흐름의 50%를 주주환원에 쓰는 정책을 시행하고 있고, 이번 배당도 그 정책 안에서 나온 것입니다. 회사의 주주환원 정책 원문은 <a href="https://www.samsung.com/sec/ir/stock-information/shareholder-return" target="_blank" rel="noopener">삼성전자 IR 주주환원 페이지</a>에 있습니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/samsung-electronics-dividend-q3-2026-2.png" alt="삼성전자 3분기 배당 일정 타임라인. 8월 21일 이사회 의결, 9월 28일 마지막 매수일, 9월 29일 배당락일, 9월 30일 기준일은 지났고, 10월 말 이사회에서 주당 금액 확정, 11월 중 지급 예정" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 삼성전자 이사회 의결 보도(2026-08-21), 결제 규칙. 10월 말 이후는 예정</figcaption></figure>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1d4ed8;padding-left:12px;margin-top:36px;">1주당 얼마일지 계산해 보면</h2>
 
@@ -198,7 +204,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-03",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/samsung-electronics-dividend-q3-2026"

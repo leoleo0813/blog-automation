@@ -45,9 +45,10 @@ self_check: |
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 6개(직전 123 7·122 5와 다름), H2 6개 중 "~나요"형 2개. 요약박스 초록(#eef7ee/#4f9a5b), 제목 "📗 한눈에 구분하면", 중간 박스 "💡 물가가 내리면 좋은 것 아닌가요", 마무리 박스 "📝 마지막 점검". FAQ 헤딩 "궁금증 풀이 모음". 면책 표현 새로 작성.
   기관 링크: 안내 문장·출처 목록 전부 링크 처리. 내부 링크 4개(100 소비자물가지수, 101 PCE, 108 GDP, 105 국채금리), 모두 published. 그림 1장(물가 1년 뒤 수준 비교, 가정 예시).
   발행 글 갱신(refresh): 이번 실행에서는 신규 초안에 집중. 92·98·105편 등은 1차 출처 접속 불가로 수치를 지어낼 수 없어 갱신 보류.
+figure_plan: "1장으로 충분 — 물가 수준 비교. 나머지 표는 용어 비교와 대출 실질 부담 계산이라 표가 읽기 쉬움"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-03</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>물가가 내려간다는 뉴스에 장바구니가 가벼워지겠다고 기대했다가, 월급과 일자리까지 같이 줄어드는 상황이라는 설명에 고개를 갸웃한 적이 있다면 이 구분부터 잡아야 합니다. <mark>디플레이션은 물가가 지속적으로 하락하는 현상</mark>이고, 물가는 계속 오르되 오르는 속도만 느려지는 디스인플레이션과는 전혀 다른 상태입니다.</p>
 
@@ -211,7 +212,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-03",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/deflation-disinflation-difference-guide"
@@ -225,12 +226,54 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "물가가 한 달 내렸으면 디플레이션인가요?", "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 한 달 하락은 계절 요인이나 일시적 가격 변동일 수 있고, 마이너스 상승률이 지속될 때 디플레이션이라고 부릅니다."}},
-    {"@type": "Question", "name": "디스인플레이션이면 물가가 내려가는 건가요?", "acceptedAnswer": {"@type": "Answer", "text": "내려가지 않습니다. 물가는 계속 오르고 오르는 속도만 느려지는 상태입니다."}},
-    {"@type": "Question", "name": "디플레이션이 오면 현금이 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "물가가 내리면 현금의 구매력은 올라갑니다. 그런데 그 시기에는 소득과 일자리도 함께 줄 수 있어 단순하게 유불리를 말하기 어렵습니다."}},
-    {"@type": "Question", "name": "디플레이션과 스태그플레이션은 어떻게 다른가요?", "acceptedAnswer": {"@type": "Answer", "text": "디플레이션은 물가가 내리는 현상이고, 스태그플레이션은 경기가 침체하는데 물가는 오르는 현상입니다. 물가 방향이 반대입니다."}},
-    {"@type": "Question", "name": "일본은 지금도 디플레이션인가요?", "acceptedAnswer": {"@type": "Answer", "text": "이 글에서는 현재 일본의 물가 수치를 확인하지 않았습니다. 닛케이225가 2024년 2월 22일 1989년 고점을 넘었다는 보도만 근거로 다뤘습니다."}},
-    {"@type": "Question", "name": "최신 소비자물가는 어디서 보나요?", "acceptedAnswer": {"@type": "Answer", "text": "소비자물가지수 공표 페이지 첫 화면에서 최근 월의 등락률 그래프와 수치를 볼 수 있습니다."}}
+    {
+      "@type": "Question",
+      "name": "물가가 한 달 내렸으면 디플레이션인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아닙니다. 한 달 하락은 계절 요인이나 일시적 가격 변동일 수 있고, 마이너스 상승률이 지속될 때 디플레이션이라고 부릅니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "디스인플레이션이면 물가가 내려가는 건가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "내려가지 않습니다. 물가는 계속 오르고 오르는 속도만 느려지는 상태입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "디플레이션이 오면 현금이 유리한가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "물가가 내리면 현금의 구매력은 올라갑니다. 그런데 그 시기에는 소득과 일자리도 함께 줄 수 있어 단순하게 유불리를 말하기 어렵습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "디플레이션과 스태그플레이션은 어떻게 다른가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "디플레이션은 물가가 내리는 현상이고, 스태그플레이션은 경기가 침체하는데 물가는 오르는 현상입니다. 물가 방향이 반대입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "일본은 지금도 디플레이션인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "이 글에서는 현재 일본의 물가 수치를 확인하지 않았습니다. 닛케이225가 2024년 2월 22일 1989년 고점을 넘었다는 보도만 근거로 다뤘습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "최신 소비자물가는 어디서 보나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "소비자물가지수 공표 페이지 첫 화면에서 최근 월의 등락률 그래프와 수치를 볼 수 있습니다."
+      }
+    }
   ]
 }
 </script>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">2026년 3분기, 유가와 원유 ETF 수익률</text>
+<text x="70" y="122" font-size="25" fill="#666">같은 기간 WTI 가격 변화와 ETF 수익률 비교 · 단위 %</text>
+<line x1="70" y1="580" x2="1130" y2="580" stroke="#999" stroke-width="2"/>
+<rect x="250" y="255" width="260" height="325" fill="#9aa0a6" rx="6"/>
+<text x="380" y="239" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">30.1%</text>
+<text x="380" y="630" font-size="27" text-anchor="middle" fill="#333">WTI 가격(6월 말→9월 말)</text>
+<rect x="690" y="200" width="260" height="380" fill="#1a2744" rx="6"/>
+<text x="820" y="184" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">35.2%</text>
+<text x="820" y="630" font-size="27" text-anchor="middle" fill="#333">KODEX WTI원유선물(H)</text>
+<text x="70" y="692" font-size="21" fill="#888">자료: WTI 69.50→90.42달러(한국경제·뉴스1), ETF 수익률(한국경제). 차이 +5.12%p는 직접 계산</text>
+</g></svg>

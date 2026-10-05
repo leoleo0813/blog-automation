@@ -39,9 +39,13 @@ self_check: |
   어투 모드: B 대화형(해요체, 독자 질문 문장 포함). 직전 128 C, 127 A, 126 A와 다름. 꾸며낸 1인칭 경험 없음.
   기관 안내 문장 1개(KRX) 링크 처리, 출처 목록 7개 전부 링크 처리.
   AI 티 점검: em대시 0개, 다만 0회, mark 3개, FAQ 5개(직전 128의 6개, 127의 4개와 다름), FAQ 헤딩 "쉬는 날 앞두고 많이 묻는 것들"(신규), 요약박스 제목 "🗓️ 올해 남은 쉬는 날만 쏙"(신규 문구, 청록색), H2 6개 중 "~나요"형 0개.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 월별 휴장일 수 막대
+  2: 연말 하루 단위 타임라인 — 매수 마감·배당락·폐장·휴장 순서
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-04</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>평일 아침에 주문을 넣으려는데 장이 열려 있지 않으면 당황스럽죠. 2026년 한국 증시(코스피·코스닥) 휴장일은 모두 17일이고, 10월 4일 기준으로 남은 날은 10월 5일·10월 9일·12월 25일·12월 31일 4일이에요.</p>
 
@@ -135,6 +139,8 @@ self_check: |
 </table>
 
 <p>이 계산은 12월 결산 법인의 결산배당 기준일이 12월 31일인 경우예요. 2026년 연말 일정은 한국거래소가 12월 중순에 공지하므로(2025년은 12월 18일 공지) 공지가 나오면 이 글을 고칠게요. 배당락일을 계산하는 순서는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-ex-date-buy-deadline" target="_blank" rel="noopener">배당락일 매수 마감일 계산법 글</a>에 있어요.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stock-market-holidays-2026-remaining-2.png" alt="2026년 연말 증시 일정 타임라인. 12월 24일 정상 거래, 25일 휴장, 28일 배당 받을 마지막 매수일, 29일 배당락일, 30일 폐장일, 31일 연말 휴장, 2027년 1월 4일 첫 거래일" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 본문 연말 일정표(휴장 규칙 적용 계산)</figcaption></figure>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0f766e;padding-left:12px;margin-top:36px;">휴장일이 끼면 결제일은 이렇게 세요</h2>
 
@@ -238,7 +244,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-04",
-  "dateModified": "2026-10-04",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/stock-market-holidays-2026-remaining"

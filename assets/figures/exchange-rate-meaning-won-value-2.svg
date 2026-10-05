@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">1,000달러 사고 바로 되팔면 사라지는 돈</text>
+<text x="70" y="122" font-size="25" fill="#666">환율이 그대로여도 생기는 왕복 비용 · 단위 %</text>
+<line x1="70" y1="580" x2="1130" y2="580" stroke="#999" stroke-width="2"/>
+<rect x="250" y="200" width="260" height="380" fill="#c0392b" rx="6"/>
+<text x="380" y="184" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">3.3%</text>
+<text x="380" y="630" font-size="27" text-anchor="middle" fill="#333">우대 없음</text>
+<rect x="690" y="503" width="260" height="77" fill="#1a2744" rx="6"/>
+<text x="820" y="487" font-size="38" font-weight="bold" text-anchor="middle" fill="#111">0.7%</text>
+<text x="820" y="630" font-size="27" text-anchor="middle" fill="#333">스프레드 80% 우대</text>
+<text x="70" y="692" font-size="21" fill="#888">계산 예시: 기준환율 1,300원, 현찰 스프레드 ±1.7% 가정(실제 금융사 값 아님)</text>
+</g></svg>

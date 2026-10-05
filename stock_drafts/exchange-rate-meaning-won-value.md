@@ -47,11 +47,15 @@ self_check: |
   인트로 "이 글은"·"헷갈리기 쉽" 삭제, 첫 문장에 실제 환율(10/2 1,350.6원). 박스 제목 "세 줄" 제거. 현재 수치 표 H2 신설(첫 H2).
   "해외주식·수출주 투자자에게 환율이 중요한 이유" H2 추가(원화 수익률 공식, 방향 단정 없음). 그림 1장(비대칭 계산 막대).
   FAQ 헤딩 "걸리는" 제거, FAQ 5→4(100엔 질문 삭제, 108편 6개와 다르게). '확인하세요'류 3→0. 내부 링크 2개(98·103편 발행 완료).
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고).
 refresh_due: 2026-10-30
 refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 교체"
+figure_plan: |
+  1: 환율 변동률 vs 원화 가치 변동률(비대칭)
+  2: 환전 왕복 비용 비교(우대 없음 vs 80% 우대)
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>2026년 10월 2일 서울 외환시장의 원/달러 환율은 1,350.6원(주간 종가)이었습니다. 1달러를 사는 데 우리 돈 1,350.6원이 든다는 뜻이고, 이 숫자가 오르면 원화 가치는 내려갑니다. 환율이 오른 비율과 원화 가치가 내린 비율은 같지 않고, 은행 창구에서 실제로 적용되는 환율은 뉴스 숫자와 또 다릅니다.</p>
 
@@ -166,6 +170,8 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
 
 <p><mark>환율이 한 번도 움직이지 않아도 사고 바로 파는 것만으로 우대 없이는 약 3.34%가 사라집니다.</mark> 우대율 적용 방식과 스프레드 크기는 금융사와 통화, 거래 방법(현찰·계좌 이체)에 따라 달라서, 금융사 환율표에 적힌 값이 실제 적용 환율입니다.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/exchange-rate-meaning-won-value-2.png" alt="1,000달러를 사고 바로 되팔 때 왕복 손실 막대그래프. 우대 없음 3.34퍼센트, 스프레드 80퍼센트 우대 0.68퍼센트" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 기준환율 1,300원, 스프레드 ±1.7% 가정</figcaption></figure>
+
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3b6fd4;padding-left:12px;margin-top:36px;">엔화는 100엔 기준으로 환산하는 법</h2>
 
 <p>일본 엔화는 은행 환율표에 100엔 기준으로 적혀 있는 경우가 많습니다. 표시된 숫자를 1엔 가격으로 착각하면 환산 금액이 100배 어긋납니다.</p>
@@ -267,7 +273,7 @@ refresh_reason: "현재 환율 표(주간 종가 2일치)를 최신 날짜로 �
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/exchange-rate-meaning-won-value"

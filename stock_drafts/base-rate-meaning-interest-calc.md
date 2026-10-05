@@ -50,9 +50,10 @@ self_check: |
   FAQ 헤딩 "걸리는" 제거, FAQ 5개 유지(109편 4개·118편과 다르게). '확인하세요'류 3→0. 내부 링크 4개(4·47·100·105편 발행 완료).
 refresh_due: 2026-10-23
 refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·인트로에 반영"
+figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 표는 이자 계산·회의 일정이라 표가 읽기 쉬움"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>한국은행 기준금리는 2026년 8월 27일 연 2.75%에서 연 3.00%로 올랐습니다. 두 달 연속 0.25%p씩 올린 결과이고, 다음 결정은 10월 22일입니다. 금리가 0.25%p 움직이면 대출 3억 원의 연 이자가 75만 원 달라지는 식으로, 내 이자에 닿는 크기는 원금 × 변화폭으로 바로 어림할 수 있습니다.</p>
 
@@ -195,7 +196,7 @@ refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·�
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/base-rate-meaning-interest-calc"

@@ -45,9 +45,13 @@ self_check: |
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 4개(직전 110·109·108편은 5개), H2 7개 중 "~나요"형 0개. 요약박스 연두(#eef8f0/#2e8b57), 제목 "📈 숫자로 먼저 확인할 것", 마무리 박스 "✅ 직접 계산할 때 체크". FAQ 헤딩 "공식 넣어 보다 생기는 의문". 면책 문구 새 표현.
   [2026-10-02 독자 관점 규칙 반영]
   그림 1장(같은 CAGR, 다른 경로 꺾은선, 본문 가상 수치). "주식 투자에서 CAGR이 쓰이는 자리" H2 추가(연환산 수익률·EPS 성장률·지수 장기 성과, 방향 단정 없음). 내부 링크 4개(47·81·90·99편 발행 완료). FAQ 4개 유지. gate_pass:false 사유(게이트4 기관 출처)는 그대로.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고).
+figure_plan: |
+  1: 같은 CAGR, 다른 경로(꺾은선)
+  2: 같은 총수익, 기간별 CAGR(막대)
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>1,000만 원이 2,000만 원이 됐다가 다시 1,000만 원으로 돌아와도, 두 해의 수익률 +100%와 -50%를 산술평균하면 연 25%가 나옵니다. CAGR(연평균 성장률)은 이런 착시를 막는 지표로, 시작값이 끝값이 되려면 매년 일정하게 몇 %씩 늘어야 하는지를 구한 값입니다. 위 예시의 CAGR은 0%입니다.</p>
 
@@ -157,6 +161,8 @@ self_check: |
 </table>
 
 <p>"3년 만에 50% 올랐다"와 "10년 만에 50% 올랐다"는 전혀 다른 성적입니다. 총수익률만 나란히 놓고 비교하면 이 차이가 가려집니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/cagr-annual-return-calculation-2.png" alt="총수익 50퍼센트가 걸린 기간별 CAGR 막대그래프. 1년 50퍼센트, 2년 22.47퍼센트, 3년 14.47퍼센트, 5년 8.45퍼센트, 10년 4.14퍼센트" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산: (1.5)^(1÷기간) − 1</figcaption></figure>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">CAGR로 앞날 금액 거꾸로 따져 보기</h2>
 
@@ -280,7 +286,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/cagr-annual-return-calculation"

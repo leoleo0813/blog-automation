@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">2026년 연말 증시 일정, 하루씩 순서대로</text>
+<text x="70" y="122" font-size="25" fill="#666">배당을 받으려면 12월 28일까지 사야 함</text>
+<line x1="80" y1="380" x2="1120" y2="380" stroke="#9aa0a6" stroke-width="4"/>
+<circle cx="110" cy="380" r="13" fill="#9aa0a6"/>
+<line x1="110" y1="350" x2="110" y2="310" stroke="#9aa0a6" stroke-width="3"/>
+<text x="110" y="232" font-size="25" font-weight="bold" text-anchor="middle" fill="#9aa0a6">12/24(목)</text>
+<text x="110" y="266" font-size="21" text-anchor="middle" fill="#333">정상 거래</text>
+<circle cx="273" cy="380" r="13" fill="#c0392b"/>
+<line x1="273" y1="410" x2="273" y2="450" stroke="#c0392b" stroke-width="3"/>
+<text x="273" y="486" font-size="25" font-weight="bold" text-anchor="middle" fill="#c0392b">12/25(금)</text>
+<text x="273" y="518" font-size="21" text-anchor="middle" fill="#333">성탄절</text>
+<text x="273" y="548" font-size="21" text-anchor="middle" fill="#333">휴장</text>
+<circle cx="437" cy="380" r="13" fill="#1a2744"/>
+<line x1="437" y1="350" x2="437" y2="310" stroke="#1a2744" stroke-width="3"/>
+<text x="437" y="202" font-size="25" font-weight="bold" text-anchor="middle" fill="#1a2744">12/28(월)</text>
+<text x="437" y="236" font-size="21" text-anchor="middle" fill="#333">배당 받을</text>
+<text x="437" y="266" font-size="21" text-anchor="middle" fill="#333">마지막 매수일</text>
+<circle cx="600" cy="380" r="13" fill="#e67e22"/>
+<line x1="600" y1="410" x2="600" y2="450" stroke="#e67e22" stroke-width="3"/>
+<text x="600" y="486" font-size="25" font-weight="bold" text-anchor="middle" fill="#e67e22">12/29(화)</text>
+<text x="600" y="518" font-size="21" text-anchor="middle" fill="#333">배당락일</text>
+<circle cx="763" cy="380" r="13" fill="#1a2744"/>
+<line x1="763" y1="350" x2="763" y2="310" stroke="#1a2744" stroke-width="3"/>
+<text x="763" y="202" font-size="25" font-weight="bold" text-anchor="middle" fill="#1a2744">12/30(수)</text>
+<text x="763" y="236" font-size="21" text-anchor="middle" fill="#333">폐장일</text>
+<text x="763" y="266" font-size="21" text-anchor="middle" fill="#333">(마지막 거래일)</text>
+<circle cx="927" cy="380" r="13" fill="#c0392b"/>
+<line x1="927" y1="410" x2="927" y2="450" stroke="#c0392b" stroke-width="3"/>
+<text x="927" y="486" font-size="25" font-weight="bold" text-anchor="middle" fill="#c0392b">12/31(목)</text>
+<text x="927" y="518" font-size="21" text-anchor="middle" fill="#333">연말</text>
+<text x="927" y="548" font-size="21" text-anchor="middle" fill="#333">휴장일</text>
+<circle cx="1090" cy="380" r="13" fill="#2e8b57"/>
+<line x1="1090" y1="350" x2="1090" y2="310" stroke="#2e8b57" stroke-width="3"/>
+<text x="1090" y="202" font-size="25" font-weight="bold" text-anchor="middle" fill="#2e8b57">1/4(월)</text>
+<text x="1090" y="236" font-size="21" text-anchor="middle" fill="#333">2027년</text>
+<text x="1090" y="266" font-size="21" text-anchor="middle" fill="#333">첫 거래일</text>
+<text x="70" y="612" font-size="21" fill="#888">자료: 본문 연말 일정표(한국거래소 휴장 규칙 적용 계산). 1월 4일은 거래소 공지 전 달력 계산</text>
+</g></svg>

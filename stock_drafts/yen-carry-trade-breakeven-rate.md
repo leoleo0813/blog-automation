@@ -39,9 +39,10 @@ self_check: |
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 7개(직전 122 5·121 6과 다름), H2 6개 중 "~나요"형 2개. 요약박스 장미색(#fdf0f0/#c9484b), 제목 "🧮 계산부터 보면 쉬워요", 중간 박스 "💡 금리 말고 환율이 더 크게 움직여요", 마무리 박스 "🔖 정리해 두면". FAQ 헤딩 "엔 캐리 얘기에서 자주 나오는 물음". 면책 문구 새 표현.
   기관 링크: 안내 문장·출처 목록 전부 링크 처리. 내부 링크 3개(103 환헤지, 98 달러인덱스, 105 국채금리), 모두 published. 그림 1장(환율 시나리오별 손익 막대).
   발행 글 갱신(refresh): lint_draft --due에 92·98·105편이 현재 수치 부재로 기한 도달. VIX·달러인덱스·국고채 금리의 1차 출처(시카고옵션거래소·한국은행 등) 접속이 불가해 수치를 지어낼 수 없으므로 이번 실행에서는 갱신하지 않고 다음 실행으로 넘김. lint_draft: FAIL 0.
+figure_plan: "1장으로 충분 — 환율별 손익 막대. 나머지 표는 손익분기 계산과 현재 금리라 표가 읽기 쉬움"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-03</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>같은 엔화 대출인데 어떤 해에는 연 4%를 벌고, 어떤 해에는 환율 때문에 원금이 깎입니다. <mark>엔 캐리 트레이드는 금리가 낮은 엔화를 빌려 금리가 높은 자산에 투자해 금리 차이를 버는 거래</mark>이고, 엔화가 갑자기 오르면 한꺼번에 되돌려지는 게 청산이에요.</p>
 
@@ -212,7 +213,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-03",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/yen-carry-trade-breakeven-rate"
@@ -226,13 +227,62 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "엔 캐리 트레이드는 개인도 할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "직접 엔화를 빌려 투자하는 개인은 드뭅니다. 보통 헤지펀드나 기관이 하고, 개인은 엔화 대출을 낀 상품이 아니라면 간접적으로 영향만 받아요."}},
-    {"@type": "Question", "name": "엔화가 오르면 왜 주식이 떨어지나요?", "acceptedAnswer": {"@type": "Answer", "text": "엔화로 빌린 돈이 해외 자산에 들어가 있으면, 엔화가 오를 때 그 자산을 팔아 빚을 갚는 쪽으로 움직이기 때문입니다. 판매 물량이 한꺼번에 나오면 가격이 흔들려요."}},
-    {"@type": "Question", "name": "달러 캐리 트레이드도 같은 원리인가요?", "acceptedAnswer": {"@type": "Answer", "text": "같은 원리입니다. 빌리는 통화만 달러로 바뀌고, 금리가 낮은 통화로 빌려 높은 자산에 넣는 구조는 똑같아요."}},
-    {"@type": "Question", "name": "일본은행이 금리를 올리면 항상 청산이 일어나나요?", "acceptedAnswer": {"@type": "Answer", "text": "항상 그렇지는 않습니다. 인상이 이미 시장에 반영돼 있었다면 충격이 작고, 예상보다 빠르거나 엔화가 급등할 때 청산 압력이 커집니다."}},
-    {"@type": "Question", "name": "엔 캐리 청산이 오면 코스피는 얼마나 빠지나요?", "acceptedAnswer": {"@type": "Answer", "text": "미리 말할 수 있는 숫자는 없습니다. 2024년 8월 5일에 코스피가 8.77% 하락한 사례가 있지만, 그 하락에는 다른 요인도 섞여 있었어요."}},
-    {"@type": "Question", "name": "손익분기 환율 계산에 세금과 수수료는 들어가나요?", "acceptedAnswer": {"@type": "Answer", "text": "이 글의 예시에는 넣지 않았습니다. 실제 거래에서는 세금, 거래 수수료, 환전 스프레드가 더해져 손익분기가 더 불리하게 움직여요."}},
-    {"@type": "Question", "name": "일본 정책금리 최신 수치는 어디서 보나요?", "acceptedAnswer": {"@type": "Answer", "text": "일본은행 영문 사이트의 Monetary Policy Meetings 메뉴에서 회의별 결정문을 볼 수 있습니다."}}
+    {
+      "@type": "Question",
+      "name": "엔 캐리 트레이드는 개인도 할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "직접 엔화를 빌려 투자하는 개인은 드뭅니다. 보통 헤지펀드나 기관이 하고, 개인은 엔화 대출을 낀 상품이 아니라면 간접적으로 영향만 받아요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "엔화가 오르면 왜 주식이 떨어지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "엔화로 빌린 돈이 해외 자산에 들어가 있으면, 엔화가 오를 때 그 자산을 팔아 빚을 갚는 쪽으로 움직이기 때문입니다. 판매 물량이 한꺼번에 나오면 가격이 흔들려요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "달러 캐리 트레이드도 같은 원리인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "같은 원리입니다. 빌리는 통화만 달러로 바뀌고, 금리가 낮은 통화로 빌려 높은 자산에 넣는 구조는 똑같아요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "일본은행이 금리를 올리면 항상 청산이 일어나나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "항상 그렇지는 않습니다. 인상이 이미 시장에 반영돼 있었다면 충격이 작고, 예상보다 빠르거나 엔화가 급등할 때 청산 압력이 커집니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "엔 캐리 청산이 오면 코스피는 얼마나 빠지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "미리 말할 수 있는 숫자는 없습니다. 2024년 8월 5일에 코스피가 8.77% 하락한 사례가 있지만, 그 하락에는 다른 요인도 섞여 있었어요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "손익분기 환율 계산에 세금과 수수료는 들어가나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "이 글의 예시에는 넣지 않았습니다. 실제 거래에서는 세금, 거래 수수료, 환전 스프레드가 더해져 손익분기가 더 불리하게 움직여요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "일본 정책금리 최신 수치는 어디서 보나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "일본은행 영문 사이트의 Monetary Policy Meetings 메뉴에서 회의별 결정문을 볼 수 있습니다."
+      }
+    }
   ]
 }
 </script>

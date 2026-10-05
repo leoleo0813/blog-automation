@@ -73,6 +73,21 @@ def lint(path, series):
         elif not src.startswith('http'):
             fails.append(f"상대경로 이미지(티스토리에서 깨짐, GitHub 원본 주소로): {src}")
 
+    # 그림 장수는 내용에 따라 1~3장(RULES.md 「이미지」). 숫자 표가 많은데 1장이면 이유를 적게 한다.
+    if len(imgs) > 3:
+        fails.append(f"본문 그림 {len(imgs)}장 (최대 3장)")
+    num_tables = sum(1 for tb in re.findall(r'<table.*?</table>', html, re.S)
+                     if len(re.findall(r'\d[\d,.]*\s*(%|원|조|만|억|년|월|일|배|달러)', tb)) >= 4)
+    if len(imgs) == 1 and num_tables >= 3 and not fm.get('figure_plan'):
+        fails.append(f"숫자 표 {num_tables}개인데 그림 1장 — 그림을 늘리거나 figure_plan에 1장으로 충분한 이유를 적을 것")
+
+    # 금지 어휘가 소제목·박스 제목·FAQ 헤딩에 쓰였는지(RULES.md 2026-10-01 점검 반영)
+    for head in re.findall(r'<(?:h2|summary|strong)[^>]*>(.*?)</(?:h2|summary|strong)>', html, re.S):
+        h = re.sub(r'<[^>]+>', '', head)
+        for w in ('걸리는', '막히는', '헷갈', '세 줄', '먼저 잡아 둘', '전망', '추천', '목표가', '급등', '대박'):
+            if w in h and len(h) < 60:
+                fails.append(f"제목·소제목 금지 어휘 '{w}': {h.strip()[:30]}")
+
     targets = re.findall(re.escape(BLOG) + r'([^"#?]+)', html)
     usable = 0
     for t in set(targets):

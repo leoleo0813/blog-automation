@@ -34,9 +34,13 @@ self_check: |
   첫 문장 유형: 대비형(최근 10편과 겹치지 않음). 인트로 둘째 문장에 직접 답(분기 vs 월).
   기관 안내 문장 링크 처리 완료, 출처 목록 8개 전부 링크.
   AI 티 점검: em대시 0개, 다만 0회, mark 3개, FAQ 4개, FAQ 헤딩 "SCHD 분배금 헷갈리는 부분 4가지"(신규), 요약박스 제목 "🔎 비교 전에 숫자 4개"(신규 문구, 색 teal).
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 분배금 추이 막대(최근 분기)
+  2: 분배 달력 — 분기 4회 vs 매월 12회
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-03</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>SCHD와 한국판 SCHD는 같은 지수를 따라가는데도 분배금이 들어오는 모양이 다릅니다. 미국에 상장된 SCHD는 3·6·9·12월에 분기마다 한 번, 국내 상장 TIGER·SOL·ACE 미국배당다우존스는 매달 분배금을 줍니다.</p>
 
@@ -57,7 +61,7 @@ self_check: |
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금 100만 원에서 세금을 떼면</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매매차익 세금은 어디서 갈리나</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분배금 숫자로 읽을 수 있는 것과 없는 것</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">SCHD 분배금 헷갈리는 부분 4가지</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">SCHD 분배금 받기 전 물어볼 4가지</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0f766e;padding-left:12px;margin-top:36px;">SCHD와 국내 ETF 3종을 한 장으로 비교</h2>
@@ -80,6 +84,8 @@ self_check: |
 <p>지수는 미국 상장사 중 10년 이상 꾸준히 배당한 기업을 배당 성장과 재무 지표로 걸러 100개를 담습니다. 한 종목은 최대 4%, 한 업종은 최대 25%까지만 담는 상한이 있고, 구성 종목은 매년 3월에 바뀝니다(<a href="https://www.spglobal.com/spdji/en/indices/dividends-factors/dow-jones-us-dividend-100-index/" target="_blank" rel="noopener">S&amp;P 다우존스 지수 소개</a>).</p>
 
 <p>총보수는 운용사가 공시한 숫자이고, 실제로 빠져나가는 비용은 거래 비용이 더해져 조금 더 큽니다. 총보수와 실부담 비용이 다른 이유는 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison" target="_blank" rel="noopener">ETF 수수료 글</a>에서 표로 풀었습니다. 각 상품의 최신 보수는 <a href="https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7458730009" target="_blank" rel="noopener">TIGER 상품 페이지</a>와 <a href="https://www.aceetf.co.kr/fund/K55101DN4471" target="_blank" rel="noopener">ACE 상품 페이지</a>에서 바로 볼 수 있습니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/schd-dividend-korea-listed-etf-gap-2.png" alt="12개월 달력 그림. SCHD는 3·6·9·12월 분기 4회, 국내 상장 미국배당다우존스 ETF 3종은 매월 12회 분배" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 본문 비교표(분배 주기)</figcaption></figure>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0f766e;padding-left:12px;margin-top:36px;">SCHD 분기 분배금, 최근 7개 분기 추이</h2>
 
@@ -135,7 +141,7 @@ self_check: |
 
 <p>구성 쏠림도 같이 봐야 합니다. 2026년 9월 말 자료에서 헬스케어가 약 20%, 필수소비재가 약 20%, 에너지가 약 16%로 세 업종이 절반을 넘었습니다. 한 업종 상한 25%는 지켜지지만 업종 몇 개의 실적이 분배금 흐름을 좌우하는 구조입니다. 이 글은 어느 쪽을 사라는 뜻이 아니라 고를 때 비교할 항목을 정리한 것입니다.</p>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0f766e;padding-left:12px;margin-top:36px;">SCHD 분배금 헷갈리는 부분 4가지</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0f766e;padding-left:12px;margin-top:36px;">SCHD 분배금 받기 전 물어볼 4가지</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">SCHD 분배금은 언제 들어오나요</summary>
@@ -192,7 +198,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-03",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/schd-dividend-korea-listed-etf-gap"

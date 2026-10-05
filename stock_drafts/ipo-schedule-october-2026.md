@@ -45,9 +45,10 @@ self_check: |
   기관 안내 문장(KIND, DART) 링크 처리, 출처 목록 8개 전부 링크 처리.
   내부 링크: 증거금 계산 글, IPO 의무보유확약 글 모두 published 상태.
   AI 티 점검: em대시 0개, 다만 1회, 확인하세요류 2회, mark 5개, FAQ 4개(직전 5개와 다름), FAQ 헤딩 "청약 전에 많이들 물어보세요"(신규), 요약박스 제목 "🗓️ 이번 달 달력에서 짚을 것"(신규 문구, 장미색), H2 6개 중 "~나요"형 1개.
+figure_plan: "1장으로 충분 — 10월 청약·상장 타임라인. 나머지 표 3개는 금액·영업일 계산용이라 그림보다 표가 읽기 쉬움"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-04</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>10월 공모주 달력을 열어 보면 청약일이 한 달 내내 이어져서 어느 날 무엇을 해야 하는지 헷갈리기 쉬워요. 2026년 10월 4일 기준으로 가장 가까운 일반청약은 엘리스그룹의 10월 7~8일이고, 엠에스바이오와 디티에스가 12~14일에 이어서 받아요.</p>
 
@@ -225,22 +226,60 @@ self_check: |
   "headline": "10월 공모주 일정 2026 청약일과 상장일",
   "description": "2026년 10월 공모주 8곳의 일반청약일, 공모가, 환불일, 상장 예정일을 한 표로 정리하고 최소 증거금 계산과 환불·상장 영업일 계산을 더했어요.",
   "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/ipo-schedule-october-2026-1.png",
-  "author": { "@type": "Person", "name": "센시티브보스" },
-  "publisher": { "@type": "Person", "name": "센시티브보스" },
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
   "datePublished": "2026-10-04",
-  "dateModified": "2026-10-04",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://sensitiveboss3.tistory.com/entry/ipo-schedule-october-2026" }
+  "dateModified": "2026-10-05",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/ipo-schedule-october-2026"
+  }
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "공모주 청약은 하루에 몇 개까지 할 수 있어요?", "acceptedAnswer": {"@type": "Answer", "text": "청약 기간만 겹치지 않으면 몇 개든 가능해요. 같은 날 두 곳에 청약하면 증거금이 각각 필요해서 계좌 잔액이 먼저 한계가 돼요."}},
-    {"@type": "Question", "name": "공모가가 확정되면 증거금이 달라지나요?", "acceptedAnswer": {"@type": "Answer", "text": "달라져요. 청약증거금은 확정된 공모가로 계산하니까, 희망가 상단으로 정해지면 표의 위쪽 금액에 가까워져요."}},
-    {"@type": "Question", "name": "환불일에는 돈이 자동으로 돌아오나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 배정받지 못한 주수만큼의 증거금이 청약한 증권사 계좌로 돌아와요. 배정받은 주식 대금은 그 증거금에서 빠져요."}},
-    {"@type": "Question", "name": "일정이 바뀌는 경우도 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "있어요. 수요예측 결과에 따라 공모가가 정해진 뒤에야 청약일과 상장일이 확정되는 기업도 있어서, 청약 전날에 한 번 더 보는 게 안전해요."}}
+    {
+      "@type": "Question",
+      "name": "공모주 청약은 하루에 몇 개까지 할 수 있어요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "청약 기간만 겹치지 않으면 몇 개든 가능해요. 같은 날 두 곳에 청약하면 증거금이 각각 필요해서 계좌 잔액이 먼저 한계가 돼요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "공모가가 확정되면 증거금이 달라지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "달라져요. 청약증거금은 확정된 공모가로 계산하니까, 희망가 상단으로 정해지면 표의 위쪽 금액에 가까워져요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "환불일에는 돈이 자동으로 돌아오나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네, 배정받지 못한 주수만큼의 증거금이 청약한 증권사 계좌로 돌아와요. 배정받은 주식 대금은 그 증거금에서 빠져요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "일정이 바뀌는 경우도 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "있어요. 수요예측 결과에 따라 공모가가 정해진 뒤에야 청약일과 상장일이 확정되는 기업도 있어서, 청약 전날에 한 번 더 보는 게 안전해요."
+      }
+    }
   ]
 }
 </script>

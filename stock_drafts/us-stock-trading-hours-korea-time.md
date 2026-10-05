@@ -38,9 +38,13 @@ self_check: |
   투자자 섹션 소제목은 규칙 문구를 그대로 쓰지 않고 "시간대별로 주문이 다르게 체결되는 이유", 문단형(굵은 라벨 목록 아님).
   FAQ 5개(직전 123편 7개·124편 6개와 다름), 헤딩 "미국장 시간 Q&A 5개". mark 3개, em대시 0.
   그림 1장(한국시간 하루 막대), GitHub 원본 주소.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 한국시간 하루 막대(서머타임 전후 비교) — 시간대 표를 한눈에
+  2: 10월 말~새해 날짜 타임라인 — 휴장·조기폐장·야간 세션 시작 순서
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-03</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>미국주식 정규장은 지금 한국시간 밤 10시 30분에 열려 다음 날 새벽 5시에 닫혀요. 11월 1일(일) 미국 서머타임이 끝나면 모든 시간이 한 시간씩 늦어져서, 11월 2일(월) 밤부터는 밤 11시 30분~새벽 6시가 돼요. 12월 6일부터는 미국 거래소가 밤샘 거래를 시작할 예정이라, 한국 낮 시간에도 거래소 호가가 생겨요.</p>
 
@@ -114,6 +118,8 @@ self_check: |
 </table>
 
 <p>조기 폐장일에는 정규장이 3시간 30분만 열려요. 평소처럼 새벽 6시까지 열린다고 생각하고 주문을 미뤄 두면 장이 이미 끝나 있을 수 있어요.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/us-stock-trading-hours-korea-time-2.png" alt="10월 말부터 새해까지 미국장 시간이 바뀌는 날을 순서대로 놓은 타임라인. 11월 1일 서머타임 종료, 11월 26일 휴장, 27일 조기폐장, 12월 6일 야간 세션 시작, 12월 24일 조기폐장, 25일 휴장, 1월 1일 휴장" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: NYSE 휴장 일정, 서머타임 규칙, SIP 23x5 시행 일정</figcaption></figure>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0e7490;padding-left:12px;margin-top:36px;">12월 6일부터 미국 거래소 밤샘 거래 시작</h2>
 
@@ -202,7 +208,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-03",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/us-stock-trading-hours-korea-time"

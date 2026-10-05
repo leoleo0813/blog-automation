@@ -43,9 +43,13 @@ self_check: |
   [2026-10-02 독자 관점 규칙 반영]
   gate_pass:false인 111(CAGR)·115(MDD)편 링크 제거(발행 안 될 수 있어 깨진 링크 위험) → 검산 문장·회복률 원리 문장으로 교체. 두 편 발행 후 링크 다시 추가할 것.
   그림 1장(단리 vs 복리 30년). "주식 투자에서 복리가 작동하는 곳" H2 추가(배당 재투자·보수·손실, 추천 없음). 내부 링크 2개(10·47편 발행 완료). '확인하세요'류 정리. FAQ 4개 유지. gate_pass:false 사유(게이트4)는 그대로.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고).
+figure_plan: |
+  1: 단리 vs 복리 30년(꺾은선)
+  2: 적립식 원금 vs 이자 누적 막대
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>같은 연 5%로 1,000만 원을 30년 굴려도 단리는 2,500만 원, 복리는 약 4,322만 원으로 갈려요. 복리 계산은 원금 × (1 + 이율)<sup>기간</sup> 한 줄이면 끝나요.</p>
 
@@ -185,6 +189,8 @@ self_check: |
   <strong style="color:#7a5a00;font-size:18px;">✅ 계산 전에 확인할 것</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>이율이 세전인지 세후인지 적어 둬요.</li><li>이자가 붙는 주기(n)를 확인해요.</li><li>납입 시점이 월초인지 월말인지 맞춰요.</li></ul>
 </div>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/compound-interest-formula-simple-monthly-2.png" alt="월 30만 원 적립식 10년·20년·30년 누적 막대. 원금 3,600만·7,200만·1억 800만 원 위에 이자 약 1,058만·5,131만·1억 4,168만 원이 쌓임" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산 예시: 월말 납입, 연 5%, 세금 전</figcaption></figure>
+
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #d4a017;padding-left:12px;margin-top:36px;">주식 투자에서 복리가 작동하는 곳</h2>
 
 <p>복리는 예금에만 있는 게 아니에요. 주식 계좌에서는 세 군데에서 조용히 작동해요.</p>
@@ -247,7 +253,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-02",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/compound-interest-formula-simple-monthly"

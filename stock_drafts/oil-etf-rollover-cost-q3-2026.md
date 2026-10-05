@@ -41,9 +41,13 @@ self_check: |
   기관 안내 문장 3개(한국거래소, 금융투자협회, 국세청 계열 세금 글 안내 등) 링크 처리, 출처 목록 5개 전부 링크 처리.
   내부 링크: 괴리율, 수수료, 환헤지, 레버리지·인버스, 국내상장 해외ETF 세금, 소비자물가지수 6개 전부 발행 완료(published) 글.
   AI 티 점검: em대시 0개, 다만 0회, 확인하세요류 0회, mark 3개, FAQ 5개, FAQ 헤딩 "원유 ETF 앞에서 자주 막히는 질문"(신규), 요약박스 제목 "🛢️ 원유 ETF 읽기 전 핵심 세 가지"(신규 문구, 주황색), H2 7개 중 "~나요"형 2개.
+  [2026-10-05] 그림 2장으로 늘림(figure_plan 참고). 그림마다 다른 정보를 보여 줌.
+figure_plan: |
+  1: 월 롤오버율별 1년 손익 막대(가정)
+  2: 3분기 실제 WTI vs ETF 수익률 비교
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-04</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>2026년 3분기에 WTI 유가가 30.10% 오르는 동안 KODEX WTI원유선물(H)은 35.22% 올라 국내 상장 ETF 수익률 1위를 기록했습니다. 원유 ETF는 유가 자체가 아니라 원유선물을 매달 갈아타는 상품이라서, 유가가 제자리여도 롤오버 때문에 수익이 깎일 수 있습니다.</p>
 
@@ -65,7 +69,7 @@ self_check: |
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 원유 ETF도 성과가 갈리는 세 가지 조건</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">원유 ETF를 보기 전 점검 항목</a></li>
   <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자에게 유가가 중요한 이유</a></li>
-  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">원유 ETF 앞에서 자주 막히는 질문</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">원유 ETF를 처음 볼 때 생기는 질문</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">2026년 3분기 원유 ETF 수익률 대조표</h2>
@@ -101,6 +105,8 @@ self_check: |
   <strong>💡 숫자를 읽을 때</strong>
   <p style="margin:8px 0 0 0;">한 분기 수익률은 과거 기록이고 다음 분기의 방향을 알려 주지 않습니다. 이 글은 어느 상품이 좋은지가 아니라, 같은 유가 상승에서 수익률이 왜 서로 다를 수 있는지를 설명합니다.</p>
 </div>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/oil-etf-rollover-cost-q3-2026-2.png" alt="2026년 3분기 WTI 가격 상승률 30.10퍼센트와 KODEX WTI원유선물(H) 수익률 35.22퍼센트 비교 막대그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국경제·뉴스1 보도, 차이는 직접 계산</figcaption></figure>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">롤오버 비용은 어떻게 생기나요</h2>
 
@@ -188,7 +194,7 @@ self_check: |
 
 <p>이 경로가 항상 같은 크기로 작동하지는 않습니다. 같은 유가 상승이어도 원인이 수요 증가인지 공급 차질인지에 따라 업종별 영향이 달라집니다. 물가 지표를 읽는 법은 <a href="https://sensitiveboss3.tistory.com/entry/consumer-price-index-calculation-guide" target="_blank" rel="noopener">소비자물가지수 계산 방법과 보는 순서 글</a>에서 이어서 볼 수 있습니다.</p>
 
-<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">원유 ETF 앞에서 자주 막히는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #ea580c;padding-left:12px;margin-top:36px;">원유 ETF를 처음 볼 때 생기는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">원유 ETF는 유가를 그대로 따라가나요</summary>
@@ -238,11 +244,20 @@ self_check: |
   "headline": "원유 ETF 3분기 수익률과 롤오버 비용",
   "description": "2026년 3분기 WTI 상승률 30.10%와 KODEX WTI원유선물(H) 35.22%의 차이, 콘탱고·백워데이션 롤오버 구조, 월 1% 콘탱고의 1년 환산 손익 계산을 정리했습니다.",
   "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/oil-etf-rollover-cost-q3-2026-1.png",
-  "author": { "@type": "Person", "name": "센시티브보스" },
-  "publisher": { "@type": "Person", "name": "센시티브보스" },
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
   "datePublished": "2026-10-04",
-  "dateModified": "2026-10-04",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://sensitiveboss3.tistory.com/entry/oil-etf-rollover-cost-q3-2026" }
+  "dateModified": "2026-10-05",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sensitiveboss3.tistory.com/entry/oil-etf-rollover-cost-q3-2026"
+  }
 }
 </script>
 
@@ -251,11 +266,46 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "원유 ETF는 유가를 그대로 따라가나요", "acceptedAnswer": {"@type": "Answer", "text": "그대로 따라가지 않습니다. 원유 ETF는 원유선물을 매달 갈아타며 담고, 롤오버 효과와 보수, 환율 처리 방식이 수익률을 유가와 다르게 만듭니다."}},
-    {"@type": "Question", "name": "3분기에 ETF가 WTI보다 더 오른 이유는 무엇인가요", "acceptedAnswer": {"@type": "Answer", "text": "WTI는 30.10% 올랐고 KODEX WTI원유선물(H)은 35.22% 올라 차이는 5.12%p입니다. 이 차이를 나눈 공시 자료는 확인하지 못했고, 롤오버 수익과 환헤지 효과, 측정 시점 차이가 후보입니다."}},
-    {"@type": "Question", "name": "콘탱고일 때 원유 ETF는 반드시 손해인가요", "acceptedAnswer": {"@type": "Answer", "text": "반드시는 아닙니다. 콘탱고는 롤오버 때 손실 요인이 되지만, 유가 자체가 그보다 크게 오르면 전체 수익률은 플러스가 될 수 있습니다."}},
-    {"@type": "Question", "name": "상품명 뒤의 (H)는 무슨 뜻인가요", "acceptedAnswer": {"@type": "Answer", "text": "(H)는 환헤지형이라는 표시입니다. 원·달러 환율 변동의 영향을 줄이도록 설계되어, 환율이 내려간 분기에 환노출형보다 유리한 쪽으로 작용할 수 있습니다."}},
-    {"@type": "Question", "name": "원유 ETF와 원유 ETN은 어떻게 다른가요", "acceptedAnswer": {"@type": "Answer", "text": "ETF는 운용사가 선물을 직접 담는 펀드이고, ETN은 증권사가 지표 수익률을 지급하겠다고 약속한 증권입니다. 그래서 ETN에는 발행사 신용 위험과 괴리율 위험이 따로 붙습니다."}}
+    {
+      "@type": "Question",
+      "name": "원유 ETF는 유가를 그대로 따라가나요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "그대로 따라가지 않습니다. 원유 ETF는 원유선물을 매달 갈아타며 담고, 롤오버 효과와 보수, 환율 처리 방식이 수익률을 유가와 다르게 만듭니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "3분기에 ETF가 WTI보다 더 오른 이유는 무엇인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WTI는 30.10% 올랐고 KODEX WTI원유선물(H)은 35.22% 올라 차이는 5.12%p입니다. 이 차이를 나눈 공시 자료는 확인하지 못했고, 롤오버 수익과 환헤지 효과, 측정 시점 차이가 후보입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "콘탱고일 때 원유 ETF는 반드시 손해인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "반드시는 아닙니다. 콘탱고는 롤오버 때 손실 요인이 되지만, 유가 자체가 그보다 크게 오르면 전체 수익률은 플러스가 될 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "상품명 뒤의 (H)는 무슨 뜻인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "(H)는 환헤지형이라는 표시입니다. 원·달러 환율 변동의 영향을 줄이도록 설계되어, 환율이 내려간 분기에 환노출형보다 유리한 쪽으로 작용할 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "원유 ETF와 원유 ETN은 어떻게 다른가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ETF는 운용사가 선물을 직접 담는 펀드이고, ETN은 증권사가 지표 수익률을 지급하겠다고 약속한 증권입니다. 그래서 ETN에는 발행사 신용 위험과 괴리율 위험이 따로 붙습니다."
+      }
+    }
   ]
 }
 </script>
