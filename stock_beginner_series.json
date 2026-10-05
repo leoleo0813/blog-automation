@@ -2497,17 +2497,17 @@
       "keyword": "공포탐욕지수",
       "type": "지표 개념",
       "keyword_class": "human-assisted",
-      "publish_effort": "capture",
+      "publish_effort": "oneclick",
       "monthly_search_volume": "3520 (PC 870 / 모바일 2650)",
       "gate1_pass": true,
       "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 KB Think·한경 사전·언론·가상자산 지수 서비스·소규모 블로그 혼재. 일곱 점수 평균 계산 예시·평균 같은 두 시장 비교·구간 경계 비교표는 요약에서 미확인.",
       "unique_asset_plan": "가상 일곱 점수 평균 계산과 그래프, 평균 같은 두 시장 비교표, 지표 14점→종합 2점 민감도, 일곱 지표 표, 구간 경계 비교표",
-      "primary_source": "cnn.com WebFetch 1회 EGRESS_BLOCKED. 일곱 지표·동일 가중 평균·0~100 척도는 해외 소개 글 5곳+국내 해설 4곳 검색 요약에서 일치(본문 미열람). 지표별 환산 방식은 비공개라 단정하지 않음",
+      "primary_source": "CNN Business 공포탐욕지수 페이지 화면 캡처(사람, 2026-10-05) + 일곱 지표·동일 가중 평균은 독립 출처 교차검증",
       "status": "drafted",
       "draft_path": "stock_drafts/fear-greed-index-seven-indicators.md",
       "cannibalization_note": "92편(VIX)은 일곱 지표 중 하나만 다룸. 이 글은 7개 종합 구조와 해석 한계가 주제. 92·105·98편으로 링크.",
-      "gate_pass": false,
-      "gate_pass_note": "현재 수치 표 미기입 + CNN 원문 미열람. capture_guide대로 CNN 페이지 캡처를 올려 주면 표를 채우고 true로 전환."
+      "gate_pass": true,
+      "gate_pass_note": "2026-10-05 CNN 페이지 캡처(현재 31 Fear, 전일 28, 1주 36, 1개월 46, 1년 54, 갱신 Oct 2 ET, 지표 4개 라벨)로 게이트4 확정. 일곱 지표·동일 가중은 교차검증. 점수는 매일 바뀌어 refresh_due 2026-10-12."
     },
     {
       "id": "120",

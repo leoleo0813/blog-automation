@@ -3,7 +3,7 @@ keyword: 공포탐욕지수
 title: 공포탐욕지수 7개 지표와 점수 계산 구조
 slug: fear-greed-index-seven-indicators
 keyword_class: human-assisted
-publish_effort: capture
+publish_effort: oneclick
 monthly_search_volume: 3520 (PC 870 / 모바일 2650)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
@@ -18,21 +18,18 @@ unique_asset: |
   (b) 같은 평균 50에서 구성이 다른 두 시장(갈림형 편차 45점 / 잠잠형 0점) 비교표, 지표 14점 변화가 종합 2점으로 나타나는 민감도 계산.
   (c) 일곱 지표 비교 대상·공포 신호·탐욕 신호 표, 20점 단위/25점 단위 구간표 비교.
 primary_source: |
-  1차 출처인 CNN Business 공포탐욕지수 페이지(cnn.com/markets/fear-and-greed) WebFetch 1회 EGRESS_BLOCKED.
+  CNN Business 공포탐욕지수 페이지(edition.cnn.com/markets/fear-and-greed) 화면을 사람이 캡처해 확인했다(2026-10-05): 현재 31 Fear, 전일 28, 1주 전 36, 1개월 전 46 Neutral, 1년 전 54 Neutral, 마지막 갱신 Oct 2 7:59:58 PM ET, 지표 4개(모멘텀 Fear, 강도 Extreme Fear, 폭 Extreme Fear, 풋콜 Fear)와 지표별 설명(125일 이동평균, NYSE 52주 신고·신저, 맥클렐런 거래량 합산지수, 5일 평균 풋콜 비율). 자동화 세션에서는 cnn.com WebFetch가 EGRESS_BLOCKED.
   WebSearch 3회로 독립 출처를 교차 확인했다: 7개 지표 이름과 동일 가중 평균, 0~100 척도, 50 중립은 SoFi·NerdWallet·expobusiness·investingnews·macromicro 등 해외 소개 글과 KB Think·한경 용어사전·단비뉴스·KB자산운용 해설(검색 요약 단계 확인, 본문 미열람)에서 일치. 시장 모멘텀 125일 이동평균, 52주 신고가/신저가, 정크본드 금리 차, VIX, 주식 대비 국채 수익률도 일치. 구간 경계는 20점 단위(국내 해설)와 25점 단위(해외 소개)로 출처 간 상이해 본문에서 두 방식을 나란히 제시했다. 각 지표의 0~100점 환산 방식은 공개 자료에서 확인되지 않아 본문에 단정하지 않았다.
 기준일: 2026년 10월 기준 (계산 예시는 전부 가상)
-refresh_due: 2026-10-30
+refresh_due: 2026-10-12
 tags: 공포탐욕지수, 공포탐욕지수 뜻, CNN 공포탐욕지수, Fear and Greed Index, 투자심리지수, 시장 심리 지표, VIX, 풋콜비율, 정크본드, 미국 증시
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1 3,520회, 게이트2 v3 통과, 게이트3 계산 예시·비교표 확보. 게이트4 미충족: CNN 원문 접속 불가이고 현재 수치 표(규칙: 지표 글은 현재 값 필수)를 채울 수 없다. 구조 설명은 독립 출처 다수가 일치해 교차검증 수준이다.
-  사람이 할 일: capture_guide 참고. 현재 점수 캡처를 올려 주시면 본문 "현재 점수를 확인하는 곳" 표를 채우고 gate_pass를 true로 바꿀 수 있습니다.
-capture_guide: |
-  (1) 왜 필요한가: 지표 글에는 현재 수치 표가 필수인데, 자동화 세션에서 CNN 페이지가 차단돼 현재 점수·등급·기준 시점을 얻지 못했습니다. 구간 이름도 CNN 표기 기준으로 확정하고 싶습니다.
-  (2) 방법 1순위: https://www.cnn.com/markets/fear-and-greed 접속, 화면 맨 위의 게이지(현재 점수와 등급 문구)와 그 아래 "Fear &amp; Greed Over Time" 또는 이전 시점 값이 나온 부분이 한 화면에 보이게 캡처. 2순위: 같은 페이지의 일곱 지표 설명 영역(각 지표 이름과 Fear/Greed 라벨)을 캡처.
-  (3) 캡처 후 "스크린샷을 대화에 올려주세요". 올려 주시면 현재 수치 표와 구간 설명을 CNN 표기에 맞춰 수정합니다.
+  게이트1 3,520회, 게이트2 v3 통과, 게이트3 계산 예시·비교표·현재 수치 표 확보. 게이트4는 현재 점수·등급·이전 시점 값·4개 지표 라벨을 사람이 올린 CNN 페이지 캡처(2026-10-05, 마지막 갱신 10월 2일 ET)로 대조 완료. 일곱 지표 이름과 동일 가중 평균은 독립 출처 교차검증이고, 캡처에는 시장 모멘텀·주가 강도·주가 폭·풋콜 4개만 담겨 정크본드·VIX·안전자산 3개 설명은 교차검증 수준이다. 현재 점수는 매일 바뀌므로 발행 전 표의 날짜를 확인하고 필요하면 갱신.
+capture_guide: ""
 self_check: |
-  [2026-10-02 gate_pass:false, 현재 수치 표 미기입 + 1차 출처 미열람]
+  [2026-10-02 작성, 2026-10-05 CNN 화면 캡처 대조 후 gate_pass:true]
+  2026-10-05 변경: 현재 수치 표(31 Fear 등)와 지표별 라벨 표 추가, 구간 단락에 CNN 게이지 5칸·관찰 라벨 추가, 지표 표에 NYSE·맥클렐런·5일 평균 반영. 점수가 매일 바뀌어 refresh_due 2026-10-12.
   후보 경위: backlog.verified에 단순 순서 대기 후보 없음. 신규 8개 실측: 공포탐욕지수 3,520 PASS / 빅테크 뜻 1,570 PASS / 인덱스펀드 뜻 1,560 PASS / 금리인상 주식 350·분할매수 뜻 140·스윙 투자 뜻 80·롱숏 전략 뜻 20·배당귀족주 뜻 20 FAIL. 최고 검색량인 공포탐욕지수 채택. 나머지 PASS 2개는 다음 편 후보로 backlog.verified 기록.
   카니벌라이제이션: 92편(VIX)은 일곱 지표 중 하나만 다루고 공포탐욕지수 단어는 기존 초안 전체에서 0건(grep). 본문에서 92·105·98편으로 내부 링크(전부 발행 완료).
   YMYL: 종목 추천·목표가·매매시점 없음. 극단 구간을 매수·매도 신호로 제시하지 않고 방향 단정 대신 단정할 수 없는 이유(지표 구조)와 함께 볼 지표를 적었다.
@@ -43,21 +40,9 @@ self_check: |
   AI 티 점검: em대시 0개, 다만 2회, mark 밀도 3개, FAQ 5개(직전 118 6·117 4와 다름), 본문 H2 6개 중 "~나요"형 1개. 요약박스 청록(#eaf7f6/#2a9d8f), 제목 "🧭 점수를 읽기 전에", 마무리 박스 "✅ 챙겨 둘 읽기 순서". FAQ 헤딩 "공포탐욕지수 얘기에 따라붙는 의문들". 면책 문구 새 표현.
   기관 링크: 외부 안내 문장·출처 목록 CNN·KB Think·한경 용어사전 전부 링크 처리. 내부 링크 3개. 그림 1장(가상 일곱 점수 막대그래프).
   발행 글 갱신(refresh): lint_draft --due에 92·98·105편이 현재 수치 부재로 기한 도달. 현재 값을 1차 출처로 확인할 수 없어 이번 실행에서는 갱신하지 않음.
-user_todo:
-  why: 지표 글에는 "지금 점수"가 꼭 있어야 하는데, CNN 사이트가 제 쪽에서 막혀 현재 점수를 못 봤습니다.
-  steps:
-  - 휴대폰이나 PC로 https://www.cnn.com/markets/fear-and-greed 열기
-  - 맨 위 반원 게이지(숫자 점수와 Fear/Greed 단어)가 보이게 캡처
-  - 조금 내려서 "Previous close / 1 week ago / 1 month ago / 1 year ago" 값이 나온 부분도 캡처
-  must_show:
-  - '현재 점수 숫자와 등급 단어(예: Fear, Greed)'
-  - '"Last updated" 같은 갱신 날짜·시간'
-  minutes: 2
-  device: 휴대폰 가능
-  if_skipped: 계속 발행 보류입니다. 점수는 매일 바뀌어서, 캡처한 날짜 기준으로 표를 채우고 한 달 뒤 갱신합니다.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
 <p>공포탐욕지수를 읽으려면 이 숫자가 일곱 개 점수의 평균이라는 것부터 알아야 합니다. CNN이 공개하는 0~100점 지표로, 0에 가까울수록 극단적 공포, 100에 가까울수록 극단적 탐욕, 50은 중립으로 봅니다.</p>
 
@@ -109,15 +94,15 @@ user_todo:
 <p>일곱 지표는 주가 흐름, 옵션 시장, 채권 시장 세 곳에서 가져옵니다. 표에서 공포 쪽과 탐욕 쪽 신호가 무엇인지 나란히 봅니다.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
-  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">공포탐욕지수 일곱 지표 (CNN 공개 설명을 교차 확인한 요약)</caption>
+  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">공포탐욕지수 일곱 지표 (CNN 페이지 설명과 교차 확인 자료를 합친 요약)</caption>
   <thead>
     <tr style="background:#eaf7f6;"><th style="border:1px solid #ddd;padding:8px;">지표</th><th style="border:1px solid #ddd;padding:8px;">무엇을 비교하나</th><th style="border:1px solid #ddd;padding:8px;">공포 쪽 신호</th><th style="border:1px solid #ddd;padding:8px;">탐욕 쪽 신호</th></tr>
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">시장 모멘텀</td><td style="border:1px solid #ddd;padding:8px;">S&amp;P500 지수와 125일 이동평균</td><td style="border:1px solid #ddd;padding:8px;">지수가 평균보다 아래</td><td style="border:1px solid #ddd;padding:8px;">지수가 평균보다 위</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">주가 강도</td><td style="border:1px solid #ddd;padding:8px;">52주 신고가 종목 수와 신저가 종목 수</td><td style="border:1px solid #ddd;padding:8px;">신저가 종목이 더 많음</td><td style="border:1px solid #ddd;padding:8px;">신고가 종목이 더 많음</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">주가 폭</td><td style="border:1px solid #ddd;padding:8px;">상승 종목 거래량과 하락 종목 거래량</td><td style="border:1px solid #ddd;padding:8px;">하락 종목 거래량이 우세</td><td style="border:1px solid #ddd;padding:8px;">상승 종목 거래량이 우세</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">풋·콜 옵션</td><td style="border:1px solid #ddd;padding:8px;">하락 베팅인 풋과 상승 베팅인 콜의 비율</td><td style="border:1px solid #ddd;padding:8px;">풋 비중이 높음</td><td style="border:1px solid #ddd;padding:8px;">콜 비중이 높음</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">주가 강도</td><td style="border:1px solid #ddd;padding:8px;">NYSE 52주 신고가와 신저가 종목 수의 차이</td><td style="border:1px solid #ddd;padding:8px;">신저가 종목이 더 많음</td><td style="border:1px solid #ddd;padding:8px;">신고가 종목이 더 많음</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">주가 폭</td><td style="border:1px solid #ddd;padding:8px;">NYSE 상승 종목 거래량과 하락 종목 거래량(맥클렐런 거래량 합산지수)</td><td style="border:1px solid #ddd;padding:8px;">하락 종목 거래량이 우세</td><td style="border:1px solid #ddd;padding:8px;">상승 종목 거래량이 우세</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">풋·콜 옵션</td><td style="border:1px solid #ddd;padding:8px;">하락 베팅인 풋과 상승 베팅인 콜의 5일 평균 비율</td><td style="border:1px solid #ddd;padding:8px;">풋 비중이 높음(1 초과는 약세 신호로 해석)</td><td style="border:1px solid #ddd;padding:8px;">콜 비중이 높음</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">정크본드 수요</td><td style="border:1px solid #ddd;padding:8px;">투자등급 채권과 정크본드의 금리 차</td><td style="border:1px solid #ddd;padding:8px;">금리 차가 벌어짐</td><td style="border:1px solid #ddd;padding:8px;">금리 차가 좁아짐</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">시장 변동성</td><td style="border:1px solid #ddd;padding:8px;">VIX 지수</td><td style="border:1px solid #ddd;padding:8px;">VIX가 높음</td><td style="border:1px solid #ddd;padding:8px;">VIX가 낮음</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">안전자산 수요</td><td style="border:1px solid #ddd;padding:8px;">주식 수익률과 국채 수익률</td><td style="border:1px solid #ddd;padding:8px;">국채가 더 나은 성과</td><td style="border:1px solid #ddd;padding:8px;">주식이 더 나은 성과</td></tr>
@@ -152,7 +137,9 @@ user_todo:
   </tbody>
 </table>
 
-<p>같은 점수가 어떤 설명에서는 중립이고 다른 설명에서는 공포입니다. 점수를 인용할 때는 <mark>어느 구간표를 쓴 해설인지</mark>를 함께 보는 편이 정확합니다. 등급 이름은 <a href="https://www.cnn.com/markets/fear-and-greed" target="_blank" rel="noopener">CNN 공포탐욕지수 페이지</a>에 표시된 것을 기준으로 삼으면 됩니다.</p>
+<p>같은 점수가 어떤 설명에서는 중립이고 다른 설명에서는 공포입니다. 점수를 인용할 때는 <mark>어느 구간표를 쓴 해설인지</mark>를 함께 보는 편이 정확합니다.</p>
+
+<p>CNN 페이지의 게이지는 극단적 공포, 공포, 중립, 탐욕, 극단적 탐욕 다섯 칸이고 눈금은 0·25·50·75·100에 있습니다. 2026년 10월 초 화면에서 28·31·36은 공포, 46·54는 중립으로 표시됐습니다. 경계선 숫자는 화면에 적혀 있지 않았습니다.</p>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2a9d8f;padding-left:12px;margin-top:36px;">주식 투자자에게 왜 중요한가</h2>
 
@@ -200,21 +187,40 @@ user_todo:
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2a9d8f;padding-left:12px;margin-top:36px;">현재 점수를 확인하는 곳</h2>
 
-<p>현재 점수와 등급은 <a href="https://www.cnn.com/markets/fear-and-greed" target="_blank" rel="noopener">CNN Business의 Fear &amp; Greed Index 페이지</a>에서 볼 수 있고, 미국 시장 거래일에 맞춰 갱신됩니다. 아래 표는 이 글을 게시할 때 그 페이지의 값을 옮겨 적는 자리입니다.</p>
+<p>현재 점수와 등급은 <a href="https://www.cnn.com/markets/fear-and-greed" target="_blank" rel="noopener">CNN Business의 Fear &amp; Greed Index 페이지</a>에서 볼 수 있습니다. 2026년 10월 5일에 본 화면의 점수는 31, 등급은 공포(Fear)였고 마지막 갱신은 미국 동부시간 10월 2일 오후 7시 59분이었습니다.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
-  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">공포탐욕지수 현재 수치</caption>
+  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">공포탐욕지수 현재 수치 (CNN Business, 2026-10-05 확인, 마지막 갱신 10월 2일 ET)</caption>
   <thead>
-    <tr style="background:#eaf7f6;"><th style="border:1px solid #ddd;padding:8px;">항목</th><th style="border:1px solid #ddd;padding:8px;">값</th></tr>
+    <tr style="background:#eaf7f6;"><th style="border:1px solid #ddd;padding:8px;">시점</th><th style="border:1px solid #ddd;padding:8px;">점수</th><th style="border:1px solid #ddd;padding:8px;">등급 표기</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">현재 점수 (0~100)</td><td style="border:1px solid #ddd;padding:8px;">게시 전 기입</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">등급 표기</td><td style="border:1px solid #ddd;padding:8px;">게시 전 기입</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">기준 시점</td><td style="border:1px solid #ddd;padding:8px;">게시 전 기입 (미국 동부시간)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">발표처</td><td style="border:1px solid #ddd;padding:8px;">CNN Business</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">다음 갱신</td><td style="border:1px solid #ddd;padding:8px;">미국 시장 다음 거래일</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">현재</td><td style="border:1px solid #ddd;padding:8px;">31</td><td style="border:1px solid #ddd;padding:8px;">공포(Fear)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">전일 종가(Previous close)</td><td style="border:1px solid #ddd;padding:8px;">28</td><td style="border:1px solid #ddd;padding:8px;">공포(Fear)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1주 전</td><td style="border:1px solid #ddd;padding:8px;">36</td><td style="border:1px solid #ddd;padding:8px;">공포(Fear)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1개월 전</td><td style="border:1px solid #ddd;padding:8px;">46</td><td style="border:1px solid #ddd;padding:8px;">중립(Neutral)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1년 전</td><td style="border:1px solid #ddd;padding:8px;">54</td><td style="border:1px solid #ddd;padding:8px;">중립(Neutral)</td></tr>
   </tbody>
 </table>
+
+<p>한 달 전 46에서 31로 내려왔으니 분위기가 중립에서 공포 쪽으로 옮겨 온 셈입니다. 발표처는 CNN Business이고, 점수는 미국 시장 거래일에 맞춰 갱신됩니다.</p>
+
+<p>같은 화면에서 일곱 지표 중 네 개의 개별 라벨도 읽을 수 있었습니다.</p>
+
+<table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
+  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">지표별 개별 라벨 (같은 화면, 일곱 중 네 개)</caption>
+  <thead>
+    <tr style="background:#eaf7f6;"><th style="border:1px solid #ddd;padding:8px;">지표</th><th style="border:1px solid #ddd;padding:8px;">화면에 표시된 라벨</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">시장 모멘텀</td><td style="border:1px solid #ddd;padding:8px;">공포(Fear)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">주가 강도</td><td style="border:1px solid #ddd;padding:8px;">극단적 공포(Extreme Fear)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">주가 폭</td><td style="border:1px solid #ddd;padding:8px;">극단적 공포(Extreme Fear)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">풋·콜 옵션</td><td style="border:1px solid #ddd;padding:8px;">공포(Fear)</td></tr>
+  </tbody>
+</table>
+
+<p>시장 모멘텀 차트에서는 S&amp;P500이 125일 이동평균선 위에 있는데도 라벨은 공포였습니다. 평균선 위·아래만으로 라벨이 정해지지 않는다는 뜻이고, 환산 방식이 공개되지 않은 이유를 보여 주는 장면입니다.</p>
 
 <div style="background:#eaf7f6;border:2px solid #2a9d8f;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#17615a;font-size:18px;">✅ 챙겨 둘 읽기 순서</strong>
@@ -255,7 +261,7 @@ user_todo:
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-02",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/fear-greed-index-seven-indicators"
