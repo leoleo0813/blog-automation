@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">2차 국민참여성장펀드 판매 일정</text>
+<text x="70" y="122" font-size="25" fill="#666">10영업일 판매, 첫 5영업일은 서민 전용 물량 3천억 원</text>
+<line x1="70" y1="380" x2="1130" y2="380" stroke="#9aa0a6" stroke-width="4"/>
+<circle cx="110" cy="380" r="13" fill="#4f46e5"/>
+<line x1="110" y1="350" x2="110" y2="310" stroke="#4f46e5" stroke-width="3"/>
+<text x="110" y="262" font-size="26" font-weight="bold" text-anchor="middle" fill="#4f46e5">9/30(수)</text>
+<text x="110" y="296" font-size="22" text-anchor="middle" fill="#333">2차 판매 시작</text>
+<circle cx="330" cy="380" r="13" fill="#e67e22"/>
+<line x1="330" y1="410" x2="330" y2="450" stroke="#e67e22" stroke-width="3"/>
+<text x="330" y="488" font-size="26" font-weight="bold" text-anchor="middle" fill="#e67e22">10/2(금)</text>
+<text x="330" y="522" font-size="22" text-anchor="middle" fill="#333">판매액 49.94%</text>
+<circle cx="560" cy="380" r="13" fill="#2e8b57"/>
+<line x1="560" y1="350" x2="560" y2="310" stroke="#2e8b57" stroke-width="3"/>
+<text x="560" y="262" font-size="26" font-weight="bold" text-anchor="middle" fill="#2e8b57">10/7(수)</text>
+<text x="560" y="296" font-size="22" text-anchor="middle" fill="#333">서민 우선배정 종료</text>
+<circle cx="820" cy="380" r="13" fill="#9aa0a6"/>
+<line x1="820" y1="410" x2="820" y2="450" stroke="#9aa0a6" stroke-width="3"/>
+<text x="820" y="488" font-size="26" font-weight="bold" text-anchor="middle" fill="#9aa0a6">10/12~14</text>
+<text x="820" y="522" font-size="22" text-anchor="middle" fill="#333">일반 판매 이어짐</text>
+<circle cx="1090" cy="380" r="13" fill="#c0392b"/>
+<line x1="1090" y1="350" x2="1090" y2="338" stroke="#c0392b" stroke-width="3"/>
+<text x="1090" y="262" font-size="26" font-weight="bold" text-anchor="middle" fill="#c0392b">10/15(목)</text>
+<text x="1090" y="296" font-size="22" text-anchor="middle" fill="#333">판매 마감</text>
+<text x="1090" y="326" font-size="22" text-anchor="middle" fill="#333">(소진 시 조기 종료)</text>
+<text x="70" y="590" font-size="21" fill="#888">10/2 17시 기준 잔여 물량: 은행 2,156억 원 / 증권사 847.8억 원. 10/3~10/5는 휴일이라 판매 없음</text>
+<text x="70" y="620" font-size="21" fill="#888">자료: 금융위원회 발표 보도(정책뉴스·이투데이, 2026-09-22~10-04), 영업일 구분은 달력으로 직접 계산</text>
+</g></svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="72" font-size="36" font-weight="bold" fill="#111">투자금별 소득공제액, 7천만 원에서 멈춤</text>
+<text x="70" y="114" font-size="25" fill="#666">공제율 3천만 원까지 40%, 5천만 원까지 20%, 7천만 원까지 10%</text>
+<line x1="80" y1="560" x2="1140" y2="560" stroke="#9aa0a6" stroke-width="3"/>
+<rect x="110" y="469" width="92" height="91" rx="6" fill="#4f46e5"/>
+<text x="156.0" y="455" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">400만</text>
+<text x="156.0" y="600" font-size="25" text-anchor="middle" fill="#333">1천만</text>
+<rect x="242" y="378" width="92" height="182" rx="6" fill="#4f46e5"/>
+<text x="288.0" y="364" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">800만</text>
+<text x="288.0" y="600" font-size="25" text-anchor="middle" fill="#333">2천만</text>
+<rect x="374" y="287" width="92" height="273" rx="6" fill="#4f46e5"/>
+<text x="420.0" y="273" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1,200만</text>
+<text x="420.0" y="600" font-size="25" text-anchor="middle" fill="#333">3천만</text>
+<rect x="506" y="241" width="92" height="319" rx="6" fill="#4f46e5"/>
+<text x="552.0" y="227" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1,400만</text>
+<text x="552.0" y="600" font-size="25" text-anchor="middle" fill="#333">4천만</text>
+<rect x="638" y="196" width="92" height="364" rx="6" fill="#4f46e5"/>
+<text x="684.0" y="182" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1,600만</text>
+<text x="684.0" y="600" font-size="25" text-anchor="middle" fill="#333">5천만</text>
+<rect x="770" y="173" width="92" height="387" rx="6" fill="#4f46e5"/>
+<text x="816.0" y="159" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1,700만</text>
+<text x="816.0" y="600" font-size="25" text-anchor="middle" fill="#333">6천만</text>
+<rect x="902" y="150" width="92" height="410" rx="6" fill="#4f46e5"/>
+<text x="948.0" y="136" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1,800만</text>
+<text x="948.0" y="600" font-size="25" text-anchor="middle" fill="#333">7천만</text>
+<rect x="1034" y="150" width="92" height="410" rx="6" fill="#9aa0a6"/>
+<text x="1080.0" y="136" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1,800만</text>
+<text x="1080.0" y="600" font-size="25" text-anchor="middle" fill="#333">1억</text>
+<text x="70" y="650" font-size="22" fill="#666">가로: 전용계좌 투자금(원) / 세로: 소득공제액(원). 1억 원은 7천만 원 초과분에 공제율이 없어 1,800만 원 그대로</text>
+<text x="70" y="684" font-size="21" fill="#888">자료: 금융위원회 발표를 보도한 정책뉴스·아주경제(2026-09), 구간별 합계는 직접 계산</text>
+</g></svg>
