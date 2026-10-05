@@ -56,12 +56,10 @@ self_check: |
 refresh_due: 2026-11-05
 refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지표 표 갱신"
 user_todo:
-  why: '1970년대 물가·성장률·실업률이 사이트마다 다르게 나오고(예: 미국 1974년 물가 11%와 12%), 원래 통계로 확정해야 합니다. 본문 표 21칸이 비어 있습니다.'
+  why: '1970년대 물가·성장률·실업률이 사이트마다 다르게 나오고(예: 미국 1974년 물가 11%와 12%), 원래 통계로 확정해야 합니다. 본문 표 미국 10칸이 비어 있습니다.'
   steps:
   - '미국 물가: 이 링크를 열면 숫자 목록이 바로 뜹니다 → https://fred.stlouisfed.org/graph/fredgraph.csv?id=FPCPITOTLZGUSA&cosd=1973-01-01&coed=1982-12-31 (파일로 내려받아지면 열어서) 화면 캡처'
   - '미국 실업률: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&fq=Annual&fam=avg&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
-  - '한국 물가: https://fred.stlouisfed.org/graph/fredgraph.csv?id=FPCPITOTLZGKOR&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
-  - '한국 경제성장률: 한국은행 경제통계시스템 https://ecos.bok.or.kr 접속 → 첫 화면 "100대 통계지표" → "경제성장률(실질)" 클릭 → 주기를 "연"으로 바꾸고 기간 1973~1982 → 표 캡처'
   - 위 링크가 안 열리면 그 단계는 건너뛰고 열린 것만 보내 주세요.
   must_show:
   - 연도(1973~1982)와 숫자가 한 화면에 같이 보일 것
@@ -133,18 +131,18 @@ user_todo:
 
 <p>한국도 해외 의존도가 높은 경제 구조라서 1차 석유파동 때 불황 속 물가 상승을 겪었고, 2차 석유파동에서도 반복됐어요. 이 흐름은 <a href="https://theme.archives.go.kr/next/koreaOfRecord/gasoline.do" target="_blank" rel="noopener">국가기록원 기록으로 만나는 대한민국 석유파동</a>에 정리돼 있어요.</p>
 
-<p>아래 표는 연도별 3지표를 한 줄씩 놓고 보기 위한 틀이에요. 출처마다 수치가 다르게 나오는 구간이라 원문 확인 전까지 값을 비워 두었어요.</p>
+<p>아래 표는 연도별 물가와 실업률을 한 줄씩 놓고 보기 위한 표예요. 한국 물가는 한국은행 경제통계시스템의 소비자물가지수(2020=100)로 전년 대비 상승률을 직접 계산했고, 당시 발표치와 소수점 단위로 다를 수 있어요. 미국 값은 원문을 확인한 뒤 채울게요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
-    <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">연도</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">한국 물가상승률</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">한국 경제성장률</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">미국 물가상승률</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">미국 실업률</th></tr>
+    <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">연도</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">한국 물가상승률(소비자물가)</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">미국 물가상승률</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">미국 실업률</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1973년</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1974년</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1975년</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1979년</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1980년</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1973년</td><td style="border:1px solid #ddd;padding:8px;">3.2%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1974년</td><td style="border:1px solid #ddd;padding:8px;">24.3%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1975년</td><td style="border:1px solid #ddd;padding:8px;">25.2%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1979년</td><td style="border:1px solid #ddd;padding:8px;">18.3%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1980년</td><td style="border:1px solid #ddd;padding:8px;">28.7%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
   </tbody>
 </table>
 
