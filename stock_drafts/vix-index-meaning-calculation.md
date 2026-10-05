@@ -51,7 +51,7 @@ primary_source: |
   위기 당시의 정확한 소수점 단위 VIX 종가는 출처마다 갈려(예: 89대 vs 96대),
   본문에서는 그 차이를 그대로 밝히고 공통으로 인정되는 "80 초과" 범위로만
   서술했다.
-기준일: 2026년 9월 기준
+기준일: 2026년 10월 2일(미국 현지 종가) 기준
 tags: VIX, VIX지수, VIX뜻, 공포지수, V코스피, 브이코스피, 변동성지수, CBOE, S&P500옵션, 주식투자지표
 gate_pass: true
 gate_pass_note: |
@@ -99,21 +99,28 @@ self_check: |
   단 한 곳에서만 신중하게 쓰고, 확정된 사실은 단정형으로 서술했다. 면책 문구는
   직전 편들과 다른 표현으로 새로 작성.
   종합 판정: 게이트1~4 전부 충족 → gate_pass:true.
-refresh_due: 2026-10-02
-refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별 해석 표 추가"
+  [2026-10-05 갱신(92편)] 현재 수치 표·투자자 관점 H2·그림 1장·내부 링크 2개로 보강.
+  VIX 2026-10-02 종가 15.31(전일 16.39, -6.59%): WebSearch 2회에서 동일 수치 확인
+  (한국어 뉴스 마켓 리포트 요약 + 영문 시세 페이지 요약). 원문 직접 접속은 시도하지 않았고
+  언론·시세 페이지 2곳 이상 일치 기준(RULES 「보류 시 사용자 할 일」 1번)으로 통과.
+  AI 티 점검: 추가 본문 em대시 0개, mark 4개 유지, "이 글은 ~정리합니다" 인트로 제거.
+  구조: 개념형 유지, 첫 H2는 기존 개념 설명. 어투 A 해설형.
+refresh_due: 2027-01-04
+refresh_reason: "현재 VIX 수치가 시간이 지나면 낡음. 최신 종가와 기준일 표, 수준 비교 그림 갱신"
+figure_plan: "1장. 현재 종가와 평소·불안·위기 수준을 막대 하나로 비교. 숫자 표는 현재 수치 표 1개뿐이라 1장으로 충분"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-27</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
 
-<p>VIX는 <mark>S&P500 지수옵션의 가격을 이용해 앞으로 30일간 주식시장이 얼마나 출렁일지 미리 계산한 수치</mark>입니다. 시장이 급락할 때 함께 치솟는 습성 때문에 '공포지수'라는 별명이 붙었습니다. 이 글은 VIX의 계산 원리와 한국의 V코스피와 어떻게 다른지, 과거 위기 때 실제로 어느 수준까지 올랐는지를 정리합니다.</p>
+<p>VIX는 <mark>S&P500 지수옵션의 가격을 이용해 앞으로 30일간 주식시장이 얼마나 출렁일지 미리 계산한 수치</mark>입니다. 시장이 급락할 때 함께 치솟는 습성 때문에 '공포지수'라는 별명이 붙었습니다. 2026년 10월 2일 종가는 15.31로, 평소 범위 안쪽입니다.</p>
 
 <div style="background:#eef2f7;border:2px solid #2c3e50;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1b2733;font-size:18px;">📉 먼저 숫자로 보는 VIX</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
+    <li>2026년 10월 2일 VIX 종가는 15.31, 하루 전 16.39보다 6.59% 낮아졌습니다.</li>
     <li>VIX는 시카고옵션거래소(CBOE)가 S&P500 옵션 가격으로 산출하는 변동성 지수입니다.</li>
     <li>한국에는 한국거래소가 만든 같은 성격의 지수 V코스피가 있습니다.</li>
     <li>2008년과 2020년 위기 때는 두 번 다 80을 넘는 극단적인 수준까지 치솟았습니다.</li>
-    <li>VIX 하나로 특정 종목의 등락을 점칠 수는 없습니다.</li>
   </ul>
 </div>
 
@@ -123,8 +130,9 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
   <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX는 어떻게 계산되나요</a></li>
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX와 V코스피 비교</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">위기 때 VIX는 얼마나 치솟았나요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX 지수 실시간으로 확인하는 법</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 몇 가지 더</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">VIX 지금 수치와 확인하는 법</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자가 VIX를 보는 이유</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">궁금한 점 몇 가지 더</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지수 뜻과 탄생 배경</h2>
@@ -207,7 +215,27 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
 
 <p>같은 시기 국내 시장에서도 V코스피가 크게 뛰었던 사례가 있습니다. <a href="https://sensitiveboss3.tistory.com/entry/dead-cat-bounce-meaning" target="_blank" rel="noopener">2026년 8월 코스피 급락·반등 사례</a>에서는 V코스피가 84.35까지 뛰었다가 이후 50.08로 낮아진 실제 수치를 확인할 수 있습니다.</p>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지수 실시간으로 확인하는 법</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">VIX 지금 수치와 확인하는 법</h2>
+
+<p>2026년 10월 2일 미국 정규장 마감 기준 VIX는 15.31입니다. 평소 범위로 잡는 10~20 안에 들어옵니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">항목</th>
+      <th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">최신 종가</td><td style="border:1px solid #ddd;padding:8px;">15.31 (전일 대비 -1.08포인트, -6.59%)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">직전 거래일 종가</td><td style="border:1px solid #ddd;padding:8px;">16.39 (2026년 10월 1일)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">기준 시점</td><td style="border:1px solid #ddd;padding:8px;">2026년 10월 2일 미국 정규장 마감</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">산출 기관</td><td style="border:1px solid #ddd;padding:8px;"><a href="https://www.cboe.com/tradable-products/vix/" target="_blank" rel="noopener">시카고옵션거래소(CBOE)</a></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">다음 발표</td><td style="border:1px solid #ddd;padding:8px;">미국 거래일마다 장중 계속 산출, 다음 종가는 2026년 10월 5일 장 마감 후</td></tr>
+  </tbody>
+</table>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/vix-index-meaning-calculation-1.png" alt="2026년 10월 2일 VIX 종가 15.31과 평소 범위 상단 20, 불안 구간 30, 위기 때 80 초과를 비교한 막대 그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 2026년 10월 2일 뉴욕증시 마감 보도(뉴스핌 마켓 리포트 등), 위기 수준은 본문 설명 기준</figcaption></figure>
 
 <p>V코스피는 <a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a>에서 실시간으로 확인할 수 있습니다. 대다수 국내 증권사 MTS·HTS의 해외지수 화면에서도 VIX와 V코스피를 함께 보여줍니다.</p>
 
@@ -216,7 +244,19 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
   <li>단기간의 숫자 하나보다 최근 며칠간의 흐름을 함께 보는 편이 해석에 도움이 됩니다.</li>
 </ul>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">궁금한 점 몇 가지 더</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">주식 투자자가 VIX를 보는 이유</h2>
+
+<p>VIX가 오르면 시장 참여자들이 큰 변동을 대비하고 있다는 신호로 읽습니다. 그래서 주식 투자자는 VIX를 매수·매도 신호가 아니라 시장 분위기의 온도계로 씁니다.</p>
+
+<ul style="line-height:1.9;">
+  <li>VIX 급등기에는 주가가 크게 흔들리기 쉬워, 같은 금액을 넣어도 평가손익 변동 폭이 커집니다.</li>
+  <li>변동성이 커지면 옵션 가격이 비싸져서 <a href="https://sensitiveboss3.tistory.com/entry/quadruple-witching-day-2026" target="_blank" rel="noopener">선물옵션 동시 만기일</a>처럼 파생상품 거래가 몰리는 날의 가격 움직임도 거칠어질 수 있습니다.</li>
+  <li>반대로 VIX가 낮은 구간이 길면 시장이 안심하는 상태라는 뜻이지만, 위기 직전에도 낮았던 사례가 있어 안전 신호로 단정할 수는 없습니다.</li>
+</ul>
+
+<p>VIX와 함께 보는 지표로는 같은 시기 V코스피, 미국 국채금리, 달러 흐름이 있습니다. 급락 뒤 반등 국면은 <a href="https://sensitiveboss3.tistory.com/entry/dead-cat-bounce-meaning" target="_blank" rel="noopener">데드캣 바운스 글</a>의 실제 사례로 볼 수 있습니다.</p>
+
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2c3e50;padding-left:12px;margin-top:36px;">궁금한 점 몇 가지 더</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">VIX가 몇 이상이면 위험한 건가요</summary>
@@ -247,9 +287,10 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://data.krx.co.kr" target="_blank" rel="noopener">한국거래소 정보데이터시스템</a></li>
+    <li><a href="https://www.cboe.com/tradable-products/vix/" target="_blank" rel="noopener">CBOE - VIX 지수 소개</a></li>
     <li><a href="https://www.fidelity.co.kr/insight-and-learning/learn-about-investing/what-is-volatility/volatility-index" target="_blank" rel="noopener">피델리티 - VIX 변동성 지수 설명</a></li>
   </ul>
-  기준일: 2026년 9월 기준. 위기 당시 VIX 수치는 출처 간 소수점 차이가 있어 공통으로 확인되는 범위로만 서술했습니다.
+  기준일: 2026년 10월 2일 종가 기준. 위기 당시 VIX 수치는 출처 간 소수점 차이가 있어 공통으로 확인되는 범위로만 서술했습니다.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
@@ -265,7 +306,7 @@ refresh_reason: "현재 VIX 수치 없음 — 최신 값과 기준일, 구간별
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-10-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/vix-index-meaning-calculation"

@@ -1949,7 +1949,8 @@
       "cannibalization_note": "stock_drafts/ 전체 grep 결과 VIX·V코스피·공포지수를 본문 주제로 전용 편에서 다룬 기존 글 없음. derivatives-capital-gains-tax-calculation.md(파생상품 세율 목록에서 '변동성지수선물' 한 줄 나열)와 dead-cat-bounce-meaning.md(2026년 8월 실제 사례의 근거 수치로 V코스피 인용)는 다른 주제의 부수적 언급이라 검색 의도가 겹치지 않는다. 본문에서 dead-cat-bounce-meaning.md로 내부 링크 연결.",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족(2026-09-27). 게이트4는 원문 WebFetch 차단 확인 후 4곳 이상 독립 출처 교차검증으로 진행, 출처 간 수치가 갈리는 부분은 범위로만 서술.",
-      "published_at": "2026-10-02"
+      "published_at": "2026-10-02",
+      "refreshed": "2026-10-05 갱신(현재 수치 15.31 표·투자자 관점 H2·그림 1장·내부 링크 2개). 티스토리 재반영 필요. refresh_due 2027-01-04"
     },
     {
       "id": 93,
