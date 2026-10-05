@@ -108,6 +108,18 @@ def lint(path, series):
         if unlinked:
             fails.append(f"목차 링크 없음/대상 없음 {len(unlinked)}개(python -m blog_automation.toc_anchors 실행): {unlinked[:2]}")
 
+    # 보류 초안은 사용자가 할 일을 정해진 형식으로 적어야 한다(RULES.md 「보류 시 사용자 할 일」).
+    if fm.get('gate_pass') is False:
+        todo = fm.get('user_todo')
+        if not isinstance(todo, dict):
+            fails.append("gate_pass:false인데 user_todo 없음 — 사용자가 할 일을 형식대로 적을 것")
+        else:
+            for key in ('why', 'steps', 'must_show', 'minutes', 'if_skipped'):
+                if not todo.get(key):
+                    fails.append(f"user_todo.{key} 비어 있음")
+            if not any('http' in str(s) or '앱' in str(s) for s in todo.get('steps') or []):
+                fails.append("user_todo.steps에 링크나 앱 경로가 하나도 없음 — 어디로 가야 하는지 적을 것")
+
     due = fm.get('refresh_due')
     if due is not None and not isinstance(due, datetime.date):
         fails.append(f"refresh_due 형식 오류(YYYY-MM-DD): {due}")

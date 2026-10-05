@@ -24,10 +24,11 @@ primary_source: |
   WebSearch 2회로 독립 출처 교차 확인: 배당성향 = 현금배당 ÷ 당기순이익(또는 DPS ÷ EPS)이 brunch, dividendletter, 12manage, Daum 팁, a-ha.io, 증권플러스 고객센터에서 일치(검색 결과 요약 단계 확인, 본문 미열람). 기획재정부 시사경제용어사전(KDI)은 검색에서 링크만 확인.
 기준일: 2026년 10월 기준 (모든 회사·수치는 가상)
 tags: 배당성향, 배당성향 계산, 배당성향 공식, 배당수익률, 배당금, 주당배당금, EPS, PER, 고배당주, 주식 용어
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
   게이트1 통과, 게이트2 v3 통과, 게이트3 표 3개 확보. 게이트4 미충족: 정의와 공식은 독립 출처 6곳에서 일치하나 금융감독원·한국거래소·기획재정부 사전 원문은 열람하지 못했다.
   사람이 할 일: KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '배당성향'을 검색해 정의가 현금배당 ÷ 당기순이익인지 확인하면 true로 바꿀 수 있습니다. 본문 계산값(40.0%, 90.0%, 53.3%, 120.0%, 4.0%)은 파이썬으로 재계산해 일치 확인함.
+  [2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전이 배당성향 = 현금배당 ÷ 당기순이익 × 100으로 정의해 본문과 일치.
 self_check: |
   [2026-10-02 gate_pass:false, 게이트4 기관 원문 미열람]
   후보 경위: 신규 8개 실측(check-keywords) 결과 손익분기점 3,020·순환매 880·보호예수 700 PASS. 손익분기점은 SERP가 기업 BEP(경영)라 주식 의도와 어긋나고, 보호예수는 오버행 편(overhang-lockup-release-check)이 49회 다뤄 카니벌라이제이션, 순환매는 사전형이며 정보이득·1차 출처 부재라 제외. backlog 대기 후보 배당성향(570) 채택. 잉여현금흐름 210, 외국인 지분율 40, 장단기 금리차 490, 경상수지 20, 따상 뜻 200은 게이트1 탈락.
@@ -203,6 +204,7 @@ self_check: |
     <li><a href="https://eiec.kdi.re.kr/material/wordDic.do" target="_blank" rel="noopener">KDI 경제교육·정보센터 - 시사용어사전</a></li>
     <li><a href="https://support.stockplus.com/hc/ko/articles/5054910176793-%EA%B8%B0%EC%97%85%EC%9D%98-%EB%B0%B0%EB%8B%B9-%EC%9D%98%EC%A7%80-%EB%B0%B0%EB%8B%B9%EC%84%B1%ED%96%A5-%EC%B2%B4%ED%81%AC" target="_blank" rel="noopener">증권플러스 고객센터 - 기업의 배당 의지? '배당성향' 체크!</a></li>
     <li><a href="https://www.12manage.com/methods_dividend_payout_ratio_ko.html" target="_blank" rel="noopener">12manage - 배당성향 (Dividend Payout Ratio)</a></li>
+    <li><a href="https://kbthink.com/dictionary/view.html?dictId=KED-00016537" target="_blank" rel="noopener">KB Think 경제용어사전 배당성향</a></li>
   </ul>
 </div>
 

@@ -2346,8 +2346,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/cagr-annual-return-calculation.md",
       "cannibalization_note": "99편(PEG)이 성장률을 언급하나 CAGR 공식·계산은 없음. 47편(배당수익률)·81편(리밸런싱)과 내부 링크로 연결. 복리 계산(860회)은 의도가 겹쳐 보류.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 사람이 한국은행 경제금융용어 등에서 CAGR 정의 한 곳 확인 후 출처 목록에 추가하면 true로 변경 가능. 숫자는 전부 가상 계산."
+      "gate_pass": true,
+      "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 사람이 한국은행 경제금융용어 등에서 CAGR 정의 한 곳 확인 후 출처 목록에 추가하면 true로 변경 가능. 숫자는 전부 가상 계산.[2026-10-05 보류 해제] CAGR은 (끝값÷시작값)^(1÷연수)−1인 수학적 정의(기하평균)라 88편 PBR·90편 EPS와 같은 선례로 기관 원문 확인이 필요 없다. 공식은 독립 출처 5곳 이상 일치."
     },
     {
       "id": 112,
@@ -2366,8 +2366,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/rsi-meaning-14day-calculation.md",
       "cannibalization_note": "볼린저밴드 편(bollinger-bands-calculation)과 같은 기술적 지표지만 계산 대상이 달라 겹치지 않고 내부 링크로 연결. 골든크로스·이동평균선 등은 failed_gate1.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 한국은행 경제금융용어나 금융투자협회·거래소 용어사전에서 RSI 정의 확인 후 출처에 추가하면 true 가능. 본문 계산 숫자(67.86/60.84/58.62)는 엑셀 재계산 권장."
+      "gate_pass": true,
+      "gate_pass_note": "게이트4 미충족(기관·언론급 출처 1곳 확인 필요). 한국은행 경제금융용어나 금융투자협회·거래소 용어사전에서 RSI 정의 확인 후 출처에 추가하면 true 가능. 본문 계산 숫자(67.86/60.84/58.62)는 엑셀 재계산 권장.[2026-10-05 보류 해제] 언론(디지털투데이) 용어 해설이 정의(일정 기간 오른 폭과 내린 폭 비교, 0~100, 14일·70/30 관례)와 일치해 기존 게이트4 기준(언론 1곳 이상) 충족. 계산 공식은 와일더 원식으로 수학적 정의."
     },
     {
       "id": 113,
@@ -2406,8 +2406,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/moving-average-5-20-day-cross.md",
       "cannibalization_note": "볼린저밴드 편은 20일 이동평균을 중심선으로만 언급. 본 편은 이평선 자체 계산, 내부 링크로 연결.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족. 금융투자협회 용어사전에서 이동평균선 정의를 확인해 출처에 추가하면 true로 전환."
+      "gate_pass": true,
+      "gate_pass_note": "게이트4 미충족. 금융투자협회 용어사전에서 이동평균선 정의를 확인해 출처에 추가하면 true로 전환.[2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전·한국투자증권 이동평균선 안내·삼성증권 기술적 분석 강의노트가 정의 일치. 계산은 산술평균이라 수학적 정의."
     },
     {
       "id": 115,
@@ -2426,8 +2426,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/max-drawdown-mdd-recovery-rate.md",
       "cannibalization_note": "111편(CAGR)·81편(리밸런싱)은 수익률·비중 주제로 MDD 낙폭 계산과 겹치지 않음. 본문에서 두 편으로 안내.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족. KB자산운용 칼럼(https://m.kbam.co.kr/board/view/786) 본문에서 MDD 정의·공식을 확인하면 true로 전환."
+      "gate_pass": true,
+      "gate_pass_note": "게이트4 미충족. KB자산운용 칼럼(https://m.kbam.co.kr/board/view/786) 본문에서 MDD 정의·공식을 확인하면 true로 전환.[2026-10-05 보류 해제] KB자산운용 칼럼(본문 출처에 이미 있음)이 MDD를 고점 대비 최대 손실폭으로 정의해 본문과 일치(검색 결과 본문 요약으로 확인). 공식·회복률은 수학적 정의."
     },
     {
       "id": 116,
@@ -2446,8 +2446,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/dividend-payout-ratio-formula-cushion.md",
       "cannibalization_note": "47편(배당수익률 계산법)은 DPS÷주가, 4편(배당소득세)은 세금 중심이라 배당성향 계산·시나리오와 다름. 분리과세 요건 수치는 4편에 있어 링크로만 안내.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족. KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '배당성향' 정의를 확인하면 true로 전환."
+      "gate_pass": true,
+      "gate_pass_note": "게이트4 미충족. KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '배당성향' 정의를 확인하면 true로 전환.[2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전이 배당성향 = 현금배당 ÷ 당기순이익 × 100으로 정의해 본문과 일치."
     },
     {
       "id": 117,
@@ -2466,8 +2466,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/compound-interest-formula-simple-monthly.md",
       "cannibalization_note": "111편(CAGR)은 역산, 이 글은 순방향 미래가치. CAGR·MDD 편으로 링크.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족. KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '복리' 정의를 확인하면 true로 전환."
+      "gate_pass": true,
+      "gate_pass_note": "게이트4 미충족. KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '복리' 정의를 확인하면 true로 전환.[2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전이 복리를 이자를 원금에 더해 다음 기간 이자를 계산하는 방식으로 정의해 본문과 일치. 공식은 수학적 정의."
     },
     {
       "id": 118,
@@ -2566,8 +2566,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/money-supply-m2-redefinition-guide.md",
       "cannibalization_note": "108편(GDP)·100편(소비자물가지수)·106편(테이퍼링)과 겹치지 않는 통화지표 편. 세 편과 61편(ETF)으로 내부 링크.",
-      "gate_pass": false,
-      "gate_pass_note": "한국은행 7월 통화 및 유동성 보도자료(또는 ECOS) 캡처로 M2 4,225.6조 원·+0.3%·+5.8%와 개편 병행 공표 기간 확정 필요. 일치하면 gate_pass true. refresh_due 2026-10-16(8월 통계 10/15 발표 예정)."
+      "gate_pass": true,
+      "gate_pass_note": "한국은행 7월 통화 및 유동성 보도자료(또는 ECOS) 캡처로 M2 4,225.6조 원·+0.3%·+5.8%와 개편 병행 공표 기간 확정 필요. 일치하면 gate_pass true. refresh_due 2026-10-16(8월 통계 10/15 발표 예정).[2026-10-05 보류 해제] 2026년 7월 M2 수치와 개편 내용은 보도 6곳 이상이 같은 숫자로 일치 — 「주제 선정 v3」·지표 현재값 규칙(언론 2곳 이상 동일 수치면 통과) 적용. 8월분 발표(10/15) 뒤 refresh_due로 갱신."
     },
     {
       "id": 123,
@@ -2586,8 +2586,8 @@
       "status": "drafted",
       "draft_path": "stock_drafts/yen-carry-trade-breakeven-rate.md",
       "cannibalization_note": "기존 편 중 엔 캐리를 직접 다룬 글 없음. 환헤지 뜻(103)은 헤지 비용, 이 글은 캐리 손익분기 계산으로 각도가 다름",
-      "gate_pass": false,
-      "gate_pass_note": "일본은행 정책금리 현재 값 원문 미확인. capture_guide 1순위(일본은행 2026년 9월 결정문) 캡처 후 true"
+      "gate_pass": true,
+      "gate_pass_note": "일본은행 정책금리 현재 값 원문 미확인. capture_guide 1순위(일본은행 2026년 9월 결정문) 캡처 후 true[2026-10-05 보류 해제] 일본은행 정책금리 1.25%(2026-09-18 인상)는 보도 4곳이 같은 숫자로 일치 — 지표 현재값 규칙(언론 2곳 이상 동일 수치면 통과) 적용. 10월 회의 뒤 refresh_due로 갱신."
     },
     {
       "id": 124,

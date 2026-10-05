@@ -55,6 +55,21 @@ self_check: |
   "주식 투자자에게 스태그플레이션이 무서운 이유" H2 추가. FAQ "어떤 자산이 유리한가요" 답을 회피형에서 경로 설명으로 교체(추천 없음). 내부 링크 4개(100·107·108 발행 완료, 110 발행 예정).
 refresh_due: 2026-11-05
 refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지표 표 갱신"
+user_todo:
+  why: '1970년대 물가·성장률·실업률이 사이트마다 다르게 나오고(예: 미국 1974년 물가 11%와 12%), 지금 한국 실업률도 2.0%와 2.7%(계절조정)로 엇갈려 원래 통계로 확정해야 합니다. 본문 표 21칸이 비어 있습니다.'
+  steps:
+  - '미국 물가: 이 링크를 열면 숫자 목록이 바로 뜹니다 → https://fred.stlouisfed.org/graph/fredgraph.csv?id=FPCPITOTLZGUSA&cosd=1973-01-01&coed=1982-12-31 (파일로 내려받아지면 열어서) 화면 캡처'
+  - '미국 실업률: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&fq=Annual&fam=avg&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
+  - '한국 물가: https://fred.stlouisfed.org/graph/fredgraph.csv?id=FPCPITOTLZGKOR&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
+  - '한국 경제성장률: 한국은행 경제통계시스템 https://ecos.bok.or.kr 접속 → 첫 화면 "100대 통계지표" → "경제성장률(실질)" 클릭 → 주기를 "연"으로 바꾸고 기간 1973~1982 → 표 캡처'
+  - '지금 한국 실업률: e-나라지표 https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1063 열고 → 2026년 8월 실업률이 나온 표 캡처(계절조정인지 표시된 부분까지)'
+  - 위 링크가 안 열리면 그 단계는 건너뛰고 열린 것만 보내 주세요.
+  must_show:
+  - 연도(1973~1982)와 숫자가 한 화면에 같이 보일 것
+  - 실업률은 "2026년 8월"과 수치, 계절조정 여부 표기
+  minutes: 10
+  device: PC 권장(휴대폰도 가능)
+  if_skipped: 1970년대 표와 실업률 칸을 빼고, 4분면 설명과 지금 물가·성장률만으로 발행하는 방법도 있습니다. 원하시면 "113편 표 빼고 발행"이라고만 적어 주세요.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>

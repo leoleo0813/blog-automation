@@ -26,10 +26,11 @@ primary_source: |
   세율·한도가 아닌 수학적 정의이며 본문 가격은 전부 가상 값으로 명시했다.
 기준일: 2026년 10월 기준 (계산 예시는 가상)
 tags: RSI 뜻, RSI 계산법, 상대강도지수, RSI 14일, 와일더 RSI, 과매수 과매도, 기술적 지표, 보조지표, 주식 차트, 차트 보는 법
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
   게이트1 1,420회, 게이트2 v3 통과, 게이트3 계산표·비교표 확보. 게이트4 미충족: 독립 출처 5곳은 일치하지만 RULES.md 기준(언론·준정부·법무법인급 최소 1곳)에 맞는 기관·언론 출처가 없다(위키백과·트레이딩뷰·위키독스 등).
   사람이 할 일: 한국은행 경제금융용어 또는 금융투자협회·한국거래소 용어사전 등에서 RSI(상대강도지수) 정의 한 곳을 확인해 출처 목록에 추가하면 true로 바꿀 수 있습니다. 그리고 (1) 본문 계산 숫자(67.86 / 60.84 / 58.62)를 엑셀로 한 번 재계산하고, (2) 게이트2의 "답 완결 여부"가 요약 단계 판단이므로 상위 2~3개 글 본문이 15일 일별 계산표를 이미 싣고 있지 않은지 훑어보면 됩니다.
+  [2026-10-05 보류 해제] 언론(디지털투데이) 용어 해설이 정의(일정 기간 오른 폭과 내린 폭 비교, 0~100, 14일·70/30 관례)와 일치해 기존 게이트4 기준(언론 1곳 이상) 충족. 계산 공식은 와일더 원식으로 수학적 정의.
 self_check: |
   [2026-10-01 gate_pass:false, 게이트4 기관 출처 부족]
   후보 경위: check-keywords 8개(RSI 뜻 1,420 PASS, MACD 뜻 130, 부채비율 뜻 70, 영업이익률 뜻 20, 잉여현금흐름 뜻 40, 장단기 금리차 490, 버핏지수 640 PASS, 신용잔고 뜻 30) 중 최고 검색량 RSI 뜻 채택. 버핏지수 640은 다음 편 후보.
@@ -224,6 +225,7 @@ self_check: |
     <li><a href="https://kr.tradingview.com/support/solutions/43000502338/" target="_blank" rel="noopener">트레이딩뷰 상대강도지수(RSI) 도움말</a></li>
     <li><a href="https://wikidocs.net/289404" target="_blank" rel="noopener">위키독스 RSI 차트를 분석하다 with 트레이딩뷰</a></li>
     <li><a href="https://economybloc.com/article/117186" target="_blank" rel="noopener">이코노미블록 상대강도지수(RSI)</a></li>
+    <li><a href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=400109" target="_blank" rel="noopener">디지털투데이 디지털피디아 상대강도지수(RSI)</a></li>
   </ul>
   기준일: 2026년 10월 기준. 가격과 계산 예시는 이해를 돕기 위한 가상의 숫자이며 실제 종목의 값이 아닙니다.
 </div>

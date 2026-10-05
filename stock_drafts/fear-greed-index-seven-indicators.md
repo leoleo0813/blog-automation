@@ -43,6 +43,18 @@ self_check: |
   AI 티 점검: em대시 0개, 다만 2회, mark 밀도 3개, FAQ 5개(직전 118 6·117 4와 다름), 본문 H2 6개 중 "~나요"형 1개. 요약박스 청록(#eaf7f6/#2a9d8f), 제목 "🧭 점수를 읽기 전에", 마무리 박스 "✅ 챙겨 둘 읽기 순서". FAQ 헤딩 "공포탐욕지수 얘기에 따라붙는 의문들". 면책 문구 새 표현.
   기관 링크: 외부 안내 문장·출처 목록 CNN·KB Think·한경 용어사전 전부 링크 처리. 내부 링크 3개. 그림 1장(가상 일곱 점수 막대그래프).
   발행 글 갱신(refresh): lint_draft --due에 92·98·105편이 현재 수치 부재로 기한 도달. 현재 값을 1차 출처로 확인할 수 없어 이번 실행에서는 갱신하지 않음.
+user_todo:
+  why: 지표 글에는 "지금 점수"가 꼭 있어야 하는데, CNN 사이트가 제 쪽에서 막혀 현재 점수를 못 봤습니다.
+  steps:
+  - 휴대폰이나 PC로 https://www.cnn.com/markets/fear-and-greed 열기
+  - 맨 위 반원 게이지(숫자 점수와 Fear/Greed 단어)가 보이게 캡처
+  - 조금 내려서 "Previous close / 1 week ago / 1 month ago / 1 year ago" 값이 나온 부분도 캡처
+  must_show:
+  - '현재 점수 숫자와 등급 단어(예: Fear, Greed)'
+  - '"Last updated" 같은 갱신 날짜·시간'
+  minutes: 2
+  device: 휴대폰 가능
+  if_skipped: 계속 발행 보류입니다. 점수는 매일 바뀌어서, 캡처한 날짜 기준으로 표를 채우고 한 달 뒤 갱신합니다.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>

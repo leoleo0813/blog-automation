@@ -22,10 +22,11 @@ primary_source: |
   WebSearch 2회로 독립 출처 교차 확인: 복리 최종 금액 = 원금 × (1 + 이율)^기간, 일반식 P(1 + r/n)^(nt), 72법칙이 kbthink, 토스뱅크, jptcalc, brainc, myfinpl, bileotools, 읏머니레터에서 일치(검색 결과 요약 단계 확인, 본문 미열람). 예시 수치(1,000만 원 연 4% 3년 1,124만 8,640원, 연 5% 10년 연복리 약 1,628만 원·월복리 약 1,647만 원)도 이 글의 계산값과 일치.
 기준일: 2026년 10월 기준 (모든 금액은 가상 계산값)
 tags: 복리 계산, 복리 공식, 단리 복리 차이, 월복리, 연복리, 72법칙, 실효 연이율, 적립식 복리, 복리 효과, 이자 계산
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
   게이트1 통과, 게이트2 v3 통과, 게이트3 표 5개 확보. 게이트4 미충족: 공식과 예시는 독립 출처 7곳에서 일치하나 금융감독원·KDI 사전 원문은 열람하지 못했다.
   사람이 할 일: KDI 시사용어사전(https://eiec.kdi.re.kr/material/wordDic.do)에서 '복리'를 검색해 정의가 이자에 이자가 붙는 방식인지 확인하면 true로 바꿀 수 있습니다. 본문 계산값은 파이썬으로 재계산해 일치 확인함.
+  [2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전이 복리를 이자를 원금에 더해 다음 기간 이자를 계산하는 방식으로 정의해 본문과 일치. 공식은 수학적 정의.
 cannibalization_note: 111편(CAGR)은 과거 수익률에서 연평균을 거꾸로 구하는 글이고 이 글은 원금에서 미래 금액을 앞으로 구하는 글이다. 본문에서 CAGR 편과 115편(MDD)으로 링크한다.
 self_check: |
   [2026-10-02 gate_pass:false, 게이트4 기관 원문 미열람]
@@ -224,6 +225,7 @@ self_check: |
     <li><a href="https://eiec.kdi.re.kr/material/wordDic.do" target="_blank" rel="noopener">KDI 경제교육·정보센터 - 시사용어사전</a></li>
     <li><a href="https://kbthink.com/saving-guide/simple-vs-compound.html" target="_blank" rel="noopener">KB Think - 단리, 복리 차이, 계산법 비교</a></li>
     <li><a href="https://www.tossbank.com/articles/simple-compound-interest" target="_blank" rel="noopener">토스뱅크 - 단리와 복리</a></li>
+    <li><a href="https://kbthink.com/dictionary/view.html?dictId=KED-00015893" target="_blank" rel="noopener">KB Think 경제용어사전 복리</a></li>
   </ul>
 </div>
 
