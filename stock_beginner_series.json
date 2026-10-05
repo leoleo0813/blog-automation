@@ -2816,7 +2816,7 @@
       "slug": "option-expiry-date-calendar-2026",
       "keyword": "옵션만기일",
       "status": "drafted",
-      "monthly_search_volume": "6500 (PC 2080 / 모바일 4420, 2026-10-05 실측)",
+      "monthly_search_volume": "6460 (PC 2080 / 모바일 4380)",
       "gate_pass": true,
       "refresh_due": "2026-10-09",
       "draft": "stock_drafts/option-expiry-date-calendar-2026.md",

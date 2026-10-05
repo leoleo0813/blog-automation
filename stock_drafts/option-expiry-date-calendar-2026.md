@@ -4,7 +4,7 @@ title: 옵션만기일 2026 남은 날짜 달력표
 slug: option-expiry-date-calendar-2026
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 6500 (PC 2080 / 모바일 4420, 2026-10-05 실측)
+monthly_search_volume: 6460 (PC 2080 / 모바일 4380)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-05 - 통과] WebSearch(미국 기준, 참고용) "옵션만기일 매월 둘째 목요일 코스피200 옵션 위클리" 상위: eugenefn·truefriend(한국투자증권)·shinhansec·daolsecurities(증권사 상품 안내 4건) / namu.wiki(나무위키) / tali.kr(소규모 정리 사이트).
