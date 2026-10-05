@@ -2482,12 +2482,12 @@
       "gate1_pass": true,
       "serp_check": "2026-10-02 게이트2 v3 통과: 상위가 토스뱅크·KB Think·기재부 용어사전·CME·소규모 블로그. 정의와 한 줄 예시 중심이라 네 포지션 비교표·만기 손익표·원화 환산표는 요약에서 미확인.",
       "unique_asset_plan": "네 포지션 비교표, 만기 지수별 손익표, 원화 환산표, 내재가치 구분표, 옵션 vs 선물표(전부 가상 계산)",
-      "primary_source": "open.krx.co.kr WebFetch 1회 EGRESS_BLOCKED. 정의는 기재부 용어사전·KB Think·토스뱅크, 코스피200 옵션 승수 25만 원·현금결제는 증권사 4곳 상품 안내 검색 요약에서 일치(본문 미열람)",
+      "primary_source": "KRX 상품명세 화면 캡처(사람 제공, 2026-10-05)로 승수·결제방식 확정. 옵션 정의는 기재부 용어사전·KB Think·토스뱅크 교차검증.",
       "status": "drafted",
       "draft_path": "stock_drafts/option-meaning-call-put-payoff.md",
       "cannibalization_note": "커버드콜 ETF 세금(옵션은 배경)·네마녀의 날(만기일)과 달리 옵션 손익 구조 자체가 주제. 두 편으로 이름 안내.",
       "gate_pass": true,
-      "gate_pass_note": "교차검증 진행. 발행 전 KRX 코스피200 옵션 상품명세에서 승수 25만 원·현금결제 한 번 대조 권장."
+      "gate_pass_note": "KRX 코스피200 옵션 상품명세 캡처로 승수 25만 원·현금결제·유러피안형 확정(2026-10-05). 게이트4 충족."
     },
     {
       "id": 119,

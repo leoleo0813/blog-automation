@@ -19,14 +19,14 @@ unique_asset: |
   (c) 내가격·등가격·외가격 내재가치 구분표, 옵션과 선물 비교표.
   (추가 2026-10-02) 콜·풋 매수 만기 손익 그래프 1장(가상 조건).
 primary_source: |
-  한국거래소 open.krx.co.kr WebFetch 1회 시도, EGRESS_BLOCKED.
+  한국거래소 open.krx.co.kr WebFetch 1회 시도, EGRESS_BLOCKED. 이후 사람이 KRX 코스피200 옵션 상품명세 화면을 캡처해 제공(2026-10-05): 거래단위 옵션가격 x 25만(거래승수), 결제방법 현금결제, 권리행사 최종거래일에만 가능(European형) 직접 확인.
   WebSearch 2회로 교차확인했다. 콜옵션=살 권리, 풋옵션=팔 권리, 매수자 최대 손실=프리미엄, 매도자 손실 확대 구조가 기획재정부 시사경제용어사전, KB손해보험 KB Think, 토스뱅크에서 일치(검색 결과 제목·요약 단계 확인, 본문 미열람).
   코스피200 옵션 거래승수 25만 원과 현금결제는 한국투자증권·KB증권·신한투자증권·유진투자증권 상품 안내의 검색 요약에서 일치했다. 세율·공제 한도형 수치는 없고 거래소 상품 규격 두 가지(승수, 결제방식)만 외부 수치다. 본문 손익표는 전부 가상 조건에서 직접 계산한 값이다.
 기준일: 2026년 10월 기준 (손익 계산 예시는 전부 가상)
 tags: 옵션, 옵션 뜻, 콜옵션, 풋옵션, 프리미엄, 행사가격, 코스피200 옵션, 옵션 손익, 옵션 매수 매도, 파생상품
 gate_pass: true
 gate_pass_note: |
-  게이트1 1,720회, 게이트2 v3 통과, 게이트3 가상 조건 손익표, 게이트4는 정부 용어사전과 증권사 4곳 교차확인(원문 직접 열람은 실패). 사람 확인 권장: 발행 전 KRX 코스피200 옵션 상품명세(https://www.krx.co.kr/contents/OPN/01/01040202/OPN01040202.jsp)에서 거래승수 25만 원과 현금결제를 한 번 대조해 주세요. 불일치하면 gate_pass를 false로 바꾸세요.
+  게이트1 1,720회, 게이트2 v3 통과, 게이트3 가상 조건 손익표, 게이트4 KRX 상품명세 캡처로 승수 25만 원·현금결제 확정(2026-10-05). 정부 용어사전·증권사 교차검증과도 일치. 사람 대조 완료.
 self_check: |
   [2026-10-02 gate_pass:true, 게이트4 교차검증]
   후보 경위: 신규 8개 실측 결과 선물옵션 만기일 7,030·레버리지 ETF 뜻 6,490·스톡옵션 뜻 2,110·옵션 뜻 1,720 PASS, 신용융자 이자·평단가 계산·시간외거래·샤프지수 FAIL. 만기일은 60편 네마녀의 날, 레버리지 ETF는 40편 곱버스와 레버리지 인버스 ETF 예탁금 편, 스톡옵션은 stock-option-tax 편과 겹쳐 보류하고 전용 편이 없는 옵션 뜻을 채택.
@@ -182,7 +182,7 @@ self_check: |
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7a4fc4;padding-left:12px;margin-top:36px;">코스피200 옵션의 실제 규격</h2>
 
-<p>코스피200 옵션의 거래승수는 25만 원이라 옵션 가격 1포인트가 25만 원입니다. 최종 결제는 현금으로 이뤄집니다. 한국투자증권, KB증권, 신한투자증권의 상품 안내가 같은 규격을 설명합니다. 거래소 원문은 <a href="https://www.krx.co.kr/contents/OPN/01/01040202/OPN01040202.jsp" target="_blank" rel="noopener">한국거래소(KRX)</a> 상품 안내에서 확인합니다.</p>
+<p>코스피200 옵션의 거래승수는 25만 원이라 옵션 가격 1포인트가 25만 원입니다. 최종 결제는 현금으로 이뤄지고, 권리행사는 최종거래일에만 가능한 유러피안형입니다. 한국투자증권, KB증권, 신한투자증권의 상품 안내가 같은 규격을 설명합니다. 거래소 원문은 <a href="https://www.krx.co.kr/contents/OPN/01/01040202/OPN01040202.jsp" target="_blank" rel="noopener">한국거래소(KRX)</a> 상품 안내에서 확인합니다.</p>
 
 <ul><li>예시: 프리미엄 3.00포인트 × 25만 원 = 75만 원</li><li>예시: 프리미엄 0.50포인트 × 25만 원 = 12만 5천 원</li><li>현금결제라 만기에 실제 주식을 주고받지 않고 손익만 계산해 정산합니다.</li></ul>
 
@@ -215,7 +215,7 @@ self_check: |
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">커버드콜 ETF는 옵션과 무슨 관계인가요?</summary><p>커버드콜 ETF는 보유 자산에 콜옵션 매도를 결합해 프리미엄 수입을 노리는 구조입니다. 이 글의 콜 매도 행(상한이 막힌 이익)이 그 원리의 핵심이고, 세금은 <a href="https://sensitiveboss3.tistory.com/entry/covered-call-etf-tax" target="_blank" rel="noopener">커버드콜 ETF 세금 글</a>에서 따로 다뤘습니다.</p></details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
-  참고 출처 (기준일 2026년 10월, 한국거래소 원문은 자동 열람이 막혀 증권사 상품 안내와 공공기관 용어사전으로 교차 확인):
+  참고 출처 (기준일 2026년 10월, 상품 규격은 한국거래소 상품명세 화면 확인, 증권사 상품 안내와 공공기관 용어사전으로 교차 확인):
   <ul style="margin:6px 0 0 0;padding-left:20px;"><li><a href="https://www.krx.co.kr/contents/OPN/01/01040202/OPN01040202.jsp" target="_blank" rel="noopener">한국거래소(KRX)</a> - 코스피200 옵션 상품 안내</li><li><a href="https://truefriend.com/main/bond/domestic/_static/TF03bd010100.jsp" target="_blank" rel="noopener">한국투자증권 주가지수선물옵션 상품소개</a></li><li><a href="https://www.kbsec.com/go.able?linkcd=s07040020P201" target="_blank" rel="noopener">KB증권 주가지수선물/옵션</a></li><li><a href="https://www.shinhansec.com/siw/trading/etc-market/market_index_tab5/contents.do" target="_blank" rel="noopener">신한투자증권 주가지수상품 거래안내</a></li><li><a href="https://mofe.go.kr/sisa/dictionary/detail?idx=2583" target="_blank" rel="noopener">기획재정부 시사경제용어사전 - 콜옵션</a></li><li><a href="https://kbthink.com/main/asset-management/wealth-manage-tip/kbthink-original/202411/calloption,putoption.html" target="_blank" rel="noopener">KB손해보험 KB Think - 콜옵션 풋옵션 개념과 차이</a></li><li><a href="https://www.tossbank.com/articles/calloption" target="_blank" rel="noopener">토스뱅크 - 콜옵션</a></li></ul>
 </div>
 
