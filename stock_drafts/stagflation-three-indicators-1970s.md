@@ -15,30 +15,23 @@ serp_check: |
   → 탈락조건 1~3 모두 미해당, 통과.
 unique_asset: |
   (a) 물가·성장률 조합 4분면 비교표(과열 / 스태그플레이션 / 골디락스 / 디플레이션형).
-  (b) 한국·미국 1970~80년대 3지표 연도별 표(뼈대, 값은 캡처 후 입력).
+  (b) 한국·미국 1970~80년대 물가·실업률 연도별 표(ECOS·FRED 원자료로 채움).
   (c) 현재 상황을 직접 판별하는 3지표 확인 순서와 출처별 확인 위치.
 primary_source: |
-  1차 출처(한국은행 경제금융용어 / 통계청 / 미국 노동통계국) WebFetch 1회 시도 결과 bok.or.kr EGRESS_BLOCKED.
-  이후 WebSearch 3회로 교차확인했으나 과거 수치가 출처마다 다르다.
-  - 미국 1974년 물가상승률: 어떤 검색 결과는 11%, 어떤 결과는 12%.
-  - 미국 1975년 실업률 정점: 8.5% 또는 9%로 서술이 갈림.
-  - 한국 1980년 실질성장률: -1.6% 또는 -2.1%로 갈림.
-  - 한국 1974년 물가 24.8%, 1980년 물가 28.7%는 검색 결과 한 계열에서만 확인.
-  RULES.md 기준(출처 충돌 + 이 프로젝트가 오류를 잡아낸 유형의 숫자)에 따라 연도별 수치는 본문에 쓰지 않고 표 칸을 비웠다. 정의와 인과 설명은 위키백과·한국 국가기록원·국토연구원(KRIHS) 자료에서 서로 일치해 서술했다.
-기준일: 2026년 10월 기준 (연도별 수치는 캡처 후 입력)
+  연도별 수치는 전부 통계 원자료 파일(사용자 제공, 2026-10-05)로 확정했다. 검색 결과의 충돌(미국 1974 물가 11% 대 12%, 미국 1975 실업률 8.5% 대 9%)은 원자료로 해소됐다.
+  - 한국 소비자물가 상승률 1973~1980: 한국은행 경제통계시스템(ECOS) 4.2.1 소비자물가지수 총지수(2020=100)로 전년 대비를 직접 계산. 당시 발표치(1973 3.5%, 1974 24.8%로 알려진 값)와 소수점 단위로 다르며 본문에 계산값임을 명시. sources/ecos-korea-cpi-1970-2025.md
+  - 미국 소비자물가 상승률 연평균: FRED FPCPITOTLZGUSA(세계은행 원자료). sources/fred-us-cpi-inflation-1973-1982.md
+  - 미국 실업률 연평균: FRED UNRATE(미국 노동통계국 원자료). 1973 4.9, 1974 5.6, 1975 8.5, 1979 5.9, 1980 7.2(%).
+  - 지금 한국 3지표: ECOS 첫 화면(소비자물가 2.9% 2026.09, GDP 전기대비 0.6% 2026년 2분기)과 ECOS 8.6.2 경제활동인구 표로 계산한 실업률(2026년 8월 원계열 2.0%, 계절조정 2.7%). sources/ecos-korea-unemployment-2026-08.md
+  - 정의·원인 설명: 국가기록원, 국토연구원, 위키백과, 한국경제가 서로 일치.
+  한국 1970년대 경제성장률은 ECOS에서 조회되지 않아 표에서 제외.
+기준일: 2026년 10월 기준 (연도별 수치는 한국은행 ECOS·FRED 원자료, 2026-10-05 확인)
 tags: 스태그플레이션, 스태그플레이션 뜻, 스태그플레이션 사례, 1970년대 오일쇼크, 물가상승 경기침체, 경기침체 물가, 실업률 물가상승률, 거시경제 지표, 주식 용어, 경제 용어
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1 5,590회, 게이트2 v3 통과, 게이트3은 4분면 표와 판별 순서로 확보하되 연도별 수치 표는 비어 있음. 게이트4 미충족: 1차 출처 접속 불가, 2차 출처의 수치 충돌.
-  사람이 할 일: capture_guide 순서대로 한국·미국 연도별 물가상승률, 경제성장률, 실업률을 캡처해 대화에 올려 주세요. 값이 들어오면 표를 채우고 gate_pass를 true로 바꿉니다.
-capture_guide: |
-  (1) 왜 필요한가: 1970년대 미국과 한국의 물가상승률·성장률·실업률이 검색 결과마다 다릅니다(미국 1974년 물가 11% 대 12%, 1975년 실업률 정점 8.5% 대 9%, 한국 1980년 성장률 -1.6% 대 -2.1%). 개정 이력 때문일 가능성이 있어 소관 통계 원문으로 확정해야 합니다.
-  (2) 캡처할 곳(우선순위):
-    1순위 한국: 한국은행 경제통계시스템 https://ecos.bok.or.kr 접속 → 통계검색에서 "소비자물가지수"와 "국내총생산(GDP) 성장률" 검색 → 연간 1973~1982년 구간이 보이게 캡처. 실업률은 통계청 https://kosis.kr 접속 → 검색창에 "실업률 연간" 입력 → 1980년대 초 구간이 있는 표를 열어 캡처(1970년대가 없으면 없다고 표시된 화면을 캡처).
-    2순위 미국: 노동통계국 https://www.bls.gov/cpi/ 접속 → CPI 데이터 표에서 1973~1982년 연평균 변화율이 보이게 캡처. 실업률은 https://www.bls.gov/cps/ 에서 연평균 실업률 표를 캡처.
-    3순위 미국 보조: https://fred.stlouisfed.org 접속 → 검색창에 UNRATE, CPIAUCSL 입력 → 연간(Annual) 단위로 바꿔 1973~1982년 구간 캡처.
-  (3) 다음 행동: 스크린샷을 대화에 올려주세요. 표 값을 채우고 gate_pass를 갱신합니다.
-    (추가 2026-10-02) 4순위 지금 실업률: e-나라지표 취업자 수·실업률 추이 https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1063 접속 → 2026년 8월 실업률(원계열인지 계절조정인지 표기 포함)이 보이게 캡처. 검색 결과에서 2.0%와 2.7%(계절조정)가 엇갈림.
+  게이트1 5,590회, 게이트2 v3 통과, 게이트3 4분면 표와 연도별 물가·실업률 표와 지금 3지표 점검, 게이트4 통계 원자료로 확정(primary_source 참조).
+  남은 주의: 한국 물가는 지수로 계산한 값이라 당시 발표치와 소수점 단위로 다를 수 있음(본문에 명시). 미국 값은 FRED 경유이며 원자료는 세계은행·미국 노동통계국.
+capture_guide: ""
 self_check: |
   [2026-10-01 gate_pass:false, 게이트4 1차 출처 접속 불가 + 2차 출처 수치 충돌, capture 전환]
   후보 경위: check-keywords 8개(스태그플레이션 5,590 PASS, 경기침체 1,130 PASS, 점도표 1,140 PASS, 이동평균선 1,090 PASS, MDD 뜻 670 PASS, 배당성향 570 PASS, 이격도 480 FAIL, 양적완화 20 FAIL) 중 최고 검색량 채택. 다음 편 후보는 backlog에 기록.
@@ -55,17 +48,6 @@ self_check: |
   "주식 투자자에게 스태그플레이션이 무서운 이유" H2 추가. FAQ "어떤 자산이 유리한가요" 답을 회피형에서 경로 설명으로 교체(추천 없음). 내부 링크 4개(100·107·108 발행 완료, 110 발행 예정).
 refresh_due: 2026-11-05
 refresh_reason: "10월 소비자물가(11월 초 발표) 반영해 지금 3지표 표 갱신"
-user_todo:
-  why: '1970년대 물가·성장률·실업률이 사이트마다 다르게 나오고(예: 미국 1974년 물가 11%와 12%), 원래 통계로 확정해야 합니다. 본문 표 미국 실업률 5칸이 비어 있습니다.'
-  steps:
-  - '미국 실업률: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&fq=Annual&fam=avg&cosd=1973-01-01&coed=1982-12-31 열고 캡처'
-  - 위 링크가 안 열리면 그 단계는 건너뛰고 열린 것만 보내 주세요.
-  must_show:
-  - 연도(1973~1982)와 숫자가 한 화면에 같이 보일 것
-  - 실업률은 "2026년 8월"과 수치, 계절조정 여부 표기
-  minutes: 10
-  device: PC 권장(휴대폰도 가능)
-  if_skipped: 1970년대 표와 실업률 칸을 빼고, 4분면 설명과 지금 물가·성장률만으로 발행하는 방법도 있습니다. 원하시면 "113편 표 빼고 발행"이라고만 적어 주세요.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-02</p>
@@ -130,18 +112,18 @@ user_todo:
 
 <p>한국도 해외 의존도가 높은 경제 구조라서 1차 석유파동 때 불황 속 물가 상승을 겪었고, 2차 석유파동에서도 반복됐어요. 이 흐름은 <a href="https://theme.archives.go.kr/next/koreaOfRecord/gasoline.do" target="_blank" rel="noopener">국가기록원 기록으로 만나는 대한민국 석유파동</a>에 정리돼 있어요.</p>
 
-<p>아래 표는 연도별 물가와 실업률을 한 줄씩 놓고 보기 위한 표예요. 한국 물가는 한국은행 경제통계시스템의 소비자물가지수(2020=100)로 전년 대비 상승률을 직접 계산했고, 당시 발표치와 소수점 단위로 다를 수 있어요. 미국 물가는 세계은행 소비자물가 상승률(연평균)이고, 실업률은 원문을 확인한 뒤 채울게요.</p>
+<p>아래 표는 연도별 물가와 실업률을 한 줄씩 놓고 보기 위한 표예요. 한국 물가는 한국은행 경제통계시스템의 소비자물가지수(2020=100)로 전년 대비 상승률을 직접 계산했고, 당시 발표치와 소수점 단위로 다를 수 있어요. 미국 물가는 세계은행 소비자물가 상승률(연평균), 미국 실업률은 연평균이에요(FRED 수록).</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">연도</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">한국 물가상승률(소비자물가)</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">미국 물가상승률</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">미국 실업률</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1973년</td><td style="border:1px solid #ddd;padding:8px;">3.2%</td><td style="border:1px solid #ddd;padding:8px;">6.2%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1974년</td><td style="border:1px solid #ddd;padding:8px;">24.3%</td><td style="border:1px solid #ddd;padding:8px;">11.1%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1975년</td><td style="border:1px solid #ddd;padding:8px;">25.2%</td><td style="border:1px solid #ddd;padding:8px;">9.1%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1979년</td><td style="border:1px solid #ddd;padding:8px;">18.3%</td><td style="border:1px solid #ddd;padding:8px;">11.3%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1980년</td><td style="border:1px solid #ddd;padding:8px;">28.7%</td><td style="border:1px solid #ddd;padding:8px;">13.5%</td><td style="border:1px solid #ddd;padding:8px;">(캡처 후 입력)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1973년</td><td style="border:1px solid #ddd;padding:8px;">3.2%</td><td style="border:1px solid #ddd;padding:8px;">6.2%</td><td style="border:1px solid #ddd;padding:8px;">4.9%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1974년</td><td style="border:1px solid #ddd;padding:8px;">24.3%</td><td style="border:1px solid #ddd;padding:8px;">11.1%</td><td style="border:1px solid #ddd;padding:8px;">5.6%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1975년</td><td style="border:1px solid #ddd;padding:8px;">25.2%</td><td style="border:1px solid #ddd;padding:8px;">9.1%</td><td style="border:1px solid #ddd;padding:8px;">8.5%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1979년</td><td style="border:1px solid #ddd;padding:8px;">18.3%</td><td style="border:1px solid #ddd;padding:8px;">11.3%</td><td style="border:1px solid #ddd;padding:8px;">5.9%</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1980년</td><td style="border:1px solid #ddd;padding:8px;">28.7%</td><td style="border:1px solid #ddd;padding:8px;">13.5%</td><td style="border:1px solid #ddd;padding:8px;">7.2%</td></tr>
   </tbody>
 </table>
 
@@ -227,11 +209,13 @@ user_todo:
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
-  참고 출처 (2026년 10월 확인, 연도별 수치는 미수록):
+  참고 출처 (2026년 10월 확인):
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://theme.archives.go.kr/next/koreaOfRecord/gasoline.do" target="_blank" rel="noopener">국가기록원 기록으로 만나는 대한민국 석유파동</a></li>
     <li><a href="https://www.krihs.re.kr/data/en_brief/Brief_190.pdf" target="_blank" rel="noopener">국토연구원 스태그플레이션과 주택시장</a></li>
     <li><a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9C%EA%B7%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98" target="_blank" rel="noopener">위키백과 스태그플레이션</a></li>
+    <li><a href="https://ecos.bok.or.kr" target="_blank" rel="noopener">한국은행 경제통계시스템(ECOS) 소비자물가지수·경제활동인구</a></li>
+    <li><a href="https://fred.stlouisfed.org/series/UNRATE" target="_blank" rel="noopener">FRED 미국 실업률(UNRATE)과 소비자물가 상승률</a></li>
     <li><a href="https://sgsg.hankyung.com/article/2025020799981" target="_blank" rel="noopener">한국경제 경제야 놀자 스태그플레이션 딜레마</a></li>
   </ul>
 </div>

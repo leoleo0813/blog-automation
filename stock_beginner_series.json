@@ -2382,12 +2382,12 @@
       "gate1_pass": true,
       "serp_check": "2026-10-01 게이트2 v3 통과: 상위에 위키·언론·국책연구기관 외 소규모 콘텐츠 사이트(naeiledu, nowdaylab) 있음, 탐색형 의도, 3지표 판별 순서·4분면 표는 상위 요약에서 미확인.",
       "unique_asset_plan": "물가·성장률 4분면 비교표, 한국·미국 1970~80년대 연도별 3지표 표(뼈대, 값은 캡처 후), 3지표 판별 순서",
-      "primary_source": "bok.or.kr WebFetch 1회 EGRESS_BLOCKED. WebSearch 교차검증에서 연도별 수치 충돌(미국 1974 물가 11 vs 12%, 1975 실업률 8.5 vs 9%, 한국 1980 성장률 -1.6 vs -2.1%)로 캡처 요청 전환",
+      "primary_source": "한국은행 ECOS 소비자물가지수·경제활동인구 원자료(한국 물가 1973~1980 계산, 지금 실업률 계산), FRED 미국 물가·실업률 연평균(세계은행·노동통계국 원자료). 한국 1970년대 성장률은 조회 불가로 표에서 제외.",
       "status": "drafted",
       "draft_path": "stock_drafts/stagflation-three-indicators-1970s.md",
       "cannibalization_note": "소비자물가지수·GDP·기준금리 편은 개별 지표 해설, 본 편은 세 지표 조합 해석으로 다음 단계. 내부 링크로 연결.",
-      "gate_pass": false,
-      "gate_pass_note": "게이트4 미충족. 사람이 한국은행 ECOS·통계청 KOSIS·BLS에서 1973~1982 연도별 수치를 캡처해 올리면 표를 채우고 true로 전환(capture_guide 참조)."
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족. 한국 물가는 지수 계산값이라 당시 발표치와 소수점 단위로 다를 수 있음(본문 명시). 사람 최종 확인 후 티스토리 발행."
     },
     {
       "id": 114,
