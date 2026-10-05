@@ -27,6 +27,7 @@ primary_source: |
 tags: 이동평균선, 이평선, 5일선 20일선, 골든크로스, 데드크로스, 단순이동평균, 지수이동평균, 이동평균선 계산, 기술적 지표, 주식 차트
 gate_pass: true
 gate_pass_note: |
+  [2026-10-05 갱신] 사용자가 iM증권 "이동평균선의 이해" 화면 캡처를 제공해 출처 목록에 추가함(증권사 교육 자료, 기관 공식 용어사전은 아님). 금융투자협회 원문 확인 전까지 gate_pass는 false 유지, true 전환은 사람이 판단.
   게이트1 1,090회, 게이트2 v3 통과, 게이트3 계산표·비교표 확보. 게이트4 미충족: 독립 출처 4곳은 일치하고 KB 금융용어사전·한국투자증권(금융사)이 있으나, 금융투자협회 용어사전 원문은 접속 차단으로 열람하지 못했다.
   사람이 할 일: 금융투자협회 증권 용어사전(https://kofia.or.kr/brd/m_117/view.do?seq=11&multi_itm_seq=0&itm_seq_1=0&itm_seq_2=0&page=1)에서 이동평균선 정의를 확인해 출처 목록에 넣으면 true로 바꿀 수 있습니다. 본문 계산값(10,130 / 10,555 / 10,585 / 23일차 10,630 / 24일차 10,550·10,640)은 파이썬으로 재계산해 일치 확인함.
   [2026-10-05 보류 해제] KB Think(KB국민은행) 경제용어사전·한국투자증권 이동평균선 안내·삼성증권 기술적 분석 강의노트가 정의 일치. 계산은 산술평균이라 수학적 정의.
@@ -200,6 +201,7 @@ self_check: |
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://kbthink.com/dictionary/view.html?dictId=KED-00016769" target="_blank" rel="noopener">KB 금융용어사전 - 이동평균선이란</a></li>
     <li><a href="https://file.truefriend.com/Storage/navi/W2001_20.html" target="_blank" rel="noopener">한국투자증권 - 이동평균선</a></li>
+    <li><a href="https://www.imfnsec.com/systemtrade/st02090602.jsp" target="_blank" rel="noopener">iM증권 - 이동평균선의 이해</a></li>
     <li><a href="https://economybloc.com/article/37380/" target="_blank" rel="noopener">이코노미블록 - 이동평균선(MA)이란</a></li>
     <li><a href="https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%8F%99%ED%8F%89%EA%B7%A0%EC%84%A0" target="_blank" rel="noopener">위키백과 - 이동평균선</a></li>
     <li><a href="https://kbthink.com/dictionary/view.html?dictId=KED-00016769" target="_blank" rel="noopener">KB Think 경제용어사전 이동평균선</a></li>
