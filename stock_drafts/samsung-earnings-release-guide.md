@@ -4,8 +4,8 @@ title: 삼성전자 실적발표 잠정과 확정 차이
 slug: samsung-earnings-release-guide
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 6860 (PC 1390 / 모바일 5470, 2026-10-04 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 7250 (PC 1420 / 모바일 5830)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-05 - 통과] WebSearch(미국 기준, 참고용) 상위: 다음뉴스 이슈 모음 / 뉴시스(언론) / bullstory.io(소규모 콘텐츠 사이트, 2건) / 1minutepost.com(개인·소규모) / a-ha.io(Q&A) / 삼성 뉴스룸.
   1) 진입 여지 - 있음. 소규모 콘텐츠 사이트 4건 이상이 상위권.
