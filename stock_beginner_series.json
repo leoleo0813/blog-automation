@@ -1939,7 +1939,7 @@
       "type": "투자지표",
       "keyword_class": "자동화 가능",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "640 (PC 140 / 모바일 500)",
+      "monthly_search_volume": "650 (PC 130 / 모바일 520)",
       "gate1_pass": true,
       "serp_check": "v3 판정 통과(2026-09-27) - 개인/소규모 콘텐츠 5개 이상 진입, 개념 탐색형 의도, VIX·V코스피 비교표와 과거 위기 수준 참고표라는 정보이득 미확보 확인. 상세는 초안 YAML 참조.",
       "unique_asset_plan": "VIX와 V코스피(코스피200 변동성지수)를 산출기관·기초자산·도입연도·별칭으로 비교하는 표 + 2008년·2020년 위기 때 VIX가 80을 넘겼다는 역사적 참고표(정확한 소수점 수치는 출처 간 차이로 범위만 서술) + V코스피 실시간 확인 경로 안내",
