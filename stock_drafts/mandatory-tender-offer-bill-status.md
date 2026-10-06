@@ -4,7 +4,7 @@ title: 의무공개매수 법안 내용과 처리 현황
 slug: mandatory-tender-offer-bill-status
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1890 (PC 850 / 모바일 1040, 2026-10-06 실측)
+monthly_search_volume: 1890 (PC 850 / 모바일 1040)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-06 - 통과] WebSearch(미국 기준, 참고용) "의무공개매수 제도 자본시장법 개정 2026 시행" 등 상위: kukinews·heraldk·etoday·dt.co.kr·asiae·dealsite(언론) / shinkim·BKL·cheongchul(법무법인 해설, cheongchul은 소규모 블로그형) / 정부 공식 페이지는 상위에 없음.
