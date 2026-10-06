@@ -2848,6 +2848,20 @@
       "draft": "stock_drafts/bok-mpc-schedule-2026-remaining.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06"
+    },
+    {
+      "id": 142,
+      "order": 142,
+      "keyword": "SK하이닉스 3분기 실적",
+      "title": "SK하이닉스 3분기 실적 발표일과 확인 순서",
+      "slug": "skhynix-q3-earnings-check-order",
+      "status": "drafted",
+      "monthly_search_volume": "520 (PC 110 / 모바일 410)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-30",
+      "draft": "stock_drafts/skhynix-q3-earnings-check-order.md",
+      "gate1_pass": true,
+      "drafted_at": "2026-10-06"
     }
   ],
   "backlog": {
@@ -2870,12 +2884,6 @@
         "keyword": "코스피 7000",
         "monthly_search_volume": "990 (PC 320 / 모바일 670, 2026-10-05 실측)",
         "hold_reason": "게이트1 통과(10/2 코스피 7,003.74 마감 보도). 지수 방향 예측으로 읽히기 쉬워 산출방식·구간별 사실 각도가 있을 때만 진행. 순서 대기."
-      },
-      {
-        "title": "SK하이닉스 실적",
-        "keyword": "SK하이닉스 실적",
-        "monthly_search_volume": "580 (PC 110 / 모바일 470, 2026-10-04 실측)",
-        "hold_reason": "게이트1 통과. 134편 환전 우대 채택으로 순서 대기. 3분기 발표일이 검색 한 건(10월 27일 표기)뿐이라 DART/IR 공시로 확정 후 '발표일과 2분기 실적 확인 순서' 사실 각도로만 진행(전망 표기 금지)."
       },
       {
         "title": "해외주식 수수료 비교",
@@ -3655,6 +3663,18 @@
         "keyword": "배당 기준일",
         "monthly_search_volume": "860 (PC 220 / 모바일 640, 2026-10-06 실측)",
         "hold_reason": "게이트1 통과. 16편(배당락일)·47편(배당수익률)과 의도 겹침, 배당락일 3,280은 16편 갱신으로 처리 권장."
+      },
+      {
+        "title": "SK하이닉스 3분기 실적",
+        "keyword": "SK하이닉스 3분기 실적",
+        "monthly_search_volume": "520 (PC 110 / 모바일 410, 2026-10-06 실측)",
+        "hold_reason": "142편으로 채택 완료(2026-10-06). SK하이닉스 실적(580)과 통합."
+      },
+      {
+        "title": "10월 FOMC 일정",
+        "keyword": "10월 FOMC 일정",
+        "monthly_search_volume": "1640 (PC 380 / 모바일 1260, 2026-10-06 실측)",
+        "hold_reason": "게이트1 통과. 141편(금통위 일정, FOMC 10/28 결정·한국시간 10/29 03:00 포함)과 137편(점도표)이 같은 의도를 다뤄 새 글 불필요. 141편 제목·첫 문장에 'FOMC 일정'을 보강하는 갱신으로 처리 권장."
       }
     ],
     "failed_gate1": [
@@ -6102,6 +6122,30 @@
         "keyword": "대주주 요건",
         "monthly_search_volume": "290",
         "checked": "2026-10-06"
+      },
+      {
+        "keyword": "엘리스그룹 청약",
+        "monthly_search_volume": "390 (PC 100 / 모바일 290, 2026-10-06 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "공모주 환불일",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-06 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "서머타임 종료",
+        "monthly_search_volume": "60 (PC 20 / 모바일 40, 2026-10-06 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "대주주 양도세 기준",
+        "monthly_search_volume": "230 (PC 90 / 모바일 140, 2026-10-06 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "배당락일 2026",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-06 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "연말정산 준비물",
+        "monthly_search_volume": "20 (PC 10 / 모바일 10, 2026-10-06 실측, 일반 주제 기준 500 미달)"
       }
     ],
     "priority_queue": {
