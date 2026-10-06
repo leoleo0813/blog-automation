@@ -2876,6 +2876,20 @@
       "draft": "stock_drafts/nvidia-earnings-date-korea-time.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06"
+    },
+    {
+      "id": 144,
+      "order": 144,
+      "keyword": "단일종목 레버리지",
+      "title": "단일종목 레버리지 규제 일정과 20좌 단위",
+      "slug": "single-stock-leverage-etf-rules-timeline",
+      "status": "drafted",
+      "monthly_search_volume": "3500 (PC 880 / 모바일 2620)",
+      "gate_pass": true,
+      "refresh_due": "2026-11-02",
+      "draft": "stock_drafts/single-stock-leverage-etf-rules-timeline.md",
+      "gate1_pass": true,
+      "drafted_at": "2026-10-06"
     }
   ],
   "backlog": {
@@ -3695,6 +3709,24 @@
         "keyword": "10월 FOMC 일정",
         "monthly_search_volume": "1640 (PC 380 / 모바일 1260, 2026-10-06 실측)",
         "hold_reason": "게이트1 통과. 141편(금통위 일정, FOMC 10/28 결정·한국시간 10/29 03:00 포함)과 137편(점도표)이 같은 의도를 다뤄 새 글 불필요. 141편 제목·첫 문장에 'FOMC 일정'을 보강하는 갱신으로 처리 권장."
+      },
+      {
+        "title": "의무공개매수",
+        "keyword": "의무공개매수",
+        "monthly_search_volume": "1850 (PC 830 / 모바일 1020, 2026-10-06 실측)",
+        "hold_reason": "게이트1 통과. 144편 단일종목 레버리지 채택으로 순서 대기. 제도 시행 시점·적용 사례를 공시/언론 2곳 이상으로 확인 필요."
+      },
+      {
+        "title": "국내주식 소수점 거래",
+        "keyword": "국내주식 소수점 거래",
+        "monthly_search_volume": "720 (PC 110 / 모바일 610, 2026-10-06 실측)",
+        "hold_reason": "게이트1 통과. 2025-09-30 제도권 편입 보도. 순서 대기."
+      },
+      {
+        "title": "토큰증권",
+        "keyword": "토큰증권",
+        "monthly_search_volume": "4020 (PC 1570 / 모바일 2450, 2026-10-06 실측)",
+        "hold_reason": "게이트1 통과. 55편(token-securities-2027) 발행분과 겹쳐 새 글 대신 55편 갱신 후보."
       }
     ],
     "failed_gate1": [
@@ -6190,6 +6222,22 @@
       {
         "keyword": "연말정산 주식",
         "monthly_search_volume": "40 (2026-10-06 실측, 일반 주제 기준 500 미달)"
+      },
+      {
+        "keyword": "소수점 투자",
+        "monthly_search_volume": "120"
+      },
+      {
+        "keyword": "주식 결제 T+1",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "해외주식 소수점",
+        "monthly_search_volume": "20"
+      },
+      {
+        "keyword": "대체거래소 넥스트레이드",
+        "monthly_search_volume": "20"
       }
     ],
     "priority_queue": {

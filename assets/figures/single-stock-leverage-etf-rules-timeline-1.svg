@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">단일종목 레버리지, 규제가 쌓인 순서</text>
+<text x="70" y="122" font-size="25" fill="#666">2026년 5월 상장 이후 진입 문턱이 단계적으로 올라감 (11월 건은 시행 예정)</text>
+<line x1="120" y1="360" x2="1080" y2="360" stroke="#cbd5e1" stroke-width="6"/>
+<circle cx="170" cy="360" r="22" fill="#64748b"/>
+<circle cx="450" cy="360" r="22" fill="#e11d48"/>
+<circle cx="730" cy="360" r="22" fill="#e11d48"/>
+<circle cx="1010" cy="360" r="22" fill="#fff" stroke="#e11d48" stroke-width="6" stroke-dasharray="8 6"/>
+<text x="170" y="300" font-size="30" font-weight="bold" text-anchor="middle" fill="#334155">5월 27일</text>
+<text x="170" y="425" font-size="24" font-weight="bold" text-anchor="middle" fill="#334155">상장</text>
+<text x="170" y="460" font-size="22" text-anchor="middle" fill="#475569">ETF 16종</text>
+<text x="170" y="490" font-size="22" text-anchor="middle" fill="#475569">ETN 2종</text>
+<text x="450" y="300" font-size="30" font-weight="bold" text-anchor="middle" fill="#9f1239">7월 중순</text>
+<text x="450" y="425" font-size="24" font-weight="bold" text-anchor="middle" fill="#9f1239">강화안 발표</text>
+<text x="450" y="460" font-size="22" text-anchor="middle" fill="#475569">신규 상장 중단</text>
+<text x="450" y="490" font-size="22" text-anchor="middle" fill="#475569">광고·마케팅 금지</text>
+<text x="730" y="300" font-size="30" font-weight="bold" text-anchor="middle" fill="#9f1239">7월 31일</text>
+<text x="730" y="425" font-size="24" font-weight="bold" text-anchor="middle" fill="#9f1239">예탁금 상향 시행</text>
+<text x="730" y="460" font-size="22" text-anchor="middle" fill="#475569">1,000만 → 3,000만원</text>
+<text x="730" y="490" font-size="22" text-anchor="middle" fill="#475569">현금만 인정</text>
+<text x="1010" y="300" font-size="30" font-weight="bold" text-anchor="middle" fill="#9f1239">11월 예정</text>
+<text x="1010" y="425" font-size="24" font-weight="bold" text-anchor="middle" fill="#9f1239">20좌 단위 매매</text>
+<text x="1010" y="460" font-size="22" text-anchor="middle" fill="#475569">1좌 → 20좌</text>
+<text x="1010" y="490" font-size="22" text-anchor="middle" fill="#475569">세부안 발표 전</text>
+<text x="70" y="620" font-size="22" fill="#666">자료: 언론 보도 종합(금융당국 발표 인용), 2026년 10월 6일 기준</text>
+</g>
+</svg>
