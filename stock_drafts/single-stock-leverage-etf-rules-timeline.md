@@ -4,7 +4,7 @@ title: 단일종목 레버리지 규제 일정과 20좌 단위
 slug: single-stock-leverage-etf-rules-timeline
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 3500 (PC 880 / 모바일 2620, 2026-10-06 실측)
+monthly_search_volume: 3500 (PC 880 / 모바일 2620)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-06 - 통과] WebSearch(미국 기준, 참고용) "단일종목 레버리지 ETF 뜻 투자 방법 규제 정리" 상위 9개: dealsite.co.kr 2건(경제 매체) / weekly.khan.co.kr(언론) / mydailybyte.com(개인·소규모 콘텐츠) / metroseoul.co.kr 2건(언론) / tokenpost.kr(전문 매체) / fsc.go.kr 2건(금융위 공식).
