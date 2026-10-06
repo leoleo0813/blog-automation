@@ -2870,7 +2870,7 @@
       "title": "엔비디아 실적발표 일정과 한국시간 계산",
       "slug": "nvidia-earnings-date-korea-time",
       "status": "drafted",
-      "monthly_search_volume": "1230 (PC 200 / 모바일 1030, 2026-10-06 실측)",
+      "monthly_search_volume": "1230 (PC 200 / 모바일 1030)",
       "gate_pass": true,
       "refresh_due": "2026-11-02",
       "draft": "stock_drafts/nvidia-earnings-date-korea-time.md",

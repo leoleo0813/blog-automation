@@ -4,7 +4,7 @@ title: 엔비디아 실적발표 일정과 한국시간 계산
 slug: nvidia-earnings-date-korea-time
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 1230 (PC 200 / 모바일 1030, 2026-10-06 실측)
+monthly_search_volume: 1230 (PC 200 / 모바일 1030)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-06 - 통과] WebSearch(미국 기준, 참고용) 상위: bullstory.io·thecheck.co.kr·weolbu 커뮤니티·tokenpost·blockmedia 같은 소규모 정리 사이트와 언론, 증권플러스 속보, 엔비디아 IR.
