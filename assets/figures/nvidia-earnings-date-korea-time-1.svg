@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">가이던스보다 실제 매출이 컸던 두 분기</text>
+<text x="70" y="122" font-size="25" fill="#666">엔비디아 분기 매출, 회사 전망(가이던스) vs 실제 · 억 달러</text>
+<rect x="70" y="150" width="26" height="26" fill="#9bb4d6"/><text x="106" y="172" font-size="24" fill="#333">가이던스(전분기 발표 때 제시)</text>
+<rect x="520" y="150" width="26" height="26" fill="#2f6fd0"/><text x="556" y="172" font-size="24" fill="#333">실제 매출</text>
+<text x="70" y="215" font-size="27" font-weight="bold" fill="#222">2027회계연도 1분기</text>
+<rect x="70" y="229" width="454" height="52" fill="#9bb4d6"/><text x="538" y="266" font-size="28" fill="#333">780 전망</text>
+<rect x="70" y="289" width="475" height="52" fill="#2f6fd0"/><text x="559" y="326" font-size="28" font-weight="bold" fill="#2f6fd0">816.2 (+4.6%)</text>
+<text x="70" y="390" font-size="27" font-weight="bold" fill="#222">2027회계연도 2분기</text>
+<rect x="70" y="404" width="529" height="52" fill="#9bb4d6"/><text x="613" y="441" font-size="28" fill="#333">910 전망</text>
+<rect x="70" y="464" width="560" height="52" fill="#2f6fd0"/><text x="644" y="501" font-size="28" font-weight="bold" fill="#2f6fd0">962.2 (+5.7%)</text>
+<text x="70" y="565" font-size="27" font-weight="bold" fill="#222">2027회계연도 3분기</text>
+<rect x="70" y="579" width="628" height="52" fill="#9bb4d6"/><text x="712" y="616" font-size="28" fill="#333">1,080 전망</text>
+<rect x="70" y="639" width="628" height="52" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="10 8"/><text x="84" y="676" font-size="28" fill="#666">발표 전 (빈칸)</text>
+<text x="70" y="740" font-size="23" fill="#666">상회율 = 실제 ÷ 전망 − 1 · 자료: 헤럴드경제·한국경제 등 보도 교차 확인, 2026-10-06</text>
+</g></svg>

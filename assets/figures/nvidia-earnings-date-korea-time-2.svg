@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">같은 미국 시각, 11월 1일부터 한국은 1시간 늦다</text>
+<text x="70" y="122" font-size="25" fill="#666">엔비디아 실적 콘퍼런스콜 미국 동부 오후 5시 기준 환산</text>
+<line x1="70" y1="330" x2="1130" y2="330" stroke="#bbb" stroke-width="4"/>
+<line x1="640" y1="270" x2="640" y2="390" stroke="#d9534f" stroke-width="4"/>
+<text x="640" y="250" font-size="26" font-weight="bold" fill="#d9534f" text-anchor="middle">2026-11-01 서머타임 종료</text>
+<rect x="70" y="360" width="540" height="190" rx="14" fill="#eaf1fb"/>
+<text x="100" y="408" font-size="28" font-weight="bold" fill="#2f6fd0">서머타임 중 (EDT)</text>
+<text x="100" y="458" font-size="26" fill="#333">미국 오후 5시 = 한국 오전 6시</text>
+<text x="100" y="502" font-size="26" fill="#333">2026년 5월·8월 실적이 이 구간</text>
+<rect x="670" y="360" width="460" height="190" rx="14" fill="#fdf0ea"/>
+<text x="700" y="408" font-size="28" font-weight="bold" fill="#d9534f">종료 후 (EST)</text>
+<text x="700" y="458" font-size="26" fill="#333">미국 오후 5시 = 한국 오전 7시</text>
+<text x="700" y="502" font-size="26" fill="#333">11월 3분기 발표는 이 구간</text>
+<text x="70" y="600" font-size="23" fill="#666">환산값 · 실제 콜 시작 시각은 회사가 발표 일정과 함께 공지</text>
+</g></svg>
