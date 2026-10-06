@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">인수한 경영권 지분이 클수록 일반주주 몫은 줄어든다</text>
+<text x="70" y="122" font-size="25" fill="#666">일반주주 전원이 응모할 때 각자 주식 중 매입되는 비율 · 정무위안 구조 가정</text>
+<line x1="420" y1="160" x2="420" y2="470" stroke="#999" stroke-width="2"/>
+<text x="70" y="226" font-size="26" fill="#333">경영권 지분 25%</text>
+<rect x="420" y="190" width="433.3" height="52" fill="#0f766e"/>
+<text x="867.3" y="227" font-size="28" font-weight="bold" fill="#0f766e">33.3%</text>
+<text x="70" y="294" font-size="26" fill="#333">경영권 지분 30%</text>
+<rect x="420" y="258" width="371.4" height="52" fill="#0f766e"/>
+<text x="805.4" y="295" font-size="28" font-weight="bold" fill="#0f766e">28.6%</text>
+<text x="70" y="362" font-size="26" fill="#333">경영권 지분 40%</text>
+<rect x="420" y="326" width="216.7" height="52" fill="#0f766e"/>
+<text x="650.7" y="363" font-size="28" font-weight="bold" fill="#0f766e">16.7%</text>
+<text x="70" y="430" font-size="26" fill="#333">경영권 지분 50% 이상</text>
+<rect x="420" y="394" width="2.0" height="52" fill="#0f766e"/>
+<text x="436.0" y="431" font-size="28" font-weight="bold" fill="#0f766e">0.0%</text>
+<text x="70" y="540" font-size="24" fill="#666">50%+1주까지 매수, 초과 응모는 안분 가정 · 지분은 인수 후 합계 기준 단순 계산 예시</text>
+<text x="70" y="580" font-size="24" fill="#666">실제 비율은 응모율과 최종 법안 내용에 따라 달라짐</text>
+</g></svg>
