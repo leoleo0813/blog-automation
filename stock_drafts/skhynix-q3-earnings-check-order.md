@@ -4,8 +4,8 @@ title: SK하이닉스 3분기 실적 발표일과 확인 순서
 slug: skhynix-q3-earnings-check-order
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 520 (PC 110 / 모바일 410, 2026-10-06 실측)
-gate1_pass: true (일반 주제 기준 월 500 이상 필요, 턱걸이)
+monthly_search_volume: 520 (PC 110 / 모바일 410)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-06 - 통과] WebSearch(미국 기준, 참고용) 상위: 파이낸셜뉴스·MSN 전망 기사 / investing.com 실적 캘린더 / chickstockfi·bullstory·irgo 같은 소규모 정리 사이트 3곳 이상 / SK하이닉스 뉴스룸·위키.
   1) 진입 여지 - 있음. 소규모 정리 사이트가 상위에 3곳 이상.
