@@ -2829,7 +2829,7 @@
       "slug": "leverage-etf-sideways-loss-table",
       "keyword": "레버리지 ETF",
       "status": "drafted",
-      "monthly_search_volume": "16850 (2026-09~10 실측)",
+      "monthly_search_volume": "14960 (PC 2560 / 모바일 12400)",
       "gate_pass": true,
       "refresh_due": "2027-01-05",
       "draft": "stock_drafts/leverage-etf-sideways-loss-table.md",

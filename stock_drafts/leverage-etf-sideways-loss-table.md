@@ -4,8 +4,8 @@ title: 레버리지 ETF 횡보장 손실 계산표와 배수별 차이
 slug: leverage-etf-sideways-loss-table
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 16850 (2026-09~10 실측, 레버리지 ETF)
-gate1_pass: true (일반 주제 기준 월 500 이상, 월 5,000 이상이라 개념형도 허용)
+monthly_search_volume: 14960 (PC 2560 / 모바일 12400)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-06 - 통과] WebSearch(미국 기준, 참고용) "레버리지 ETF 뜻 일간 수익률 2배 복리 효과 횡보장 손실 계산" 상위 9개: toss.im·tossbank.com(핀테크 콘텐츠) / kbthink.com 2건(KB 용어사전·이슈) / kcie.or.kr 2건(금융투자교육원) / samsungfundblog.com(운용사 블로그) / richinfohub.com·dglmoney.com(소규모 콘텐츠 사이트 2건).
   1) 진입 여지 - 있음. 소규모 콘텐츠 사이트 2건이 상위에 있고 월 5,000 이상 키워드는 게이트2 v4상 이 이유만으로 탈락시키지 않는다.
