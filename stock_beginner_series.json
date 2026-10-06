@@ -2834,6 +2834,20 @@
       "refresh_due": "2027-01-05",
       "draft": "stock_drafts/leverage-etf-sideways-loss-table.md",
       "gate1_pass": true
+    },
+    {
+      "id": 141,
+      "order": 141,
+      "keyword": "금통위 일정",
+      "title": "금통위 일정 2026 남은 2번과 FOMC 한국시간",
+      "slug": "bok-mpc-schedule-2026-remaining",
+      "status": "drafted",
+      "monthly_search_volume": "2760 (PC 800 / 모바일 1960)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-23",
+      "draft": "stock_drafts/bok-mpc-schedule-2026-remaining.md",
+      "gate1_pass": true,
+      "drafted_at": "2026-10-06"
     }
   ],
   "backlog": {
@@ -3629,6 +3643,18 @@
         "keyword": "10월 FOMC",
         "monthly_search_volume": "890 (PC 330 / 모바일 560, 2026-10-05 실측)",
         "hold_reason": "게이트1 통과. 점도표 글과 의도가 겹쳐 대기. 이슈 스캔 기사는 FOMC를 28~29일로 적었으나 연준 일정(10/27~28 추정)과 어긋나 날짜 확정 전 진행 금지."
+      },
+      {
+        "title": "미국 증시 휴장일",
+        "keyword": "미국 증시 휴장일",
+        "monthly_search_volume": "42860 (PC 3260 / 모바일 39600, 2026-10-06 실측)",
+        "hold_reason": "게이트1 통과. 125편(미국주식 거래시간)에 휴장·조기폐장 한국시간 표가 이미 있어 새 글은 카니벌라이제이션. 다음 실행에서 125편을 이 키워드로 갱신(제목·첫 문장·2027년 휴장일 표 보강, 커밋 메시지 'N편 갱신')하는 방안 우선 검토."
+      },
+      {
+        "title": "배당 기준일",
+        "keyword": "배당 기준일",
+        "monthly_search_volume": "860 (PC 220 / 모바일 640, 2026-10-06 실측)",
+        "hold_reason": "게이트1 통과. 16편(배당락일)·47편(배당수익률)과 의도 겹침, 배당락일 3,280은 16편 갱신으로 처리 권장."
       }
     ],
     "failed_gate1": [
@@ -6046,7 +6072,37 @@
       "래블업 공모주 210 (2026-10-05)",
       "금통위 10월 60 (2026-10-05)",
       "FOMC 일정 20 (2026-10-05)",
-      "공모주 균등배정 50 (2026-10-05)"
+      "공모주 균등배정 50 (2026-10-05)",
+      {
+        "keyword": "FOMC 일정",
+        "monthly_search_volume": "20",
+        "checked": "2026-10-06"
+      },
+      {
+        "keyword": "기준금리 발표일",
+        "monthly_search_volume": "180",
+        "checked": "2026-10-06"
+      },
+      {
+        "keyword": "연말 배당락일",
+        "monthly_search_volume": "20",
+        "checked": "2026-10-06"
+      },
+      {
+        "keyword": "산타랠리",
+        "monthly_search_volume": "480",
+        "checked": "2026-10-06"
+      },
+      {
+        "keyword": "11월 공모주",
+        "monthly_search_volume": "200",
+        "checked": "2026-10-06"
+      },
+      {
+        "keyword": "대주주 요건",
+        "monthly_search_volume": "290",
+        "checked": "2026-10-06"
+      }
     ],
     "priority_queue": {
       "note": "2026-10-03 주제 선정 v3(RULES.md 최상단). 루틴은 새 초안 전에 이 목록을 위에서부터 본다. 각 항목을 쓰면 상태를 기록하고, 이슈 스캔으로 더 시의성 있는 후보가 나오면 그 순서에 끼워 넣는다.",
@@ -6137,7 +6193,7 @@
           "type": "일정",
           "angle": "16편을 2026년 12월 결산 배당락 일정으로 갱신",
           "plan": "기존 16편 키우기",
-          "status": "todo"
+          "status": "todo (2026-10-06 실측 3,280 재확인, 16편 갱신 대기)"
         },
         {
           "keyword": "연말 절세 갱신 묶음",
