@@ -4,7 +4,7 @@ title: 금통위 일정 2026 남은 2번과 FOMC 한국시간
 slug: bok-mpc-schedule-2026-remaining
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 2760 (PC 800 / 모바일 1960, 2026-10-06 실측)
+monthly_search_volume: 2760 (PC 800 / 모바일 1960)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-06 - 통과] WebSearch(미국 기준, 참고용) 상위: kbthink(KB증권 계열 콘텐츠) / tossbank 아티클 / donpoint·earlyhong·mcheam·secretlinker 등 소규모 정리 사이트 4곳 이상 / 뉴시스·이데일리 일정 보도 / 한국은행·KDI 공식 페이지.
