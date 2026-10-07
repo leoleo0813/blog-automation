@@ -25,6 +25,7 @@ import yaml
 
 OUT = Path('사용자_할일.md')
 SERIES = Path('stock_beginner_series.json')
+BLOG_TODO = Path('blog_todo.yaml')  # 글 단위가 아닌 블로그 전체 할 일(검색엔진 등록, 통계 등)
 
 
 def _volume(fm):
@@ -53,13 +54,27 @@ def collect():
 def render(held, missing):
     today = datetime.date.today().isoformat()
     total = sum(int(h['todo'].get('minutes', 0) or 0) for h in held)
-    L = [f'# 사용자 할 일 — 발행 보류 글에 필요한 자료',
+    if BLOG_TODO.exists():
+        total += sum(int(b.get('minutes', 0) or 0) for b in (yaml.safe_load(BLOG_TODO.read_text(encoding='utf-8')) or []) if not b.get('done'))
+    L = [f'# 사용자 할 일',
          '',
          f'마지막 갱신: {today} · 보류 {len(held) + len(missing)}편 · 예상 합계 약 {total}분',
          '',
          '**보내는 법(공통):** 캡처한 사진을 Claude 대화창에 올리고 "N편 자료"라고만 적어 주세요.',
          '사진을 받으면 본문을 고치고 보류를 풀어 드립니다. 위에서부터(검색량 큰 순) 하면 효과가 큽니다.',
          '']
+    blog = [b for b in (yaml.safe_load(BLOG_TODO.read_text(encoding='utf-8')) if BLOG_TODO.exists() else []) or []
+            if not b.get('done')]
+    if blog:
+        L += ['# 1. 블로그 전체 할 일(먼저)', '']
+        for b in blog:
+            L += [f"## [ ] {b['title']}", f"약 {b.get('minutes', '?')}분 · {b.get('device', '')}", '',
+                  f"**왜:** {b.get('why', '')}", '', '**할 일**']
+            L += [f'{i}. {s}' for i, s in enumerate(b.get('steps', []), 1)]
+            if b.get('must_show'):
+                L += ['', '**캡처에 꼭 보여야 할 것**'] + [f'- {m}' for m in b['must_show']]
+            L += ['', f"보낼 때: \"{b.get('send', b['title'])}\"", '', '---', '']
+        L += ['# 2. 발행 보류 글에 필요한 자료', '']
     for h in held:
         t = h['todo']
         num = f"{h['order']}편" if h['order'] else '번호 없음'
