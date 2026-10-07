@@ -33,6 +33,7 @@ capture_guide: |
 gate_pass: true
 gate_pass_note: |
   게이트1·2·3 충족. 게이트4는 정의를 4곳 교차검증했지만 현재 소비자물가 수치(2.9%)가 통계 원문 미확인이라 gate_pass:false. 발행 전 사람이 할 일: capture_guide 1순위 화면을 캡처해 올려주세요. 일치하면 gate_pass를 true로 바꾸면 됩니다. 11월 초 10월분 발표 때 refresh_due에 따라 갱신합니다.
+  [2026-10-07 사용자 캡처로 mods.go.kr 9월 2.9%·지수 120.43, 한국은행 물가안정목표 2% 원문 확인 완료]
   [2026-10-03 주제 선정 v3 5번 적용] 9월 소비자물가 2.9%·8월 3.1%는 100편(consumer-price-index-calculation-guide)에서 사용자 e-나라지표 캡처(2026-10-02 갱신분)로 검증한 값과 같은 출처·같은 기준월이라 재사용. capture_guide는 불필요해져 gate_pass:true로 전환.
 self_check: |
   후보 경위: 신규 8개 검색량 확인(2026-10-03). PASS 2개: 디플레이션 뜻 870 / 헤지펀드 뜻 810. FAIL 6개: 마진콜 480 / 어닝시즌 100 / 점도표 70 / 양적긴축 30 / FOMC 20 / 베이시스포인트 20. 디플레이션을 채택(기존 스태그플레이션·경기침체·CPI 글과 의도가 달라 카니벌라이제이션 낮음). 헤지펀드 뜻은 사모펀드 뜻(91편)과 겹쳐 다음 후보로 backlog 기록.
@@ -41,7 +42,7 @@ self_check: |
   첫 문장 유형: 문제제기형(직전 123 대비, 122 수치충격, 121 정의, 120 문제제기, 119 절차). 인트로 둘째 문장에 정의 포함, 메타 문장 없음.
   글 구조 유형: 비교형(첫 H2가 3자 비교표로 시작). 직전 123 계산형, 122 개념형, 121 절차형과 다름.
   어투 모드: A 해설형(합쇼체). 직전 123 B, 122 C와 다름. 섹션마다 짧은 문장 포함.
-  현재 수치 표: 소비자물가 상승률 2.9%(2026년 9월, 전월 3.1%), 보도 기준, 원문 캡처 대기. 다음 발표일은 확인하지 못해 적지 않고 "11월 초"로만 기재.
+  현재 수치 표: 소비자물가 2.9%(2026년 9월), 지수 120.43, 전월 대비 0.3%는 mods.go.kr 캡처(2026-10-07 사용자 제공)로 확정, 물가안정목표 2%는 한국은행 캡처로 확정. 다음 발표일은 확인하지 못해 적지 않고 "11월 초"로만 기재.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 6개(직전 123 7·122 5와 다름), H2 6개 중 "~나요"형 2개. 요약박스 초록(#eef7ee/#4f9a5b), 제목 "📗 한눈에 구분하면", 중간 박스 "💡 물가가 내리면 좋은 것 아닌가요", 마무리 박스 "📝 마지막 점검". FAQ 헤딩 "궁금증 풀이 모음". 면책 표현 새로 작성.
   기관 링크: 안내 문장·출처 목록 전부 링크 처리. 내부 링크 4개(100 소비자물가지수, 101 PCE, 108 GDP, 105 국채금리), 모두 published. 그림 1장(물가 1년 뒤 수준 비교, 가정 예시).
   발행 글 갱신(refresh): 이번 실행에서는 신규 초안에 집중. 92·98·105편 등은 1차 출처 접속 불가로 수치를 지어낼 수 없어 갱신 보류.
@@ -154,20 +155,22 @@ figure_plan: "1장으로 충분 — 물가 수준 비교. 나머지 표는 용�
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4f9a5b;padding-left:12px;margin-top:36px;">지금 한국 물가는 디플레이션인가</h2>
 
-<p>2026년 9월 소비자물가 상승률은 2.9%로, 디플레이션 기준인 마이너스와 거리가 멀다고 보도됐습니다. 아래 수치는 통계 원문이 아니라 언론 보도 기준입니다.</p>
+<p>2026년 9월 소비자물가 상승률은 2.9%로, 디플레이션 기준인 마이너스와 거리가 멀다고 보도됐습니다. 아래 수치는 소비자물가지수 공표 페이지(2026-10-02 갱신분)와 한국은행 물가안정목표 페이지에서 확인한 값입니다.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;">
   <thead>
     <tr style="background:#eef7ee;"><th style="border:1px solid #ccc;padding:8px;">항목</th><th style="border:1px solid #ccc;padding:8px;">값</th><th style="border:1px solid #ccc;padding:8px;">기준 시점</th><th style="border:1px solid #ccc;padding:8px;">출처</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ccc;padding:8px;">소비자물가 상승률(전년 동월 대비)</td><td style="border:1px solid #ccc;padding:8px;">2.9%</td><td style="border:1px solid #ccc;padding:8px;">2026년 9월</td><td style="border:1px solid #ccc;padding:8px;"><a href="https://www.seoul.co.kr/news/economy/finance/2026/10/02/20261002500105" target="_blank" rel="noopener">서울신문 보도</a></td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px;">소비자물가 상승률(전년 동월 대비)</td><td style="border:1px solid #ccc;padding:8px;">2.9%</td><td style="border:1px solid #ccc;padding:8px;">2026년 9월</td><td style="border:1px solid #ccc;padding:8px;"><a href="https://mods.go.kr/cpi/" target="_blank" rel="noopener">소비자물가지수 공표 페이지</a></td></tr>
     <tr><td style="border:1px solid #ccc;padding:8px;">직전 달 상승률</td><td style="border:1px solid #ccc;padding:8px;">3.1%</td><td style="border:1px solid #ccc;padding:8px;">2026년 8월</td><td style="border:1px solid #ccc;padding:8px;"><a href="https://www.seoul.co.kr/news/economy/finance/2026/10/02/20261002500105" target="_blank" rel="noopener">서울신문 보도</a></td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px;">소비자물가지수(2020=100) / 전월 대비</td><td style="border:1px solid #ccc;padding:8px;">120.43 / +0.3%</td><td style="border:1px solid #ccc;padding:8px;">2026년 9월</td><td style="border:1px solid #ccc;padding:8px;"><a href="https://mods.go.kr/cpi/" target="_blank" rel="noopener">소비자물가지수 공표 페이지</a></td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px;">한국은행 물가안정목표(소비자물가 상승률)</td><td style="border:1px solid #ccc;padding:8px;">2%</td><td style="border:1px solid #ccc;padding:8px;">2019년 이후 적용</td><td style="border:1px solid #ccc;padding:8px;"><a href="https://www.bok.or.kr/portal/main/contents.do?menuNo=200291" target="_blank" rel="noopener">한국은행 물가안정목표제</a></td></tr>
     <tr><td style="border:1px solid #ccc;padding:8px;">한국은행 10월 전망</td><td style="border:1px solid #ccc;padding:8px;">3% 내외</td><td style="border:1px solid #ccc;padding:8px;">2026-10-02 발표</td><td style="border:1px solid #ccc;padding:8px;"><a href="https://biz.sbs.co.kr/article/20000338026" target="_blank" rel="noopener">SBS Biz 보도</a></td></tr>
   </tbody>
 </table>
 
-<p>상승률이 3% 안팎이므로 지금은 디플레이션이 아니라 물가가 오르되 그 속도가 달라지는 구간입니다. 최신 수치는 <a href="https://mods.go.kr/cpi/" target="_blank" rel="noopener">소비자물가지수 공표 페이지</a>에서 매월 갱신됩니다. 10월분은 11월 초에 나옵니다.</p>
+<p>상승률이 3% 안팎으로 한국은행 물가안정목표 2%보다 높으므로 지금은 디플레이션이 아니라 물가가 오르되 그 속도가 달라지는 구간입니다. 최신 수치는 <a href="https://mods.go.kr/cpi/" target="_blank" rel="noopener">소비자물가지수 공표 페이지</a>에서 매월 갱신됩니다. 10월분은 11월 초에 나옵니다.</p>
 
 <div style="background:#eef7ee;border:2px solid #4f9a5b;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f6b3a;font-size:18px;">📝 마지막 점검</strong>
