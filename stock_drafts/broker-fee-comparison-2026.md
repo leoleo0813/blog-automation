@@ -8,100 +8,50 @@ monthly_search_volume: 4980 (PC 950 / 모바일 4030)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — 상위 8개 중 공식·언론·백과 1개(kcie.or.kr), 나머지 개인블로그/제휴/해외브로커 마케팅. 5개 미만이라 통과.
 unique_asset: 금융투자협회 비교공시 실측표(9개 증권사, 거래금액 100만원·변경후 기준, 온라인/오프라인 수수료) + 조회 조건 구조·인하/인상 공시 비대칭 설명. 사람이 화면에서 직접 확인해 캡처.
-primary_source: 금융투자협회 전자공시 "증권사 주식거래 수수료 비교" (2026-09-04 화면 직접 확인, 거래금액 100만원·변경후 기준) + 보도자료 "증권회사 위탁수수료 등 비교공시 개선" (2011-11-30, 배경 설명으로만 인용) / sources/broker-fee-kofia.md
-기준일: 2026년 9월 기준 (표의 각 증권사 기준일자는 회사마다 다름 — 본문 표 참고)
+primary_source: 거래세율 0.20%는 securities-transaction-tax-rate 글에서 법령 원문(증권거래세법 시행령 제5조, 농어촌특별세법 제5조)으로 검증한 값 재사용(2026-09-08). 수수료는 금융투자협회 전자공시 "증권사 주식거래 수수료 비교" (2026-09-04 화면 직접 확인, 거래금액 100만원·변경후 기준) + 보도자료 "증권회사 위탁수수료 등 비교공시 개선" (2011-11-30, 배경 설명으로만 인용) / sources/broker-fee-kofia.md
+기준일: 2026년 9월 기준(수수료 2026-09-04, 거래세율 2026-09-08) (표의 각 증권사 기준일자는 회사마다 다름 — 본문 표 참고)
 tags: 증권사수수료, 주식수수료, 수수료비교, 위탁매매수수료, 금융투자협회, 주식거래비용, 증권사비교, 주식초보, 온라인수수료
 gate_pass: true
+refresh_due: 2027-01-06
+figure_plan: "2장. 1번 = 스마트폰 주문 수수료 8개사 막대(크기 비교), 2번 = 100만원 왕복 수수료+매도 거래세 3개사 누적 막대(수수료와 세금의 비중). 서로 다른 정보라 2장."
+updated_note: "2026-10-07 갱신(서치 콘솔 평균 7.5위, 검색어 증권사 수수료 비교 2026): 비교표를 맨 앞으로, 첫 두 문장을 100원~1,973원 답으로 교체, 수수료+거래세 왕복 비용 계산·그림 2장·내부 링크 3개 추가. 수수료 수치는 2026-09-04 조회값 그대로(재조회 못 함)."
 self_check: |
   게이트1 통과(4,980회). 게이트2 통과(WebSearch 확인, 공식·언론·백과 1/8).
   게이트3 충족 — 금융투자협회 공시 화면을 사람이 직접 확인해 캡처한 실측표(9개사) 추가.
   게이트4 충족(1차 출처 원문 확인, 기준일 명시, 2011년 보도자료는 배경 설명으로만 사용).
   제목 13자·금지어 없음·조사 없음·비교 제목에 실제 비교표 포함. 슬러그 영문 소문자+하이픈.
   FAQ 6개와 JSON-LD 1:1 일치. @id를 티스토리 entry 패턴으로 지정.
-  이미지: 본문에 캡처 삽입 위치 표시함(og:image 겸용) — 사람이 티스토리 업로드 시 실제 사진 첨부 필요.
-  4개 게이트 전부 충족 — 사람이 이미지 삽입 후 티스토리 발행 가능.
+  [2026-10-07 갱신] 그림 2장(GitHub 원본 주소), 내부 링크 3개. 수수료 값은 9/4 조회 그대로이며 이후 변동은 확인 못 함(본문에 조회일 명시, refresh_due 2027-01-06). 계산은 매수·매도 수수료 동일, 주가 변동 없음 가정을 본문에 명시.
+  AI 티 점검: em대시 0개, 구조 유형 비교형(첫 H2가 비교표 그래프로 시작), 어투 A 해설형, FAQ 6개 유지(JSON-LD 1:1), 박스 제목 새로 지음.
 ---
+<p>스마트폰으로 100만 원어치를 거래할 때 증권사 수수료는 금융투자협회 공시 기준으로 <mark>우리투자증권 100원부터 대신증권 1,973원까지</mark> 약 20배 벌어집니다. 다만 주식을 팔 때 붙는 거래세 0.20%(100만 원이면 2,000원)까지 더하면 그 격차는 약 2.7배로 줄어듭니다.</p>
 
-<p>주식을 시작할 때 증권사를 고르는 기준으로 가장 먼저 보게 되는 것이 수수료입니다. 그런데 막상 비교하려고 하면 어디서 봐야 정확한지가 애매합니다.</p>
-
-<p>증권사 광고에 적힌 "수수료 무료"와 실제로 빠져나가는 금액이 다른 이유도 여기에 있습니다. 이 글에서는 <mark>금융투자협회가 운영하는 공식 비교공시에서 직접 확인하는 방법</mark>과, 그 화면을 볼 때 놓치기 쉬운 부분을 정리했습니다.</p>
+<p>아래 표는 2026년 9월 4일에 금융투자협회 전자공시 화면에서 직접 조회한 9개 증권사 값입니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
+  <strong style="color:#2f4f7f;font-size:18px;">📌 숫자부터 보면</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>증권사 수수료는 금융투자협회 전자공시의 <b>금융투자상품 수수료비교</b> 메뉴에서 공식 확인할 수 있습니다.</li>
-    <li>같은 증권사도 <b>계좌를 어디서 만들었는지, 어떤 방법으로 주문했는지</b>에 따라 수수료가 달라집니다.</li>
-    <li>공시는 수수료율이 아니라 <b>거래금액 구간별 수수료 금액</b>으로 보여줍니다.</li>
-    <li>수수료 <b>인하는 빠르게, 인상은 늦게</b> 공시되는 경향이 있어 협회도 이를 개선 과제로 지적했습니다.</li>
+    <li>스마트폰 주문 수수료(100만 원 기준)는 <b>100원~1,973원</b>, 오프라인은 대체로 4,500~5,000원대입니다.</li>
+    <li>100만 원을 사서 같은 가격에 팔면 수수료와 거래세를 합쳐 <b>2,200원~5,946원</b>이 나갑니다.</li>
+    <li>공시는 수수료율이 아니라 <b>거래금액 구간별 금액</b>으로 보여 주고, 인상은 인하보다 늦게 공시되는 경향이 있습니다.</li>
   </ul>
 </div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증권사 수수료는 어디서 비교하나요</a></li>
-  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 증권사인데 수수료가 왜 다르게 나오나요</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 수수료는 얼마나 차이 날까요</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공시 화면을 볼 때 무엇을 확인해야 하나요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수수료가 가장 싼 곳을 고르면 되나요</a></li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">증권사별 수수료 비교표(100만 원 기준)</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수수료는 어디서 조회하나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">같은 증권사인데 수수료가 다르게 나오는 이유</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">100만 원 사고팔면 수수료와 세금은 얼마인가요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공시 화면에서 볼 것</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수수료가 가장 싼 곳을 고르면 되나요</a></li>
 </ol>
 
-<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권사 수수료는 어디서 비교하나요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권사별 수수료 비교표(100만 원 기준)</h2>
 
-<p>증권사 주식 위탁매매 수수료는 금융투자협회 전자공시 사이트에서 비교할 수 있습니다. 협회 홈페이지의 <b>금융투자상품 수수료비교</b> 메뉴가 그 창구입니다.</p>
+<p>금융투자협회 전자공시에서 <b>거래금액 100만 원, 변경후 기준</b>으로 조회한 값입니다. 스마트폰(온라인) 주문 수수료가 낮은 순서로 정렬했습니다.</p>
 
-<p>이 메뉴는 원래 <b>금융투자회사 공시</b> 안의 <b>특정공시</b> 항목에 섞여 있었습니다. 투자자가 찾기 어렵다는 지적에 따라 별도 메뉴로 분리된 것이라고 금융투자협회는 밝혔습니다.</p>
-
-<p>증권사 홈페이지의 안내와 달리, 이곳은 여러 회사의 조건을 같은 기준으로 나란히 놓고 볼 수 있습니다. 특정 회사의 이벤트 문구가 아니라 공시된 값을 보는 것이 출발점입니다.</p>
-
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
-  <b>확인 순서</b>
-  <ol style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>금융투자협회 전자공시 접속</li>
-    <li>금융투자상품 수수료비교 메뉴 선택</li>
-    <li>주문 방식과 거래금액 조건 지정</li>
-    <li>회사별 수수료 금액 비교</li>
-  </ol>
-</div>
-
-<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">같은 증권사인데 수수료가 왜 다르게 나오나요</h2>
-
-<p>같은 회사라도 조건에 따라 적용되는 수수료가 다릅니다. 공시가 조건별로 나뉘어 있는 이유입니다.</p>
-
-<p>공시에서 구분하는 조건은 크게 <b>계좌를 만든 경로</b>와 <b>주문을 넣는 방법</b>입니다. <mark>은행에서 만든 계좌와 지점에서 만든 계좌가 따로 구분되고, 온라인 주문과 오프라인 주문도 나뉩니다.</mark></p>
-
-<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
-  <thead>
-    <tr style="background:#eef6ff;">
-      <th style="border:1px solid #ccd;padding:10px;text-align:left;">구분</th>
-      <th style="border:1px solid #ccd;padding:10px;text-align:left;">세부 항목</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border:1px solid #ccd;padding:10px;">계좌 개설 경로</td>
-      <td style="border:1px solid #ccd;padding:10px;">은행 개설 계좌 / 지점 개설 계좌</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ccd;padding:10px;">온라인 주문</td>
-      <td style="border:1px solid #ccd;padding:10px;">HTS, ARS, 스마트폰</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ccd;padding:10px;">오프라인 주문</td>
-      <td style="border:1px solid #ccd;padding:10px;">지점 방문, 전화로 직원을 통한 주문</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>스마트폰으로 주문하는 초보 투자자라면 오프라인 조건의 수수료는 참고 대상이 아닙니다. 조건을 잘못 놓고 비교하면 실제와 다른 숫자를 보게 됩니다.</p>
-
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제 수수료는 얼마나 차이 날까요</h2>
-
-<!-- [이미지 삽입 위치] 티스토리 HTML 편집기에서 여기에 커서를 놓고
-     금융투자협회 비교공시 화면 캡처 사진을 직접 업로드하세요.
-     alt: "금융투자협회 전자공시 증권사 수수료 비교 화면 (2026-09-04 확인)"
-     이 글의 유일한 이미지이므로 og:image(검색/공유 미리보기)로도 쓰입니다. -->
-
-<p>금융투자협회 전자공시에서 <b>거래금액 100만 원, 변경후 기준</b>으로 직접 조회한 값입니다. 스마트폰(온라인) 주문 기준으로 낮은 순서로 정렬했습니다.</p>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/broker-fee-comparison-2026-1.png" alt="증권사 8곳의 스마트폰 주문 수수료 막대그래프: 우리투자증권 100원, 토스증권 150원, 대신증권 1,973원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 금융투자협회 전자공시(2026-09-04 조회, 변경후 기준). 오프라인만 공시한 유화증권은 제외</figcaption></figure>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;">
   <thead>
@@ -132,7 +82,90 @@ self_check: |
   <p style="margin:8px 0 0 0;">표의 기준일자는 2012년부터 2026년까지 걸쳐 있습니다. 이는 각 증권사가 지금 공시된 수수료를 마지막으로 바꾼 시점이 다르다는 뜻입니다. 기준일자가 오래됐다고 해서 값을 못 믿는다는 뜻은 아니고, 그 이후로 해당 회사가 수수료를 바꾸지 않았다는 의미입니다.</p>
 </div>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공시 화면을 볼 때 무엇을 확인해야 하나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수수료는 어디서 조회하나요</h2>
+
+<p>증권사 주식 위탁매매 수수료는 금융투자협회 전자공시 사이트에서 비교할 수 있습니다. 협회 홈페이지의 <b>금융투자상품 수수료비교</b> 메뉴가 그 창구입니다.</p>
+
+<p>이 메뉴는 원래 <b>금융투자회사 공시</b> 안의 <b>특정공시</b> 항목에 섞여 있었습니다. 투자자가 찾기 어렵다는 지적에 따라 별도 메뉴로 분리된 것이라고 금융투자협회는 밝혔습니다.</p>
+
+<p>증권사 홈페이지의 안내와 달리, 이곳은 여러 회사의 조건을 같은 기준으로 나란히 놓고 볼 수 있습니다. 특정 회사의 이벤트 문구가 아니라 공시된 값을 보는 것이 출발점입니다.</p>
+
+<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
+  <b>확인 순서</b>
+  <ol style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
+    <li>금융투자협회 전자공시 접속</li>
+    <li>금융투자상품 수수료비교 메뉴 선택</li>
+    <li>주문 방식과 거래금액 조건 지정</li>
+    <li>회사별 수수료 금액 비교</li>
+  </ol>
+</div>
+
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">같은 증권사인데 수수료가 다르게 나오는 이유</h2>
+
+<p>같은 회사라도 조건에 따라 적용되는 수수료가 다릅니다. 공시가 조건별로 나뉘어 있는 이유입니다.</p>
+
+<p>공시에서 구분하는 조건은 크게 <b>계좌를 만든 경로</b>와 <b>주문을 넣는 방법</b>입니다. <mark>은행에서 만든 계좌와 지점에서 만든 계좌가 따로 구분되고, 온라인 주문과 오프라인 주문도 나뉩니다.</mark></p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">구분</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">세부 항목</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #ccd;padding:10px;">계좌 개설 경로</td>
+      <td style="border:1px solid #ccd;padding:10px;">은행 개설 계좌 / 지점 개설 계좌</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ccd;padding:10px;">온라인 주문</td>
+      <td style="border:1px solid #ccd;padding:10px;">HTS, ARS, 스마트폰</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ccd;padding:10px;">오프라인 주문</td>
+      <td style="border:1px solid #ccd;padding:10px;">지점 방문, 전화로 직원을 통한 주문</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>스마트폰으로 주문하는 초보 투자자라면 오프라인 조건의 수수료는 참고 대상이 아닙니다. 조건을 잘못 놓고 비교하면 실제와 다른 숫자를 보게 됩니다.</p>
+
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">100만 원 사고팔면 수수료와 세금은 얼마인가요</h2>
+
+<p>100만 원어치를 사서 같은 가격에 팔면, 스마트폰 주문 기준으로 수수료와 거래세를 합쳐 <mark>우리투자증권 2,200원, 대신증권 5,946원</mark>이 빠져나갑니다. 수수료는 살 때와 팔 때 두 번, 거래세는 팔 때 한 번 붙습니다.</p>
+
+<p>거래세율은 코스피·코스닥 모두 실제 부담 합계가 0.20%입니다. 코스피는 증권거래세 0.05%에 농어촌특별세 0.15%가 따로 붙는 구조라, 자세한 내용은 <a href="https://sensitiveboss3.tistory.com/entry/securities-transaction-tax-rate" target="_blank" rel="noopener">증권거래세 세율 2026</a> 글에 정리했습니다(2026년 1월 1일 이후 양도분 기준).</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/broker-fee-comparison-2026-2.png" alt="100만원 매수·매도 시 비용: 우리투자증권 2,200원, 미래에셋증권 4,720원, 대신증권 5,946원, 거래세 2,000원 포함" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 금융투자협회 공시(2026-09-04), 증권거래세법 시행령·농어촌특별세법. 매수·매도 수수료가 같고 주가 변동이 없다는 가정</figcaption></figure>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">증권사(스마트폰)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">수수료 1회</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">왕복 수수료</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">매도 거래세 0.20%</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">합계</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">우리투자증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">100원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">200원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>2,200원</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">미래에셋증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,360원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,720원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">4,720원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">대신증권</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">1,973원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">3,946원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">2,000원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">5,946원</td></tr>
+  </tbody>
+</table>
+
+<p>수수료만 보면 20배 차이가 나지만 거래세를 더하면 2.7배(5,946원 ÷ 2,200원)로 줄어듭니다. 거래세는 증권사와 상관없이 같기 때문입니다.</p>
+
+<p>자주 사고파는 투자자일수록 수수료 차이가 쌓입니다. 같은 100만 원을 한 달에 10번 왕복하면 우리투자증권 기준 수수료는 2,000원, 대신증권 기준은 39,460원입니다(위 공시 값 기준 계산).</p>
+
+<div style="background:#fff8e6;border-left:4px solid #e0a800;padding:14px 18px;margin:20px 0;">
+  <b>💡 비용에 안 들어간 것</b>
+  <p style="margin:8px 0 0 0;">위 계산은 공시 표의 수수료 금액과 거래세만 더한 값입니다. 해외주식이나 ETF는 비용 구조가 다르므로 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison" target="_blank" rel="noopener">ETF 수수료 비교</a> 글과 <a href="https://sensitiveboss3.tistory.com/entry/stock-sell-tax-amount" target="_blank" rel="noopener">주식 매도 세금 얼마</a> 글을 함께 보세요.</p>
+</div>
+
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">공시 화면에서 볼 것</h2>
 
 <p>공시는 수수료율이 아니라 <b>거래금액 구간별 수수료 금액</b>으로 보여줍니다. 투자자가 직접 계산하지 않아도 되도록 바뀐 부분입니다.</p>
 
@@ -164,7 +197,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">10만 원, 50만 원 구간을 먼저 보세요. 1천만 원 기준으로 유리한 곳이 소액에서도 유리하다는 보장은 없습니다.</p>
 </div>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수수료가 가장 싼 곳을 고르면 되나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수수료가 가장 싼 곳을 고르면 되나요</h2>
 
 <p>수수료만 보고 정하기 어려운 이유가 두 가지 있습니다.</p>
 
@@ -172,20 +205,18 @@ self_check: |
 
 <p>둘째, 공시 시점의 비대칭이 있습니다. 협회는 개선 이후 점검할 미흡한 사항으로 <b>수수료 인하는 실시간 또는 사전에 공시하는 반면, 인상은 공시하지 않거나 늦게 공시하는 문제</b>를 직접 언급했습니다.</p>
 
-<p>즉 지금 화면에 보이는 값이 앞으로도 유지된다고 단정하기 어렵습니다. 계좌를 만든 뒤에도 <b>거래 전에 한 번씩 다시 확인하는 습관</b>이 안전합니다.</p>
+<p>즉 지금 화면에 보이는 값이 앞으로도 유지된다고 단정하기 어렵습니다. 계좌를 만든 뒤에도 <b>거래 전에 한 번씩 다시 조회하는 습관</b>이 안전합니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:28px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">정리</strong>
+  <strong style="color:#2f4f7f;font-size:18px;">고르기 전 체크</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>공식 비교는 금융투자협회 전자공시의 수수료비교 메뉴에서 합니다.</li>
-    <li>본인이 실제로 쓰는 조건(계좌 개설 경로, 주문 방법, 거래금액)으로 맞춰 조회합니다.</li>
-    <li>수수료 외에 서비스 내용과 인상 가능성까지 같이 봅니다.</li>
+    <li>내가 쓰는 계좌 경로·주문 방법·거래금액으로 조건을 맞춰 조회합니다.</li>
+    <li>수수료와 거래세를 합친 왕복 비용으로 비교합니다.</li>
+    <li>거래 전에 공시를 한 번 더 조회합니다.</li>
   </ul>
 </div>
 
-<p>참고로 주식을 팔 때는 위탁매매수수료 외에 세금이 별도로 붙습니다. 이 부분은 다음 글에서 따로 정리하겠습니다.</p>
-
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수수료 고를 때 나오는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">증권사 수수료는 어디서 비교하나요</summary>
@@ -218,10 +249,11 @@ self_check: |
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
-  참고 출처 (2026년 9월 확인):
+  참고 출처 (2026년 9월 확인, 거래세율은 2026-09-08 확인):
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.kofia.or.kr/npboard/m_18/view.do?nttId=102470&bbsId=BBSMSTR_000000000203" target="_blank" rel="noopener">금융투자협회 — 증권회사 위탁수수료 등 비교공시 개선</a></li>
-    <li><a href="https://dis.kofia.or.kr/websquare/index.jsp?w2xPath=%2Fwq%2Fcompann%2FDISComdStockTrdCms.xml&divisionId=MDIS02007002000000&serviceId=SDIS02007002000" target="_blank" rel="noopener">금융투자협회 전자공시 — 증권사 주식거래 수수료 비교</a></li>
+    <li><a href="https://www.kofia.or.kr/npboard/m_18/view.do?nttId=102470&amp;bbsId=BBSMSTR_000000000203" target="_blank" rel="noopener">금융투자협회, 증권회사 위탁수수료 등 비교공시 개선</a></li>
+    <li><a href="https://dis.kofia.or.kr/websquare/index.jsp?w2xPath=%2Fwq%2Fcompann%2FDISComdStockTrdCms.xml&amp;divisionId=MDIS02007002000000&amp;serviceId=SDIS02007002000" target="_blank" rel="noopener">금융투자협회 전자공시, 증권사 주식거래 수수료 비교</a></li>
+    <li><a href="https://sensitiveboss3.tistory.com/entry/securities-transaction-tax-rate" target="_blank" rel="noopener">증권거래세 세율 2026 (증권거래세법 시행령 제5조, 농어촌특별세법 제5조 근거)</a></li>
   </ul>
 </div>
 
@@ -293,11 +325,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "증권사 수수료 비교 2026",
-  "description": "증권사 주식 위탁매매 수수료를 금융투자협회 공식 비교공시에서 직접 확인하는 방법과, 조회 조건·공시 구조에서 놓치기 쉬운 부분을 정리했습니다.",
+  "description": "스마트폰 주문 기준 100만원 거래 수수료는 증권사별로 100원에서 1,973원까지 벌어집니다. 금융투자협회 공시 9개사 비교표와 매도 거래세를 합친 왕복 비용을 계산했습니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-03",
-  "dateModified": "2026-09-04",
+  "dateModified": "2026-10-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/broker-fee-comparison-2026"

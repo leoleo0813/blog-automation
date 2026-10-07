@@ -159,6 +159,8 @@ correction_2026_09_08: |
 
 <p>해외주식은 절차가 조금 다릅니다. 예정신고 없이 <b>다음 해 5월 1일부터 31일까지 확정신고만</b> 하면 됩니다.</p>
 
+<p>세금과 별개로 증권사 수수료도 매수·매도 때마다 나갑니다. 회사별 수수료와 세금을 합친 왕복 비용은 <a href="https://sensitiveboss3.tistory.com/entry/broker-fee-comparison-2026" target="_blank" rel="noopener">증권사 수수료 비교 2026</a> 글에서 계산했습니다.</p>
+
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:28px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">정리</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">

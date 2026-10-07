@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">100만원 사고팔면 빠져나가는 돈</text>
+<text x="70" y="122" font-size="25" fill="#666">스마트폰 주문 왕복 수수료 + 매도 거래세 0.20%</text>
+<rect x="70" y="150" width="28" height="28" fill="#4a90d9"/><text x="108" y="174" font-size="25" fill="#333">수수료(매수+매도)</text>
+<rect x="400" y="150" width="28" height="28" fill="#e67e22"/><text x="438" y="174" font-size="25" fill="#333">거래세 2,000원</text>
+<text x="70" y="216" font-size="27" font-weight="bold" fill="#333">우리투자증권</text>
+<rect x="70" y="230" width="25" height="64" fill="#4a90d9"/>
+<rect x="95" y="230" width="250" height="64" fill="#e67e22"/>
+<text x="361" y="274" font-size="28" font-weight="bold" fill="#222">합계 2,200원</text>
+<text x="70" y="334" font-size="24" fill="#555">수수료 200원 + 거래세 2,000원</text>
+<text x="70" y="366" font-size="27" font-weight="bold" fill="#333">미래에셋증권</text>
+<rect x="70" y="380" width="340" height="64" fill="#4a90d9"/>
+<rect x="410" y="380" width="250" height="64" fill="#e67e22"/>
+<text x="676" y="424" font-size="28" font-weight="bold" fill="#222">합계 4,720원</text>
+<text x="70" y="484" font-size="24" fill="#555">수수료 2,720원 + 거래세 2,000원</text>
+<text x="70" y="516" font-size="27" font-weight="bold" fill="#333">대신증권</text>
+<rect x="70" y="530" width="493" height="64" fill="#4a90d9"/>
+<rect x="563" y="530" width="250" height="64" fill="#e67e22"/>
+<text x="829" y="574" font-size="28" font-weight="bold" fill="#222">합계 5,946원</text>
+<text x="70" y="634" font-size="24" fill="#555">수수료 3,946원 + 거래세 2,000원</text>
+<text x="70" y="700" font-size="21" fill="#888">자료: 금융투자협회 공시(2026-09-04), 증권거래세법 시행령·농어촌특별세법. 매수·매도가 같다는 가정</text>
+</g></svg>

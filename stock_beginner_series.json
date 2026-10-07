@@ -41,7 +41,8 @@
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 전부 충족 확인(2026-09-04): 검색량 4,980회 / 경쟁 1/8 / 실측표 캡처 반영 / 1차출처+기준일 명시. 사람 최종 확인 후 티스토리 발행 대기 중.",
       "published_at": "2026-09-05",
-      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 후 서치콘솔 실적(색인/노출/순위·CTR) 확인 대상."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 후 서치콘솔 실적(색인/노출/순위·CTR) 확인 대상.",
+      "note_refresh": "2026-10-07 갱신"
     },
     {
       "id": 2,
@@ -6330,8 +6331,9 @@
           "type": "발행 글 갱신(구글)",
           "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
           "plan": "기존 broker-fee-comparison-2026 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "broker-fee-comparison-2026"
+          "status": "done",
+          "slug": "broker-fee-comparison-2026",
+          "done_note": "2026-10-07 갱신: 비교표·그래프를 맨 앞으로, 첫 두 문장을 100원~1,973원 답으로 교체, 수수료+거래세 왕복 비용 계산, 그림 2장, 내부 링크 3개(+들어오는 링크 2개: 증권거래세 세율·주식 매도 세금). 수수료 값은 9/4 조회 그대로"
         },
         {
           "keyword": "[다음 유입 글 갱신] 증권거래세 세율",

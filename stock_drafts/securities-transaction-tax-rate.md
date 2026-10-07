@@ -204,6 +204,8 @@ self_check: |
 
 <p>실제로 얼마가 떼였는지는 증권사 앱의 거래내역이나 거래명세에서 확인할 수 있습니다. 세금 신고가 필요한 것은 양도소득세 대상일 때이고, 그 경우 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 신고합니다.</p>
 
+<p>매도할 때 거래세와 함께 나가는 증권사 수수료는 회사마다 다릅니다. 100만 원 왕복 비용 계산은 <a href="https://sensitiveboss3.tistory.com/entry/broker-fee-comparison-2026" target="_blank" rel="noopener">증권사 수수료 비교 2026</a> 글에 있습니다.</p>
+
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">

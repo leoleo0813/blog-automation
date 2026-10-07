@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860">
+<rect width="1200" height="860" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">스마트폰 주문 수수료, 100만원 거래 기준</text>
+<text x="70" y="122" font-size="25" fill="#666">금융투자협회 공시 조회값, 낮은 순서 (단위: 원)</text>
+<text x="330" y="206" font-size="26" fill="#333" text-anchor="end">우리투자증권</text>
+<rect x="350" y="170" width="34" height="50" rx="6" fill="#2e8b57"/>
+<text x="398" y="206" font-size="28" font-weight="bold" fill="#222">100원</text>
+<text x="330" y="284" font-size="26" fill="#333" text-anchor="end">토스증권</text>
+<rect x="350" y="248" width="51" height="50" rx="6" fill="#2e8b57"/>
+<text x="415" y="284" font-size="28" font-weight="bold" fill="#222">150원</text>
+<text x="330" y="362" font-size="26" fill="#333" text-anchor="end">상상인증권</text>
+<rect x="350" y="326" width="340" height="50" rx="6" fill="#4a90d9"/>
+<text x="704" y="362" font-size="28" font-weight="bold" fill="#222">1,000원</text>
+<text x="330" y="440" font-size="26" fill="#333" text-anchor="end">미래에셋증권</text>
+<rect x="350" y="404" width="462" height="50" rx="6" fill="#4a90d9"/>
+<text x="826" y="440" font-size="28" font-weight="bold" fill="#222">1,360원</text>
+<text x="330" y="518" font-size="26" fill="#333" text-anchor="end">비엔케이투자증권</text>
+<rect x="350" y="482" width="510" height="50" rx="6" fill="#4a90d9"/>
+<text x="874" y="518" font-size="28" font-weight="bold" fill="#222">1,500원</text>
+<text x="330" y="596" font-size="26" fill="#333" text-anchor="end">유진투자증권</text>
+<rect x="350" y="560" width="510" height="50" rx="6" fill="#4a90d9"/>
+<text x="874" y="596" font-size="28" font-weight="bold" fill="#222">1,500원</text>
+<text x="330" y="674" font-size="26" fill="#333" text-anchor="end">신한투자증권</text>
+<rect x="350" y="638" width="643" height="50" rx="6" fill="#4a90d9"/>
+<text x="1007" y="674" font-size="28" font-weight="bold" fill="#222">1,890원</text>
+<text x="330" y="752" font-size="26" fill="#333" text-anchor="end">대신증권</text>
+<rect x="350" y="716" width="671" height="50" rx="6" fill="#e67e22"/>
+<text x="1035" y="752" font-size="28" font-weight="bold" fill="#222">1,973원</text>
+<text x="70" y="832" font-size="21" fill="#888">자료: 금융투자협회 전자공시(2026-09-04 조회, 변경후 기준). 증권사별 기준일자는 표 참고</text>
+</g></svg>
