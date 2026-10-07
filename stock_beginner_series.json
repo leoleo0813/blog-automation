@@ -6302,8 +6302,98 @@
       }
     ],
     "priority_queue": {
-      "note": "2026-10-03 주제 선정 v3(RULES.md 최상단). 루틴은 새 초안 전에 이 목록을 위에서부터 본다. 각 항목을 쓰면 상태를 기록하고, 이슈 스캔으로 더 시의성 있는 후보가 나오면 그 순서에 끼워 넣는다.",
+      "note": "2026-10-03 주제 선정 v3(RULES.md 최상단). 루틴은 새 초안 전에 이 목록을 위에서부터 본다. 각 항목을 쓰면 상태를 기록하고, 이슈 스캔으로 더 시의성 있는 후보가 나오면 그 순서에 끼워 넣는다. [2026-10-07] 서치 콘솔 실적(traffic_reports/2026-10-07.md) 기준으로 구글 노출 상위·4~12위 글 10편 갱신을 맨 앞에 둠. 새 초안보다 먼저 1회 실행당 1편씩 처리.",
       "items": [
+        {
+          "keyword": "[구글 순위 끌어올리기] 주식병합 뜻",
+          "monthly_search_volume": "구글 3개월 노출 184회, 평균 6.4위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 stock-consolidation-notice-period 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "stock-consolidation-notice-period"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 금융소득종합과세",
+          "monthly_search_volume": "구글 3개월 노출 174회, 평균 8.5위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 financial-income-comprehensive-tax 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "financial-income-comprehensive-tax"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 증권사 수수료 비교 2026",
+          "monthly_search_volume": "구글 3개월 노출 172회, 평균 7.5위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 broker-fee-comparison-2026 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "broker-fee-comparison-2026"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 블록딜 뜻",
+          "monthly_search_volume": "구글 3개월 노출 120회, 평균 7.8위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 block-deal-pre-disclosure 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "block-deal-pre-disclosure"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 오버행 뜻",
+          "monthly_search_volume": "구글 3개월 노출 118회, 평균 8.1위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 overhang-lockup-release-check 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "overhang-lockup-release-check"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 네 마녀의 날 2026",
+          "monthly_search_volume": "구글 3개월 노출 99회, 평균 4.8위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 quadruple-witching-day-2026 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "quadruple-witching-day-2026"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] TIGER 미국S&P500",
+          "monthly_search_volume": "구글 3개월 노출 90회, 평균 6.3위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 tiger-sp500-unhedged 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "tiger-sp500-unhedged"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 컨센서스 뜻",
+          "monthly_search_volume": "구글 3개월 노출 82회, 평균 10.0위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 consensus-estimate-check-guide 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "consensus-estimate-check-guide"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] ISA 계좌 한도",
+          "monthly_search_volume": "구글 3개월 노출 71회, 평균 11.8위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 isa-limit-benefit 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "isa-limit-benefit"
+        },
+        {
+          "keyword": "[구글 순위 끌어올리기] 체결강도 뜻",
+          "monthly_search_volume": "구글 3개월 노출 59회, 평균 8.2위",
+          "type": "발행 글 갱신(구글)",
+          "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
+          "plan": "기존 stock-execution-strength-meaning 갱신(티스토리 재반영 필요)",
+          "status": "todo",
+          "slug": "stock-execution-strength-meaning"
+        },
         {
           "keyword": "미국주식 거래시간",
           "monthly_search_volume": "20,730 (2026-09~10 실측)",
