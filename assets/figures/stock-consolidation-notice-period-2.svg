@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">주식병합 진행 순서(상장사, 일반적인 경우)</text>
+<text x="70" y="122" font-size="25" fill="#666">실제 날짜는 회사 공시의 일정표에 적혀 있어요</text>
+<line x1="80" y1="380" x2="1120" y2="380" stroke="#9aa0a6" stroke-width="4"/>
+<circle cx="110" cy="380" r="13" fill="#1a2744"/>
+<line x1="110" y1="350" x2="110" y2="310" stroke="#1a2744" stroke-width="3"/>
+<text x="110" y="202" font-size="25" font-weight="bold" text-anchor="middle" fill="#1a2744">① 결정 공시</text>
+<text x="110" y="236" font-size="21" text-anchor="middle" fill="#333">이사회 결의</text>
+<text x="110" y="266" font-size="21" text-anchor="middle" fill="#333">주식병합결정</text>
+<circle cx="306" cy="380" r="13" fill="#1a2744"/>
+<line x1="306" y1="410" x2="306" y2="450" stroke="#1a2744" stroke-width="3"/>
+<text x="306" y="486" font-size="25" font-weight="bold" text-anchor="middle" fill="#1a2744">② 주주총회</text>
+<text x="306" y="518" font-size="21" text-anchor="middle" fill="#333">특별결의로</text>
+<text x="306" y="548" font-size="21" text-anchor="middle" fill="#333">승인</text>
+<circle cx="502" cy="380" r="13" fill="#8aa4d6"/>
+<line x1="502" y1="350" x2="502" y2="310" stroke="#8aa4d6" stroke-width="3"/>
+<text x="502" y="202" font-size="25" font-weight="bold" text-anchor="middle" fill="#8aa4d6">③ 병합 공고</text>
+<text x="502" y="236" font-size="21" text-anchor="middle" fill="#333">병합기준일</text>
+<text x="502" y="266" font-size="21" text-anchor="middle" fill="#333">2주 전까지</text>
+<circle cx="698" cy="380" r="13" fill="#c0392b"/>
+<line x1="698" y1="410" x2="698" y2="450" stroke="#c0392b" stroke-width="3"/>
+<text x="698" y="486" font-size="25" font-weight="bold" text-anchor="middle" fill="#c0392b">④ 거래정지</text>
+<text x="698" y="518" font-size="21" text-anchor="middle" fill="#333">매매 멈춤</text>
+<text x="698" y="548" font-size="21" text-anchor="middle" fill="#333">구주식 출고</text>
+<circle cx="894" cy="380" r="13" fill="#c0392b"/>
+<line x1="894" y1="350" x2="894" y2="310" stroke="#c0392b" stroke-width="3"/>
+<text x="894" y="202" font-size="25" font-weight="bold" text-anchor="middle" fill="#c0392b">⑤ 병합기준일</text>
+<text x="894" y="236" font-size="21" text-anchor="middle" fill="#333">병합 효력</text>
+<text x="894" y="266" font-size="21" text-anchor="middle" fill="#333">발생</text>
+<circle cx="1090" cy="380" r="13" fill="#2e8b57"/>
+<line x1="1090" y1="410" x2="1090" y2="450" stroke="#2e8b57" stroke-width="3"/>
+<text x="1090" y="486" font-size="25" font-weight="bold" text-anchor="middle" fill="#2e8b57">⑥ 변경상장</text>
+<text x="1090" y="518" font-size="21" text-anchor="middle" fill="#333">거래 재개</text>
+<text x="1090" y="548" font-size="21" text-anchor="middle" fill="#333">새 주식 입고</text>
+<text x="70" y="612" font-size="21" fill="#888">근거: 전자증권법 제65조, 상법 제440조·제441조, 한국거래소 매매거래정지 안내(정지는 변경상장일 전일까지)</text>
+</g></svg>

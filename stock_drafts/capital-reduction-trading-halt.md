@@ -169,6 +169,8 @@ self_check: |
 
 <p>실제로 상장사에서 뉴스에 오르내리는 감자는 대부분 <mark>무상감자</mark>입니다. 재무구조가 나빠진 회사가 자본잠식을 벗어나기 위해 택하는 경우가 많기 때문입니다.</p>
 
+<p>무상감자처럼 주식 수가 줄지만 자본금은 그대로인 액면병합은 <a href="https://sensitiveboss3.tistory.com/entry/stock-consolidation-notice-period" target="_blank" rel="noopener">주식병합 뜻</a>과 거래정지 기간 글에 따로 정리했어요. 계좌에 '주식병합출고'가 찍혔다면 공시 제목이 "감자결정"인지 "주식병합결정"인지부터 보면 돼요.</p>
+
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">감자비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</h2>
 
 <p>무상감자는 <mark>감자비율만큼 주식 수를 줄이는 대신, 기준주가를 그 비율의 역수로 올려</mark> 이론상 평가금액이 변하지 않도록 설계됩니다.</p>

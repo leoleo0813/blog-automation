@@ -1,6 +1,6 @@
 ---
 keyword: 주식 병합 뜻
-title: 주식병합 뜻과 공고기간 확인법
+title: 주식병합 뜻과 거래정지 기간, 주식병합출고 의미
 slug: stock-consolidation-notice-period
 keyword_class: 자동화 가능
 publish_effort: oneclick
@@ -67,8 +67,23 @@ primary_source: |
   판단했다. 다만 실제 거래소 매매거래정지 "일수"는 종목마다 달라 법정 공고기간과
   혼동되지 않도록 본문에서 명확히 구분하고, 구체적 정지 일수는 단정하지 않았다
   (self_check 참고).
-기준일: 2026-09-14 (WebSearch 확인일)
-tags: 주식병합, 액면병합, 주식병합뜻, 액면분할, 무상감자, 상법440조, 매매거래정지, 신주상장, 병합비율, 전자공시
+  [2026-10-07 갱신(서치 콘솔 노출 184회·평균 6.4위, 구글 순위 끌어올리기)]
+  - 정정: 상장사(전자등록 주식)는 상법 440조의 1개월 주권제출 공고가 아니라 전자증권법 제65조
+    "병합기준일 2주 전까지 공고·개별 통지, 병합기준일에 효력(채권자보호절차 미종료 시 종료 때)"이 적용.
+    korea.legal 조문 해설(전자증권법 제65조·주식병합 항목) 2회 검색 스니펫 일치, 종이 주권과의 차이까지 동일 서술.
+    법 조문(정의형)이라 기관 원문 접속 불가(law.go.kr 차단)에도 수학·법 정의 기준으로 통과.
+  - 단주: 상법 제443조(단주 경매·거래소 시세 있는 주식은 거래소 매각, 대금 지급) — korea.legal 조문, 법률신문 보도.
+  - 주식병합출고/입고: korea.legal 주식병합 항목 스니펫(출고=구주식 차감, 입고=신주식 가산). 시점은 "무렵"으로만 서술.
+  - 거래정지 종료 = 변경상장일 전일: KIND 매매거래정지 공시(2026-02-24 건)·피플바이오·파라텍·샤페론 보도 모두 같은 구조.
+    시작일 규정("1매매거래일 전")은 병합에 대해 확인 못 해 단정하지 않음. 개별 회사 사례 숫자는 1개 매체만이라 본문 미사용
+    (샤페론 액면가 100→500원 vs 500→2,500원 매체 간 불일치도 있었음).
+  - 동전주 기준(2026-07-01, 30거래일 1,000원 미만→관리종목, 90거래일 중 45거래일 연속 회복 못 하면 상폐):
+    뉴스토마토·헤럴드경제·비즈워치·매일신문 등 다수 일치, 18편 기존 검증값과도 일치.
+    1년 내 병합·감자 기업의 90거래일 추가 병합·감자 금지: 검색 2회에서 같은 서술(딜사이트 등).
+  - 서치 콘솔 검색어: 주식병합 뜻(28회 9.1위), 주식 병합 뜻(23, 8.9), 병합 뜻(9), 주식병합출고 뜻(6, 5위), 주식 병합 거래정지 기간(1)
+    → 첫 두 문장 정의, 주식병합출고 섹션·FAQ, 거래정지 기간 섹션 신설.
+기준일: 2026-10-07 (WebSearch 확인일)
+tags: 주식병합, 주식병합뜻, 주식병합출고, 주식병합입고, 액면병합, 주식병합 거래정지, 단주, 동전주, 전자증권법65조, 변경상장
 gate_pass: true
 gate_pass_note: |
   4개 게이트 전부 충족(2026-09-14).
@@ -118,209 +133,230 @@ self_check: |
   하단 면책 문구 포함.
   종합 판정: 4개 게이트 전부 충족(게이트4는 교차검증으로 대체, 한계 투명 공개) →
   gate_pass:true. 발행 가능.
+refresh_due: 2027-01-07
+refresh_reason: "동전주 기준 관련 거래소 규정 변경 여부, 서치 콘솔 검색어·순위 재확인"
+figure_plan: "1: 5:1 병합 계산과 단주(103주 예시) / 2: 상장사 병합 진행 순서 타임라인"
 ---
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-07</p>
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-14</p>
+<p>주식병합은 <mark>여러 주식을 하나로 합쳐 주식 수를 줄이고 1주의 액면가와 주가를 그만큼 높이는 것</mark>이에요. 5:1 병합이면 100주가 20주로 줄고 주가는 5배로 다시 매겨져서, 내 평가금액은 이론상 그대로예요.</p>
 
-<p>주식병합은 <mark>여러 개의 주식을 하나로 합쳐 액면가를 높이는 것</mark>을 말하며, 액면병합이라고도 부릅니다. 병합 소식을 들었을 때 정작 궁금한 건 "그래서 내 주식은 며칠이나 거래가 멈추나"인데, 이건 <mark>회사가 정한 신주배정기준일과 신주(변경)상장일</mark>로 정해집니다.</p>
+<p>2026년 7월부터 주가가 1,000원 밑에 오래 머물면 상장폐지될 수 있는 '동전주' 기준이 생기면서 병합하는 회사가 부쩍 늘었어요. 계좌에 갑자기 찍힌 '주식병합출고'의 뜻, 거래가 멈추는 기간, 나누어떨어지지 않는 주식(단주) 처리까지 순서대로 볼게요.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
+  <strong style="color:#2f4f7f;font-size:18px;">📌 계좌에 찍힌 걸 보고 오셨다면</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>주식병합(액면병합)은 <b>자본금 변화 없이</b> 여러 주식을 하나로 합쳐 <mark>주식 수를 줄이고 액면가를 높이는 것</mark>이며, 액면분할과 정반대 개념입니다.</li>
-    <li>병합비율만큼 주식 수가 줄어드는 대신 <b>기준주가가 그 비율만큼 올라</b> 이론상 보유주식 평가금액 총액은 변하지 않습니다.</li>
-    <li>상법 제440조에 따라 회사는 <mark>1개월 이상의 기간을 정해</mark> 주식병합 사실을 공고·통지해야 하고, 그 기간이 끝나야 병합의 효력이 생깁니다.</li>
-    <li>실제 매매거래정지가 며칠인지는 종목마다 달라, 소문이 아니라 <b>전자공시시스템(DART)과 한국거래소 공시(KIND)</b>에서 직접 확인해야 합니다.</li>
+    <li><b>주식병합출고</b>는 원래 주식이 빠져나간 기록, <b>주식병합입고</b>는 합쳐진 새 주식이 들어온 기록이에요. 주식이 사라진 게 아니에요.</li>
+    <li>거래는 공시에 적힌 정지 시작일부터 <mark>변경상장일 전날까지</mark> 멈춰요.</li>
+    <li>병합비율로 나누어떨어지지 않는 주식(단주)은 회사가 팔아서 <b>현금으로</b> 줘요.</li>
+    <li>상장사는 <mark>병합기준일 2주 전까지</mark> 공고해요. 흔히 보이는 '1개월 이상'은 종이 주권을 쓰는 회사 기준이에요.</li>
   </ul>
 </div>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합(액면병합)이 뭔가요</a></li>
-  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">액면분할·무상감자와는 어떻게 다른가요</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">병합비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합을 하면 왜, 얼마나 거래가 정지되나요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합 결정은 어디서 확인하나요</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합 뜻과 액면분할·감자와의 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">병합비율별 주식 수·주가 계산(단주 포함)</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합출고·주식병합입고 뜻</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합 거래정지 기간과 진행 순서</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년에 주식병합이 늘어난 이유: 동전주 기준</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">내 종목 병합 일정 찾는 법</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식병합 Q&amp;A 6개</a></li>
 </ol>
 
-<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합(액면병합)이 뭔가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합 뜻과 액면분할·감자와의 차이</h2>
 
-<p>주식병합은 <mark>여러 개의 주식을 하나로 합쳐 액면가를 높이는 것</mark>을 뜻합니다. 예를 들어 액면가 100원짜리 주식 5주를 액면가 500원짜리 주식 1주로 바꾸는 식입니다. 이 과정에서 <mark>회사의 자본금 규모나 주주의 지분율은 전혀 바뀌지 않습니다.</mark></p>
+<p>주식병합(액면병합)은 액면가 100원짜리 5주를 액면가 500원짜리 1주로 바꾸는 식이에요. 회사 자본금과 내 지분율은 그대로이고, 주식 수와 1주 가격만 바뀌어요. 1주 가격이 너무 낮으면 '동전주'로 보여 투자자가 꺼리고 상장 유지 기준에도 걸릴 수 있어서 하는 경우가 대부분이에요.</p>
 
-<p>회사가 주식병합을 하는 이유는 대부분 <b>저가주("동전주") 이미지에서 벗어나기 위해서</b>입니다. 주당 가격이 너무 낮으면 주가 변동 폭이 상대적으로 커 보이고 투자심리에도 부정적인 영향을 줄 수 있다는 판단에서, 주식 수를 줄이고 한 주당 가격을 높이는 것입니다.</p>
-
-<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할·무상감자와는 어떻게 다른가요</h2>
-
-<p>세 제도 모두 주식 수를 조정한다는 점은 비슷하지만, <mark>방향과 자본금 변화 여부에서 완전히 갈립니다.</mark></p>
+<p>헷갈리기 쉬운 게 <b>감자</b>예요. 감자도 주식을 합치는 방식으로 많이 하는데, 이때는 액면가는 그대로 두고 자본금을 줄여요. 계좌에서는 둘 다 '주식 수가 줄었다'로만 보이니, <mark>공시 제목이 "주식병합결정"인지 "감자결정"인지</mark>로 구분해요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#f0f0f0;">
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">구분</th>
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">주식병합(액면병합)</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">무상감자(병합 방식)</th>
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">액면분할</th>
-      <th style="border:1px solid #ddd;padding:8px;text-align:left;">무상감자</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">주식 수</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>감소</b></td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>증가</b></td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>감소</b></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">자본금</td>
-      <td style="border:1px solid #ddd;padding:8px;">변화 없음</td>
-      <td style="border:1px solid #ddd;padding:8px;">변화 없음</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>감소</b></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">평가금액(이론상)</td>
-      <td style="border:1px solid #ddd;padding:8px;">유지</td>
-      <td style="border:1px solid #ddd;padding:8px;">유지</td>
-      <td style="border:1px solid #ddd;padding:8px;">유지</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">시장 신호</td>
-      <td style="border:1px solid #ddd;padding:8px;">대체로 중립적(저가주 탈피 목적)</td>
-      <td style="border:1px solid #ddd;padding:8px;">대체로 긍정적(거래 활성화 목적)</td>
-      <td style="border:1px solid #ddd;padding:8px;">재무 악화 신호로 대체로 악재</td>
-    </tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">주식 수</td><td style="border:1px solid #ddd;padding:8px;"><b>줄어듦</b></td><td style="border:1px solid #ddd;padding:8px;"><b>줄어듦</b></td><td style="border:1px solid #ddd;padding:8px;"><b>늘어남</b></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1주 액면가</td><td style="border:1px solid #ddd;padding:8px;">비율만큼 오름</td><td style="border:1px solid #ddd;padding:8px;">그대로</td><td style="border:1px solid #ddd;padding:8px;">비율만큼 내려감</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">자본금</td><td style="border:1px solid #ddd;padding:8px;">그대로</td><td style="border:1px solid #ddd;padding:8px;"><mark>줄어듦</mark></td><td style="border:1px solid #ddd;padding:8px;">그대로</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">내 평가금액(이론상)</td><td style="border:1px solid #ddd;padding:8px;">그대로</td><td style="border:1px solid #ddd;padding:8px;">그대로</td><td style="border:1px solid #ddd;padding:8px;">그대로</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">공시 제목</td><td style="border:1px solid #ddd;padding:8px;">주식병합결정</td><td style="border:1px solid #ddd;padding:8px;">감자결정</td><td style="border:1px solid #ddd;padding:8px;">주식분할결정</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">주로 하는 이유</td><td style="border:1px solid #ddd;padding:8px;">저가주 탈피, 동전주 기준 대응</td><td style="border:1px solid #ddd;padding:8px;">쌓인 결손금 정리(재무 부담 신호로 보는 경우가 많음)</td><td style="border:1px solid #ddd;padding:8px;">1주 가격을 낮춰 거래를 쉽게</td></tr>
   </tbody>
 </table>
 
-<p>즉 <mark>주식병합과 무상감자는 둘 다 주식 수가 줄어든다는 점만 같을 뿐, 자본금이 줄어드는지 여부는 정반대</mark>입니다. 뉴스에서 "주식 수가 줄었다"는 소식을 보면 자본금 변화까지 함께 확인해야 어떤 제도인지 정확히 구분할 수 있습니다.</p>
+<p>감자의 종류와 감자 때 거래정지 기간은 <a href="https://sensitiveboss3.tistory.com/entry/capital-reduction-trading-halt" target="_blank" rel="noopener">감자 뜻과 매매정지 기간</a>에, 반대 방향인 분할은 <a href="https://sensitiveboss3.tistory.com/entry/stock-split-trading-halt" target="_blank" rel="noopener">액면분할 매매정지 기간</a>에 따로 정리해 뒀어요.</p>
 
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">병합비율에 따라 보유 주식과 주가는 어떻게 바뀌나요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">병합비율별 주식 수·주가 계산(단주 포함)</h2>
 
-<p>주식병합은 <mark>병합비율만큼 주식 수를 줄이는 대신, 기준주가를 그 비율만큼 올려</mark> 이론상 평가금액이 변하지 않도록 설계됩니다.</p>
+<p>계산은 두 줄이면 끝나요. <mark>병합 후 주식 수 = 보유 주식 ÷ 병합비율(소수점 아래는 단주)</mark>, <mark>이론 주가 = 병합 전 주가 × 병합비율</mark>이에요. 100주를 1주 1,000원에 갖고 있을 때 비율별로 보면 이래요.</p>
 
-<div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
-  <b>5:1 주식병합 계산 예시</b>
-  <p style="margin:8px 0 0 0;">병합 전 100주(주당 1,000원, 평가금액 10만원)를 보유했다면, 5:1 병합 후에는 <mark>주식 수가 20주로 줄고 기준주가는 5,000원으로 재산정</mark>됩니다. 20주 × 5,000원 = 10만원으로, 이론상 평가금액 총액은 병합 전후 동일합니다.</p>
-</div>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr style="background:#f0f0f0;">
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">병합비율</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">병합 후 주식 수</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">이론 주가</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">평가금액</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;">병합 전</td><td style="border:1px solid #ddd;padding:8px;">100주</td><td style="border:1px solid #ddd;padding:8px;">1,000원</td><td style="border:1px solid #ddd;padding:8px;">100,000원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2:1</td><td style="border:1px solid #ddd;padding:8px;">50주</td><td style="border:1px solid #ddd;padding:8px;">2,000원</td><td style="border:1px solid #ddd;padding:8px;">100,000원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">5:1</td><td style="border:1px solid #ddd;padding:8px;">20주</td><td style="border:1px solid #ddd;padding:8px;">5,000원</td><td style="border:1px solid #ddd;padding:8px;">100,000원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">10:1</td><td style="border:1px solid #ddd;padding:8px;">10주</td><td style="border:1px solid #ddd;padding:8px;">10,000원</td><td style="border:1px solid #ddd;padding:8px;">100,000원</td></tr>
+  </tbody>
+</table>
 
-<p>다만 이건 표시 가격이 바뀌는 것일 뿐입니다. <mark>주식병합 자체가 기업의 실적이나 재무구조를 바꾸는 것은 아니어서, 병합했다고 주가가 오르거나 기업가치가 좋아진다고 단정할 수는 없습니다.</mark> 시장에서는 대체로 중립적인 이벤트로 받아들여집니다.</p>
+<p>보유 주식이 비율로 나누어떨어지지 않으면 1주가 안 되는 끝수, 즉 <b>단주</b>가 생겨요. 상법 제443조에 따라 회사는 단주를 모아 팔고 그 대금을 주주에게 나눠 줘요. 상장 주식은 거래소에서 팔기 때문에 <mark>단주 몫은 주식이 아니라 현금으로</mark> 들어와요.</p>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합을 하면 왜, 얼마나 거래가 정지되나요</h2>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stock-consolidation-notice-period-1.png" alt="5대1 주식병합 계산 예시: 103주가 20주와 단주 0.6주 현금으로 바뀌는 그림" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">103주를 5:1로 병합하면 20주가 되고, 남는 3주(0.6주 몫)는 회사가 팔아 현금으로 지급해요.</figcaption></figure>
 
-<p>기존 주식을 새 주식으로 바꾸는 처리에는 물리적인 시간이 걸리기 때문에, 이 기간 동안 매매가 일시적으로 멈춥니다. 이때 자주 혼동되는 게 <mark>"법이 정한 최소 공고기간"과 "실제 거래소 매매정지 일수"는 서로 다른 개념</mark>이라는 점입니다.</p>
+<p>병합비율보다 적게 갖고 있으면 주식이 0주가 되고 전부 현금으로 받아요. 5:1 병합인데 3주만 있었다면 3주 전체가 단주예요. 단주 대금을 언제, 어떤 가격 기준으로 주는지는 회사 공시의 '단주 처리 방법' 항목에 적혀 있어요. 매입 평균단가도 같은 비율로 바뀌어서(1,000원 → 5,000원) 수익률은 병합 전과 같게 보여요.</p>
+
+<p>병합이 회사의 실적이나 재무구조를 바꾸는 건 아니에요. 그래서 병합했다는 사실만으로 주가가 오른다고 볼 수는 없어요.</p>
+
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합출고·주식병합입고 뜻</h2>
+
+<p>병합이 진행되면 증권사 거래내역에 같은 종목이 두 번 찍혀요. 매매가 아니라 <b>주식이 바뀌는 과정</b>을 기록한 것이라 수수료나 세금이 붙는 거래가 아니에요.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr style="background:#f0f0f0;">
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">거래내역 표시</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">뜻</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">5:1, 100주 예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>주식병합출고</mark></td><td style="border:1px solid #ddd;padding:8px;">병합 전 주식이 계좌에서 빠져나감</td><td style="border:1px solid #ddd;padding:8px;">100주 출고</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>주식병합입고</mark></td><td style="border:1px solid #ddd;padding:8px;">합쳐진 새 주식이 계좌로 들어옴</td><td style="border:1px solid #ddd;padding:8px;">20주 입고</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">단주 대금</td><td style="border:1px solid #ddd;padding:8px;">1주가 안 되는 몫을 판 돈</td><td style="border:1px solid #ddd;padding:8px;">100주는 딱 나누어떨어져 없음</td></tr>
+  </tbody>
+</table>
+
+<p>출고는 보통 거래정지가 시작되고 병합기준일 무렵에, 입고는 새 주식이 상장되는 변경상장일 무렵에 찍혀요. 그 사이 며칠은 잔고 수량이 이상해 보여도 정상이에요. 새 주식이 들어오면 다시 사고팔 수 있어요.</p>
+
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합 거래정지 기간과 진행 순서</h2>
+
+<p>헌 주식을 새 주식으로 바꾸는 동안에는 매매가 멈춰요. <mark>정지는 공시에 적힌 시작일부터 변경상장일(새 주식 상장일) 전날까지</mark>이고, 변경상장일에 새 주가로 거래가 다시 열려요. 며칠 멈추는지는 회사가 잡은 일정에 따라 달라서 법으로 정해진 일수는 없어요. 중간에 주말이나 연휴가 끼면 그만큼 길어져요.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stock-consolidation-notice-period-2.png" alt="주식병합 진행 순서: 결정 공시, 주주총회, 병합 공고, 거래정지, 병합기준일, 변경상장" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">상장사 주식병합의 일반적인 순서예요. 거래정지는 ④부터 ⑥ 변경상장일 전날까지 이어져요.</figcaption></figure>
+
+<p>공고 기간은 주식이 전자등록됐는지에 따라 달라요. 지금 상장사 주식은 모두 전자등록이라 아래 표의 왼쪽 칸이 적용돼요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#f0f0f0;">
       <th style="border:1px solid #ddd;padding:8px;text-align:left;">구분</th>
-      <th style="border:1px solid #ddd;padding:8px;text-align:left;">내용</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">전자등록 주식(상장사)</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">종이 주권 회사</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">법정 최소 공고기간</td>
-      <td style="border:1px solid #ddd;padding:8px;"><b>1개월 이상</b>: 상법 제440조에 따라 회사는 주식병합 사실과 기간을 공고하고 주주·질권자에게 통지해야 함</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">병합 효력 발생 시점</td>
-      <td style="border:1px solid #ddd;padding:8px;">상법 제441조: 위 공고기간이 <b>만료된 때</b></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">실제 매매거래정지 일수</td>
-      <td style="border:1px solid #ddd;padding:8px;">종목·회사마다 다름: <b>일률적인 일수가 정해져 있지 않아</b> 개별 공시로 직접 확인 필요</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;padding:8px;">거래 재개 시점</td>
-      <td style="border:1px solid #ddd;padding:8px;">신주(변경)상장 예정일부터</td>
-    </tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">근거</td><td style="border:1px solid #ddd;padding:8px;">전자증권법 제65조</td><td style="border:1px solid #ddd;padding:8px;">상법 제440조·제441조</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">공고·통지</td><td style="border:1px solid #ddd;padding:8px;"><mark>병합기준일 2주 전까지</mark> 공고, 주주·질권자에게 개별 통지</td><td style="border:1px solid #ddd;padding:8px;">1개월 이상 기간을 정해 주권을 회사에 내라고 공고·통지</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">효력 발생</td><td style="border:1px solid #ddd;padding:8px;">병합기준일(채권자 보호 절차가 남았으면 그 절차가 끝날 때)</td><td style="border:1px solid #ddd;padding:8px;">공고한 기간이 끝날 때</td></tr>
   </tbody>
 </table>
 
-<p>즉 <b>"1개월"은 회사가 지켜야 할 공고·통지의 법정 최소 기간</b>이지, 여러분의 주식이 정확히 며칠 동안 거래정지되는지를 보장하는 숫자는 아닙니다. 실제 매매정지 시작일과 재개일(신주상장일)은 회사가 공시로 개별 공고하므로, 아래 방법으로 직접 확인하는 게 가장 정확합니다.</p>
+<p style="font-size:14px;color:#555;">※ 2026-10-07 수정: 처음 글에서는 '1개월 이상 공고'를 기준으로 설명했어요. 상장사에는 전자증권법의 '2주 전 공고'가 적용돼서 바로잡았어요.</p>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합 결정은 어디서 확인하나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년에 주식병합이 늘어난 이유: 동전주 기준</h2>
 
-<p>주식병합 여부와 정확한 일정은 뉴스나 커뮤니티 글이 아니라 <mark>금융감독원 전자공시시스템(DART)</mark>에서 회사가 직접 제출한 공시 원문으로 확인하는 게 가장 정확합니다.</p>
+<p>2026년 7월 1일부터 코스피·코스닥에 '동전주' 기준이 새로 적용됐어요. <mark>주가가 30거래일 연속 1,000원 미만이면 관리종목</mark>으로 지정되고, 그 뒤 90거래일 안에 45거래일 연속 1,000원 이상을 회복하지 못하면 상장폐지 절차에 들어가요. 주가 800원짜리 회사가 5:1로 병합하면 이론 주가가 4,000원이 되니, 이 기준을 피하려고 병합을 결정하는 회사가 많아졌어요.</p>
+
+<p>거래소는 병합으로 기준을 반복해서 피하는 것도 막아 뒀어요. 최근 1년 안에 주식병합이나 감자를 한 회사는 동전주 관리종목으로 지정된 뒤 90거래일 동안 다시 병합·감자를 할 수 없어요. 병합은 주가 숫자만 바꾸기 때문에, 병합 직후 주가가 다시 떨어진 종목이 많았다는 <a href="https://v.daum.net/v/20260630103003527" target="_blank" rel="noopener">보도</a>도 있었어요.</p>
+
+<p>동전주 기준을 포함한 2026년 상장폐지 요건 전체는 <a href="https://sensitiveboss3.tistory.com/entry/kospi-kosdaq-difference-delisting" target="_blank" rel="noopener">코스피 코스닥 차이와 상장폐지 기준</a>에 표로 정리돼 있어요.</p>
+
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">내 종목 병합 일정 찾는 법</h2>
+
+<p>날짜는 뉴스나 커뮤니티 글보다 회사가 낸 공시 원문이 정확해요. 두 곳 중 편한 데서 보면 돼요.</p>
 
 <ul style="line-height:1.9;">
-  <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">전자공시시스템(DART)</a>에 접속합니다.</li>
-  <li>회사명을 검색하고, 공시서류 조회 조건에서 <b>"주식병합결정"</b>을 검색합니다.</li>
-  <li>해당 보고서를 열어 <b>병합비율, 신주배정기준일, 병합 효력발생(예정)일, 신주(변경)상장 예정일</b>을 확인합니다.</li>
-  <li>매매거래정지·재개 일정은 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND)</a>의 투자유의사항 공시에서도 함께 확인할 수 있습니다.</li>
-  <li>병합의 법적 절차(공고·통지 의무)의 근거 조문은 <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a>에서 "상법 제440조"로 검색하면 원문을 볼 수 있습니다.</li>
+  <li><b>한국거래소 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener">KIND</a></b>: 종목명으로 검색해 "주식병합결정"과 "매매거래정지" 공시를 열어요. 정지 시작일과 변경상장 예정일이 함께 나와요.</li>
+  <li><b>금융감독원 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">전자공시시스템(DART)</a></b>: 회사명을 검색하면 "주식병합결정" 또는 주주총회 소집 공시에 병합 안건이 있어요.</li>
+  <li><b>증권사 앱</b>: 종목 화면의 '공시' 탭에서 같은 공시를 바로 볼 수 있어요.</li>
 </ul>
 
-<div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">📌 다시 한 번 정리하면</strong>
-  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;">
-    <li>주식병합은 자본금 변화 없이 주식 수를 줄이고 액면가를 높이는 것으로, 액면분할과 반대 개념입니다.</li>
-    <li>병합비율만큼 주식 수는 줄고 기준주가는 오르지만, 이론상 평가금액 총액은 유지됩니다.</li>
-    <li>보유 종목이 주식병합을 발표하면 DART에서 신주배정기준일·신주상장 예정일을 직접 확인해 거래정지 구간을 스스로 파악할 수 있습니다.</li>
-  </ul>
-</div>
+<p>공시에서 볼 칸은 다섯 개예요. <b>병합비율, 병합기준일(효력발생일), 매매거래정지 예정기간, 신주 상장 예정일, 단주 처리 방법</b>. 이 다섯 개면 내 주식이 몇 주가 되는지, 언제부터 언제까지 못 파는지, 끝수는 현금으로 얼마쯤 오는지까지 다 계산할 수 있어요.</p>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식병합 Q&amp;A 6개</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">주식병합이 뭔가요</summary>
-  <p style="margin:10px 0 0 0;">여러 개의 주식을 하나로 합쳐 액면가를 높이는 것을 말합니다. 액면병합이라고도 부르며, 회사의 자본금 규모나 주주의 지분율은 바뀌지 않습니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">주식병합 뜻이 뭔가요</summary>
+  <p style="margin:10px 0 0 0;">여러 주식을 하나로 합쳐 주식 수를 줄이고 1주의 액면가와 주가를 그 비율만큼 높이는 거예요. 액면병합이라고도 하고, 회사 자본금과 내 지분율, 이론상 평가금액은 그대로예요.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">액면분할과는 뭐가 다른가요</summary>
-  <p style="margin:10px 0 0 0;">액면분할은 주식 수를 늘리고 액면가를 낮추는 것으로, 주식병합과 정반대입니다. 둘 다 자본금 변화는 없지만 방향이 반대라는 점이 핵심 차이입니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">주식병합출고는 무슨 뜻인가요</summary>
+  <p style="margin:10px 0 0 0;">병합 전 주식이 계좌에서 빠져나갔다는 기록이에요. 며칠 뒤 합쳐진 새 주식이 들어오면 '주식병합입고'가 찍혀요. 매매가 아니라서 수수료나 세금이 붙지 않아요.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">병합비율에 따라 보유 주식과 평가금액은 어떻게 바뀌나요</summary>
-  <p style="margin:10px 0 0 0;">병합비율만큼 주식 수가 줄고 기준주가는 그 비율만큼 올라 조정됩니다. 예를 들어 5:1 병합이면 100주가 20주로 줄고 주가는 5배가 돼, 이론상 평가금액 총액은 병합 전후 동일합니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">주식병합하면 거래정지는 며칠인가요</summary>
+  <p style="margin:10px 0 0 0;">법으로 정해진 일수는 없고 회사 일정에 따라 달라요. 공시에 적힌 정지 시작일부터 변경상장일 전날까지 멈추고, 변경상장일에 다시 거래돼요. 한국거래소 KIND의 매매거래정지 공시에 정확한 날짜가 나와요.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">왜 최소 1개월의 공고기간이 필요한가요</summary>
-  <p style="margin:10px 0 0 0;">상법 제440조에 따라 회사는 주식병합 사실과 기간을 공고하고 주주·질권자에게 통지해야 하며, 이 기간은 1개월 이상이어야 합니다. 해당 기간이 만료돼야 병합의 효력이 발생합니다(상법 제441조).</p>
+  <summary style="font-weight:bold;cursor:pointer;">주식병합하면 손해인가요</summary>
+  <p style="margin:10px 0 0 0;">병합 자체로는 평가금액이 이론상 그대로예요. 5:1이면 주식 수가 5분의 1이 되는 대신 주가가 5배가 되기 때문이에요. 다만 병합은 실적을 바꾸지 않아서, 거래가 다시 열린 뒤 주가가 오를지 내릴지는 별개예요.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">실제 거래정지 기간은 어떻게 확인하나요</summary>
-  <p style="margin:10px 0 0 0;">법정 공고기간(1개월 이상)과 실제 거래소 매매거래정지 일수는 다른 개념이며, 정지 일수는 종목마다 다릅니다. 전자공시시스템(DART)에서 "주식병합결정" 공시를 찾아 신주배정기준일과 신주상장 예정일을 확인하면 정지 구간을 알 수 있습니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">단주는 어떻게 되나요</summary>
+  <p style="margin:10px 0 0 0;">병합비율로 나누어떨어지지 않는 끝수 주식은 회사가 모아서 팔고 그 대금을 현금으로 나눠 줘요(상법 제443조). 103주를 5:1로 병합하면 20주를 받고 남는 3주 몫은 현금으로 받아요.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">주식병합하면 주가가 오르나요</summary>
-  <p style="margin:10px 0 0 0;">주식병합은 표시 가격만 조정하는 것일 뿐 기업의 실적이나 재무구조를 바꾸지 않습니다. 저가주 이미지를 탈피하려는 목적으로 하는 경우가 많지만, 병합 자체가 주가 상승이나 기업가치 개선을 보장하지는 않습니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">주식병합과 감자는 같은 건가요</summary>
+  <p style="margin:10px 0 0 0;">아니에요. 둘 다 주식 수가 줄지만 액면병합은 자본금이 그대로이고, 감자는 자본금이 줄어요. 공시 제목이 "주식병합결정"이면 병합, "감자결정"이면 감자예요.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터: 상법 제440조·제441조(주식병합의 절차 및 효력발생)</a></li>
-    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 주식병합결정 공시 조회</a></li>
-    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 기업공시채널(KIND): 매매거래정지 안내</a></li>
-    <li>기준일: 2026-09-14(WebSearch 확인일, 법령 원문 스니펫 + 법률DB·법률QA·로펌 콘텐츠 3곳 교차 확인)</li>
+    <li><a href="https://www.law.go.kr/법령/주식·사채등의전자등록에관한법률/제65조" target="_blank" rel="noopener">국가법령정보센터: 전자증권법 제65조(주식의 병합에 관한 특례)</a></li>
+    <li><a href="https://www.law.go.kr/법령/상법" target="_blank" rel="noopener">국가법령정보센터: 상법 제440조·제441조(주식병합 절차·효력), 제443조(단주의 처리)</a></li>
+    <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 KIND: 주식병합결정·매매거래정지 공시</a></li>
+    <li><a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART)</a></li>
+    <li><a href="https://newstomato.com/ReadNews.aspx?no=1304748" target="_blank" rel="noopener">뉴스토마토: 동전주 상장폐지 기준 보도</a></li>
+    <li><a href="https://www.heraldk.com/article/2026061622015176568" target="_blank" rel="noopener">헤럴드경제: 7월부터 동전주 퇴출 압박, 액면병합 행렬(2026-06-16)</a></li>
+    <li><a href="https://v.daum.net/v/20260630103003527" target="_blank" rel="noopener">동전주 상폐 D-1, 병합 종목 주가 흐름 보도(2026-06-30)</a></li>
   </ul>
+  기준일: 2026년 10월 7일. 개별 종목의 병합 일정과 단주 처리 방법은 그 회사 공시가 기준이에요.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
-이 글은 정보 제공을 목적으로 하며 특정 종목이나 상품의 매수·매도를
-권유하지 않습니다. 투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
-세율·수수료·한도는 변경될 수 있으므로 반드시 원출처에서 최신 내용을
-확인하시기 바랍니다.
+정보 제공을 목적으로 쓴 글이며 특정 종목이나 상품의 매수·매도를 권유하지 않아요. 투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있어요.
 </p>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "주식병합 뜻과 공고기간 확인법",
-  "description": "주식병합(액면병합)의 뜻과 액면분할·무상감자와의 차이, 병합비율에 따른 보유 주식·기준주가 계산 예시, 상법상 법정 공고기간과 실제 매매거래정지 일정을 DART·KIND에서 확인하는 방법을 정리합니다.",
-  "author": { "@type": "Person", "name": "센시티브보스" },
-  "publisher": { "@type": "Organization", "name": "센시티브보스" },
+  "headline": "주식병합 뜻과 거래정지 기간, 주식병합출고 의미",
+  "description": "주식병합 뜻과 액면분할·감자 차이, 5:1 병합 계산과 단주 처리, 계좌의 주식병합출고·입고 의미, 상장사 병합 공고(2주 전)와 거래정지 기간, 2026년 동전주 기준까지 정리했어요.",
+  "author": {
+    "@type": "Person",
+    "name": "센시티브보스"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "센시티브보스"
+  },
   "datePublished": "2026-09-14",
-  "dateModified": "2026-09-14",
+  "dateModified": "2026-10-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/stock-consolidation-notice-period"
-  }
+  },
+  "image": "https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stock-consolidation-notice-period-1.png"
 }
 </script>
 
@@ -331,33 +367,51 @@ self_check: |
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "주식병합이 뭔가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "여러 개의 주식을 하나로 합쳐 액면가를 높이는 것을 말합니다. 액면병합이라고도 부르며, 회사의 자본금 규모나 주주의 지분율은 바뀌지 않습니다." }
+      "name": "주식병합 뜻이 뭔가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "여러 주식을 하나로 합쳐 주식 수를 줄이고 1주의 액면가와 주가를 그 비율만큼 높이는 거예요. 액면병합이라고도 하고, 회사 자본금과 내 지분율, 이론상 평가금액은 그대로예요."
+      }
     },
     {
       "@type": "Question",
-      "name": "액면분할과는 뭐가 다른가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "액면분할은 주식 수를 늘리고 액면가를 낮추는 것으로, 주식병합과 정반대입니다. 둘 다 자본금 변화는 없지만 방향이 반대라는 점이 핵심 차이입니다." }
+      "name": "주식병합출고는 무슨 뜻인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "병합 전 주식이 계좌에서 빠져나갔다는 기록이에요. 며칠 뒤 합쳐진 새 주식이 들어오면 '주식병합입고'가 찍혀요. 매매가 아니라서 수수료나 세금이 붙지 않아요."
+      }
     },
     {
       "@type": "Question",
-      "name": "병합비율에 따라 보유 주식과 평가금액은 어떻게 바뀌나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "병합비율만큼 주식 수가 줄고 기준주가는 그 비율만큼 올라 조정됩니다. 예를 들어 5:1 병합이면 100주가 20주로 줄고 주가는 5배가 돼, 이론상 평가금액 총액은 병합 전후 동일합니다." }
+      "name": "주식병합하면 거래정지는 며칠인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "법으로 정해진 일수는 없고 회사 일정에 따라 달라요. 공시에 적힌 정지 시작일부터 변경상장일 전날까지 멈추고, 변경상장일에 다시 거래돼요. 한국거래소 KIND의 매매거래정지 공시에 정확한 날짜가 나와요."
+      }
     },
     {
       "@type": "Question",
-      "name": "왜 최소 1개월의 공고기간이 필요한가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "상법 제440조에 따라 회사는 주식병합 사실과 기간을 공고하고 주주·질권자에게 통지해야 하며, 이 기간은 1개월 이상이어야 합니다. 해당 기간이 만료돼야 병합의 효력이 발생합니다." } 
+      "name": "주식병합하면 손해인가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "병합 자체로는 평가금액이 이론상 그대로예요. 5:1이면 주식 수가 5분의 1이 되는 대신 주가가 5배가 되기 때문이에요. 다만 병합은 실적을 바꾸지 않아서, 거래가 다시 열린 뒤 주가가 오를지 내릴지는 별개예요."
+      }
     },
     {
       "@type": "Question",
-      "name": "실제 거래정지 기간은 어떻게 확인하나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "법정 공고기간(1개월 이상)과 실제 거래소 매매거래정지 일수는 다른 개념이며, 정지 일수는 종목마다 다릅니다. 전자공시시스템(DART)에서 주식병합결정 공시를 찾아 신주배정기준일과 신주상장 예정일을 확인하면 정지 구간을 알 수 있습니다." }
+      "name": "단주는 어떻게 되나요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "병합비율로 나누어떨어지지 않는 끝수 주식은 회사가 모아서 팔고 그 대금을 현금으로 나눠 줘요(상법 제443조). 103주를 5:1로 병합하면 20주를 받고 남는 3주 몫은 현금으로 받아요."
+      }
     },
     {
       "@type": "Question",
-      "name": "주식병합하면 주가가 오르나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "주식병합은 표시 가격만 조정하는 것일 뿐 기업의 실적이나 재무구조를 바꾸지 않습니다. 저가주 이미지를 탈피하려는 목적으로 하는 경우가 많지만, 병합 자체가 주가 상승이나 기업가치 개선을 보장하지는 않습니다." }
+      "name": "주식병합과 감자는 같은 건가요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아니에요. 둘 다 주식 수가 줄지만 액면병합은 자본금이 그대로이고, 감자는 자본금이 줄어요. 공시 제목이 \"주식병합결정\"이면 병합, \"감자결정\"이면 감자예요."
+      }
     }
   ]
 }

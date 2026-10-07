@@ -125,6 +125,8 @@ self_check: |
 
 <p><span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">주식 수만 늘어날 뿐 회사가 가진 자산이나 시가총액은 액면분할 전후로 그대로입니다.</span> 1주당 가격만 낮아져 소액 투자자의 접근성이 좋아지고 거래량이 늘어나는 효과를 기대할 수 있어, 상장기업이 자주 활용하는 절차입니다.</p>
 
+<p>반대로 여러 주식을 하나로 합치는 건 액면병합이에요. <a href="https://sensitiveboss3.tistory.com/entry/stock-consolidation-notice-period" target="_blank" rel="noopener">주식병합 뜻</a>과 병합 때 거래정지 기간은 따로 정리해 뒀어요.</p>
+
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">액면분할을 하면 왜 거래가 멈추나요</h2>
 
 <p>기존 주권(옛 액면가 기준)을 회수하고 새 액면가로 바뀐 신주권을 새로 발행해서 상장해야 하기 때문입니다. 이 교체 작업이 끝나기 전까지는 어느 시점의 주식이 진짜 내 주식인지 시스템상 확정할 수 없어, <b>한국거래소가 그 기간 동안 매매 자체를 정지</b>시킵니다.</p>

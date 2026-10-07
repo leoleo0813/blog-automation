@@ -726,7 +726,7 @@
       "order": 31,
       "status": "published",
       "keyword": "주식 병합 뜻",
-      "title": "주식병합 뜻과 공고기간 확인법",
+      "title": "주식병합 뜻과 거래정지 기간, 주식병합출고 의미",
       "slug": "stock-consolidation-notice-period",
       "draft_path": "stock_drafts/stock-consolidation-notice-period.md",
       "gate_pass": true,
@@ -6310,8 +6310,9 @@
           "type": "발행 글 갱신(구글)",
           "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
           "plan": "기존 stock-consolidation-notice-period 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "stock-consolidation-notice-period"
+          "status": "done",
+          "slug": "stock-consolidation-notice-period",
+          "done_note": "2026-10-07 갱신: 상장사 공고 2주(전자증권법 65조)로 정정, 주식병합출고·단주·동전주·거래정지 섹션, 그림 2장, 들어오는 링크 2개(감자·액면분할 글)"
         },
         {
           "keyword": "[구글 순위 끌어올리기] 금융소득종합과세",
