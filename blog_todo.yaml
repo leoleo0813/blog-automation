@@ -43,6 +43,8 @@
   minutes: 4
   device: PC 권장
   send: 블로그 통계2
+  done: true
+  done_note: 9/25·9/29·10/2 캡처 받음(2026-10-07). 9월 방문 대부분이 직접 유입이고 검색 유입은 하루 0~10회였음(traffic_reports/2026-10-07.md 6)
 - id: blog-address-check
   title: 블로그 주소가 두 개인지 확인
   why: 통계 화면 왼쪽 블로그 이름 아래 주소가 '3.sensitiveboss.com'처럼 보입니다. 개인 도메인을 연결했다면 구글·네이버 등록과 글 안 링크를 그 주소 기준으로 맞춰야 합니다.
