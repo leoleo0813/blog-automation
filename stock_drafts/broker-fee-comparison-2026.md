@@ -4,7 +4,7 @@ title: 증권사 수수료 비교 2026
 slug: broker-fee-comparison-2026
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 4980 (PC 950 / 모바일 4030)
+monthly_search_volume: 3010 (PC 480 / 모바일 2530)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: WebSearch 확인(2026-09-04) — 상위 8개 중 공식·언론·백과 1개(kcie.or.kr), 나머지 개인블로그/제휴/해외브로커 마케팅. 5개 미만이라 통과.
 unique_asset: 금융투자협회 비교공시 실측표(9개 증권사, 거래금액 100만원·변경후 기준, 온라인/오프라인 수수료) + 조회 조건 구조·인하/인상 공시 비대칭 설명. 사람이 화면에서 직접 확인해 캡처.
