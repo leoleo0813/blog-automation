@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">금융소득 3,000만원은 이렇게 나뉩니다</text>
+<text x="70" y="122" font-size="25" fill="#666">예금 이자만 3,000만원을 받은 해(가상 예시)</text>
+<rect x="70" y="190" width="640" height="130" fill="#eef7f1" stroke="#2e8b57" stroke-width="3"/>
+<rect x="710" y="190" width="320" height="130" fill="#fff5ea" stroke="#e67e22" stroke-width="3"/>
+<text x="390" y="270" font-size="40" font-weight="bold" fill="#2e8b57" text-anchor="middle">2,000만원</text>
+<text x="870" y="270" font-size="40" font-weight="bold" fill="#e67e22" text-anchor="middle">1,000만원</text>
+<line x1="70" y1="345" x2="70" y2="375" stroke="#555" stroke-width="3"/>
+<line x1="710" y1="345" x2="710" y2="375" stroke="#555" stroke-width="3"/>
+<line x1="1030" y1="345" x2="1030" y2="375" stroke="#555" stroke-width="3"/>
+<text x="70" y="410" font-size="26" fill="#444" text-anchor="middle">0</text>
+<text x="710" y="410" font-size="26" fill="#444" text-anchor="middle">2,000만원 (기준선)</text>
+<text x="1030" y="410" font-size="26" fill="#444" text-anchor="middle">3,000만원</text>
+<rect x="70" y="460" width="640" height="190" rx="14" fill="#f3f9f5" stroke="#2e8b57" stroke-width="3"/>
+<text x="390" y="515" font-size="32" font-weight="bold" fill="#2e8b57" text-anchor="middle">기준선 아래: 14%로 계산</text>
+<text x="390" y="565" font-size="27" fill="#333" text-anchor="middle">소득세 14% (지방소득세 1.4% 별도)</text>
+<text x="390" y="610" font-size="27" fill="#333" text-anchor="middle">원천징수로 끝, 신고 불필요</text>
+<rect x="730" y="460" width="400" height="190" rx="14" fill="#fff9f2" stroke="#e67e22" stroke-width="3"/>
+<text x="930" y="515" font-size="32" font-weight="bold" fill="#e67e22" text-anchor="middle">넘는 부분만</text>
+<text x="930" y="565" font-size="27" fill="#333" text-anchor="middle">다른 소득과 합산</text>
+<text x="930" y="610" font-size="27" fill="#333" text-anchor="middle">기본세율(6~45%)</text>
+<text x="70" y="692" font-size="21" fill="#888">근거: 소득세법 제14조·제62조, 국세청 국세상담센터(2026-09-07). 3,000만원은 계산용 가정값</text>
+</g></svg>

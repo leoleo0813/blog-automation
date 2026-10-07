@@ -6320,8 +6320,9 @@
           "type": "발행 글 갱신(구글)",
           "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
           "plan": "기존 financial-income-comprehensive-tax 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "financial-income-comprehensive-tax"
+          "status": "done",
+          "slug": "financial-income-comprehensive-tax",
+          "done_note": "2026-10-07 갱신: 2026 고배당 분리과세 절, 가상 계산표(3,000만원 A·B), 그림 2장, 투자자 관점 H2, 내부 링크 3개. 분리과세 구간별 세율은 원문 미확인이라 범위만 기재"
         },
         {
           "keyword": "[구글 순위 끌어올리기] 증권사 수수료 비교 2026",
