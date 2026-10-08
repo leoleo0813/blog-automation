@@ -57,6 +57,8 @@ related_correction: |
     부분은 별도로 안내한다.
 tags: 증권거래세, 세율, 주식매도, 증권거래세율, 농어촌특별세, 코스피세금, 코스닥세금, 주식세금, 주식초보
 gate_pass: true
+refresh_due: 2027-01-04
+figure_plan: "1장. 시장별 합계 세율을 증권거래세·농특세 누적 막대로 그림(코스피 0.05+0.15가 코스닥 0.20과 같아지는 구조는 문장·표보다 그림이 빠름). 금액별 계산표는 숫자를 정확히 읽어야 해서 표로 유지. 그림이 맡을 정보가 이 하나뿐이라 1장으로 충분"
 gate_pass_note: |
   4개 게이트 전부 충족(2026-09-08). 증권거래세법 시행령(대통령령 제35947호) 원문을
   사람이 캡처해 제공, 농어촌특별세법과 합쳐 시장별 합계 세율을 전부 확정했다.
@@ -86,9 +88,10 @@ self_check: |
   제목 12자·금지어 없음·조사 없음. 슬러그 영문 소문자+하이픈 4단어. FAQ 6개와 JSON-LD
   1:1 일치. @id 티스토리 entry 패턴. 종목·상품 추천 없음. 하단 면책 문구 포함.
   종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
+  [2026-10-08 갱신] 다음 유입 키워드 '증권거래세 세율'에 맞춰 인트로 첫 두 문장을 0.20%·2,000원 답으로 교체, 그림 1장(GitHub 원본 주소), 내부 링크 4개(주식 매도 세금·대주주 요건·국내주식 양도세 신고·수수료 비교), 투자자 관점 H2(왕복 비용 계산), 출처 목록의 '원문 확인 예정'·'기준일 미확정' 문구 제거(기준일 2026-01-01). 세율 수치는 9/8 법령 원문 확정값 그대로 재사용. 2025년 세율은 법령 원문으로 확인한 값이 없어 본문에 수치로 쓰지 않았다. AI 티 점검: 본문 em대시 0개(front matter 메모 제외).
 ---
 
-<p>증권거래세는 <mark>국내 주식을 팔 때 이익이 나든 손해가 나든 무조건 붙는 세금</mark>입니다. 코스피는 증권거래세만 보면 실제 부담을 놓치는데, 정확히 계산하면 <b>코스피와 코스닥의 실제 부담은 똑같이 0.20%</b>입니다.</p>
+<p>2026년 1월 1일 이후 국내 주식을 팔면 <mark>코스피·코스닥 모두 매도 금액의 0.20%</mark>가 세금으로 빠집니다. 코스피 표에는 0.05%라고 적힌 곳이 많지만, 농어촌특별세 0.15%가 따로 붙어 합계는 코스닥과 같습니다. 100만 원을 팔면 2,000원입니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
@@ -107,14 +110,15 @@ self_check: |
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">코스피는 왜 세율이 두 개인가요</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년에 무엇이 바뀌었나요</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">매도 금액별로 얼마나 떼나요</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">따로 신고해야 하나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자에게 거래세가 중요한 이유</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">따로 신고해야 하나요</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증권거래세는 어떤 세금인가요</h2>
 
 <p>증권거래세는 <mark>주식을 팔 때 매도 금액에 대해 매기는 세금</mark>입니다. 이익에 매기는 세금이 아니라 거래 자체에 매기는 세금이라, <b>손실을 보고 팔아도 내야 합니다.</b></p>
 
-<p>이 점이 양도소득세와 다릅니다. 양도소득세는 이익이 났을 때 대주주 등 일부만 내지만, 증권거래세는 국내 상장주식을 파는 모든 사람이 냅니다. 매도 시 내는 세금 전반은 따로 정리한 "주식 매도 세금 얼마" 글을 참고하세요.</p>
+<p>이 점이 양도소득세와 다릅니다. 양도소득세는 이익이 났을 때 대주주 등 일부만 내지만, 증권거래세는 국내 상장주식을 파는 모든 사람이 냅니다. 양도소득세까지 포함한 매도 세금 전체는 <a href="https://sensitiveboss3.tistory.com/entry/stock-sell-tax-amount" target="_blank" rel="noopener">주식 매도 세금 얼마</a> 글에, 대주주 기준은 <a href="https://sensitiveboss3.tistory.com/entry/stock-capital-gains-tax-target" target="_blank" rel="noopener">주식 양도소득세 대주주 요건 2026</a> 글에 있습니다.</p>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">시장별 세율은 얼마인가요</h2>
 
@@ -138,6 +142,8 @@ self_check: |
 </table>
 
 <p style="font-size:13px;color:#888;">2026년 1월 1일 이후 양도분 기준. 증권거래세율은 「증권거래세법 시행령」 제5조(탄력세율), 농어촌특별세율은 「농어촌특별세법」 제5조제1항제5호(모두 2026-09-08 확인).</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/securities-transaction-tax-rate-1.png" alt="시장별 매도 세금 합계: 코스피 0.20%(증권거래세 0.05%+농어촌특별세 0.15%), 코스닥 0.20%, 장외 0.20%, 코넥스 0.10%" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 증권거래세법 시행령 제5조, 농어촌특별세법 제5조 (2026년 1월 1일 이후 양도분 기준)</figcaption></figure>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.8;">
   <b>코스피만 낮은 세율 + 농특세인 이유</b>
@@ -198,11 +204,23 @@ self_check: |
 
 <p>코스피 칸은 증권거래세(0.05%)와 농어촌특별세(0.15%)를 합친 금액입니다. <mark>코스피와 코스닥은 세금 구성만 다를 뿐 최종 부담은 같습니다.</mark> 세율이 낮다고 알려진 코스피가 실제로는 코스닥과 똑같이 떼인다는 뜻입니다.</p>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">따로 신고해야 하나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">주식 투자자에게 거래세가 중요한 이유</h2>
+
+<p>거래세는 이익이 아니라 매도 금액에 붙기 때문에 <mark>자주 사고팔수록 손익분기점이 높아집니다.</mark> 한 번 팔 때마다 0.20%를 먼저 넘어서야 본전입니다.</p>
+
+<ul style="line-height:1.9;">
+  <li>한 번 사고팔 때 거래세는 매도 금액의 0.20%입니다. 증권사 수수료는 따로 붙습니다.</li>
+  <li>같은 100만 원을 10번 사고팔면 거래세만 매도 금액 합계 1,000만 원의 0.20%인 20,000원입니다.</li>
+  <li>이익이 한 푼도 없어도 이 금액은 빠집니다.</li>
+</ul>
+
+<p>수수료까지 넣은 왕복 비용은 <a href="https://sensitiveboss3.tistory.com/entry/broker-fee-comparison-2026" target="_blank" rel="noopener">증권사 수수료 비교 2026</a> 글의 계산표에서 증권사별로 볼 수 있습니다. 매매 횟수가 많은 투자자일수록 수수료보다 거래세 쪽 비중이 크다는 점이 그 표에도 나옵니다.</p>
+
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">따로 신고해야 하나요</h2>
 
 <p>아닙니다. 증권사가 매도 대금을 정산할 때 <mark>자동으로 떼고 대신 납부</mark>합니다. 투자자가 따로 신고하거나 납부할 일은 없습니다.</p>
 
-<p>실제로 얼마가 떼였는지는 증권사 앱의 거래내역이나 거래명세에서 확인할 수 있습니다. 세금 신고가 필요한 것은 양도소득세 대상일 때이고, 그 경우 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 신고합니다.</p>
+<p>실제로 얼마가 떼였는지는 증권사 앱의 거래내역이나 거래명세에서 확인할 수 있습니다. 세금 신고가 필요한 것은 양도소득세 대상일 때이고, 그 경우 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>에서 신고합니다. 절차는 <a href="https://sensitiveboss3.tistory.com/entry/domestic-stock-capital-gains-filing" target="_blank" rel="noopener">국내주식 양도소득세 신고방법 2026</a> 글을 보세요.</p>
 
 <p>매도할 때 거래세와 함께 나가는 증권사 수수료는 회사마다 다릅니다. 100만 원 왕복 비용 계산은 <a href="https://sensitiveboss3.tistory.com/entry/broker-fee-comparison-2026" target="_blank" rel="noopener">증권사 수수료 비교 2026</a> 글에 있습니다.</p>
 
@@ -241,10 +259,11 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> — 증권거래세 세율 (원문 확인 예정)</li>
-    <li><a href="https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1701&amp;ccfNo=2&amp;cciNo=3&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a> — 양도소득세·증권거래세 및 배당소득세</li>
-    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> — 양도소득세 신고</li>
-    <li>기준일: 미확정 — 원문 캡처 후 시행일 기준으로 확정</li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a>: 증권거래세법 시행령 제5조(대통령령 제35947호, 2026-01-01 시행), 농어촌특별세법 제5조(법률 제21611호)</li>
+    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>: 세금 안내</li>
+    <li><a href="https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1701&amp;ccfNo=2&amp;cciNo=3&amp;cnpClsNo=1" target="_blank" rel="noopener">법제처 찾기쉬운 생활법령정보</a>: 양도소득세·증권거래세 및 배당소득세</li>
+    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>: 양도소득세 신고</li>
+    <li>기준일: 2026년 1월 1일(시행일), 법령 원문 확인일 2026-09-08</li>
   </ul>
 </div>
 
@@ -257,11 +276,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "증권거래세 세율 2026",
-  "description": "증권거래세 시장별 세율과 코스피에 함께 붙는 농어촌특별세, 2026년 1월 인상 내용을 정리합니다. (세율 수치는 원문 캡처 후 확정)",
+  "description": "2026년 증권거래세는 코스피·코스닥 모두 매도 금액의 0.20%입니다. 코스피에 함께 붙는 농어촌특별세와 시장별 세율, 금액별 계산을 담았습니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-07",
-  "dateModified": "2026-09-07",
+  "dateModified": "2026-10-08",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/securities-transaction-tax-rate"

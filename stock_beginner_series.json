@@ -6341,8 +6341,9 @@
           "type": "발행 글 갱신(다음)",
           "angle": "다음 검색 '유입 키워드'로 실제 방문이 생긴 글. 그 검색어에 첫 두 문장이 바로 답하게, 2026년 기준 숫자 재확인(바뀐 세율·기준이 있으면 반영), 표·그림·FAQ·이 글로 오는 내부 링크를 새 규칙으로 보강하고 dateModified 갱신",
           "plan": "기존 securities-transaction-tax-rate 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "securities-transaction-tax-rate"
+          "status": "done",
+          "slug": "securities-transaction-tax-rate",
+          "done_note": "2026-10-08 갱신: 첫 두 문장을 0.20%·100만원 2,000원 답으로 교체, 시장별 합계 그림 1장, 내부 링크 4개, 투자자 관점 H2(왕복 비용), 출처 목록 미확정 문구 제거. 세율은 9/8 법령 원문 확정값 재사용"
         },
         {
           "keyword": "[다음 유입 글 갱신] 주식 대주주 요건",
