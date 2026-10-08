@@ -4,7 +4,7 @@ title: 주식 양도소득세 대주주 요건 2026
 slug: stock-capital-gains-tax-target
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 4240 (PC 940 / 모바일 3300)
+monthly_search_volume: 2530 (PC 550 / 모바일 1980)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 재판정 2026-09-07 — 통과]
