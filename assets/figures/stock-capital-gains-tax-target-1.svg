@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="76" font-size="36" font-weight="bold" fill="#111">코스피 대주주 금액 기준, 10억에서 50억으로</text>
+<text x="70" y="118" font-size="25" fill="#666">한 종목 보유금액 기준 (지분율 1%는 같은 기간 그대로)</text>
+<line x1="150" y1="600" x2="1130" y2="600" stroke="#999" stroke-width="2"/>
+<rect x="200" y="460" width="150" height="140" fill="#9db7d5"/>
+<text x="275" y="445" font-size="34" font-weight="bold" fill="#333" text-anchor="middle">25억</text>
+<text x="275" y="645" font-size="25" fill="#444" text-anchor="middle">2016.4.1.~</text>
+<rect x="450" y="520" width="150" height="80" fill="#9db7d5"/>
+<text x="525" y="505" font-size="34" font-weight="bold" fill="#333" text-anchor="middle">15억</text>
+<text x="525" y="645" font-size="25" fill="#444" text-anchor="middle">2018.4.1.~</text>
+<rect x="700" y="560" width="150" height="40" fill="#9db7d5"/>
+<text x="775" y="545" font-size="34" font-weight="bold" fill="#333" text-anchor="middle">10억</text>
+<text x="775" y="645" font-size="25" fill="#444" text-anchor="middle">2020.4.1.~</text>
+<rect x="950" y="200" width="150" height="400" fill="#2e8b57"/>
+<text x="1025" y="185" font-size="40" font-weight="bold" fill="#2e8b57" text-anchor="middle">50억</text>
+<text x="1025" y="645" font-size="25" font-weight="bold" fill="#2e8b57" text-anchor="middle">2024.1.1.~ 현행</text>
+<text x="70" y="692" font-size="21" fill="#888">자료: 국세청 「주식등 양도소득세 세액계산요령」 대주주 요건 표 (양도일 기준, 2026-09-07 원문 대조)</text>
+</g></svg>

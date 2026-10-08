@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="76" font-size="36" font-weight="bold" fill="#111">대주주 판정일은 전년도 12월 31일입니다</text>
+<text x="70" y="118" font-size="25" fill="#666">12월 결산 상장사 기준, 양도 시기별로 어느 날의 보유금액을 보는지</text>
+<rect x="70" y="170" width="520" height="190" rx="14" fill="#eef7f1" stroke="#2e8b57" stroke-width="3"/>
+<text x="330" y="222" font-size="32" font-weight="bold" fill="#2e8b57" text-anchor="middle">2026년에 파는 주식</text>
+<text x="330" y="274" font-size="28" fill="#333" text-anchor="middle">판정일: 2025년 12월 31일</text>
+<text x="330" y="320" font-size="28" fill="#333" text-anchor="middle">이미 지난 날짜라 바뀌지 않음</text>
+<rect x="610" y="170" width="520" height="190" rx="14" fill="#fff5ea" stroke="#e67e22" stroke-width="3"/>
+<text x="870" y="222" font-size="32" font-weight="bold" fill="#e67e22" text-anchor="middle">2027년에 파는 주식</text>
+<text x="870" y="274" font-size="28" fill="#333" text-anchor="middle">판정일: 2026년 12월 31일</text>
+<text x="870" y="320" font-size="28" fill="#333" text-anchor="middle">올해 말 보유금액이 기준</text>
+<text x="70" y="430" font-size="30" font-weight="bold" fill="#222">2026년에 양도한 경우 신고 일정</text>
+<line x1="110" y1="520" x2="1090" y2="520" stroke="#555" stroke-width="4"/>
+<circle cx="190" cy="520" r="14" fill="#2e8b57"/>
+<text x="190" y="480" font-size="26" fill="#333" text-anchor="middle">1~6월 양도</text>
+<text x="190" y="575" font-size="25" fill="#666" text-anchor="middle">상반기 끝</text>
+<circle cx="450" cy="520" r="14" fill="#e67e22"/>
+<text x="450" y="480" font-size="26" fill="#333" text-anchor="middle">8월 31일</text>
+<text x="450" y="575" font-size="25" fill="#666" text-anchor="middle">예정신고·납부</text>
+<circle cx="700" cy="520" r="14" fill="#2e8b57"/>
+<text x="700" y="480" font-size="26" fill="#333" text-anchor="middle">7~12월 양도</text>
+<text x="700" y="575" font-size="25" fill="#666" text-anchor="middle">2027.2.28.까지 예정신고</text>
+<circle cx="1000" cy="520" r="14" fill="#c0392b"/>
+<text x="1000" y="480" font-size="26" fill="#333" text-anchor="middle">2027년 5월</text>
+<text x="1000" y="575" font-size="25" fill="#666" text-anchor="middle">확정신고 5.1~5.31.</text>
+<text x="70" y="692" font-size="21" fill="#888">자료: 국세청 대주주 요건·신고 일정 (예정신고는 반기 말일부터 2개월, 확정신고는 다음 해 5월)</text>
+</g></svg>
