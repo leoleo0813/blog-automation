@@ -4,7 +4,7 @@ title: 오버행 뜻 보호예수 해제 확인법
 slug: overhang-lockup-release-check
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 1000 (PC 210 / 모바일 790)
+monthly_search_volume: 720 (PC 140 / 모바일 580)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-13 — 통과]
