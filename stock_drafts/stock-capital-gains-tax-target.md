@@ -200,6 +200,8 @@ refresh_2026_10_08: |
 
 <p>대주주가 아니어도 팔 때는 증권거래세가 붙습니다. 2026년 시장별 세율과 100만원당 금액은 <a href="https://sensitiveboss3.tistory.com/entry/securities-transaction-tax-rate" target="_blank" rel="noopener">증권거래세 세율 2026</a> 글에서 한 표로 볼 수 있고, 양도세까지 합친 계산은 <a href="https://sensitiveboss3.tistory.com/entry/stock-sell-tax-amount" target="_blank" rel="noopener">주식 매도 세금 얼마</a> 글에 있습니다.</p>
 
+<p>대주주가 지분을 장 밖에서 한꺼번에 넘기는 블록딜은 거래 30~90일 전 사전공시 대상이 될 수 있습니다. 기준과 일정은 <a href="https://sensitiveboss3.tistory.com/entry/block-deal-pre-disclosure" target="_blank" rel="noopener">블록딜 뜻과 사전공시 의무</a> 글에 정리했습니다.</p>
+
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #2e8b57;padding-left:12px;margin-top:36px;">소액주주도 세금을 내는 예외</h2>
 
 <p>대주주가 아니어도 증권시장 밖에서 거래하거나 비상장주식을 팔면 양도소득세 대상입니다. 이 두 경우는 대주주 요건과 무관하게 과세됩니다.</p>

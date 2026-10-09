@@ -54,7 +54,7 @@ primary_source: |
   "거래계획보고서"가 계속 접수되고 있어 제도가 2024년부터 끊김 없이 운영 중임을 뒷받침한다.
   본문에는 최초 시행일(2024-07-24)을 기준으로 서술하고, 세부 규정이 이후 개정될 수 있다는
   점을 함께 밝힌다.
-기준일: 2026-09-13 (WebSearch 확인일)
+기준일: 2026-10-09 (제도 수치는 2026-09-13 교차확인값 재사용, 계산 예시는 산술)
 tags: 블록딜, 블록딜뜻, 시간외매매, 사전공시의무, 특정증권등거래계획보고, 자본시장법, 대주주매도, 할인율, 내부자거래, 주식초보
 gate_pass: true
 gate_pass_note: |
@@ -97,50 +97,121 @@ self_check: |
   문구 포함.
   종합 판정: 4개 게이트 전부 충족(게이트4는 교차검증으로 대체, 한계 투명 공개) →
   gate_pass:true. 발행 가능.
+refresh_due: 2027-01-09
+refresh_reason: "사전공시 시행령 추가 개정 여부, 서치 콘솔 검색어(블록딜 뜻)·순위 재점검"
+figure_plan: "1: 할인율별 확정가 막대(종가 대비 크기 비교) / 2: 사전공시 일정 타임라인(90일 전~거래 개시일). 같은 표를 모양만 바꾼 그림은 아님"
+refresh_note: "2026-10-09 갱신(구글 노출 120회·평균 7.8위 글): 첫 두 문장을 정의+할인율+공시 기준 직답으로, 할인율 표·그림 2장, 투자자 관점 H2, 내부 링크 4개 추가. 제도 수치는 9/13 교차검증값 재사용, 신규 수치 없음(할인액은 산술)"
 ---
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-09</p>
 
-<p>블록딜은 대주주가 <mark>장이 열리기 전이나 끝난 뒤 시간외거래로 대량의 주식을 한꺼번에 파는 것</mark>을 말합니다. 그런데 정작 몰랐던 사실은, 2024년부터는 이런 대량매도를 하기 전에 <mark>미리 공시해야 하는 의무</mark>가 생겼다는 점입니다.</p>
+<p>블록딜은 대주주가 사 줄 기관을 미리 정해 두고 장 시작 전이나 마감 뒤 시간외시장에서 주식을 한꺼번에 넘기는 거래입니다. 값은 종가보다 <mark>보통 5~10% 싸게</mark> 정해지고, 2024년 7월부터는 지분 1% 또는 50억원 이상을 파는 임원·주요주주가 거래 30~90일 전에 계획을 먼저 공시해야 합니다.</p>
 
-<div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
+<div style="background:#f3f0ff;border:2px solid #7a5ec9;border-radius:10px;padding:16px 20px;margin:24px 0;">
+  <strong style="color:#47347f;font-size:18px;">📌 블록딜 숫자 미리 보기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>블록딜은 대주주가 시간외에 대량의 주식을 매수자와 미리 가격·수량을 정해 일괄 매도하는 거래로, 종가 대비 <b>통상 5~10% 정도 할인</b>된 가격에 이뤄집니다.</li>
-    <li>2024년 7월 24일부터는 임원·주요주주가 <mark>지분 1% 이상 또는 거래금액 50억원 이상</mark>을 팔려면, 거래 개시일 <b>30~90일 전에</b> 거래계획을 미리 공시해야 합니다.</li>
-    <li>계획을 어기고 몰래 팔거나 허위로 공시하면 <mark>과징금 최대 20억원</mark>과 형사처벌까지 받을 수 있습니다.</li>
-    <li>다만 이 사전공시는 대주주(내부자)에게만 적용되는 의무이고, 매수자를 찾는 실제 협상·체결 절차 자체를 규제하는 것은 아닙니다.</li>
+    <li>종가 10,000원 종목을 7% 할인하면 확정가는 9,300원이고, 100억원어치면 7억원이 깎입니다.</li>
+    <li>사전공시를 하고도 실제 거래는 계획 금액의 <b>30% 이내</b> 오차까지 달라질 수 있습니다.</li>
+    <li>미공시·허위공시 과징금은 <mark>최대 20억원</mark>이고 형사처벌도 따로 붙습니다.</li>
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
+<h2 style="border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜이란 무엇인가요</a></li>
-  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 할인율은 어떻게 계산하나요</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜을 하기 전에 왜 미리 공시해야 하나요</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사전공시 의무를 위반하면 어떻게 되나요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 소식이 뜨면 주가는 어떻게 되나요</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 뜻과 일반 매매와의 차이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 할인율 계산법</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">대주주 사전공시 일정과 대상</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">사전공시를 어기면 받는 제재</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜이 투자자에게 중요한 이유</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">블록딜 소식 앞에서 투자자가 묻는 것들</a></li>
 </ol>
 
-<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜이란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">블록딜 뜻과 일반 매매와의 차이</h2>
 
-<p>블록딜(Block Deal)은 주식을 대량으로 보유한 매도자가 <b>사전에 매수자를 구해</b> 가격과 수량을 미리 정해두고, 장이 열리기 전이나 끝난 뒤 <mark>시간외매매로 한꺼번에 거래</mark>하는 방식입니다. 우리말로는 일괄매각이라고도 부릅니다.</p>
+<p>블록딜(Block Deal)은 대량 보유자가 매수자를 미리 구해 가격과 수량을 정한 뒤 시간외매매로 한 번에 체결하는 거래입니다. 우리말로는 일괄매각이라고도 합니다.</p>
 
-<p>일반 장중 거래로 대량의 물량을 팔면 매도 압력 자체가 주가를 크게 떨어뜨릴 수 있습니다. 블록딜은 이런 <mark>시장 충격을 피하기 위해</mark> 가격과 물량을 미리 정해두고 거래하는 방법입니다.</p>
+<p>장중에 같은 물량을 호가창에 내놓으면 매도 물량 자체가 주가를 끌어내립니다. 블록딜은 그 충격을 피하려고 <mark>가격을 먼저 합의하고 장 밖에서 넘기는 방식</mark>입니다.</p>
 
-<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜 할인율은 어떻게 계산하나요</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr style="background:#f0f0f0;">
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">구분</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">장중 대량 매도</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">블록딜</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">가격 결정</td>
+      <td style="border:1px solid #ddd;padding:8px;">호가에 따라 체결 중 변동</td>
+      <td style="border:1px solid #ddd;padding:8px;">종가 대비 할인율로 사전 합의</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">매수자</td>
+      <td style="border:1px solid #ddd;padding:8px;">불특정 다수</td>
+      <td style="border:1px solid #ddd;padding:8px;">미리 구한 소수의 기관 등</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">체결 시점</td>
+      <td style="border:1px solid #ddd;padding:8px;">정규장 중</td>
+      <td style="border:1px solid #ddd;padding:8px;">장 시작 전 또는 마감 뒤 시간외</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">주가 충격</td>
+      <td style="border:1px solid #ddd;padding:8px;">매도 물량이 호가에 그대로 노출</td>
+      <td style="border:1px solid #ddd;padding:8px;">체결 전에는 호가창에 드러나지 않음</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>블록딜 가격은 보통 <mark>전일 또는 당일 종가를 기준으로 일정 비율 할인</mark>해서 정해집니다. 할인율은 거래 규모, 종목의 유동성, 매도자가 얼마나 급하게 팔아야 하는지에 따라 달라지며, 사례마다 2~8%, 5~8% 등으로 조금씩 다르게 보도되지만 대체로 <b>5~10% 범위</b>에 걸쳐 있습니다.</p>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">블록딜 할인율 계산법</h2>
 
-<p>%로만 보면 감이 잘 안 오니, 예시로 계산해봅니다. 어떤 종목의 종가가 <b>10,000원</b>이고 할인율이 <b>7%</b>로 정해졌다면, 실제 블록딜 확정가는 <mark>10,000원 × (1-0.07) = 9,300원</mark>입니다. (이 10,000원은 계산을 보여주기 위한 예시 숫자이며 특정 종목의 실제 주가가 아닙니다.)</p>
+<p>블록딜 확정가는 종가에 (1 - 할인율)을 곱해 구하고, 할인율은 언론 보도 기준 대체로 5~10% 범위입니다. 거래 규모가 크거나 종목 거래가 한산할수록, 매도자가 급할수록 할인율이 커지는 경향이 있습니다.</p>
+
+<p>아래는 종가 10,000원인 가상 종목을 100만 주(100억원어치) 넘길 때의 계산입니다. 특정 종목의 실제 주가가 아닌 예시 숫자입니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead>
+    <tr style="background:#f0f0f0;">
+      <th style="border:1px solid #ddd;padding:8px;text-align:left;">할인율</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:right;">확정가</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:right;">주당 할인액</th>
+      <th style="border:1px solid #ddd;padding:8px;text-align:right;">100만 주 총 할인액</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">5%</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">9,500원</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">500원</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">5억원</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">7%</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">9,300원</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">700원</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">7억원</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd;padding:8px;">10%</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">9,000원</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">1,000원</td>
+      <td style="border:1px solid #ddd;padding:8px;text-align:right;">10억원</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/block-deal-pre-disclosure-1.png" alt="종가 10,000원 기준 5%·7%·10% 할인 시 블록딜 확정가 막대그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 산술 계산 예시, 2026-10-09</figcaption></figure>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
-  <b>할인율이 너무 크면 오히려 신호가 될 수 있습니다</b>
-  <p style="margin:8px 0 0 0;">할인율이 지나치게 높으면 "매도자가 그만큼 급하게 팔아야 할 사정이 있다"는 뜻으로 해석되기도 해, 해당 기업의 상황에 대한 의구심을 키울 수 있습니다.</p>
+  <b>할인율 숫자가 크면 읽을 거리가 생깁니다</b>
+  <p style="margin:8px 0 0 0;">할인이 유난히 깊다면 매도자가 그만큼 서둘러 팔아야 하는 사정이 있거나 받아 줄 매수자가 적었다는 뜻일 수 있습니다. 이때는 같은 날 공시된 매도 사유와 매도 뒤 남는 지분율을 함께 봅니다.</p>
 </div>
 
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜을 하기 전에 왜 미리 공시해야 하나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">대주주 사전공시 일정과 대상</h2>
 
-<p>2024년 7월 24일부터 자본시장법 제173조의3에 따라 <mark>임원·주요주주(내부자)의 특정증권등 거래계획 사전공시 제도</mark>가 시행되고 있습니다. 이전에는 대주주가 예고 없이 블록딜을 진행해 일반 투자자가 뒤늦게 알고 손해를 보는 사례가 많았는데, 이를 막기 위해 도입된 제도입니다.</p>
+<p>임원·주요주주가 지분 1% 이상 또는 거래금액 50억원 이상을 팔려면 거래 개시일 30~90일 전에 거래계획을 공시해야 합니다. 2024년 7월 24일부터 시행 중인 자본시장법 제173조의3 규정입니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/block-deal-pre-disclosure-2.png" alt="거래 90일 전부터 30일 전 사이에 보고하고 거래 개시일부터 거래 기간이 시작되는 타임라인" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 자본시장법 제173조의3 해설(법률신문 등 교차 대조), 기준일 2026-09-13</figcaption></figure>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -156,7 +227,7 @@ self_check: |
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">공시 시점</td>
-      <td style="border:1px solid #ddd;padding:8px;">거래 개시일 <b>30일 이상 90일 이내</b> 전에 매매목적·가격·수량·거래기간 공시</td>
+      <td style="border:1px solid #ddd;padding:8px;">거래 개시일 <b>30일 이상 90일 이내</b> 전에 매매 목적·가격·수량·거래 기간 공시</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">허용 오차</td>
@@ -169,64 +240,69 @@ self_check: |
   </tbody>
 </table>
 
-<p>이 제도의 세부 내용을 정한 시행령은 그 뒤로도 몇 차례 개정됐습니다. 가장 최근에는 대통령령 제35994호(2025-12-30 개정)가 2026-01-02부터 적용되고 있어, <mark>제도 자체는 2024년부터 계속 운영 중이지만 세부 규정은 계속 손질되고 있다</mark>는 점을 함께 알아두는 게 좋습니다.</p>
+<p>이 규정은 대주주 내부자의 사전 계획 공시 의무이고, 매수자를 구하는 협상이나 체결 단계를 규제하는 규칙은 아닙니다. 세부 내용을 정한 시행령은 대통령령 제35994호(2025-12-30 개정)로 2026-01-02부터 다시 적용되고 있어, 제도는 2024년부터 이어지되 세부 기준은 손질될 수 있습니다.</p>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">사전공시 의무를 위반하면 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">사전공시를 어기면 받는 제재</h2>
 
-<p>거래계획을 아예 공시하지 않거나, 허위로 공시하거나, 공시한 계획을 이행하지 않으면 <mark>과징금 최대 20억원</mark>이 부과될 수 있습니다. 여기에 더해 형사처벌(최대 징역 1년 또는 벌금 3천만원)까지 받을 수 있어 처벌 수위가 낮지 않습니다.</p>
+<p>거래계획을 공시하지 않거나 허위로 공시하거나 공시한 계획을 이행하지 않으면 과징금이 최대 20억원까지 부과됩니다. 형사처벌(최대 징역 1년 또는 벌금 3천만원)도 따로 받을 수 있습니다.</p>
 
-<p>부득이한 사유(사망, 회생·파산절차 개시, 공동관리절차 개시 등)가 생기면 이미 공시한 거래계획을 철회할 수 있습니다.</p>
+<p>사망, 회생·파산절차 개시처럼 부득이한 사유가 생기면 이미 공시한 계획을 철회할 수 있습니다.</p>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">블록딜 소식이 뜨면 주가는 어떻게 되나요</h2>
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">블록딜이 투자자에게 중요한 이유</h2>
 
-<p>블록딜은 규모와 할인율, 매도 의도에 따라 정도는 다르지만 통상 <mark>주가에 단기 악재로 작용</mark>합니다. 대량의 매도 물량이 시장에 나왔다는 사실 자체가 투자심리에 부담을 주기 때문입니다.</p>
+<p>블록딜은 대량 물량이 한 번에 시장으로 나온다는 점에서 단기 부담 요인으로 읽히는 경우가 많지만, 주가 방향은 거래마다 다르므로 단정할 수 없습니다. 같은 블록딜이라도 아래 세 가지에 따라 시장의 해석이 갈립니다.</p>
 
-<p>다만 사전공시 제도 덕분에 지분 1% 또는 거래금액 50억원이 넘는 내부자 거래는 최소 30일 전부터 공시된 내용을 확인할 수 있게 됐습니다. 관심 있는 종목이 있다면 갑작스러운 소식보다는, 사전공시 여부를 미리 챙겨보는 습관이 도움이 됩니다.</p>
+<ul style="line-height:1.9;">
+  <li><b>물량의 크기:</b> 총 발행주식 대비 몇 %인지, 평소 거래량의 며칠 치인지에 따라 소화 부담이 달라집니다.</li>
+  <li><b>할인율:</b> 깊게 할인된 가격은 이후 일정 기간 시장이 의식하는 기준 가격이 되기도 합니다.</li>
+  <li><b>매도자의 잔여 지분:</b> 팔고도 최대주주 자리가 유지되는지, 추가 매각 가능성이 남았는지를 시장이 따집니다.</li>
+</ul>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<p>매도 물량이 이미 예고돼 있었다면, 그동안 주가에 부담으로 작용하던 불확실성(오버행)이 한 번에 정리됐다고 보는 시각도 있습니다. 이 개념은 <a href="https://sensitiveboss3.tistory.com/entry/overhang-lockup-release-check" target="_blank" rel="noopener">오버행 뜻과 보호예수 해제 확인법</a>에서 자세히 다룹니다.</p>
+
+<p>블록딜로 팔 때도 일반 매도처럼 거래세가 붙고, 대주주라면 양도소득세 문제가 따라옵니다. 세금 쪽은 <a href="https://sensitiveboss3.tistory.com/entry/securities-transaction-tax-rate" target="_blank" rel="noopener">증권거래세 세율</a>과 <a href="https://sensitiveboss3.tistory.com/entry/stock-capital-gains-tax-target" target="_blank" rel="noopener">주식 대주주 요건</a> 글에 정리해 뒀습니다.</p>
+
+<p>관심 종목에 예고된 대주주 매도가 있는지는 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART)</a>에서 회사명으로 공시 목록을 열어 거래계획보고서가 올라와 있는지 보면 알 수 있습니다. 같은 공시는 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 KIND</a>에서도 열람됩니다.</p>
+
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #7a5ec9;padding-left:12px;margin-top:36px;">블록딜 소식 앞에서 투자자가 묻는 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">블록딜이 뭔가요</summary>
-  <p style="margin:10px 0 0 0;">대주주가 매수자를 미리 구해 가격과 수량을 정해두고, 장 시작 전이나 끝난 뒤 시간외매매로 대량의 주식을 한꺼번에 파는 거래입니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">블록딜 뜻을 한 줄로 말하면 무엇인가요</summary>
+  <p style="margin:10px 0 0 0;">대주주가 매수자를 미리 구해 가격과 수량을 정하고, 장 시작 전이나 마감 뒤 시간외매매로 대량의 주식을 한꺼번에 파는 거래입니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">블록딜 할인율은 보통 몇 %인가요</summary>
-  <p style="margin:10px 0 0 0;">사례마다 다르지만 대체로 종가 대비 5~10% 범위에서 할인된 가격으로 거래됩니다. 유동성이 낮거나 매각 규모가 클수록 할인율이 더 커질 수 있습니다.</p>
-</details>
-
-<details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">왜 블록딜을 미리 공시해야 하나요</summary>
-  <p style="margin:10px 0 0 0;">2024년 7월 24일 시행된 자본시장법 제173조의3에 따라, 임원·주요주주가 예고 없이 대량매도해 일반 투자자가 피해를 보는 것을 막기 위해 사전공시 의무가 도입됐습니다.</p>
+  <p style="margin:10px 0 0 0;">사례마다 다르지만 대체로 종가 대비 5~10% 범위입니다. 유동성이 낮거나 매각 규모가 클수록 커질 수 있습니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">사전공시 대상 규모 기준은 얼마인가요</summary>
-  <p style="margin:10px 0 0 0;">지분 1% 이상 또는 거래금액 50억원 이상을 거래하는 경우이며, 과거 6개월간 거래수량·거래금액을 합산해 판단합니다. 거래 개시일 30~90일 전에 공시해야 합니다.</p>
+  <p style="margin:10px 0 0 0;">지분 1% 이상 또는 거래금액 50억원 이상이며, 과거 6개월간 거래를 합산해 판단합니다. 거래 개시일 30~90일 전에 공시해야 합니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">사전공시를 위반하면 어떤 처벌을 받나요</summary>
-  <p style="margin:10px 0 0 0;">미공시, 허위공시, 계획 미이행 시 과징금 최대 20억원이 부과될 수 있고, 형사처벌(최대 징역 1년 또는 벌금 3천만원)까지 받을 수 있습니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">사전공시를 어기면 어떤 처벌을 받나요</summary>
+  <p style="margin:10px 0 0 0;">과징금이 최대 20억원이고, 형사처벌(최대 징역 1년 또는 벌금 3천만원)까지 받을 수 있습니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">블록딜 소식이 뜨면 제가 가진 주식에 영향이 있나요</summary>
-  <p style="margin:10px 0 0 0;">보유 종목에 블록딜 소식이 나오면 대량 매도 물량 부담으로 단기적으로 주가가 하락하는 경우가 많습니다. 다만 사전공시 제도 덕분에 일정 규모 이상 거래는 최소 30일 전부터 공시 내용을 확인할 수 있습니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">블록딜 소식이 뜨면 내 주식은 떨어지나요</summary>
+  <p style="margin:10px 0 0 0;">대량 매도 부담 때문에 단기 하락 요인으로 받아들여지는 경우가 많지만, 방향은 물량·할인율·매도자 잔여 지분에 따라 달라서 단정할 수 없습니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
     <li><a href="https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=279823&amp;joNo=0173&amp;joBrNo=00&amp;docCls=jo&amp;urlMode=lsScJoRltInfoR" target="_blank" rel="noopener">국가법령정보센터: 자본시장법 제173조의3(특정증권등 거래계획 보고)</a></li>
-    <li><a href="https://dart.fss.or.kr/info/main.do?menu=340" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 기업공시 길라잡이: 임원 등의 특정증권등 거래계획 보고</a></li>
+    <li><a href="https://dart.fss.or.kr/info/main.do?menu=340" target="_blank" rel="noopener">금융감독원 전자공시시스템(DART): 기업공시 길라잡이, 임원 등의 특정증권등 거래계획 보고</a></li>
     <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=199134" target="_blank" rel="noopener">법률신문: 상장회사 임원 및 주요주주의 내부자거래 사전공시의무 관련 자본시장법 하위법령 개정안 해설</a></li>
-    <li>기준일: 2026-09-13(WebSearch 확인일, 법률신문·법무법인·경향신문 등 독립 출처 4곳 이상 교차 확인)</li>
+    <li>기준일: 2026-10-09(사전공시 수치는 2026-09-13 독립 출처 4곳 이상 교차 대조값, 할인액 표는 산술 계산)</li>
   </ul>
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
-특정 종목·상품 매수매도 권유가 아닙니다. 투자 판단과 그 결과에 대한 책임은 본인에게 있습니다. 사전공시 의무제도의 세부 규정은 시행령 개정에 따라 계속 바뀔 수 있으므로, 최신 내용은 국가법령정보센터나 금융감독원 전자공시시스템에서 반드시 확인하세요.
+이 글은 정보 제공이 목적이며 특정 종목의 매수·매도를 권하지 않습니다. 투자 판단과 그 결과의 책임은 투자자 본인에게 있습니다. 사전공시 세부 규정은 시행령 개정으로 바뀔 수 있으니 최신 조문은 국가법령정보센터에서 대조하세요.
 </p>
 
 <script type="application/ld+json">
@@ -234,11 +310,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "블록딜 뜻과 사전공시 의무 확인법",
-  "description": "블록딜의 뜻과 할인율 계산 방법, 2024년부터 시행 중인 임원·주요주주 사전공시 의무제도의 대상 규모·보고 시점·위반 시 제재를 정리합니다.",
+  "description": "블록딜 뜻과 할인율 계산, 2024년부터 시행 중인 임원·주요주주 사전공시 의무의 대상 규모·공시 시점·제재, 투자자가 보는 포인트를 정리했습니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-13",
-  "dateModified": "2026-09-13",
+  "dateModified": "2026-10-09",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/block-deal-pre-disclosure"
@@ -251,36 +327,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "블록딜이 뭔가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "대주주가 매수자를 미리 구해 가격과 수량을 정해두고, 장 시작 전이나 끝난 뒤 시간외매매로 대량의 주식을 한꺼번에 파는 거래입니다." }
-    },
-    {
-      "@type": "Question",
-      "name": "블록딜 할인율은 보통 몇 %인가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "사례마다 다르지만 대체로 종가 대비 5~10% 범위에서 할인된 가격으로 거래됩니다. 유동성이 낮거나 매각 규모가 클수록 할인율이 더 커질 수 있습니다." }
-    },
-    {
-      "@type": "Question",
-      "name": "왜 블록딜을 미리 공시해야 하나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "2024년 7월 24일 시행된 자본시장법 제173조의3에 따라, 임원·주요주주가 예고 없이 대량매도해 일반 투자자가 피해를 보는 것을 막기 위해 사전공시 의무가 도입됐습니다." }
-    },
-    {
-      "@type": "Question",
-      "name": "사전공시 대상 규모 기준은 얼마인가요",
-      "acceptedAnswer": { "@type": "Answer", "text": "지분 1% 이상 또는 거래금액 50억원 이상을 거래하는 경우이며, 과거 6개월간 거래수량·거래금액을 합산해 판단합니다. 거래 개시일 30~90일 전에 공시해야 합니다." }
-    },
-    {
-      "@type": "Question",
-      "name": "사전공시를 위반하면 어떤 처벌을 받나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "미공시, 허위공시, 계획 미이행 시 과징금 최대 20억원이 부과될 수 있고, 형사처벌(최대 징역 1년 또는 벌금 3천만원)까지 받을 수 있습니다." }
-    },
-    {
-      "@type": "Question",
-      "name": "블록딜 소식이 뜨면 제가 가진 주식에 영향이 있나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "보유 종목에 블록딜 소식이 나오면 대량 매도 물량 부담으로 단기적으로 주가가 하락하는 경우가 많습니다. 다만 사전공시 제도 덕분에 일정 규모 이상 거래는 최소 30일 전부터 공시 내용을 확인할 수 있습니다." }
-    }
+    {"@type": "Question", "name": "블록딜 뜻을 한 줄로 말하면 무엇인가요", "acceptedAnswer": {"@type": "Answer", "text": "대주주가 매수자를 미리 구해 가격과 수량을 정하고, 장 시작 전이나 마감 뒤 시간외매매로 대량의 주식을 한꺼번에 파는 거래입니다."}},
+    {"@type": "Question", "name": "블록딜 할인율은 보통 몇 %인가요", "acceptedAnswer": {"@type": "Answer", "text": "사례마다 다르지만 대체로 종가 대비 5~10% 범위입니다. 유동성이 낮거나 매각 규모가 클수록 커질 수 있습니다."}},
+    {"@type": "Question", "name": "사전공시 대상 규모 기준은 얼마인가요", "acceptedAnswer": {"@type": "Answer", "text": "지분 1% 이상 또는 거래금액 50억원 이상이며, 과거 6개월간 거래를 합산해 판단합니다. 거래 개시일 30~90일 전에 공시해야 합니다."}},
+    {"@type": "Question", "name": "사전공시를 어기면 어떤 처벌을 받나요", "acceptedAnswer": {"@type": "Answer", "text": "과징금이 최대 20억원이고, 형사처벌(최대 징역 1년 또는 벌금 3천만원)까지 받을 수 있습니다."}},
+    {"@type": "Question", "name": "블록딜 소식이 뜨면 내 주식은 떨어지나요", "acceptedAnswer": {"@type": "Answer", "text": "대량 매도 부담 때문에 단기 하락 요인으로 받아들여지는 경우가 많지만, 방향은 물량·할인율·매도자 잔여 지분에 따라 달라서 단정할 수 없습니다."}}
   ]
 }
 </script>

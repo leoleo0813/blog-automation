@@ -169,6 +169,8 @@ self_check: |
   <p style="margin:8px 0 0 0;">오버행은 "물량이 나올 수 있다"는 가능성을 뜻할 뿐, 실제로 매도가 나올지·언제 나올지는 보유 주체의 판단에 달려 있습니다. 해제 물량 규모가 유통주식수 대비 얼마나 큰지를 함께 확인하는 것이 중요합니다.</p>
 </div>
 
+<p>대주주가 보호예수와 별개로 대량 물량을 시간외시장에서 한 번에 넘기는 방식은 <a href="https://sensitiveboss3.tistory.com/entry/block-deal-pre-disclosure" target="_blank" rel="noopener">블록딜 뜻과 사전공시 의무</a> 글에서 할인율 계산과 함께 다룹니다.</p>
+
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">보호예수 해제일은 어디서 확인하나요</h2>
 
 <p>추측하지 않고 실제 해제일과 물량을 확인하는 방법이 있습니다. <a href="https://seibro.or.kr" target="_blank" rel="noopener">한국예탁결제원 세이브로(SEIBRO)</a>는 상장주식의 의무보호예수 해제 물량을 조회할 수 있는 공식 시스템을 제공합니다.</p>
