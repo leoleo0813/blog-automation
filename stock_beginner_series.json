@@ -582,7 +582,8 @@
       "note": "2026-09-13 생성. 게이트4는 fsc.go.kr WebFetch 1회 EGRESS_BLOCKED 후 정부·언론·법무법인(김앤장) 등 5개 이상 독립 출처 교차검증으로 통과.",
       "gate1_pass": true,
       "published_at": "2026-09-18",
-      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상."
+      "published_note": "사람이 티스토리(sensitiveboss3.tistory.com)에 직접 붙여넣어 발행 완료. 4주 검증 대상.",
+      "refresh_due": "2026-11-02"
     },
     {
       "id": 25,
@@ -6373,8 +6374,9 @@
           "type": "발행 글 갱신(구글)",
           "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
           "plan": "기존 overhang-lockup-release-check 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "overhang-lockup-release-check"
+          "status": "done",
+          "slug": "overhang-lockup-release-check",
+          "done_note": "2026-10-09 갱신: 케이뱅크 상장 시점 오류 정정(2026-03-05 상장, 9/5 해제 8,178만주), 2026년 10월 해제 34개사 9,932만주·상위 6곳 막대 그림, 코스피 6개월 vs 코스닥 1년 시간표 그림, 해제 물량÷유통주식 계산표, 투자자 관점 H2, 내부 링크 4개 + 들어오는 링크 2개(IPO 의무보유확약·전환사채 리픽싱 글). refresh_due 2026-11-02"
         },
         {
           "keyword": "[구글 순위 끌어올리기] 네 마녀의 날 2026",

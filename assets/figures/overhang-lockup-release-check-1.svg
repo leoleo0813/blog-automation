@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="70" font-size="38" font-weight="bold" fill="#111">최대주주 등 의무보유 기간, 코스피 vs 코스닥</text>
+<text x="60" y="112" font-size="25" fill="#666">상장일을 0으로 놓고 본 시간표 (개월)</text>
+<line x1="140" y1="560" x2="1100" y2="560" stroke="#444" stroke-width="4"/>
+<line x1="140" y1="550" x2="140" y2="570" stroke="#444" stroke-width="4"/>
+<line x1="620" y1="550" x2="620" y2="570" stroke="#444" stroke-width="4"/>
+<line x1="1100" y1="550" x2="1100" y2="570" stroke="#444" stroke-width="4"/>
+<text x="140" y="608" font-size="28" fill="#222" text-anchor="middle">상장일</text>
+<text x="620" y="608" font-size="28" fill="#222" text-anchor="middle">6개월</text>
+<text x="1100" y="608" font-size="28" fill="#222" text-anchor="middle">12개월</text>
+<text x="60" y="215" font-size="30" font-weight="bold" fill="#1a2744">코스피</text>
+<rect x="140" y="240" width="480" height="70" fill="#dbeafe" stroke="#4a90d9" stroke-width="3"/>
+<text x="380" y="285" font-size="28" font-weight="bold" fill="#1a2744" text-anchor="middle">전량 묶임</text>
+<rect x="620" y="240" width="480" height="70" fill="#e8f5e9" stroke="#2e8b57" stroke-width="3"/>
+<text x="860" y="285" font-size="28" font-weight="bold" fill="#1f5c3b" text-anchor="middle">해제 후 매도 가능</text>
+<text x="60" y="385" font-size="30" font-weight="bold" fill="#1a2744">코스닥</text>
+<rect x="140" y="410" width="480" height="70" fill="#dbeafe" stroke="#4a90d9" stroke-width="3"/>
+<text x="380" y="455" font-size="28" font-weight="bold" fill="#1a2744" text-anchor="middle">전량 묶임</text>
+<rect x="620" y="410" width="480" height="70" fill="#fff3e0" stroke="#c26a1b" stroke-width="3"/>
+<text x="860" y="455" font-size="28" font-weight="bold" fill="#8a4a0f" text-anchor="middle">매월 5%씩 반환</text>
+<text x="1100" y="505" font-size="26" fill="#8a4a0f" text-anchor="end">12개월에 전량 해제</text>
+</g>
+</svg>

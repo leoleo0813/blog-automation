@@ -220,6 +220,8 @@ self_check: |
 
 <p>도입 배경은 단순합니다. 일부 기관투자자가 실제 기업가치와 무관하게 수요예측에서 높은 가격을 써내 공모가를 끌어올린 뒤, 정작 상장 당일에는 곧바로 매도해 단기 차익만 챙기는 사례가 많았기 때문입니다. 장기 보유를 약속한 기관에 물량을 몰아줘 이런 "단타"를 억제하려는 취지입니다.</p>
 
+<p>확약이 끝나는 시점에는 대기 물량이 한꺼번에 시장에 나올 수 있습니다. 해제 일정과 물량을 읽는 방법은 <a href="https://sensitiveboss3.tistory.com/entry/overhang-lockup-release-check" target="_blank" rel="noopener">오버행 뜻과 보호예수 해제 확인법</a> 글에 정리해 두었습니다.</p>
+
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>단계적 상향 일정</b>
   <p style="margin:8px 0 0 0;">시행 첫해인 2025년 7월부터는 기관 배정물량의 <mark>30% 이상</mark>을 의무보유확약 기관에 우선 배정했고, <mark>2026년(올해)부터는 이 비율이 40% 이상</mark>으로 올라갔습니다. 만약 확약 물량이 이 기준에 못 미치면, 상장주관사가 공모물량의 1%(최대 30억원 한도)를 자기 자금으로 사들여 6개월간 의무적으로 보유해야 합니다.</p>
