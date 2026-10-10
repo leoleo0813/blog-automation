@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">지난 세 번, 외국인은 팔았고 종가 등락은 0.5% 안쪽</text>
+<text x="70" y="122" font-size="25" fill="#666">외국인 코스피 순매도(조 원)와 당일 코스피 등락률</text>
+<text x="70" y="214" font-size="30" font-weight="bold" fill="#111">3월 12일</text>
+<rect x="250" y="170" width="508" height="60" rx="6" fill="#d97706"/>
+<text x="774" y="212" font-size="30" font-weight="bold" fill="#92400e">약 2.36조 순매도</text>
+<rect x="250" y="244" width="880" height="66" rx="8" fill="#f6f6f4"/>
+<text x="270" y="288" font-size="28" fill="#333">코스피 종가 5,583.25</text>
+<text x="1110" y="288" font-size="32" font-weight="bold" fill="#2563eb" text-anchor="end">-0.48%</text>
+<text x="70" y="384" font-size="30" font-weight="bold" fill="#111">6월 11일</text>
+<rect x="250" y="340" width="392" height="60" rx="6" fill="#d97706"/>
+<text x="658" y="382" font-size="30" font-weight="bold" fill="#92400e">약 1.82조 순매도</text>
+<rect x="250" y="414" width="880" height="66" rx="8" fill="#f6f6f4"/>
+<text x="270" y="458" font-size="28" fill="#333">코스피 종가 7,763.95</text>
+<text x="1110" y="458" font-size="32" font-weight="bold" fill="#dc2626" text-anchor="end">+0.43%</text>
+<text x="70" y="554" font-size="30" font-weight="bold" fill="#111">9월 10일</text>
+<rect x="250" y="510" width="536" height="60" rx="6" fill="#d97706"/>
+<text x="802" y="552" font-size="30" font-weight="bold" fill="#92400e">약 2.49조 순매도</text>
+<rect x="250" y="584" width="880" height="66" rx="8" fill="#f6f6f4"/>
+<text x="270" y="628" font-size="28" fill="#333">코스피 종가 7,033.92</text>
+<text x="1110" y="628" font-size="32" font-weight="bold" fill="#2563eb" text-anchor="end">-0.25%</text>
+<text x="70" y="696" font-size="22" fill="#888">자료: 언론 보도 교차 확인, 순매도액은 매체별로 수백억 원 차이</text>
+</g></svg>
