@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="70" font-size="38" font-weight="bold" fill="#111">삼성전자 분기별 영업이익 (연결 기준)</text>
+<text x="60" y="114" font-size="25" fill="#666">2025년 3분기는 증가율에서 역산한 값, 나머지는 잠정실적 공시 기준</text>
+<line x1="60" y1="600" x2="1140" y2="600" stroke="#999" stroke-width="2"/>
+<rect x="100" y="560" width="160" height="40" fill="#c9b8f5"/>
+<text x="180" y="546" font-size="30" font-weight="bold" fill="#2d1b69" text-anchor="middle">약 12.2조</text>
+<text x="180" y="645" font-size="26" fill="#333" text-anchor="middle">2025 3Q</text>
+<rect x="310" y="534" width="160" height="66" fill="#b39df0"/>
+<text x="390" y="520" font-size="30" font-weight="bold" fill="#2d1b69" text-anchor="middle">20조</text>
+<text x="390" y="645" font-size="26" fill="#333" text-anchor="middle">2025 4Q</text>
+<rect x="520" y="411" width="160" height="189" fill="#8f72e8"/>
+<text x="600" y="397" font-size="30" font-weight="bold" fill="#2d1b69" text-anchor="middle">57.2조</text>
+<text x="600" y="645" font-size="26" fill="#333" text-anchor="middle">2026 1Q</text>
+<rect x="730" y="305" width="160" height="295" fill="#7048e8"/>
+<text x="810" y="291" font-size="30" font-weight="bold" fill="#2d1b69" text-anchor="middle">89.4조</text>
+<text x="810" y="645" font-size="26" fill="#333" text-anchor="middle">2026 2Q</text>
+<rect x="940" y="246" width="160" height="354" fill="#4a2fa8"/>
+<text x="1020" y="232" font-size="30" font-weight="bold" fill="#2d1b69" text-anchor="middle">107.4조</text>
+<text x="1020" y="645" font-size="26" fill="#333" text-anchor="middle">2026 3Q</text>
+<text x="60" y="700" font-size="22" fill="#666">자료: 삼성전자 잠정실적 발표 및 언론 보도(2026-10-10 확인), 단위 원</text>
+</g>
+</svg>

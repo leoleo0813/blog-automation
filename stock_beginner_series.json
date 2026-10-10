@@ -2925,6 +2925,20 @@
       "draft": "stock_drafts/mandatory-tender-offer-bill-status.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06"
+    },
+    {
+      "id": 146,
+      "order": 146,
+      "keyword": "삼성전자 영업이익",
+      "title": "삼성전자 영업이익 분기별 추이 2025~2026",
+      "slug": "samsung-operating-profit-quarterly-trend",
+      "status": "drafted",
+      "monthly_search_volume": "11720 (PC 2790 / 모바일 8930)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-30",
+      "draft": "stock_drafts/samsung-operating-profit-quarterly-trend.md",
+      "gate1_pass": true,
+      "drafted_at": "2026-10-10"
     }
   ],
   "backlog": {
@@ -3786,6 +3800,21 @@
         "keyword": "공모주 청약 방법",
         "monthly_search_volume": "800 (PC 190 / 모바일 610, 2026-10-06 실측)",
         "hold_reason": "게이트1 통과. 35편 IPO 뜻과 카니벌라이제이션 점검 필요."
+      },
+      {
+        "keyword": "삼성전자 영업이익",
+        "monthly_search_volume": "11,720 (2026-10-10 실측)",
+        "status": "drafted 146편 (2026-10-10)"
+      },
+      {
+        "keyword": "증여세 신고기한",
+        "monthly_search_volume": "3,950 (2026-10-10 실측)",
+        "status": "todo"
+      },
+      {
+        "keyword": "ISA 만기 연장",
+        "monthly_search_volume": "1,080 (2026-10-10 실측)",
+        "status": "todo"
       }
     ],
     "failed_gate1": [
