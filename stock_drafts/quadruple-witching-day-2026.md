@@ -4,7 +4,7 @@ title: 네마녀의 날 뜻 2026년 일정표
 slug: quadruple-witching-day-2026
 keyword_class: 자동화 가능
 publish_effort: oneclick
-monthly_search_volume: 4570 (PC 1200 / 모바일 3370)
+monthly_search_volume: 3700 (PC 990 / 모바일 2710)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-20 — 통과]
