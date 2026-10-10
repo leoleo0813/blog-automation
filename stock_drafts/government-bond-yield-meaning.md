@@ -39,14 +39,17 @@ self_check: |
   제목 "국채금리 뜻과 채권가격 반비례 계산" 글자수 18자, 금지어 없음. 슬러그 4단어 영문 소문자 하이픈.
   첫 문장 유형: 결론형(금리가 오르면 가격이 내린다). 글 구조 유형: 계산 시연형(가상 채권 2종).
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 5개, H2 7개(목차 제외) 중 "~나요"형 1개.
-  요약박스 청록색(#e6f4f1/#2e9c8a), 제목 "🧭 국채금리, 먼저 이것만". FAQ 헤딩 "국채금리 볼 때 자주 걸리는 질문". 면책 문구 새 표현.
-refresh_due: 2026-10-02
-refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물 금리와 기준일 표 추가"
+  요약박스 청록색(#e6f4f1/#2e9c8a), 제목 "🧭 국채금리, 먼저 이것만". FAQ 헤딩 "국채금리를 처음 보는 사람이 묻는 것들". 면책 문구 새 표현.
+figure_plan: "1장(현재 금리 막대). 나머지 표는 가상 채권 가격 계산표·bp 환산표라 정확한 숫자를 읽어야 해서 표가 낫다"
+refresh_due: 2026-10-23
+refresh_reason: "10/22 금통위 직후 금리 수치 갱신"
+self_check_refresh: |
+  [2026-10-10 갱신] 현재 수치 표 추가: 3년 3.933%·10년 4.369%(10/6 마감)는 SBS Biz와 핀포인트뉴스 두 곳이 같은 숫자를 보도해 통과(RULES 지표 수치 기준). 10/8 마감(3.983%/4.395%)은 SBS Biz 1곳뿐이라 쓰지 않음. 투자자 관점 H2, 그림 1장, 내부 링크(기준금리 글) 추가. lint 금지 어휘·메타 문장 수정.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-30</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-10</p>
 
-<p>국채금리가 오르면 이미 발행된 국채의 가격은 내려갑니다. 국채금리는 국채를 사서 만기까지 들고 갈 때 얻는 연 수익률이고, 이자가 정해진 채권은 가격이 움직여야 수익률이 맞춰지기 때문입니다. 이 글은 가상 채권 하나를 금리 2%, 3%, 4%에서 직접 계산해 그 반비례를 눈으로 확인합니다.</p>
+<p>국채금리가 오르면 이미 발행된 국채의 가격은 내려갑니다. 국채금리는 국채를 사서 만기까지 들고 갈 때 얻는 연 수익률이고, 이자가 정해진 채권은 가격이 움직여야 수익률이 맞춰지기 때문입니다.</p>
 
 <div style="background:#e6f4f1;border:2px solid #2e9c8a;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1d6b5e;font-size:18px;">🧭 국채금리, 먼저 이것만</strong>
@@ -63,7 +66,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">뉴스에 나오는 bp 읽는 법</a></li>
   <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리가 예금, 대출, 주식에 닿는 경로</a></li>
   <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리 확인하는 곳</a></li>
-  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 걸리는 질문</a></li>
+  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">국채금리를 처음 보는 사람이 묻는 것들</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리는 무엇을 뜻하나요</h2>
@@ -93,7 +96,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 <p>두 금리는 서로 영향을 주고받지만 항상 같이 움직이지는 않습니다. 시장이 앞으로의 기준금리를 어떻게 볼지에 따라 국채금리가 먼저 움직이기도 합니다.</p>
 
 <div style="background:#e6f4f1;border:2px solid #2e9c8a;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#1d6b5e;font-size:18px;">📝 헷갈릴 때 한 줄</strong>
+  <strong style="color:#1d6b5e;font-size:18px;">📝 한 줄로 기억하기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>회의로 정하면 기준금리, 시장이 정하면 국채금리입니다.</li><li>국채 기사에 나오는 "금리"는 대부분 국채금리를 뜻합니다.</li></ul>
 </div>
 
@@ -181,6 +184,35 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
 
 <p>주식 시장에 미치는 영향은 그때의 물가, 경기, 기업 실적에 따라 달라서 한 방향으로 정해져 있지 않습니다. 채권으로 얻는 이자에 붙는 세금은 <a href="https://sensitiveboss3.tistory.com/entry/bond-tax-guide" target="_blank" rel="noopener">채권 세금 얼마 떼나</a>에 정리했습니다.</p>
 
+<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">지금 국고채 금리는 얼마인가요</h2>
+
+<p>2026년 10월 6일 서울 채권시장 마감 기준 국고채 3년물은 연 3.933%, 10년물은 연 4.369%입니다. 10년물이 3년물보다 43.6bp 높습니다.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+  <thead><tr style="background:#e6f4f1;"><th style="border:1px solid #ccc;padding:8px;">만기</th><th style="border:1px solid #ccc;padding:8px;">금리</th><th style="border:1px solid #ccc;padding:8px;">기준일</th></tr></thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccc;padding:8px;">국고채 3년</td><td style="border:1px solid #ccc;padding:8px;">연 3.933%</td><td style="border:1px solid #ccc;padding:8px;">2026-10-06 마감</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px;">국고채 10년</td><td style="border:1px solid #ccc;padding:8px;">연 4.369%</td><td style="border:1px solid #ccc;padding:8px;">2026-10-06 마감</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px;">10년 - 3년</td><td style="border:1px solid #ccc;padding:8px;">43.6bp</td><td style="border:1px solid #ccc;padding:8px;">산술(4.369 - 3.933)</td></tr>
+  </tbody>
+</table>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/government-bond-yield-meaning-1.png" alt="2026년 10월 6일 국고채 3년물 3.933%와 10년물 4.369% 비교 막대" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: <a href="https://biz.sbs.co.kr/article/20000338551" target="_blank" rel="noopener">SBS Biz</a>, <a href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=493090" target="_blank" rel="noopener">핀포인트뉴스</a>, 2026-10-06 마감</figcaption></figure>
+
+<p>금리는 매일 바뀌므로 이 표는 기준일의 값입니다. 오늘 값은 한국은행 경제통계시스템이나 증권사 앱에서 같은 만기끼리 비교해 보시면 됩니다. 다음 국고채 금리 갱신은 한국은행 금융통화위원회(2026-10-22) 이후로 잡았습니다.</p>
+
+<h2 style="border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 수준이 주식 투자자에게 중요한 이유</h2>
+
+<p>국채금리는 주식에 요구하는 수익률의 비교 기준이라서, 주식 투자자는 이 숫자를 함께 봅니다. 10년물이 4.369%라면 위험이 거의 없는 국채가 연 4%대 수익을 주는 셈이므로, 주식은 그보다 높은 기대수익을 설명해야 합니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><strong>성장주:</strong> 먼 미래의 이익을 현재 가치로 깎을 때 금리가 높을수록 할인폭이 커져 부담이 됩니다.</li>
+  <li><strong>배당주:</strong> 배당수익률이 국채금리보다 낮아 보이면 비교 매력이 떨어졌다고 해석하는 시장 참여자가 많습니다.</li>
+  <li><strong>대출 비중이 큰 기업:</strong> 회사채 금리가 국채금리에 연동되므로 이자 비용이 늘어납니다.</li>
+</ul>
+
+<p>이 경로가 실제 주가 방향으로 이어지는지는 물가, 경기, 실적에 따라 달라서 단정할 수 없습니다. 같은 금리 상승도 경기가 좋아서 오른 경우와 물가가 불안해서 오른 경우에 주식에 주는 의미가 다릅니다. 금리와 함께 <a href="https://sensitiveboss3.tistory.com/entry/base-rate-meaning-interest-calc" target="_blank" rel="noopener">기준금리 뜻과 이자 계산</a>도 같이 보면 흐름을 읽기 쉽습니다.</p>
+
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 확인하는 곳</h2>
 
 <ol style="line-height:1.9;">
@@ -196,7 +228,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>국채금리는 시장이 정한 만기별 수익률이고 기준금리와 다릅니다.</li><li>금리가 오르면 국채 가격은 내리고, 만기가 길수록 그 폭이 큽니다.</li><li>기사 속 bp는 0.01%p 단위이며, 25bp는 0.25%p입니다.</li></ul>
 </div>
 
-<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리 볼 때 자주 걸리는 질문</h2>
+<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #2e9c8a;padding-left:12px;margin-top:36px;">국채금리를 처음 보는 사람이 묻는 것들</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">국채금리와 기준금리는 같은 금리인가요</summary>
@@ -254,7 +286,7 @@ refresh_reason: "현재 국고채 금리 수치 없음 — 최신 3년·10년물
     "name": "센시티브보스"
   },
   "datePublished": "2026-09-30",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-10",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/government-bond-yield-meaning"

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="70" font-size="38" font-weight="bold" fill="#111">국고채 3년물과 10년물 금리 (2026-10-06 마감)</text>
+<text x="60" y="114" font-size="25" fill="#666">막대 높이는 3.5%를 기준선으로 확대해 그렸습니다</text>
+<line x1="60" y1="600" x2="1140" y2="600" stroke="#999" stroke-width="2"/>
+<rect x="200" y="360" width="300" height="240" fill="#6fa8dc"/>
+<text x="350" y="340" font-size="40" font-weight="bold" fill="#1a2744" text-anchor="middle">3.933%</text>
+<text x="350" y="650" font-size="28" fill="#333" text-anchor="middle">3년물</text>
+<rect x="700" y="260" width="300" height="340" fill="#2e9c8a"/>
+<text x="850" y="240" font-size="40" font-weight="bold" fill="#1d6b5e" text-anchor="middle">4.369%</text>
+<text x="850" y="650" font-size="28" fill="#333" text-anchor="middle">10년물</text>
+<text x="600" y="400" font-size="30" font-weight="bold" fill="#c0392b" text-anchor="middle">차이 43.6bp</text>
+<text x="600" y="440" font-size="24" fill="#c0392b" text-anchor="middle">(0.436%p)</text>
+<text x="60" y="700" font-size="22" fill="#666">자료: SBS Biz, 핀포인트뉴스 보도(2026-10-06 서울 채권시장 마감)</text>
+</g>
+</svg>
