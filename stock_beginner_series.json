@@ -2939,6 +2939,20 @@
       "draft": "stock_drafts/samsung-operating-profit-quarterly-trend.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-10"
+    },
+    {
+      "id": 147,
+      "order": 147,
+      "keyword": "미국 PPI",
+      "title": "미국 PPI 발표일 2026 한국시간 몇 시",
+      "slug": "us-ppi-release-date-korea-time",
+      "status": "drafted",
+      "monthly_search_volume": "7240 (PC 1110 / 모바일 6130)",
+      "gate_pass": true,
+      "refresh_due": "2026-10-16",
+      "draft": "stock_drafts/us-ppi-release-date-korea-time.md",
+      "gate1_pass": true,
+      "drafted_at": "2026-10-11"
     }
   ],
   "backlog": {
@@ -6550,6 +6564,20 @@
           "angle": "6편 금융소득종합과세(12,270)·5편 해외주식 양도세(7,530)·15편 미국주식 세금(6,660)·7편 대주주 요건(4,240)·8편 연금저축 세액공제(3,180)를 12월 마감 기준으로 갱신",
           "plan": "기존 글 키우기, 11월 안에",
           "status": "todo"
+        },
+        {
+          "keyword": "미국 PPI",
+          "monthly_search_volume": "7,240 (2026-10-11 실측)",
+          "type": "새 글(시의성 10/15)",
+          "angle": "13회 발표일·한국시간 표, 8월 PPI-CPI 격차",
+          "status": "drafted 147편 (2026-10-11)"
+        },
+        {
+          "keyword": "삼성전자 자사주",
+          "monthly_search_volume": "5,260 (자사주 매입 종료 2,660, 2026-10-11 실측)",
+          "type": "새 글 후보",
+          "angle": "자사주 매입 완료와 소각 일정",
+          "status": "todo. 매입 금액이 보도마다 달라(15조원 vs 55조원) DART 자기주식 취득 결과보고서 확인 후 진행"
         }
       ]
     }

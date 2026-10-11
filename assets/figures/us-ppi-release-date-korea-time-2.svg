@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="30" y="48" font-size="30" font-weight="bold" fill="#222">8월 미국 생산자물가(PPI)가 소비자물가(CPI)보다 더 올랐어요</text>
+<text x="30" y="86" font-size="22" fill="#555">전년 동월 대비 상승률(%), 전체는 근원 포함 전체 지수예요</text>
+<text x="280" y="182" font-size="26" font-weight="bold" text-anchor="end" fill="#333">PPI 전체</text>
+<rect x="300" y="140" width="702" height="64" rx="6" fill="#0f766e"/>
+<text x="1016" y="183" font-size="28" font-weight="bold" fill="#222">5.4%</text>
+<text x="280" y="282" font-size="26" font-weight="bold" text-anchor="end" fill="#333">CPI 전체</text>
+<rect x="300" y="240" width="442" height="64" rx="6" fill="#9ca3af"/>
+<text x="756" y="283" font-size="28" font-weight="bold" fill="#222">3.4%</text>
+<text x="280" y="382" font-size="26" font-weight="bold" text-anchor="end" fill="#333">PPI 근원</text>
+<rect x="300" y="340" width="598" height="64" rx="6" fill="#0f766e"/>
+<text x="912" y="383" font-size="28" font-weight="bold" fill="#222">4.6%</text>
+<text x="280" y="482" font-size="26" font-weight="bold" text-anchor="end" fill="#333">CPI 근원</text>
+<rect x="300" y="440" width="312" height="64" rx="6" fill="#9ca3af"/>
+<text x="626" y="483" font-size="28" font-weight="bold" fill="#222">2.4%</text>
+<text x="30" y="574" font-size="18" fill="#777">자료: 미국 노동통계국(BLS) 9월 10일(PPI)·9월 11일(CPI) 발표를 보도한 언론 교차 확인, 2026-10-11 기준</text></svg>
