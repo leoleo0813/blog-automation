@@ -2955,11 +2955,18 @@
       "drafted_at": "2026-10-11"
     },
     {
-      "id": 148,
-      "order": 148,
+      "id": "148",
+      "order": "148",
       "title": "증여세 신고기한 계산법과 월별 마감일 2026",
       "slug": "gift-tax-filing-deadline-calendar",
-      "status": "drafted"
+      "status": "drafted",
+      "keyword": "증여세 신고기한",
+      "monthly_search_volume": "3870 (PC 1290 / 모바일 2580)",
+      "gate_pass": "True",
+      "refresh_due": "2026-12-31",
+      "draft": "stock_drafts/gift-tax-filing-deadline-calendar.md",
+      "gate1_pass": "True",
+      "drafted_at": "2026-10-11"
     }
   ],
   "backlog": {
