@@ -2965,7 +2965,7 @@
       "gate_pass": "True",
       "refresh_due": "2026-12-31",
       "draft": "stock_drafts/gift-tax-filing-deadline-calendar.md",
-      "gate1_pass": "True",
+      "gate1_pass": true,
       "drafted_at": "2026-10-11"
     }
   ],
