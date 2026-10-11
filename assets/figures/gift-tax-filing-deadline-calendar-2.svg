@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="30" y="48" font-size="30" font-weight="bold" fill="#222">기한 안에 신고하면 깎이는 3% 크기</text>
+<text x="30" y="86" font-size="22" fill="#555">성년 자녀에게 증여, 공제 5천만원 적용한 계산 (단위: 만원)</text>
+<line x1="230" y1="130" x2="230" y2="540" stroke="#999" stroke-width="2"/>
+<text x="30" y="205" font-size="24" fill="#333">증여 1억 5천만원</text>
+<rect x="230" y="170" width="60" height="50" fill="#b45309"/>
+<text x="305" y="205" font-size="24" font-weight="bold" fill="#92400e">30만원</text>
+<text x="30" y="305" font-size="24" fill="#333">증여 2억원</text>
+<rect x="230" y="270" width="120" height="50" fill="#b45309"/>
+<text x="365" y="305" font-size="24" font-weight="bold" fill="#92400e">60만원</text>
+<text x="30" y="405" font-size="24" fill="#333">증여 3억원</text>
+<rect x="230" y="370" width="240" height="50" fill="#b45309"/>
+<text x="485" y="405" font-size="24" font-weight="bold" fill="#92400e">120만원</text>
+<text x="30" y="505" font-size="24" fill="#333">증여 5억원</text>
+<rect x="230" y="470" width="480" height="50" fill="#b45309"/>
+<text x="725" y="505" font-size="24" font-weight="bold" fill="#92400e">240만원</text>
+<text x="1170" y="570" font-size="20" text-anchor="end" fill="#888">자료: 국세청 증여세 세율·신고세액공제 기준으로 계산, 2026-10-11</text>
+</svg>
