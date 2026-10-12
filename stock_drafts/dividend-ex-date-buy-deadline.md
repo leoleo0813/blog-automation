@@ -4,7 +4,7 @@ title: 배당락일 매수 마감일 계산법
 slug: dividend-ex-date-buy-deadline
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3200 (PC 700 / 모바일 2500)
+monthly_search_volume: 3210 (PC 730 / 모바일 2480)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-11 — 통과]
