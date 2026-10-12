@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="70" font-size="34" font-weight="bold" fill="#111">2026년 연말 배당, 12/28 매수는 되고 12/29는 안 되는 이유</text>
+<text x="60" y="112" font-size="24" fill="#666">12월 31일은 휴장이라 결제일로 세지 않음 (12월 결산, 기준일 12/31 가정)</text>
+<text x="60" y="180" font-size="26" font-weight="bold" fill="#2e8b57">12/28(월) 매수</text>
+<rect x="330" y="145" width="220" height="56" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="3"/>
+<text x="440" y="182" font-size="24" text-anchor="middle" fill="#222">12/28 매수(T)</text>
+<text x="565" y="182" font-size="30" fill="#888">→</text>
+<rect x="600" y="145" width="220" height="56" rx="10" fill="#fff" stroke="#9aa0a6" stroke-width="3"/>
+<text x="710" y="182" font-size="24" text-anchor="middle" fill="#222">12/29(T+1)</text>
+<text x="835" y="182" font-size="30" fill="#888">→</text>
+<rect x="870" y="145" width="270" height="56" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="3"/>
+<text x="1005" y="182" font-size="24" text-anchor="middle" fill="#222">12/30(T+2) 결제</text>
+<text x="60" y="262" font-size="25" fill="#2e8b57">결제가 12/31 기준일 전에 끝나 배당을 받습니다</text>
+<line x1="60" y1="300" x2="1140" y2="300" stroke="#ddd" stroke-width="2"/>
+<text x="60" y="380" font-size="26" font-weight="bold" fill="#c0392b">12/29(화) 매수</text>
+<rect x="330" y="345" width="220" height="56" rx="10" fill="#fdeaea" stroke="#c0392b" stroke-width="3"/>
+<text x="440" y="382" font-size="24" text-anchor="middle" fill="#222">12/29 매수(T)</text>
+<text x="565" y="382" font-size="30" fill="#888">→</text>
+<rect x="600" y="345" width="220" height="56" rx="10" fill="#fff" stroke="#9aa0a6" stroke-width="3"/>
+<text x="710" y="382" font-size="24" text-anchor="middle" fill="#222">12/30(T+1)</text>
+<text x="835" y="382" font-size="30" fill="#888">→</text>
+<rect x="870" y="345" width="270" height="56" rx="10" fill="#fdeaea" stroke="#c0392b" stroke-width="3"/>
+<text x="1005" y="382" font-size="24" text-anchor="middle" fill="#222">12/31 휴장 건너뜀</text>
+<text x="60" y="462" font-size="25" fill="#c0392b">결제가 2027년 1월 4일로 밀려 이번 배당은 못 받습니다</text>
+<text x="60" y="540" font-size="24" fill="#333">그래서 12/29(화)가 배당락일, 12/28(월)이 배당 받을 마지막 매수일</text>
+<text x="60" y="590" font-size="21" fill="#888">자료: KB증권 연말 시장운영 공지·언론 보도로 확인한 2025년 규칙을 2026년 달력에 적용한 계산</text>
+</g>
+</svg>

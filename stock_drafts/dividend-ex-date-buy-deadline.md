@@ -55,6 +55,8 @@ primary_source: |
   결의, 기준일 2주 전 공고"라는 핵심 사실에서 서로 충돌 없이 일치했다.
 기준일: 2026-09-11 (WebSearch 확인일)
 tags: 배당락일, 배당기준일, 분기배당, 자본시장법개정, 배당금, 주식배당, 주식초보
+refresh_due: 2026-12-15
+figure_plan: "2장. 1) 연말 결제 흐름(12/28 매수는 12/30 결제, 12/29 매수는 1/4로 밀림) 2) 배당락 평균 하락폭 막대(코스피 42.8bp vs 코스닥 10.7bp). 서로 다른 정보"
 gate_pass: true
 gate_pass_note: |
   4개 게이트 전부 충족(2026-09-11).
@@ -66,6 +68,7 @@ gate_pass_note: |
   게이트4: 정부·로펌·민간 도메인 4곳 모두 EGRESS_BLOCKED 확인 후, 8개 독립
   출처 교차 확인으로 대체. 한계를 self_check·본문에 투명 공개.
 self_check: |
+  [2026-10-12 갱신] 키워드 배당락일 실측 월 3,210(PASS). 2026년 12월 결산 연말 일정(마지막 매수 12/28, 배당락 12/29, 폐장 12/30, 휴장 12/31)은 129편 검증값 재사용: 2025년 실제값을 KB증권 공지·다음 뉴스 보도로 확인한 규칙을 2026 달력에 적용한 계산이며 본문에 계산임을 표기. 거래소 12월 중순 공지 후 재검토(refresh_due 2026-12-15). 그림 2장, 내부 링크 3개(배당소득세·배당수익률·휴장일 글; 휴장일 글(129편)은 발행 전이라 먼저 발행돼야 링크가 열림). AI 티 점검: em대시 0개.
   [2026-09-11 최종 판정]
   게이트1 충족 — 네이버 키워드도구 실측 3,200회.
   게이트2 충족 — RULES.md 게이트2 v3 기준, 3개 탈락 조건 모두 미해당(serp_check
@@ -98,14 +101,14 @@ self_check: |
   공개) → gate_pass:true. 발행 가능.
 ---
 
-<p>배당금을 받으려면 <mark>배당기준일 2영업일 전(T+2 결제 기준)까지는 주식을 사야</mark> 합니다. 그리고 2025년부터는 분기배당도 <b>배당액을 먼저 확정·공시한 뒤에 배당기준일을 정하는 방식</b>으로 바뀌어, 예전처럼 기준일부터 정해놓고 배당금은 나중에 아는 "깜깜이 배당"이 많이 줄었습니다.</p>
+<p>2026년 12월 결산 배당을 받으려면 <mark>12월 28일(월)까지 주식을 사야</mark> 하고, 배당락일은 12월 29일(화)입니다. 보통은 배당기준일 2영업일 전(T+2 결제 기준)이 마감인데, 올해는 12월 31일이 휴장이라 날짜가 하루 더 당겨집니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
+    <li>12월 결산 법인은 2026년 <mark>12월 28일 매수 마감, 12월 29일 배당락, 12월 30일 폐장</mark>입니다(휴장 규칙 적용 계산).</li>
     <li>배당락일은 보통 <mark>배당기준일 바로 전 영업일</mark>입니다.</li>
     <li>실제로 배당금을 받으려면 국내 주식시장의 <b>T+2 결제</b> 때문에 배당기준일 <mark>2영업일 전(=배당락일 전날)</mark>까지는 매수를 마쳐야 합니다.</li>
-    <li>2023년 1월부터 결산배당은 <b>배당액을 먼저 확정·공시한 뒤 배당기준일을 지정</b>하는 방식으로 바뀌었습니다.</li>
     <li>2025년 자본시장법 개정으로 <mark>분기배당도 같은 방식</mark>이 적용됩니다. 분기 말로부터 45일 이내 이사회가 배당액을 결의하고, 배당기준일의 2주 전에 공고합니다.</li>
   </ul>
 </div>
@@ -114,9 +117,10 @@ self_check: |
 <ol style="line-height:1.9;">
   <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당기준일과 배당락일은 뭐가 다른가요</a></li>
   <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당금 받으려면 언제까지 사야 하나요</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 배당락일에 주가가 떨어지나요</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">예전과 달라진 점은 무엇인가요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분기배당은 실제로 어떻게 진행되나요</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 연말 배당은 언제까지 사야 하나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">왜 배당락일에 주가가 떨어지나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">예전과 달라진 점은 무엇인가요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">분기배당은 실제로 어떻게 진행되나요</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당기준일과 배당락일은 뭐가 다른가요</h2>
@@ -145,13 +149,43 @@ self_check: |
 
 <p>즉 3월 27일(금) 장 마감까지 주식을 보유하고 있었다면, 3월 30일(월) 배당락일 아침에 바로 팔아도 배당금은 예정대로 들어옵니다. 반대로 3월 30일에 처음 산다면 배당기준일(3월 31일)까지 결제가 끝나지 않아 배당을 받지 못합니다.</p>
 
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 배당락일에 주가가 떨어지나요</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">2026년 연말 배당은 언제까지 사야 하나요</h2>
+
+<p>12월 결산 법인의 결산배당 기준일이 12월 31일이면, 2026년 배당을 받는 마지막 매수일은 <mark>12월 28일(월)</mark>입니다. 배당락일은 12월 29일(화), 올해 마지막 거래일(폐장일)은 12월 30일(수)입니다.</p>
+
+<p>12월 31일(목)이 연말휴장일이고, 휴장일은 결제일에서 빠지기 때문입니다. 12월 29일에 산 주식은 결제가 2027년 1월 4일로 밀려 기준일 명부에 오르지 못합니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dividend-ex-date-buy-deadline-1.png" alt="2026년 연말 배당 결제 흐름. 12월 28일 매수는 12월 30일에 결제되어 배당을 받고, 12월 29일 매수는 12월 31일 휴장을 건너뛰어 1월 4일에 결제되므로 배당을 못 받음" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: KB증권 연말 시장운영 공지·언론 보도로 확인한 2025년 규칙을 2026년 달력에 적용한 계산</figcaption></figure>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">구분</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">2025년(실제)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">2026년(계산)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;"><mark>마지막 매수일</mark></td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 26일(금)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;"><mark>12월 28일(월)</mark></td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">배당락일</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 29일(월)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 29일(화)</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">폐장일</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 30일(화)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 30일(수)</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">연말휴장일</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 31일(수)</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">12월 31일(목)</td></tr>
+  </tbody>
+</table>
+
+<p>2025년 값은 <a href="https://www.kbsec.com/go.able?linkcd=s060901010000&amp;seq=10009341&amp;idt=20251222" target="_blank" rel="noopener">KB증권 연말 시장운영 공지</a>와 <a href="https://v.daum.net/v/20251218110909861" target="_blank" rel="noopener">12월 31일 연말휴장일 지정 보도</a>로 확인했습니다. 2026년 값은 같은 규칙을 달력에 대 본 계산이고, 한국거래소는 12월 중순에 연말 일정을 공지하므로 공지가 나오면 이 글을 고칩니다. 휴장일 전체 일정은 <a href="https://sensitiveboss3.tistory.com/entry/stock-market-holidays-2026-remaining" target="_blank" rel="noopener">주식 휴장일 2026 글</a>에 있습니다.</p>
+
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">왜 배당락일에 주가가 떨어지나요</h2>
 
 <p>배당은 회사가 보유한 현금을 주주에게 나눠주는 것이라, 배당금만큼 회사 밖으로 현금이 빠져나가 <mark>이론적으로 그만큼 기업가치가 줄어듭니다.</mark> 그래서 시장에서는 배당락일에 예상 배당금만큼 주가를 미리 낮춰서 거래를 시작하는 경향이 있습니다.</p>
 
 <p>다만 실제 하락폭은 종목·시장에 따라 다릅니다. 자본시장연구원의 한 발간물에 따르면, 12월 말을 배당기준일로 정한 기업들의 배당락일 평균 주가 하락폭은 <b>코스피 42.8bp, 코스닥 10.7bp</b> 수준으로, 코스피 쪽이 더 뚜렷했습니다(법령상 수치가 아닌 연구 통계이므로 참고용입니다).</p>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예전과 달라진 점은 무엇인가요</h2>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dividend-ex-date-buy-deadline-2.png" alt="배당락일 평균 주가 하락폭 막대 그래프. 코스피 42.8bp, 코스닥 10.7bp" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 자본시장연구원 발간물, 12월 말 배당기준일 기업 기준</figcaption></figure>
+
+<p>42.8bp는 약 0.43%입니다. 주가 1만 원짜리라면 평균 43원 정도라서, 배당금을 받으려고 산 사람에게 배당락 하락은 배당 수익의 일부를 되돌려 주는 효과가 있습니다. 배당금이 곧 순수익은 아니라는 뜻입니다. 배당수익률 계산은 <a href="https://sensitiveboss3.tistory.com/entry/dividend-yield-calculation" target="_blank" rel="noopener">배당수익률 계산 글</a>에서 볼 수 있습니다.</p>
+
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">예전과 달라진 점은 무엇인가요</h2>
 
 <p>예전에는 대부분 상장사가 <mark>매년 12월 말에 배당기준일부터 미리 정해놓고, 실제 배당금액은 다음 해 3월 주주총회에서야 결정</mark>했습니다. 그래서 투자자는 배당금이 얼마인지, 언제 받는지 모르는 채로 배당락을 맞는 "깜깜이 배당" 문제가 있었습니다.</p>
 
@@ -164,7 +198,7 @@ self_check: |
 
 <p style="font-size:13px;color:#888;">근거: 「자본시장과 금융투자업에 관한 법률」 제165조의12(<a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 조문번호 확인) 및 금융위원회 배당절차 개선방안 관련 보도자료(WebSearch 교차 확인, 2026-09-11).</p>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분기배당은 실제로 어떻게 진행되나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">분기배당은 실제로 어떻게 진행되나요</h2>
 
 <p>분기배당의 새 절차는 다음 순서로 진행됩니다.</p>
 
@@ -184,7 +218,7 @@ self_check: |
   <p style="margin:8px 0 0 0;">여기 나온 날짜는 원칙을 설명하기 위한 예시입니다. 실제 배당기준일·배당락일·지급일은 종목별 공시(전자공시시스템 DART, 한국거래소 상장공시)에서 반드시 확인하세요.</p>
 </div>
 
-<p>배당에 붙는 세금 자체가 궁금하다면 "배당소득세 얼마 떼나" 글을 참고하세요.</p>
+<p>받은 배당에 붙는 세금은 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">배당소득세 얼마 떼나 글</a>에 정리했습니다.</p>
 
 <h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
@@ -221,10 +255,10 @@ self_check: |
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li>「자본시장과 금융투자업에 관한 법률」 제165조의12 — <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a>(조문번호 확인, WebSearch)</li>
-    <li>금융위원회 배당절차 개선방안 관련 보도자료 — WebSearch 교차 확인</li>
-    <li>자본시장연구원 「자본시장포커스」 — 배당락 효과 실측치(코스피 42.8bp/코스닥 10.7bp)</li>
-    <li>한국예탁결제원·한국거래소 상장공시(DART) — 종목별 실제 배당기준일·배당락일 확인 경로</li>
+    <li>「자본시장과 금융투자업에 관한 법률」 제165조의12: <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a>(조문번호 확인, WebSearch)</li>
+    <li>금융위원회 배당절차 개선방안 관련 보도자료: WebSearch 교차 확인</li>
+    <li>자본시장연구원 「자본시장포커스」: 배당락 효과 실측치(코스피 42.8bp/코스닥 10.7bp)</li>
+    <li>한국예탁결제원·한국거래소 상장공시(DART): 종목별 실제 배당기준일·배당락일 확인 경로</li>
     <li>기준일: 2026-09-11(WebSearch 확인일)</li>
   </ul>
 </div>
@@ -238,11 +272,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "배당락일 매수 마감일 계산법",
-  "description": "배당락일과 배당기준일의 차이, T+2 결제 기준 매수 마감일 계산법, 2025년 분기배당까지 확대된 선(先) 배당액 확정 후(後) 배당기준일 지정 제도를 정리합니다.",
+  "description": "2026년 12월 결산 배당 마지막 매수일(12월 28일)과 배당락일(12월 29일), 배당락일과 배당기준일의 차이, T+2 결제 기준 매수 마감일 계산법, 2025년 분기배당까지 확대된 선(先) 배당액 확정 후(後) 배당기준일 지정 제도를 정리합니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-11",
-  "dateModified": "2026-09-11",
+  "dateModified": "2026-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/dividend-ex-date-buy-deadline"
