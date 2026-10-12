@@ -2967,6 +2967,27 @@
       "draft": "stock_drafts/gift-tax-filing-deadline-calendar.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-11"
+    },
+    {
+      "id": "149",
+      "order": 149,
+      "title": "JEPI 분배금 월별 금액 2026",
+      "slug": "jepi-monthly-distribution-2026",
+      "keyword": "JEPI",
+      "type": "종목·ETF 분배 사실",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "8610 (PC 2420 / 모바일 6190)",
+      "gate1_pass": true,
+      "serp_check": "v4 통과(2026-10-12), 소규모 한국어 글 중심, 월별 분배표·100주 계산·분배율표 정보이득",
+      "unique_asset_plan": "2026 월별 분배금 8회 표·그래프, 100주 세전·세후 계산, 분배율 계산표, 분배락일 표",
+      "primary_source": "Dividend Vision·Wisesheets 두 집계 교차, J.P. Morgan 2026 분배 일정표(날짜), 세금은 15·23·39편 검증값 재사용. 원문 직접 접속 불가",
+      "status": "drafted",
+      "draft_path": "stock_drafts/jepi-monthly-distribution-2026.md",
+      "cannibalization_note": "63편(월배당 일반론)·73편(커버드콜 세금)과 다름, JEPI 분배 이력 중심",
+      "gate_pass": true,
+      "gate_pass_note": "4개 게이트 충족(2026-10-12). 10월 1일 분배 금액은 미확인이라 표에서 제외, refresh_due 2026-11-09",
+      "created_at": "2026-10-12"
     }
   ],
   "backlog": {
@@ -6594,6 +6615,16 @@
           "type": "새 글 후보",
           "angle": "자사주 매입 완료와 소각 일정",
           "status": "todo. 매입 금액이 보도마다 달라(15조원 vs 55조원) DART 자기주식 취득 결과보고서 확인 후 진행"
+        },
+        {
+          "keyword": "JEPI",
+          "monthly_search_volume": "8,610 (2026-10-12 실측)",
+          "status": "drafted 149편 (2026-10-12)",
+          "slug": "jepi-monthly-distribution-2026"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-12] 미국배당다우존스 ETF 7,150 / 월배당 ETF 4,420 / IRP 세액공제 4,860 / 연금저축 세액공제 한도 4,410 / 국민연금 주식 930 / 현대차 실적발표 540 / 수능 증시 개장시간 20·FOMC 일정 20·MSCI 리밸런싱 60 FAIL",
+          "status": "note"
         }
       ]
     }
