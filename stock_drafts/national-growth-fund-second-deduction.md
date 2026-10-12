@@ -2,8 +2,8 @@
 keyword: 국민참여성장펀드
 title: 국민참여성장펀드 2차 가입 방법과 소득공제
 slug: national-growth-fund-second-deduction
-keyword_class: human-assisted
-publish_effort: capture
+keyword_class: automatable
+publish_effort: oneclick
 monthly_search_volume: 15450 (PC 3650 / 모바일 11800)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
@@ -11,35 +11,29 @@ serp_check: |
   1) 진입 여지 - 있음. 소규모 콘텐츠 사이트 5곳 이상이 상위에 있어 SERP가 잠기지 않음.
   2) 검색 의도 - 정보 탐색형(가입 조건, 소득공제, 마감). 계산기나 신청 자체가 목적인 검색이 아님.
   3) 답 완결 - 아님. 확인된 상위 글은 공제율 구간 소개가 중심이고, 투자금 구간별 공제액 표와 그래프, 한계세율별 실제 세금 감소액, 분리과세 9.9% 비교 계산, 휴일(10/3~10/5)을 뺀 마감 일정을 한 글에서 같이 보여 주는 글은 이번 검색에서 확인하지 못함(검색 요약 기준이라 전수 확인은 아님).
-  이슈 근거(주제 선정 v3 1순위): 2차 판매 2026-09-30~10-15 진행 중, 10-02 기준 판매 49.94%, 10-07 서민 우선배정 종료.
+  이슈 근거(주제 선정 v3 1순위): 2차 판매 2026-09-30~10-15 진행 중, 10-08 기준 판매 67.7%, 10-07 서민 우선배정 종료.
 unique_asset: |
   (a) 투자금 1천만~1억 원 구간별 소득공제액 계산표와 막대그래프(공제율 구간으로 직접 계산).
   (b) 한계세율 6·15·24·35%별 실제 세금 감소액(지방소득세 포함) 계산표와 A씨 가상 사례.
   (c) 배당소득 분리과세 9.9%와 일반 배당소득세 15.4%의 100만 원 기준 비교.
-  (d) 휴일을 뺀 영업일 계산으로 만든 판매 일정 타임라인과 10-02 판매 현황.
+  (d) 휴일을 뺀 영업일 계산으로 만든 판매 일정 타임라인과 10-08 판매 현황.
 primary_source: |
-  korea.kr 정책뉴스 원문은 WebFetch 1회 시도에서 EGRESS_BLOCKED, etoday.co.kr도 EGRESS_BLOCKED로 열리지 않음. 금융위원회 보도자료 원문은 열람하지 못함. WebSearch로 2차 교차검증.
-  - 판매 기간(9/30~10/15, 10영업일), 모집금액 6,000억 원, 소진 시 종료, 24개 금융사(은행 10 + 증권사 14), 1차 가입자 제한(전용계좌만 만들고 투자하지 않은 경우 제외), 서민 우선배정 첫 5영업일 3,000억 원: 이투데이, 아주경제, 헤럴드경제, 뉴스핌, 파이낸셜뉴스, 정책뉴스(korea.kr 검색 요약)가 같은 수치로 수렴.
-  - 소득공제율(3,000만 원 이하 40%, 3,000만~5,000만 원 20%, 5,000만~7,000만 원 10%)과 최대 공제액 1,800만 원, 배당소득 최대 5년 9.9% 분리과세: 이투데이, 아주경제, 파이낸셜뉴스, 머니투데이, 헤럴드경제, 정책뉴스 요약이 일치. 3,000×40% + 2,000×20% + 2,000×10% = 1,800만 원으로 직접 검산해 일치.
-  - 판매 현황(10/2 기준 2,996.4억 원, 49.94%, 잔여 은행 2,156억 원, 증권사 847.8억 원): 이투데이, SBS Biz, 데일리안, 스페셜경제가 같은 취지로 보도. 은행·증권사 잔여 합계가 6,000억 원에서 판매액을 뺀 값과 2,000만 원 차이 나는 것은 집계 시점 차이로 보이며 본문에 그대로 밝힘.
-  - 가입한도 연 1억 원, 5년 합계 2억 원, 5년 환매금지형, 2023~2025년 금융소득종합과세 이력자의 전용계좌 제한: 정책뉴스 제목(투자한도 5년간 2억 원)과 파이낸셜뉴스, 헤럴드경제 Q&A 요약이 일치.
-  - 서민 기준(근로소득 5,000만 원 이하, 근로소득 외 종합소득이 있으면 종합소득 3,800만 원 이하): 이투데이와 정책뉴스 요약이 일치.
+  정책뉴스(korea.kr) 원문은 자동화 환경에서 EGRESS_BLOCKED였으나, 2026-10-12 사용자가 보낸 원문 화면 캡처(금융위원회 2026-09-22 보도, 정책뉴스)로 직접 확인함.
+  - 캡처로 확인한 원문 값: 판매 9/30~10/15, 10영업일, 모집금액 6,000억 원, 소진 시까지 판매, 1차 가입자 제한, 첫 5영업일 3,000억 원 서민 전용, 공공마이데이터·스크레이핑 소득확인 간소화, 10/8부터 서민배정·온라인 물량 제한 없음, 10개 은행·14개 증권사, 투자금의 최대 40% 소득공제와 최대 5년 9.9% 배당소득 분리과세, 전용계좌 필수, 2023~2025년 금융소득종합과세 이력자는 세제혜택 없이 일반계좌만 가능, 가입한도 연 1억 원·5년 2억 원·최소 가입금액 판매사별 10만 원 또는 100만 원, 5년 만기 폐쇄형, 상장 이후 양도 가능, 3년 이내 양도 시 감면세액 상당액 추징.
+  - 캡처에 없는 값(소득공제율 구간 3,000만 원 이하 40%·5,000만 원까지 20%·7,000만 원까지 10%, 최대 공제액 1,800만 원): 이투데이, 아주경제, 파이낸셜뉴스, 머니투데이, 헤럴드경제가 일치하고 정부 정책주간지 K-공감 기사 제목도 최대 1,800만 원으로 일치. 3,000×40% + 2,000×20% + 2,000×10% = 1,800만 원으로 직접 검산해 일치. 원문이 최대 40%라고 쓴 것과도 모순 없음.
+  - 판매 현황: 10/2 기준 2,996.4억 원(49.94%, 이투데이·SBS Biz 등), 10/8 기준 누적 약 4,060억 원(67.7%, 잔여 약 1,940억 원, 이뉴스투데이·MSN 보도, 금융위 집계 인용).
   - 일반 배당소득세 15.4%, 종합소득세 세율(6/15/24/35%)은 이미 확정한 기존 글의 값을 재사용(국세청 기준).
-  - 충돌 처리: 판매처를 25개로 적은 개인 콘텐츠 1건이 있으나 은행 10 + 증권사 14 = 24개를 나열한 언론 다수와 맞지 않아 24개 채택. 의무보유를 3년으로 적은 초기 보도(2026-04)는 최종 상품 확정 후 5년 환매금지 보도들과 달라 5년 채택.
-기준일: 2026년 10월 5일 기준 (판매 현황은 10월 2일 17시 기준)
+  - 충돌 처리: 판매처 25개로 적은 개인 콘텐츠는 원문 10+14=24개와 달라 24개 채택. 의무보유 3년 초기 보도와 '5년 환매금지' 표현은 원문(5년 만기 폐쇄형, 상장 후 양도 가능, 3년 이내 양도 시 감면세액 추징)과 달라 원문 기준으로 정정함.
+기준일: 2026년 10월 12일 기준 (판매 현황은 10월 8일 기준)
 refresh_due: 2026-10-16
 refresh_reason: "2차 판매가 10월 15일에 끝나므로 마감 직후 최종 판매액과 3차 판매 여부로 교체해야 함"
 tags: 국민참여성장펀드, 국민참여성장펀드 2차, 국민성장펀드, 국민참여성장펀드 소득공제, 국민참여성장펀드 가입방법, 전용계좌, 배당소득 분리과세, 소득공제 1800만원, 서민 우선배정, 국민성장펀드 판매처
-capture_guide: |
-  왜 필요한가: 소득공제율과 한도는 한 번 틀리면 독자의 세금 계산이 통째로 틀어지는 유형의 숫자라서, 언론 여러 곳이 같은 수치로 일치해도 정부 원문으로 한 번 더 확정하고 싶었어요. 정책뉴스(korea.kr)와 금융위원회 사이트가 자동화 환경에서 열리지 않았습니다.
-  1순위: https://www.korea.kr/news/policyNewsView.do?newsId=148972439 접속 > 본문에서 소득공제율 문단과 서민 기준 문단, 투자한도 문단이 보이게 스크롤하며 2~3장 캡처.
-  2순위: 금융위원회 https://www.fsc.go.kr 접속 > 검색창에 "국민참여형 국민성장펀드 2차" 입력 > 보도자료 열어 같은 문단 캡처.
-  캡처 후: 스크린샷을 대화에 올려주세요. 그러면 숫자를 대조하고 gate_pass를 true로 바꿉니다.
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1 15,450회, 게이트2 v4 통과, 게이트3 계산표와 그래프(직접 계산), 게이트4는 소득공제율·한도(오류 이력 유형 숫자)를 언론 6곳 이상 일치로 확인했지만 정부 원문은 열람하지 못해 보류. 정부 원문 캡처 한 장으로 해소됨. 마감(10/15) 전에 발행해야 가치가 큼.
+  게이트1 15,450회, 게이트2 v4 통과, 게이트3 계산표와 그래프(직접 계산), 게이트4는 사용자 캡처(정책뉴스 원문 2026-10-12)로 판매 조건·한도·40%·9.9%·양도 조건을 원문 확정. 구간별 공제율(20%·10%)과 1,800만 원은 원문 캡처에 없고 언론 5곳 이상 일치와 정부 정책주간지 제목, 검산으로 확인(마지막 구간 숫자라 발행 전 금융위 보도자료에서 구간 문장만 한 번 더 보면 더 안전함). 마감 10/15 전에 발행해야 가치가 큼.
 self_check: |
-  [2026-10-05 gate_pass:false, 정부 원문 캡처 대기]
+  [2026-10-12 사용자 캡처 반영, gate_pass:true] 원문 확인으로 환매 서술 정정(5년 환매금지 → 5년 만기 폐쇄형, 상장 후 양도 가능, 3년 이내 양도 시 감면세액 추징), 서민 우선배정 종료(10/7)·최소가입금액 10만/100만 원·10/8 제한 해제·10/8 판매 현황 67.7% 반영. 서민 소득 기준은 종료되어 본문에서 삭제.
+  [2026-10-05 최초 작성]
   후보 경위: 이슈 스캔(10/7 국민참여성장펀드 중간 판매 현황 일정, 한글날 전후 일정) 후 8개 실측(국민참여성장펀드 15,450 PASS, 옵션만기일 6,500 PASS, 삼성전자 잠정실적 1,260 PASS, 코스피 7000 990 PASS, 나머지 4개 FAIL). 검색량 최대이자 마감이 10일 남은 국민참여성장펀드 채택. 옵션만기일(6,500)은 60편 갱신 대상, 삼성전자 잠정실적(1,260)과 코스피 7000(990)은 차기 후보로 backlog 기록.
   YMYL: 상품 가입 권유, 수익 전망, 판매사 순위 없음. 투자 상품이라 원금 손실 가능성을 본문에 명시. 소득공제는 가정 세율로 계산한 예시임을 표시. 제목·소제목에 전망·추천 없음.
   카니벌라이제이션: 생산적금융 ISA 글이 국민성장펀드를 한 줄 언급할 뿐(grep 확인)이라 이 글과 의도가 겹치지 않음. 금융소득종합과세·배당소득세·ISA 글로 내부 링크.
@@ -52,33 +46,20 @@ self_check: |
 figure_plan: |
   2장
   1: 투자금별 소득공제액 막대(구간 계산, 7천만 원에서 멈추는 모양이 핵심)
-  2: 판매 일정 타임라인(시작·서민 종료·마감, 휴일 제외)
+  2: 판매 일정 타임라인(시작·서민 종료·10/8 판매 현황·마감, 휴일 제외)
   숫자 표 3개(공제액, 세금 감소액, 분리과세 비교)는 정확한 값을 읽어야 해서 표로 유지.
-user_todo:
-  why: 소득공제율과 가입한도는 틀리면 독자의 세금 계산이 달라지는 숫자라서 정부 발표 원문으로 한 번 더 맞춰 봐야 합니다. 언론 6곳 이상이 같은 숫자를 보도했지만 정부 사이트는 제 쪽에서 열리지 않았습니다.
-  steps:
-  - 휴대폰이나 PC에서 https://www.korea.kr/news/policyNewsView.do?newsId=148972439 열기
-  - 본문을 내리면서 "소득공제" 문단, "서민" 기준 문단, "투자한도" 문단이 보이게 2~3장 캡처
-  - 사진을 Claude 대화창에 올리고 "135편 자료"라고 적기
-  must_show:
-  - 소득공제율 40%·20%·10%와 각 투자금 구간, 최대 공제액 1,800만 원
-  - 가입한도(연 1억 원, 5년 2억 원)
-  - 서민 기준(근로소득 5,000만 원 이하)과 판매 기간(9/30~10/15)
-  minutes: 3
-  device: 휴대폰 가능
-  if_skipped: 계속 발행 보류입니다. 2차 판매가 10월 15일에 끝나므로 그 뒤에는 글의 가치가 크게 줄어 3차 판매 때로 미뤄야 할 수 있습니다.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-12</p>
 
-<p>국민참여성장펀드 2차에 가입하려면 세제 혜택이 붙는 전용계좌부터 열어야 하고, 판매는 2026년 10월 15일까지입니다. 투자금 3,000만 원까지는 40%를 소득에서 빼 주고 최대 공제액은 1,800만 원입니다.</p>
+<p>국민참여성장펀드 2차에 가입하려면 세제 혜택이 붙는 전용계좌부터 열어야 하고, 판매는 2026년 10월 15일까지이고 10월 12일부터 15일까지 4영업일이 남았습니다. 투자금 3,000만 원까지는 40%를 소득에서 빼 주고 최대 공제액은 1,800만 원입니다.</p>
 
 <div style="background:#eef0ff;border:2px solid #4f46e5;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#3730a3;font-size:18px;">🧾 마감 전에 챙길 핵심 숫자</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;">
-    <li>10월 2일 17시 기준 판매액은 2,996.4억 원으로 모집금액 6,000억 원의 49.94%였고, 물량이 먼저 차면 마감 전에 끝납니다.</li>
-    <li>서민 우선배정(전체의 50%)은 10월 7일까지이고, 기준은 근로소득 5,000만 원 이하입니다.</li>
-    <li>1차에 투자한 사람은 2차에 가입할 수 없습니다.</li>
+    <li>10월 8일 기준 누적 판매액은 약 4,060억 원으로 모집금액 6,000억 원의 67.7%였고, 물량이 먼저 차면 마감 전에 끝납니다.</li>
+    <li>서민 우선배정과 온라인 판매 물량 제한은 10월 7일에 끝났고, 10월 8일부터는 소득과 상관없이 남은 물량을 판매합니다.</li>
+    <li>1차에 투자한 사람은 2차에 가입할 수 없고, 상품은 5년 만기 폐쇄형이라 3년 이내에 팔면 감면세액이 추징됩니다.</li>
   </ul>
 </div>
 
@@ -90,7 +71,7 @@ user_todo:
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">투자금별 소득공제액 계산표</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">A씨 사례로 보는 실제 세금 감소액</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당소득 분리과세 9.9%는 얼마나 다른가요</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">5년 환매금지와 가입 제한 정리</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">만기 5년 폐쇄형과 가입 제한 정리</a></li>
   <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자에게 왜 중요한가</a></li>
   <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가입 버튼 누르기 전 마지막 질문들</a></li>
 </ol>
@@ -115,17 +96,17 @@ user_todo:
 
 <h3 style="margin-top:22px;">4단계. 소득 확인</h3>
 
-<p>서민 우선배정을 받으려면 소득 확인이 필요합니다. 2차에서는 공공마이데이터와 스크레이핑 제도를 이용해 1차보다 절차가 간소화됐다고 <a href="https://www.korea.kr/news/policyNewsView.do?newsId=148972439" target="_blank" rel="noopener">정책뉴스</a>가 소개했습니다.</p>
+<p>세제 혜택을 받으려면 소득 확인이 필요합니다. 2차에서는 공공마이데이터와 스크레이핑 제도를 이용해 1차보다 절차가 간소화됐다고 <a href="https://www.korea.kr/news/policyNewsView.do?newsId=148972439" target="_blank" rel="noopener">정책뉴스</a>가 소개했습니다.</p>
 
 <h3 style="margin-top:22px;">5단계. 납입 금액 정하기</h3>
 
-<p>전용계좌 한도는 연 1억 원, 5년 합계 2억 원입니다. 소득공제는 7,000만 원까지만 적용되니, 아래 계산표를 보고 금액을 정하면 됩니다.</p>
+<p>전용계좌 한도는 연 1억 원, 5년 합계 2억 원이고, 최소 가입금액은 판매사에 따라 10만 원 또는 100만 원입니다. 소득공제는 7,000만 원까지만 적용되니, 아래 계산표를 보고 금액을 정하면 됩니다.</p>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4f46e5;padding-left:12px;margin-top:36px;">판매 일정과 남은 물량</h2>
 
-<p>2차 판매는 9월 30일에 시작해 10월 15일에 끝나며, 영업일로는 10일입니다. 10월 3일부터 5일까지는 개천절과 대체휴일이라 판매가 없고, <mark>물량이 6,000억 원에 먼저 도달하면 15일 전에 판매가 끝납니다.</mark></p>
+<p>2차 판매는 9월 30일에 시작해 10월 15일에 끝나며, 영업일로는 10일입니다. 10월 3일부터 5일까지는 개천절과 대체휴일, 10월 9일은 한글날이라 판매가 없고, 10월 12일부터 15일까지 4영업일이 남았습니다. 서민 우선배정과 온라인 물량 제한은 첫 5영업일인 10월 7일에 끝났습니다. <mark>물량이 6,000억 원에 먼저 도달하면 15일 전에 판매가 끝납니다.</mark></p>
 
-<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/national-growth-fund-second-deduction-2.png" alt="2차 국민참여성장펀드 판매 일정 타임라인. 9월 30일 시작, 10월 2일 판매액 49.94퍼센트, 10월 7일 서민 우선배정 종료, 10월 15일 마감" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 금융위원회 발표 보도, 영업일 구분은 달력으로 직접 계산</figcaption></figure>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/national-growth-fund-second-deduction-2.png" alt="2차 국민참여성장펀드 판매 일정 타임라인. 9월 30일 시작, 10월 2일 판매액 49.94퍼센트, 10월 7일 서민 우선배정 종료, 10월 8일 판매액 67.7퍼센트, 10월 15일 마감" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 금융위원회 발표 보도, 영업일 구분은 달력으로 직접 계산</figcaption></figure>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -133,13 +114,14 @@ user_todo:
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">모집금액</td><td style="border:1px solid #ddd;padding:8px;">6,000억 원(1차와 같음)</td><td style="border:1px solid #ddd;padding:8px;">2026-09-22 발표</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">서민 우선배정</td><td style="border:1px solid #ddd;padding:8px;">첫 5영업일, 전체의 50%(3,000억 원)</td><td style="border:1px solid #ddd;padding:8px;">10월 7일까지</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">서민 우선배정(종료)</td><td style="border:1px solid #ddd;padding:8px;">첫 5영업일, 전체의 50%(3,000억 원)</td><td style="border:1px solid #ddd;padding:8px;">10월 7일 종료</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">누적 판매액</td><td style="border:1px solid #ddd;padding:8px;">2,996.4억 원(49.94%)</td><td style="border:1px solid #ddd;padding:8px;">2026-10-02</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">누적 판매액(최근)</td><td style="border:1px solid #ddd;padding:8px;">약 4,060억 원(67.7%), 잔여 약 1,940억 원</td><td style="border:1px solid #ddd;padding:8px;">2026-10-08</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">잔여 물량</td><td style="border:1px solid #ddd;padding:8px;">은행 2,156억 원, 증권사 847.8억 원</td><td style="border:1px solid #ddd;padding:8px;">2026-10-02 17시</td></tr>
   </tbody>
 </table>
 
-<p>판매액과 잔여 물량의 합계가 2,000만 원쯤 어긋나는 것은 집계 시점 차이로 보입니다. 사흘 만에 절반이 팔린 속도(<a href="https://www.etoday.co.kr/news/view/2632231" target="_blank" rel="noopener">이투데이</a>)를 보면 마감 전에 소진될 가능성이 있어, 최신 잔여 물량은 판매처 앱에서 직접 봐야 합니다.</p>
+<p>10월 8일까지 6영업일 동안 67.7%가 팔려 1차보다 속도는 느렸다고 보도됐습니다(<a href="https://enewstoday.co.kr/news/articleView.html?idxno=2478524" target="_blank" rel="noopener">이뉴스투데이</a>). 가입 취소분이 생기면 잔여 물량이 달라질 수 있어, 남은 금액은 판매처 앱에서 직접 보는 것이 정확합니다.</p>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4f46e5;padding-left:12px;margin-top:36px;">투자금별 소득공제액 계산표</h2>
 
@@ -167,7 +149,7 @@ user_todo:
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4f46e5;padding-left:12px;margin-top:36px;">A씨 사례로 보는 실제 세금 감소액</h2>
 
-<p>가상의 직장인 A씨는 근로소득이 4,800만 원이고, 근로소득 외 소득은 없다고 하겠습니다. 5,000만 원 이하라서 서민 우선배정 기준에 들고, 올해 3,000만 원을 전용계좌에 넣으면 소득공제액은 1,200만 원입니다.</p>
+<p>가상의 직장인 A씨는 근로소득이 4,800만 원이고, 근로소득 외 소득은 없다고 하겠습니다. 마감 전에 올해 3,000만 원을 전용계좌에 넣으면 소득공제액은 1,200만 원입니다.</p>
 
 <p>소득공제는 환급액이 아니라 과세 대상 소득에서 빼는 금액입니다. 그래서 <mark>줄어드는 세금은 공제액에 A씨의 한계세율을 곱한 값</mark>입니다. A씨의 과세표준이 4,000만 원대로 15% 구간이라고 가정하면 1,200만 원 × 15% = 180만 원이고, 소득세의 10%인 지방소득세 18만 원이 더해져 198만 원이 줄어듭니다.</p>
 
@@ -209,26 +191,26 @@ user_todo:
 
 <p>배당이 실제로 얼마나 나오는지는 펀드 운용 결과에 달려 있어서 이 표의 100만 원은 계산용 숫자입니다. 일반 계좌의 15.4%가 어떻게 나오는지는 <a href="https://sensitiveboss3.tistory.com/entry/dividend-income-tax" target="_blank" rel="noopener">배당소득세 얼마 떼나 글</a>에 정리해 두었습니다.</p>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4f46e5;padding-left:12px;margin-top:36px;">5년 환매금지와 가입 제한 정리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4f46e5;padding-left:12px;margin-top:36px;">만기 5년 폐쇄형과 가입 제한 정리</h2>
 
-<p>이 펀드는 만기 5년의 환매금지형이라서 5년 동안 중도에 돈을 뺄 수 없습니다. 투자 상품이므로 원금 손실 가능성이 있다는 점도 같이 알려져 있습니다(<a href="https://kbthink.com/investment/issues/national-growth-fund.html" target="_blank" rel="noopener">KB Think</a>).</p>
+<p>이 펀드는 5년 만기 폐쇄형이라 만기까지 보유하는 것이 원칙이고, 중간에 환매로 돈을 뺄 수 없습니다. 최소한의 환금성을 위해 상장된 이후에는 양도할 수 있지만, 투자 후 3년 이내에 양도하면 감면세액 상당액이 추징되고 거래가 잘 이뤄지지 않을 수 있습니다(<a href="https://www.korea.kr/news/policyNewsView.do?newsId=148972439" target="_blank" rel="noopener">정책뉴스</a>). 투자 상품이므로 원금 손실 가능성도 있습니다(<a href="https://kbthink.com/investment/issues/national-growth-fund.html" target="_blank" rel="noopener">KB Think</a>).</p>
 
 <ul style="line-height:1.9;">
-  <li>환매금지: 5년간 중도 환매 불가</li>
+  <li>만기: 5년 폐쇄형, 환매 불가, 상장 후 양도만 가능</li>
+  <li>3년 이내 양도: 감면세액 상당액 추징</li>
   <li>투자 대상: 반도체, AI, 바이오 등 첨단전략산업 12개 분야 기업에 모펀드와 자펀드 구조로 투자</li>
-  <li>한도: 연 1억 원, 5년 합계 2억 원</li>
+  <li>한도: 연 1억 원, 5년 합계 2억 원, 최소 가입금액은 판매사별 10만 원 또는 100만 원</li>
   <li>제외: 1차 투자자, 2023~2025년 금융소득종합과세 이력자(전용계좌)</li>
-  <li>서민 기준: 근로소득 5,000만 원 이하, 근로소득 외 종합소득이 있으면 종합소득 3,800만 원 이하</li>
 </ul>
 
-<p>소득공제와 분리과세를 받으려면 중도 해지를 하지 않는다는 전제가 붙는 것이 보통이어서, 환매 조건과 혜택 유지 조건은 가입하는 판매처의 투자설명서에서 한 번 더 대조해 보시길 바랍니다.</p>
+<p>3년이라는 기준은 양도 시점에 감면세액이 어떻게 계산되는지와 이어지므로, 가입하는 판매처의 투자설명서에서 추징 계산 방식을 한 번 더 대조해 보시길 바랍니다.</p>
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4f46e5;padding-left:12px;margin-top:36px;">주식 투자자에게 왜 중요한가</h2>
 
 <p>5년 동안 묶이는 돈은 주식 계좌에서 매매에 쓸 수 있는 자금과 따로 계산해야 합니다. 소득공제 때문에 한도 끝까지 넣었다가 주식 매매 자금이나 비상금이 모자라는 경우가 생길 수 있습니다.</p>
 
 <ul style="line-height:1.9;">
-  <li>유동성: 환매가 안 되는 자금은 급할 때 주식을 사거나 손실을 메우는 데 쓸 수 없음</li>
+  <li>유동성: 환매가 안 되고 상장 후에도 거래가 잘 안 될 수 있어 급할 때 주식을 사거나 손실을 메우는 데 쓰기 어려움</li>
   <li>세금: 직접 투자로 낸 배당소득이 연 2,000만 원을 넘길 가능성이 있으면 이 펀드의 전용계좌 가입 자체가 막힐 수 있음</li>
   <li>대안 비교: 같은 국민성장펀드에 투자하는 <a href="https://sensitiveboss3.tistory.com/entry/isa-limit-benefit" target="_blank" rel="noopener">생산적금융 ISA</a>는 이자·배당소득 비과세 쪽에 무게가 있어 혜택의 성격이 다름</li>
 </ul>
@@ -264,7 +246,7 @@ user_todo:
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">중간에 돈이 필요하면 뺄 수 있나요</summary>
-  <p style="margin:10px 0 0 0;">5년 환매금지형이라 중도 환매가 되지 않습니다. 급전이 필요할 수 있는 돈은 넣지 않는 쪽으로 금액을 정해야 합니다.</p>
+  <p style="margin:10px 0 0 0;">환매는 되지 않고, 상장된 이후 양도만 할 수 있습니다. 투자 후 3년 이내에 양도하면 감면세액 상당액이 추징되고 거래가 잘 안 될 수 있어, 급전이 필요할 수 있는 돈은 넣지 않는 쪽으로 금액을 정해야 합니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
@@ -274,10 +256,11 @@ user_todo:
     <li><a href="https://www.ajunews.com/view/20260922102658300" target="_blank" rel="noopener">아주경제 - 2차 국민참여성장펀드, 30일 판매 시작…투자금 최대 40% 소득공제 (2026-09-22)</a></li>
     <li><a href="https://biz.heraldcorp.com/article/10866350" target="_blank" rel="noopener">헤럴드경제 - 2차 국민참여성장펀드 30일 출시…6000억원 규모·24개 금융사서 판매</a></li>
     <li><a href="https://www.etoday.co.kr/news/view/2632231" target="_blank" rel="noopener">이투데이 - 2차 국민참여성장펀드 사흘 만에 절반 판매</a></li>
+    <li><a href="https://enewstoday.co.kr/news/articleView.html?idxno=2478524" target="_blank" rel="noopener">이뉴스투데이 - 1차 때는 안그랬는데···국민참여성장펀드 인기 꺾였나</a></li>
     <li><a href="https://kbthink.com/investment/issues/national-growth-fund.html" target="_blank" rel="noopener">KB Think - 국민참여형 국민성장펀드 가입 조건부터 소득공제 혜택까지</a></li>
     <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&amp;cntntsId=7667" target="_blank" rel="noopener">국세청 - 종합소득세 세율</a></li>
   </ul>
-  기준일: 2026년 10월 5일(판매 현황은 10월 2일 17시 기준). 정부 원문은 이 환경에서 열람하지 못해 언론 보도를 교차 대조했습니다.
+  기준일: 2026년 10월 12일(판매 현황은 10월 8일 기준). 판매 조건과 한도는 금융위원회 보도(정책뉴스, 2026-09-22) 원문을 대조했고, 구간별 공제율은 언론 보도를 교차 대조했습니다.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
@@ -300,7 +283,7 @@ user_todo:
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-05",
-  "dateModified": "2026-10-05",
+  "dateModified": "2026-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/national-growth-fund-second-deduction"
@@ -358,7 +341,7 @@ user_todo:
       "name": "중간에 돈이 필요하면 뺄 수 있나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "5년 환매금지형이라 중도 환매가 되지 않습니다. 급전이 필요할 수 있는 돈은 넣지 않는 쪽으로 금액을 정해야 합니다."
+        "text": "환매는 되지 않고, 상장된 이후 양도만 할 수 있습니다. 투자 후 3년 이내에 양도하면 감면세액 상당액이 추징되고 거래가 잘 안 될 수 있어, 급전이 필요할 수 있는 돈은 넣지 않는 쪽으로 금액을 정해야 합니다."
       }
     }
   ]

@@ -2786,7 +2786,7 @@
       "slug": "national-growth-fund-second-deduction",
       "status": "drafted",
       "monthly_search_volume": "15450 (PC 3650 / 모바일 11800)",
-      "gate_pass": false,
+      "gate_pass": true,
       "refresh_due": "2026-10-16",
       "draft": "stock_drafts/national-growth-fund-second-deduction.md",
       "gate1_pass": true
