@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">기간이 길수록 지수와 펀드의 차이가 벌어진다</text>
+<text x="70" y="122" font-size="25" fill="#666">기초지수 수익률 - 펀드 수익률 · %p · 2026-09-21 공식 페이지 값의 차이</text>
+<line x1="300" y1="160" x2="300" y2="520" stroke="#999" stroke-width="2"/>
+<text x="70" y="226" font-size="26" fill="#333">1년</text>
+<text x="312" y="227" font-size="28" font-weight="bold" fill="#666">0.00%p</text>
+<text x="70" y="294" font-size="26" fill="#333">3년</text>
+<rect x="300" y="258" width="46" height="52" fill="#4a90d9"/>
+<text x="358" y="295" font-size="28" font-weight="bold" fill="#4a90d9">0.51%p</text>
+<text x="70" y="362" font-size="26" fill="#333">설정 이후</text>
+<rect x="300" y="326" width="162" height="52" fill="#4a90d9"/>
+<text x="474" y="363" font-size="28" font-weight="bold" fill="#4a90d9">1.8%p</text>
+<text x="70" y="450" font-size="26" fill="#333">1년 6.97% / 6.97%, 3년 15.53% / 15.02%, 설정 이후 166.7% / 164.9%</text>
+<text x="70" y="580" font-size="24" fill="#666">자료: 미래에셋자산운용 TIGER ETF 상품 페이지, 2026-09-21 캡처 기준</text>
+</g></svg>

@@ -106,7 +106,13 @@ self_check: |
   "구성종목 상위 10"), 질문형 2개("수익률은 어떻게 되나요", "배당(분배금)은
   나오나요")로 "~나요" 편중 없음(5개 중 2개, 40%).
   종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
+  [2026-10-13 갱신] 구글 순위 끌어올리기(3개월 노출 90회, 평균 6.3위). 새 수치는 확인 못 해 9/21 캡처값을 그대로 쓰고 기준일을 유지했다. 추가한 것은 환노출 계산 그림, 지수·펀드 차이 그림(표 값의 뺄셈), 투자자 관점 H2, 중복 문구 정리, 확인하세요류 2회로 축소. 그림 외 신규 수치는 가상 산술뿐.
+figure_plan: "2장. 1) 환노출형 원화 수익률 구조(가상 산술), 2) 지수 대비 펀드 수익률 차이(표 값의 차). 서로 다른 정보라 2장"
+refresh_due: 2026-11-13
+refresh_reason: "수익률·순자산·구성종목이 9/21 캡처 기준. 최신 상품 페이지 캡처 필요"
 ---
+
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-13 (수치 기준일은 2026-09-21)</p>
 
 <p><mark>TIGER 미국S&P500(종목코드 360750)</mark>은 미래에셋자산운용이 운용하는 ETF로, 미국 대형주 500개로 구성된 S&P500 지수를 기초지수로 합니다. 총보수는 연 0.0068%, 순자산총액은 208,082억원(2026-09-21 공식 페이지 기준)이며, 상위 구성종목은 NVIDIA·Apple·Microsoft 순입니다.</p>
 
@@ -125,9 +131,10 @@ self_check: |
   <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">TIGER 미국S&amp;P500 뜻</a></li>
   <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">비슷한 이름의 TIGER 상품 비교</a></li>
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">구성종목 상위 10</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수익률은 어떻게 되나요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당(분배금)은 나오나요</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;"><a href="#sec-why">환노출형이라 환율이 수익률에 곱해지는 구조</a></a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">수익률은 어떻게 되나요</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">배당(분배금)은 나오나요</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">TIGER 미국S&amp;P500 뜻</h2>
@@ -169,7 +176,7 @@ self_check: |
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">비슷한 이름의 TIGER 상품 비교</h2>
 
-<p>미래에셋자산운용은 S&amp;P500을 활용한 TIGER 상품을 여러 개 운용합니다. 이름이 비슷해 헷갈리기 쉬우므로, 매수 전 정확한 종목코드를 확인해야 합니다.</p>
+<p>미래에셋자산운용은 S&amp;P500을 활용한 TIGER 상품을 여러 개 운용합니다. 이름이 비슷해 헷갈리기 쉬워 종목코드 6자리로 구분합니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -208,7 +215,7 @@ self_check: |
   </tbody>
 </table>
 
-<p>이 글은 이 중 가장 기본형인 <b>환노출형(360750)</b>을 다룹니다. 환헤지형(H, 448290)은 별도 편에서 다룹니다.</p>
+<p>이 글은 이 중 가장 기본형인 <b>환노출형(360750)</b>을 다룹니다. 환헤지형(H, 448290)은 위 표의 차이만 짚고 넘어갑니다.</p>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">구성종목 상위 10</h2>
 
@@ -237,7 +244,17 @@ self_check: |
 
 <p>상위 10개 대부분이 미국 대형 기술주라는 점이 눈에 띕니다. S&amp;P500이 시가총액 비중대로 종목을 담다 보니, 시가총액이 큰 소수 기술주에 비중이 쏠리는 구조입니다.</p>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수익률은 어떻게 되나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">환노출형이라 환율이 수익률에 곱해지는 구조</h2>
+
+<p>환노출형 ETF의 원화 수익률은 지수 수익률과 환율 변화를 곱해서 나옵니다. 지수가 10% 올라도 환율이 10% 내리면 원화로는 -1.0%이고, 환율이 10% 오르면 +21.0%입니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/tiger-sp500-unhedged-1.png" alt="S&P500이 10% 오른 해 환율 변화별 원화 수익률 막대 그래프(가상 계산)" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 산술 예시(세금·수수료·헤지비용 제외)</figcaption></figure>
+
+<p>S&amp;P500은 시가총액 비중으로 담기 때문에 상위 소수 기술주의 움직임이 지수에 크게 반영됩니다. 그래서 이 ETF를 볼 때는 미국 대형 기술주 흐름과 원/달러 환율을 같이 봅니다.</p>
+
+<p>달러가 강할 때 이 구조가 어떻게 읽히는지는 <a href="https://sensitiveboss3.tistory.com/entry/dollar-index-meaning-currency-weights">달러인덱스 뜻 구성 통화 비중과 계산식</a> 글에서 이어서 볼 수 있습니다. 환율 변동을 줄이고 싶은 투자자가 환헤지형(H)을 따로 보는 이유도 이 구조 때문입니다.</p>
+
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">수익률은 어떻게 되나요</h2>
 
 <p>2026-09-21 공식 페이지 기준, 지수와 펀드의 수익률은 다음과 같습니다.</p>
 
@@ -266,9 +283,13 @@ self_check: |
   </tbody>
 </table>
 
+<p>표의 값에서 기초지수와 펀드의 차이를 계산하면 1년 0.00%p, 3년 0.51%p, 설정 이후 1.8%p입니다. 기간이 길수록 차이가 벌어집니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/tiger-sp500-unhedged-2.png" alt="기간별 기초지수와 펀드 수익률 차이 막대 그래프(1년 0, 3년 0.51%p, 설정 이후 1.8%p)" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 미래에셋자산운용 TIGER ETF 상품 페이지, 2026-09-21 기준</figcaption></figure>
+
 <p><mark>설정(2020년 8월) 이후 누적 수익률이 160%를 넘는다</mark>는 점이 눈에 띕니다. 다만 이는 과거 실적일 뿐 앞으로도 같은 흐름이 이어진다는 보장은 아닙니다. 정확한 1개월·3개월·6개월 단위 수익률과 최신 수치는 공식 페이지에서 확인할 수 있습니다.</p>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당(분배금)은 나오나요</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">배당(분배금)은 나오나요</h2>
 
 <p>이 상품은 보유 주식에서 나온 배당금을 분배금 형태로 투자자에게 지급합니다. 분배금의 일반적인 개념과 지급주기·분배락은 <a href="https://sensitiveboss3.tistory.com/entry/monthly-dividend-etf-basics">월배당 ETF 뜻과 분배금 지급방식</a> 편에서 다룹니다.</p>
 
@@ -276,7 +297,7 @@ self_check: |
 
 <p>ETF의 기본 개념과 구성종목을 조회하는 일반적인 방법은 <a href="https://sensitiveboss3.tistory.com/entry/etf-basics-holdings">ETF 뜻과 구성종목 확인하는 법</a> 편, 총보수·괴리율 같은 비용 문제는 <a href="https://sensitiveboss3.tistory.com/entry/etf-fee-comparison">ETF 수수료 총보수 실부담 확인법</a>·<a href="https://sensitiveboss3.tistory.com/entry/etf-divergence-rate-2026">ETF 괴리율 계산법</a> 편, 세금은 <a href="https://sensitiveboss3.tistory.com/entry/domestic-listed-overseas-etf-tax">국내상장 해외ETF 세금</a> 편에서 각각 자세히 다룹니다.</p>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">TIGER 미국S&amp;P500과 TIGER 미국S&amp;P500(H)는 뭐가 다른가요</summary>
@@ -300,7 +321,7 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">구성종목과 수익률은 어디서 직접 확인할 수 있나요</summary>
-  <p style="margin:10px 0 0 0;">미래에셋자산운용 TIGER ETF 공식 홈페이지의 해당 상품 페이지에서 구성종목·수익률·분배금·총보수를 확인할 수 있습니다. 종목코드(360750)가 맞는지 꼭 확인하세요.</p>
+  <p style="margin:10px 0 0 0;">미래에셋자산운용 TIGER ETF 공식 홈페이지의 해당 상품 페이지에서 구성종목·수익률·분배금·총보수를 확인할 수 있습니다. 종목코드가 360750인지 대조하면 됩니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
@@ -329,7 +350,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-21",
-  "dateModified": "2026-09-21",
+  "dateModified": "2026-10-13",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/tiger-sp500-unhedged"
@@ -365,7 +386,7 @@ self_check: |
     {
       "@type": "Question",
       "name": "구성종목과 수익률은 어디서 직접 확인할 수 있나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "미래에셋자산운용 TIGER ETF 공식 홈페이지의 해당 상품 페이지에서 구성종목·수익률·분배금·총보수를 확인할 수 있습니다. 종목코드(360750)가 맞는지 꼭 확인하세요." }
+      "acceptedAnswer": { "@type": "Answer", "text": "미래에셋자산운용 TIGER ETF 공식 홈페이지의 해당 상품 페이지에서 구성종목·수익률·분배금·총보수를 확인할 수 있습니다. 종목코드가 360750인지 대조하면 됩니다." }
     }
   ]
 }
