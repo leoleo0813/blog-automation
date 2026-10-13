@@ -83,15 +83,18 @@ self_check: |
   로 최근 게시물(버건디#a4243b·슬레이트블루#3949ab·포레스트그린#2e7d32·
   앰버#d9812c)과 겹치지 않게 골랐다. 목차 제외 본문 H2 5개 중 서술형 4개,
   질문형 1개("컨센서스란 무엇인가요")로 "~나요" 편중 없음(5개 중 1개, 20%).
-  FAQ 헤딩도 "자주 묻는 질문" 대신 "헷갈리는 부분 정리"로 변형. 헤지 표현은
+  FAQ 헤딩도 "자주 묻는 질문" 대신 "컨센서스 질문 모아 보기"로 변형. 헤지 표현은
   "정해진 기준이 없다"는 사실 서술 1회만 썼고 반복하지 않았다. 면책 문구는
   기존 게시물과 다른 표현으로 작성.
   종합 판정: 게이트1~4 전부 충족 → gate_pass:true.
+figure_plan: "2장: 막대(컨센서스 대비 600·500·400억 판정 비교), 순서도(추정→집계→발표→비교). 서로 다른 정보라 2장"
+refresh_due: 2026-11-20
+refresh_note: "2026-10-13 갱신: 서치 콘솔 노출 82회·평균 10.0위 글. 첫 두 문장 직답, 그림 2장, 투자자 관점 H2, 내부 링크 2개(EPS·PER 글), FAQ 헤딩 교체. 3분기 실적 시즌 뒤 새 시황 사례 보강 검토"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-25</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-13</p>
 
-<p>컨센서스는 여러 증권사 애널리스트가 내놓은 한 기업의 실적 전망치를 평균 낸 숫자이며, 실제 발표 실적과 비교하는 기준선으로 쓰입니다. <mark>이 숫자를 어디서 확인하고 실제 실적과 어떻게 비교하는지</mark>까지 아는 사람은 많지 않습니다. 이 글은 컨센서스의 뜻과 확인 방법, 어닝서프라이즈·쇼크와의 관계를 정리합니다.</p>
+<p>컨센서스는 여러 증권사 애널리스트가 내놓은 한 기업의 실적 전망치를 평균 낸 숫자입니다. 기업이 실제 실적을 발표하면 시장은 이 숫자와 비교해 <mark>서프라이즈인지 쇼크인지</mark>를 가릅니다. 어디서 보고 어떻게 비교하는지는 아래에서 순서대로 풀어 봅니다.</p>
 
 <div style="background:#e0f2f1;border:2px solid #00796b;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#004d40;font-size:18px;">🔍 컨센서스, 이것부터 보면</strong>
@@ -110,7 +113,8 @@ self_check: |
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제 실적과 비교하면 서프라이즈 쇼크로 갈립니다</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스 확인하는 법</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스와 가이던스는 다른 개념입니다</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">헷갈리는 부분 정리</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스가 주식 투자자에게 중요한 이유</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">컨센서스 질문 모아 보기</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스란 무엇인가요</h2>
@@ -121,6 +125,8 @@ self_check: |
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스는 이렇게 만들어집니다</h2>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/consensus-estimate-check-guide-2.png" alt="애널리스트 추정, 금융정보업체 집계, 기업 실적 발표, 컨센서스 대비 비교로 이어지는 4단계 순서도" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 컨센서스 형성 과정 도식</figcaption></figure>
+
 <p>증권사 리서치센터 애널리스트들은 기업 탐방, 산업 동향, 과거 실적 흐름을 바탕으로 다음 분기나 연간 실적을 각자 추정해 리포트로 냅니다. 금융정보업체는 이 추정치들을 모아 평균을 계산해 컨센서스로 제공합니다.</p>
 
 <p>추정치를 내는 애널리스트 수는 기업마다 다릅니다. <span style="background:linear-gradient(transparent 60%, #fff3b0 60%);font-weight:bold;">시가총액이 크고 거래량이 많은 기업일수록 추정치를 내는 애널리스트가 많아 컨센서스의 신뢰도가 높아지는 경향이 있고, 관심이 적은 소형주는 추정치 자체가 없는 경우도 있습니다.</span></p>
@@ -128,6 +134,8 @@ self_check: |
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">실제 실적과 비교하면 서프라이즈 쇼크로 갈립니다</h2>
 
 <p>기업이 실제 실적을 발표하면 그 숫자를 컨센서스와 비교합니다. <mark>실제 실적이 컨센서스를 웃돌면 어닝서프라이즈, 밑돌면 어닝쇼크</mark>라고 부릅니다. 둘 사이 차이가 크지 않으면 컨센서스에 부합했다, 또는 인라인이라고 표현합니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/consensus-estimate-check-guide-1.png" alt="가상 A기업 영업이익 컨센서스 500억원 대비 실제 600억원(+20%), 500억원(부합), 400억원(-20%)을 비교한 막대 그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 가상의 예시 숫자</figcaption></figure>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>계산 예시 (가상 사례)</b>
@@ -180,7 +188,21 @@ self_check: |
 
 <p>가이던스는 회사가 스스로 내놓는 숫자라 낙관적으로 잡히기 쉽고, 컨센서스는 외부 시선을 모은 평균이라 상대적으로 객관적이라고 여겨집니다. 두 숫자가 크게 다르면 그 자체가 시장의 관심사가 되기도 합니다.</p>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">헷갈리는 부분 정리</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스가 주식 투자자에게 중요한 이유</h2>
+
+<p>컨센서스는 시장이 이미 가격에 담아 둔 기대치에 가깝기 때문에, 같은 영업이익이라도 컨센서스보다 높은지 낮은지에 따라 해석이 달라집니다. 영업이익이 전년보다 늘어도 컨센서스에 못 미치면 "기대에 못 미쳤다"고 읽히는 이유입니다.</p>
+
+<p>투자자가 컨센서스를 보는 자리는 크게 세 곳입니다.</p>
+
+<ul style="line-height:1.9;">
+  <li><b>실적 발표 전:</b> 시장이 기대하는 숫자가 얼마인지 기준선을 잡습니다.</li>
+  <li><b>실적 발표 직후:</b> 매출과 영업이익 중 어느 쪽이 컨센서스와 달랐는지 나눠서 봅니다. 매출은 맞았는데 영업이익만 낮으면 비용 쪽 문제일 수 있습니다.</li>
+  <li><b>발표 이후 1~2주:</b> 애널리스트들이 전망치를 고치면서 컨센서스가 바뀝니다. 다음 분기 숫자가 올라가는지 내려가는지가 그 기업에 대한 시장의 시선 변화를 보여 줍니다.</li>
+</ul>
+
+<p>한계도 있습니다. 평균값은 애널리스트마다 전망이 크게 갈려도 한 숫자로 뭉뚱그리고, 추정치를 낸 애널리스트가 한두 명뿐이면 평균의 의미가 약합니다. 컨센서스는 주가의 방향을 알려 주는 신호가 아니라 비교의 기준선이고, EPS나 PER 같은 지표와 함께 읽어야 의미가 생깁니다. 계산 방식은 <a href="https://sensitiveboss3.tistory.com/entry/eps-meaning-calculation" target="_blank" rel="noopener">EPS 뜻과 계산 방법</a> 글과 <a href="https://sensitiveboss3.tistory.com/entry/per-meaning-calculation" target="_blank" rel="noopener">PER 뜻과 계산 방법</a> 글에 정리해 두었습니다.</p>
+
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #00796b;padding-left:12px;margin-top:36px;">컨센서스 질문 모아 보기</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">컨센서스는 누가 만드나요</summary>
@@ -229,7 +251,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-25",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-10-13",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/consensus-estimate-check-guide"

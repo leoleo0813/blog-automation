@@ -197,6 +197,8 @@ self_check: |
   <p style="margin:10px 0 0 0;">한국거래소 정보데이터시스템의 업종별 투자지표 메뉴에서 업종별 평균 PER을 무료로 확인할 수 있습니다.</p>
 </details>
 
+<p>PER 계산에 쓰는 이익을 컨센서스(애널리스트 전망치 평균)로 바꿔 보는 방법도 있습니다. 컨센서스가 무엇이고 어디서 확인하는지는 <a href="https://sensitiveboss3.tistory.com/entry/consensus-estimate-check-guide" target="_blank" rel="noopener">컨센서스 뜻과 확인 방법</a> 글에서 볼 수 있습니다.</p>
+
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">

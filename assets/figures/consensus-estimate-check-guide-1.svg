@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="70" font-size="38" font-weight="bold" fill="#111">같은 컨센서스, 실제 실적에 따라 갈리는 판정</text>
+<text x="60" y="114" font-size="25" fill="#666">가상의 A기업 영업이익, 컨센서스 500억원 기준(예시 숫자)</text>
+<line x1="60" y1="620" x2="1140" y2="620" stroke="#999" stroke-width="2"/>
+<rect x="90" y="320" width="200" height="300" fill="#b8c2d0"/><text x="190" y="306" font-size="32" font-weight="bold" fill="#1a2744" text-anchor="middle">500억원</text><text x="190" y="662" font-size="26" fill="#333" text-anchor="middle">컨센서스</text><text x="190" y="700" font-size="25" font-weight="bold" fill="#333" text-anchor="middle">기준선</text>
+<rect x="355" y="260" width="200" height="360" fill="#2f9e8f"/><text x="455" y="246" font-size="32" font-weight="bold" fill="#1a2744" text-anchor="middle">600억원</text><text x="455" y="662" font-size="26" fill="#333" text-anchor="middle">실제 600억</text><text x="455" y="700" font-size="25" font-weight="bold" fill="#00796b" text-anchor="middle">+20% 서프라이즈</text>
+<rect x="620" y="320" width="200" height="300" fill="#6fa8dc"/><text x="720" y="306" font-size="32" font-weight="bold" fill="#1a2744" text-anchor="middle">500억원</text><text x="720" y="662" font-size="26" fill="#333" text-anchor="middle">실제 500억</text><text x="720" y="700" font-size="25" font-weight="bold" fill="#3949ab" text-anchor="middle">0% 부합</text>
+<rect x="885" y="380" width="200" height="240" fill="#e57373"/><text x="985" y="366" font-size="32" font-weight="bold" fill="#1a2744" text-anchor="middle">400억원</text><text x="985" y="662" font-size="26" fill="#333" text-anchor="middle">실제 400억</text><text x="985" y="700" font-size="25" font-weight="bold" fill="#c0392b" text-anchor="middle">-20% 쇼크</text>
+</g></svg>

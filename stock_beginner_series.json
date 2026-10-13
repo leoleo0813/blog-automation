@@ -6484,8 +6484,9 @@
           "type": "발행 글 갱신(구글)",
           "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
           "plan": "기존 consensus-estimate-check-guide 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "consensus-estimate-check-guide"
+          "status": "done",
+          "slug": "consensus-estimate-check-guide",
+          "done_note": "2026-10-13 갱신: 첫 두 문장 직답(메타 문장 제거), 막대·순서도 그림 2장, 투자자 관점 H2, 내부 링크 2개 + 들어오는 링크 2개(EPS·PER 글), FAQ 헤딩 교체. refresh_due 2026-11-20"
         },
         {
           "keyword": "[구글 순위 끌어올리기] ISA 계좌 한도",
