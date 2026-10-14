@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">같은 1분, 매수가 많으면 150, 매도가 많으면 66.7</text>
+<text x="70" y="122" font-size="25" fill="#666">1분간 체결 수량(주) · 체결강도 = 매수체결 ÷ 매도체결 × 100 · 계산 예시</text>
+<text x="70" y="200" font-size="28" font-weight="bold" fill="#333">사례 A</text>
+<text x="70" y="262" font-size="25" fill="#2a6fd0">매수 1,200주</text>
+<rect x="300" y="226" width="720.0" height="46" fill="#2a6fd0"/>
+<text x="70" y="326" font-size="25" fill="#d9534f">매도 800주</text>
+<rect x="300" y="290" width="480.0" height="46" fill="#d9534f"/>
+<text x="800" y="327" font-size="30" font-weight="bold" fill="#2a9d5c">체결강도 150</text>
+<text x="70" y="410" font-size="28" font-weight="bold" fill="#333">사례 B</text>
+<text x="70" y="472" font-size="25" fill="#2a6fd0">매수 600주</text>
+<rect x="300" y="436" width="360.0" height="46" fill="#2a6fd0"/>
+<text x="70" y="536" font-size="25" fill="#d9534f">매도 900주</text>
+<rect x="300" y="500" width="540.0" height="46" fill="#d9534f"/>
+<text x="860" y="473" font-size="30" font-weight="bold" fill="#d9534f">체결강도 66.7</text>
+<text x="70" y="600" font-size="24" fill="#666">100보다 크면 매수 우위, 작으면 매도 우위 · 매수·매도 방향 구분은 증권사 체결 데이터 기준</text>
+</g></svg>

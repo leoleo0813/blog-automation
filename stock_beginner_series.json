@@ -6524,8 +6524,9 @@
           "type": "발행 글 갱신(구글)",
           "angle": "서치 콘솔 검색어에 맞춰 첫 문장 정의·표·그림·내부 링크(이 글로 오는 링크 포함)·FAQ를 새 규칙으로 보강하고 dateModified 갱신. 제목은 이미 검색어로 시작하므로 유지",
           "plan": "기존 stock-execution-strength-meaning 갱신(티스토리 재반영 필요)",
-          "status": "todo",
-          "slug": "stock-execution-strength-meaning"
+          "status": "done",
+          "slug": "stock-execution-strength-meaning",
+          "done_note": "2026-10-14 갱신: 첫 두 문장을 150·66.7 직답으로, 그림 2장(계산 예시·저유동성 왜곡), 투자자 활용 H2, 내부 링크 2개(동시호가·이동평균선), 작업용 표현 제거"
         },
         {
           "keyword": "미국주식 거래시간",

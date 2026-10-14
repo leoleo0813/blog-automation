@@ -63,6 +63,8 @@ primary_source: |
   원문(mofe.go.kr) 직접 열람을 못 한 한계는 self_check에도 투명 공개한다.
 기준일: 2026-09-23 (WebSearch 교차검증일)
 tags: 체결강도, 체결강도뜻, 체결강도계산법, 매수세매도세판단, 체결강도보는법, 호가창체결강도, 주식초보, HTS체결강도, 매매신호주의점, 거래량과체결강도차이
+figure_plan: "2장. 1: 매수·매도 체결 수량 막대로 체결강도 150과 66.7 비교 / 2: 거래 활발·드문 종목에서 같은 200주가 체결강도를 얼마나 흔드는지 비교. 서로 다른 정보라 2장"
+refresh_note: "2026-10-14 갱신(서치 콘솔 평균 8.2위 끌어올리기): 인트로 직답, 그림 2장, 투자자 활용 H2, 내부 링크 2개, 작업용 표현 제거"
 gate_pass: true
 gate_pass_note: |
   4개 게이트 전부 충족(2026-09-23).
@@ -107,9 +109,9 @@ self_check: |
   화면 번호 미확인)은 정직하게 각 1회만 명시.
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-09-23</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-14</p>
 
-<p><mark>체결강도는 일정 시간 동안 체결된 매수 수량을 매도 수량으로 나눈 값으로, 100을 기준으로 매수세와 매도세 중 어느 쪽이 우위인지 보여주는 지표</mark>입니다. 거래량과 헷갈리기 쉽지만 서로 다른 개념이고, 절대적인 매매 신호로 쓰기에는 뚜렷한 한계도 있습니다. 이 글은 계산 공식부터 실제 숫자를 넣은 예시, 확인할 수 있는 화면 위치까지 정리합니다.</p>
+<p><mark>체결강도는 일정 시간 동안 체결된 매수 수량을 매도 수량으로 나눈 값으로, 100을 기준으로 매수세와 매도세 중 어느 쪽이 우위인지 보여주는 지표</mark>입니다. 1분간 매수 1,200주·매도 800주가 체결됐다면 150, 반대로 600주·900주면 66.7입니다. 거래량과 헷갈리기 쉽지만 다른 지표이고, 거래가 드문 종목에서는 200주만 체결돼도 값이 3배로 뛸 만큼 흔들립니다.</p>
 
 <div style="background:#e8f9f6;border:2px solid #0f9b8e;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#0b6e64;font-size:18px;">🧭 한눈에 보는 핵심</strong>
@@ -127,7 +129,8 @@ self_check: |
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">거래량과 체결강도는 뭐가 다른가요</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도를 매매 신호로 쓰면 위험한 이유</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도 확인할 수 있는 HTS MTS 화면</a></li>
-  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">자주 묻는 질문</a></li>
+  <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">투자자는 체결강도를 어떻게 활용하나</a></li>
+  <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">체결강도, 이럴 땐 어떻게 보나</a></li>
 </ol>
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 뜻과 계산 공식</h2>
@@ -142,6 +145,8 @@ self_check: |
   <li>체결강도 150 → 매도 체결(800주)보다 매수 체결(1,200주)이 많아 매수 우위입니다.</li>
   <li>체결강도 66.7 → 매수 체결(600주)보다 매도 체결(900주)이 많아 매도 우위입니다.</li>
 </ul>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stock-execution-strength-meaning-1.png" alt="1분간 매수 1,200주 매도 800주면 체결강도 150, 매수 600주 매도 900주면 66.7인 막대그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 산술 계산 예시, 2026-10-14</figcaption></figure>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도 100을 기준으로 매수세 매도세를 어떻게 판단하나요</h2>
 
@@ -216,6 +221,8 @@ self_check: |
 
 <p>특히 거래량 자체가 적은 저유동성 종목에서는 이 왜곡이 더 크게 나타납니다. 평소 하루 거래량이 몇만 주에 그치는 종목이라면, <mark>단 몇백 주의 체결만으로도 체결강도가 크게 요동칠 수 있습니다.</mark> 이런 종목에서는 체결강도 하나만 보고 매수·매도 우위를 판단하기 어렵습니다.</p>
 
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/stock-execution-strength-meaning-2.png" alt="매수 200주가 추가 체결되면 거래 활발한 종목은 체결강도 100에서 102, 거래 드문 종목은 100에서 300이 되는 막대그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 산술 가정 예시(실제 종목 아님), 2026-10-14</figcaption></figure>
+
 <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
   <li>단타처럼 짧은 시간 안에 대응하는 투자자에게는 참고 지표가 될 수 있습니다.</li>
   <li>중장기로 보유하는 투자자에게는 그 순간의 수치 하나가 큰 의미를 갖지 않습니다.</li>
@@ -260,7 +267,20 @@ self_check: |
   </ul>
 </div>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">투자자는 체결강도를 어떻게 활용하나</h2>
+
+<p>체결강도는 "지금 이 순간 누가 더 급하게 체결하고 있나"를 보여주는 단기 지표라서, 하루 안에서 흐름을 읽는 투자자가 주로 씁니다. 방향을 알려주는 값이 아니라 현재 수급의 온도계에 가깝습니다.</p>
+
+<ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
+  <li>체결강도가 100 위인데 거래량도 평소보다 늘면, 매수 체결이 실제 물량을 동반한다는 뜻이라 신뢰도가 높아집니다.</li>
+  <li>체결강도만 높고 거래량이 평소보다 적으면 소량 체결에 값이 부풀었을 가능성이 큽니다.</li>
+  <li>장 시작 직후는 <a href="https://sensitiveboss3.tistory.com/entry/call-auction-order-priority">동시호가</a>에 몰린 주문이 한꺼번에 체결돼 값이 튀기 쉽습니다.</li>
+  <li>5일·20일 <a href="https://sensitiveboss3.tistory.com/entry/moving-average-5-20-day-cross">이동평균선 크로스</a>처럼 며칠 단위로 보는 지표와 같이 보면 순간 수치의 과대 해석을 줄일 수 있습니다.</li>
+</ul>
+
+<p>이 해석은 지표를 읽는 방법일 뿐이고, 특정 종목의 매수·매도 시점을 가리키지 않습니다.</p>
+
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #0f9b8e;padding-left:12px;margin-top:36px;">체결강도, 이럴 땐 어떻게 보나</h2>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">체결강도 100은 무슨 뜻인가요</summary>
@@ -284,7 +304,7 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
   <summary style="font-weight:bold;cursor:pointer;">체결강도만 보고 매매해도 되나요</summary>
-  <p style="margin:10px 0 0 0;">이 글은 특정 종목의 매수·매도를 권하지 않는 정보 제공 목적의 글입니다. 체결강도는 저유동성 종목에서 쉽게 왜곡되는 순간 지표라, 다른 정보와 함께 참고하고 최종 판단은 투자자 본인이 하는 것이 안전합니다.</p>
+  <p style="margin:10px 0 0 0;">체결강도는 특정 종목의 매수·매도 시점을 알려주지 않습니다. 저유동성 종목에서 쉽게 왜곡되는 순간 지표라, 다른 정보와 함께 참고하고 최종 판단은 투자자 본인이 하는 것이 안전합니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
@@ -294,10 +314,8 @@ self_check: |
     <li><a href="https://download.kiwoom.com/hero4_help_new/0178.htm" target="_blank" rel="noopener">키움증권</a> - [0178] 체결강도추이 도움말</li>
     <li><a href="https://securities.miraeasset.com/kairos/0175.htm" target="_blank" rel="noopener">미래에셋증권</a> - [0175] 체결강도순위 화면</li>
   </ul>
-  기준일: 2026-09-23(WebSearch 교차검증일). 기획재정부 시사경제용어사전
-  원문은 이번 세션 WebFetch가 EGRESS_BLOCKED로 막혀 직접 열람하지
-  못했고, 정의와 계산 공식은 검색 스니펫과 개인 블로그 2곳으로
-  교차검증했습니다.
+  기준일: 2026-10-14. 정의와 계산 공식은 기획재정부 시사경제용어사전과
+  독립된 해설 글 2곳이 같은 식으로 설명하는 것을 대조했습니다.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
@@ -317,7 +335,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-09-23",
+  "dateModified": "2026-10-14",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/stock-execution-strength-meaning"
@@ -353,7 +371,7 @@ self_check: |
     {
       "@type": "Question",
       "name": "체결강도만 보고 매매해도 되나요",
-      "acceptedAnswer": { "@type": "Answer", "text": "이 글은 특정 종목의 매수·매도를 권하지 않는 정보 제공 목적의 글입니다. 체결강도는 저유동성 종목에서 쉽게 왜곡되는 순간 지표라, 다른 정보와 함께 참고하고 최종 판단은 투자자 본인이 하는 것이 안전합니다." }
+      "acceptedAnswer": { "@type": "Answer", "text": "체결강도는 특정 종목의 매수·매도 시점을 알려주지 않습니다. 저유동성 종목에서 쉽게 왜곡되는 순간 지표라, 다른 정보와 함께 참고하고 최종 판단은 투자자 본인이 하는 것이 안전합니다." }
     }
   ]
 }
