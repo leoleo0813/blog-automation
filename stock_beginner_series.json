@@ -2988,6 +2988,27 @@
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 충족(2026-10-12). 10월 1일 분배 금액은 미확인이라 표에서 제외, refresh_due 2026-11-09",
       "created_at": "2026-10-12"
+    },
+    {
+      "id": "150",
+      "order": 150,
+      "title": "엘리스그룹 공모주 청약 결과와 상장일",
+      "slug": "ellis-group-ipo-subscription-result",
+      "keyword": "엘리스그룹 공모주",
+      "type": "지금 이슈(공모주 청약·상장)",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "capture",
+      "monthly_search_volume": "49100 (PC 10500 / 모바일 38600)",
+      "gate1_pass": true,
+      "serp_check": "v4 통과(2026-10-14), 소규모 공모주 글 섞임, 증권사별 균등·증거금·비례 계산 정보이득",
+      "unique_asset_plan": "청약 주수별 증거금·비례 배정 계산표, 증권사별 균등 배정 그림, 일정 그림, 첫날 호가 범위 계산",
+      "primary_source": "언론 교차(한국경제·뉴스핌·뉴스프라임·CBC·테크M·국제뉴스). 상장일이 19일/20일로 엇갈려 미확정",
+      "status": "drafted",
+      "draft_path": "stock_drafts/ellis-group-ipo-subscription-result.md",
+      "cannibalization_note": "10월 공모주 일정(133편)은 15곳 달력, 이 글은 한 종목 결과·배정 계산. 44편은 계산 원리",
+      "gate_pass": false,
+      "gate_pass_note": "상장일 19/20 엇갈림, 최소 청약 주수 미확정. user_todo 참조",
+      "created_at": "2026-10-14"
     }
   ],
   "backlog": {
@@ -6564,7 +6585,7 @@
         },
         {
           "keyword": "공모주 일정",
-          "monthly_search_volume": "5,500 (2026-09~10 실측)",
+          "monthly_search_volume": "5,500 (2026-09~10 실측) [2026-10-14] 엘리스그룹 공모주 49,100 실측, 150편 초안(상장일 미확정 보류)",
           "type": "일정",
           "angle": "월간 청약·상장 일정 표(매달 갱신), 청약 증거금 계산은 44편 링크",
           "plan": "새 글, 매달 갱신",
@@ -6626,6 +6647,11 @@
         },
         {
           "keyword": "[후보 실측 2026-10-12] 미국배당다우존스 ETF 7,150 / 월배당 ETF 4,420 / IRP 세액공제 4,860 / 연금저축 세액공제 한도 4,410 / 국민연금 주식 930 / 현대차 실적발표 540 / 수능 증시 개장시간 20·FOMC 일정 20·MSCI 리밸런싱 60 FAIL",
+          "status": "note"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-14] 엘리스그룹 공모주 49,100 채택(150편) / TIGER 미국배당다우존스 27,800(127편 다룸) / 연금저축 세액공제 3,260 / 금통위 일정 2,930 / 공모주 청약 일정 1,490 / 기준금리 발표일 180·삼성전자 3분기 실적 20·코스피 배당락일 20 FAIL",
+          "type": "note",
           "status": "note"
         }
       ]
