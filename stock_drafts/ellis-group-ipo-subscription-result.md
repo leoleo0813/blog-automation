@@ -23,32 +23,21 @@ primary_source: |
   - 일반청약 408대 1, 증거금 약 10조2,599억원(보도에 따라 10조3,000억원 반올림), 배정 물량 555,500주에 청약 2억2,673만7,440주: 뉴스프라임·뉴스핌·디지털데일리 계열 일치. 408은 2억2,673만7,440 ÷ 55만5,500 = 408.2로 검산됨.
   - 증권사별 청약 건수 미래에셋 229,879건·삼성 59,539건, 균등 예상 0.97주·0.93주: CBC뉴스 청약 2일차 마감 기사 단일 출처(원문 미열람, 검색 요약). 합계 289,418건이 "약 29만 건" 보도와 일치.
   - 납입·환불 10월 13일: 국제뉴스·검색 요약 다수 일치.
-  - 상장일: 한국경제·국제뉴스 등은 10월 19일, 테크M·뉴스토마토 등은 10월 20일로 엇갈림. 확정 못 함(user_todo).
+  - 상장일: 언론은 19일(한국경제·국제뉴스)과 20일(테크M·뉴스토마토)로 갈렸으나, 사용자가 올린 38커뮤니케이션 화면 캡처(2026-10-15)에서 신규상장일 2026.10.20, 납입일·환불일·배정공고일 2026.10.13, 수요예측 9/23~10/1, 청약 10/7~8, 총공모 2,222,000주(기관 75% 1,666,500주 / 일반 25% 555,500주), 일반청약 증거금율 50%, 기관경쟁률 388.84:1, 의무보유확약 13.70%를 확인함. 최소 청약 주수 칸은 '-'로 비어 있어 본문에서 쓰지 않음.
   - 신규상장 첫날 60~400%: 뉴스핌·경향신문·SBS Biz 등 다수 일치(10월 4일자 초안 검증값 재사용, 2023-06-26 시행). 증거금률 50%와 균등 50% 이상 규칙: 공모주 청약 증거금 글의 검증값 재사용.
   - 비례 경쟁률 약 816대 1: 38커뮤니케이션 표기 816:1과, 청약 주식 수÷비례 물량(555,500주의 50%)으로 직접 계산한 816.3이 일치.
-  - 최소 청약 주수·최소 증거금은 보도가 엇갈려(CBC 제목 최소 증거금 90만5000원 / 기존 정리 10주 45만2,500원) 본문에서 단정하지 않음.
-기준일: 2026년 10월 14일 기준
+  - 최소 청약 주수·최소 증거금은 38커뮤니케이션 표에 값이 없고 보도도 엇갈려 본문에서 단정하지 않음(20주 이상 계산은 예시 주수일 뿐).
+기준일: 2026년 10월 15일 기준
 refresh_due: 2026-10-21
-refresh_reason: "상장일(10/19 또는 20) 이후 첫날 시초가·종가 결과로 글을 바꿔야 함. 상장 전 문구가 지나면 틀림."
+refresh_reason: "상장일(10/20) 이후 첫날 시초가·종가 결과로 글을 바꿔야 함. 상장 전 문구가 지나면 틀림."
 tags: 엘리스그룹 공모주, 엘리스그룹 청약, 엘리스그룹 상장일, 엘리스그룹 환불일, 엘리스그룹 공모가, 공모주 균등배정, 공모주 비례배정, 청약증거금 계산, 코스닥 신규상장, 2026 공모주
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1 49,100회, 게이트2 v4 통과, 게이트3 증거금·배정 계산표와 그림 2장 확보. 게이트4에서 상장일이 언론 사이에 10월 19일과 20일로 엇갈려(양쪽 모두 복수 매체) 확정하지 못했다. 최소 청약 주수도 보도가 갈린다. 상장일은 이 글의 핵심 날짜라 단정하지 않고 보류한다.
-user_todo:
-  why: 엘리스그룹 상장일이 기사마다 10월 19일과 20일로 달라 어느 쪽이 맞는지 정하지 못했습니다. 최소 청약 주수도 보도가 갈립니다.
-  steps:
-    - "https://www.38.co.kr/html/fund/?o=v&no=2316 열기 → 화면 중간 '공모청약일정' 표에서 '신규상장일' 줄 찾기 → 그 표 전체를 캡처"
-    - "같은 화면 아래쪽 '청약정보'에서 '최소청약주식수'와 '청약증거금율' 줄이 함께 보이게 캡처(한 장에 안 들어가면 두 장)"
-  must_show:
-    - "신규상장일 날짜(19일인지 20일인지)"
-    - "최소청약주식수와 청약증거금율(50%)"
-  minutes: 3
-  device: 휴대폰 가능
-  if_skipped: 안 하면 발행하지 못합니다. 급하면 상장일을 '19일 또는 20일'로 쓴 채 최소 청약 주수 문장만 빼고 발행할 수 있지만, 상장일이 지나면 어차피 갱신이 필요합니다.
+  게이트1 49,100회, 게이트2 v4 통과, 게이트3 증거금·배정 계산표와 그림 2장, 게이트4는 사용자가 올린 38커뮤니케이션 캡처(2026-10-15)로 상장일 10월 20일과 환불일 10월 13일을 확정했다. 언론 사이에 갈렸던 19일 표기는 폐기. 증권사별 청약 건수·균등 주수는 CBC뉴스 단일 출처이므로 발행 전 증권사 앱 공지와 대조하면 좋다(선택).
 figure_plan: |
   2장. 그림1은 청약부터 상장까지 날짜 순서(일정), 그림2는 증권사별 청약 건수와 균등 배정 주수 비교(크기 비교). 증거금·비례 배정 계산은 숫자를 정확히 읽어야 해서 표로 둠.
 self_check: |
-  [2026-10-14 gate_pass:false, v3 이슈 유형(4주 안 이벤트: 공모주 청약·상장)]
+  [2026-10-14 작성, 2026-10-15 사용자 38커뮤니케이션 캡처로 gate_pass:true, v3 이슈 유형(4주 안 이벤트: 공모주 청약·상장)]
   후보 경위: 이슈 스캔(10월 공모주, 삼성전자 3분기 확정실적, 금통위) 후 8개 실측: 엘리스그룹 공모주 49,100 / TIGER 미국배당다우존스 27,800(127편이 다룸) / 금통위 일정 2,930(기존 글 있음) / 공모주 청약 일정 1,490 / 연금저축 세액공제 3,260(기존 글과 겹침) / 기준금리 발표일 180·삼성전자 3분기 실적 20·코스피 배당락일 20 FAIL. 최고 검색량이면서 지금 이슈(상장 직전)인 엘리스그룹 채택.
   카니벌라이제이션: 일정표 글(10월 공모주 일정, 아직 발행 전)은 15곳 달력, 이 글은 한 종목 결과와 배정 계산. 증거금 계산 글(44편)은 공식 중심이라 이 글은 실제 경쟁률로 계산. 내부 링크 3개(44·35·18편, 전부 published). 발행 전 글로는 링크하지 않음.
   119편 갱신: 공포탐욕지수 현재 값을 1차 출처로 확인하지 못해(CNN WebFetch 불가, WebSearch에 10월 값 없음) 이번에는 보류. 98편 달러인덱스도 전날 보류 상태 유지.
@@ -60,7 +49,7 @@ self_check: |
   AI 티 점검: em대시 0개, 다만 0회, mark 4개, FAQ 5개(직전 149 5개와 같음 → 한 번 연속, 직전 2편 148이 달라 규칙 충족), FAQ 헤딩 "청약 결과 보고 나서 떠오르는 물음들"(신규), 요약박스 청록 "🔎 결과 숫자부터"(신규).
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-14</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-15</p>
 
 <p>엘리스그룹 청약에 넣어 두고 결과가 궁금한 분이 많을 텐데요. 일반청약 경쟁률은 408대 1이었고 공모가는 희망 범위 맨 위인 90,500원으로 확정됐어요.</p>
 
@@ -69,7 +58,7 @@ self_check: |
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;">
     <li>기관 수요예측은 388.8대 1, 일반청약 증거금은 약 10조 2,599억 원이 몰렸어요.</li>
     <li>균등 배정 예상 주수는 미래에셋증권 0.97주, 삼성증권 0.93주예요.</li>
-    <li>납입과 환불은 10월 13일이고, 상장일은 기사마다 19일과 20일로 갈려요.</li>
+    <li>납입과 환불은 10월 13일, 코스닥 상장은 10월 20일이에요.</li>
   </ul>
 </div>
 
@@ -94,6 +83,8 @@ self_check: |
     <tr><td style="border:1px solid #ddd;padding:8px;">확정 공모가</td><td style="border:1px solid #ddd;padding:8px;">90,500원(희망 범위 70,400~90,500원의 상단)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">공모금액 / 상장 후 시가총액</td><td style="border:1px solid #ddd;padding:8px;">약 2,011억 원 / 약 1조 54억 원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">기관 수요예측</td><td style="border:1px solid #ddd;padding:8px;">388.8대 1, 기관 2,367곳 참여</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">의무보유확약 신청</td><td style="border:1px solid #ddd;padding:8px;">13.70%(<a href="https://www.38.co.kr/html/fund/?o=v&amp;no=2316" target="_blank" rel="noopener">38커뮤니케이션</a> 공모 정보)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">총 공모 주식 / 일반청약 배정</td><td style="border:1px solid #ddd;padding:8px;">2,222,000주 / 555,500주(25%)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">일반청약 경쟁률</td><td style="border:1px solid #ddd;padding:8px;">408대 1</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">일반청약 증거금</td><td style="border:1px solid #ddd;padding:8px;">약 10조 2,599억 원(<a href="https://www.newsprime.co.kr/news/article/?no=750517" target="_blank" rel="noopener">뉴스프라임</a>)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">청약 건수</td><td style="border:1px solid #ddd;padding:8px;">약 29만 건(미래에셋증권 229,879건 + 삼성증권 59,539건)</td></tr>
@@ -132,7 +123,7 @@ self_check: |
 
 <p>청약 이후에는 납입과 환불, 상장 순서로 진행되고 환불일은 10월 13일이에요. 10월 9일 한글날이 휴장이라 청약이 끝난 8일(목) 뒤 영업일이 12일(월), 13일(화)로 이어졌기 때문이에요.</p>
 
-<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/ellis-group-ipo-subscription-result-1.png" alt="엘리스그룹 공모 일정 타임라인. 10월 6일 공모가 확정, 7~8일 일반청약, 9일 한글날 휴장, 13일 납입 환불, 19일 또는 20일 코스닥 상장" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국경제·뉴스핌·테크M·국제뉴스 보도, 2026년 10월 14일 확인</figcaption></figure>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/ellis-group-ipo-subscription-result-1.png" alt="엘리스그룹 공모 일정 타임라인. 10월 6일 공모가 확정, 7~8일 일반청약, 9일 한글날 휴장, 13일 납입 환불, 20일 코스닥 상장" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 38커뮤니케이션 공모 정보, 한국경제·뉴스핌 보도, 2026년 10월 15일 기준</figcaption></figure>
 
 <h3>1단계. 배정 결과와 증거금 환불</h3>
 
@@ -140,13 +131,13 @@ self_check: |
 
 <h3>2단계. 상장일 확인</h3>
 
-<p>상장일은 보도가 갈려요. 한국경제와 국제뉴스는 10월 19일, 테크M과 뉴스토마토는 <a href="https://www.techm.kr/news/articleView.html?idxno=155998" target="_blank" rel="noopener">10월 20일</a>이라고 전했어요.</p>
+<p>상장일은 10월 20일(화)이에요. <a href="https://www.38.co.kr/html/fund/?o=v&amp;no=2316" target="_blank" rel="noopener">38커뮤니케이션</a> 공모 정보의 신규상장일 칸과 <a href="https://www.techm.kr/news/articleView.html?idxno=155998" target="_blank" rel="noopener">테크M 보도</a>가 같아요.</p>
 
-<p>환불일에서 영업일 4일을 세면 19일이지만 단정하지 않을게요. 정확한 날짜는 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 KIND</a>의 공모 일정에서 볼 수 있어요.</p>
+<p>일부 기사에는 19일로 적혀 있었는데 이 글은 20일을 기준으로 해요. 거래소 최종 공지는 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 KIND</a>에서 볼 수 있어요.</p>
 
 <h3>3단계. 상장 후 매매</h3>
 
-<p>상장하면 코스닥에서 일반 종목처럼 사고팔 수 있고, 의무보유확약이 걸린 기관 물량은 약속한 기간 동안 팔 수 없어요. 확약 제도는 <a href="https://sensitiveboss3.tistory.com/entry/ipo-mandatory-holding-allocation-2026" target="_blank" rel="noopener">IPO와 의무보유확약 글</a>에 정리했어요.</p>
+<p>상장하면 코스닥에서 일반 종목처럼 사고팔 수 있고, 의무보유확약이 걸린 기관 물량은 약속한 기간 동안 팔 수 없어요. 이번 공모의 확약 신청 비율은 13.70%예요. 확약 제도는 <a href="https://sensitiveboss3.tistory.com/entry/ipo-mandatory-holding-allocation-2026" target="_blank" rel="noopener">IPO와 의무보유확약 글</a>에 정리했어요.</p>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #0f766e;padding-left:12px;margin-top:36px;">상장 첫날 가격 범위 계산</h2>
 
@@ -195,8 +186,8 @@ self_check: |
 </details>
 
 <details style="border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:10px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">엘리스그룹 상장일은 10월 19일인가요 20일인가요</summary>
-  <p style="margin:10px 0 0 0;">보도가 갈려 이 글에서는 확정하지 못했어요. 한국거래소 KIND의 공모 일정에서 최종 날짜를 볼 수 있어요.</p>
+  <summary style="font-weight:bold;cursor:pointer;">엘리스그룹 상장일은 언제인가요</summary>
+  <p style="margin:10px 0 0 0;">10월 20일(화)이에요. 일부 기사에 19일로 적힌 것은 20일이 맞아요. 최종 공지는 한국거래소 KIND에서 볼 수 있어요.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
@@ -210,7 +201,7 @@ self_check: |
     <li><a href="https://www.38.co.kr/html/fund/?o=v&amp;no=2316" target="_blank" rel="noopener">38커뮤니케이션 - 엘리스그룹 공모 정보</a></li>
     <li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener">한국거래소 KIND</a></li>
   </ul>
-  기준일: 2026년 10월 14일. 언론 보도를 교차 확인한 값이며 최종 일정은 한국거래소 공시가 우선합니다.
+  기준일: 2026년 10월 15일. 언론 보도를 교차 확인한 값이며 최종 일정은 한국거래소 공시가 우선합니다.
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
@@ -233,7 +224,7 @@ self_check: |
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "dateModified": "2026-10-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/ellis-group-ipo-subscription-result"
@@ -250,7 +241,7 @@ self_check: |
     {"@type": "Question", "name": "엘리스그룹 청약 경쟁률은 몇 대 몇이었나요", "acceptedAnswer": {"@type": "Answer", "text": "일반청약 최종 408대 1이고 청약 증거금은 약 10조 2,599억 원이에요. 기관 수요예측은 388.8대 1이었어요."}},
     {"@type": "Question", "name": "엘리스그룹 환불일은 언제인가요", "acceptedAnswer": {"@type": "Answer", "text": "10월 13일(화)이에요. 한글날 휴장 때문에 청약 종료 뒤 영업일로 세면 13일이 돼요."}},
     {"@type": "Question", "name": "엘리스그룹 균등배정은 몇 주 받나요", "acceptedAnswer": {"@type": "Answer", "text": "증권사 평균으로 미래에셋증권 0.97주, 삼성증권 0.93주라서 추첨으로 1주를 받거나 0주가 돼요. 같은 계좌에서 청약 주수를 늘려도 균등 몫은 같아요."}},
-    {"@type": "Question", "name": "엘리스그룹 상장일은 10월 19일인가요 20일인가요", "acceptedAnswer": {"@type": "Answer", "text": "보도가 갈려 이 글에서는 확정하지 못했어요. 한국거래소 KIND의 공모 일정에서 최종 날짜를 볼 수 있어요."}}
+    {"@type": "Question", "name": "엘리스그룹 상장일은 언제인가요", "acceptedAnswer": {"@type": "Answer", "text": "10월 20일(화)이에요. 일부 기사에 19일로 적힌 것은 20일이 맞아요. 최종 공지는 한국거래소 KIND에서 볼 수 있어요."}}
   ]
 }
 </script>

@@ -3002,12 +3002,12 @@
       "gate1_pass": true,
       "serp_check": "v4 통과(2026-10-14), 소규모 공모주 글 섞임, 증권사별 균등·증거금·비례 계산 정보이득",
       "unique_asset_plan": "청약 주수별 증거금·비례 배정 계산표, 증권사별 균등 배정 그림, 일정 그림, 첫날 호가 범위 계산",
-      "primary_source": "언론 교차(한국경제·뉴스핌·뉴스프라임·CBC·테크M·국제뉴스). 상장일이 19일/20일로 엇갈려 미확정",
+      "primary_source": "38커뮤니케이션 캡처(사용자, 10/15) + 언론 교차(한국경제·뉴스핌·뉴스프라임·CBC·테크M)",
       "status": "drafted",
       "draft_path": "stock_drafts/ellis-group-ipo-subscription-result.md",
       "cannibalization_note": "10월 공모주 일정(133편)은 15곳 달력, 이 글은 한 종목 결과·배정 계산. 44편은 계산 원리",
-      "gate_pass": false,
-      "gate_pass_note": "상장일 19/20 엇갈림, 최소 청약 주수 미확정. user_todo 참조",
+      "gate_pass": true,
+      "gate_pass_note": "2026-10-15 사용자 38커뮤니케이션 캡처로 상장일 10/20·환불 10/13 확정",
       "created_at": "2026-10-14"
     }
   ],
