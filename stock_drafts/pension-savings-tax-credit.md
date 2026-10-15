@@ -4,7 +4,7 @@ title: 연금저축 세액공제 얼마 돌려받나
 slug: pension-savings-tax-credit
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3180 (PC 800 / 모바일 2380) / 2026-10-15 실측 IRP 세액공제 5,020, 연금저축 세액공제 한도 4,550
+monthly_search_volume: 3300 (PC 920 / 모바일 2380)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-07 — 통과]
