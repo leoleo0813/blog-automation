@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="60" y="66" font-size="38" font-weight="bold" fill="#111">연금계좌 세액공제 환급액 (지방소득세 포함)</text>
+<text x="60" y="108" font-size="25" fill="#666">한도까지 납입했을 때, 총급여 구간별 (단위: 만원)</text>
+<text x="80" y="170" font-size="30" font-weight="bold" fill="#1a2744">연금저축만 600만원 납입</text>
+<rect x="80" y="190" width="495" height="52" fill="#4a90d9"/><text x="589" y="227" font-size="30" font-weight="bold" fill="#111">99만원</text><text x="92" y="226" font-size="24" fill="#fff">총급여 5,500만원 이하 (16.5%)</text>
+<rect x="80" y="254" width="396.0" height="52" fill="#7f9bbd"/><text x="490.0" y="291" font-size="30" font-weight="bold" fill="#111">79.2만원</text><text x="92" y="290" font-size="24" fill="#fff">5,500만원 초과 (13.2%)</text>
+<text x="80" y="404" font-size="30" font-weight="bold" fill="#1a2744">연금저축 + IRP 합산 900만원 납입</text>
+<rect x="80" y="424" width="742.5" height="52" fill="#4a90d9"/><text x="836.5" y="461" font-size="30" font-weight="bold" fill="#111">148.5만원</text><text x="92" y="460" font-size="24" fill="#fff">총급여 5,500만원 이하 (16.5%)</text>
+<rect x="80" y="488" width="594.0" height="52" fill="#7f9bbd"/><text x="688.0" y="525" font-size="30" font-weight="bold" fill="#111">118.8만원</text><text x="92" y="524" font-size="24" fill="#fff">5,500만원 초과 (13.2%)</text>
+<rect x="60" y="580" width="1080" height="84" rx="14" fill="#f6f6f4" stroke="#bbb" stroke-width="2"/>
+<text x="90" y="632" font-size="28" fill="#333">900만원 납입 시 소득 구간에 따라 29.7만원 차이 (148.5 - 118.8)</text>
+</g>
+</svg>

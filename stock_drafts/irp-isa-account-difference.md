@@ -142,7 +142,7 @@ self_check: |
 
 <p>IRP는 연금저축과 합산해 연 <mark>900만원</mark>까지 세액공제 대상입니다. 총급여 5,500만원(종합소득금액 4,500만원) 이하는 16.5%, 초과하면 13.2%가 적용됩니다. 900만원을 다 채우면 각각 148.5만원, 118.8만원을 돌려받는 셈입니다.</p>
 
-<p>ISA는 원칙적으로 납입액에 대한 세액공제가 없습니다. 단, ISA 만기자금을 연금계좌(IRP·연금저축)로 옮기면 이전금액의 10%, 최대 300만원만큼 세액공제 한도가 추가로 생깁니다. 자세한 이전 절차는 8편(연금저축 세액공제)에서 다뤘습니다.</p>
+<p>ISA는 원칙적으로 납입액에 대한 세액공제가 없습니다. 단, ISA 만기자금을 연금계좌(IRP·연금저축)로 옮기면 이전금액의 10%, 최대 300만원만큼 세액공제 한도가 추가로 생깁니다. 한도와 환급액 계산은 <a href="https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit" target="_blank" rel="noopener">연금저축 IRP 세액공제 한도 글</a>에서 다뤘습니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;">
   <thead>
@@ -259,7 +259,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-10-15",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://sensitiveboss3.tistory.com/entry/irp-isa-account-difference" }
 }
 </script>

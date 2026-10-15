@@ -4,7 +4,7 @@ title: 연금저축 세액공제 얼마 돌려받나
 slug: pension-savings-tax-credit
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 3180 (PC 800 / 모바일 2380)
+monthly_search_volume: 3180 (PC 800 / 모바일 2380) / 2026-10-15 실측 IRP 세액공제 5,020, 연금저축 세액공제 한도 4,550
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-09-07 — 통과]
@@ -43,7 +43,7 @@ primary_source: |
   공제율 15%(종합소득금액 4,500만원·총급여 5,500만원 이하) / 12%(초과),
   ISA 만기자금 연금계좌 전환 시 전환금액의 10%·300만원 한도로 세액공제 한도 확대.
 기준일: 2026-09-07 (국세청 페이지 확인일 — 페이지에 명시적 기준일 문구는 없으나 같은 화면의 혼인세액공제가 "24년~26년 혼인신고 분"으로 적혀 있어 2026년 기준 유지 페이지임을 확인)
-tags: 연금저축, 세액공제, 연말정산, 연금저축세액공제, IRP세액공제, 연금계좌, 세액공제한도, 노후준비, 절세
+tags: 연금저축, 세액공제, IRP세액공제, 연금저축세액공제한도, 연말정산, 연금계좌, 세액공제한도, 연금저축IRP, 연말절세, 환급액
 gate_pass: true
 gate_pass_note: |
   4개 게이트 전부 충족(2026-09-07).
@@ -89,44 +89,54 @@ self_check: |
   이번에 본문 출처 캡션에 걸었다. target="_blank" rel="noopener", nofollow 미부착,
   href 안 &는 &amp;로 이스케이프.
   종합 판정: 4개 게이트 전부 충족 → gate_pass:true. 발행 가능.
+refresh_due: 2026-12-10
+figure_plan: |
+  2장. 그림1은 한도 납입 시 환급액 크기 비교(막대: 600만원/900만원 × 16.5%/13.2%), 그림2는 올해 납입 마감부터
+  연말정산까지의 일정과 남은 공제 여지 계산(타임라인). 두 그림이 보여 주는 정보가 다르다(크기 vs 시간).
+refresh_note: |
+  [2026-10-15 갱신 - 티스토리 재반영 필요] 연말 절세 시즌 키워드(IRP 세액공제 월 5,020, 연금저축 세액공제 한도
+  월 4,550)에 맞춰 첫 두 문장을 한도 900만원·12월 31일 마감·환급 148.5만/118.8만원 직답으로 교체.
+  본문에 남아 있던 "원문 캡처 후 반영 예정" 문구 4곳 제거(캡처는 9/7에 이미 반영됨). 그림 2장, 연말까지 남은 공제
+  여지 표, 투자자 관점 H2, 중도해지 추징 계산, 내부 링크 4개 추가. 수치는 9/7 국세청 캡처값과 70편 교차검증값(기타소득세
+  16.5%, 연금소득세 3.3~5.5%) 재사용. 연 납입한도 1,800만원은 소득세법 시행령 근거로 금융사 안내 3곳이 일치(국세청 원문 미확인).
+  2027년 시행 세제개편안은 국회 확정 전이라 이 글 수치에 반영하지 않았고, 12월 10일 갱신 때 확정 여부를 다시 본다.
+self_check_refresh: |
+  [2026-10-15 갱신 점검] 첫 문장 유형: 수치충격형(900만원·12/31 마감). 구조 유형: 계산형(첫 H2 한도표 + 연말 남은 공제 여지 계산표).
+  어투 A 해설형. AI 티 점검: em대시 0개, mark 4개, FAQ 7개. 기관 안내 문장·출처 목록 전부 링크 처리.
+  내부 링크: irp-isa-account-difference, retirement-pension-withdrawal-tax, isa-limit-benefit (전부 published).
+  계산 검산: 600x0.165=99, 600x0.132=79.2, 900x0.165=148.5, 900x0.132=118.8, 300x0.165=49.5, 300x0.132=39.6,
+  148.5-118.8=29.7. 2026-10-15~12-31 = 77일. 공제받은 900만원에 기타소득세 16.5% = 148.5만원.
+
 ---
 
-<p>연금저축과 IRP(개인형 퇴직연금)에 돈을 넣으면 <mark>연말정산이나 종합소득신고 때 세액공제</mark>를 받을 수 있습니다. 다만 한도를 넘겨 넣어도 세액공제가 늘지 않으므로, 얼마까지 넣어야 하는지 먼저 아는 것이 중요합니다.</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-15</p>
 
-<div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
+<p>올해 연금저축·IRP 세액공제는 12월 31일까지 넣은 금액이 기준이고, 둘을 합쳐 <mark>연 900만원</mark>까지 공제됩니다. 한도를 다 채우면 총급여 5,500만원 이하는 148만 5천원, 초과는 118만 8천원을 돌려받습니다.</p>
+
+<div style="background:#ecfdf5;border:2px solid #10b981;border-radius:10px;padding:16px 20px;margin:24px 0;">
+  <strong style="color:#065f46;font-size:18px;">📌 연말 마감 전에 볼 숫자</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>연금저축과 IRP에 넣은 금액 중 <b>세액공제 한도까지만</b> 실제로 세금을 돌려받습니다.</li>
-    <li>공제율은 <b>총급여(또는 종합소득금액) 구간</b>에 따라 달라집니다.</li>
-    <li>연금저축만 넣을 때와 IRP를 함께 넣을 때 <b>적용되는 한도가 다릅니다.</b></li>
-    <li>한도를 넘겨 넣은 금액은 세액공제는 없지만, 인출 전까지 과세가 이연됩니다.</li>
+    <li>연금저축 단독 공제 한도는 600만원이고, IRP를 더하면 합산 900만원입니다.</li>
+    <li>공제율은 총급여 5,500만원을 기준으로 15%와 12%로 갈립니다(지방소득세 포함 16.5%·13.2%).</li>
+    <li>2026년 10월 15일 기준 올해 납입 마감까지 77일 남았습니다.</li>
+    <li>공제받은 뒤 중도해지하면 공제받은 납입금에 기타소득세가 붙어, 환급액이 사실상 되돌아갑니다.</li>
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">목차</h2>
+<h2 style="border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금저축 세액공제란 무엇인가요</a></li>
-  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금저축 세액공제 한도는 얼마인가요</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">소득 구간별 공제율은 어떻게 다른가요</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실제로 얼마나 돌려받나요</a></li>
-  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">IRP와 함께 넣으면 한도가 어떻게 되나요</a></li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금저축 세액공제 한도와 IRP 합산 한도</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">공제율과 실제 환급액 계산</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">IRP와 함께 넣으면 한도가 어떻게 되나요</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연말까지 남은 기간, 얼마를 더 넣어야 하나요</a></li>
+  <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">연금계좌 세액공제가 투자자에게 주는 의미</a></li>
   <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">한도까지 넣으면 그 금액을 다 돌려받나요</a></li>
   <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">중도에 해지하면 어떻게 되나요</a></li>
-  <li><a href="#sec-8" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">세액공제는 언제까지 신청해야 하나요</a></li>
 </ol>
 
-<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제란 무엇인가요</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">연금저축 세액공제 한도와 IRP 합산 한도</h2>
 
-<p>연금저축은 노후자금을 준비하면서 <mark>납입한 금액의 일부를 세금에서 직접 빼주는</mark> 개인연금 계좌입니다. 소득공제가 아니라 세액공제라서, 계산된 세금 자체에서 공제율만큼 금액이 빠집니다.</p>
-
-<ul style="line-height:1.9;">
-  <li>연금저축펀드, 연금저축보험 등 상품 종류와 무관하게 "연금저축" 계좌면 대상입니다.</li>
-  <li>개인형 퇴직연금(IRP)도 별도로 또는 연금저축과 함께 세액공제 대상이 됩니다.</li>
-</ul>
-
-<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">연금저축 세액공제 한도는 얼마인가요</h2>
-
-<p>세액공제를 받을 수 있는 납입한도는 <b>연금저축 단독</b>인지 <b>IRP를 함께 넣는지</b>에 따라 달라집니다.</p>
+<p>연금저축 세액공제 한도는 연 600만원이고, IRP를 함께 넣으면 합산 연 900만원입니다. 소득세 공제가 아니라 <b>세액공제</b>라서, 계산된 세금에서 공제율만큼 직접 빠집니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -147,16 +157,18 @@ self_check: |
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;margin-top:6px;">출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&amp;mi=6439" target="_blank" rel="noopener">국세청 근로소득 세액공제 안내</a>(2026-09-07 확인). 한도를 넘겨 넣은 금액은 세액공제 대상에서 빠지지만, 인출 전까지 과세는 이연됩니다.</p>
+<p style="font-size:13px;color:#888;margin-top:6px;">출처: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&amp;mi=6439" target="_blank" rel="noopener">국세청 근로소득 세액공제 안내</a>(2026-09-07 확인).</p>
+
+<p>공제 한도와 계좌에 넣을 수 있는 한도는 다른 개념입니다. 소득세법 시행령에 따라 모든 금융회사의 연금저축과 IRP를 합쳐 연 1,800만원까지 넣을 수 있지만, 세액공제는 그중 900만원까지만 받습니다. 900만원을 넘겨 넣은 금액은 공제 없이, 인출 전까지 운용수익의 과세만 미뤄집니다.</p>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;">
   <b>한도는 소득과 무관합니다</b>
   <p style="margin:8px 0 0 0;">예전에는 소득에 따라 납입한도까지 달랐지만, 현재 국세청 표에서는 <b>두 소득 구간의 한도가 600만원(합산 900만원)으로 같습니다.</b> 소득에 따라 달라지는 것은 한도가 아니라 공제율입니다. 오래된 글에는 소득별로 한도가 다르게 적혀 있을 수 있습니다.</p>
 </div>
 
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">소득 구간별 공제율은 어떻게 다른가요</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">공제율과 실제 환급액 계산</h2>
 
-<p>공제율은 <b>총급여(근로소득자) 또는 종합소득금액(사업소득자 등)</b> 구간에 따라 두 단계로 나뉩니다. 소득이 낮은 구간일수록 공제율이 더 높게 적용됩니다.</p>
+<p>공제율은 총급여(근로소득자) 또는 종합소득금액(사업소득자 등) 구간에 따라 두 단계입니다. 소득이 낮은 구간이 공제율이 더 높습니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -186,15 +198,15 @@ self_check: |
   <strong style="color:#7a5c00;font-size:17px;">15%인가요, 16.5%인가요</strong>
   <p style="margin:10px 0 0 0;line-height:1.9;">둘 다 맞습니다. 기준이 다를 뿐입니다.</p>
   <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li><b>15% / 12%</b> — 국세청이 고시하는 <b>소득세</b> 기준 공제율입니다.</li>
-    <li><b>16.5% / 13.2%</b> — 소득세가 줄면 그에 딸린 <b>지방소득세(소득세의 10%)</b>도 함께 줄어드는 효과까지 더한 값입니다. 15% × 1.1 = 16.5%, 12% × 1.1 = 13.2%.</li>
+    <li><b>15% / 12%</b>: 국세청이 고시하는 <b>소득세</b> 기준 공제율입니다.</li>
+    <li><b>16.5% / 13.2%</b>: 소득세가 줄면 딸린 <b>지방소득세(소득세의 10%)</b>도 함께 줄어드는 효과까지 더한 값입니다. 15% × 1.1 = 16.5%, 12% × 1.1 = 13.2%.</li>
   </ul>
-  <p style="margin:10px 0 0 0;">체감상 손에 돌아오는 비율은 <mark>16.5% / 13.2%</mark>가 맞습니다. 다만 세법 조문이나 국세청 표를 직접 보면 15% / 12%로 적혀 있어 혼란스러울 수 있는데, 서로 다른 숫자가 아니라 지방소득세를 포함했는지의 차이입니다.</p>
+  <p style="margin:10px 0 0 0;">체감상 손에 돌아오는 비율은 16.5% / 13.2%입니다. 국세청 표만 보면 15% / 12%로 적혀 있어 헷갈리는데, 서로 다른 숫자가 아니라 지방소득세를 포함했는지의 차이입니다.</p>
 </div>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">실제로 얼마나 돌려받나요</h2>
+<p>한도를 꽉 채웠을 때 돌려받는 금액은 납입한도 × 공제율입니다. 아래는 지방소득세를 포함한 금액입니다.</p>
 
-<p>한도를 꽉 채워 납입했을 때 돌려받는 금액은 <mark>납입한도 × 공제율</mark>로 계산합니다. 아래는 지방소득세를 포함한 실제 체감 금액 기준입니다.</p>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/pension-savings-tax-credit-1.png" alt="연금저축만 600만원 납입 시 99만원과 79.2만원, 연금저축과 IRP 합산 900만원 납입 시 148.5만원과 118.8만원을 비교한 막대 그래프" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 국세청 공제율 표(2026-09-07 확인)로 계산한 환급액</figcaption></figure>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
   <thead>
@@ -211,34 +223,69 @@ self_check: |
   </tbody>
 </table>
 
-<p style="font-size:13px;color:#888;">소득세 기준(15% / 12%)으로만 계산하면 각각 90만원·72만원, 135만원·108만원입니다. 위 표는 지방소득세까지 포함한 금액입니다.</p>
+<p style="font-size:13px;color:#888;">소득세 기준(15% / 12%)으로만 계산하면 각각 90만원·72만원, 135만원·108만원입니다.</p>
 
-<p>흔히 보이는 <b>"최대 148만원 환급"</b>이라는 문구는 <mark>연금저축과 IRP를 합쳐 900만원을 다 넣고, 총급여가 5,500만원 이하인 경우</mark>의 숫자입니다. 조건이 하나라도 다르면 금액이 달라집니다.</p>
+<p>"최대 148만원 환급"이라는 문구는 연금저축과 IRP를 합쳐 900만원을 넣고 총급여가 5,500만원 이하일 때의 숫자입니다. 총급여가 5,500만원 경계를 넘으면 같은 900만원을 넣어도 <b>29만 7천원</b>이 줄어듭니다.</p>
 
-<p>총급여가 5,500만원 경계를 넘으면 같은 900만원을 넣어도 <b>29만 7천원</b>이 줄어듭니다. 경계 근처라면 신경 쓸 만한 차이입니다.</p>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">IRP와 함께 넣으면 한도가 어떻게 되나요</h2>
 
-<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">IRP와 함께 넣으면 한도가 어떻게 되나요</h2>
-
-<p>연금저축 단독 한도를 넘는 금액을 IRP에 추가로 넣으면, 합산한도까지 세액공제를 더 받을 수 있습니다. 즉 연금저축과 IRP는 <b>경쟁 관계가 아니라 보완 관계</b>입니다.</p>
+<p>연금저축 600만원을 채운 뒤 남는 300만원은 IRP에 넣어야 합산 900만원을 다 쓸 수 있습니다. 연금저축과 IRP는 경쟁 관계가 아니라 보완 관계입니다.</p>
 
 <ul style="line-height:1.9;">
   <li>연금저축만 가입한 경우: <b>600만원</b>까지만 공제</li>
   <li>연금저축 + IRP를 함께 가입한 경우: <b>900만원</b>까지 공제</li>
 </ul>
 
-<p>연금저축에 600만원을 채웠다면, 나머지 <mark>300만원은 IRP에 넣어야</mark> 합산한도를 다 쓸 수 있습니다. 연금저축 계좌 하나에 900만원을 넣어도 공제는 600만원까지만 됩니다.</p>
+<p>연금저축 계좌 하나에 900만원을 넣어도 공제는 600만원까지만 됩니다. IRP는 퇴직금을 받는 계좌이기도 해서 성격이 다른데, 두 계좌의 인출 조건 차이는 <a href="https://sensitiveboss3.tistory.com/entry/irp-isa-account-difference" target="_blank" rel="noopener">IRP와 ISA 차이 글</a>에 따로 정리했습니다.</p>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.8;">
   <b>ISA 만기자금을 옮기면 한도가 늘어납니다</b>
   <p style="margin:8px 0 0 0;">ISA 계약기간이 만료된 뒤 그 계좌 잔액을 연금계좌로 옮기면, 옮긴 금액이 그해 연금계좌 납입액에 포함되면서 <b>세액공제 한도가 전환금액의 10%(최대 300만원)만큼 늘어납니다.</b> 이 추가한도는 ISA 만기잔액을 연금계좌에 넣은 해에만 적용됩니다.</p>
-  <p style="margin:8px 0 0 0;">ISA 자체의 한도와 비과세 혜택은 따로 정리한 "ISA 계좌 한도와 비과세 혜택" 글을 참고하세요.</p>
+  <p style="margin:8px 0 0 0;">ISA 자체의 한도와 비과세 혜택은 <a href="https://sensitiveboss3.tistory.com/entry/isa-limit-benefit" target="_blank" rel="noopener">ISA 계좌 한도와 비과세 혜택 글</a>을 참고하세요.</p>
 </div>
 
-<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">한도까지 넣으면 그 금액을 다 돌려받나요</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">연말까지 남은 기간, 얼마를 더 넣어야 하나요</h2>
 
-<p>아닐 수 있습니다. 이 지점이 "최대 얼마 환급"이라는 홍보 문구와 실제 결과가 갈리는 자리입니다.</p>
+<p>올해 몫은 12월 31일까지 계좌에 들어간 금액만 잡히고, 2026년 10월 15일 기준으로 77일이 남았습니다. 남은 공제 여지는 900만원에서 올해 이미 넣은 금액을 뺀 값입니다.</p>
 
-<p><mark>세액공제는 나라가 현금을 주는 제도가 아니라, 내가 낼 세금을 깎아주는 제도</mark>입니다. 그래서 공제받을 수 있는 금액이 아무리 커도 <b>원래 내야 할 세금(결정세액)보다 많이 깎을 수는 없습니다.</b></p>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/pension-savings-tax-credit-2.png" alt="10월 15일부터 12월 31일 납입 마감까지 77일, 이후 2027년 초 연말정산과 5월 종합소득세 신고로 이어지는 일정 도식" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 국세청 안내와 소득세법 기준 일정, 2026-10-15 기준</figcaption></figure>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+  <thead>
+    <tr style="background:#eef6ff;">
+      <th style="border:1px solid #ccd;padding:10px;text-align:left;">올해 이미 넣은 금액</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">남은 공제 여지</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">추가 환급 최대<br>(16.5%)</th>
+      <th style="border:1px solid #ccd;padding:10px;text-align:right;">추가 환급 최대<br>(13.2%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccd;padding:10px;">0원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">900만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">148만 5천원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">118만 8천원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">300만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">600만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">99만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">79만 2천원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">600만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">300만원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">49만 5천원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">39만 6천원</td></tr>
+    <tr><td style="border:1px solid #ccd;padding:10px;">900만원 이상</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0원</td><td style="border:1px solid #ccd;padding:10px;text-align:right;">0원</td></tr>
+  </tbody>
+</table>
+
+<p style="font-size:13px;color:#888;">연금저축에 600만원을 이미 채운 경우 남은 300만원은 IRP로 넣어야 합니다. IRP 계좌가 없다면 개설부터 해야 하니 연말에 몰리기 전에 시작하는 편이 시간이 덜 듭니다.</p>
+
+<p>납입 금액은 2027년 초 연말정산(근로소득자)이나 5월 종합소득세 신고(사업소득자 등)에서 반영됩니다. 납입 내역은 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a>의 연금계좌 납입증명서로 볼 수 있습니다.</p>
+
+<h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">연금계좌 세액공제가 투자자에게 주는 의미</h2>
+
+<p>세액공제는 납입하는 해에 확정되는 혜택이고, 계좌 안에서 투자한 결과와는 별개입니다. 900만원을 넣으면 투자 성과가 어떻든 총급여 5,500만원 이하는 148만 5천원, 초과는 118만 8천원이 공제 대상입니다.</p>
+
+<ul style="line-height:1.9;">
+  <li>공제율 16.5%는 납입액 대비 비율이라, 계좌 안의 펀드·ETF 수익률과 따로 계산합니다.</li>
+  <li>반대로 계좌 안 투자가 손실이어도 공제 자체는 줄지 않지만, 원금 손실 가능성은 그대로입니다.</li>
+  <li>연금 개시 전에는 자유롭게 빼기 어려워, 당장 쓸 돈은 넣지 않는 쪽이 구조에 맞습니다.</li>
+</ul>
+
+<p>인출 조건이 이 계좌의 핵심 제약입니다. 연금계좌의 인출 규칙과 세금은 <a href="https://sensitiveboss3.tistory.com/entry/retirement-pension-withdrawal-tax" target="_blank" rel="noopener">퇴직연금 중도인출 세금 글</a>에서 사유별로 계산해 두었습니다.</p>
+
+<h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">한도까지 넣으면 그 금액을 다 돌려받나요</h2>
+
+<p>아닐 수 있습니다. 세액공제는 현금을 주는 제도가 아니라 내가 낼 세금을 깎아주는 제도라서, 원래 내야 할 세금(결정세액)보다 많이 깎을 수 없습니다.</p>
 
 <div style="background:#fdeaea;border-left:4px solid #d9534f;padding:14px 18px;margin:20px 0;line-height:1.8;">
   <b>이런 경우 최대 환급액을 못 받습니다.</b>
@@ -246,31 +293,35 @@ self_check: |
     <li>소득이 적어 결정세액 자체가 공제액보다 작은 경우</li>
     <li>다른 공제(인적공제·주택자금·의료비 등)로 이미 결정세액이 0에 가까워진 경우</li>
   </ul>
-  <p style="margin:10px 0 0 0;">두 경우 모두 남은 공제액은 <b>다음 해로 이월되지 않고 그대로 사라집니다.</b> 연말정산 결과를 먼저 확인한 뒤 납입액을 정하는 편이 안전한 이유입니다.</p>
+  <p style="margin:10px 0 0 0;">두 경우 모두 남은 공제액은 <b>다음 해로 이월되지 않고 그대로 사라집니다.</b> 올해 연말정산 예상 결과를 먼저 보고 납입액을 정하는 편이 안전합니다.</p>
 </div>
 
-<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">중도에 해지하면 어떻게 되나요</h2>
+<h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">중도에 해지하면 어떻게 되나요</h2>
 
-<p>세액공제를 받은 뒤 연금 개시 전에 해지하면 <mark>그동안 받은 혜택을 되돌려 내야 합니다.</mark> 공제받았던 납입 원금과 그 운용수익에 기타소득세가 매겨지는 방식입니다.</p>
+<p>세액공제를 받은 계좌를 연금 개시 전에 해지하면 공제받은 납입금과 운용수익에 기타소득세 16.5%(지방소득세 포함)가 붙습니다. 900만원을 넣어 공제받았다면 900만원 × 16.5% = <mark>148만 5천원</mark>으로, 총급여 5,500만원 이하의 환급액과 같은 크기입니다.</p>
 
-<p>연금저축을 <b>중도 인출이 자유로운 저축</b>으로 생각하고 시작하면 이 지점에서 손해를 봅니다. 세액공제는 노후에 연금으로 받는 것을 전제로 미리 주는 혜택이기 때문입니다.</p>
+<ul style="line-height:1.9;">
+  <li>총급여 5,500만원 이하: 환급 148만 5천원, 해지 시 추징 148만 5천원(운용수익 과세는 별도)</li>
+  <li>총급여 5,500만원 초과: 환급 118만 8천원인데 추징은 148만 5천원이라 오히려 29만 7천원 손해</li>
+</ul>
 
-<p>다만 사망·해외이주, 가입자나 부양가족의 장기 요양, 개인회생·파산처럼 부득이한 사유로 인정되는 경우에는 낮은 세율이 적용됩니다. 해당 여부와 정확한 세율은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>에서 확인하는 것이 정확합니다.</p>
+<p>사망·해외이주, 가입자나 부양가족의 장기 요양, 개인회생·파산처럼 세법상 부득이한 사유라면 운용수익에 나이별 3.3~5.5%의 낮은 연금소득세가 적용됩니다. 사유별 계산은 <a href="https://sensitiveboss3.tistory.com/entry/retirement-pension-withdrawal-tax" target="_blank" rel="noopener">퇴직연금 중도인출 세금 글</a>에 나와 있습니다.</p>
 
-<h2 id="sec-8" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">세액공제는 언제까지 신청해야 하나요</h2>
-
-<p>세액공제는 <b>해당 연도 12월 31일까지 납입한 금액</b>을 기준으로 다음 해 연말정산(근로소득자) 또는 5월 종합소득세 신고(사업소득자 등)에서 반영됩니다. 신청은 별도 서류 제출보다는 연말정산 자료나 <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 연금계좌 납입증명서 조회로 확인합니다.</p>
-
-<div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:28px 0;">
-  <strong style="color:#2f4f7f;font-size:18px;">정리</strong>
+<div style="background:#ecfdf5;border:2px solid #10b981;border-radius:10px;padding:16px 20px;margin:28px 0;">
+  <strong style="color:#065f46;font-size:18px;">마감 전에 정리하면</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>연금저축·IRP 세액공제는 한도까지 넣은 금액에 소득 구간별 공제율을 곱해 돌려받습니다.</li>
-    <li>연금저축과 IRP를 함께 넣으면 더 높은 합산한도까지 공제받을 수 있습니다.</li>
-    <li>정확한 한도·공제율 수치는 국세청 원문 확인 후 이 글에 반영됩니다.</li>
+    <li>합산 900만원이 공제 한도이고, 올해는 12월 31일까지 넣은 금액만 인정됩니다.</li>
+    <li>이미 넣은 금액을 900만원에서 빼면 남은 공제 여지가 나옵니다.</li>
+    <li>중도해지하면 환급 효과가 사실상 사라지므로 당장 쓸 돈은 넣지 않습니다.</li>
   </ul>
 </div>
 
-<h2 style="border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">자주 묻는 질문</h2>
+<h2 style="border-left:6px solid #10b981;padding-left:12px;margin-top:36px;">한도·환급 궁금증 모아 보기</h2>
+
+<details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
+  <summary style="font-weight:bold;cursor:pointer;">IRP 세액공제 한도는 연금저축과 따로 있나요</summary>
+  <p style="margin:10px 0 0 0;">아니요. 연금저축과 IRP는 합쳐서 연 900만원 안에서 공제됩니다. 연금저축이 600만원까지이고, 나머지 300만원을 IRP로 채우는 구조입니다.</p>
+</details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">연금저축 세액공제는 소득공제와 다른가요</summary>
@@ -294,28 +345,28 @@ self_check: |
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
   <summary style="font-weight:bold;cursor:pointer;">연금으로 나중에 받을 때는 세금이 없나요</summary>
-  <p style="margin:10px 0 0 0;">아닙니다. 연금으로 수령할 때는 연금소득세가 저율로 부과됩니다. 다만 세액공제를 받은 원금과 운용수익 전체가 과세 대상이라는 점은 국세청 원문으로 별도 확인이 필요합니다.</p>
+  <p style="margin:10px 0 0 0;">아니요. 연금으로 받을 때는 나이에 따라 3.3~5.5%의 연금소득세가 붙습니다. 공제받은 납입 원금과 운용수익이 과세 대상입니다.</p>
 </details>
 
 <details style="border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin:8px 0;">
-  <summary style="font-weight:bold;cursor:pointer;">세액공제 받은 금액을 중도에 인출하면 어떻게 되나요</summary>
-  <p style="margin:10px 0 0 0;">세액공제를 받은 부분을 연금 외 형태로 중도 인출하면 기타소득세 등 불이익이 있을 수 있습니다. 정확한 세율과 예외 조건은 국세청 원문 확인 후 이 글에 반영할 예정입니다.</p>
+  <summary style="font-weight:bold;cursor:pointer;">공제받은 돈을 중도에 인출하면 어떻게 되나요</summary>
+  <p style="margin:10px 0 0 0;">부득이한 사유가 아니면 공제받은 납입금과 운용수익에 기타소득세 16.5%(지방소득세 포함)가 붙습니다. 부득이한 사유라면 나이별 3.3~5.5%의 연금소득세가 적용됩니다.</p>
 </details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
-  참고 출처 (캡처 후 최종 확정 예정):
+  참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
-    <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a> — 연금계좌 세액공제 안내 (원문 캡처 대기 중)</li>
-    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> — 연금계좌 납입증명서 조회</li>
+    <li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&amp;mi=6439" target="_blank" rel="noopener">국세청</a> 근로소득 세액공제 안내(연금계좌 세액공제, 2026-09-07 확인)</li>
+    <li><a href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스</a> 연금계좌 납입증명서 조회</li>
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 소득세법 시행령 연금계좌 납입한도 조문</li>
   </ul>
-  기준일: 확인필요 (원문 캡처 후 기입)
+  기준일: 2026년 10월 15일(공제율·한도는 국세청 2026-09-07 확인값)
 </div>
 
 <p style="font-size:13px;color:#777;margin-top:16px;line-height:1.8;">
-이 글은 정보 제공을 목적으로 하며 특정 종목이나 상품의 매수·매도를 권유하지 않습니다.
-투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
-세율·수수료·한도는 변경될 수 있으므로 반드시 원출처에서 최신 내용을
-확인하시기 바랍니다.
+이 글은 정보 제공이 목적이며 특정 종목이나 금융상품의 매수·매도를 권하지 않습니다.
+투자 판단과 그 결과의 책임은 투자자 본인에게 있습니다.
+세율과 한도는 바뀔 수 있으니 최신 내용은 국세청 등 원출처에서 확인하시기 바랍니다.
 </p>
 
 <script type="application/ld+json">
@@ -323,54 +374,13 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "연금저축 세액공제는 소득공제와 다른가요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "네. 소득공제는 과세표준(세금을 매기는 기준금액)을 줄이는 방식이고, 세액공제는 계산된 세금 자체에서 공제율만큼 직접 빼주는 방식입니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "한도를 넘겨 납입하면 초과분은 어떻게 되나요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "세액공제 대상에서는 빠지지만, 인출하기 전까지 운용 수익에 대한 과세가 이연되는 혜택은 그대로 유지됩니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "연금저축과 IRP를 둘 다 가입해야 하나요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "아니요. 연금저축만으로도 600만원까지 세액공제를 받을 수 있습니다. 합산 한도 900만원을 다 쓰려면 나머지 300만원을 IRP에 넣어야 합니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "공제율은 매년 소득이 바뀌면 같이 바뀌나요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "네. 그해의 총급여(근로소득자) 또는 종합소득금액(사업소득자 등)이 어느 구간에 속하는지에 따라 공제율이 달라집니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "연금으로 나중에 받을 때는 세금이 없나요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "아닙니다. 연금으로 수령할 때는 연금소득세가 저율로 부과됩니다. 다만 세액공제를 받은 원금과 운용수익 전체가 과세 대상이라는 점은 국세청 원문으로 별도 확인이 필요합니다."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "세액공제 받은 금액을 중도에 인출하면 어떻게 되나요",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "세액공제를 받은 부분을 연금 외 형태로 중도 인출하면 기타소득세 등 불이익이 있을 수 있습니다. 정확한 세율과 예외 조건은 국세청 원문 확인 후 이 글에 반영할 예정입니다."
-      }
-    }
+    {"@type": "Question", "name": "IRP 세액공제 한도는 연금저축과 따로 있나요", "acceptedAnswer": {"@type": "Answer", "text": "아니요. 연금저축과 IRP는 합쳐서 연 900만원 안에서 공제됩니다. 연금저축이 600만원까지이고, 나머지 300만원을 IRP로 채우는 구조입니다."}},
+    {"@type": "Question", "name": "연금저축 세액공제는 소득공제와 다른가요", "acceptedAnswer": {"@type": "Answer", "text": "네. 소득공제는 과세표준(세금을 매기는 기준금액)을 줄이는 방식이고, 세액공제는 계산된 세금 자체에서 공제율만큼 직접 빼주는 방식입니다."}},
+    {"@type": "Question", "name": "한도를 넘겨 납입하면 초과분은 어떻게 되나요", "acceptedAnswer": {"@type": "Answer", "text": "세액공제 대상에서는 빠지지만, 인출하기 전까지 운용 수익에 대한 과세가 이연되는 혜택은 그대로 유지됩니다."}},
+    {"@type": "Question", "name": "연금저축과 IRP를 둘 다 가입해야 하나요", "acceptedAnswer": {"@type": "Answer", "text": "아니요. 연금저축만으로도 600만원까지 세액공제를 받을 수 있습니다. 합산 한도 900만원을 다 쓰려면 나머지 300만원을 IRP에 넣어야 합니다."}},
+    {"@type": "Question", "name": "공제율은 매년 소득이 바뀌면 같이 바뀌나요", "acceptedAnswer": {"@type": "Answer", "text": "네. 그해의 총급여(근로소득자) 또는 종합소득금액(사업소득자 등)이 어느 구간에 속하는지에 따라 공제율이 달라집니다."}},
+    {"@type": "Question", "name": "연금으로 나중에 받을 때는 세금이 없나요", "acceptedAnswer": {"@type": "Answer", "text": "아니요. 연금으로 받을 때는 나이에 따라 3.3~5.5%의 연금소득세가 붙습니다. 공제받은 납입 원금과 운용수익이 과세 대상입니다."}},
+    {"@type": "Question", "name": "공제받은 돈을 중도에 인출하면 어떻게 되나요", "acceptedAnswer": {"@type": "Answer", "text": "부득이한 사유가 아니면 공제받은 납입금과 운용수익에 기타소득세 16.5%(지방소득세 포함)가 붙습니다. 부득이한 사유라면 나이별 3.3~5.5%의 연금소득세가 적용됩니다."}}
   ]
 }
 </script>
@@ -380,11 +390,11 @@ self_check: |
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "연금저축 세액공제 얼마 돌려받나",
-  "description": "연금저축·IRP 세액공제 한도와 소득 구간별 공제율, 그리고 결정세액 때문에 최대 환급액을 다 못 받는 경우와 중도해지 시 추징까지 정리합니다. (한도·공제율 수치는 원문 캡처 후 확정)",
+  "description": "연금저축·IRP 세액공제 한도 900만원, 소득 구간별 환급액, 12월 31일 납입 마감까지 남은 공제 여지와 중도해지 추징을 계산해 정리합니다.",
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-07",
-  "dateModified": "2026-09-07",
+  "dateModified": "2026-10-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit"

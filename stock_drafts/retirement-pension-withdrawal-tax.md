@@ -127,6 +127,8 @@ self_check: |
 
 <p><mark>퇴직연금을 중도인출하면 퇴직급여 원금에는 퇴직소득세가, 그동안 불어난 운용수익에는 별도 세금이 붙습니다.</mark> 세금이 줄어드는 경우는 요양·개인회생·천재지변 같은 소득세법상 "부득이한 사유"일 때뿐이고, 주택 구입이나 전세보증금 같은 사유는 인출은 되어도 세금은 그대로 붙습니다.</p>
 
+<p>IRP에 연금저축과 합쳐 넣은 금액으로 세액공제를 받았다면 중도 인출 때 공제받은 납입금에도 세금이 붙습니다. 공제 한도와 환급액은 <a href="https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit" target="_blank" rel="noopener">연금저축 세액공제 한도와 환급액 글</a>에서 계산해 두었습니다.</p>
+
 <div style="background:#f1eefc;border:2px solid #6a4fb6;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#4a3579;font-size:18px;">🔑 핵심 포인트</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
@@ -323,7 +325,7 @@ self_check: |
   "author": { "@type": "Person", "name": "센시티브보스" },
   "publisher": { "@type": "Organization", "name": "센시티브보스" },
   "datePublished": "2026-09-22",
-  "dateModified": "2026-09-22",
+  "dateModified": "2026-10-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/retirement-pension-withdrawal-tax"
