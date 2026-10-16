@@ -4,8 +4,8 @@ title: 삼성전자 자사주 15조 매입 완료, 소각 아닌 이유
 slug: samsung-treasury-stock-buyback-compensation
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 5530 (PC 1,100 / 모바일 4,430, 2026-10-16 실측) / 보조 키워드 삼성전자 자사주 소각 2,900
-gate1_pass: true (일반 주제 기준 월 500 이상)
+monthly_search_volume: 5530 (PC 1100 / 모바일 4430)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-16 - 통과] 월 5,530으로 v4 대상(5,000 이상). WebSearch(미국 기준, 참고용) 상위는 딜사이트·언론·브런치 개인글 혼재, 개인 글이 보여 진입 여지 있음.
   1) 진입 여지 없음? 아니오(브런치 등 개인 글 확인). 2) 조회·계산기 의도? 아니오(정보 탐색). 3) 답이 완결된 공식 페이지? 아니오(공시는 숫자만 있고 소각용과 보상용을 나란히 비교한 글은 못 봄).

@@ -3039,7 +3039,7 @@
       "type": "종목 사실·시의성(10/12 취득 완료)",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "5530 (PC 1,100 / 모바일 4,430, 2026-10-16 실측)",
+      "monthly_search_volume": "5530 (PC 1100 / 모바일 4430)",
       "gate1_pass": true,
       "primary_source": "언론 5곳(kbthink·이데일리·PRESS9·아시아투데이·매일일보) 동일 수치, DART 원문 미열람. 4월 소각 결정분은 뉴시스·다음·딜사이트·인베스팅닷컴 일치",
       "status": "drafted",
