@@ -4,7 +4,7 @@ title: ISA 만기 후 선택지와 연금계좌 이전 계산
 slug: isa-maturity-pension-transfer-options
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 1,020 (PC 270 / 모바일 750, 2026-10-16 실측)
+monthly_search_volume: 1020 (PC 270 / 모바일 750)
 gate1_pass: true (세부·제도 주제 기준 월 100 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-16 - 통과] WebSearch "ISA 만기 연금계좌 전환 세액공제" 상위: tilnote·kimprostory·finmapnow·make2t 등 개인 블로그와 계산기 사이트(qbr.co.kr), 증권사 안내(channel.io) 혼재.
