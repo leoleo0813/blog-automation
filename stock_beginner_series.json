@@ -3029,6 +3029,24 @@
       "cannibalization_note": "3편(ISA 한도)·8편(세액공제)·75편(IRP ISA 차이)이 만기 전환을 한 문단씩만 다룸. 이 글은 만기 후 선택지·60일 순서·연도 경계·소득 구간별 환급 합계에 집중하고 6편으로 내부 링크.",
       "gate_pass": false,
       "gate_pass_note": "60일 기산일(만기일 vs 해지일) 안내가 엇갈려 법령 원문 확인 전 보류. user_todo 참고."
+    },
+    {
+      "id": 152,
+      "order": 152,
+      "title": "삼성전자 자사주 15조 매입 완료, 소각 아닌 이유",
+      "slug": "samsung-treasury-stock-buyback-compensation",
+      "keyword": "삼성전자 자사주",
+      "type": "종목 사실·시의성(10/12 취득 완료)",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "5530 (PC 1,100 / 모바일 4,430, 2026-10-16 실측)",
+      "gate1_pass": true,
+      "primary_source": "언론 5곳(kbthink·이데일리·PRESS9·아시아투데이·매일일보) 동일 수치, DART 원문 미열람. 4월 소각 결정분은 뉴시스·다음·딜사이트·인베스팅닷컴 일치",
+      "status": "drafted",
+      "draft_path": "stock_drafts/samsung-treasury-stock-buyback-compensation.md",
+      "cannibalization_note": "50편(자사주 소각 세금)·126편(삼성전자 배당금)과 다름. 이 글은 취득 목적(보상 vs 소각)과 일정, 주식 수에 주는 경로.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 5,530, 게이트2 v4 통과, 게이트3 비교표·검산·그림 2장, 게이트4 언론 5곳 교차. 선택: DART 10/12 자기주식 취득 결과보고서 대조."
     }
   ],
   "backlog": {
@@ -3905,6 +3923,11 @@
         "keyword": "ISA 만기 연장",
         "monthly_search_volume": "1,080 (2026-10-10 실측)",
         "status": "todo"
+      },
+      {
+        "keyword": "[후보 실측 2026-10-16 2차] 삼성전자 자사주 5,530(152편 채택) / 삼성전자 자사주 소각 2,900(152편에서 함께 다룸) / 바로팜 13,490(공모주 11/2~3 청약, 일정은 단일 출처라 보류) / 11월 공모주 660 / 자사주 매입 뜻 480·삼성전자 자사주 매입 20·바로팜 공모주 50·삼성전자 주주환원 20·주식 연말 폐장일 20 FAIL",
+        "monthly_search_volume": null,
+        "hold_reason": "note"
       }
     ],
     "failed_gate1": [
@@ -6677,7 +6700,8 @@
           "monthly_search_volume": "5,260 (자사주 매입 종료 2,660, 2026-10-11 실측)",
           "type": "새 글 후보",
           "angle": "자사주 매입 완료와 소각 일정",
-          "status": "todo. 매입 금액이 보도마다 달라(15조원 vs 55조원) DART 자기주식 취득 결과보고서 확인 후 진행"
+          "status": "drafted 152편 (2026-10-16, gate_pass:true). 10/12 공시로 15조(14조 9,999억)로 수치 일치해 해소",
+          "slug": "samsung-treasury-stock-buyback-compensation"
         },
         {
           "keyword": "JEPI",

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">15조 자사주 매입, 계획보다 46일 일찍 끝났다</text>
+<text x="70" y="122" font-size="25" fill="#666">삼성전자 임직원 보상용 자사주 취득 일정 (2026년)</text>
+<line x1="90" y1="340" x2="1110" y2="340" stroke="#bbb" stroke-width="6"/>
+<circle cx="120" cy="340" r="14" fill="#6d28d9"/>
+<text x="120" y="290" font-size="28" font-weight="bold" fill="#6d28d9" text-anchor="middle">8/21</text>
+<text x="120" y="258" font-size="23" fill="#333" text-anchor="middle">이사회 의결</text>
+<circle cx="300" cy="340" r="14" fill="#6d28d9"/>
+<text x="300" y="400" font-size="28" font-weight="bold" fill="#6d28d9" text-anchor="middle">8/24</text>
+<text x="300" y="436" font-size="23" fill="#333" text-anchor="middle">취득 시작</text>
+<circle cx="480" cy="340" r="14" fill="#6d28d9"/>
+<text x="480" y="290" font-size="28" font-weight="bold" fill="#6d28d9" text-anchor="middle">10/6</text>
+<text x="480" y="258" font-size="23" fill="#333" text-anchor="middle">마지막 취득일</text>
+<circle cx="660" cy="340" r="14" fill="#6d28d9"/>
+<text x="660" y="400" font-size="28" font-weight="bold" fill="#6d28d9" text-anchor="middle">10/12</text>
+<text x="660" y="436" font-size="23" fill="#333" text-anchor="middle">취득 결과 공시</text>
+<circle cx="850" cy="340" r="14" fill="#fff" stroke="#999" stroke-width="4"/>
+<text x="850" y="290" font-size="28" font-weight="bold" fill="#888" text-anchor="middle">11/21</text>
+<text x="850" y="258" font-size="23" fill="#888" text-anchor="middle">원래 종료 예정일</text>
+<circle cx="1040" cy="340" r="14" fill="#fff" stroke="#e0922b" stroke-width="4"/>
+<text x="1040" y="400" font-size="28" font-weight="bold" fill="#e0922b" text-anchor="middle">2027년 3월 말</text>
+<text x="1040" y="436" font-size="23" fill="#333" text-anchor="middle">주총 승인 뒤 지급 예정</text>
+<text x="70" y="540" font-size="24" fill="#333">취득 5,685만 6,305주 · 14조 9,999억 원 · 목적은 임직원 주식보상(소각 아님)</text>
+<text x="70" y="590" font-size="22" fill="#888">자료: 삼성전자 취득 결과 공시 보도(2026-10-12), 이사회 의결 보도(2026-08-21). 속이 빈 점은 예정</text></g></svg>
