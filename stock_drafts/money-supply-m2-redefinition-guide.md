@@ -15,19 +15,19 @@ serp_check: |
   → 탈락조건 1~3 모두 미해당, 통과.
 unique_asset: |
   (a) M1 대 M2 구성 비교표와 개편 전후 비교표(수익증권 제외, 초대형 IB 발행어음 포함).
-  (b) 2026년 7월 M2 현재 수치 표(4,225.6조 원, +12.7조 원 등)와 경제주체별 증감 막대 그림.
-  (c) 보도에 나온 실제 수치로 한 전월 대비 증가율 검산(12.7 / 4,212.9 = 0.30%)과 증가율 계산식.
+  (b) 2026년 8월 M2 현재 수치 표(4,266.8조 원, +39.1조 원 등)와 7·8월 경제주체별 증감 막대 그림.
+  (c) 보도에 나온 실제 수치로 한 전월 대비 증가율 검산(39.1 / 4,227.7 = 0.92%)과 증가율 계산식.
 primary_source: |
   1차 출처인 한국은행 bok.or.kr WebFetch 1회 EGRESS_BLOCKED(2026-10-03). 뉴스 사이트 2곳(joseilbo, SBS Biz) WebFetch도 EGRESS_BLOCKED라 WebSearch 요약 단계 교차검증만 가능했다.
   교차검증: 2025년 12월 개편(수익증권 제외, 초대형 IB 발행어음 포함, 증가율 8.7%에서 5.2%, 총통화 409조 5천억 원 감소, 1년 병행 공표)은 한국경제·메트로서울·조세일보·네이트(연합 계열)가 충돌 없이 일치. 2026년 7월 수치(4,225.6조 원, +12.7조 원, +0.3%, 전년 동월 대비 +5.8%, 9개월 연속 증가, 2년 미만 정기예적금 +27.3조 원, 기업 +20.6조 원·가계 -11.6조 원)는 이투데이·글로벌이코노믹·포인트데일리·와이드경제·서플·네이트가 일치.
   다만 현재 값 유형의 숫자라 RULES 「독자 관점 점검」 4번에 따라 한국은행 보도자료 원문 대조 전에는 gate_pass를 true로 하지 않는다.
-기준일: 2026년 10월 기준 (수치는 2026년 7월 통계, 한국은행 2026년 9월 15일 발표)
-refresh_due: 2026-10-16
+기준일: 2026년 10월 기준 (수치는 2026년 8월 통계, 한국은행 2026년 10월 15일 발표)
+refresh_due: 2026-11-16
 tags: 통화량, 통화량 뜻, M2, 광의통화, M1 협의통화, 통화 및 유동성, 한국은행 통계 개편, 수익증권 제외, M2 증가율, 주식 용어
 gate_pass: true
 gate_pass_note: |
   게이트1·2·3 충족. 게이트4는 교차검증으로 진행했지만 현재 수치(2026년 7월 M2)가 한국은행 원문 미확인이라 gate_pass:false. 발행 전 사람이 할 일: capture_guide 1순위 화면(7월 통화 및 유동성 보도자료)을 캡처해 올려주세요. 값이 일치하면 gate_pass를 true로 바꾸면 됩니다. 8월 통계가 10월 15일 발표 예정이라 그 전에 발행하면 refresh_due(10월 16일)에 바로 갱신 대상이 됩니다.
-  [2026-10-05 보류 해제] 2026년 7월 M2 수치와 개편 내용은 보도 6곳 이상이 같은 숫자로 일치 — 「주제 선정 v3」·지표 현재값 규칙(언론 2곳 이상 동일 수치면 통과) 적용. 8월분 발표(10/15) 뒤 refresh_due로 갱신.
+  [2026-10-16 갱신: 8월분(10/15 발표) 반영. 헤럴드경제·디지털타임스·이투데이·데일리안·더파워뉴스가 4,266.8조·+39.1조·0.9%·전년 5.6%를 동일하게 보도, 기업 33.9조·가계 0.3조도 일치. 한국은행 원문 미접속] [2026-10-05 보류 해제] 2026년 7월 M2 수치와 개편 내용은 보도 6곳 이상이 같은 숫자로 일치 — 「주제 선정 v3」·지표 현재값 규칙(언론 2곳 이상 동일 수치면 통과) 적용. 8월분 발표(10/15) 뒤 refresh_due로 갱신.
 self_check: |
   후보 경위: backlog.verified의 단순 순서 대기 후보 중 디플레이션 뜻(900회)을 먼저 검토했으나 게이트2에서 한국은행·KDI·기획재정부·위키·KB·토스뱅크·나무위키 등 사전형 SERP로 채워져 탈락조건 1·3에 해당해 backlog에 기록. 다음 후보 통화량 뜻(830회)을 채택. 버핏지수 뜻(640회)은 시가총액·GDP 최신 수치 출처가 없어 이번 편에서 제외.
   YMYL: 종목 추천·목표가·매매시점 없음. M2 증감으로 주가 방향을 단정하지 않고 경로와 한계를 적음.
@@ -42,20 +42,20 @@ self_check: |
 figure_plan: "1장으로 충분 — 경제주체별 M2 증감. 나머지 표는 현재 수치·개편 전후 정의 비교라 표가 읽기 쉬움"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-16</p>
 
 <p>2025년 말 한국은행이 통계를 개편하면서 M2 증가율이 개편 전 8.7%에서 개편 후 5.2%로 3.5%포인트 내려앉았습니다. <mark>통화량 M2는 현금과 요구불예금에 2년 미만 예적금, CD, RP 같은 상품을 더한 광의통화</mark>이고, 개편 뒤에는 ETF 등 수익증권이 빠졌습니다.</p>
 
 <div style="background:#eef8ee;border:2px solid #3a9a4a;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1f6b2c;font-size:18px;">🌱 숫자를 읽기 전에 알아 둘 것</strong>
-  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>M1은 바로 꺼내 쓰는 돈이고, M2는 거기에 만기 2년 미만의 예적금과 시장형 상품을 더한 범위입니다.</li><li>개편으로 총통화 규모가 409조 5천억 원 줄었고, 개편 후 1년간 새 M2와 옛 M2를 함께 공표합니다.</li><li>2026년 7월 M2는 보도 기준 4,225.6조 원이고, 늘린 쪽은 기업, 줄어든 쪽은 가계였습니다.</li></ul>
+  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>M1은 바로 꺼내 쓰는 돈이고, M2는 거기에 만기 2년 미만의 예적금과 시장형 상품을 더한 범위입니다.</li><li>개편으로 총통화 규모가 409조 5천억 원 줄었고, 개편 후 1년간 새 M2와 옛 M2를 함께 공표합니다.</li><li>2026년 8월 M2는 보도 기준 4,266.8조 원으로 한 달 새 39.1조 원(0.9%) 늘었고, 증가분의 대부분은 기업 몫이었습니다.</li></ul>
 </div>
 
 <h2>목차</h2>
 <ol style="line-height:1.9;">
   <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">통화량 M1과 M2는 무엇이 다른가</a></li>
   <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2025년 말 개편으로 M2에서 빠진 것과 들어온 것</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 7월 M2 현재 수치</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 8월 M2 현재 수치</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">M2 증가율 계산법</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">주식 투자자에게 왜 중요한가</a></li>
 </ol>
@@ -98,50 +98,50 @@ figure_plan: "1장으로 충분 — 경제주체별 M2 증감. 나머지 표는 
 
 <p>같은 돈이라도 어디에 담겨 있느냐에 따라 M2에 잡히기도, 빠지기도 하는 거죠. A씨가 정기예금 1,000만 원을 해지해 ETF를 사면, 개편 전에는 M2 안에서 자리만 옮겼지만 개편 후에는 M2에서 줄어든 것으로 잡힙니다.</p>
 
-<p>한국은행은 혼선을 줄이려고 개편 후 1년간 새 M2와 옛 M2 총액을 함께 공표한다고 밝혔습니다. 두 숫자가 섞이면 증가율 비교가 어긋나므로 어느 기준인지부터 봐야 해요. 이 글의 4,225.6조 원은 보도에서 개편 후 기준으로 소개된 값입니다.</p>
+<p>한국은행은 혼선을 줄이려고 개편 후 1년간 새 M2와 옛 M2 총액을 함께 공표한다고 밝혔습니다. 두 숫자가 섞이면 증가율 비교가 어긋나므로 어느 기준인지부터 봐야 해요. 이 글의 4,266.8조 원은 보도에서 개편 후 기준으로 소개된 값입니다.</p>
 
 <div style="background:#eef8ee;border:2px solid #3a9a4a;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1f6b2c;font-size:18px;">💡 ETF가 빠지면 달라지는 점</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>예금에서 ETF·펀드로 돈이 옮겨 가면 새 M2는 줄어드는 쪽으로 움직입니다.</li><li>ETF가 무엇인지 먼저 알고 싶다면 <a href="https://sensitiveboss3.tistory.com/entry/etf-basics-holdings" target="_blank" rel="noopener">ETF 뜻과 구성 종목 보는 법</a> 글부터 읽어 보세요.</li></ul>
 </div>
 
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3a9a4a;padding-left:12px;margin-top:36px;">2026년 7월 M2 현재 수치</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #3a9a4a;padding-left:12px;margin-top:36px;">2026년 8월 M2 현재 수치</h2>
 
-<p>2026년 7월 M2 평균 잔액은 4,225.6조 원으로, 전월보다 12.7조 원(0.3%) 늘어 9개월 연속 증가했습니다. 아래 수치는 한국은행이 2026년 9월 15일 발표한 내용을 전한 보도를 교차해 정리한 값입니다.</p>
+<p>2026년 8월 M2 평균 잔액은 4,266.8조 원으로, 전월보다 39.1조 원(0.9%) 늘어 10개월 연속 증가했습니다. 아래 수치는 한국은행이 2026년 10월 15일 발표한 내용을 전한 보도를 교차해 정리한 값입니다.</p>
 
 <table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;">
-  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">M2(광의통화, 계절조정 평잔) 최신 수치 (보도 기준 2026년 10월 3일)</caption>
+  <caption style="text-align:left;font-weight:bold;padding-bottom:6px;">M2(광의통화, 계절조정 평잔) 최신 수치 (보도 기준 2026년 10월 16일)</caption>
   <thead>
     <tr style="background:#eef8ee;"><th style="border:1px solid #ddd;padding:8px;">항목</th><th style="border:1px solid #ddd;padding:8px;">값</th><th style="border:1px solid #ddd;padding:8px;">기준 시점</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">M2 평균 잔액</td><td style="border:1px solid #ddd;padding:8px;">4,225.6조 원</td><td style="border:1px solid #ddd;padding:8px;">2026년 7월</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">전월 대비 증가</td><td style="border:1px solid #ddd;padding:8px;">+12.7조 원 (+0.3%)</td><td style="border:1px solid #ddd;padding:8px;">2026년 7월</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">전년 동월 대비</td><td style="border:1px solid #ddd;padding:8px;">+5.8%</td><td style="border:1px solid #ddd;padding:8px;">2026년 7월</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">2년 미만 정기예적금</td><td style="border:1px solid #ddd;padding:8px;">+27.3조 원 (2022년 12월 이후 최대 증가)</td><td style="border:1px solid #ddd;padding:8px;">2026년 7월</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">옛 M2(수익증권 포함)</td><td style="border:1px solid #ddd;padding:8px;">전월 대비 0.8% 감소</td><td style="border:1px solid #ddd;padding:8px;">2026년 7월</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">발표 기관</td><td style="border:1px solid #ddd;padding:8px;"><a href="https://www.bok.or.kr" target="_blank" rel="noopener">한국은행</a> 통화 및 유동성 (통계는 <a href="https://ecos.bok.or.kr" target="_blank" rel="noopener">ECOS</a>)</td><td style="border:1px solid #ddd;padding:8px;">2026년 9월 15일 발표</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">다음 발표(8월 통계)</td><td style="border:1px solid #ddd;padding:8px;">2026년 10월 15일 예정 (경제지표 일정 서비스 기준)</td><td style="border:1px solid #ddd;padding:8px;">-</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">M2 평균 잔액</td><td style="border:1px solid #ddd;padding:8px;">4,266.8조 원</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">전월 대비 증가</td><td style="border:1px solid #ddd;padding:8px;">+39.1조 원 (+0.9%, 7월은 +0.3%)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">전년 동월 대비</td><td style="border:1px solid #ddd;padding:8px;">+5.6% (7월은 5.8%)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2년 미만 정기예적금</td><td style="border:1px solid #ddd;padding:8px;">+28.7조 원 (2년 미만 금전신탁 +14.2조 원, MMF +12.6조 원)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">옛 M2(수익증권 포함)</td><td style="border:1px solid #ddd;padding:8px;">전월 대비 0.7% 증가 (7월은 0.8% 감소)</td><td style="border:1px solid #ddd;padding:8px;">2026년 8월</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">발표 기관</td><td style="border:1px solid #ddd;padding:8px;"><a href="https://www.bok.or.kr" target="_blank" rel="noopener">한국은행</a> 통화 및 유동성 (통계는 <a href="https://ecos.bok.or.kr" target="_blank" rel="noopener">ECOS</a>)</td><td style="border:1px solid #ddd;padding:8px;">2026년 10월 15일 발표</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">다음 발표(9월 통계)</td><td style="border:1px solid #ddd;padding:8px;">2026년 11월 중순 (한국은행 발표 일정 미확인)</td><td style="border:1px solid #ddd;padding:8px;">-</td></tr>
   </tbody>
 </table>
 
-<p>위 값은 보도 6곳 이상이 일치한 내용이고, 한국은행 원문 대조는 아직 거치지 않았습니다. 발표가 나오면 이 표를 새 값으로 바꿀 거예요.</p>
+<p>위 값은 보도 5곳 이상이 같은 숫자로 전한 내용이고, 한국은행 원문 대조는 아직 거치지 않았습니다. 9월 통계가 나오면 이 표를 새 값으로 바꿀 거예요.</p>
 
-<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/money-supply-m2-redefinition-guide-1.png" alt="2026년 7월 경제주체별 M2 증감 막대 그림. 비금융 기업 20.6조 원 증가, 기타 부문 6.3조 원 증가, 기타 금융기관 5.7조 원 감소, 가계·비영리단체 11.6조 원 감소" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국은행 2026년 7월 통화 및 유동성 보도 내용, 2026년 9월 15일 발표</figcaption></figure>
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/money-supply-m2-redefinition-guide-1.png" alt="7월과 8월 경제주체별 M2 증감 막대 그림. 비금융 기업은 7월 20.6조 원, 8월 33.9조 원 증가. 가계·비영리단체는 7월 11.6조 원 감소, 8월 0.3조 원 증가" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국은행 2026년 7월(9월 15일 발표)·8월(10월 15일 발표) 통화 및 유동성 보도 내용</figcaption></figure>
 
-<p><mark>기업은 20.6조 원 늘었고 가계·비영리단체는 11.6조 원 줄었습니다.</mark> 반도체 수출이 좋은 기업의 여유 자금이 예적금으로 들어온 반면, 가계는 수시입출식 예금이 크게 줄었다고 보도됐어요.</p>
+<p><mark>8월 증가분 39.1조 원 가운데 비금융 기업이 33.9조 원을 차지했고, 7월에 11.6조 원 줄었던 가계·비영리단체는 0.3조 원 늘며 증가로 돌아섰습니다.</mark> 반도체 등 기업의 여유 자금이 예적금으로 몰렸다고 보도됐어요.</p>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #3a9a4a;padding-left:12px;margin-top:36px;">M2 증가율 계산법</h2>
 
-<p>증가율은 (비교 시점 값 - 기준 시점 값) ÷ 기준 시점 값 x 100으로 구합니다. 7월 수치로 직접 검산해 볼게요.</p>
+<p>증가율은 (비교 시점 값 - 기준 시점 값) ÷ 기준 시점 값 x 100으로 구합니다. 8월 수치로 직접 검산해 볼게요.</p>
 
 <ol>
-  <li>7월 M2 4,225.6조 원에서 증가액 12.7조 원을 빼면 6월은 4,212.9조 원입니다.</li>
-  <li>12.7 ÷ 4,212.9 = 0.0030이라 약 0.30%입니다.</li>
-  <li>보도된 전월 대비 0.3%와 같은 값이에요.</li>
+  <li>8월 M2 4,266.8조 원에서 증가액 39.1조 원을 빼면 7월은 4,227.7조 원입니다.</li>
+  <li>39.1 ÷ 4,227.7 = 0.0092라 약 0.9%입니다.</li>
+  <li>보도된 전월 대비 0.9%와 같은 값이에요. 7월 발표 때의 4,225.6조 원과 조금 차이가 나는데, 통계 수정 때문으로 보입니다.</li>
 </ol>
 
-<p>전월 대비 0.3%를 12개월로 곱하면 약 3.6%가 되어 전년 동월 대비 5.8%와는 다릅니다. 두 숫자는 비교 기준이 달라서 섞어 읽으면 안 돼요. 복리로 이어 붙이는 계산은 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목 실질 계산</a> 글의 성장률 설명과 같은 방식입니다.</p>
+<p>전월 대비 0.9%를 12개월로 곱하면 약 10.8%가 되어 전년 동월 대비 5.6%와는 크게 다릅니다. 두 숫자는 비교 기준이 달라서 섞어 읽으면 안 돼요. 복리로 이어 붙이는 계산은 <a href="https://sensitiveboss3.tistory.com/entry/gdp-meaning-nominal-real-calculation" target="_blank" rel="noopener">GDP 뜻과 명목 실질 계산</a> 글의 성장률 설명과 같은 방식입니다.</p>
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #3a9a4a;padding-left:12px;margin-top:36px;">주식 투자자에게 왜 중요한가</h2>
 
@@ -177,7 +177,7 @@ figure_plan: "1장으로 충분 — 경제주체별 M2 증감. 나머지 표는 
     <li><a href="https://ecos.bok.or.kr" target="_blank" rel="noopener">한국은행 경제통계시스템 ECOS - M2 통계</a></li>
     <li><a href="https://eiec.kdi.re.kr/policy/materialView.do?num=285416" target="_blank" rel="noopener">KDI 경제교육·정보센터 - 2026년 6월 통화 및 유동성</a></li>
     <li><a href="https://www.hankyung.com/amp/2025123034211" target="_blank" rel="noopener">한국경제 - 한은, 통화량 통계에서 ETF 제외</a></li>
-    <li><a href="https://www.etoday.co.kr/news/view/2625597" target="_blank" rel="noopener">이투데이 - 7월 시중에 풀린 돈, 9개월째 증가</a></li>
+    <li><a href="https://www.etoday.co.kr/news/view/2636105" target="_blank" rel="noopener">이투데이 - 8월 시중에 풀린 돈, 기업 이어 가계자금도 증가전환</a></li>
   </ul>
 </div>
 
@@ -188,7 +188,7 @@ figure_plan: "1장으로 충분 — 경제주체별 M2 증감. 나머지 표는 
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "통화량 M2 뜻과 개편 후 달라진 점",
-  "description": "통화량 M2와 M1의 차이, 2025년 말 한국은행 통계 개편으로 ETF 등 수익증권이 빠진 내용, 2026년 7월 M2 4,225.6조 원 수치와 증가율 계산법을 정리했습니다.",
+  "description": "통화량 M2와 M1의 차이, 2025년 말 한국은행 통계 개편으로 ETF 등 수익증권이 빠진 내용, 2026년 8월 M2 4,266.8조 원 수치와 증가율 계산법을 정리했습니다.",
   "author": {
     "@type": "Person",
     "name": "센시티브보스"
@@ -198,7 +198,7 @@ figure_plan: "1장으로 충분 — 경제주체별 M2 증감. 나머지 표는 
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-03",
-  "dateModified": "2026-10-05",
+  "dateModified": "2026-10-16",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/money-supply-m2-redefinition-guide"
