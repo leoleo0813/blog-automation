@@ -3047,6 +3047,25 @@
       "cannibalization_note": "50편(자사주 소각 세금)·126편(삼성전자 배당금)과 다름. 이 글은 취득 목적(보상 vs 소각)과 일정, 주식 수에 주는 경로.",
       "gate_pass": true,
       "gate_pass_note": "게이트1 5,530, 게이트2 v4 통과, 게이트3 비교표·검산·그림 2장, 게이트4 언론 5곳 교차. 선택: DART 10/12 자기주식 취득 결과보고서 대조."
+    },
+    {
+      "id": 153,
+      "order": 153,
+      "title": "KODEX 200 뜻과 보수·분배금 일정",
+      "slug": "kodex-200-fee-dividend-schedule",
+      "keyword": "KODEX 200",
+      "type": "종목·상품 사실·시의성(10월 말 분배 기준일)",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "89000 (PC 22200 / 모바일 66800, 2026-10-17 실측)",
+      "gate1_pass": true,
+      "primary_source": "삼성자산운용 월간 자료(2026-06-30·2026-01-31)와 etfshopping 지급 이력 일치. 원문 PDF 직접 접속 불가. 2026.7월 183원은 집계 사이트 단독, 10월 기준일·지급일은 과거 패턴 추정",
+      "status": "drafted",
+      "draft_path": "stock_drafts/kodex-200-fee-dividend-schedule.md",
+      "cannibalization_note": "ETF 뜻(일반론)·TIGER 미국S&P500(미국 지수 상품)과 다름. 코스피200 상품의 보수·분배 이력·10월 매수 마감일.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 89,000, 게이트2 v4 통과, 게이트3 분배금 표·계산·일정, 게이트4 두 출처 일치(한계 공개)",
+      "refresh_due": "2026-11-06"
     }
   ],
   "backlog": {
@@ -6727,6 +6746,12 @@
           "keyword": "[후보 실측 2026-10-16]",
           "status": "note",
           "monthly_search_volume": "스페이스X 상장 1,110(6월 상장 완료, 락업·나스닥100 수치 미확인이라 제외) / ISA 만기 1,020(151편 채택) / 미국주식 양도세 계산 260·고배당 분리과세 250 / 고배당 분리과세 종목 40·배당소득 분리과세 요건 20·해외주식 양도세 12월 20·해외주식 양도소득세 기본공제 20·연말 배당락 20·공매도 재개 20·삼성전자 3분기 확정실적 20·코스피 사이드카 20 FAIL"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-17]",
+          "status": "note",
+          "type": "note",
+          "monthly_search_volume": "KODEX 200 89,000(153편 채택) / TIGER 미국S&P500 95,100(기존 글) / TIGER 나스닥100 21,450(다음 후보, 보수·분배·구성 각도) / 삼성전자 배당금 320,000·SK하이닉스 배당금 7,590·삼성전자 배당 지급일 1,210(초안 있음) / KODEX 200 분배금 100·배당금 270 FAIL / 삼성전자 시가총액 3,800 / 고배당주 ETF 970·삼성전자 분기배당 940 / 미국 중간선거 증시·FOMC 일정·공모주 환불일·신용융자 이자율·해외주식 손실 상계·주식 양도세 손실·국민연금 배당·엔비디아 배당·코스피 200 구성종목·SOL 미국배당 FAIL"
         }
       ]
     }
