@@ -3057,7 +3057,7 @@
       "type": "종목·상품 사실·시의성(10월 말 분배 기준일)",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "89000 (PC 22200 / 모바일 66800, 2026-10-17 실측)",
+      "monthly_search_volume": "89000 (PC 22200 / 모바일 66800)",
       "gate1_pass": true,
       "primary_source": "삼성자산운용 월간 자료(2026-06-30·2026-01-31)와 etfshopping 지급 이력 일치. 원문 PDF 직접 접속 불가. 2026.7월 183원은 집계 사이트 단독, 10월 기준일·지급일은 과거 패턴 추정",
       "status": "drafted",

@@ -4,7 +4,7 @@ title: KODEX 200 뜻과 보수·분배금 일정
 slug: kodex-200-fee-dividend-schedule
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 89000 (PC 22200 / 모바일 66800, 2026-10-17 실측) / 보조 키워드 KODEX 200 배당금 270·KODEX 200 분배금 100은 기준 미달이라 제목 키워드로 쓰지 않음
+monthly_search_volume: 89000 (PC 22200 / 모바일 66800)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-17 - 통과] 월 89,000으로 v4 대상. WebSearch(미국 기준, 참고용) 결과에 삼성자산운용 공식 월간 자료, etfshopping·funetf 같은 ETF 조회 서비스, bullstory.io 같은 소규모 콘텐츠 사이트가 섞여 있어 진입 여지 있음. 검색 의도 일부는 실시간 시세 조회지만 "뜻·보수·분배금"을 함께 찾는 의도가 따로 있어 시세 단독 키워드는 아님(TIGER 미국S&P500 글과 같은 상품명 키워드 접근).
