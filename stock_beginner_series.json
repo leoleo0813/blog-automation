@@ -3076,7 +3076,7 @@
       "type": "종목·상품 사실·시의성(10월 말 분배 기준일)",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "21450 (2026-10-17 실측)",
+      "monthly_search_volume": "20580 (PC 5380 / 모바일 15200)",
       "gate1_pass": true,
       "primary_source": "미래에셋 공지·언론 4곳 총보수 0.0068% 일치, 분배금 Investing.com·FunETF·운용사 공지 정리글 일치. 원문 직접 접속 불가(세션 차단). 10월 일정은 1·4·7월 패턴 추정, 117,648억원·구성 합계는 단독 출처 표시",
       "status": "drafted",

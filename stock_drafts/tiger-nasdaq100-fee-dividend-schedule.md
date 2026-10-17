@@ -4,8 +4,8 @@ title: TIGER 미국나스닥100 보수와 분배금 일정
 slug: tiger-nasdaq100-fee-dividend-schedule
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 20580 (PC 5380 / 모바일 15200)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-17 - 통과] 10/17 실측 월 21,450(5,000 이상)이라 v4 대상. WebSearch(미국 기준, 참고용) 결과에 funetf·etfshopping 같은 ETF 조회 서비스, bullstory.io·withwriter.com·songpapa.com 같은 개인·소규모 블로그, 운용사 공식 페이지가 섞여 있어 진입 여지 있음(탈락조건 1 해당 없음). 검색 의도 일부는 시세 조회지만 "보수·분배금·구성"을 함께 찾는 정보 탐색형(탈락조건 2 해당 없음). 상위 글은 보수·구성 나열이 많고 2026년 분배금 회차별 표, 1,000만 원 기준 보수 계산, 10월 말 마지막 매수일, 매매차익 과세 계산을 한 곳에 묶은 글은 못 찾음(탈락조건 3 해당 없음).
 unique_asset: |
