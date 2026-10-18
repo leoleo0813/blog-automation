@@ -3114,7 +3114,7 @@
       "type": "종목·ETF 분배 사실·시의성",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "6080 (2026-10-18 실측)",
+      "monthly_search_volume": "5860 (PC 1780 / 모바일 4080)",
       "gate1_pass": true,
       "serp_check": "2026-10-18 게이트2 v4 통과: 최근 4회 분배금+10/28 마지막 매수일 달력+1,000좌 세후+보수 비교",
       "status": "drafted",

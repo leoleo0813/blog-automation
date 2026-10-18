@@ -4,7 +4,7 @@ title: KODEX 미국반도체 분배금 금액과 마지막 매수일
 slug: kodex-us-semiconductor-distribution-fee
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 6080 (PC 확인필요 / 모바일 확인필요, 2026-10-18 실측)
+monthly_search_volume: 5860 (PC 1780 / 모바일 4080)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-18 - 통과] 10/18 실측 월 6,080(5,000 이상)이라 v4 대상. WebSearch(미국 기준, 참고용) 결과에 FunETF·etfshopping 같은 조회 서비스, 삼성자산운용 공지, unjena·bebeyam 같은 개인 블로그가 섞여 있어 진입 여지 있음(탈락조건 1 해당 없음). 검색 의도 일부는 분배금 조회지만 "10월에 며칠까지 사야 받나", "세후 얼마", "보수가 S&P500 상품보다 얼마나 큰가"는 조회 화면이 한 장으로 답하지 못함(탈락조건 2 해당 없음). 최근 4회 금액 + 10월 마지막 매수일 달력 + 1,000좌 세후 계산 + 보수 비교를 한 글에 묶은 곳은 확인되지 않음(탈락조건 3 해당 없음).
