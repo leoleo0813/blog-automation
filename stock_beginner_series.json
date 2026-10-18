@@ -3095,7 +3095,7 @@
       "type": "종목·상품 사실·시의성(10월 말 분배 기준일)",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "monthly_search_volume": "56600 (2026-10-18 실측)",
+      "monthly_search_volume": "56600 (PC 15900 / 모바일 40700)",
       "gate1_pass": true,
       "primary_source": "삼성자산운용 분배금 공지 4건(379800 행)과 FunETF 최근 1년 합계 479원 일치, 총보수 0.0062% 언론 4곳 일치. 원문 직접 접속 불가(세션 차단). 10월 일정은 2025년 패턴+결제 2영업일 추정, 실부담비용·순자산은 단독 출처 표시",
       "status": "drafted",

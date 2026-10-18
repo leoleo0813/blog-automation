@@ -4,8 +4,8 @@ title: KODEX 미국S&P500 분배금 받는 순서와 금액
 slug: kodex-sp500-distribution-steps
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 56600 (PC 15900 / 모바일 40700)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-18 - 통과] 10/18 실측 월 56,600(5,000 이상)이라 v4 대상. WebSearch(미국 기준, 참고용) 결과에 FunETF·FnGuide·vuedot 같은 ETF 조회 서비스, unjena·bebeyam·itstheradio 같은 개인·소규모 블로그, 운용사 공지·뉴스룸이 섞여 있어 진입 여지 있음(탈락조건 1 해당 없음). 검색 의도 일부는 시세·분배금 조회지만 "언제까지 사야 받나", "세후 얼마", "보수와 실부담 차이"는 조회 화면이 한 장으로 답하지 못함(탈락조건 2 해당 없음). 상위 결과는 공지 표 단순 나열이거나 월배당 상품 정리글이라 최근 4회 금액 + 10월 마지막 매수일 달력 + 100좌 세후 계산을 한 글에 묶은 곳은 없음(탈락조건 3 해당 없음).
 unique_asset: |
