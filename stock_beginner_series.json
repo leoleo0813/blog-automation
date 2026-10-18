@@ -3104,6 +3104,25 @@
       "gate_pass": true,
       "gate_pass_note": "게이트1 56,600, 게이트2 v4 통과, 게이트3 분배금 표·세후 계산·일정·보수 계산, 게이트4 공지·집계 일치(한계 공개)",
       "refresh_due": "2026-11-06"
+    },
+    {
+      "id": 156,
+      "order": 156,
+      "title": "KODEX 미국반도체 분배금 금액과 마지막 매수일",
+      "slug": "kodex-us-semiconductor-distribution-fee",
+      "keyword": "KODEX 미국반도체",
+      "type": "종목·ETF 분배 사실·시의성",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "6080 (2026-10-18 실측)",
+      "gate1_pass": true,
+      "serp_check": "2026-10-18 게이트2 v4 통과: 최근 4회 분배금+10/28 마지막 매수일 달력+1,000좌 세후+보수 비교",
+      "status": "drafted",
+      "draft_path": "stock_drafts/kodex-us-semiconductor-distribution-fee.md",
+      "gate_pass": true,
+      "drafted_at": "2026-10-18",
+      "refresh_due": "2026-11-06",
+      "cannibalization_note": "155편 KODEX 미국S&P500 분배금 글과 같은 운용사 분배 구조이나 상품·금액·보수·업종 ETF 분배율 해석이 다름"
     }
   ],
   "backlog": {
@@ -6804,6 +6823,18 @@
           "status": "note",
           "type": "note",
           "monthly_search_volume": "KODEX 미국S&P500 56,600(155편 채택) / KODEX 레버리지 16,840(140편과 겹침) / 현대차 배당금 14,930(날짜·금액 블로그뿐이라 보류, 이사회 결의 공시 뒤 재검토) / 삼성전자 우선주 배당금 5,170 / 월배당 ETF 4,280 / KODEX 미국반도체 6,080 / TIGER 반도체 5,500 / ACE 미국나스닥100 6,270 / 배당락일 3,300 / KB금융 배당금 1,460 / 신한지주 배당금 870 / 네이버 배당금 20·카카오 배당 50·리츠 배당금 30·서머타임 종료 미국주식 20 FAIL"
+        },
+        {
+          "keyword": "KODEX 미국반도체",
+          "monthly_search_volume": "6,080 (2026-10-18 실측)",
+          "type": "새 글",
+          "status": "drafted 156편 (2026-10-18, gate_pass:true)",
+          "slug": "kodex-us-semiconductor-distribution-fee"
+        },
+        {
+          "keyword": "[후보 메모 2026-10-18 2차]",
+          "note": "ACE 미국나스닥100 6,270은 보수·2026 지급일이 출처마다 달라 보류(운용사 공지 확인 필요), TIGER 반도체 5,500·KB금융 배당금 1,460 대기, 삼성전자 우선주 배당금 5,170은 66편(삼성전자우) 갱신으로 처리 가능",
+          "monthly_search_volume": null
         }
       ]
     }
