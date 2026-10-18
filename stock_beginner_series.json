@@ -3085,6 +3085,25 @@
       "gate_pass": true,
       "gate_pass_note": "게이트1 21,450, 게이트2 v4 통과, 게이트3 분배금 표·보수 계산·일정·과세 계산, 게이트4 다수 출처 일치(한계 공개)",
       "refresh_due": "2026-11-06"
+    },
+    {
+      "id": 155,
+      "order": 155,
+      "title": "KODEX 미국S&P500 분배금 받는 순서와 금액",
+      "slug": "kodex-sp500-distribution-steps",
+      "keyword": "KODEX 미국S&P500",
+      "type": "종목·상품 사실·시의성(10월 말 분배 기준일)",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "56600 (2026-10-18 실측)",
+      "gate1_pass": true,
+      "primary_source": "삼성자산운용 분배금 공지 4건(379800 행)과 FunETF 최근 1년 합계 479원 일치, 총보수 0.0062% 언론 4곳 일치. 원문 직접 접속 불가(세션 차단). 10월 일정은 2025년 패턴+결제 2영업일 추정, 실부담비용·순자산은 단독 출처 표시",
+      "status": "drafted",
+      "draft_path": "stock_drafts/kodex-sp500-distribution-steps.md",
+      "cannibalization_note": "TIGER 미국S&P500(64편)은 구성·수익률, 국내상장 해외ETF 세금(23편)은 일반론. 이 글은 KODEX 상품의 분배 일정·금액·세후 계산.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 56,600, 게이트2 v4 통과, 게이트3 분배금 표·세후 계산·일정·보수 계산, 게이트4 공지·집계 일치(한계 공개)",
+      "refresh_due": "2026-11-06"
     }
   ],
   "backlog": {
@@ -6779,6 +6798,12 @@
           "angle": "1,000만원 보수 계산, 2026년 분배금 3회 표, 10월 28일 마지막 매수일, 분배금·차익 과세",
           "status": "drafted 154편 (2026-10-17, gate_pass:true)",
           "slug": "tiger-nasdaq100-fee-dividend-schedule"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-18]",
+          "status": "note",
+          "type": "note",
+          "monthly_search_volume": "KODEX 미국S&P500 56,600(155편 채택) / KODEX 레버리지 16,840(140편과 겹침) / 현대차 배당금 14,930(날짜·금액 블로그뿐이라 보류, 이사회 결의 공시 뒤 재검토) / 삼성전자 우선주 배당금 5,170 / 월배당 ETF 4,280 / KODEX 미국반도체 6,080 / TIGER 반도체 5,500 / ACE 미국나스닥100 6,270 / 배당락일 3,300 / KB금융 배당금 1,460 / 신한지주 배당금 870 / 네이버 배당금 20·카카오 배당 50·리츠 배당금 30·서머타임 종료 미국주식 20 FAIL"
         }
       ]
     }
