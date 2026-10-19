@@ -4,8 +4,8 @@ title: 크리에이츠 티앤이코리아 공모주 청약 일정
 slug: creates-tne-korea-ipo-schedule
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 1390 (PC 300 / 모바일 1090)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-19 - 통과] 월 1,390은 5,000 미만이라 v3 기준.
   WebSearch(미국 기준, 참고용) "크리에이츠 공모주", "티앤이코리아 공모가 청약 일정" 상위: 뉴스핌·이데일리·뉴스토마토·아시아경제 등 언론 속보, 38커뮤니케이션·etfshopping 같은 공모 정보 서비스, glasswallet·alphasquare 인사이트·tmsstory 같은 소규모 콘텐츠 사이트와 개인 블로그가 섞여 있음.
