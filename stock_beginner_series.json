@@ -3123,6 +3123,27 @@
       "drafted_at": "2026-10-18",
       "refresh_due": "2026-11-06",
       "cannibalization_note": "155편 KODEX 미국S&P500 분배금 글과 같은 운용사 분배 구조이나 상품·금액·보수·업종 ETF 분배율 해석이 다름"
+    },
+    {
+      "id": "157",
+      "order": 157,
+      "title": "크리에이츠 티앤이코리아 공모주 청약 일정",
+      "slug": "creates-tne-korea-ipo-schedule",
+      "keyword": "크리에이츠 공모주",
+      "type": "지금 이슈(공모주 청약 10/20~21)",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1390 (크리에이츠 공모주, 2026-10-19 실측) / 티앤이코리아 공모주 620",
+      "gate1_pass": true,
+      "serp_check": "v3 통과(2026-10-19), 소규모 콘텐츠 사이트 섞임, 두 종목 통합 증거금·균등 가정 계산 정보이득",
+      "unique_asset_plan": "주수별 증거금 계산표, 공모 조건 비교표, 균등 배정 가정 계산, 첫날 호가 범위, 일정·기관 경쟁률 그림 2장",
+      "primary_source": "언론 교차(뉴스핌·아시아경제·뉴스프라임·이데일리·디일렉·IB토마토) + 공모 정보 사이트(38커뮤니케이션·etfshopping). 원문 WebFetch 불가",
+      "status": "drafted",
+      "draft_path": "stock_drafts/creates-tne-korea-ipo-schedule.md",
+      "cannibalization_note": "10월 공모주 일정(133편, 발행 전)은 15곳 월간 달력, 이 글은 두 종목 증거금·조건 비교. 44편은 계산 원리, 150편(엘리스그룹)은 결과 글",
+      "gate_pass": true,
+      "gate_pass_note": "공모가·경쟁률은 언론 4~5곳 일치. 청약 증권사·일반청약 물량·티앤이코리아 상장일은 1곳 표기라 본문에 한계 표시. refresh_due 2026-10-22(청약 결과 반영)",
+      "created_at": "2026-10-19"
     }
   ],
   "backlog": {
@@ -4004,6 +4025,11 @@
         "keyword": "[후보 실측 2026-10-16 2차] 삼성전자 자사주 5,530(152편 채택) / 삼성전자 자사주 소각 2,900(152편에서 함께 다룸) / 바로팜 13,490(공모주 11/2~3 청약, 일정은 단일 출처라 보류) / 11월 공모주 660 / 자사주 매입 뜻 480·삼성전자 자사주 매입 20·바로팜 공모주 50·삼성전자 주주환원 20·주식 연말 폐장일 20 FAIL",
         "monthly_search_volume": null,
         "hold_reason": "note"
+      },
+      {
+        "keyword": "[후보 실측 2026-10-19] 크리에이츠 공모주 1,390(157편 채택) / 티앤이코리아 공모주 620(157편에서 함께 다룸) / 엠비디 공모주 580 / KODEX 코스닥150 49,790 / KODEX 미국나스닥100 27,060 / ACE 미국S&P500 15,170 / TIGER 미국테크TOP10 4,200 / 삼성전자 우선주 201,730(66편 삼성전자우가 이미 발행, 현재가 캡처 필요) / KODEX 미국배당프리미엄액티브 50·TIGER 미국S&P500 배당 140·연말정산 주식 70·미국 중간선거 증시 20 FAIL",
+        "monthly_search_volume": null,
+        "hold_reason": "note. KODEX 미국나스닥100은 총보수가 0.0062%(2025-02 보도)와 0.12%(etfshopping 2026-07)로 엇갈리고 2026-04분 분배금 미확인이라 보류(분기 83원·68원·63원 확인, 4회 합 282원 FunETF). KODEX 코스닥150은 분배 연 1회 44원, 보수 원문 없음. 다음 후보 우선순위: KODEX 미국나스닥100(보수 확정 시)·KODEX 코스닥150·ACE 미국S&P500"
       }
     ],
     "failed_gate1": [
@@ -6835,6 +6861,13 @@
           "keyword": "[후보 메모 2026-10-18 2차]",
           "note": "ACE 미국나스닥100 6,270은 보수·2026 지급일이 출처마다 달라 보류(운용사 공지 확인 필요), TIGER 반도체 5,500·KB금융 배당금 1,460 대기, 삼성전자 우선주 배당금 5,170은 66편(삼성전자우) 갱신으로 처리 가능",
           "monthly_search_volume": null
+        },
+        {
+          "keyword": "크리에이츠·티앤이코리아 공모주 청약",
+          "monthly_search_volume": "1,390 / 620 (2026-10-19 실측)",
+          "type": "새 글(지금 이슈)",
+          "status": "drafted 157편 (2026-10-19, gate_pass:true)",
+          "slug": "creates-tne-korea-ipo-schedule"
         }
       ]
     }
