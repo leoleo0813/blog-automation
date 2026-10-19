@@ -12,29 +12,17 @@ serp_check: |
   → 탈락조건 1~3 모두 미해당.
 unique_asset: |
   (a) 만기 후 선택지 3가지(인출·재가입·연금계좌 이전) 비교표와 만기 정산 세금 계산(순소득 700만원: 일반형 49.5만원, 서민형 29.7만원).
-  (b) 60일 일정 그림과 만기일 2026-12-10 가상 예시(60일째 2027-02-08), 입금 연도(12/31 전후)에 따른 공제 연도 차이.
+  (b) 시행령 원문 기준 60일 일정 그림과 만기일 2026-12-10 가상 예시(60일째 2027-02-08), 입금 연도(12/31 전후)에 따른 공제 연도 차이.
   (c) 3,000만원 이전 시 소득 구간별 환급 합계 그림(16.5% 구간 198.0만원, 13.2% 구간 158.4만원).
 primary_source: |
   재사용 검증값: ISA 비과세 한도(일반형 200만원, 서민형·농어민형 400만원)·초과분 9.9% 분리과세는 3편 검증값(조세특례제한법 제91조의18, 2026-09-04 화면 확인). 연금계좌 세액공제 한도 900만원·공제율 15%/12%(지방소득세 포함 16.5%/13.2%)·소득 기준 4,500만원(총급여 5,500만원)·ISA 만기 전환 10%·300만원은 8편·75편 검증값 재사용(국세청 안내 캡처 기준일 2026-09). 기타소득세 16.5%는 70편 검증값.
-  새로 확인한 것은 "만기(해지) 후 60일 이내 입금" 조건 하나뿐이며, 한국경제(2026-07)·머니투데이(2026-06) 등 언론과 증권사 안내가 60일로 일치하나 법령 원문은 열지 못함(WebFetch hankyung.com getaddrinfo ENOTFOUND). 기산일이 만기일인지 해지일인지 안내마다 달라 gate_pass:false.
+  60일 조건: 소득세법 시행령 제118조의2 제3항(시행 2026-10-01, 대통령령 제36737호, 2026-09-30 일부개정, 사용자 제공 원문 2026-10-19 대조) "계약기간이 만료된 날부터 60일 이내". 연도 걸친 납입 한도는 같은 시행령 제40조의2 제2항 제1호 나목. 언론(한국경제 2026-07, 머니투데이 2026-06)은 보조 확인용.
 기준일: 2026년 10월 기준
 refresh_due: 2026-12-10
 tags: ISA만기, ISA만기자금, ISA연금계좌이전, 연금저축, IRP, 세액공제, ISA비과세, 연말정산, 절세계좌, 개인종합자산관리계좌
-gate_pass: false
+gate_pass: true
 gate_pass_note: |
-  게이트1·2·3 충족. 60일 기한의 기산일(만기일 vs 해지일) 안내가 엇갈려 법령 원문 확인 전에는 보류. 사용자 할 일은 아래 user_todo 참고. 확인되면 본문 해당 문장 1곳과 그림1 하단 문구만 고치고 gate_pass:true로 바꾼다.
-user_todo:
-  why: ISA 만기자금을 연금계좌로 옮기는 60일이 만기일부터인지 해지일부터인지 언론마다 달라서 법령 원문으로 못 박지 못했습니다
-  steps:
-    - "국가법령정보센터 소득세법 시행령 열기: https://www.law.go.kr/법령/소득세법시행령 → 화면 위 '조문' 검색창에 '개인종합자산관리계좌'를 입력하고 검색"
-    - "검색된 조문 중 '계약기간 만료일' 또는 '해지'와 '60일'이 같이 나오는 항목을 눌러 해당 문단이 보이게 화면 캡처"
-    - "캡처를 대화에 올리고 'N편 자료'라고 적기(N은 이 글 번호 151)"
-  must_show:
-    - "60일의 기산일이 '계약기간 만료일'인지 '해지일'인지 적힌 문장"
-    - "조문 번호와 시행일"
-  minutes: 5
-  device: PC 권장
-  if_skipped: "안 하면 이 글은 발행 대기로 남습니다. 대안으로 본문의 기산일 문장을 '금융사 안내 기준으로 만기(또는 해지)일부터 60일'로 두고 그대로 발행할 수도 있습니다"
+  [2026-10-19] 사용자가 올린 소득세법 시행령 원문(시행 2026-10-01, 대통령령 제36737호)으로 게이트4 해소. 제118조의2 제3항이 "개인종합자산관리계좌의 계약기간이 만료된 날부터 60일 이내"에 잔액 전부 또는 일부를 연금계좌로 납입한 경우를 전환으로 정의한다. 기산일은 계약기간 만료일이다.
 figure_plan: |
   2장. 그림1은 60일 일정 타임라인(시간 순서), 그림2는 소득 구간별 환급 막대(크기 비교). 보여 주는 정보가 다르다. 만기 후 선택지 표와 만기 정산 세금 표는 숫자를 읽어야 해서 표로 둠.
 self_check: |
@@ -45,12 +33,12 @@ self_check: |
   글 구조 유형: 절차형(본문 주 골격이 ol 단계, 단계마다 짧은 H3). 첫 H2의 첫 블록은 번호 목록(ol).
   어투 모드: B 대화형(해요체, 독자에게 묻는 문장 3개). 꾸며낸 1인칭 경험 없음. 섹션마다 20자 이하 짧은 문장 포함.
   AI 티 점검: em대시 0개, 다만 0회, mark 밀도 4개, FAQ 4개, H2 5개 중 "~나요"형 1개. 박스 청록(#eef7f9/#2a8aa0), 제목 "⏱ 만기 전에 챙길 숫자".
-  기관 링크: 안내 문장·출처 목록 전부 링크 처리. 내부 링크 6개(3·8·67·70·71·75편), 모두 published.
+  게이트4: 2026-10-19 시행령 원문 대조 후 gate_pass:true. 기관 링크: 안내 문장·출처 목록 전부 링크 처리. 내부 링크 6개(3·8·67·70·71·75편), 모두 published.
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-16</p>
 
-<p>ISA 만기가 다가오면 먼저 60일이라는 숫자부터 챙겨야 해요. 만기자금을 연금저축이나 IRP로 60일 안에 옮기면 옮긴 금액의 10%, 최대 300만원이 그해 세액공제 한도에 더해집니다.</p>
+<p>ISA 만기가 다가오면 먼저 60일이라는 숫자부터 챙겨야 해요. 만기자금을 계약기간 만료일부터 60일 안에 연금저축이나 IRP로 옮기면 옮긴 금액의 10%, 최대 300만원이 그해 세액공제 한도에 더해집니다.</p>
 
 <div style="background:#eef7f9;border:2px solid #2a8aa0;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#1d6173;font-size:18px;">⏱ 만기 전에 챙길 숫자</strong>
@@ -103,9 +91,11 @@ self_check: |
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2a8aa0;padding-left:12px;margin-top:36px;">연금계좌로 옮기는 60일 순서</h2>
 
-<p>연금계좌 이전은 만기(또는 해지) 뒤 60일 안에 입금을 끝내는 일정 싸움입니다. 보도와 증권사 안내는 같은 60일을 말하지만 기산일은 만기일이라는 설명과 해지일이라는 설명이 섞여 있어요.</p>
+<p>연금계좌 이전은 계약기간 만료일부터 60일 안에 입금을 끝내는 일정 싸움입니다. <a href="https://www.law.go.kr" target="_blank" rel="noopener">소득세법 시행령</a> 제118조의2 제3항이 "ISA 계약기간이 만료된 날부터 60일 이내에 잔액의 전부 또는 일부를 연금계좌로 납입한 경우"를 전환으로 정의합니다.</p>
 
-<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/isa-maturity-pension-transfer-options-1.png" alt="ISA 만기일 2026년 12월 10일부터 60일째인 2027년 2월 8일까지 연금계좌 입금 흐름 타임라인" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국경제 2026년 7월·머니투데이 2026년 6월 보도 기준 60일, 날짜는 가상 예시</figcaption></figure>
+<p>만료 전에 해지하고 옮기는 경우의 기산일은 이 조문에 따로 나오지 않아요. 해지 후 이전은 거래 금융사의 안내를 따르는 쪽이 안전합니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/isa-maturity-pension-transfer-options-1.png" alt="ISA 만기일 2026년 12월 10일부터 60일째인 2027년 2월 8일까지 연금계좌 입금 흐름 타임라인" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 소득세법 시행령 제118조의2 제3항(2026년 10월 1일 시행), 날짜는 가상 예시</figcaption></figure>
 
 <h3>1단계. 연금저축·IRP 계좌를 먼저 열어 두기</h3>
 
@@ -113,7 +103,7 @@ self_check: |
 
 <h3>2단계. ISA 만기 처리와 현금화</h3>
 
-<p>해지하거나 만기 처리해 현금으로 만든 뒤 입금한다는 안내가 많습니다. 보유 종목이 있다면 팔아 현금으로 바꾸는 날짜를 일정에 넣어야 하죠.</p>
+<p>만료일 기준 잔액이 전환 가능 금액의 기준이 됩니다. 금융사 안내에 따라 보유 종목을 현금으로 바꿔 입금해야 할 수 있으니 그 날짜를 일정에 넣어 두세요.</p>
 
 <h3>3단계. 연금계좌로 입금</h3>
 
@@ -150,6 +140,7 @@ self_check: |
 <ul>
   <li>12월 31일 전에 입금: 그해 연말정산(이듬해 2월)에서 공제를 받습니다.</li>
   <li>1월 1일 이후 입금: 새해 납입분으로 잡혀 다음 해 연말정산에서 공제를 받습니다.</li>
+  <li>두 해에 나눠 입금: 둘째 해 한도는 만료일 잔액에서 앞해에 넣은 금액을 뺀 값입니다(시행령 제40조의2 제2항).</li>
 </ul>
 
 <p>올해 이미 900만원 한도를 다 채웠다면 올해 입금분의 추가 한도가 더 알차게 쓰이고, 아직 한도가 남았다면 연도를 나눠 쓰는 쪽이 낫다는 계산도 가능해요. 올해 남은 한도는 <a href="https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit" target="_blank" rel="noopener">세액공제 한도 글</a>의 남은 공제 여지 표로 따져 보세요.</p>
@@ -179,13 +170,14 @@ self_check: |
 <h2 style="border-left:6px solid #2a8aa0;padding-left:12px;margin-top:36px;">만기 직전에 많이 묻는 것들</h2>
 
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">ISA 만기 때 그냥 찾으면 세금이 붙나요?</summary><p>비과세 한도(일반형 200만원, 서민형·농어민형 400만원) 안이면 붙지 않고, 넘는 순소득에만 9.9% 분리과세가 붙습니다.</p></details>
-<details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">60일이 지나면 어떻게 되나요?</summary><p>추가 공제 한도는 받지 못하고 일반 납입으로 처리된다는 안내가 많습니다. 일반 납입은 기본 한도 900만원 안에서만 공제돼요.</p></details>
+<details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">60일이 지나면 어떻게 되나요?</summary><p>시행령이 60일 이내 납입분만 전환금액으로 정의하므로 그 뒤 입금은 추가 한도 대상이 되지 않습니다. 일반 납입으로 보아 기본 한도 900만원 안에서만 공제돼요.</p></details>
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">연금저축과 IRP 중 어디로 옮기나요?</summary><p>둘 다 가능하다고 안내됩니다. IRP는 인출 조건이 더 엄격하니 <a href="https://sensitiveboss3.tistory.com/entry/irp-isa-account-difference" target="_blank" rel="noopener">IRP ISA 차이 글</a>의 비교표를 같이 보세요.</p></details>
 <details style="margin:10px 0;"><summary style="cursor:pointer;font-weight:bold;">옮긴 돈을 중간에 빼면 어떻게 되나요?</summary><p>공제받은 금액과 운용수익에 기타소득세 16.5%가 붙는 것이 원칙입니다. 부득이한 사유는 저율 과세가 적용되기도 해요.</p></details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처 (기준일 2026년 10월):
   <ul style="margin:6px 0 0 0;padding-left:20px;">
+    <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터 - 소득세법 시행령 제118조의2, 제40조의2</a></li>
     <li><a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청 - 연금계좌 세액공제 안내</a></li>
     <li><a href="https://taxlaw.nts.go.kr" target="_blank" rel="noopener">국세법령정보시스템 - 조세특례제한법 제91조의18(ISA)</a></li>
     <li><a href="https://www.fsc.go.kr/po020201/27339" target="_blank" rel="noopener">금융위원회 - ISA 주요정책문답</a></li>
@@ -238,7 +230,7 @@ self_check: |
       "name": "60일이 지나면 어떻게 되나요?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "추가 공제 한도는 받지 못하고 일반 납입으로 처리된다는 안내가 많습니다. 일반 납입은 기본 한도 900만원 안에서만 공제돼요."
+        "text": "시행령이 60일 이내 납입분만 전환금액으로 정의하므로 그 뒤 입금은 추가 한도 대상이 되지 않습니다. 일반 납입으로 보아 기본 한도 900만원 안에서만 공제돼요."
       }
     },
     {

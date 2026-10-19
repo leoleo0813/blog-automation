@@ -6,7 +6,7 @@
 <line x1="120" y1="300" x2="1080" y2="300" stroke="#2a8aa0" stroke-width="6"/>
 <circle cx="120" cy="300" r="22" fill="#2a8aa0"/>
 <text x="120" y="236" font-size="32" font-weight="bold" fill="#2a8aa0" text-anchor="middle">0일</text>
-<text x="120" y="370" font-size="26" fill="#333" text-anchor="middle">만기일·해지일</text>
+<text x="120" y="370" font-size="26" fill="#333" text-anchor="middle">계약 만료일</text>
 <text x="120" y="406" font-size="24" fill="#666" text-anchor="middle">2026-12-10</text>
 <circle cx="440" cy="300" r="22" fill="#2a8aa0"/>
 <text x="440" y="236" font-size="32" font-weight="bold" fill="#2a8aa0" text-anchor="middle">먼저</text>
@@ -22,4 +22,4 @@
 <text x="1080" y="406" font-size="24" fill="#666" text-anchor="middle">2027-02-08</text>
 <rect x="70" y="470" width="1060" height="64" rx="10" fill="#fdecea"/>
 <text x="600" y="512" font-size="26" fill="#a93226" text-anchor="middle" font-weight="bold">입금한 해(연도)에 추가 공제 한도가 붙습니다. 12/31 전후로 갈립니다</text>
-<text x="70" y="590" font-size="22" fill="#888">60일 기준은 금융사·언론 안내 기준이며 기산일(만기일 또는 해지일)은 금융사별로 안내가 다를 수 있음</text></g></svg>
+<text x="70" y="590" font-size="22" fill="#888">자료: 소득세법 시행령 제118조의2 제3항(2026년 10월 1일 시행), 만료일부터 60일 이내</text></g></svg>

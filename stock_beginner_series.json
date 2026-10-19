@@ -3023,12 +3023,12 @@
       "publish_effort": "capture",
       "monthly_search_volume": "1020 (PC 270 / 모바일 750)",
       "gate1_pass": true,
-      "primary_source": "3·8·75·70편 검증값 재사용 + 60일 조건은 언론(한국경제 2026-07, 머니투데이 2026-06)·증권사 안내 일치, 법령 원문 미확인",
+      "primary_source": "소득세법 시행령 제118조의2 제3항·제40조의2 제2항(시행 2026-10-01, 대통령령 제36737호) + 3·8·75·70편 검증값 재사용",
       "status": "drafted",
       "draft_path": "stock_drafts/isa-maturity-pension-transfer-options.md",
       "cannibalization_note": "3편(ISA 한도)·8편(세액공제)·75편(IRP ISA 차이)이 만기 전환을 한 문단씩만 다룸. 이 글은 만기 후 선택지·60일 순서·연도 경계·소득 구간별 환급 합계에 집중하고 6편으로 내부 링크.",
-      "gate_pass": false,
-      "gate_pass_note": "60일 기산일(만기일 vs 해지일) 안내가 엇갈려 법령 원문 확인 전 보류. user_todo 참고."
+      "gate_pass": true,
+      "gate_pass_note": "2026-10-19 소득세법 시행령 제118조의2 제3항 원문(사용자 제공)으로 60일 기산일=계약기간 만료일 확정."
     },
     {
       "id": 152,
@@ -6533,7 +6533,7 @@
           "monthly_search_volume": "1,020 (2026-10-16 실측)",
           "type": "새 글(연말 시즌)",
           "angle": "만기 후 선택지·60일 순서·입금 연도 경계·소득 구간별 환급 합계",
-          "status": "drafted 151편 (2026-10-16, gate_pass:false, 60일 기산일 법령 확인 대기)",
+          "status": "drafted 151편 (2026-10-16, 2026-10-19 gate_pass:true, 시행령 원문 확인)",
           "slug": "isa-maturity-pension-transfer-options"
         },
         {
