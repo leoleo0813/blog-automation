@@ -4,8 +4,8 @@ title: 반도체 ETF 보수 분배금 비교 2026
 slug: semiconductor-etf-kodex-tiger-top10-compare
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 49420 (PC 7220 / 모바일 42200)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-20 - 통과] 10/20 실측 KODEX 반도체 49,420, TIGER 반도체TOP10 53,930(둘 다 5,000 이상이라 v4 대상). WebSearch(미국 기준, 참고용) 상위에 FunETF·etfshopping 같은 조회 서비스, 미래에셋 공식 페이지, valueflake·brunch·unjena 같은 개인 블로그, 언론 기사가 섞여 있어 진입 여지 있음(탈락조건 1 해당 없음). 의도가 시세 조회만은 아니고 보수·분배·구성 비교 수요가 있어 탈락조건 2 해당 없음. 두 상품을 한 표로 비교하고 10월 말 마지막 매수일까지 다룬 글이 상위에 보이지 않아 탈락조건 3 해당 없음.
 unique_asset: |
