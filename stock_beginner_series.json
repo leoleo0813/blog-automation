@@ -2879,7 +2879,7 @@
       "title": "SK하이닉스 실적 발표일 10월 28일과 확인 순서",
       "slug": "skhynix-q3-earnings-check-order",
       "status": "drafted",
-      "monthly_search_volume": "6280 (PC 1380 / 모바일 4900, 2026-10-20 실측)",
+      "monthly_search_volume": "6280 (PC 1380 / 모바일 4900)",
       "gate_pass": true,
       "refresh_due": "2026-10-29",
       "draft": "stock_drafts/skhynix-q3-earnings-check-order.md",

@@ -4,7 +4,7 @@ title: SK하이닉스 실적 발표일 10월 28일과 확인 순서
 slug: skhynix-q3-earnings-check-order
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 6280 (PC 1380 / 모바일 4900, 2026-10-20 실측)
+monthly_search_volume: 6280 (PC 1380 / 모바일 4900)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-20 - 통과] 10/20 실측 월 6,280(5,000 이상)이라 v4 대상. WebSearch(미국 기준, 참고용) 상위는 뉴시스·글로벌이코노믹·딜사이트·inews24·공감신문·스톡플러스 같은 언론·뉴스 사이트이고 공식 IR 페이지는 확인되지 않음.
