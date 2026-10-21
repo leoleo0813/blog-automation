@@ -3186,6 +3186,25 @@
       "cannibalization_note": "KODEX 미국반도체 글은 해외 지수, 이 글은 국내 반도체 지수 두 상품 비교와 10월 분배 일정",
       "gate_pass": true,
       "gate_pass_note": "게이트1 10/20 실측 통과, 게이트2 v4 통과, 게이트4는 집계 서비스 일치(한계 본문 표기)"
+    },
+    {
+      "id": "160",
+      "order": 160,
+      "title": "KODEX 200타겟위클리커버드콜 분배금 일정",
+      "slug": "kodex-200-weekly-covered-call-distribution",
+      "keyword": "KODEX 200타겟위클리커버드콜",
+      "type": "새 글(종목·상품 사실, 월중배당 시의성)",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "40200 (PC 10800 / 모바일 29400)",
+      "gate1_pass": true,
+      "unique_asset_plan": "6·9·10월 분배금·분배율 비교표, 1,000좌 보수 계산, 과세 비중별 세금 시나리오, 10월 실제·11월 추정 일정 타임라인, 그림 2장",
+      "primary_source": "삼성자산운용 월중배당 공지 3건(검색 요약 인용, 원문 직접 접속 불가)·보수 두 곳 일치, 세금은 73편 검증값 재사용",
+      "status": "drafted",
+      "draft_path": "stock_drafts/kodex-200-weekly-covered-call-distribution.md",
+      "cannibalization_note": "73편은 커버드콜 세금 규칙, 63편은 월배당 일반론, 이 글은 한 상품의 분배금·일정·보수",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 10/21 실측 통과, 게이트2 v4 통과, 게이트4 공지 3건 일치(한계 본문 표기)"
     }
   ],
   "backlog": {
@@ -6961,6 +6980,12 @@
           "type": "note",
           "status": "note",
           "angle": ""
+        },
+        {
+          "keyword": "[후보 실측 2026-10-21]",
+          "status": "note",
+          "type": "note",
+          "monthly_search_volume": "KODEX 200타겟위클리커버드콜 40,200(160편 채택) / TIGER 200 19,650 / KODEX 인버스 17,930(40편 곱버스와 겹침 검토) / TIGER 미국필라델피아반도체나스닥 9,090 / 연말정산 소득공제 9,310·연말정산 미리보기 5,430(개념형, 다음 후보) / 삼성전자 우선주 배당금 4,890(66편 갱신 후보) / TIGER 미국테크TOP10 4,360 / 월배당 ETF 4,280 / ETF 분배금 790 / MSCI 편입 110·TIGER 미국배당귀족 20 FAIL"
         }
       ]
     }
