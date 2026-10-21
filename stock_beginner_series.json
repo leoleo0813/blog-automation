@@ -2800,7 +2800,7 @@
       "title": "삼성전자 실적발표일 3분기 잠정과 확정",
       "slug": "samsung-earnings-release-guide",
       "status": "drafted",
-      "monthly_search_volume": "15250 (2026-10-21 실측)",
+      "monthly_search_volume": "15250 (PC 2750 / 모바일 12500)",
       "gate_pass": true,
       "refresh_due": "2026-10-31",
       "draft": "stock_drafts/samsung-earnings-release-guide.md",

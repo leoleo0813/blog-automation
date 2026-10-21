@@ -4,7 +4,7 @@ title: 삼성전자 실적발표일 3분기 잠정과 확정
 slug: samsung-earnings-release-guide
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 15250 (PC 2750 / 모바일 12500, 2026-10-21 실측. 이전 키워드 삼성전자 실적발표 7250)
+monthly_search_volume: 15250 (PC 2750 / 모바일 12500)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v3 판정 2026-10-05 - 통과] WebSearch(미국 기준, 참고용) 상위: 다음뉴스 이슈 모음 / 뉴시스(언론) / bullstory.io(소규모 콘텐츠 사이트, 2건) / 1minutepost.com(개인·소규모) / a-ha.io(Q&A) / 삼성 뉴스룸.
