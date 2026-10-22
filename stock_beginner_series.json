@@ -3224,6 +3224,25 @@
       "cannibalization_note": "126편 삼성전자·128편 SK하이닉스 배당 글과 종목이 다름, 이 글은 현대차 분기·결산 구조와 우선주 금액",
       "gate_pass": true,
       "gate_pass_note": "게이트1 10/22 실측 통과, 게이트2 v4 통과, 게이트4 언론 2곳 이상 일치+현대차 IR 공고, refresh_due 2026-10-30(3분기 결정 공시 반영)"
+    },
+    {
+      "id": "162",
+      "order": 162,
+      "title": "PLUS 고배당주 월 분배금과 총보수 2026",
+      "slug": "plus-high-dividend-monthly-distribution-fee",
+      "keyword": "PLUS 고배당주",
+      "type": "새 글(종목·상품 사실, 10월 말 월분배 기준일 시의성)",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "22430 (PC 6130 / 모바일 16300)",
+      "gate1_pass": true,
+      "unique_asset_plan": "최근 12회 지급일별 분배금 표·막대 그림(78→86→103원), 100주 세후·연 2천만 원 환산·총보수 계산표, 10월 기준일 타임라인 그림 2장",
+      "primary_source": "한화자산운용 상품 페이지·월간운용보고서 검색 요약 + funetf·zeroin 집계 일치, 세금은 배당소득세 글 검증값 재사용",
+      "status": "drafted",
+      "draft_path": "stock_drafts/plus-high-dividend-monthly-distribution-fee.md",
+      "cannibalization_note": "63편 월배당 ETF 뜻은 일반 개념, 이 글은 PLUS 고배당주 한 상품의 지급 이력. KODEX 200·TIGER 나스닥100 글과 다른 상품",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 10/22 실측 22,430, 게이트2 v4 통과, 게이트4 공식 요약+집계 사이트 일치(원문 직접 접속 불가), refresh_due 2026-11-06"
     }
   ],
   "backlog": {
@@ -7018,6 +7037,18 @@
           "status": "note",
           "type": "note",
           "monthly_search_volume": "현대차 배당금 14,210(161편 채택) / 삼성전자우 배당금 12,150(66편이 우선주 다룸, 갱신 후보) / TIGER 200 19,650 / KODEX 인버스 17,930(40편 곱버스와 겹침) / 연말정산 소득공제 9,310·연말정산 미리보기 5,430(개념형, 다음 후보) / TIGER 미국필라델피아반도체나스닥 9,090 / 테슬라 실적발표 3,060 / SOL 미국배당미국채혼합50 2,170 / KB금융 배당금 1,550 / 코스피 5000 950 / 삼성전자 우선주 배당일 110·미국 3분기 실적 발표 일정 20·미국 연말정산 해외주식 양도세 20·주식 양도세 손익통산 20 FAIL"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-22 2차]",
+          "status": "note",
+          "type": "note",
+          "monthly_search_volume": "PLUS 고배당주 22,430(162편 채택) / TIGER 200 19,360(분배 이력 단독 출처, 다음 후보) / ACE 미국S&P500 15,240 / TIGER 리츠부동산인프라 9,980 / SOL 미국배당다우존스 8,080 / KODEX 삼성그룹 4,460 / TIGER 미국테크TOP10 4,230 / TIGER 코리아배당다우존스 2,300 / TIGER 코스피 2,270 / 주식 결제주기 단축 500 / KODEX 고배당 100·KODEX 200 TIGER 200 20 FAIL"
+        },
+        {
+          "keyword": "생산자물가지수(107편)",
+          "status": "done 107편 갱신 (2026-10-22)",
+          "type": "발행 글 갱신",
+          "done_note": "9월 잠정치(129.78, +0.2%, +7.7%)·소비자물가 2.9%로 표·그림 2장 교체, refresh_due 2026-11-24. 98편 달러인덱스·119편 공포탐욕지수는 데이터 미확보로 보류 유지"
         }
       ]
     }
