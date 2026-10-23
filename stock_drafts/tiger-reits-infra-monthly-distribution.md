@@ -4,7 +4,7 @@ title: TIGER 리츠부동산인프라 월 분배금과 보수 2026
 slug: tiger-reits-infra-monthly-distribution
 keyword_class: human-assisted
 publish_effort: capture
-monthly_search_volume: 10050 (2026-10-23 실측)
+monthly_search_volume: 9950 (PC 2650 / 모바일 7300)
 gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-23 - 통과] TIGER 리츠부동산인프라 월 10,050(2026-10-23 실측)으로 v4 대상. WebSearch(미국 기준, 참고용) 상위에 미래에셋 공식 상품 페이지, funetf·k-etf·한경 마켓 같은 조회 서비스, treeinsight·realbuy·bebeyam·tmsstory 같은 개인·소규모 블로그가 섞여 있어 진입 여지 있음.
