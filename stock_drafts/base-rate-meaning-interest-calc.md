@@ -26,7 +26,7 @@ primary_source: |
   2025-05 2.75%→2.50% 인하 후 2026-05-28까지 8연속 동결: 서울신문(4/10 7연속, 5/28 8연속), 뉴스핌 5/28, 한국금융신문 2025-11-27 4연속, 금통위 1월 동결 보도가 일치.
   금통위 7인 구성·총재 의장·연 8회: 한국은행 금통위 안내(검색 결과 요약)와 이투데이, 위키백과, KB의 생각 사전이 일치. 2026년 결정일 8개: 일정 정리 사이트 1곳과 이투데이 "다음 금통위는 10월22일" 기사, 결과 확인된 개별 날짜 기사들이 일치(11월 26일은 정리 사이트 1곳만 확인).
   2024년 11월 3.00%, 2025년 2월 2.75%는 "3%대 복귀 1년 9개월" 기사와 3회 인하(2024년 10·11월, 2025년 2월) 보도로 추론 가능한 값.
-기준일: 2026년 10월 기준 (2026-08-27 결정 반영, 이자 계산은 가상)
+기준일: 2026년 10월 23일 기준 (2026-10-22 금통위 동결 반영, 이자 계산은 가상)
 tags: 기준금리 뜻, 기준금리란, 한국은행 기준금리, 금통위, 금융통화위원회, 기준금리 인상, 기준금리 3%, 기준금리 대출이자, 기준금리 예금이자, 금리 계산
 gate_pass: true
 gate_pass_note: |
@@ -48,18 +48,19 @@ self_check: |
   얇았던 H2 "기준금리 확인하는 곳" 삭제, 끝 요약 박스 "정리하면"(인트로·박스 반복) 삭제.
   "기준금리가 주식시장에 전해지는 길" H2 추가(할인율·예금 비교·이자비용·금융업, 방향 예측 없음). 그림 1장(계단형 그래프).
   FAQ 헤딩 "걸리는" 제거, FAQ 5개 유지(109편 4개·118편과 다르게). '확인하세요'류 3→0. 내부 링크 4개(4·47·100·105편 발행 완료).
-refresh_due: 2026-10-23
-refresh_reason: "10월 22일 금통위 결정 결과를 경과표·그래프·인트로에 반영"
+  [2026-10-23 갱신] 10/22 금통위 연 3.00% 동결(7인 만장일치)을 뉴스1·머니투데이·한국금융신문 3곳 보도로 확인(한국은행 원문은 접속 불가). 인트로·박스·경과표·일정표·그래프·시장 경로 문단·FAQ 갱신, 11/26 결과용 refresh_due. 방향 예측 없음. 기관 링크 출처 3개 추가. AI 티 점검: em대시 0개.
+refresh_due: 2026-11-27
+refresh_reason: "11월 26일 금통위 결정 결과를 경과표·그래프·인트로에 반영"
 figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 표는 이자 계산·회의 일정이라 표가 읽기 쉬움"
 ---
 
-<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-05</p>
+<p style="font-size:13px;color:#888;">최종 검토일: 2026-10-23</p>
 
-<p>한국은행 기준금리는 2026년 8월 27일 연 2.75%에서 연 3.00%로 올랐습니다. 두 달 연속 0.25%p씩 올린 결과이고, 다음 결정은 10월 22일입니다. 금리가 0.25%p 움직이면 대출 3억 원의 연 이자가 75만 원 달라지는 식으로, 내 이자에 닿는 크기는 원금 × 변화폭으로 바로 어림할 수 있습니다.</p>
+<p>한국은행 금융통화위원회는 2026년 10월 22일 기준금리를 연 3.00%로 동결했습니다. 7월과 8월 두 달 연속 0.25%p씩 올린 뒤 처음 쉬어 간 것이고, 다음 결정은 11월 26일입니다. 금리가 0.25%p 움직이면 대출 3억 원의 연 이자가 75만 원 달라지는 식으로, 내 이자에 닿는 크기는 원금 × 변화폭으로 바로 어림할 수 있습니다.</p>
 
 <div style="background:#fdf1ea;border:2px solid #c2603a;border-radius:10px;padding:16px 20px;margin:24px 0;">
-  <strong style="color:#8a3d1c;font-size:18px;">🏦 금통위 결정 전에 볼 숫자</strong>
-  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>기준금리는 한국은행 금융통화위원회가 연 8회 결정하는 정책금리이고, 2026년 8월 27일 기준 연 3.00%입니다.</li><li>2025년 5월 연 2.50%가 된 뒤 동결이 이어지다가 2026년 7월과 8월에 연속 인상됐습니다.</li><li>같은 폭이 그대로 반영된다고 가정하면 0.25%p 변화는 대출 3억 원 기준 연 75만 원, 예금 1억 원 기준 세전 연 25만 원입니다.</li></ul>
+  <strong style="color:#8a3d1c;font-size:18px;">🏦 10월 동결 뒤 볼 숫자</strong>
+  <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.8;"><li>기준금리는 한국은행 금융통화위원회가 연 8회 결정하는 정책금리이고, 10월 22일 동결로 연 3.00%가 유지됐습니다.</li><li>2025년 5월 연 2.50%가 된 뒤 동결이 이어지다가 2026년 7월과 8월에 연속 인상됐고, 10월에 첫 동결이 나왔습니다.</li><li>같은 폭이 그대로 반영된다고 가정하면 0.25%p 변화는 대출 3억 원 기준 연 75만 원, 예금 1억 원 기준 세전 연 25만 원입니다.</li></ul>
 </div>
 
 <h2 style="border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">목차</h2>
@@ -84,27 +85,29 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
 
 <p>금융통화위원회는 한국은행 총재와 부총재를 포함해 7인으로 구성됩니다. 총재가 의장을 겸하고, 나머지 5인은 정해진 기관의 추천을 받아 대통령이 임명합니다. 위원 구성과 회의 안내는 한국은행 <a href="https://www.bok.or.kr/portal/main/contents.do?menuNo=201696" target="_blank" rel="noopener">금융통화위원회</a> 페이지에서 볼 수 있습니다.</p>
 
-<p>기준금리를 정하는 통화정책방향 결정회의는 연 8회 열립니다. 아래 표는 2026년 일정이며, 앞 여섯 번은 결정이 끝났습니다.</p>
+<p>기준금리를 정하는 통화정책방향 결정회의는 연 8회 열립니다. 아래 표는 2026년 일정이며, 앞 일곱 번은 결정이 끝났고 남은 회의는 11월 26일 한 번입니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">회차</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">결정일</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">결과</th></tr></thead>
-  <tbody><tr><td style="border:1px solid #ddd;padding:8px;">1</td><td style="border:1px solid #ddd;padding:8px;">1월 15일</td><td style="border:1px solid #ddd;padding:8px;">연 2.50% 동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2</td><td style="border:1px solid #ddd;padding:8px;">2월 26일</td><td style="border:1px solid #ddd;padding:8px;">동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">3</td><td style="border:1px solid #ddd;padding:8px;">4월 10일</td><td style="border:1px solid #ddd;padding:8px;">동결 (7연속)</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">4</td><td style="border:1px solid #ddd;padding:8px;">5월 28일</td><td style="border:1px solid #ddd;padding:8px;">동결 (8연속)</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">5</td><td style="border:1px solid #ddd;padding:8px;">7월 16일</td><td style="border:1px solid #ddd;padding:8px;">연 2.50% → 2.75% 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">6</td><td style="border:1px solid #ddd;padding:8px;">8월 27일</td><td style="border:1px solid #ddd;padding:8px;">연 2.75% → 3.00% 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">7</td><td style="border:1px solid #ddd;padding:8px;">10월 22일</td><td style="border:1px solid #ddd;padding:8px;">예정</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">8</td><td style="border:1px solid #ddd;padding:8px;">11월 26일</td><td style="border:1px solid #ddd;padding:8px;">예정</td></tr></tbody>
+  <tbody><tr><td style="border:1px solid #ddd;padding:8px;">1</td><td style="border:1px solid #ddd;padding:8px;">1월 15일</td><td style="border:1px solid #ddd;padding:8px;">연 2.50% 동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2</td><td style="border:1px solid #ddd;padding:8px;">2월 26일</td><td style="border:1px solid #ddd;padding:8px;">동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">3</td><td style="border:1px solid #ddd;padding:8px;">4월 10일</td><td style="border:1px solid #ddd;padding:8px;">동결 (7연속)</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">4</td><td style="border:1px solid #ddd;padding:8px;">5월 28일</td><td style="border:1px solid #ddd;padding:8px;">동결 (8연속)</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">5</td><td style="border:1px solid #ddd;padding:8px;">7월 16일</td><td style="border:1px solid #ddd;padding:8px;">연 2.50% → 2.75% 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">6</td><td style="border:1px solid #ddd;padding:8px;">8월 27일</td><td style="border:1px solid #ddd;padding:8px;">연 2.75% → 3.00% 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">7</td><td style="border:1px solid #ddd;padding:8px;">10월 22일</td><td style="border:1px solid #ddd;padding:8px;">연 3.00% 동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">8</td><td style="border:1px solid #ddd;padding:8px;">11월 26일</td><td style="border:1px solid #ddd;padding:8px;">예정</td></tr></tbody>
 </table>
 
-<p>일정은 2026년 금통위 발표일 정리 자료 기준이며, 앞선 결과는 언론 보도로 확인했습니다. 10월과 11월 회의 일정은 바뀔 수 있습니다.</p>
+<p>일정은 2026년 금통위 발표일 정리 자료 기준이며, 앞선 결과는 언론 보도로 확인했습니다. 11월 회의 일정은 바뀔 수 있습니다.</p>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">2025~2026 기준금리 경과표</h2>
 
-<p><mark>2025년 5월 연 2.50%가 된 이후 기준금리는 2026년 5월까지 움직이지 않았습니다.</mark> 그 뒤 7월과 8월에 두 달 연속으로 0.25%p씩 올랐습니다. 두 달 연속 인상은 코로나19 이후 처음이라고 보도됐습니다.</p>
+<p><mark>2025년 5월 연 2.50%가 된 이후 기준금리는 2026년 5월까지 움직이지 않았습니다.</mark> 그 뒤 7월과 8월에 두 달 연속으로 0.25%p씩 올랐고, 10월 22일에는 연 3.00%에서 멈췄습니다. 금통위원 7명이 모두 동결 의견을 냈다고 보도됐습니다.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">시점</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">기준금리</th><th style="border:1px solid #ddd;padding:8px;background:#f0f0f0;">변동</th></tr></thead>
-  <tbody><tr><td style="border:1px solid #ddd;padding:8px;">2024년 11월</td><td style="border:1px solid #ddd;padding:8px;">연 3.00%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인하</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2025년 2월</td><td style="border:1px solid #ddd;padding:8px;">연 2.75%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인하</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2025년 5월</td><td style="border:1px solid #ddd;padding:8px;">연 2.50%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인하</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2025년 7월~2026년 5월</td><td style="border:1px solid #ddd;padding:8px;">연 2.50%</td><td style="border:1px solid #ddd;padding:8px;">8회 연속 동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2026년 7월 16일</td><td style="border:1px solid #ddd;padding:8px;">연 2.75%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2026년 8월 27일</td><td style="border:1px solid #ddd;padding:8px;">연 3.00%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인상</td></tr></tbody>
+  <tbody><tr><td style="border:1px solid #ddd;padding:8px;">2024년 11월</td><td style="border:1px solid #ddd;padding:8px;">연 3.00%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인하</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2025년 2월</td><td style="border:1px solid #ddd;padding:8px;">연 2.75%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인하</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2025년 5월</td><td style="border:1px solid #ddd;padding:8px;">연 2.50%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인하</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2025년 7월~2026년 5월</td><td style="border:1px solid #ddd;padding:8px;">연 2.50%</td><td style="border:1px solid #ddd;padding:8px;">8회 연속 동결</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2026년 7월 16일</td><td style="border:1px solid #ddd;padding:8px;">연 2.75%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2026년 8월 27일</td><td style="border:1px solid #ddd;padding:8px;">연 3.00%</td><td style="border:1px solid #ddd;padding:8px;">0.25%p 인상</td></tr><tr><td style="border:1px solid #ddd;padding:8px;">2026년 10월 22일</td><td style="border:1px solid #ddd;padding:8px;">연 3.00%</td><td style="border:1px solid #ddd;padding:8px;">동결(7인 만장일치)</td></tr></tbody>
 </table>
 
 <p>8월 인상으로 기준금리는 2024년 11월 이후 1년 9개월 만에 다시 3%대가 됐습니다. 언론은 성장세가 예상보다 강하고 기조적인 물가 압력이 이어진 점이 배경이라고 풀이했습니다. 이 글은 앞으로의 금리 방향을 예측하지 않습니다.</p>
 
-<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/base-rate-meaning-interest-calc-1.png" alt="2024년 11월부터 2026년 8월까지 한국은행 기준금리 계단형 그래프. 3.00퍼센트에서 2.50퍼센트로 내린 뒤 8회 동결, 2026년 7월과 8월에 올라 3.00퍼센트" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국은행 금융통화위원회 결정, 2026년 10월 기준</figcaption></figure>
+<p>10월 동결 때 금통위는 물가 등을 점검하면서 추가 인상의 시기와 속도를 정하겠다는 입장을 냈다고 보도됐습니다. 인상을 멈춘 것이 아니라 한 번 숨을 고른 것이므로, 11월 26일 결정 전까지 물가 지표가 변수입니다. 이 글은 11월 결과를 예측하지 않습니다.</p>
+
+<figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/base-rate-meaning-interest-calc-1.png" alt="2024년 11월부터 2026년 10월까지 한국은행 기준금리 계단형 그래프. 3.00퍼센트에서 2.50퍼센트로 내린 뒤 8회 동결, 2026년 7월과 8월에 올라 3.00퍼센트, 10월 동결" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">자료: 한국은행 금융통화위원회 결정, 2026년 10월 기준</figcaption></figure>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">기준금리 인상 때 이자가 얼마나 달라지는지 계산</h2>
 
@@ -152,7 +155,7 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
   <li><strong>금융업 수익:</strong> 은행은 대출금리와 예금금리의 차이로 돈을 버는데, 금리 수준이 바뀌면 이 차이도 함께 움직입니다.</li>
 </ul>
 
-<p>시장은 결정 자체보다 예상과의 차이에 반응합니다. 10월 22일 결정을 앞두고는 동결과 인상 중 시장이 어느 쪽을 예상하는지가 이미 국채금리에 반영돼 있어서, 결과가 예상과 같으면 움직임이 작을 수 있습니다. 이 글은 결정 방향을 예측하지 않습니다.</p>
+<p>시장은 결정 자체보다 예상과의 차이에 반응합니다. 10월 22일 동결은 인상 후 효과를 점검하는 쉼표로 해석됐고, 시장의 관심은 11월 26일 추가 인상이 나오는지로 옮겨 갔습니다. 결정이 예상과 같으면 움직임이 작고 다르면 커지는 것이 일반적인 반응입니다. 이 글은 11월 결정 방향을 예측하지 않습니다.</p>
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #c2603a;padding-left:12px;margin-top:36px;">금통위 발표 전후로 많이 묻는 5가지</h2>
 
@@ -160,7 +163,7 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리는 누가 정하나요</summary><p style="margin-top:8px;line-height:1.8;">한국은행 금융통화위원회가 정합니다. 한국은행 총재와 부총재를 포함해 7인으로 구성되고, 총재가 의장을 맡습니다. 통화정책방향 결정회의는 연 8회 열립니다.</p></details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리가 3.00%라는 말은 은행 예금이 연 3.00%라는 뜻인가요</summary><p style="margin-top:8px;line-height:1.8;">아닙니다. 기준금리는 한국은행이 정하는 정책금리이고, 예금금리는 각 은행이 상품별로 정합니다. 기준금리는 예금·대출금리가 움직이는 출발점일 뿐 상품 금리와 같지 않습니다.</p></details>
 <details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">기준금리와 국채금리는 같은 말인가요</summary><p style="margin-top:8px;line-height:1.8;">다른 금리입니다. 기준금리는 금통위가 정하고, 국채금리는 시장에서 거래되는 국채의 수익률이라 매일 바뀝니다. 둘의 차이는 국채금리 뜻을 다룬 글에 비교표로 정리해 두었습니다.</p></details>
-<details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">다음 기준금리 결정은 언제 나오나요</summary><p style="margin-top:8px;line-height:1.8;">2026년 일정으로는 10월 22일이 다음 결정일입니다. 이후 11월 26일에 한 번 더 예정되어 있습니다. 결정은 회의 당일 오전에 한국은행이 발표하고, 일정이 바뀌면 한국은행 금융통화위원회 안내에 먼저 공지됩니다.</p></details>
+<details style="border:1px solid #ddd;border-radius:8px;padding:10px 14px;margin:8px 0;"><summary style="cursor:pointer;font-weight:bold;">다음 기준금리 결정은 언제 나오나요</summary><p style="margin-top:8px;line-height:1.8;">2026년 마지막 결정은 11월 26일로 예정되어 있습니다. 10월 22일에는 연 3.00%로 동결됐습니다. 결정은 회의 당일 오전에 한국은행이 발표하고, 일정이 바뀌면 한국은행 금융통화위원회 안내에 먼저 공지됩니다.</p></details>
 
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처 (2026년 10월 기준):
@@ -168,6 +171,9 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
     <li><a href="https://www.bok.or.kr/portal/main/main.do" target="_blank" rel="noopener">한국은행</a></li>
     <li><a href="https://www.bok.or.kr/portal/main/contents.do?menuNo=201696" target="_blank" rel="noopener">한국은행 - 금융통화위원회</a></li>
     <li><a href="https://mofe.go.kr/sisa/dictionary/detail?idx=730" target="_blank" rel="noopener">기획재정부 - 시사경제용어사전 기준금리</a></li>
+    <li><a href="https://www.news1.kr/economy/trend/6328314" target="_blank" rel="noopener">뉴스1 - 한은, 기준금리 연 3% 만장일치 동결 (2026-10-22)</a></li>
+    <li><a href="https://www.mt.co.kr/economy/2026/10/22/2026102209323421102" target="_blank" rel="noopener">머니투데이 - 한은, 기준금리 3.00% 동결 (2026-10-22)</a></li>
+    <li><a href="https://www.fntimes.com/html/view.php?ud=202610221201381124179ad43907_18" target="_blank" rel="noopener">한국금융신문 - 10월 금통위 기준금리 연 3% 동결 (2026-10-22)</a></li>
     <li><a href="https://www.newspim.com/news/view/20260827000343" target="_blank" rel="noopener">뉴스핌 - 한국은행, 기준금리 백투백 인상 (2026-08-27)</a></li>
     <li><a href="https://www.seoul.co.kr/news/economy/finance/2026/08/27/20260827500034" target="_blank" rel="noopener">서울신문 - 한국은행 기준금리 3.00% 결정 (2026-08-27)</a></li>
     <li><a href="https://www.mt.co.kr/economy/2026/08/28/2026082719513754818" target="_blank" rel="noopener">머니투데이 - 기준금리 3% 시대 (2026-08-28)</a></li>
@@ -186,7 +192,7 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "기준금리 뜻과 이자 변화 계산법",
-  "description": "한국은행 기준금리 뜻과 금통위 결정 방식, 2026년 8월 연 3.00%까지의 경과와 0.25%p 변화 때 대출·예금 이자 계산, 기준금리가 주식시장에 전해지는 경로까지 정리했습니다.",
+  "description": "한국은행 기준금리 뜻과 금통위 결정 방식, 2026년 10월 동결까지의 경과와 0.25%p 변화 때 대출·예금 이자 계산, 기준금리가 주식시장에 전해지는 경로까지 정리했습니다.",
   "author": {
     "@type": "Person",
     "name": "센시티브보스"
@@ -196,7 +202,7 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
     "name": "센시티브보스"
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-05",
+  "dateModified": "2026-10-23",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sensitiveboss3.tistory.com/entry/base-rate-meaning-interest-calc"
@@ -247,7 +253,7 @@ figure_plan: "1장으로 충분 — 기준금리 흐름(계단형). 나머지 �
       "name": "다음 기준금리 결정은 언제 나오나요",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "2026년 일정으로는 10월 22일이 다음 결정일입니다. 이후 11월 26일에 한 번 더 예정되어 있습니다. 결정은 회의 당일 오전에 한국은행이 발표하고, 일정이 바뀌면 한국은행 금융통화위원회 안내에 먼저 공지됩니다."
+        "text": "2026년 마지막 결정은 11월 26일로 예정되어 있습니다. 10월 22일에는 연 3.00%로 동결됐습니다. 결정은 회의 당일 오전에 한국은행이 발표하고, 일정이 바뀌면 한국은행 금융통화위원회 안내에 먼저 공지됩니다."
       }
     }
   ]
