@@ -3263,6 +3263,24 @@
       "cannibalization_note": "KODEX 200 글은 상품 한 개의 이력, 이 글은 TIGER 200 중심 두 상품 비교와 세후·보수 계산",
       "gate_pass": true,
       "gate_pass_note": "게이트1 19,650, 게이트2 v4 통과, 게이트4 KIND 공시+집계 사이트 일치(원문 직접 접속 불가), 7월 분배금 단독·2곳 표기 구분, refresh_due 2026-11-06"
+    },
+    {
+      "id": "164",
+      "order": 164,
+      "title": "TIGER 리츠부동산인프라 월 분배금과 보수 2026",
+      "slug": "tiger-reits-infra-monthly-distribution",
+      "keyword": "TIGER 리츠부동산인프라",
+      "type": "새 글(종목·상품 사실, 월 분배 계산)",
+      "keyword_class": "사람 보조",
+      "publish_effort": "capture",
+      "monthly_search_volume": "10050 (2026-10-23 실측)",
+      "gate1_pass": true,
+      "unique_asset_plan": "월 33원→연 396원→세후 계산 박스·그림, 필요 주수·분배율 표, 329200/341850/TOP10액티브 구분표·그림 2장",
+      "primary_source": "2025-03 미래에셋 균등 지급 발표(언론 8곳 이상 일치), 총보수 0.08% 보도 일치. 2026년 월 분배금은 운용사 원문 미확인",
+      "status": "drafted",
+      "draft_path": "stock_drafts/tiger-reits-infra-monthly-distribution.md",
+      "cannibalization_note": "리츠 뜻(68)·월배당 ETF(63)는 개념, 이 글은 한 상품 월 33원 계산과 보수·상품 구분",
+      "gate_pass": false
     }
   ],
   "backlog": {
@@ -7088,6 +7106,11 @@
           "type": "note",
           "status": "note",
           "monthly_search_volume": "TIGER 200 19,650(163편 채택) / ACE 미국S&P500 15,940(분배금 66·62·58원 엇갈려 보류, 운용사 공지 확인 필요) / 삼성전자우 배당금 12,150(66편 갱신 후보) / TIGER 리츠부동산인프라 10,050 / SCHD 배당금 9,010(127편 다룸) / SOL 미국배당다우존스 8,200 / 연말정산 미리보기 5,430(개념형, 세법 수치 원문 필요) / TIGER 미국나스닥100커버드콜 1,900 / 엔비디아 실적발표 1,610 / 엔비디아 배당금 1,070 PASS, KODEX 미국배당프리미엄액티브 50·애플 배당금 250 FAIL"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-23 2차]",
+          "monthly_search_volume": "TIGER 리츠부동산인프라 10,050(164편 채택, 2026년 분배금 캡처 대기) / 105편 국채금리 갱신 보류: 10/22 마감 3.840%·4.152%가 기사 1곳 요약뿐, 2곳 일치 못 구함(refresh_due 유지)",
+          "status": "note"
         }
       ]
     }

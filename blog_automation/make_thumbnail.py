@@ -135,7 +135,7 @@ def _build_points_block(points, accent, bg):
 def _find_chrome():
     import os
     browsers_path = os.environ.get('PLAYWRIGHT_BROWSERS_PATH', '/opt/pw-browsers')
-    for candidate in sorted(Path(browsers_path).glob('chromium-*/chrome-linux/chrome'), reverse=True):
+    for candidate in sorted(Path(browsers_path).glob('chromium-*/chrome-linux*/chrome'), reverse=True):
         if candidate.is_file():
             return str(candidate)
     for name in ('chromium', 'chromium-browser', 'google-chrome', 'google-chrome-stable'):
