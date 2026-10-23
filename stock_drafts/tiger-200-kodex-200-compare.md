@@ -4,8 +4,8 @@ title: TIGER 200 보수·분배금, KODEX 200과 비교
 slug: tiger-200-kodex-200-compare
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 19650 (PC 5050 / 모바일 14600)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-23 - 통과] TIGER 200 월 19,650(2026-10-23 실측 PC 5,050 / 모바일 14,600)으로 v4 대상. WebSearch(미국 기준, 참고용) 상위에 미래에셋 공식 상품 페이지, funetf·fnguide·etfshopping·tradingview·investing 같은 조회 서비스, unjena.com·bebeyam.com 같은 소규모 콘텐츠 사이트가 섞여 있어 진입 여지 있음.
   검색 의도는 일부 시세 조회지만 "보수·분배금·일정"을 함께 찾는 의도가 따로 있어 시세 단독 키워드는 아님. 상위는 상품 한 개의 분배 이력 조회가 중심이고, KODEX 200과 보수·분기 분배금·세후 입금액을 한 표로 비교하고 10월 마지막 매수일까지 역산한 콘텐츠는 확인하지 못했다.
