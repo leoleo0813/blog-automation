@@ -3244,6 +3244,25 @@
       "cannibalization_note": "63편 월배당 ETF 뜻은 일반 개념, 이 글은 PLUS 고배당주 한 상품의 지급 이력. KODEX 200·TIGER 나스닥100 글과 다른 상품",
       "gate_pass": true,
       "gate_pass_note": "게이트1 10/22 실측 22,430, 게이트2 v4 통과, 게이트4 공식 요약+집계 사이트 일치(원문 직접 접속 불가), refresh_due 2026-11-06"
+    },
+    {
+      "id": "163",
+      "order": 163,
+      "title": "TIGER 200 보수·분배금, KODEX 200과 비교",
+      "slug": "tiger-200-kodex-200-compare",
+      "keyword": "TIGER 200",
+      "type": "새 글(종목·상품 사실, 10월 말 분기 분배 기준일 시의성)",
+      "keyword_class": "자동화 가능",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "19650 (PC 5050 / 모바일 14600, 2026-10-23 실측)",
+      "gate1_pass": true,
+      "unique_asset_plan": "TIGER 200 vs KODEX 200 보수·2026 분기 분배금 비교표·막대, 보수 차이·세후 입금액·분배율 어림 계산, 10월 말 기준일 타임라인 그림 2장",
+      "primary_source": "미래에셋 공지·KRX KIND 공시·FnGuide·FunETF·etfshopping 검색 요약 일치, KODEX 200 값은 검증값 재사용, 세금은 배당소득세 글 검증값 재사용",
+      "status": "drafted",
+      "draft_path": "stock_drafts/tiger-200-kodex-200-compare.md",
+      "cannibalization_note": "KODEX 200 글은 상품 한 개의 이력, 이 글은 TIGER 200 중심 두 상품 비교와 세후·보수 계산",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 19,650, 게이트2 v4 통과, 게이트4 KIND 공시+집계 사이트 일치(원문 직접 접속 불가), 7월 분배금 단독·2곳 표기 구분, refresh_due 2026-11-06"
     }
   ],
   "backlog": {
@@ -7056,6 +7075,19 @@
           "status": "done 110편 갱신 (2026-10-23)",
           "type": "발행 글 갱신",
           "done_note": "10/22 금통위 연 3.00% 동결(7인 만장일치, 언론 3곳 일치)을 경과표·일정표·그래프·인트로·FAQ에 반영, refresh_due 2026-11-27. 105편 국채금리 글은 다음 갱신 후보"
+        },
+        {
+          "keyword": "TIGER 200",
+          "monthly_search_volume": "19,650 (2026-10-23 실측)",
+          "type": "새 글(종목·상품 사실)",
+          "status": "drafted 163편 (2026-10-23, gate_pass:true)",
+          "slug": "tiger-200-kodex-200-compare"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-23]",
+          "type": "note",
+          "status": "note",
+          "monthly_search_volume": "TIGER 200 19,650(163편 채택) / ACE 미국S&P500 15,940(분배금 66·62·58원 엇갈려 보류, 운용사 공지 확인 필요) / 삼성전자우 배당금 12,150(66편 갱신 후보) / TIGER 리츠부동산인프라 10,050 / SCHD 배당금 9,010(127편 다룸) / SOL 미국배당다우존스 8,200 / 연말정산 미리보기 5,430(개념형, 세법 수치 원문 필요) / TIGER 미국나스닥100커버드콜 1,900 / 엔비디아 실적발표 1,610 / 엔비디아 배당금 1,070 PASS, KODEX 미국배당프리미엄액티브 50·애플 배당금 250 FAIL"
         }
       ]
     }
