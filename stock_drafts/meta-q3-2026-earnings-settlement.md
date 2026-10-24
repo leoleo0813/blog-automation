@@ -4,8 +4,8 @@ title: 메타 실적발표 3분기, 합의금 반영 전후 비교
 slug: meta-q3-2026-earnings-settlement
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 23500 (PC 3000 / 모바일 20500)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-24 - 통과] 메타 실적발표 월 23,500(2026-10-24 실측, PC 3,000 / 모바일 20,500)으로 v4 대상(월 5,000 이상).
   WebSearch(미국 기준, 참고용) 상위: 연합뉴스 계열 속보(specialtimes 등), 블록미디어·stockhub 같은 소규모 매체, 증권사·환율 정리 사이트. 발표 직후라 속보 기사 위주이고 진입 여지 있음(소규모 매체·개인 정리 글 다수).
