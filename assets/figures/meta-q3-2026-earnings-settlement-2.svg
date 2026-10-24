@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">번 돈보다 더 쓴 분기</text>
+<text x="70" y="122" font-size="25" fill="#666">메타 2026년 3분기 현금흐름 · 십억 달러</text>
+<text x="70" y="196" font-size="27" font-weight="bold" fill="#222">영업활동 현금흐름</text>
+<rect x="70" y="212" width="721" height="56" fill="#2f6fd0"/><text x="805" y="252" font-size="30" font-weight="bold" fill="#2f6fd0">32.79</text>
+<text x="70" y="336" font-size="27" font-weight="bold" fill="#222">설비투자(데이터센터·AI 칩 등)</text>
+<rect x="70" y="352" width="768" height="56" fill="#d9822b"/><text x="852" y="392" font-size="30" font-weight="bold" fill="#b8651a">34.91</text>
+<text x="70" y="476" font-size="27" font-weight="bold" fill="#222">잉여현금흐름 = 32.79 − 34.91</text>
+<rect x="70" y="492" width="47" height="56" fill="#c0392b"/><text x="131" y="532" font-size="30" font-weight="bold" fill="#c0392b">−2.12 (마이너스)</text>
+<text x="70" y="610" font-size="26" fill="#333">설비투자는 매출 64.60의 54.0% · 올해 설비투자 전망 135~145십억 달러</text>
+<text x="70" y="665" font-size="23" fill="#666">설비투자에는 금융리스 원금 상환 포함 · 자료: 메타 3분기 실적 보도, 2026-10-24 확인</text>
+</g></svg>
