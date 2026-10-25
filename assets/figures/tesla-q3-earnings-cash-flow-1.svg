@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">번 현금에서 설비투자를 빼면</text>
+<text x="70" y="122" font-size="25" fill="#666">테슬라 2026년 3분기 현금흐름 · 십억 달러</text>
+<text x="70" y="196" font-size="27" font-weight="bold" fill="#222">영업활동 현금흐름</text>
+<rect x="70" y="212" width="630" height="56" fill="#2f6fd0"/><text x="714" y="252" font-size="30" font-weight="bold" fill="#2f6fd0">약 6.3</text>
+<text x="70" y="336" font-size="27" font-weight="bold" fill="#222">설비투자</text>
+<rect x="70" y="352" width="473" height="56" fill="#d9822b"/><text x="557" y="392" font-size="30" font-weight="bold" fill="#b8651a">4.73</text>
+<text x="70" y="476" font-size="27" font-weight="bold" fill="#222">잉여현금흐름 (흑자)</text>
+<rect x="70" y="492" width="153" height="56" fill="#1f9d55"/><text x="237" y="532" font-size="30" font-weight="bold" fill="#177a42">약 1.53</text>
+<text x="70" y="610" font-size="26" fill="#333">설비투자는 매출 28.05의 약 16.9% · 영업활동 현금흐름은 반올림 값</text>
+<text x="70" y="665" font-size="23" fill="#666">자료: 로이터·월스트리트저널 인용 보도, 2026-10-25 확인</text>
+</g></svg>

@@ -3299,6 +3299,24 @@
       "draft": "stock_drafts/meta-q3-2026-earnings-settlement.md",
       "refresh_due": "2026-11-21",
       "cannibalization_note": "143편 엔비디아(발표일 환산)·82편 컨센서스·102편 CAPEX와 대상·의도가 다름"
+    },
+    {
+      "id": "166",
+      "order": 166,
+      "keyword": "테슬라 실적발표",
+      "title": "테슬라 실적발표 3분기, 현금흐름 흑자 계산",
+      "slug": "tesla-q3-earnings-cash-flow",
+      "type": "일정·이슈",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "status": "drafted",
+      "monthly_search_volume": "6020 (PC 1010 / 모바일 5010)",
+      "gate1_pass": true,
+      "gate_pass": "True",
+      "drafted_at": "2026-10-25",
+      "draft": "stock_drafts/tesla-q3-earnings-cash-flow.md",
+      "refresh_due": "2026-11-15",
+      "cannibalization_note": "165편 메타(충당금·클래스C)·143편 엔비디아(발표일 환산)·82편 컨센서스·102편 CAPEX와 대상·의도가 다름"
     }
   ],
   "backlog": {
@@ -7146,6 +7164,12 @@
           "monthly_search_volume": "23,500 (2026-10-24 실측)",
           "status": "drafted 165편 (2026-10-24, gate_pass:true, 언론 5곳 이상 일치)",
           "slug": "meta-q3-2026-earnings-settlement"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-25]",
+          "monthly_search_volume": "테슬라 실적발표 6,020(166편 채택) / 배당락일 2,330 / 구글 실적발표 1,370 / 마이크로소프트 1,080 PASS(미작성) / 알파벳 400·아마존 350·애플 20·FOMC 10월 70 FAIL",
+          "status": "note",
+          "angle": "98·105·119편 갱신은 새 근거 없어 기한 유지. 11월 공모주 일정(2,550)은 10/30 공모가 확정 뒤 재실측. 구글·마이크로소프트 실적은 10/28 전후 발표 뒤 숫자 확정되면 후보."
         }
       ]
     }
