@@ -4,8 +4,8 @@ title: 테슬라 실적발표 3분기, 현금흐름 흑자 계산
 slug: tesla-q3-earnings-cash-flow
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 6020 (PC 1010 / 모바일 5010)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-25 - 통과] 테슬라 실적발표 월 6,020(2026-10-25 실측, PC 1,010 / 모바일 5,010)으로 v4 대상(월 5,000 이상).
   WebSearch(미국 기준, 참고용) 상위: 블록미디어·벤징가 코리아·딜사이트·supple 같은 소규모 경제 매체, 일정 정리 사이트, 영문 Electrek. 개인 정리 글·소규모 매체가 있어 진입 여지 있음(딜사이트·벤징가 기사는 작년 3분기 기사라 올해 숫자를 정리한 글이 아직 얇음).
