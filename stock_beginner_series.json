@@ -3335,6 +3335,25 @@
       "draft": "stock_drafts/skt-dividend-quarterly-830.md",
       "refresh_due": "2026-11-13",
       "cannibalization_note": "다른 종목 배당 글·16편 배당락일·47편 배당수익률과 대상이 다름(SK텔레콤 분기 830원 이력과 3분기 추정 일정)"
+    },
+    {
+      "id": 168,
+      "order": 168,
+      "title": "KODEX 미국나스닥100 분배금과 총보수 2026",
+      "slug": "kodex-nasdaq100-distribution-fee",
+      "keyword": "KODEX 미국나스닥100",
+      "type": "종목·상품 사실·시의성(10월 말 분배 기준일)",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "28570 (PC 9470 / 모바일 19100)",
+      "gate1_pass": true,
+      "primary_source": "삼성자산운용 분배금 공지 4건(379810 행) 요약과 FunETF 합계 282원 일치, 총보수 0.0062% 언론 일치, S&P500 열은 검증값 재사용. 원문 직접 접속 불가(세션 차단). 합성총보수·10월 일정은 단독·추정 표시",
+      "status": "drafted",
+      "draft_path": "stock_drafts/kodex-nasdaq100-distribution-fee.md",
+      "cannibalization_note": "TIGER 미국나스닥100(154편)은 다른 운용사, KODEX 미국S&P500(155편)은 다른 지수. 이 글은 TR 전환 이력과 두 KODEX 상품 분배율 비교.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 28,570, 게이트2 v4 통과, 게이트3 분배금 표·세후 계산·S&P500 비교·일정, 게이트4 공지 요약+FunETF 합계 일치(한계 공개), refresh_due 2026-11-06",
+      "refresh_due": "2026-11-06"
     }
   ],
   "backlog": {
@@ -7189,6 +7208,18 @@
           "monthly_search_volume": "테슬라 실적발표 6,020(166편 채택) / 배당락일 2,330 / 구글 실적발표 1,370 / 마이크로소프트 1,080 PASS(미작성) / 알파벳 400·아마존 350·애플 20·FOMC 10월 70 FAIL",
           "status": "note",
           "angle": "98·105·119편 갱신은 새 근거 없어 기한 유지. 11월 공모주 일정(2,550)은 10/30 공모가 확정 뒤 재실측. 구글·마이크로소프트 실적은 10/28 전후 발표 뒤 숫자 확정되면 후보."
+        },
+        {
+          "keyword": "[후보 실측 2026-10-26]",
+          "monthly_search_volume": "KODEX 미국나스닥100 28,570(168편 채택) / TIGER 미국필라델피아반도체나스닥 8,560(분배 주기·금액 못 찾음) / ACE 미국나스닥100 6,200 / TIGER 미국테크TOP10 4,150 / 연말정산 소득공제 9,720(세법 수치 원문 필요) / 구글 실적발표 1,410(10월 발표일 미확인) / 배당락일 2,260 / ISA 만기 970 PASS, SOL 미국반도체 20·KODEX 200 분배금 110·TIGER 미국배당귀족 20·애플 배당금 250·삼성전자 확정실적 110·TIGER 미국S&P500 분배금 50 FAIL",
+          "status": "note",
+          "angle": "98·105·119편 갱신은 10/26에도 새 근거 없어 기한 유지(국고채 10/23 마감 수치·달러인덱스·공포탐욕지수 2곳 일치 못 구함). 11월 공모주 일정은 10/30 공모가 확정 뒤 재실측."
+        },
+        {
+          "keyword": "KODEX 미국나스닥100",
+          "monthly_search_volume": "28,570 (2026-10-26 실측)",
+          "status": "drafted 168편 (2026-10-26, gate_pass:true, 공지 4건+FunETF 합계 일치)",
+          "slug": "kodex-nasdaq100-distribution-fee"
         }
       ]
     }
