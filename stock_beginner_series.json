@@ -3354,6 +3354,25 @@
       "gate_pass": true,
       "gate_pass_note": "게이트1 28,570, 게이트2 v4 통과, 게이트3 분배금 표·세후 계산·S&P500 비교·일정, 게이트4 공지 요약+FunETF 합계 일치(한계 공개), refresh_due 2026-11-06",
       "refresh_due": "2026-11-06"
+    },
+    {
+      "id": 169,
+      "order": 169,
+      "title": "마이크로소프트 실적발표 10월 28일 한국시간",
+      "slug": "microsoft-q1-fy2027-earnings-korea-time",
+      "keyword": "마이크로소프트 실적발표",
+      "type": "이슈·일정(빅테크 실적 시즌, 10/28 발표)",
+      "keyword_class": "automatable",
+      "publish_effort": "oneclick",
+      "monthly_search_volume": "1110 (PC 180 / 모바일 930)",
+      "gate1_pass": true,
+      "primary_source": "마이크로소프트 10/7 보도자료 요약 2회 일치+CME 해설 페이지로 발표일·웹캐스트 시각 확인, 직전 분기 매출·애저 성장률은 한국 언론 다수 일치. IR 원문은 세션에서 열람 불가. EPS·자본지출 등 엇갈린 값은 제외",
+      "status": "drafted",
+      "draft_path": "stock_drafts/microsoft-q1-fy2027-earnings-korea-time.md",
+      "cannibalization_note": "엔비디아 실적발표(143편)는 다른 기업의 발표일 환산, 메타·테슬라(165·166편)는 결과 해석. 이 글은 발표 전 마이크로소프트 일정·회계연도 구조·직전 분기 기준값.",
+      "gate_pass": true,
+      "gate_pass_note": "게이트1 1,110, 게이트2 v3 통과, 게이트3 한국시간 환산표·분기 대응표·기준값 표와 그림 2장, 게이트4 보도자료 요약+언론 교차. 10/28 발표 직후 실제 값으로 갱신 필요(refresh_due 2026-10-29)",
+      "refresh_due": "2026-10-29"
     }
   ],
   "backlog": {
@@ -7220,6 +7239,13 @@
           "monthly_search_volume": "28,570 (2026-10-26 실측)",
           "status": "drafted 168편 (2026-10-26, gate_pass:true, 공지 4건+FunETF 합계 일치)",
           "slug": "kodex-nasdaq100-distribution-fee"
+        },
+        {
+          "keyword": "[후보 실측 2026-10-27]",
+          "status": "note",
+          "type": "note",
+          "monthly_search_volume": "마이크로소프트 실적발표 1,110(169편 채택, 발표일 10/28 보도자료 확인) / 구글 실적발표 1,590(알파벳 10/28 발표 예상이나 공식 공지 미확인, 발표 뒤 재검토) / TIGER 미국필라델피아반도체나스닥 8,720(분배 주기·금액, 보수 출처 1곳 이하) / 삼성전자우 배당금 8,590(3분기 주당액 미확정) / SOL 미국배당다우존스 8,210(총보수 엇갈림) / ACE 미국나스닥100 6,380(지급일 엇갈림) / TIGER 미국테크TOP10 4,270(보수·분배금 못 찾음) / 배당락일 2,270 PASS(16편과 겹침) / 알파벳 실적발표 480·아마존 410·애플 20·코스피 배당 기준일 20 FAIL",
+          "angle": "98·105·119편 갱신은 10/26에도 새 근거 없어 기한 유지. 136편(삼성전자 실적)·142편(SK하이닉스)은 refresh_due 확인 후 갱신. 11월 공모주 일정은 10/30 공모가 확정 뒤 재실측."
         }
       ]
     }
