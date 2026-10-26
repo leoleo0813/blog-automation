@@ -4,8 +4,8 @@ title: KODEX 미국나스닥100 분배금과 총보수 2026
 slug: kodex-nasdaq100-distribution-fee
 keyword_class: automatable
 publish_effort: oneclick
-monthly_search_volume: 확인필요
-gate1_pass: false
+monthly_search_volume: 28570 (PC 9470 / 모바일 19100)
+gate1_pass: true (일반 주제 기준 월 500 이상 필요)
 serp_check: |
   [게이트2 v4 판정 2026-10-26 - 통과] 10/26 실측 월 28,570(5,000 이상)이라 v4 대상. WebSearch(미국 기준, 참고용) 상위에 삼성자산운용 공식 분배금 공지와 FunETF·etfofficial·etfshopping 같은 조회 서비스, ieconomyu·unjena·bebeyam 같은 개인·소규모 블로그가 섞여 있어 진입 여지 있음(탈락조건 1 해당 없음). 검색 의도 일부는 시세·분배금 조회지만 "TR 전환 뒤 얼마 받나", "S&P500 상품과 분배율 차이", "이번 10월 마지막 매수일"은 조회 화면이 한 장으로 답하지 못함(탈락조건 2 해당 없음). 상위는 공지 표 단순 나열이거나 상품 소개 가이드라서 최근 4회 분배금·100좌 세후 계산·S&P500 분배율 비교·10월 일정을 한 글에 묶은 곳은 확인하지 못함(탈락조건 3 해당 없음).
 unique_asset: |
