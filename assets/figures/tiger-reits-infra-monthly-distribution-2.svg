@@ -8,21 +8,21 @@
 <text x="235" y="268" font-size="26" fill="#0891b2" text-anchor="middle">329200</text>
 <text x="235" y="345" font-size="26" fill="#333" text-anchor="middle">총보수 연 0.08%</text>
 <text x="235" y="395" font-size="26" fill="#333" text-anchor="middle">월 33원 내외</text>
-<text x="235" y="435" font-size="26" fill="#333" text-anchor="middle">균등 지급 (2025.3 발표)</text>
+<text x="235" y="435" font-size="26" fill="#333" text-anchor="middle">균등, 9월분 33원</text>
 <text x="235" y="500" font-size="24" fill="#555" text-anchor="middle">이 글의 상품</text>
 <rect x="425" y="170" width="350" height="460" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
 <text x="600" y="225" font-size="30" font-weight="bold" fill="#334155" text-anchor="middle">리츠부동산인프라</text><text x="600" y="258" font-size="30" font-weight="bold" fill="#334155" text-anchor="middle">채권</text>
 <text x="600" y="298" font-size="26" fill="#64748b" text-anchor="middle">341850</text>
 <text x="600" y="345" font-size="26" fill="#333" text-anchor="middle">총보수 연 0.22%</text>
 <text x="600" y="395" font-size="26" fill="#333" text-anchor="middle">채권 혼합형</text>
-<text x="600" y="435" font-size="26" fill="#333" text-anchor="middle">국채 ETF 약 24% 편입</text>
+<text x="600" y="435" font-size="26" fill="#333" text-anchor="middle">9월분 24원 · 국채 약 24%</text>
 <text x="600" y="500" font-size="24" fill="#555" text-anchor="middle">별도 상품</text>
 <rect x="790" y="170" width="350" height="460" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
 <text x="965" y="225" font-size="30" font-weight="bold" fill="#334155" text-anchor="middle">리츠부동산인프라</text><text x="965" y="258" font-size="30" font-weight="bold" fill="#334155" text-anchor="middle">TOP10액티브</text>
 <text x="965" y="298" font-size="26" fill="#64748b" text-anchor="middle">액티브형</text>
-<text x="965" y="345" font-size="26" fill="#333" text-anchor="middle">연 6.5% 수준 분배 계획</text>
-<text x="965" y="395" font-size="26" fill="#333" text-anchor="middle">월 54원 수준 계획</text>
-<text x="965" y="435" font-size="26" fill="#333" text-anchor="middle">(2025.8 발표)</text>
+<text x="965" y="345" font-size="26" fill="#333" text-anchor="middle">연 6.5% 수준 계획</text>
+<text x="965" y="395" font-size="26" fill="#333" text-anchor="middle">9월분 54원 지급</text>
+<text x="965" y="435" font-size="26" fill="#333" text-anchor="middle">(계획은 2025.8 발표)</text>
 <text x="965" y="500" font-size="24" fill="#555" text-anchor="middle">별도 상품</text>
 <text x="70" y="680" font-size="22" fill="#888">자료: 미래에셋자산운용 보도자료(이투데이·이데일리·머니투데이), FunETF, 2026-10-23 기준</text>
 </g></svg>

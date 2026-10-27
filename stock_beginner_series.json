@@ -3272,15 +3272,15 @@
       "keyword": "TIGER 리츠부동산인프라",
       "type": "새 글(종목·상품 사실, 월 분배 계산)",
       "keyword_class": "사람 보조",
-      "publish_effort": "capture",
+      "publish_effort": "oneclick",
       "monthly_search_volume": "9950 (PC 2650 / 모바일 7300)",
       "gate1_pass": true,
       "unique_asset_plan": "월 33원→연 396원→세후 계산 박스·그림, 필요 주수·분배율 표, 329200/341850/TOP10액티브 구분표·그림 2장",
-      "primary_source": "2025-03 미래에셋 균등 지급 발표(언론 8곳 이상 일치), 총보수 0.08% 보도 일치. 2026년 월 분배금은 운용사 원문 미확인",
+      "primary_source": "2025-03 미래에셋 균등 지급 발표(언론 8곳 이상 일치), 총보수 0.08% 보도 일치, 2026년 9월분 33원은 운용사 분배 내역 파일(2026-10-26)로 확인",
       "status": "drafted",
       "draft_path": "stock_drafts/tiger-reits-infra-monthly-distribution.md",
       "cannibalization_note": "리츠 뜻(68)·월배당 ETF(63)는 개념, 이 글은 한 상품 월 33원 계산과 보수·상품 구분",
-      "gate_pass": false
+      "gate_pass": true
     },
     {
       "id": "165",
@@ -7202,7 +7202,7 @@
         },
         {
           "keyword": "[후보 실측 2026-10-23 2차]",
-          "monthly_search_volume": "TIGER 리츠부동산인프라 10,050(164편 채택, 2026년 분배금 캡처 대기) / 105편 국채금리 갱신 보류: 10/22 마감 3.840%·4.152%가 기사 1곳 요약뿐, 2곳 일치 못 구함(refresh_due 유지)",
+          "monthly_search_volume": "TIGER 리츠부동산인프라 10,050(164편 채택, 2026-10-27 사용자 제공 분배 내역으로 gate_pass:true) / 105편 국채금리 갱신 보류: 10/22 마감 3.840%·4.152%가 기사 1곳 요약뿐, 2곳 일치 못 구함(refresh_due 유지)",
           "status": "note"
         },
         {
