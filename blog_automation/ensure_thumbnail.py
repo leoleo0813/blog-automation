@@ -28,6 +28,8 @@ BRAND_PALETTE = [
 # 2026-09-26 키워드 범위를 초급~고급으로 넓힌 뒤 "주식초보" 배지가 중·고급 글과
 # 어긋나서 2026-10-02 사용자 요청으로 "주식공부"로 바꿨다.
 BRAND_TAG = '주식공부'
+# 2026-10-27 생활·지원금 글을 같이 쓰기로 하면서 front matter track: life 글은 배지를 따로 단다.
+TRACK_TAGS = {'life': '생활정보'}
 
 
 def _pick_palette():
@@ -61,7 +63,7 @@ def main():
     subprocess.run(
         [
             sys.executable, '-m', 'blog_automation.make_thumbnail',
-            slug, title, bg, accent, BRAND_TAG, *points,
+            slug, title, bg, accent, TRACK_TAGS.get(fields.get('track', ''), BRAND_TAG), *points,
         ],
         check=True,
     )
