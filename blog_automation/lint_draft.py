@@ -103,7 +103,9 @@ def lint(path, series):
             if it.get('status') != 'published':
                 warns.append(f"아직 발행 전인 글로 가는 링크(그 글을 먼저 발행할 것): {t}")
     if usable < MIN_INTERNAL_LINKS:
-        fails.append(f"블로그 내부 링크 {usable}개 (최소 {MIN_INTERNAL_LINKS}개)")
+        msg = f"블로그 내부 링크 {usable}개 (최소 {MIN_INTERNAL_LINKS}개)"
+        # 생활정보 갈래는 2026-10-27 시작이라 이어 줄 관련 글이 아직 없을 수 있다. 억지 링크 대신 경고만.
+        (warns if fm.get('track') == 'life' else fails).append(msg)
 
     n_defer = len(DEFER_RE.findall(text))
     if n_defer > MAX_DEFER:
