@@ -3573,6 +3573,21 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/ichimoku-cloud-calculation.md"
+    },
+    {
+      "id": 175,
+      "order": 175,
+      "title": "고향사랑기부제 2026 세액공제, 20만원 기부하면 얼마 돌려받나",
+      "slug": "hometown-donation-tax-credit-2026",
+      "keyword": "고향사랑기부제",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "117700 (PC 39800 / 모바일 77900)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/hometown-donation-tax-credit-2026.md",
+      "deadline": "2026-12-31"
     }
   ],
   "backlog": {

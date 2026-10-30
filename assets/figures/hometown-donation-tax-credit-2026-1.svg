@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><pattern id="d" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#ece0cc"/></pattern></defs>
+<rect width="1200" height="800" fill="#fff8ee"/><rect width="1200" height="800" fill="url(#d)"/>
+<text x="60" y="88" font-family="Jua" font-size="50" fill="#2b2b2b">기부액별로 돌아오는 돈과 내 부담</text>
+<text x="62" y="138" font-family="Gaegu" font-weight="bold" font-size="34" fill="#9a7b55">세액공제 + 답례품(30%)을 빼면 실제로 내 지갑에서 나가는 돈</text>
+<rect x="150" y="168" width="26" height="26" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="3"/><text x="186" y="190" font-family="Jua" font-size="26" fill="#2b2b2b">세액공제</text>
+<rect x="360" y="168" width="26" height="26" fill="#f5c542" stroke="#2b2b2b" stroke-width="3"/><text x="396" y="190" font-family="Jua" font-size="26" fill="#2b2b2b">답례품(30%)</text>
+<rect x="570" y="168" width="26" height="26" fill="#f39c7a" stroke="#2b2b2b" stroke-width="3"/><text x="606" y="190" font-family="Jua" font-size="26" fill="#2b2b2b">내 부담</text>
+<line x1="130" y1="640" x2="1160" y2="640" stroke="#2b2b2b" stroke-width="5" stroke-linecap="round"/>
+<rect x="189" y="558" width="170" height="82" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="4"/>
+<text x="274" y="608" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">10만</text>
+<rect x="189" y="533" width="170" height="25" fill="#f5c542" stroke="#2b2b2b" stroke-width="4"/>
+<text x="367" y="554" font-family="Jua" font-size="22" fill="#2b2b2b">3만</text>
+<text x="274" y="686" font-family="Jua" font-size="34" text-anchor="middle" fill="#2b2b2b">10만원 기부</text>
+<text x="274" y="728" font-family="Gaegu" font-weight="bold" font-size="30" text-anchor="middle" fill="#2f7a50">3만원 이득</text>
+<rect x="436" y="522" width="170" height="118" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="4"/>
+<text x="521" y="590" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">14.4만</text>
+<rect x="436" y="473" width="170" height="49" fill="#f5c542" stroke="#2b2b2b" stroke-width="4"/>
+<text x="521" y="506" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">6만</text>
+<text x="521" y="686" font-family="Jua" font-size="34" text-anchor="middle" fill="#2b2b2b">20만원 기부</text>
+<text x="521" y="728" font-family="Gaegu" font-weight="bold" font-size="30" text-anchor="middle" fill="#2f7a50">0.4만원 이득</text>
+<rect x="684" y="508" width="170" height="132" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="4"/>
+<text x="769" y="583" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">16.05만</text>
+<rect x="684" y="435" width="170" height="74" fill="#f5c542" stroke="#2b2b2b" stroke-width="4"/>
+<text x="769" y="480" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">9만</text>
+<rect x="684" y="394" width="170" height="41" fill="#f39c7a" stroke="#2b2b2b" stroke-width="4"/>
+<text x="769" y="423" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">4.95만</text>
+<text x="769" y="686" font-family="Jua" font-size="34" text-anchor="middle" fill="#2b2b2b">30만원 기부</text>
+<text x="769" y="728" font-family="Gaegu" font-weight="bold" font-size="30" text-anchor="middle" fill="#d0452f">내 부담 4.95만원</text>
+<rect x="931" y="481" width="170" height="159" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="4"/>
+<text x="1016" y="570" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">19.35만</text>
+<rect x="931" y="358" width="170" height="123" fill="#f5c542" stroke="#2b2b2b" stroke-width="4"/>
+<text x="1016" y="429" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">15만</text>
+<rect x="931" y="230" width="170" height="128" fill="#f39c7a" stroke="#2b2b2b" stroke-width="4"/>
+<text x="1016" y="303" font-family="Jua" font-size="24" text-anchor="middle" fill="#2b2b2b">15.65만</text>
+<text x="1016" y="686" font-family="Jua" font-size="34" text-anchor="middle" fill="#2b2b2b">50만원 기부</text>
+<text x="1016" y="728" font-family="Gaegu" font-weight="bold" font-size="30" text-anchor="middle" fill="#d0452f">내 부담 15.65만원</text>
+<text x="60" y="774" font-family="Jua" font-size="22" fill="#b8a98f">2026년 기부분 기준(결정세액이 충분하다고 가정) · 답례품은 최대 30%를 받는다고 보고 계산</text></svg>
