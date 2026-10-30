@@ -73,9 +73,9 @@ def lint(path, series):
         elif not src.startswith('http'):
             fails.append(f"상대경로 이미지(티스토리에서 깨짐, GitHub 원본 주소로): {src}")
 
-    # 그림 장수는 내용에 따라 1~3장(RULES.md 「이미지」). 숫자 표가 많은데 1장이면 이유를 적게 한다.
-    if len(imgs) > 3:
-        fails.append(f"본문 그림 {len(imgs)}장 (최대 3장)")
+    # 그림 장수는 내용에 따라 1~5장(2026-10-30 사용자 요청으로 3→5, RULES.md 「이미지」). 숫자 표가 많은데 1장이면 이유를 적게 한다.
+    if len(imgs) > 5:
+        fails.append(f"본문 그림 {len(imgs)}장 (최대 5장)")
     num_tables = sum(1 for tb in re.findall(r'<table.*?</table>', html, re.S)
                      if len(re.findall(r'\d[\d,.]*\s*(%|원|조|만|억|년|월|일|배|달러)', tb)) >= 4)
     if len(imgs) == 1 and num_tables >= 3 and not fm.get('figure_plan'):

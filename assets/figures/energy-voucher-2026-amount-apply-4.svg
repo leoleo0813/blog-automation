@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><pattern id="d" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#ece0cc"/></pattern></defs>
+<rect width="1200" height="700" fill="#fff8ee"/><rect width="1200" height="700" fill="url(#d)"/>
+<text x="60" y="88" font-family="Jua" font-size="50" fill="#2b2b2b">신청은 12월 31일까지, 사용은 내년 5월까지</text>
+<text x="62" y="138" font-family="Gaegu" font-weight="bold" font-size="34" fill="#9a7b55">지금 신청해도 이번 겨울 내내 쓸 수 있어요</text>
+<path d="M80.0 420 Q 520.0 380 600.0 420 Q 980.0 460 1060.0 420 T 1120.0 420" fill="none" stroke="#e9d9bf" stroke-width="34" stroke-linecap="round"/>
+<path d="M80.0 420 Q 520.0 380 600.0 420 Q 980.0 460 1060.0 420 T 1120.0 420" fill="none" stroke="#2b2b2b" stroke-width="4" stroke-dasharray="14 12" stroke-linecap="round"/>
+<line x1="140" y1="420" x2="140" y2="300" stroke="#2b2b2b" stroke-width="6" stroke-linecap="round"/>
+<path d="M140 300 l 70 22 l -70 22 z" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="140" cy="420" r="14" fill="#7cc4a4" stroke="#2b2b2b" stroke-width="4"/>
+<text x="140" y="510" font-family="Jua" font-size="38" text-anchor="middle" fill="#2b2b2b">6/15</text>
+<text x="140" y="556" font-family="Gaegu" font-weight="bold" font-size="32" text-anchor="middle" fill="#4a4a4a">신청 시작</text>
+<line x1="600" y1="420" x2="600" y2="300" stroke="#2b2b2b" stroke-width="6" stroke-linecap="round"/>
+<path d="M600 300 l 70 22 l -70 22 z" fill="#e35d5b" stroke="#2b2b2b" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="600" cy="420" r="14" fill="#e35d5b" stroke="#2b2b2b" stroke-width="4"/>
+<text x="600" y="510" font-family="Jua" font-size="38" text-anchor="middle" fill="#d0452f">12/31(목)</text>
+<text x="600" y="556" font-family="Gaegu" font-weight="bold" font-size="32" text-anchor="middle" fill="#4a4a4a">신청 마감</text>
+<line x1="1060" y1="420" x2="1060" y2="300" stroke="#2b2b2b" stroke-width="6" stroke-linecap="round"/>
+<path d="M1060 300 l 70 22 l -70 22 z" fill="#e35d5b" stroke="#2b2b2b" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="1060" cy="420" r="14" fill="#e35d5b" stroke="#2b2b2b" stroke-width="4"/>
+<text x="1060" y="510" font-family="Jua" font-size="38" text-anchor="middle" fill="#d0452f">2027 5/31</text>
+<text x="1060" y="556" font-family="Gaegu" font-weight="bold" font-size="32" text-anchor="middle" fill="#4a4a4a">사용 기간 끝</text>
+<text x="60" y="674" font-family="Jua" font-size="22" fill="#b8a98f">출처: 경향신문·서울시 안내(사용 기간 2026.7.1~2027.5.31)</text></svg>

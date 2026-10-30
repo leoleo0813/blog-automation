@@ -63,7 +63,8 @@ def main():
         lines = fields.get('thumb_title') or '|'.join(title.split(',')[:2])
         subprocess.run(
             [sys.executable, '-m', 'blog_automation.make_illustrated_thumbnail', slug, lines,
-             fields.get('track') or 'chart', fields.get('thumb_note', ''), fields.get('thumb_date', '')],
+             fields.get('track') or 'chart', fields.get('thumb_note', ''), fields.get('thumb_date', ''),
+             fields.get('thumb_art', '')],
             check=True,
         )
         return

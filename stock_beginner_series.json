@@ -3417,6 +3417,21 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/macd-calculation-signal-line.md"
+    },
+    {
+      "id": 173,
+      "order": 173,
+      "title": "에너지바우처 2026 신청 12월 31일까지, 세대원 수별 금액과 대상",
+      "slug": "energy-voucher-2026-amount-apply",
+      "keyword": "에너지바우처",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "74000 (PC 15100 / 모바일 58900)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/energy-voucher-2026-amount-apply.md",
+      "deadline": "2026-12-31"
     }
   ],
   "backlog": {

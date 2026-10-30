@@ -156,6 +156,8 @@ figure_plan: "1: 나이별 지원금 막대(15만/16만) / 2: 신청 마감 11/3
 
 <p>12월에는 영화관·공연장 예매가 몰려 원하는 날짜를 못 잡는 경우가 많아요. 잔액이 많이 남았다면 11월 안에 쓸 곳을 정해 두는 편이 좋아요. 날짜를 고르는 공연·경기보다 바로 결제되는 가맹점이 마감 직전에 남은 돈을 쓰기 쉬워요.</p>
 
+<p>문화누리카드 대상인 수급 세대라면 겨울 난방비를 돕는 <a href="https://sensitiveboss3.tistory.com/entry/energy-voucher-2026-amount-apply" target="_blank" rel="noopener">에너지바우처</a>도 받을 수 있는지 함께 보면 좋아요. 세대원 기준이 맞으면 1년에 최대 70만1,300원이고, 신청은 12월 31일까지예요.</p>
+
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #e67e22;padding-left:12px;margin-top:36px;">자주 놓치는 4가지</h2>
 
 <ol style="line-height:1.9;">

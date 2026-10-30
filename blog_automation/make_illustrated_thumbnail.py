@@ -3,7 +3,9 @@
 어두운 단색 배경 + 고딕 글자 대신, 크림색 바탕에 둥근 손글씨풍 글꼴(Jua·Gaegu, OFL)과
 갈래별 손그림 일러스트(차트: 캔들 카드 / 생활정보: 달력·동전)를 넣는다.
 
-    python -m blog_automation.make_illustrated_thumbnail <slug> "<제목 1줄|제목 2줄>" <track> "<메모>" [강조 글자]
+    python -m blog_automation.make_illustrated_thumbnail <slug> "<제목 1줄|제목 2줄>" <track> "<메모>" [달력 날짜] [그림]
+
+그림(thumb_art): chart(캔들) · heater(난방기) · piggy(저금통) · calc(계산기). 비우면 track 기본(차트=캔들, 생활=달력).
 
 track: chart(기본, 배지 "주식공부") 또는 life(배지 "생활정보"). 강조 글자는 life 달력에 동그라미 칠 날짜(예: 11/27).
 """
@@ -82,7 +84,65 @@ def _life_art(date_text):
     return s
 
 
-def build_svg(title_lines, track, note, date_text=''):
+def _heater_art():
+    """라디에이터(난방기)와 김 세 줄, 따뜻한 머그잔."""
+    s = ['<g transform="translate(700,470) rotate(-3)">',
+         '<rect x="10" y="14" width="400" height="290" rx="30" fill="#000" opacity="0.08"/>']
+    for i in range(6):
+        x = 20 + i * 64
+        s.append(f'<rect x="{x}" y="40" width="52" height="250" rx="26" fill="#ffffff" stroke="#2b2b2b" stroke-width="5"/>')
+        s.append(f'<line x1="{x+26}" y1="70" x2="{x+26}" y2="260" stroke="#f3d3c2" stroke-width="8" stroke-linecap="round"/>')
+    s.append('<rect x="0" y="250" width="420" height="34" rx="14" fill="#e0703a" stroke="#2b2b2b" stroke-width="5"/>')
+    for i in range(3):  # 김
+        x = 110 + i * 100
+        s.append(f'<path d="M{x} 20 c -22 -30, 22 -45, 0 -75 s 22 -45, 0 -75" fill="none" stroke="#e35d5b" stroke-width="7" stroke-linecap="round" opacity="0.8"/>')
+    s.append('</g>')
+    s.append('<g transform="translate(545,700)"><rect x="0" y="0" width="110" height="120" rx="18" fill="#f5c542" stroke="#2b2b2b" stroke-width="5"/>'
+             '<path d="M110 30 q 45 0 45 35 t -45 35" fill="none" stroke="#2b2b2b" stroke-width="8"/></g>')
+    return s
+
+
+def _piggy_art():
+    """저금통 돼지와 떨어지는 동전."""
+    s = ['<g transform="translate(760,520)">',
+         '<ellipse cx="170" cy="150" rx="190" ry="140" fill="#000" opacity="0.07"/>',
+         '<ellipse cx="160" cy="140" rx="190" ry="140" fill="#f7a8b8" stroke="#2b2b2b" stroke-width="6"/>',
+         '<ellipse cx="335" cy="140" rx="42" ry="50" fill="#f48fa5" stroke="#2b2b2b" stroke-width="6"/>',
+         '<circle cx="325" cy="128" r="7" fill="#2b2b2b"/><circle cx="345" cy="152" r="7" fill="#2b2b2b"/>',
+         '<circle cx="250" cy="90" r="11" fill="#2b2b2b"/>',
+         '<path d="M180 10 l 40 -55 l 30 60 z" fill="#f48fa5" stroke="#2b2b2b" stroke-width="6" stroke-linejoin="round"/>',
+         '<rect x="110" y="0" width="90" height="16" rx="8" fill="#2b2b2b"/>',
+         '<rect x="40" y="250" width="40" height="60" rx="12" fill="#f48fa5" stroke="#2b2b2b" stroke-width="6"/>',
+         '<rect x="230" y="250" width="40" height="60" rx="12" fill="#f48fa5" stroke="#2b2b2b" stroke-width="6"/>',
+         '</g>']
+    for x, y in ((900, 400), (980, 330)):
+        s.append(f'<g transform="translate({x},{y}) rotate(-15)"><ellipse cx="0" cy="0" rx="40" ry="40" fill="#f5c542" stroke="#2b2b2b" stroke-width="5"/>'
+                 '<text x="0" y="14" font-family="Jua" font-size="38" text-anchor="middle" fill="#8a6500">₩</text></g>')
+    return s
+
+
+def _calc_art():
+    """계산기와 영수증."""
+    s = ['<g transform="translate(760,450) rotate(4)">',
+         '<rect x="10" y="14" width="300" height="400" rx="30" fill="#000" opacity="0.08"/>',
+         '<rect x="0" y="0" width="300" height="400" rx="30" fill="#ffffff" stroke="#2b2b2b" stroke-width="6"/>',
+         '<rect x="30" y="30" width="240" height="80" rx="12" fill="#dff0e6" stroke="#2b2b2b" stroke-width="5"/>',
+         '<text x="250" y="88" font-family="Jua" font-size="48" text-anchor="end" fill="#2b2b2b">12%</text>']
+    keys = ['7', '8', '9', '÷', '4', '5', '6', '×', '1', '2', '3', '−', '0', '.', '=', '+']
+    for k, lab in enumerate(keys):
+        r, c = divmod(k, 4)
+        x, y = 30 + c * 62, 135 + r * 62
+        col = '#f0a020' if c == 3 else '#f1ece4'
+        s.append(f'<rect x="{x}" y="{y}" width="50" height="50" rx="12" fill="{col}" stroke="#2b2b2b" stroke-width="4"/>')
+        s.append(f'<text x="{x+25}" y="{y+36}" font-family="Jua" font-size="28" text-anchor="middle" fill="#2b2b2b">{lab}</text>')
+    s.append('</g>')
+    return s
+
+
+ARTS = {'chart': _chart_art, 'heater': _heater_art, 'piggy': _piggy_art, 'calc': _calc_art}
+
+
+def build_svg(title_lines, track, note, date_text='', art=''):
     t = TRACKS.get(track, TRACKS['chart'])
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
          '<defs><pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">'
@@ -100,7 +160,10 @@ def build_svg(title_lines, track, note, date_text=''):
             s.append(f'<rect x="80" y="{y-62}" width="{w:.0f}" height="58" rx="12" fill="{t["mark"]}" transform="rotate(-1.5 80 {y})"/>')
         s.append(f'<text x="90" y="{y}" font-family="Jua" font-size="{size}" fill="#2b2b2b">{_esc(line)}</text>')
         y += size + 22
-    s += _life_art(date_text or '') if track == 'life' else _chart_art()
+    if art in ARTS:
+        s += ARTS[art]()
+    else:
+        s += _life_art(date_text or '') if track == 'life' else _chart_art()
     # 손글씨 메모
     s.append(f'<g transform="translate(90,{H-130}) rotate(-2)">'
              f'<path d="M0 62 Q 160 74 330 60" fill="none" stroke="{t["accent"]}" stroke-width="5" stroke-linecap="round"/>'
@@ -113,10 +176,11 @@ def build_svg(title_lines, track, note, date_text=''):
 def main():
     slug, title, track, note = sys.argv[1:5]
     date_text = sys.argv[5] if len(sys.argv) > 5 else ''
+    art = sys.argv[6] if len(sys.argv) > 6 else ''
     _install_fonts()
     OUT.mkdir(parents=True, exist_ok=True)
     svg = OUT / f'{slug}.svg'
-    svg.write_text(build_svg([p.strip() for p in title.split('|')], track, note, date_text), encoding='utf-8')
+    svg.write_text(build_svg([p.strip() for p in title.split('|')], track, note, date_text, art), encoding='utf-8')
     subprocess.run([sys.executable, '-m', 'blog_automation.make_figure', str(svg)], check=True)
 
 
