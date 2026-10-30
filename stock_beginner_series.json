@@ -3388,6 +3388,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/culture-nuri-card-2026-deadline.md",
       "deadline": "2026-11-30"
+    },
+    {
+      "id": 171,
+      "order": 171,
+      "title": "청년미래적금 2차 계좌 개설 11월 16~27일, 결과 확인부터 만기 수령액까지",
+      "slug": "youth-future-savings-account-opening-2026",
+      "keyword": "청년미래적금",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "916900 (PC 169700 / 모바일 747200)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/youth-future-savings-account-opening-2026.md",
+      "deadline": "2026-11-27"
     }
   ],
   "backlog": {
