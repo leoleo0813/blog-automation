@@ -5,7 +5,7 @@
 
     python -m blog_automation.make_illustrated_thumbnail <slug> "<제목 1줄|제목 2줄>" <track> "<메모>" [달력 날짜] [그림]
 
-그림(thumb_art): chart(캔들) · heater(난방기) · piggy(저금통) · calc(계산기). 비우면 track 기본(차트=캔들, 생활=달력).
+그림(thumb_art): chart(캔들) · cloud(구름대) · heater(난방기) · piggy(저금통) · calc(계산기). 비우면 track 기본(차트=캔들, 생활=달력).
 
 track: chart(기본, 배지 "주식공부") 또는 life(배지 "생활정보"). 강조 글자는 life 달력에 동그라미 칠 날짜(예: 11/27).
 """
@@ -139,7 +139,24 @@ def _calc_art():
     return s
 
 
-ARTS = {'chart': _chart_art, 'heater': _heater_art, 'piggy': _piggy_art, 'calc': _calc_art}
+def _cloud_art():
+    """차트 카드 위 구름대(두 선 사이 색칠)와 가격 선, 구름 캐릭터."""
+    s = ['<g transform="translate(690,470) rotate(-3)">',
+         '<rect x="8" y="12" width="440" height="320" rx="26" fill="#000" opacity="0.08"/>',
+         '<rect x="0" y="0" width="440" height="320" rx="26" fill="#ffffff" stroke="#2b2b2b" stroke-width="5"/>',
+         '<path d="M30 230 C 120 210, 170 170, 250 150 S 380 120, 420 110 L 420 190 C 360 200, 300 220, 250 225 S 110 260, 30 270 Z" fill="#bfe3cc" stroke="#4f9d6e" stroke-width="4"/>',
+         '<path d="M30 280 C 90 270, 120 250, 170 200 S 260 90, 330 80 S 400 70, 420 60" fill="none" stroke="#2b2b2b" stroke-width="7" stroke-linecap="round"/>',
+         '<path d="M30 250 C 120 240, 200 200, 280 160 S 380 110, 420 100" fill="none" stroke="#e35d5b" stroke-width="5" stroke-linecap="round"/>',
+         '</g>',
+         # 구름 캐릭터
+         '<g transform="translate(1000,420)"><path d="M-80 30 a40 40 0 0 1 20 -70 a55 55 0 0 1 100 -10 a40 40 0 0 1 50 60 a30 30 0 0 1 -10 50 h-150 a30 30 0 0 1 -10 -30 z" fill="#ffffff" stroke="#2b2b2b" stroke-width="6"/>',
+         '<circle cx="-20" cy="20" r="7" fill="#2b2b2b"/><circle cx="30" cy="20" r="7" fill="#2b2b2b"/>',
+         '<path d="M-5 40 q 10 10 20 0" fill="none" stroke="#2b2b2b" stroke-width="5" stroke-linecap="round"/>',
+         '<circle cx="-40" cy="38" r="9" fill="#f7a8b8"/><circle cx="52" cy="38" r="9" fill="#f7a8b8"/></g>']
+    return s
+
+
+ARTS = {'chart': _chart_art, 'cloud': _cloud_art, 'heater': _heater_art, 'piggy': _piggy_art, 'calc': _calc_art}
 
 
 def build_svg(title_lines, track, note, date_text='', art=''):

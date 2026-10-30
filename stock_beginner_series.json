@@ -3559,6 +3559,20 @@
       "status": "drafted",
       "draft_path": "stock_drafts/energy-voucher-2026-amount-apply.md",
       "deadline": "2026-12-31"
+    },
+    {
+      "id": 174,
+      "order": 174,
+      "title": "일목균형표 보는법과 계산, 구름대·전환선·기준선 한 번에",
+      "slug": "ichimoku-cloud-calculation",
+      "keyword": "일목균형표",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "2180 (PC 690 / 모바일 1490)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/ichimoku-cloud-calculation.md"
     }
   ],
   "backlog": {
