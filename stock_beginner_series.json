@@ -2639,11 +2639,13 @@
       "serp_check": "2026-10-03 게이트2 v3 통과: 상위에 a-ha.io Q&A·위키형 사이트가 섞여 진입 여지 있음, 탐색형 의도, 가상 대출 실질 부채 계산과 현재 한국 물가 대조를 보여 주는 글 미확인",
       "unique_asset_plan": "3자 비교표, 대출 1억 원 가상 사례(물가 -2%: 1년 약 2.04%, 3년 약 6.25%), 물가 수준 비교 그림, 현재 소비자물가 대조표",
       "primary_source": "mods.go.kr WebFetch EGRESS_BLOCKED. 정의는 한국은행·KDI·KB사전·한국경제 4곳 교차검증, 현재 물가 2.9%는 언론 3곳 일치, 원문 대조 전 gate_pass:false",
-      "status": "drafted",
-      "draft_path": "stock_drafts/deflation-disinflation-difference-guide.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/deflation-disinflation-difference-guide.md",
       "cannibalization_note": "스태그플레이션(113)·경기침체(120)는 경기 국면, 소비자물가지수(100)는 계산 구조. 이 글은 물가 하락의 정의 구분과 실질 부채 계산으로 각도가 다름",
       "gate_pass": true,
-      "gate_pass_note": "현재 소비자물가 수치 원문 미확인. capture_guide 1순위(mods.go.kr/cpi) 캡처 후 true[2026-10-03 주제 선정 v3 5번 적용] 9월 소비자물가 2.9%·8월 3.1%는 100편(consumer-price-index-calculation-guide)에서 사용자 e-나라지표 캡처(2026-10-02 갱신분)로 검증한 값과 같은 출처·같은 기준월이라 재사용. capture_guide는 불필요해져 gate_pass:true로 전환."
+      "gate_pass_note": "현재 소비자물가 수치 원문 미확인. capture_guide 1순위(mods.go.kr/cpi) 캡처 후 true[2026-10-03 주제 선정 v3 5번 적용] 9월 소비자물가 2.9%·8월 3.1%는 100편(consumer-price-index-calculation-guide)에서 사용자 e-나라지표 캡처(2026-10-02 갱신분)로 검증한 값과 같은 출처·같은 기준월이라 재사용. capture_guide는 불필요해져 gate_pass:true로 전환.",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 125,
@@ -2657,11 +2659,13 @@
       "monthly_search_volume": "20730 (backlog 실측)",
       "gate1_pass": true,
       "serp_check": "2026-10-03 게이트2 v4 통과: 상위가 증권사 안내지만 서머타임 전후 한국시간 통합표·남은 휴장일 한국시간 환산·12월 6일 23x5 야간 세션 환산이 정보이득",
-      "status": "drafted",
-      "draft_path": "stock_drafts/us-stock-trading-hours-korea-time.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/us-stock-trading-hours-korea-time.md",
       "gate_pass": true,
       "drafted_at": "2026-10-03",
-      "cannibalization_note": "49편 넥스트레이드(국내 거래시간)·80편 동시호가와 시장이 다름(미국장)"
+      "cannibalization_note": "49편 넥스트레이드(국내 거래시간)·80편 동시호가와 시장이 다름(미국장)",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 126,
@@ -2675,12 +2679,14 @@
       "monthly_search_volume": "290100 (PC 32,100 / 모바일 258,000, 2026-10-03 실측)",
       "gate1_pass": true,
       "serp_check": "2026-10-03 게이트2 v4 통과: 확정/미확정 구분표, 주식 수 역산으로 1주당 금액 계산, 2천만 원 기준 주식 수 계산, 최근 4분기 이력표가 정보이득",
-      "status": "drafted",
-      "draft_path": "stock_drafts/samsung-electronics-dividend-q3-2026.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/samsung-electronics-dividend-q3-2026.md",
       "gate_pass": true,
       "drafted_at": "2026-10-03",
       "refresh_due": "2026-10-31",
-      "cannibalization_note": "66편(삼성전자우 가격 차이)은 가격·배당수익률 비교, 이 글은 3분기 배당 금액·일정·세금"
+      "cannibalization_note": "66편(삼성전자우 가격 차이)은 가격·배당수익률 비교, 이 글은 3분기 배당 금액·일정·세금",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 127,
@@ -2694,12 +2700,14 @@
       "monthly_search_volume": "53000 (PC 14900 / 모바일 38100)",
       "gate1_pass": true,
       "serp_check": "2026-10-03 게이트2 v4 통과: 한 장 비교표, 7개 분기 분배금 그래프, 세후 비교가 정보이득",
-      "status": "drafted",
-      "draft_path": "stock_drafts/schd-dividend-korea-listed-etf-gap.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/schd-dividend-korea-listed-etf-gap.md",
       "gate_pass": true,
       "drafted_at": "2026-10-03",
       "refresh_due": "2026-12-16",
-      "cannibalization_note": "23편(국내상장 해외ETF 세금)·63편(월배당 ETF)은 세금·구조 일반론, 이 글은 SCHD 분배 이력과 국내 3종 상품 비교"
+      "cannibalization_note": "23편(국내상장 해외ETF 세금)·63편(월배당 ETF)은 세금·구조 일반론, 이 글은 SCHD 분배 이력과 국내 3종 상품 비교",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 128,
@@ -2707,13 +2715,15 @@
       "keyword": "SK하이닉스 배당금",
       "title": "SK하이닉스 배당금 분기 375원, 지급일과 추가배당",
       "slug": "sk-hynix-dividend-buyback-2026",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "6890 (PC 1400 / 모바일 5490)",
       "gate_pass": true,
       "refresh_due": "2026-10-28",
       "draft": "stock_drafts/sk-hynix-dividend-buyback-2026.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/sk-hynix-dividend-buyback-2026.md"
+      "draft_path": "stock_drafts/발행완료/sk-hynix-dividend-buyback-2026.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 129,
@@ -2721,13 +2731,15 @@
       "keyword": "주식 휴장일",
       "title": "주식 휴장일 2026, 남은 4일과 연말 폐장일",
       "slug": "stock-market-holidays-2026-remaining",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "6390 (PC 940 / 모바일 5450)",
       "gate_pass": true,
       "refresh_due": "2026-10-10",
       "draft": "stock_drafts/stock-market-holidays-2026-remaining.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/stock-market-holidays-2026-remaining.md"
+      "draft_path": "stock_drafts/발행완료/stock-market-holidays-2026-remaining.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 130,
@@ -2735,13 +2747,15 @@
       "keyword": "유상증자 뜻",
       "title": "유상증자 뜻과 방식 차이, 청약 손익 계산",
       "slug": "rights-offering-meaning-choices",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "9880 (PC 1180 / 모바일 8700)",
       "gate_pass": true,
       "refresh_due": "2027-04-04",
       "draft": "stock_drafts/rights-offering-meaning-choices.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/rights-offering-meaning-choices.md"
+      "draft_path": "stock_drafts/발행완료/rights-offering-meaning-choices.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 131,
@@ -2749,13 +2763,15 @@
       "keyword": "달러 ETF",
       "title": "달러 ETF 달러예금 차이와 환율 손익 계산",
       "slug": "dollar-etf-exchange-rate-comparison",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "3310 (PC 660 / 모바일 2650)",
       "gate_pass": false,
       "refresh_due": "2027-04-04",
       "draft": "stock_drafts/dollar-etf-exchange-rate-comparison.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/dollar-etf-exchange-rate-comparison.md"
+      "draft_path": "stock_drafts/발행완료/dollar-etf-exchange-rate-comparison.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 132,
@@ -2763,13 +2779,15 @@
       "keyword": "원유 ETF",
       "title": "원유 ETF 3분기 수익률과 롤오버 비용",
       "slug": "oil-etf-rollover-cost-q3-2026",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "760 (PC 250 / 모바일 510)",
       "gate_pass": true,
       "refresh_due": "2026-11-04",
       "draft": "stock_drafts/oil-etf-rollover-cost-q3-2026.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/oil-etf-rollover-cost-q3-2026.md"
+      "draft_path": "stock_drafts/발행완료/oil-etf-rollover-cost-q3-2026.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 133,
@@ -2777,13 +2795,15 @@
       "keyword": "10월 공모주",
       "title": "10월 공모주 일정 2026 청약일과 상장일",
       "slug": "ipo-schedule-october-2026",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "8130 (PC 3000 / 모바일 5130)",
       "gate_pass": true,
       "refresh_due": "2026-10-08",
       "draft": "stock_drafts/ipo-schedule-october-2026.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/ipo-schedule-october-2026.md"
+      "draft_path": "stock_drafts/발행완료/ipo-schedule-october-2026.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 134,
@@ -2791,13 +2811,15 @@
       "keyword": "환전 우대",
       "title": "환전 우대율 계산법과 증권사별 차이",
       "slug": "exchange-preferential-rate-calc",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "3490 (PC 690 / 모바일 2800)",
       "gate_pass": false,
       "refresh_due": "2026-12-04",
       "draft": "stock_drafts/exchange-preferential-rate-calc.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/exchange-preferential-rate-calc.md"
+      "draft_path": "stock_drafts/발행완료/exchange-preferential-rate-calc.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 135,
@@ -2805,13 +2827,15 @@
       "keyword": "국민참여성장펀드",
       "title": "국민참여성장펀드 2차 가입 방법과 소득공제",
       "slug": "national-growth-fund-second-deduction",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "14950 (PC 3450 / 모바일 11500)",
       "gate_pass": true,
       "refresh_due": "2026-10-16",
       "draft": "stock_drafts/national-growth-fund-second-deduction.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/national-growth-fund-second-deduction.md"
+      "draft_path": "stock_drafts/발행완료/national-growth-fund-second-deduction.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 136,
@@ -2819,14 +2843,16 @@
       "keyword": "삼성전자 실적발표일",
       "title": "삼성전자 실적발표일 3분기 잠정과 확정",
       "slug": "samsung-earnings-release-guide",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "15250 (PC 2750 / 모바일 12500)",
       "gate_pass": true,
       "refresh_due": "2026-10-31",
       "draft": "stock_drafts/samsung-earnings-release-guide.md",
       "gate1_pass": true,
       "updated": "2026-10-21 갱신: 3분기 잠정실적(10/8 공시) 반영",
-      "draft_path": "stock_drafts/samsung-earnings-release-guide.md"
+      "draft_path": "stock_drafts/발행완료/samsung-earnings-release-guide.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 137,
@@ -2834,13 +2860,15 @@
       "keyword": "점도표",
       "title": "점도표 보는 법 중앙값 계산",
       "slug": "fomc-dot-plot-median-reading",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "1050 (PC 410 / 모바일 640)",
       "gate_pass": true,
       "refresh_due": "2026-12-18",
       "draft": "stock_drafts/fomc-dot-plot-median-reading.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/fomc-dot-plot-median-reading.md"
+      "draft_path": "stock_drafts/발행완료/fomc-dot-plot-median-reading.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 138,
@@ -2848,13 +2876,15 @@
       "keyword": "미국 CPI 발표",
       "title": "미국 CPI 발표 시간 2026 일정과 한국시간",
       "slug": "us-cpi-release-date-korea-time",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "8340 (PC 850 / 모바일 7490)",
       "gate_pass": true,
       "refresh_due": "2026-10-15",
       "draft": "stock_drafts/us-cpi-release-date-korea-time.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/us-cpi-release-date-korea-time.md"
+      "draft_path": "stock_drafts/발행완료/us-cpi-release-date-korea-time.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 139,
@@ -2862,13 +2892,15 @@
       "title": "옵션만기일 2026 남은 날짜 달력표",
       "slug": "option-expiry-date-calendar-2026",
       "keyword": "옵션만기일",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "6460 (PC 2080 / 모바일 4380)",
       "gate_pass": true,
       "refresh_due": "2026-10-09",
       "draft": "stock_drafts/option-expiry-date-calendar-2026.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/option-expiry-date-calendar-2026.md"
+      "draft_path": "stock_drafts/발행완료/option-expiry-date-calendar-2026.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 140,
@@ -2876,13 +2908,15 @@
       "title": "레버리지 ETF 횡보장 손실 계산표와 배수별 차이",
       "slug": "leverage-etf-sideways-loss-table",
       "keyword": "레버리지 ETF",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "14960 (PC 2560 / 모바일 12400)",
       "gate_pass": true,
       "refresh_due": "2027-01-05",
       "draft": "stock_drafts/leverage-etf-sideways-loss-table.md",
       "gate1_pass": true,
-      "draft_path": "stock_drafts/leverage-etf-sideways-loss-table.md"
+      "draft_path": "stock_drafts/발행완료/leverage-etf-sideways-loss-table.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 141,
@@ -2890,14 +2924,16 @@
       "keyword": "금통위 일정",
       "title": "금통위 일정 2026 남은 2번과 FOMC 한국시간",
       "slug": "bok-mpc-schedule-2026-remaining",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "2760 (PC 800 / 모바일 1960)",
       "gate_pass": true,
       "refresh_due": "2026-10-23",
       "draft": "stock_drafts/bok-mpc-schedule-2026-remaining.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06",
-      "draft_path": "stock_drafts/bok-mpc-schedule-2026-remaining.md"
+      "draft_path": "stock_drafts/발행완료/bok-mpc-schedule-2026-remaining.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 142,
@@ -2905,7 +2941,7 @@
       "keyword": "SK하이닉스 실적 발표일",
       "title": "SK하이닉스 실적 발표일 10월 28일과 확인 순서",
       "slug": "skhynix-q3-earnings-check-order",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "6280 (PC 1380 / 모바일 4900)",
       "gate_pass": true,
       "refresh_due": "2026-10-29",
@@ -2914,7 +2950,9 @@
       "drafted_at": "2026-10-06",
       "refreshed_at": "2026-10-20",
       "refresh_note": "2026-10-20 갱신: 키워드를 SK하이닉스 3분기 실적(520)에서 SK하이닉스 실적 발표일(6,280)로 확대. 발표일 미확정을 10/28 보도로 교체, 컨센서스 대비 실제 비율 표, 추가 주주환원(8/19 40조 자사주) 절, 일정 타임라인 그림 추가",
-      "draft_path": "stock_drafts/skhynix-q3-earnings-check-order.md"
+      "draft_path": "stock_drafts/발행완료/skhynix-q3-earnings-check-order.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 143,
@@ -2922,14 +2960,16 @@
       "keyword": "엔비디아 실적발표",
       "title": "엔비디아 실적발표 일정과 한국시간 계산",
       "slug": "nvidia-earnings-date-korea-time",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "1230 (PC 200 / 모바일 1030)",
       "gate_pass": true,
       "refresh_due": "2026-11-02",
       "draft": "stock_drafts/nvidia-earnings-date-korea-time.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06",
-      "draft_path": "stock_drafts/nvidia-earnings-date-korea-time.md"
+      "draft_path": "stock_drafts/발행완료/nvidia-earnings-date-korea-time.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 144,
@@ -2937,14 +2977,16 @@
       "keyword": "단일종목 레버리지",
       "title": "단일종목 레버리지 규제 일정과 20좌 단위",
       "slug": "single-stock-leverage-etf-rules-timeline",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "3500 (PC 880 / 모바일 2620)",
       "gate_pass": true,
       "refresh_due": "2026-11-02",
       "draft": "stock_drafts/single-stock-leverage-etf-rules-timeline.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06",
-      "draft_path": "stock_drafts/single-stock-leverage-etf-rules-timeline.md"
+      "draft_path": "stock_drafts/발행완료/single-stock-leverage-etf-rules-timeline.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 145,
@@ -2952,14 +2994,16 @@
       "keyword": "의무공개매수",
       "title": "의무공개매수 법안 내용과 처리 현황",
       "slug": "mandatory-tender-offer-bill-status",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "1890 (PC 850 / 모바일 1040)",
       "gate_pass": true,
       "refresh_due": "2026-10-20",
       "draft": "stock_drafts/mandatory-tender-offer-bill-status.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-06",
-      "draft_path": "stock_drafts/mandatory-tender-offer-bill-status.md"
+      "draft_path": "stock_drafts/발행완료/mandatory-tender-offer-bill-status.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 146,
@@ -2967,14 +3011,16 @@
       "keyword": "삼성전자 영업이익",
       "title": "삼성전자 영업이익 분기별 추이 2025~2026",
       "slug": "samsung-operating-profit-quarterly-trend",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "11720 (PC 2790 / 모바일 8930)",
       "gate_pass": true,
       "refresh_due": "2026-10-30",
       "draft": "stock_drafts/samsung-operating-profit-quarterly-trend.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-10",
-      "draft_path": "stock_drafts/samsung-operating-profit-quarterly-trend.md"
+      "draft_path": "stock_drafts/발행완료/samsung-operating-profit-quarterly-trend.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 147,
@@ -2982,21 +3028,23 @@
       "keyword": "미국 PPI",
       "title": "미국 PPI 발표일 2026 한국시간 몇 시",
       "slug": "us-ppi-release-date-korea-time",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "7240 (PC 1110 / 모바일 6130)",
       "gate_pass": true,
       "refresh_due": "2026-10-16",
       "draft": "stock_drafts/us-ppi-release-date-korea-time.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-11",
-      "draft_path": "stock_drafts/us-ppi-release-date-korea-time.md"
+      "draft_path": "stock_drafts/발행완료/us-ppi-release-date-korea-time.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
-      "id": "148",
-      "order": "148",
+      "id": 148,
+      "order": 148,
       "title": "증여세 신고기한 계산법과 월별 마감일 2026",
       "slug": "gift-tax-filing-deadline-calendar",
-      "status": "drafted",
+      "status": "published",
       "keyword": "증여세 신고기한",
       "monthly_search_volume": "3870 (PC 1290 / 모바일 2580)",
       "gate_pass": "True",
@@ -3004,7 +3052,9 @@
       "draft": "stock_drafts/gift-tax-filing-deadline-calendar.md",
       "gate1_pass": true,
       "drafted_at": "2026-10-11",
-      "draft_path": "stock_drafts/gift-tax-filing-deadline-calendar.md"
+      "draft_path": "stock_drafts/발행완료/gift-tax-filing-deadline-calendar.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "149",
@@ -3020,12 +3070,14 @@
       "serp_check": "v4 통과(2026-10-12), 소규모 한국어 글 중심, 월별 분배표·100주 계산·분배율표 정보이득",
       "unique_asset_plan": "2026 월별 분배금 8회 표·그래프, 100주 세전·세후 계산, 분배율 계산표, 분배락일 표",
       "primary_source": "Dividend Vision·Wisesheets 두 집계 교차, J.P. Morgan 2026 분배 일정표(날짜), 세금은 15·23·39편 검증값 재사용. 원문 직접 접속 불가",
-      "status": "drafted",
-      "draft_path": "stock_drafts/jepi-monthly-distribution-2026.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/jepi-monthly-distribution-2026.md",
       "cannibalization_note": "63편(월배당 일반론)·73편(커버드콜 세금)과 다름, JEPI 분배 이력 중심",
       "gate_pass": true,
       "gate_pass_note": "4개 게이트 충족(2026-10-12). 10월 1일 분배 금액은 미확인이라 표에서 제외, refresh_due 2026-11-09",
-      "created_at": "2026-10-12"
+      "created_at": "2026-10-12",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "150",
@@ -3041,12 +3093,14 @@
       "serp_check": "v4 통과(2026-10-14), 소규모 공모주 글 섞임, 증권사별 균등·증거금·비례 계산 정보이득",
       "unique_asset_plan": "청약 주수별 증거금·비례 배정 계산표, 증권사별 균등 배정 그림, 일정 그림, 첫날 호가 범위 계산",
       "primary_source": "38커뮤니케이션 캡처(사용자, 10/15) + 언론 교차(한국경제·뉴스핌·뉴스프라임·CBC·테크M)",
-      "status": "drafted",
-      "draft_path": "stock_drafts/ellis-group-ipo-subscription-result.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/ellis-group-ipo-subscription-result.md",
       "cannibalization_note": "10월 공모주 일정(133편)은 15곳 달력, 이 글은 한 종목 결과·배정 계산. 44편은 계산 원리",
       "gate_pass": true,
       "gate_pass_note": "2026-10-15 사용자 38커뮤니케이션 캡처로 상장일 10/20·환불 10/13 확정",
-      "created_at": "2026-10-14"
+      "created_at": "2026-10-14",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "151",
@@ -3060,11 +3114,13 @@
       "monthly_search_volume": "1020 (PC 270 / 모바일 750)",
       "gate1_pass": true,
       "primary_source": "소득세법 시행령 제118조의2 제3항·제40조의2 제2항(시행 2026-10-01, 대통령령 제36737호) + 3·8·75·70편 검증값 재사용",
-      "status": "drafted",
-      "draft_path": "stock_drafts/isa-maturity-pension-transfer-options.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/isa-maturity-pension-transfer-options.md",
       "cannibalization_note": "3편(ISA 한도)·8편(세액공제)·75편(IRP ISA 차이)이 만기 전환을 한 문단씩만 다룸. 이 글은 만기 후 선택지·60일 순서·연도 경계·소득 구간별 환급 합계에 집중하고 6편으로 내부 링크.",
       "gate_pass": true,
-      "gate_pass_note": "2026-10-19 소득세법 시행령 제118조의2 제3항 원문(사용자 제공)으로 60일 기산일=계약기간 만료일 확정."
+      "gate_pass_note": "2026-10-19 소득세법 시행령 제118조의2 제3항 원문(사용자 제공)으로 60일 기산일=계약기간 만료일 확정.",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 152,
@@ -3078,11 +3134,13 @@
       "monthly_search_volume": "5530 (PC 1100 / 모바일 4430)",
       "gate1_pass": true,
       "primary_source": "언론 5곳(kbthink·이데일리·PRESS9·아시아투데이·매일일보) 동일 수치, DART 원문 미열람. 4월 소각 결정분은 뉴시스·다음·딜사이트·인베스팅닷컴 일치",
-      "status": "drafted",
-      "draft_path": "stock_drafts/samsung-treasury-stock-buyback-compensation.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/samsung-treasury-stock-buyback-compensation.md",
       "cannibalization_note": "50편(자사주 소각 세금)·126편(삼성전자 배당금)과 다름. 이 글은 취득 목적(보상 vs 소각)과 일정, 주식 수에 주는 경로.",
       "gate_pass": true,
-      "gate_pass_note": "게이트1 5,530, 게이트2 v4 통과, 게이트3 비교표·검산·그림 2장, 게이트4 언론 5곳 교차. 선택: DART 10/12 자기주식 취득 결과보고서 대조."
+      "gate_pass_note": "게이트1 5,530, 게이트2 v4 통과, 게이트3 비교표·검산·그림 2장, 게이트4 언론 5곳 교차. 선택: DART 10/12 자기주식 취득 결과보고서 대조.",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 153,
@@ -3096,12 +3154,14 @@
       "monthly_search_volume": "89000 (PC 22200 / 모바일 66800)",
       "gate1_pass": true,
       "primary_source": "삼성자산운용 월간 자료(2026-06-30·2026-01-31)와 etfshopping 지급 이력 일치. 원문 PDF 직접 접속 불가. 2026.7월 183원은 집계 사이트 단독, 10월 기준일·지급일은 과거 패턴 추정",
-      "status": "drafted",
-      "draft_path": "stock_drafts/kodex-200-fee-dividend-schedule.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/kodex-200-fee-dividend-schedule.md",
       "cannibalization_note": "ETF 뜻(일반론)·TIGER 미국S&P500(미국 지수 상품)과 다름. 코스피200 상품의 보수·분배 이력·10월 매수 마감일.",
       "gate_pass": true,
       "gate_pass_note": "게이트1 89,000, 게이트2 v4 통과, 게이트3 분배금 표·계산·일정, 게이트4 두 출처 일치(한계 공개)",
-      "refresh_due": "2026-11-06"
+      "refresh_due": "2026-11-06",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 154,
@@ -3115,12 +3175,14 @@
       "monthly_search_volume": "20580 (PC 5380 / 모바일 15200)",
       "gate1_pass": true,
       "primary_source": "미래에셋 공지·언론 4곳 총보수 0.0068% 일치, 분배금 Investing.com·FunETF·운용사 공지 정리글 일치. 원문 직접 접속 불가(세션 차단). 10월 일정은 1·4·7월 패턴 추정, 117,648억원·구성 합계는 단독 출처 표시",
-      "status": "drafted",
-      "draft_path": "stock_drafts/tiger-nasdaq100-fee-dividend-schedule.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/tiger-nasdaq100-fee-dividend-schedule.md",
       "cannibalization_note": "TIGER 미국S&P500(64편)은 다른 지수, 국내상장 해외ETF 세금(23편)은 일반론. 이 글은 나스닥100 상품의 보수·분배 이력·10월 마지막 매수일.",
       "gate_pass": true,
       "gate_pass_note": "게이트1 21,450, 게이트2 v4 통과, 게이트3 분배금 표·보수 계산·일정·과세 계산, 게이트4 다수 출처 일치(한계 공개)",
-      "refresh_due": "2026-11-06"
+      "refresh_due": "2026-11-06",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 155,
@@ -3134,12 +3196,14 @@
       "monthly_search_volume": "56600 (PC 15900 / 모바일 40700)",
       "gate1_pass": true,
       "primary_source": "삼성자산운용 분배금 공지 4건(379800 행)과 FunETF 최근 1년 합계 479원 일치, 총보수 0.0062% 언론 4곳 일치. 원문 직접 접속 불가(세션 차단). 10월 일정은 2025년 패턴+결제 2영업일 추정, 실부담비용·순자산은 단독 출처 표시",
-      "status": "drafted",
-      "draft_path": "stock_drafts/kodex-sp500-distribution-steps.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/kodex-sp500-distribution-steps.md",
       "cannibalization_note": "TIGER 미국S&P500(64편)은 구성·수익률, 국내상장 해외ETF 세금(23편)은 일반론. 이 글은 KODEX 상품의 분배 일정·금액·세후 계산.",
       "gate_pass": true,
       "gate_pass_note": "게이트1 56,600, 게이트2 v4 통과, 게이트3 분배금 표·세후 계산·일정·보수 계산, 게이트4 공지·집계 일치(한계 공개)",
-      "refresh_due": "2026-11-06"
+      "refresh_due": "2026-11-06",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 156,
@@ -3153,12 +3217,14 @@
       "monthly_search_volume": "5860 (PC 1780 / 모바일 4080)",
       "gate1_pass": true,
       "serp_check": "2026-10-18 게이트2 v4 통과: 최근 4회 분배금+10/28 마지막 매수일 달력+1,000좌 세후+보수 비교",
-      "status": "drafted",
-      "draft_path": "stock_drafts/kodex-us-semiconductor-distribution-fee.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/kodex-us-semiconductor-distribution-fee.md",
       "gate_pass": true,
       "drafted_at": "2026-10-18",
       "refresh_due": "2026-11-06",
-      "cannibalization_note": "155편 KODEX 미국S&P500 분배금 글과 같은 운용사 분배 구조이나 상품·금액·보수·업종 ETF 분배율 해석이 다름"
+      "cannibalization_note": "155편 KODEX 미국S&P500 분배금 글과 같은 운용사 분배 구조이나 상품·금액·보수·업종 ETF 분배율 해석이 다름",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "157",
@@ -3174,12 +3240,14 @@
       "serp_check": "v3 통과(2026-10-19), 소규모 콘텐츠 사이트 섞임, 두 종목 통합 증거금·균등 가정 계산 정보이득",
       "unique_asset_plan": "주수별 증거금 계산표, 공모 조건 비교표, 균등 배정 가정 계산, 첫날 호가 범위, 일정·기관 경쟁률 그림 2장",
       "primary_source": "언론 교차(뉴스핌·아시아경제·뉴스프라임·이데일리·디일렉·IB토마토) + 공모 정보 사이트(38커뮤니케이션·etfshopping). 원문 WebFetch 불가",
-      "status": "drafted",
-      "draft_path": "stock_drafts/creates-tne-korea-ipo-schedule.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/creates-tne-korea-ipo-schedule.md",
       "cannibalization_note": "10월 공모주 일정(133편, 발행 전)은 15곳 월간 달력, 이 글은 두 종목 증거금·조건 비교. 44편은 계산 원리, 150편(엘리스그룹)은 결과 글",
       "gate_pass": true,
       "gate_pass_note": "공모가·경쟁률은 언론 4~5곳 일치. 청약 증권사·일반청약 물량·티앤이코리아 상장일은 1곳 표기라 본문에 한계 표시. refresh_due 2026-10-22(청약 결과 반영)",
-      "created_at": "2026-10-19"
+      "created_at": "2026-10-19",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "158",
@@ -3195,11 +3263,13 @@
       "serp_check": "v4 통과(2026-10-19), 개인 블로그·조회 서비스 섞임, 4년 분배 이력+4개사 비용 1,000만 원 환산+분배율 대비 비용 정보이득",
       "unique_asset_plan": "분배금 4년 표·세후 계산, 코스닥150 ETF 4종 실부담비용 비교표, 분배율 대비 비용 계산, 그림 2장",
       "primary_source": "FunETF·삼성자산운용 자료 검색 요약 + 매일신문(코스콤 ETF체크 집계) 보도. 원문 WebFetch 불가",
-      "status": "drafted",
-      "draft_path": "stock_drafts/kodex-kosdaq150-fee-dividend-compare.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/kodex-kosdaq150-fee-dividend-compare.md",
       "cannibalization_note": "KODEX 200 글은 분기 분배·다른 지수, 이 글은 연 1회 분배·같은 지수 4개사 비용 비교",
       "gate_pass": true,
-      "gate_pass_note": "분배금은 두 집계 표기+운용사 자료 요약 일치, 보수 두 곳 일치, 실부담비용률은 언론 보도값(TIGER·RISE 단독 표기). refresh_due 2026-11-30"
+      "gate_pass_note": "분배금은 두 집계 표기+운용사 자료 요약 일치, 보수 두 곳 일치, 실부담비용률은 언론 보도값(TIGER·RISE 단독 표기). refresh_due 2026-11-30",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "159",
@@ -3214,11 +3284,13 @@
       "gate1_pass": true,
       "unique_asset_plan": "두 ETF 비교표, 1,000좌 세후 분배금 계산, 1,000만 원 보수 대 분배금, 10월 말 마지막 매수일 추정, 그림 2장",
       "primary_source": "FunETF·미래에셋 페이지·etfshopping 검색 요약 교차(원문 직접 접속 불가), 서울경제 공시 게시",
-      "status": "drafted",
-      "draft_path": "stock_drafts/semiconductor-etf-kodex-tiger-top10-compare.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/semiconductor-etf-kodex-tiger-top10-compare.md",
       "cannibalization_note": "KODEX 미국반도체 글은 해외 지수, 이 글은 국내 반도체 지수 두 상품 비교와 10월 분배 일정",
       "gate_pass": true,
-      "gate_pass_note": "게이트1 10/20 실측 통과, 게이트2 v4 통과, 게이트4는 집계 서비스 일치(한계 본문 표기)"
+      "gate_pass_note": "게이트1 10/20 실측 통과, 게이트2 v4 통과, 게이트4는 집계 서비스 일치(한계 본문 표기)",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "160",
@@ -3233,11 +3305,13 @@
       "gate1_pass": true,
       "unique_asset_plan": "6·9·10월 분배금·분배율 비교표, 1,000좌 보수 계산, 과세 비중별 세금 시나리오, 10월 실제·11월 추정 일정 타임라인, 그림 2장",
       "primary_source": "삼성자산운용 월중배당 공지 3건(검색 요약 인용, 원문 직접 접속 불가)·보수 두 곳 일치, 세금은 73편 검증값 재사용",
-      "status": "drafted",
-      "draft_path": "stock_drafts/kodex-200-weekly-covered-call-distribution.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/kodex-200-weekly-covered-call-distribution.md",
       "cannibalization_note": "73편은 커버드콜 세금 규칙, 63편은 월배당 일반론, 이 글은 한 상품의 분배금·일정·보수",
       "gate_pass": true,
-      "gate_pass_note": "게이트1 10/21 실측 통과, 게이트2 v4 통과, 게이트4 공지 3건 일치(한계 본문 표기)"
+      "gate_pass_note": "게이트1 10/21 실측 통과, 게이트2 v4 통과, 게이트4 공지 3건 일치(한계 본문 표기)",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "161",
@@ -3252,11 +3326,13 @@
       "gate1_pass": true,
       "unique_asset_plan": "2025~2026 분기별 배당 이력표, 1·10·100·1,000주 세후 계산표, 3분기 일정 타임라인과 확정/미정 막대 그림 2장, 가상 주가 배당수익률 표",
       "primary_source": "2025 결산·2026 1·2분기 배당은 언론 2곳 이상 일치, 2분기 기준일 8/31은 현대차 IR 공고(검색 요약), 3분기 일정은 추정 표기, 세금은 배당소득세 글 검증값 재사용",
-      "status": "drafted",
-      "draft_path": "stock_drafts/hyundai-motor-dividend-quarterly.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/hyundai-motor-dividend-quarterly.md",
       "cannibalization_note": "126편 삼성전자·128편 SK하이닉스 배당 글과 종목이 다름, 이 글은 현대차 분기·결산 구조와 우선주 금액",
       "gate_pass": true,
-      "gate_pass_note": "게이트1 10/22 실측 통과, 게이트2 v4 통과, 게이트4 언론 2곳 이상 일치+현대차 IR 공고, refresh_due 2026-10-30(3분기 결정 공시 반영)"
+      "gate_pass_note": "게이트1 10/22 실측 통과, 게이트2 v4 통과, 게이트4 언론 2곳 이상 일치+현대차 IR 공고, refresh_due 2026-10-30(3분기 결정 공시 반영)",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "162",
@@ -3271,11 +3347,13 @@
       "gate1_pass": true,
       "unique_asset_plan": "최근 12회 지급일별 분배금 표·막대 그림(78→86→103원), 100주 세후·연 2천만 원 환산·총보수 계산표, 10월 기준일 타임라인 그림 2장",
       "primary_source": "한화자산운용 상품 페이지·월간운용보고서 검색 요약 + funetf·zeroin 집계 일치, 세금은 배당소득세 글 검증값 재사용",
-      "status": "drafted",
-      "draft_path": "stock_drafts/plus-high-dividend-monthly-distribution-fee.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/plus-high-dividend-monthly-distribution-fee.md",
       "cannibalization_note": "63편 월배당 ETF 뜻은 일반 개념, 이 글은 PLUS 고배당주 한 상품의 지급 이력. KODEX 200·TIGER 나스닥100 글과 다른 상품",
       "gate_pass": true,
-      "gate_pass_note": "게이트1 10/22 실측 22,430, 게이트2 v4 통과, 게이트4 공식 요약+집계 사이트 일치(원문 직접 접속 불가), refresh_due 2026-11-06"
+      "gate_pass_note": "게이트1 10/22 실측 22,430, 게이트2 v4 통과, 게이트4 공식 요약+집계 사이트 일치(원문 직접 접속 불가), refresh_due 2026-11-06",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "163",
@@ -3290,11 +3368,13 @@
       "gate1_pass": true,
       "unique_asset_plan": "TIGER 200 vs KODEX 200 보수·2026 분기 분배금 비교표·막대, 보수 차이·세후 입금액·분배율 어림 계산, 10월 말 기준일 타임라인 그림 2장",
       "primary_source": "미래에셋 공지·KRX KIND 공시·FnGuide·FunETF·etfshopping 검색 요약 일치, KODEX 200 값은 검증값 재사용, 세금은 배당소득세 글 검증값 재사용",
-      "status": "drafted",
-      "draft_path": "stock_drafts/tiger-200-kodex-200-compare.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/tiger-200-kodex-200-compare.md",
       "cannibalization_note": "KODEX 200 글은 상품 한 개의 이력, 이 글은 TIGER 200 중심 두 상품 비교와 세후·보수 계산",
       "gate_pass": true,
-      "gate_pass_note": "게이트1 19,650, 게이트2 v4 통과, 게이트4 KIND 공시+집계 사이트 일치(원문 직접 접속 불가), 7월 분배금 단독·2곳 표기 구분, refresh_due 2026-11-06"
+      "gate_pass_note": "게이트1 19,650, 게이트2 v4 통과, 게이트4 KIND 공시+집계 사이트 일치(원문 직접 접속 불가), 7월 분배금 단독·2곳 표기 구분, refresh_due 2026-11-06",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "164",
@@ -3309,10 +3389,12 @@
       "gate1_pass": true,
       "unique_asset_plan": "월 33원→연 396원→세후 계산 박스·그림, 필요 주수·분배율 표, 329200/341850/TOP10액티브 구분표·그림 2장",
       "primary_source": "2025-03 미래에셋 균등 지급 발표(언론 8곳 이상 일치), 총보수 0.08% 보도 일치, 2026년 9월분 33원은 운용사 분배 내역 파일(2026-10-26)로 확인",
-      "status": "drafted",
-      "draft_path": "stock_drafts/tiger-reits-infra-monthly-distribution.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/tiger-reits-infra-monthly-distribution.md",
       "cannibalization_note": "리츠 뜻(68)·월배당 ETF(63)는 개념, 이 글은 한 상품 월 33원 계산과 보수·상품 구분",
-      "gate_pass": true
+      "gate_pass": true,
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "165",
@@ -3323,7 +3405,7 @@
       "type": "일정·이슈",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "23500 (PC 3000 / 모바일 20500)",
       "gate1_pass": true,
       "gate_pass": "True",
@@ -3331,7 +3413,9 @@
       "draft": "stock_drafts/meta-q3-2026-earnings-settlement.md",
       "refresh_due": "2026-11-21",
       "cannibalization_note": "143편 엔비디아(발표일 환산)·82편 컨센서스·102편 CAPEX와 대상·의도가 다름",
-      "draft_path": "stock_drafts/meta-q3-2026-earnings-settlement.md"
+      "draft_path": "stock_drafts/발행완료/meta-q3-2026-earnings-settlement.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "166",
@@ -3342,7 +3426,7 @@
       "type": "일정·이슈",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "6020 (PC 1010 / 모바일 5010)",
       "gate1_pass": true,
       "gate_pass": "True",
@@ -3350,7 +3434,9 @@
       "draft": "stock_drafts/tesla-q3-earnings-cash-flow.md",
       "refresh_due": "2026-11-15",
       "cannibalization_note": "165편 메타(충당금·클래스C)·143편 엔비디아(발표일 환산)·82편 컨센서스·102편 CAPEX와 대상·의도가 다름",
-      "draft_path": "stock_drafts/tesla-q3-earnings-cash-flow.md"
+      "draft_path": "stock_drafts/발행완료/tesla-q3-earnings-cash-flow.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": "167",
@@ -3361,7 +3447,7 @@
       "type": "종목 배당 사실",
       "keyword_class": "automatable",
       "publish_effort": "oneclick",
-      "status": "drafted",
+      "status": "published",
       "monthly_search_volume": "2940 (PC 530 / 모바일 2410)",
       "gate1_pass": true,
       "gate_pass": "True",
@@ -3369,7 +3455,9 @@
       "draft": "stock_drafts/skt-dividend-quarterly-830.md",
       "refresh_due": "2026-11-13",
       "cannibalization_note": "다른 종목 배당 글·16편 배당락일·47편 배당수익률과 대상이 다름(SK텔레콤 분기 830원 이력과 3분기 추정 일정)",
-      "draft_path": "stock_drafts/skt-dividend-quarterly-830.md"
+      "draft_path": "stock_drafts/발행완료/skt-dividend-quarterly-830.md",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 168,
@@ -3383,12 +3471,14 @@
       "monthly_search_volume": "28570 (PC 9470 / 모바일 19100)",
       "gate1_pass": true,
       "primary_source": "삼성자산운용 분배금 공지 4건(379810 행) 요약과 FunETF 합계 282원 일치, 총보수 0.0062% 언론 일치, S&P500 열은 검증값 재사용. 원문 직접 접속 불가(세션 차단). 합성총보수·10월 일정은 단독·추정 표시",
-      "status": "drafted",
-      "draft_path": "stock_drafts/kodex-nasdaq100-distribution-fee.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/kodex-nasdaq100-distribution-fee.md",
       "cannibalization_note": "TIGER 미국나스닥100(154편)은 다른 운용사, KODEX 미국S&P500(155편)은 다른 지수. 이 글은 TR 전환 이력과 두 KODEX 상품 분배율 비교.",
       "gate_pass": true,
       "gate_pass_note": "게이트1 28,570, 게이트2 v4 통과, 게이트3 분배금 표·세후 계산·S&P500 비교·일정, 게이트4 공지 요약+FunETF 합계 일치(한계 공개), refresh_due 2026-11-06",
-      "refresh_due": "2026-11-06"
+      "refresh_due": "2026-11-06",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 169,
@@ -3402,12 +3492,14 @@
       "monthly_search_volume": "1110 (PC 180 / 모바일 930)",
       "gate1_pass": true,
       "primary_source": "마이크로소프트 10/7 보도자료 요약 2회 일치+CME 해설 페이지로 발표일·웹캐스트 시각 확인, 직전 분기 매출·애저 성장률은 한국 언론 다수 일치. IR 원문은 세션에서 열람 불가. EPS·자본지출 등 엇갈린 값은 제외",
-      "status": "drafted",
-      "draft_path": "stock_drafts/microsoft-q1-fy2027-earnings-korea-time.md",
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/microsoft-q1-fy2027-earnings-korea-time.md",
       "cannibalization_note": "엔비디아 실적발표(143편)는 다른 기업의 발표일 환산, 메타·테슬라(165·166편)는 결과 해석. 이 글은 발표 전 마이크로소프트 일정·회계연도 구조·직전 분기 기준값.",
       "gate_pass": true,
       "gate_pass_note": "게이트1 1,110, 게이트2 v3 통과, 게이트3 한국시간 환산표·분기 대응표·기준값 표와 그림 2장, 게이트4 보도자료 요약+언론 교차. 10/28 발표 직후 실제 값으로 갱신 필요(refresh_due 2026-10-29)",
-      "refresh_due": "2026-10-29"
+      "refresh_due": "2026-10-29",
+      "published_at": "2026-10-30",
+      "published_note": "사용자 보고(2026-10-30): 124~169편 전부 발행"
     },
     {
       "id": 170,
