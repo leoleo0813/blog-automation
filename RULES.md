@@ -51,6 +51,11 @@ MACD·골든/데드크로스·이동평균선·캔들(장대양봉 등)·추세�
 (`make_illustrated_thumbnail`: 크림색 바탕, Jua·Gaegu 손글씨풍 글꼴, 차트=캔들 카드 / 생활정보=달력·동전)을 만든다.
 front matter에 `thumb_title: 1줄|2줄`(줄당 10자 안팎), `thumb_note: 손글씨 메모`, 생활정보는 `thumb_date: 11/27`을 적는다.
 
+**폴더(2026-10-30 저장소 정리).** `stock_drafts/` 바로 아래에는 **아직 발행 안 한 초안만** 둔다. 사용자가 발행을
+알려 주면 `git mv stock_drafts/<slug>.md stock_drafts/발행완료/`로 옮기고 큐의 status를 published, draft_path를
+새 경로로 바꾼다. 발행 글 갱신·내부 링크 확인은 `발행완료/` 안의 파일을 고친다. 그림(assets/figures)은 발행 글이
+GitHub 주소로 불러 쓰므로 옮기거나 지우지 않는다.
+
 **판단 시점.** 4주 뒤(2026-11-24 전후) 티스토리 '검색' 유입과 서치 콘솔 클릭을 갈래별로 비교해 비중을 정한다.
 직접 유입·전체 조회수는 판단에 쓰지 않는다.
 

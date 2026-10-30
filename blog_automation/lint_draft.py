@@ -147,7 +147,8 @@ def lint(path, series):
 def list_due(series):
     today = datetime.date.today()
     found = False
-    for path in sorted(Path('stock_drafts').glob('*.md')):
+    # 발행한 글은 stock_drafts/발행완료/로 옮긴다(2026-10-30 저장소 정리). 하위 폴더까지 본다.
+    for path in sorted(Path('stock_drafts').rglob('*.md')):
         fm, _ = _split(path)
         due = fm.get('refresh_due')
         it = series.get(fm.get('slug') or path.stem, {})
