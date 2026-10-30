@@ -3,6 +3,9 @@ keyword: 청년미래적금
 title: 청년미래적금 2차 계좌 개설 11월 16~27일, 결과 확인부터 만기 수령액까지
 slug: youth-future-savings-account-opening-2026
 track: life
+thumb_title: 청년미래적금|계좌 개설 마감
+thumb_note: 평일만 돼요!
+thumb_date: 11/27
 deadline: 2026-11-27
 keyword_class: 자동화 가능
 publish_effort: oneclick

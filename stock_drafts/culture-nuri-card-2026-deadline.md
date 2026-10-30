@@ -3,6 +3,9 @@ keyword: 문화누리카드
 title: 문화누리카드 2026 신청 마감 11월 30일, 15만원 소멸 전 쓰는 법
 slug: culture-nuri-card-2026-deadline
 track: life
+thumb_title: 문화누리카드 2026|15만원 소멸 전 쓰기
+thumb_note: 11월 30일 신청 마감!
+thumb_date: 12/31
 deadline: 2026-11-30
 keyword_class: 자동화 가능
 publish_effort: oneclick

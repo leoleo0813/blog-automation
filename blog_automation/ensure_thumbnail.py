@@ -57,6 +57,17 @@ def main():
         print(f"이미 존재함 - 생략: {png_path}")
         return
 
+    # 2026-10-30부터 그림 썸네일(make_illustrated_thumbnail). front matter의 thumb_title("1줄|2줄"),
+    # thumb_note(손글씨 메모), thumb_date(생활정보 달력 날짜)를 쓰고, 없으면 제목을 쉼표 기준으로 나눈다.
+    if fields.get('thumb_title') or fields.get('track'):
+        lines = fields.get('thumb_title') or '|'.join(title.split(',')[:2])
+        subprocess.run(
+            [sys.executable, '-m', 'blog_automation.make_illustrated_thumbnail', slug, lines,
+             fields.get('track') or 'chart', fields.get('thumb_note', ''), fields.get('thumb_date', '')],
+            check=True,
+        )
+        return
+
     points = [p.strip()[:6] for p in fields.get('tags', '').split(',') if p.strip()][:3]
     bg, accent = _pick_palette()
 

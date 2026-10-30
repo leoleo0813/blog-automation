@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#ffffff"/>
+<g font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+<text x="70" y="78" font-size="36" font-weight="bold" fill="#111">MACD 계산 예시(가정 가격 78일)</text>
+<text x="70" y="122" font-size="25" fill="#666">위: 종가 / 아래: MACD(12,26)·시그널(9)·히스토그램</text>
+<line x1="130" y1="450" x2="1140" y2="450" stroke="#eee" stroke-width="2"/>
+<text x="118" y="457" font-size="19" text-anchor="end" fill="#777">9,600</text>
+<line x1="130" y1="375" x2="1140" y2="375" stroke="#eee" stroke-width="2"/>
+<text x="118" y="382" font-size="19" text-anchor="end" fill="#777">10,000</text>
+<line x1="130" y1="301" x2="1140" y2="301" stroke="#eee" stroke-width="2"/>
+<text x="118" y="308" font-size="19" text-anchor="end" fill="#777">10,400</text>
+<line x1="130" y1="226" x2="1140" y2="226" stroke="#eee" stroke-width="2"/>
+<text x="118" y="233" font-size="19" text-anchor="end" fill="#777">10,800</text>
+<polyline points="130,220 143,235 156,237 169,237 182,252 196,254 209,254 222,269 235,271 248,271 261,286 274,288 287,288 301,303 314,304 327,304 340,319 353,321 366,321 379,336 392,338 405,338 419,353 432,355 445,355 458,370 471,372 484,372 497,387 510,388 524,388 537,403 550,405 563,405 576,420 589,422 602,422 615,437 628,420 642,416 655,394 668,390 681,368 694,364 707,342 720,338 733,316 746,312 760,289 773,286 786,263 799,260 812,237 825,233 838,211 851,207 865,185 878,181 891,207 904,185 917,200 930,222 943,233 956,215 969,192 983,181 996,204 1009,230 1022,237 1035,215 1048,189 1061,181 1074,207 1088,230 1101,237 1114,207 1127,185 1140,189" fill="none" stroke="#1a2744" stroke-width="4"/>
+<line x1="130" y1="769" x2="1140" y2="769" stroke="#eee" stroke-width="2"/>
+<text x="118" y="776" font-size="19" text-anchor="end" fill="#777">-200</text>
+<line x1="130" y1="665" x2="1140" y2="665" stroke="#999" stroke-width="2"/>
+<text x="118" y="672" font-size="19" text-anchor="end" fill="#777">0</text>
+<line x1="130" y1="561" x2="1140" y2="561" stroke="#eee" stroke-width="2"/>
+<text x="118" y="568" font-size="19" text-anchor="end" fill="#777">200</text>
+<rect x="558.3" y="664.2" width="9.1" height="1.0" fill="#a8d5b8"/>
+<rect x="571.4" y="665.0" width="9.1" height="1.0" fill="#f1b5ad"/>
+<rect x="584.6" y="665.0" width="9.1" height="1.0" fill="#f1b5ad"/>
+<rect x="597.7" y="664.2" width="9.1" height="1.0" fill="#a8d5b8"/>
+<rect x="610.8" y="665.0" width="9.1" height="1.0" fill="#f1b5ad"/>
+<rect x="623.9" y="662.0" width="9.1" height="3.0" fill="#a8d5b8"/>
+<rect x="637.0" y="658.4" width="9.1" height="6.6" fill="#a8d5b8"/>
+<rect x="650.1" y="651.5" width="9.1" height="13.5" fill="#a8d5b8"/>
+<rect x="663.3" y="646.3" width="9.1" height="18.7" fill="#a8d5b8"/>
+<rect x="676.4" y="639.2" width="9.1" height="25.8" fill="#a8d5b8"/>
+<rect x="689.5" y="634.6" width="9.1" height="30.4" fill="#a8d5b8"/>
+<rect x="702.6" y="628.5" width="9.1" height="36.5" fill="#a8d5b8"/>
+<rect x="715.7" y="625.3" width="9.1" height="39.7" fill="#a8d5b8"/>
+<rect x="728.8" y="620.7" width="9.1" height="44.3" fill="#a8d5b8"/>
+<rect x="742.0" y="619.1" width="9.1" height="45.9" fill="#a8d5b8"/>
+<rect x="755.1" y="616.1" width="9.1" height="48.9" fill="#a8d5b8"/>
+<rect x="768.2" y="615.8" width="9.1" height="49.2" fill="#a8d5b8"/>
+<rect x="781.3" y="614.1" width="9.1" height="50.9" fill="#a8d5b8"/>
+<rect x="794.4" y="614.9" width="9.1" height="50.1" fill="#a8d5b8"/>
+<rect x="807.5" y="614.2" width="9.1" height="50.8" fill="#a8d5b8"/>
+<rect x="820.7" y="615.9" width="9.1" height="49.1" fill="#a8d5b8"/>
+<rect x="833.8" y="615.9" width="9.1" height="49.1" fill="#a8d5b8"/>
+<rect x="846.9" y="618.1" width="9.1" height="46.9" fill="#a8d5b8"/>
+<rect x="860.0" y="618.6" width="9.1" height="46.4" fill="#a8d5b8"/>
+<rect x="873.1" y="621.2" width="9.1" height="43.8" fill="#a8d5b8"/>
+<rect x="886.2" y="630.5" width="9.1" height="34.5" fill="#a8d5b8"/>
+<rect x="899.4" y="635.0" width="9.1" height="30.0" fill="#a8d5b8"/>
+<rect x="912.5" y="642.9" width="9.1" height="22.1" fill="#a8d5b8"/>
+<rect x="925.6" y="653.8" width="9.1" height="11.2" fill="#a8d5b8"/>
+<rect x="938.7" y="664.2" width="9.1" height="1.0" fill="#a8d5b8"/>
+<rect x="951.8" y="665.0" width="9.1" height="3.4" fill="#f1b5ad"/>
+<rect x="964.9" y="665.0" width="9.1" height="2.8" fill="#f1b5ad"/>
+<rect x="978.1" y="665.0" width="9.1" height="1.2" fill="#f1b5ad"/>
+<rect x="991.2" y="665.0" width="9.1" height="5.1" fill="#f1b5ad"/>
+<rect x="1004.3" y="665.0" width="9.1" height="12.7" fill="#f1b5ad"/>
+<rect x="1017.4" y="665.0" width="9.1" height="19.1" fill="#f1b5ad"/>
+<rect x="1030.5" y="665.0" width="9.1" height="18.9" fill="#f1b5ad"/>
+<rect x="1043.6" y="665.0" width="9.1" height="14.0" fill="#f1b5ad"/>
+<rect x="1056.8" y="665.0" width="9.1" height="9.6" fill="#f1b5ad"/>
+<rect x="1069.9" y="665.0" width="9.1" height="11.7" fill="#f1b5ad"/>
+<rect x="1083.0" y="665.0" width="9.1" height="17.1" fill="#f1b5ad"/>
+<rect x="1096.1" y="665.0" width="9.1" height="21.6" fill="#f1b5ad"/>
+<rect x="1109.2" y="665.0" width="9.1" height="18.6" fill="#f1b5ad"/>
+<rect x="1122.4" y="665.0" width="9.1" height="12.4" fill="#f1b5ad"/>
+<rect x="1135.5" y="665.0" width="9.1" height="9.0" fill="#f1b5ad"/>
+<polyline points="458,775 471,775 484,773 497,775 510,775 524,773 537,775 550,775 563,773 576,775 589,775 602,773 615,775 628,770 642,765 655,755 668,745 681,732 694,719 707,704 720,691 733,675 746,662 760,647 773,634 786,620 799,608 812,595 825,584 838,572 851,562 865,551 878,543 891,544 904,541 917,543 930,551 943,561 956,566 969,567 983,565 996,570 1009,581 1022,592 1035,597 1048,595 1061,593 1074,599 1088,608 1101,618 1114,620 1127,617 1140,616" fill="none" stroke="#1a2744" stroke-width="4"/>
+<polyline points="563,774 576,774 589,774 602,774 615,774 628,773 642,772 655,768 668,764 681,757 694,750 707,741 720,731 733,720 746,708 760,696 773,684 786,671 799,658 812,646 825,633 838,621 851,609 865,598 878,587 891,578 904,571 917,565 930,562 943,562 956,563 969,564 983,564 996,565 1009,568 1022,573 1035,578 1048,581 1061,584 1074,587 1088,591 1101,596 1114,601 1127,604 1140,606" fill="none" stroke="#e67e22" stroke-width="4"/>
+<line x1="628" y1="160" x2="628" y2="800" stroke="#2e8b57" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="628" cy="420" r="8" fill="#2e8b57"/>
+<line x1="694" y1="160" x2="694" y2="800" stroke="#8aa4d6" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="694" cy="364" r="8" fill="#8aa4d6"/>
+<line x1="746" y1="160" x2="746" y2="800" stroke="#1a2744" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="746" cy="312" r="8" fill="#1a2744"/>
+<line x1="956" y1="160" x2="956" y2="800" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="956" cy="215" r="8" fill="#c0392b"/>
+<text x="628" y="152" font-size="24" font-weight="bold" text-anchor="middle" fill="#2e8b57">①</text>
+<text x="694" y="152" font-size="24" font-weight="bold" text-anchor="middle" fill="#8aa4d6">②</text>
+<text x="746" y="152" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a2744">③</text>
+<text x="956" y="152" font-size="24" font-weight="bold" text-anchor="middle" fill="#c0392b">④</text>
+<rect x="130" y="808" width="30" height="8" fill="#1a2744"/><text x="170" y="818" font-size="21" fill="#333">MACD</text>
+<rect x="280" y="808" width="30" height="8" fill="#e67e22"/><text x="320" y="818" font-size="21" fill="#333">시그널</text>
+<text x="430" y="818" font-size="21" fill="#333">막대 = 히스토그램(MACD−시그널)</text>
+<text x="70" y="872" font-size="21" fill="#888">가정값으로 직접 계산(실제 종목 아님). ①~④는 아래 본문 표 참고</text>
+</g></svg>

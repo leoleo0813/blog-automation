@@ -3403,6 +3403,20 @@
       "status": "drafted",
       "draft_path": "stock_drafts/youth-future-savings-account-opening-2026.md",
       "deadline": "2026-11-27"
+    },
+    {
+      "id": 172,
+      "order": 172,
+      "title": "MACD 보는법과 계산법, 골든크로스보다 빠른 이유",
+      "slug": "macd-calculation-signal-line",
+      "keyword": "MACD",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "1920 (PC 620 / 모바일 1300)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/macd-calculation-signal-line.md"
     }
   ],
   "backlog": {
