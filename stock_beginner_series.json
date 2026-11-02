@@ -3588,6 +3588,20 @@
       "status": "drafted",
       "draft_path": "stock_drafts/hometown-donation-tax-credit-2026.md",
       "deadline": "2026-12-31"
+    },
+    {
+      "id": 176,
+      "order": 176,
+      "title": "주식 차트 보는법, 양봉·음봉부터 보조지표 고르는 순서까지",
+      "slug": "stock-chart-reading-guide",
+      "keyword": "주식 차트 보는법",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "1850 (PC 430 / 모바일 1420)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/stock-chart-reading-guide.md"
     }
   ],
   "backlog": {

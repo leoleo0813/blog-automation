@@ -183,6 +183,8 @@ figure_plan: "1: 가정 가격 78일 종가+MACD·시그널·히스토그램(①
   <p style="margin:10px 0 0 0;">지수이동평균의 첫 값을 어떻게 시작하는지, 며칠치 데이터로 계산을 시작했는지가 앱마다 달라서 소수점 단위 차이가 생겨요. 교차가 나오는 날은 보통 같거나 하루 정도 차이예요.</p>
 </details>
 
+<p>캔들 읽기부터 다른 보조지표까지 한 번에 고르는 순서는 <a href="https://sensitiveboss3.tistory.com/entry/stock-chart-reading-guide" target="_blank" rel="noopener">주식 차트 보는법</a>에 모아 뒀어요.</p>
+
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">

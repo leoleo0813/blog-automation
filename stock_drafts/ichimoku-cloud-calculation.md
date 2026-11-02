@@ -196,6 +196,8 @@ figure_plan: "3장: 1 145일 계산 그림(구름·선·①~④) / 2 선이 그�
   <p style="margin:10px 0 0 0;">이동평균선은 종가를 더해 나눈 평균이고, 일목균형표의 전환선·기준선은 기간 중 최고가와 최저가의 가운데 값이에요. 그래서 큰 꼬리가 있는 날의 영향을 더 크게 받고, 그날이 기간 밖으로 빠질 때 선이 갑자기 꺾여요.</p>
 </details>
 
+<p>캔들 읽기부터 다른 보조지표까지 한 번에 고르는 순서는 <a href="https://sensitiveboss3.tistory.com/entry/stock-chart-reading-guide" target="_blank" rel="noopener">주식 차트 보는법</a>에 모아 뒀어요.</p>
+
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
