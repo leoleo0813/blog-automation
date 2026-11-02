@@ -3602,6 +3602,21 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/stock-chart-reading-guide.md"
+    },
+    {
+      "id": 177,
+      "order": 177,
+      "title": "근로장려금 기한 후 신청 12월 1일까지, 95%로 얼마 받나",
+      "slug": "eitc-late-application-2026",
+      "keyword": "근로장려금 기한후신청",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "1540 (PC 520 / 모바일 1020)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/eitc-late-application-2026.md",
+      "deadline": "2026-12-01"
     }
   ],
   "backlog": {
