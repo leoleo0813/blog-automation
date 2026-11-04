@@ -413,6 +413,12 @@ user_todo:
     (특히 내부 링크 2개·이미지 1장). 소급 대상은 lint_draft로 FAIL이 나는 발행 글 전부다.
 
 ## 이미지
+- **2026-11-04 사용자 요청 "이미지 느낌도 변경해줘": 기본 스타일을 '팝'으로 바꾼다.** 진한 남색(#1b2a4e) 바탕 + 원색
+  포인트(노랑·코럴·하늘·민트), 외곽선 없는 납작한 도형, 굵은 포스터 글꼴(Black Han Sans 제목·Do Hyeon 본문, OFL,
+  assets/fonts). 썸네일은 front matter `thumb_style: pop`(그림 `thumb_art`: calc · calendar · coin · chart, 화면/날짜 글자는
+  `thumb_date`), 본문 그림은 `blog_automation/pop_style.py`의 `bars` · `compare` · `steps`(illust.py와 같은 쓰임).
+  사용자가 예전 손그림 느낌을 원하면 `thumb_style`을 빼고 illust.py를 쓰면 된다.
+  작업 후 SVG 정리는 `assets/figures/*.svg`만 지운다(미발행 글 썸네일 SVG는 남긴다).
 - **장수는 내용에 따라 1~5장**(2026-10-05 사용자 요청 "필요에 따라 1장 이상"). 1장이 기본값이 아니다.
 - **2026-10-30 사용자 요청 "본문 이미지도 더":** 상한 5장. 숫자 차트(figlib/make_figure)만이 아니라 손그림 카드
   (`blog_automation/illust.py`: `bars` 막대 · `venn` 대상 판단 · `compare` 방법 비교 카드 · `steps` 일정 길)를 섞어
