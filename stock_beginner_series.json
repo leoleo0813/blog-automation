@@ -3631,6 +3631,21 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/golden-cross-dead-cross-types.md"
+    },
+    {
+      "id": 179,
+      "order": 179,
+      "title": "연말정산 미리보기 12월 18일까지, 남은 두 달 카드 바꾸면 얼마 차이",
+      "slug": "year-end-tax-preview-card-deduction-2026",
+      "keyword": "연말정산 미리보기",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "8020 (PC 4780 / 모바일 3240)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-preview-card-deduction-2026.md",
+      "deadline": "2026-12-18"
     }
   ],
   "backlog": {
