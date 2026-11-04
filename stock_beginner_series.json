@@ -3617,6 +3617,20 @@
       "status": "drafted",
       "draft_path": "stock_drafts/eitc-late-application-2026.md",
       "deadline": "2026-12-01"
+    },
+    {
+      "id": 178,
+      "order": 178,
+      "title": "골든크로스 뜻과 데드크로스, 5·20일과 20·60일은 며칠 차이 날까",
+      "slug": "golden-cross-dead-cross-types",
+      "keyword": "골든크로스",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "1550 (PC 390 / 모바일 1160)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/golden-cross-dead-cross-types.md"
     }
   ],
   "backlog": {
