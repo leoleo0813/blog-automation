@@ -59,6 +59,16 @@ def main():
 
     # 2026-10-30부터 그림 썸네일(make_illustrated_thumbnail). front matter의 thumb_title("1줄|2줄"),
     # thumb_note(손글씨 메모), thumb_date(생활정보 달력 날짜)를 쓰고, 없으면 제목을 쉼표 기준으로 나눈다.
+    # 2026-11-04 "이미지 느낌도 변경" 요청으로 thumb_style: pop(남색 바탕·원색 flat, pop_style.py)을 추가했다.
+    if fields.get('thumb_style') == 'pop':
+        lines = fields.get('thumb_title') or '|'.join(title.split(',')[:2])
+        subprocess.run(
+            [sys.executable, '-m', 'blog_automation.pop_style', slug, lines, fields.get('track') or 'chart',
+             fields.get('thumb_note', ''), fields.get('thumb_date', ''), fields.get('thumb_art', '')],
+            check=True,
+        )
+        return
+
     if fields.get('thumb_title') or fields.get('track'):
         lines = fields.get('thumb_title') or '|'.join(title.split(',')[:2])
         subprocess.run(

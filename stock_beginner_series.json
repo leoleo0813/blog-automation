@@ -3689,6 +3689,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/averaging-down-average-price-calculation.md"
+    },
+    {
+      "id": 183,
+      "order": 183,
+      "title": "실업급여 하루 얼마? 2026 상한 6만8100원·하한 6만6048원 계산법과 받는 일수",
+      "slug": "unemployment-benefit-2026-daily-amount",
+      "keyword": "실업급여",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "99400",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/unemployment-benefit-2026-daily-amount.md"
     }
   ],
   "backlog": {
