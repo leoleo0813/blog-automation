@@ -419,6 +419,11 @@ user_todo:
   `thumb_date`), 본문 그림은 `blog_automation/pop_style.py`의 `bars` · `compare` · `steps`(illust.py와 같은 쓰임).
   사용자가 예전 손그림 느낌을 원하면 `thumb_style`을 빼고 illust.py를 쓰면 된다.
   작업 후 SVG 정리는 `assets/figures/*.svg`만 지운다(미발행 글 썸네일 SVG는 남긴다).
+- **2026-11-04 사용자 요청: "제작해줘" 때마다 Threads 캐러셀도 만든다.** 글은 저장소에 원래대로 만들고, 같은 글로
+  `blog_automation/threads_carousel.py`(`make_carousel`)로 4:5(1080×1350) 카드 6장 안팎을 만든다. 카드마다 글 + 캐릭터(안경 쓴
+  '보스', 포즈 point · think · wow · thumb · wave · calc). 구성: 표지 → 핵심 숫자·계산·예시 → 한계/주의 → 블로그 안내.
+  **캐러셀 이미지는 저장소에 올리지 않고** 저장소 밖(스크래치 폴더)에 만들어 채팅에 **한 장씩 따로** 보낸다(각각 내려받기용).
+  숫자는 본문과 같은 출처 기준. Threads 본문 문구(후킹 2~3줄)도 같이 준다.
 - **장수는 내용에 따라 1~5장**(2026-10-05 사용자 요청 "필요에 따라 1장 이상"). 1장이 기본값이 아니다.
 - **2026-10-30 사용자 요청 "본문 이미지도 더":** 상한 5장. 숫자 차트(figlib/make_figure)만이 아니라 손그림 카드
   (`blog_automation/illust.py`: `bars` 막대 · `venn` 대상 판단 · `compare` 방법 비교 카드 · `steps` 일정 길)를 섞어
