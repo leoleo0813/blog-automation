@@ -3646,6 +3646,20 @@
       "status": "drafted",
       "draft_path": "stock_drafts/year-end-tax-preview-card-deduction-2026.md",
       "deadline": "2026-12-18"
+    },
+    {
+      "id": 180,
+      "order": 180,
+      "title": "스토캐스틱 보는법과 RSI 차이, 같은 가격으로 계산해 보면",
+      "slug": "stochastic-slow-rsi-difference",
+      "keyword": "스토캐스틱",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "520 (PC 180 / 모바일 340)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/stochastic-slow-rsi-difference.md"
     }
   ],
   "backlog": {
