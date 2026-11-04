@@ -3675,6 +3675,20 @@
       "status": "drafted",
       "draft_path": "stock_drafts/flu-vaccine-free-2026-2027.md",
       "deadline": "2027-04-30"
+    },
+    {
+      "id": 182,
+      "order": 182,
+      "title": "물타기 뜻과 평단가 계산, 목표 평단까지 몇 주 사야 할까",
+      "slug": "averaging-down-average-price-calculation",
+      "keyword": "물타기",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "2020 (PC 580 / 모바일 1440)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/averaging-down-average-price-calculation.md"
     }
   ],
   "backlog": {
