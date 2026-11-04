@@ -7,6 +7,7 @@ deadline: 2026-12-18
 thumb_title: 연말정산 미리보기|남은 두 달 카드 전략
 thumb_note: 25% 넘었나 먼저 보기!
 thumb_art: calc
+thumb_date: 25%
 keyword_class: 자동화 가능
 publish_effort: oneclick
 monthly_search_volume: 8020 (PC 4780 / 모바일 3240)

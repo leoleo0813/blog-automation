@@ -121,13 +121,13 @@ def _piggy_art():
     return s
 
 
-def _calc_art():
-    """계산기와 영수증."""
+def _calc_art(display=''):
+    """계산기. 화면 글자는 thumb_date로 바꿀 수 있다(기본 12%)."""
     s = ['<g transform="translate(760,450) rotate(4)">',
          '<rect x="10" y="14" width="300" height="400" rx="30" fill="#000" opacity="0.08"/>',
          '<rect x="0" y="0" width="300" height="400" rx="30" fill="#ffffff" stroke="#2b2b2b" stroke-width="6"/>',
          '<rect x="30" y="30" width="240" height="80" rx="12" fill="#dff0e6" stroke="#2b2b2b" stroke-width="5"/>',
-         '<text x="250" y="88" font-family="Jua" font-size="48" text-anchor="end" fill="#2b2b2b">12%</text>']
+         f'<text x="250" y="88" font-family="Jua" font-size="48" text-anchor="end" fill="#2b2b2b">{_esc(display or "12%")}</text>']
     keys = ['7', '8', '9', '÷', '4', '5', '6', '×', '1', '2', '3', '−', '0', '.', '=', '+']
     for k, lab in enumerate(keys):
         r, c = divmod(k, 4)
@@ -177,7 +177,9 @@ def build_svg(title_lines, track, note, date_text='', art=''):
             s.append(f'<rect x="80" y="{y-62}" width="{w:.0f}" height="58" rx="12" fill="{t["mark"]}" transform="rotate(-1.5 80 {y})"/>')
         s.append(f'<text x="90" y="{y}" font-family="Jua" font-size="{size}" fill="#2b2b2b">{_esc(line)}</text>')
         y += size + 22
-    if art in ARTS:
+    if art == 'calc':
+        s += _calc_art(date_text)
+    elif art in ARTS:
         s += ARTS[art]()
     else:
         s += _life_art(date_text or '') if track == 'life' else _chart_art()
