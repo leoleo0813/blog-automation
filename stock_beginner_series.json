@@ -3660,6 +3660,21 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/stochastic-slow-rsi-difference.md"
+    },
+    {
+      "id": 181,
+      "order": 181,
+      "title": "독감 예방접종 무료 대상 2026, 14세까지 확대와 아이 2회 접종 기준",
+      "slug": "flu-vaccine-free-2026-2027",
+      "keyword": "독감 예방접종 무료",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "48880 (PC 4080 / 모바일 44800)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/flu-vaccine-free-2026-2027.md",
+      "deadline": "2027-04-30"
     }
   ],
   "backlog": {
