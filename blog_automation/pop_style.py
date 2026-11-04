@@ -8,7 +8,7 @@
     그림: calc(계산기) · calendar(달력) · coin(동전) · chart(막대+화살표). 비우면 life=달력, chart=chart.
 
 본문 그림: illust.py와 같은 이름의 함수.
-    from blog_automation.pop_style import bars, compare, steps
+    from blog_automation.pop_style import bars, compare, steps, line_levels
 """
 import subprocess
 import sys
@@ -46,7 +46,7 @@ def _render(path, svg_lines):
 # ---------------------------------------------------------------- 썸네일 그림
 def _art_calc(cx, cy, text):
     s = [f'<g transform="translate({cx-150},{cy-200}) rotate(-6 150 200)">',
-         f'<rect x="14" y="18" width="300" height="400" rx="34" fill="{_shade(YELLOW, .62)}"/>',
+         f'<rect x="14" y="18" width="300" height="400" rx="34" fill="#000000" fill-opacity="0.18"/>',
          f'<rect x="0" y="0" width="300" height="400" rx="34" fill="#ffffff"/>',
          f'<rect x="26" y="26" width="248" height="92" rx="18" fill="{NAVY}"/>',
          _t(254, 92, text or '₩', 50, YELLOW, TITLE_FONT, 'end')]
@@ -60,7 +60,7 @@ def _art_calc(cx, cy, text):
 
 def _art_calendar(cx, cy, text):
     s = [f'<g transform="translate({cx-190},{cy-170}) rotate(5 190 170)">',
-         f'<rect x="14" y="18" width="380" height="340" rx="34" fill="{_shade(YELLOW, .62)}"/>',
+         f'<rect x="14" y="18" width="380" height="340" rx="34" fill="#000000" fill-opacity="0.18"/>',
          '<rect x="0" y="0" width="380" height="340" rx="34" fill="#ffffff"/>',
          f'<path d="M0 34 a34 34 0 0 1 34 -34 h312 a34 34 0 0 1 34 34 v56 h-380 z" fill="{CORAL}"/>',
          f'<rect x="80" y="-18" width="20" height="44" rx="10" fill="{NAVY}"/><rect x="280" y="-18" width="20" height="44" rx="10" fill="{NAVY}"/>',
@@ -73,7 +73,7 @@ def _art_coin(cx, cy, text):
     s = []
     for i in range(5):
         y = cy + 150 - i * 38
-        s.append(f'<ellipse cx="{cx-60}" cy="{y+14}" rx="110" ry="36" fill="{_shade(YELLOW, .62)}"/>')
+        s.append(f'<ellipse cx="{cx-60}" cy="{y+14}" rx="110" ry="36" fill="#000000" fill-opacity="0.18"/>')
         s.append(f'<ellipse cx="{cx-60}" cy="{y}" rx="110" ry="36" fill="#ffd966"/>')
     s.append(f'<circle cx="{cx+90}" cy="{cy-90}" r="120" fill="#ffffff"/>')
     s.append(_t(cx + 90, cy - 50, text or '₩', 110 if len(text or '₩') < 3 else 64, NAVY, TITLE_FONT, 'middle'))
@@ -82,7 +82,7 @@ def _art_coin(cx, cy, text):
 
 def _art_chart(cx, cy, text):
     s = [f'<g transform="translate({cx-200},{cy-170})">',
-         f'<rect x="14" y="18" width="400" height="330" rx="34" fill="{_shade(YELLOW, .62)}"/>',
+         f'<rect x="14" y="18" width="400" height="330" rx="34" fill="#000000" fill-opacity="0.18"/>',
          '<rect x="0" y="0" width="400" height="330" rx="34" fill="#ffffff"/>']
     for i, h in enumerate((90, 150, 120, 210)):
         s.append(f'<rect x="{50 + i*80}" y="{290-h}" width="56" height="{h}" rx="12" fill="{(SKY, MINT, CORAL, NAVY)[i]}"/>')
@@ -117,7 +117,7 @@ def build_thumb(title_lines, track, note, text='', art=''):
     kind = art if art in ARTS else ('calendar' if track == 'life' else 'chart')
     s += ARTS[kind](960, 600, text)
     if note:
-        w = 100 + len(note) * 40
+        w = 90 + sum(36 if '\uac00' <= ch <= '\ud7a3' else 19 for ch in note)
         s.append(f'<rect x="80" y="{H-160}" width="{w}" height="76" rx="38" fill="#ffffff" fill-opacity="0.12"/>')
         s.append(f'<circle cx="118" cy="{H-122}" r="12" fill="{CORAL}"/>')
         s.append(_t(144, H - 108, note, 42, '#ffffff'))
@@ -197,6 +197,39 @@ def steps(name, title, sub, events, source, W=1200, H=700):
         s.append(_t(x, 470, big, 38, CORAL if hot else NAVY, TITLE_FONT, 'middle'))
         for j, ln in enumerate(desc.split('\n')):
             s.append(_t(x, 516 + j * 40, ln, 30, '#4a5470', anchor='middle'))
+    return _save(name, s, W, H, source)
+
+
+def line_levels(name, title, sub, series, levels, source, marks=(), W=1200, H=800, pad=None):
+    """series: 종가 목록. levels: [(가격, 이름, 색)] 가로 점선. marks: [(인덱스, 글자, 색[, dx, dy])] 점과 말풍선."""
+    x0, x1, y0, y1 = 150, W - 230, 220, H - 120
+    lo, hi = min(series), max(series)
+    pad = pad if pad is not None else (hi - lo) * 0.08
+    lo, hi = lo - pad, hi + pad
+    X = lambda i: x0 + (x1 - x0) * i / (len(series) - 1)
+    Y = lambda v: y1 - (y1 - y0) * (v - lo) / (hi - lo)
+    s = _frame(W, H, title, sub)
+    s.append(f'<rect x="{x0-20}" y="{y0-20}" width="{x1-x0+40}" height="{y1-y0+40}" rx="22" fill="#ffffff"/>')
+    for v, lab, c in levels:
+        s.append(f'<line x1="{x0}" y1="{Y(v):.0f}" x2="{x1}" y2="{Y(v):.0f}" stroke="{c}" stroke-width="4" stroke-dasharray="12 10"/>')
+        s.append(f'<rect x="{x1+24}" y="{Y(v)-20:.0f}" width="180" height="40" rx="20" fill="{c}"/>')
+        s.append(_t(x1 + 114, Y(v) + 10, lab, 26, '#ffffff', anchor='middle'))
+        s.append(_t(x0 - 30, Y(v) + 9, f'{v:,.0f}', 24, '#6b7590', anchor='end'))
+    pts = ' '.join(f'{X(i):.1f},{Y(v):.1f}' for i, v in enumerate(series))
+    s.append(f'<polyline points="{pts}" fill="none" stroke="{NAVY}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>')
+    for m in marks:
+        i, lab, c = m[:3]
+        x, y = X(i), Y(series[i])
+        s.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="13" fill="{c}" stroke="#ffffff" stroke-width="4"/>')
+        w = 30 + len(lab) * 25
+        if len(m) > 3:  # (dx, dy): 말풍선 가운데를 점에서 이만큼 옮긴다
+            bx, by = x + m[3] - w / 2, y + m[4] - 23
+        else:
+            by = y - 70 if y > (y0 + y1) / 2 else y + 40
+            bx = min(max(x - w / 2, x0), x1 - w)
+        s.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{bx+w/2:.0f}" y2="{by+23:.0f}" stroke="{c}" stroke-width="3"/>')
+        s.append(f'<rect x="{bx:.0f}" y="{by:.0f}" width="{w:.0f}" height="46" rx="23" fill="{c}"/>')
+        s.append(_t(bx + w / 2, by + 32, lab, 27, '#ffffff', anchor='middle'))
     return _save(name, s, W, H, source)
 
 

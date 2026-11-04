@@ -3703,6 +3703,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/unemployment-benefit-2026-daily-amount.md"
+    },
+    {
+      "id": 184,
+      "order": 184,
+      "title": "피보나치 되돌림 계산법, 38.2·50·61.8% 가격 구하는 공식과 한계",
+      "slug": "fibonacci-retracement-calculation",
+      "keyword": "피보나치 되돌림",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "890 (PC 320 / 모바일 570)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/fibonacci-retracement-calculation.md"
     }
   ],
   "backlog": {
