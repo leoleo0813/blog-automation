@@ -172,8 +172,12 @@ def card_svg(c, i, n, badge='주식공부', accent=MINT):
         s += t
         for k, ln in enumerate(c.get('lines', [])):
             s.append(_t(72, y + 30 + k * 58, ln, 44, '#c9d3ee'))
-        s.append(f'<rect x="70" y="{y+230}" width="560" height="96" rx="48" fill="{YELLOW}"/>')
-        s.append(_t(350, y + 293, '나도!지식 한입만', 46, NAVY, TF, 'middle'))
+        # 2026-11-05 사용자 요청: 블로그 이름을 크게 박으면 노골적으로 보여서, 마지막 장은 이름 대신 은은한 안내 칩만 둔다.
+        cta = c.get('cta', '프로필 링크에서 이어 보기')
+        cw = 110 + sum(40 if '\uac00' <= ch <= '\ud7a3' else 22 for ch in cta)
+        s.append(f'<rect x="70" y="{y+200}" width="{cw}" height="88" rx="44" fill="#ffffff" fill-opacity="0.12"/>')
+        s.append(f'<path d="M{cw+10} {y+226} l18 18 l-18 18" fill="none" stroke="{YELLOW}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>')
+        s.append(_t(108, y + 258, cta, 42, YELLOW))
         s += character(820, H - 70, 1.15, pose)
         if c.get('say'):
             s += bubble(120, H - 300, c['say'], tail='right')
