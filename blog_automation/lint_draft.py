@@ -162,6 +162,10 @@ def lint(path, series):
         if not any(def_re.search(x.strip()) for x in sentences):
             warns.append(f"[AI검색] '{kw}'를 한 문장으로 정의한 문장이 없음 (예: '{kw}는 ~예요')")
 
+    # 2026-11-05 지원금 강화: 생활정보 제목에는 연도·금액·날짜 같은 숫자가 하나는 있어야 한다(RULES 「주제 범위」).
+    if fm.get('track') == 'life' and not re.search(r'\d', str(fm.get('title', ''))):
+        warns.append("[지원금] 생활정보 제목에 숫자(연도·금액·마감일) 없음 — 대상+금액+마감+지역 공식")
+
     due = fm.get('refresh_due')
     if due is not None and not isinstance(due, datetime.date):
         fails.append(f"refresh_due 형식 오류(YYYY-MM-DD): {due}")
