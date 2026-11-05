@@ -52,7 +52,7 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
 <h2 style="border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
   <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">피보나치 되돌림 뜻과 선 다섯 개</a></li>
-  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">되돌림 가격 계산법 3단계</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">피보나치 되돌림 가격은 어떻게 계산하나요?</a></li>
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">38.2·61.8%는 어디서 나왔나</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">되돌림 %와 고점 대비 하락률은 달라요</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">가정 차트로 본 예시</a></li>
@@ -79,7 +79,9 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
 
 <p>반대로 하락 뒤 반등을 볼 때는 저점에서 위로 더해요. 80,000원에서 52,000원으로 내렸다면 38.2% 반등선은 52,000 + 0.382 × 28,000 = <b>62,696원</b>, 61.8% 반등선은 <b>69,304원</b>이에요. 같은 두 가격이라도 방향에 따라 38.2%와 61.8%의 자리가 서로 바뀌어요.</p>
 
-<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">되돌림 가격 계산법 3단계</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">피보나치 되돌림 가격은 어떻게 계산하나요?</h2>
+
+<p>되돌림 가격은 저점과 고점을 고른 뒤, 그 폭에 비율을 곱해 고점에서 빼면 나와요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/fibonacci-retracement-calculation-2.png" alt="피보나치 되돌림 가격 계산 3단계: 52,000원에서 80,000원 상승, 폭 28,000원 × 0.382 = 10,696원, 80,000 − 10,696 = 69,304원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">비율만 바꿔 넣으면 다섯 선이 다 나와요.</figcaption></figure>
 
@@ -92,6 +94,8 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
 <p>1단계가 가장 중요해요. 저점을 52,000원이 아니라 60,000원으로 잡으면 폭이 20,000원이 돼서 38.2% 선은 72,360원으로 3,000원 넘게 올라가요. 같은 차트라도 사람마다 선이 다른 이유예요.</p>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">38.2·61.8%는 어디서 나왔나</h2>
+
+<p>38.2%와 61.8%는 황금비 1.618의 역수인 0.618에서 나온 비율이에요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/fibonacci-retracement-calculation-3.png" alt="피보나치 비율 유도: 61.8% = 1 ÷ 1.618, 38.2% = 0.618 × 0.618, 23.6% = 0.618 × 0.618 × 0.618" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">세 비율은 모두 0.618에서 나와요.</figcaption></figure>
 
@@ -125,6 +129,8 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
 <p>하락률 = 되돌림 비율 × (고점 − 저점) ÷ 고점이라서, 앞선 상승이 클수록 같은 50% 되돌림이라도 하락률이 커져요.</p>
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">가정 차트로 본 예시</h2>
+
+<p>가정 가격으로 선을 그어 보면, 되돌림은 38.2% 선을 그냥 지나 50% 선 근처에서 멈췄어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/fibonacci-retracement-calculation-1.png" alt="가정 가격 차트: 저점 10,000에서 고점 14,000까지 오른 뒤 38.2% 선 12,472를 뚫고 50% 선 12,000 근처 12,020에서 반등" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">실제 종목이 아닌 가정 가격이에요. 38.2% 선은 그냥 지나쳤어요.</figcaption></figure>
 

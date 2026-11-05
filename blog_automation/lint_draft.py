@@ -142,6 +142,26 @@ def lint(path, series):
             if not any('http' in str(s) or '앱' in str(s) for s in todo.get('steps') or []):
                 fails.append("user_todo.steps에 링크나 앱 경로가 하나도 없음 — 어디로 가야 하는지 적을 것")
 
+    # AI 검색(AEO/GEO) 구조. 2026-11-05 사용자 요청. AI는 문단 단위로 잘라 인용하므로
+    # ① 소제목 일부를 사람들이 묻는 질문형으로 ② 소제목 바로 아래 첫 블록은 결론 문장(<p>)으로
+    # ③ 핵심 키워드를 "A는 B예요"처럼 한 문장으로 정의. 효과가 검증된 규칙은 아니라 경고만 낸다.
+    secs = re.findall(r'<h2[^>]*\bid="sec-\d+"[^>]*>(.*?)</h2>(.*?)(?=<h2|$)', html, re.S)
+    secs = [(re.sub(r'<[^>]+>', '', h).strip(), b) for h, b in secs]
+    secs = [(h, b) for h, b in secs if 'Q&amp;A' not in h and 'Q&A' not in h]
+    q_re = re.compile(r'(\?|나요|까요|가요|인가|할까|될까|나왔나|받나|얼마|언제|어떻게|몇)\s*$')
+    n_q = sum(1 for h, _ in secs if q_re.search(h))
+    if secs and n_q < 2:
+        warns.append(f"[AI검색] 질문형 소제목 {n_q}개 (2개 이상 권장: 예 '아동수당 얼마 받나요?')")
+    no_lead = [h for h, b in secs if not re.match(r'\s*<p\b', b)]
+    if no_lead:
+        warns.append(f"[AI검색] 소제목 바로 아래가 결론 문장(<p>)이 아님 {len(no_lead)}개: {no_lead[:2]}")
+    kw = re.sub(r'\s*(뜻|계산법|계산|보는법|방법|신청|2026|202\d)$', '', str(fm.get('keyword', ''))).strip()
+    if kw:
+        sentences = re.split(r'(?<=[.?!])\s+', re.sub(r'\s+', ' ', text))
+        def_re = re.compile(re.escape(kw) + r'\s*(은|는|이란|란|이라는 건)\s.*(이에요|예요|입니다|이다|뜻해요|말해요)[.!]?$')
+        if not any(def_re.search(x.strip()) for x in sentences):
+            warns.append(f"[AI검색] '{kw}'를 한 문장으로 정의한 문장이 없음 (예: '{kw}는 ~예요')")
+
     due = fm.get('refresh_due')
     if due is not None and not isinstance(due, datetime.date):
         fails.append(f"refresh_due 형식 오류(YYYY-MM-DD): {due}")

@@ -56,16 +56,16 @@ figure_plan: "3장(팝 스타일): 1 월급별 하루 금액 막대 / 2 계산 3
 
 <h2 style="border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
-  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 실업급여 상한액·하한액</a></li>
+  <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 실업급여 하루 얼마 받나요?</a></li>
   <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">하루 금액 계산법 3단계</a></li>
   <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">월급별 계산 예시: 60%가 그대로인 구간은 좁아요</a></li>
-  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">며칠 받나: 소정급여일수와 총액</a></li>
+  <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실업급여 며칠 받고, 총액은 얼마인가요?</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">받을 수 있는 조건과 신청 순서</a></li>
   <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2027년에 그만두면 달라지는 점</a></li>
   <li><a href="#sec-7" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">실업급여 Q&amp;A 5개</a></li>
 </ol>
 
-<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">2026년 실업급여 상한액·하한액</h2>
+<h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">2026년 실업급여 하루 얼마 받나요?</h2>
 
 <p>상한액은 2025년까지 하루 66,000원이었는데, 2026년 1월 1일 이후 이직자부터 <mark>68,100원</mark>으로 올랐어요. 2025년 12월 16일 국무회의에서 고용보험법 시행령 개정안이 의결됐고, 상한액이 바뀐 건 2019년 이후 6년 만이에요.</p>
 
@@ -86,6 +86,8 @@ figure_plan: "3장(팝 스타일): 1 월급별 하루 금액 막대 / 2 계산 3
 <p>어느 해 금액을 쓰는지는 <b>신청한 날이 아니라 이직일(퇴사일)</b>로 정해져요. 2025년 12월에 그만두고 2026년 1월에 신청했다면 2025년 금액이에요. 하루 일하는 시간이 8시간보다 짧았던 사람은 하한액도 시간에 맞춰 줄어들어요.</p>
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">하루 금액 계산법 3단계</h2>
+
+<p>하루 금액은 평균임금 일액에 60%를 곱한 뒤, 그 값을 하한 66,048원과 상한 68,100원 사이로 맞춰서 정해져요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/unemployment-benefit-2026-daily-amount-1.png" alt="실업급여 하루 금액 계산 3단계: 1 퇴사 전 3개월 임금을 일수로 나눠 평균임금 일액, 2 60%를 곱하기, 3 하한 66,048원과 상한 68,100원 사이로 맞추기" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">세 번째 단계에서 대부분 한도에 걸려요.</figcaption></figure>
 
@@ -117,7 +119,7 @@ figure_plan: "3장(팝 스타일): 1 월급별 하루 금액 막대 / 2 계산 3
 
 <p>60%가 그대로 적용되려면 평균임금 일액이 <mark>110,080원(66,048÷0.6) ~ 113,500원(68,100÷0.6)</mark> 사이여야 해요. 위 가정(92일)으로 바꾸면 월급 약 <b>338만~348만원</b> 사이예요. 이보다 적으면 하한, 많으면 상한을 받으니, 하루 8시간 일한 2026년 이직자는 대부분 <b>66,048~68,100원</b> 사이에서 정해진다고 보면 돼요.</p>
 
-<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">며칠 받나: 소정급여일수와 총액</h2>
+<h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">실업급여 며칠 받고, 총액은 얼마인가요?</h2>
 
 <p>받는 날 수(소정급여일수)는 <b>퇴사할 때 나이</b>와 <b>고용보험 가입기간</b>으로 정해져요. 장애인은 50세 이상과 같은 일수를 받아요.</p>
 
@@ -142,6 +144,8 @@ figure_plan: "3장(팝 스타일): 1 월급별 하루 금액 막대 / 2 계산 3
 <p>월급보다 일수가 총액을 훨씬 크게 바꿔요. 하루 금액 차이는 최대 2,052원이지만, 일수는 120일과 270일이 두 배 넘게 차이 나거든요.</p>
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">받을 수 있는 조건과 신청 순서</h2>
+
+<p>실업급여는 고용보험 가입기간 180일 이상, 본인 뜻이 아닌 퇴사, 재취업 활동 세 가지를 갖춰야 받을 수 있어요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>가입기간:</b> 퇴사 전 18개월 동안 고용보험에 가입해 일한 날(피보험 단위기간)이 합쳐서 180일 이상이어야 해요.</li>

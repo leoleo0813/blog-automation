@@ -56,8 +56,8 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 <h2 style="border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
   <li><a href="#sec-1" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">2026년 아동수당 대상: 만 9세 미만</a></li>
-  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">지역별 금액과 1년 총액</a></li>
-  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">언제까지 받나: 연도별 대상 나이</a></li>
+  <li><a href="#sec-2" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">아동수당 지역별로 얼마 받나요?</a></li>
+  <li><a href="#sec-3" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">아동수당 몇 살까지 받나요?</a></li>
   <li><a href="#sec-4" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">신청 방법과 60일 규칙</a></li>
   <li><a href="#sec-5" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">부모급여와 함께 받을 수 있나</a></li>
   <li><a href="#sec-6" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">아동수당 Q&amp;A 5개</a></li>
@@ -69,7 +69,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 
 <p>부모의 소득이나 재산은 따지지 않아요. 대한민국 국적에 주민등록번호가 있는 만 9세 미만 아이라면 대상이에요.</p>
 
-<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">지역별 금액과 1년 총액</h2>
+<h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">아동수당 지역별로 얼마 받나요?</h2>
 
 <p>2026년부터는 사는 곳에 따라 금액이 달라졌어요. 수도권은 그대로 10만원이고, 비수도권과 인구감소지역 아이에게 매달 5천~2만원을 더 줘요.</p>
 
@@ -89,7 +89,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 
 <p>내가 사는 시·군이 어느 구분인지는 복지로나 주민센터에서 확인할 수 있어요. 지역 추가 지급은 <b>올해 한시로 시행한다는 보도</b>가 있어서, 2027년에도 같은 금액일지는 아직 정해지지 않았어요. 정해지면 이 글을 고칠게요.</p>
 
-<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">언제까지 받나: 연도별 대상 나이</h2>
+<h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">아동수당 몇 살까지 받나요?</h2>
 
 <p>개정법은 대상 나이를 <mark>2030년까지 해마다 한 살씩</mark> 올리도록 정했어요.</p>
 
@@ -112,6 +112,8 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 </ul>
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">신청 방법과 60일 규칙</h2>
+
+<p>아동수당은 복지로·정부24·주민센터 중 한 곳에서 출생일 포함 60일 안에 신청하면 태어난 달부터 받아요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/child-allowance-2026-age-amount-3.png" alt="아동수당 신청 방법: 복지로 온라인, 정부24 출생신고와 함께, 주민센터 방문. 출생일 포함 60일 안에 신청하면 태어난 달부터 지급" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">어디서 신청해도 결과는 같아요. 60일만 지키면 돼요.</figcaption></figure>
 
