@@ -3717,6 +3717,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/fibonacci-retracement-calculation.md"
+    },
+    {
+      "id": 185,
+      "order": 185,
+      "title": "아동수당 2026, 만 9세 미만 확대와 지역별 금액 10만~12만원, 언제까지 받나",
+      "slug": "child-allowance-2026-age-amount",
+      "keyword": "아동수당",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "24090 (PC 4590 / 모바일 19500)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/child-allowance-2026-age-amount.md"
     }
   ],
   "backlog": {
