@@ -74,11 +74,16 @@ def lint(path, series):
             fails.append(f"상대경로 이미지(티스토리에서 깨짐, GitHub 원본 주소로): {src}")
 
     # 그림 장수는 내용에 따라 1~5장(2026-10-30 사용자 요청으로 3→5, RULES.md 「이미지」). 숫자 표가 많은데 1장이면 이유를 적게 한다.
-    if len(imgs) > 5:
-        fails.append(f"본문 그림 {len(imgs)}장 (최대 5장)")
+    # 2026-11-05 캐러셀 카드(assets/carousel/)는 본문 그림 5장 상한과 따로 센다(최대 10장).
+    cards = [s for s in imgs if '/assets/carousel/' in s]
+    figs = [s for s in imgs if '/assets/carousel/' not in s]
+    if len(figs) > 5:
+        fails.append(f"본문 그림 {len(figs)}장 (최대 5장)")
+    if len(cards) > 10:
+        fails.append(f"캐러셀 카드 {len(cards)}장 (최대 10장)")
     num_tables = sum(1 for tb in re.findall(r'<table.*?</table>', html, re.S)
                      if len(re.findall(r'\d[\d,.]*\s*(%|원|조|만|억|년|월|일|배|달러)', tb)) >= 4)
-    if len(imgs) == 1 and num_tables >= 3 and not fm.get('figure_plan'):
+    if len(figs) == 1 and num_tables >= 3 and not fm.get('figure_plan'):
         fails.append(f"숫자 표 {num_tables}개인데 그림 1장 — 그림을 늘리거나 figure_plan에 1장으로 충분한 이유를 적을 것")
 
     # 금지 어휘가 소제목·박스 제목·FAQ 헤딩에 쓰였는지(RULES.md 2026-10-01 점검 반영)

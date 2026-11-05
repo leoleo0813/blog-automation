@@ -1,7 +1,7 @@
 """Threads용 캐러셀 카드(4:5, 1080x1350). 2026-11-04 사용자 요청.
 
 "제작해줘" 때 글은 저장소에 원래대로 만들고, 같은 글로 Threads 캐러셀을 만들어 채팅에 한 장씩 따로 보낸다.
-카드 이미지는 저장소에 올리지 않는다(기본 출력 폴더는 저장소 밖). 카드마다 글 + 캐릭터(안경 쓴 '보스')가 들어간다.
+카드 2026-11-05부터 블로그에도 같은 카드를 넣으므로 assets/carousel/에 저장한다(blog_html로 넘기는 HTML 생성). 카드마다 글 + 캐릭터(안경 쓴 '보스')가 들어간다.
 디자인은 팝 스타일(pop_style.py)과 같은 남색 바탕·원색·Black Han Sans/Do Hyeon.
 
     from blog_automation.threads_carousel import make_carousel
@@ -174,9 +174,10 @@ def card_svg(c, i, n, badge='주식공부', accent=MINT):
             s.append(_t(72, y + 30 + k * 58, ln, 44, '#c9d3ee'))
         # 2026-11-05 사용자 요청: 블로그 이름을 크게 박으면 노골적으로 보여서, 마지막 장은 이름 대신 은은한 안내 칩만 둔다.
         cta = c.get('cta', '프로필 링크에서 이어 보기')
-        cw = 110 + sum(40 if '\uac00' <= ch <= '\ud7a3' else 22 for ch in cta)
+        cw = (80 if cta.endswith(('↓', '→')) else 120) + sum(37 if '\uac00' <= ch <= '\ud7a3' else 20 for ch in cta)
         s.append(f'<rect x="70" y="{y+200}" width="{cw}" height="88" rx="44" fill="#ffffff" fill-opacity="0.12"/>')
-        s.append(f'<path d="M{cw+10} {y+226} l18 18 l-18 18" fill="none" stroke="{YELLOW}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>')
+        if not cta.endswith(('↓', '→')):
+            s.append(f'<path d="M{cw+10} {y+226} l18 18 l-18 18" fill="none" stroke="{YELLOW}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>')
         s.append(_t(108, y + 258, cta, 42, YELLOW))
         s += character(820, H - 70, 1.15, pose)
         if c.get('say'):
@@ -194,9 +195,24 @@ def make_carousel(slug, cards, out_dir, badge='주식공부', accent=None):
     out.mkdir(parents=True, exist_ok=True)
     paths = []
     for i, c in enumerate(cards, 1):
-        p = out / f'{slug}-threads-{i:02d}.svg'
+        p = out / f'{slug}-{i:02d}.svg'
         p.write_text(card_svg(c, i, len(cards), badge, accent), encoding='utf-8')
         subprocess.run([sys.executable, '-m', 'blog_automation.make_figure', str(p)], check=True, capture_output=True)
         p.unlink()
         paths.append(str(p.with_suffix('.png')))
     return paths
+
+
+RAW = 'https://raw.githubusercontent.com/leoleo0813/blog-automation/main/'
+
+
+def blog_html(slug, n, alts):
+    """블로그용 옆으로 넘기는 캐러셀 HTML(자바스크립트 없이 CSS scroll-snap). 이미지는 assets/carousel/<slug>-NN.png."""
+    items = ''.join(
+        f'<div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;">'
+        f'<img src="{RAW}assets/carousel/{slug}-{i:02d}.png" alt="{_esc(alts[i-1])}" style="width:100%;border-radius:14px;display:block;"></div>'
+        for i in range(1, n + 1))
+    return ('<div style="margin:24px 0;">'
+            '<div style="display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;">'
+            f'{items}</div>'
+            f'<p style="font-size:13px;color:#888;margin:6px 0 0 0;">옆으로 넘겨 보세요 → (카드 {n}장 요약)</p></div>')

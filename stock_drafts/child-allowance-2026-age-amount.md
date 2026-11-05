@@ -33,7 +33,7 @@ self_check: |
   2027년 이후 연령은 개정법 일정이라 표기하되, 금액·지역 추가금 지속 여부는 미확정으로 표시.
 refresh_due: 2027-01-05
 refresh_reason: "2027년 대상 연령(10세 미만) 적용과 지역 추가 지급 지속 여부, 금액 변동 확인 후 표 갱신"
-figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연령 단계 / 3 신청 방법 카드"
+figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연령 단계 / 3 신청 방법 카드 + 요약 캐러셀 6장(assets/carousel, Threads 겸용)"
 ---
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-05</p>
@@ -50,6 +50,8 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
     <li><b>신청:</b> 출생일 포함 <b>60일 안에</b> 신청하면 태어난 달부터 받아요</li>
   </ul>
 </div>
+
+<div style="margin:24px 0;"><div style="display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;"><div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/carousel/child-allowance-2026-age-amount-01.png" alt="아동수당 우리 아이는 언제까지 받을까, 2026년 만 9세 미만으로 확대" style="width:100%;border-radius:14px;display:block;"></div><div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/carousel/child-allowance-2026-age-amount-02.png" alt="2026년 아동수당 대상 만 9세 미만, 소득·재산 상관없음" style="width:100%;border-radius:14px;display:block;"></div><div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/carousel/child-allowance-2026-age-amount-03.png" alt="아동수당 지역별 월 금액 수도권 10만원 비수도권 10만5천원 인구감소지역 11만원 12만원" style="width:100%;border-radius:14px;display:block;"></div><div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/carousel/child-allowance-2026-age-amount-04.png" alt="아동수당 대상 나이 2026년 9세 미만부터 2030년 13세 미만까지 해마다 한 살씩" style="width:100%;border-radius:14px;display:block;"></div><div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/carousel/child-allowance-2026-age-amount-05.png" alt="아동수당 신청은 출생일 포함 60일 안에" style="width:100%;border-radius:14px;display:block;"></div><div style="flex:0 0 82%;max-width:420px;scroll-snap-align:center;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/carousel/child-allowance-2026-age-amount-06.png" alt="지역 구분과 출생연도 계산은 아래 본문에서" style="width:100%;border-radius:14px;display:block;"></div></div><p style="font-size:13px;color:#888;margin:6px 0 0 0;">옆으로 넘겨 보세요 → (카드 6장 요약)</p></div>
 
 <h2 style="border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">목차</h2>
 <ol style="line-height:1.9;">
