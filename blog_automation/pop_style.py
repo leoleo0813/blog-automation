@@ -200,7 +200,7 @@ def steps(name, title, sub, events, source, W=1200, H=700):
     return _save(name, s, W, H, source)
 
 
-def line_levels(name, title, sub, series, levels, source, marks=(), W=1200, H=800, pad=None):
+def line_levels(name, title, sub, series, levels, source, marks=(), W=1200, H=800, pad=None, slopes=()):
     """series: 종가 목록. levels: [(가격, 이름, 색)] 가로 점선. marks: [(인덱스, 글자, 색[, dx, dy])] 점과 말풍선."""
     x0, x1, y0, y1 = 150, W - 230, 220, H - 120
     lo, hi = min(series), max(series)
@@ -215,6 +215,13 @@ def line_levels(name, title, sub, series, levels, source, marks=(), W=1200, H=80
         s.append(f'<rect x="{x1+24}" y="{Y(v)-20:.0f}" width="180" height="40" rx="20" fill="{c}"/>')
         s.append(_t(x1 + 114, Y(v) + 10, lab, 26, '#ffffff', anchor='middle'))
         s.append(_t(x0 - 30, Y(v) + 9, f'{v:,.0f}', 24, '#6b7590', anchor='end'))
+    # slopes: [(d0, v0, d1, v1, 이름, 색, 점선여부)] 기울어진 선(추세선). 이름은 선 끝 오른쪽에.
+    for d0, v0, d1, v1, lab, c, dash in slopes:
+        da = 'stroke-dasharray="12 10"' if dash else ''
+        s.append(f'<line x1="{X(d0):.0f}" y1="{Y(v0):.0f}" x2="{X(d1):.0f}" y2="{Y(v1):.0f}" stroke="{c}" stroke-width="5" {da} stroke-linecap="round"/>')
+        if lab:
+            s.append(f'<rect x="{x1+24}" y="{Y(v1)-20:.0f}" width="180" height="40" rx="20" fill="{c}"/>')
+            s.append(_t(x1 + 114, Y(v1) + 10, lab, 26, '#ffffff', anchor='middle'))
     pts = ' '.join(f'{X(i):.1f},{Y(v):.1f}' for i, v in enumerate(series))
     s.append(f'<polyline points="{pts}" fill="none" stroke="{NAVY}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>')
     for m in marks:

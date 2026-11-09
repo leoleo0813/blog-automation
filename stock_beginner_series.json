@@ -3759,6 +3759,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/parental-benefit-2026-daycare-amount.md"
+    },
+    {
+      "id": 188,
+      "order": 188,
+      "title": "추세선 긋는 법, 기울기 계산과 연장선 가격 구하기 (이탈 판단 기준까지)",
+      "slug": "trendline-slope-calculation",
+      "keyword": "추세선",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "550 (PC 210 / 모바일 340)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/trendline-slope-calculation.md"
     }
   ],
   "backlog": {
