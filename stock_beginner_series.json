@@ -3745,6 +3745,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/elliott-wave-rules-count.md"
+    },
+    {
+      "id": 187,
+      "order": 187,
+      "title": "부모급여 2026, 0세 월 100만원·1세 50만원, 어린이집 보내면 얼마 받나 (2027 개편안까지)",
+      "slug": "parental-benefit-2026-daycare-amount",
+      "keyword": "부모급여",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "22650 (PC 3650 / 모바일 19000)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/parental-benefit-2026-daycare-amount.md"
     }
   ],
   "backlog": {
