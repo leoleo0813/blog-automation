@@ -155,7 +155,7 @@ def lint(path, series):
     no_lead = [h for h, b in secs if not re.match(r'\s*<p\b', b)]
     if no_lead:
         warns.append(f"[AI검색] 소제목 바로 아래가 결론 문장(<p>)이 아님 {len(no_lead)}개: {no_lead[:2]}")
-    kw = re.sub(r'\s*(뜻|계산법|계산|보는법|방법|신청|2026|202\d)$', '', str(fm.get('keyword', ''))).strip()
+    kw = re.sub(r'\s*(뜻|계산법|계산|보는법|방법|신청|찾기|조회|2026|202\d)$', '', str(fm.get('keyword', ''))).strip()
     if kw:
         sentences = re.split(r'(?<=[.?!])\s+', re.sub(r'\s+', ' ', text))
         def_re = re.compile(re.escape(kw) + r'\s*(은|는|이란|란|이라는 건)\s.*(이에요|예요|입니다|이다|뜻해요|말해요)[.!]?$')

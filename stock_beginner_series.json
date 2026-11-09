@@ -3773,6 +3773,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/trendline-slope-calculation.md"
+    },
+    {
+      "id": 189,
+      "order": 189,
+      "title": "휴면예금 찾기 2026, 숨은 금융자산 14조원 조회 순서와 보험금·건보 환급금 3년 기한",
+      "slug": "dormant-deposit-hidden-money-2026",
+      "keyword": "휴면예금 찾기",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "12080 (PC 1580 / 모바일 10500)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/dormant-deposit-hidden-money-2026.md"
     }
   ],
   "backlog": {
