@@ -3731,6 +3731,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/child-allowance-2026-age-amount.md"
+    },
+    {
+      "id": 186,
+      "order": 186,
+      "title": "엘리어트 파동 3가지 규칙, 1~5파 세는 법과 틀린 카운트 구별하기",
+      "slug": "elliott-wave-rules-count",
+      "keyword": "엘리어트 파동",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "780 (PC 320 / 모바일 460)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/elliott-wave-rules-count.md"
     }
   ],
   "backlog": {
