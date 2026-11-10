@@ -3512,9 +3512,10 @@
       "monthly_search_volume": "107700 (PC 23600 / 모바일 84100)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/culture-nuri-card-2026-deadline.md",
-      "deadline": "2026-11-30"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/culture-nuri-card-2026-deadline.md",
+      "deadline": "2026-11-30",
+      "published_at": "2026-11-11"
     },
     {
       "id": 171,
@@ -3527,9 +3528,10 @@
       "monthly_search_volume": "916900 (PC 169700 / 모바일 747200)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/youth-future-savings-account-opening-2026.md",
-      "deadline": "2026-11-27"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/youth-future-savings-account-opening-2026.md",
+      "deadline": "2026-11-27",
+      "published_at": "2026-11-11"
     },
     {
       "id": 172,
@@ -3556,9 +3558,10 @@
       "monthly_search_volume": "74000 (PC 15100 / 모바일 58900)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/energy-voucher-2026-amount-apply.md",
-      "deadline": "2026-12-31"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/energy-voucher-2026-amount-apply.md",
+      "deadline": "2026-12-31",
+      "published_at": "2026-11-11"
     },
     {
       "id": 174,
@@ -3585,9 +3588,10 @@
       "monthly_search_volume": "117700 (PC 39800 / 모바일 77900)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/hometown-donation-tax-credit-2026.md",
-      "deadline": "2026-12-31"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/hometown-donation-tax-credit-2026.md",
+      "deadline": "2026-12-31",
+      "published_at": "2026-11-11"
     },
     {
       "id": 176,
@@ -3614,9 +3618,10 @@
       "monthly_search_volume": "1540 (PC 520 / 모바일 1020)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/eitc-late-application-2026.md",
-      "deadline": "2026-12-01"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/eitc-late-application-2026.md",
+      "deadline": "2026-12-01",
+      "published_at": "2026-11-11"
     },
     {
       "id": 178,
@@ -3643,9 +3648,10 @@
       "monthly_search_volume": "8020 (PC 4780 / 모바일 3240)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/year-end-tax-preview-card-deduction-2026.md",
-      "deadline": "2026-12-18"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/year-end-tax-preview-card-deduction-2026.md",
+      "deadline": "2026-12-18",
+      "published_at": "2026-11-11"
     },
     {
       "id": 180,
@@ -3701,8 +3707,9 @@
       "monthly_search_volume": "99400",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/unemployment-benefit-2026-daily-amount.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/unemployment-benefit-2026-daily-amount.md",
+      "published_at": "2026-11-11"
     },
     {
       "id": 184,
@@ -3813,8 +3820,9 @@
       "monthly_search_volume": "14920 (PC 6400 / 모바일 8520)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/income-tax-interim-prepayment-2026.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/income-tax-interim-prepayment-2026.md",
+      "published_at": "2026-11-11"
     },
     {
       "id": 192,
