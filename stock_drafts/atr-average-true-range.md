@@ -213,6 +213,11 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
   <p style="margin:10px 0 0 0;">ATR을 주가로 나눈 ATR%로 비교해요. 주가 1만원·ATR 300원은 3%, 주가 10만원·ATR 2,000원은 2%라서 비율로는 첫 번째가 더 출렁여요.</p>
 </details>
 
+<div style="background:#f6f7fb;border-radius:10px;padding:14px 18px;margin:28px 0 0 0;">
+  <strong style="font-size:16px;">📚 함께 보면 좋은 글</strong>
+  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;"><li><a href="https://sensitiveboss3.tistory.com/entry/bollinger-bands-calculation" target="_blank" rel="noopener">볼린저밴드 뜻과 계산법</a></li><li><a href="https://sensitiveboss3.tistory.com/entry/rsi-meaning-14day-calculation" target="_blank" rel="noopener">RSI 14일 값 직접 구하기</a></li><li><a href="https://sensitiveboss3.tistory.com/entry/moving-average-5-20-day-cross" target="_blank" rel="noopener">이동평균선 5일 20일 계산과 크로스 보는 법</a></li></ul>
+</div>
+
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고:
   <ul style="margin:6px 0 0 0;padding-left:20px;">

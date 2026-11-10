@@ -166,6 +166,10 @@ def lint(path, series):
     if fm.get('track') == 'life' and not re.search(r'\d', str(fm.get('title', ''))):
         warns.append("[지원금] 생활정보 제목에 숫자(연도·금액·마감일) 없음 — 대상+금액+마감+지역 공식")
 
+    # 2026-11-10 수익 구조 점검: 글 끝 '함께 보면 좋은 글' 상자로 페이지뷰를 늘린다(RULES 「수익 구조 점검」).
+    if '함께 보면 좋은 글' not in text:
+        warns.append("[수익] '함께 보면 좋은 글' 상자 없음 (발행된 관련 글 2~3개 링크)")
+
     # 2026-11-10 사용자 요청 "더 자세하고 친절하게": 본문 글자 수(공백 제외) 3,500자 이상 권장.
     n_chars = len(re.sub(r'\s+', '', text))
     if n_chars < 3500:

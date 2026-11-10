@@ -234,6 +234,11 @@ figure_plan: "3장(팝·forest): 1 중간예납 흐름 단계 / 2 사례별 11�
   <p style="margin:10px 0 0 0;">1천만원을 넘으면 가능해요. 2천만원 이하면 1천만원을 넘는 부분을, 2천만원을 넘으면 절반까지를 2027년 2월 1일까지 나눠 낼 수 있어요.</p>
 </details>
 
+<div style="background:#f6f7fb;border-radius:10px;padding:14px 18px;margin:28px 0 0 0;">
+  <strong style="font-size:16px;">📚 함께 보면 좋은 글</strong>
+  <ul style="margin:8px 0 0 0;padding-left:20px;line-height:1.9;"><li><a href="https://sensitiveboss3.tistory.com/entry/capital-gains-tax-installment-payment" target="_blank" rel="noopener">양도소득세 분납, 얼마까지 나눠 낼 수 있나</a></li><li><a href="https://sensitiveboss3.tistory.com/entry/inheritance-tax-deadline-penalty" target="_blank" rel="noopener">상속세 신고기한과 늦었을 때 가산세</a></li><li><a href="https://sensitiveboss3.tistory.com/entry/pension-savings-tax-credit" target="_blank" rel="noopener">연금저축 세액공제 얼마 돌려받나</a></li></ul>
+</div>
+
 <div style="border-top:1px solid #ddd;margin-top:32px;padding-top:12px;font-size:13px;color:#888;">
   참고 출처:
   <ul style="margin:6px 0 0 0;padding-left:20px;">
