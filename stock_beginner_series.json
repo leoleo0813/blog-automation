@@ -3787,6 +3787,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/dormant-deposit-hidden-money-2026.md"
+    },
+    {
+      "id": 190,
+      "order": 190,
+      "title": "헤드앤숄더 패턴, 넥라인 긋는 법과 이탈 확인 3가지 (역헤드앤숄더·한계까지)",
+      "slug": "head-and-shoulders-neckline",
+      "keyword": "헤드앤숄더",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "11340 (PC 2970 / 모바일 8370)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/head-and-shoulders-neckline.md"
     }
   ],
   "backlog": {
