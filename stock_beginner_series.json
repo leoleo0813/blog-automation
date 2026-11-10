@@ -3801,6 +3801,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/head-and-shoulders-neckline.md"
+    },
+    {
+      "id": 191,
+      "order": 191,
+      "title": "종합소득세 중간예납 2026, 11월 30일 마감·50만원 미만 면제·분납과 추계액 신고 계산",
+      "slug": "income-tax-interim-prepayment-2026",
+      "keyword": "종합소득세 중간예납",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "14920 (PC 6400 / 모바일 8520)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/income-tax-interim-prepayment-2026.md"
     }
   ],
   "backlog": {
