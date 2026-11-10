@@ -166,6 +166,11 @@ def lint(path, series):
     if fm.get('track') == 'life' and not re.search(r'\d', str(fm.get('title', ''))):
         warns.append("[지원금] 생활정보 제목에 숫자(연도·금액·마감일) 없음 — 대상+금액+마감+지역 공식")
 
+    # 2026-11-10 사용자 요청 "더 자세하고 친절하게": 본문 글자 수(공백 제외) 3,500자 이상 권장.
+    n_chars = len(re.sub(r'\s+', '', text))
+    if n_chars < 3500:
+        warns.append(f"[자세히] 본문 {n_chars}자 (3,500자 이상 권장: 낱말 풀이·내 경우 예시·따라 하기·실수 상자)")
+
     due = fm.get('refresh_due')
     if due is not None and not isinstance(due, datetime.date):
         fails.append(f"refresh_due 형식 오류(YYYY-MM-DD): {due}")

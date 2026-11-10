@@ -64,7 +64,8 @@ def main():
         lines = fields.get('thumb_title') or '|'.join(title.split(',')[:2])
         subprocess.run(
             [sys.executable, '-m', 'blog_automation.pop_style', slug, lines, fields.get('track') or 'chart',
-             fields.get('thumb_note', ''), fields.get('thumb_date', ''), fields.get('thumb_art', '')],
+             fields.get('thumb_note', ''), fields.get('thumb_date', ''), fields.get('thumb_art', ''),
+             fields.get('theme', 'navy')],
             check=True,
         )
         return

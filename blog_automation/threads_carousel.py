@@ -22,6 +22,7 @@ import sys
 from pathlib import Path
 
 from blog_automation.make_illustrated_thumbnail import _install_fonts, _esc
+from blog_automation.pop_style import apply_theme
 
 W, H = 1080, 1350
 NAVY, NAVY2 = '#1b2a4e', '#24366a'
@@ -188,7 +189,7 @@ def card_svg(c, i, n, badge='주식공부', accent=MINT):
     return '\n'.join(s)
 
 
-def make_carousel(slug, cards, out_dir, badge='주식공부', accent=None):
+def make_carousel(slug, cards, out_dir, badge='주식공부', accent=None, theme=None):
     accent = accent or (YELLOW if badge == '생활정보' else MINT)
     _install_fonts()
     out = Path(out_dir)
@@ -196,7 +197,7 @@ def make_carousel(slug, cards, out_dir, badge='주식공부', accent=None):
     paths = []
     for i, c in enumerate(cards, 1):
         p = out / f'{slug}-{i:02d}.svg'
-        p.write_text(card_svg(c, i, len(cards), badge, accent), encoding='utf-8')
+        p.write_text(apply_theme(card_svg(c, i, len(cards), badge, accent), theme), encoding='utf-8')
         subprocess.run([sys.executable, '-m', 'blog_automation.make_figure', str(p)], check=True, capture_output=True)
         p.unlink()
         paths.append(str(p.with_suffix('.png')))

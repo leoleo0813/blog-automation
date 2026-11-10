@@ -25,6 +25,34 @@ TITLE_FONT, BODY_FONT = 'Black Han Sans', 'Do Hyeon'
 TRACKS = {'chart': ('주식공부', MINT), 'life': ('생활정보', YELLOW)}
 
 
+# ---------------------------------------------------------------- 테마(색 조합) 돌려쓰기
+# 2026-11-10 사용자 요청 "반복 디자인 방지": 그림을 그린 뒤 기본(남색) 색을 테마 색으로 한 번에 바꾼다.
+# 글마다 front matter `theme:`로 고르고, navy → forest → plum → charcoal 순서로 돌려 쓴다(RULES 「이미지」).
+_BASE = ['#1b2a4e', '#24366a', '#f4f6fb', '#ffc93c', '#ff6b6b', '#4dabf7', '#38d9a9', '#b197fc',
+         '#8fa0c8', '#a9b6d8', '#c9d3ee', '#6b7590', '#4a5470', '#cfd5e3', '#e7ebf5', '#e1e6f2', '#8a93a8', '#b3bacb']
+THEMES = {
+    'navy': _BASE,
+    'forest': ['#173a33', '#1f4a41', '#f3f7f2', '#ffd166', '#f08a5d', '#6cc4a1', '#b8e05c', '#f4a6c0',
+               '#93b5a8', '#a9c9bd', '#cfe3da', '#5f7068', '#3f5149', '#cfdcd5', '#e6eee9', '#e0e9e4', '#7f938a', '#adbdb5'],
+    'plum': ['#2d1e4a', '#3b2860', '#f7f4fb', '#ffcf5c', '#ff7a90', '#7aa7ff', '#4fd1c5', '#ffb3d9',
+             '#a99cc9', '#bdb2db', '#dcd3ef', '#6e6488', '#4c4266', '#d8d2e6', '#ece8f4', '#e6e1f0', '#958cab', '#bdb6cf'],
+    'charcoal': ['#24262b', '#30333a', '#f6f5f2', '#ffb84d', '#ff6f59', '#5aa9e6', '#7bd389', '#c9a7eb',
+                 '#a2a6b0', '#b8bcc5', '#d9dbe0', '#6b6e76', '#45484f', '#d6d7da', '#ebebed', '#e4e5e8', '#8e9198', '#b9bbc0'],
+}
+THEME = 'navy'
+
+
+def set_theme(name):
+    global THEME
+    THEME = name if name in THEMES else 'navy'
+
+
+def apply_theme(svg, name=None):
+    import re as _re
+    cmap = dict(zip(_BASE, THEMES.get(name or THEME, _BASE)))
+    return _re.sub(r'#[0-9a-fA-F]{6}\b', lambda m: cmap.get(m.group(0).lower(), m.group(0)), svg)
+
+
 def _shade(c, k=0.78):
     r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
     return '#%02x%02x%02x' % (int(r * k), int(g * k), int(b * k))
@@ -38,7 +66,7 @@ def _t(x, y, text, size, fill, font=BODY_FONT, anchor='start', extra=''):
 def _render(path, svg_lines):
     _install_fonts()
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text('\n'.join(svg_lines), encoding='utf-8')
+    path.write_text(apply_theme('\n'.join(svg_lines)), encoding='utf-8')
     subprocess.run([sys.executable, '-m', 'blog_automation.make_figure', str(path)], check=True, capture_output=True)
     return str(path.with_suffix('.png'))
 
@@ -244,6 +272,7 @@ def main():
     slug, title, track, note = sys.argv[1:5]
     text = sys.argv[5] if len(sys.argv) > 5 else ''
     art = sys.argv[6] if len(sys.argv) > 6 else ''
+    set_theme(sys.argv[7] if len(sys.argv) > 7 else 'navy')
     print(thumbnail(slug, title, track, note, text, art))
 
 
