@@ -3815,6 +3815,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/income-tax-interim-prepayment-2026.md"
+    },
+    {
+      "id": 192,
+      "order": 192,
+      "title": "ATR 뜻과 계산법, TR 구하는 3가지와 14일 ATR 직접 계산 (변동성 비교·한계)",
+      "slug": "atr-average-true-range",
+      "keyword": "ATR",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "730 (PC 270 / 모바일 460)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/atr-average-true-range.md"
     }
   ],
   "backlog": {
