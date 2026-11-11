@@ -3850,7 +3850,9 @@
       "gate1_pass": true,
       "gate_pass": true,
       "status": "drafted",
-      "draft_path": "stock_drafts/national-pension-receiving-age-2026.md"
+      "draft_path": "stock_drafts/national-pension-receiving-age-2026.md",
+      "naver_url": "https://blog.naver.com/boss_moneynote007/224473083926",
+      "naver_published_at": "2026-11-11"
     }
   ],
   "backlog": {
