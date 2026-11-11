@@ -3837,6 +3837,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/atr-average-true-range.md"
+    },
+    {
+      "id": 193,
+      "order": 193,
+      "title": "국민연금 수령나이 2026, 출생연도별 63~65세 표와 조기수령 30% 감액·연기 36% 증액 계산",
+      "slug": "national-pension-receiving-age-2026",
+      "keyword": "국민연금 수령나이",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "62870 (PC 9670 / 모바일 53200)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/national-pension-receiving-age-2026.md"
     }
   ],
   "backlog": {
