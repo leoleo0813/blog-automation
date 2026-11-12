@@ -9,7 +9,7 @@
     naver_html(title, blocks, out_html)           # 복사용 미리보기 HTML
 
 2026-11-12 사용자 결정: 네이버용 그림·캐러셀은 티스토리와 같은 파일을 쓰지 않는다(RULES 「네이버 병행」 1-1).
-그림은 다른 테마·정사각형(1080x1080, 파일명 <slug>-naver-N.png), 캐러셀은 문구를 바꾼 <slug>-naver-NN.png를
+그림·캐러셀은 blog_automation/naver_style.py(공책 형식, 캐릭터 없음, 정사각형)로 <slug>-naver-N.png·<slug>-naver-NN.png를
 저장소 밖(채팅 전달 폴더)에 만들고, 영상은 make_video(f'{slug}-naver', ..., card_dir=그 폴더)로 만든다.
 
 blocks: [('p', 글), ('h', 소제목), ('q', 인용구/핵심 한 줄), ('ul', [항목...]), ('table', [[머리...], [행...], ...]),
@@ -25,17 +25,17 @@ from blog_automation.pop_style import THEMES
 CAROUSEL = Path('assets/carousel')
 
 
-def make_video(slug, out_mp4, theme='navy', sec=3.5, fade=0.5, card_dir=CAROUSEL):
+def make_video(slug, out_mp4, theme='navy', sec=3.5, fade=0.5, card_dir=CAROUSEL, bg=None):
     """캐러셀 카드(1080x1350)를 9:16(1080x1920) 세로 영상으로. 카드마다 sec초, 사이는 fade초 겹쳐 넘김. 소리 없음.
     card_dir: 네이버 전용 카드(저장소 밖)를 쓸 때 그 폴더."""
     cards = sorted(Path(card_dir).glob(f'{slug}-[0-9][0-9].png'))
     if not cards:
         raise FileNotFoundError(f'캐러셀 카드 없음: {slug}')
-    bg = THEMES.get(theme, THEMES['navy'])[0].lstrip('#')
+    bg = (bg or THEMES.get(theme, THEMES['navy'])[0]).lstrip('#')
     inputs, filters = [], []
     for i, c in enumerate(cards):
         inputs += ['-loop', '1', '-t', str(sec), '-i', str(c)]
-        filters.append(f'[{i}:v]scale=1080:1350,pad=1080:1920:0:285:color=0x{bg},setsar=1,fps=30,format=yuv420p[v{i}]')
+        filters.append(f'[{i}:v]scale=1080:-2,pad=1080:1920:0:(oh-ih)/2:color=0x{bg},setsar=1,fps=30,format=yuv420p[v{i}]')
     last = 'v0'
     for i in range(1, len(cards)):
         off = i * (sec - fade)
