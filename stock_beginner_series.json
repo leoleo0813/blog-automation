@@ -3867,6 +3867,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/severance-pay-calculation-2026.md"
+    },
+    {
+      "id": 195,
+      "order": 195,
+      "title": "이격도 뜻과 계산법, 20일 이격도 105·95 의미와 5·20·60일 값이 다른 이유 (직접 계산·한계)",
+      "slug": "disparity-index-calculation",
+      "keyword": "이격도",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "510 (PC 170 / 모바일 340)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/disparity-index-calculation.md"
     }
   ],
   "backlog": {
