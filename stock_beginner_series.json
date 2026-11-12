@@ -3853,6 +3853,20 @@
       "draft_path": "stock_drafts/national-pension-receiving-age-2026.md",
       "naver_url": "https://blog.naver.com/boss_moneynote007/224473083926",
       "naver_published_at": "2026-11-11"
+    },
+    {
+      "id": 194,
+      "order": 194,
+      "title": "퇴직금 계산 2026, 월급 300만원 3년이면 880만원? 평균임금 공식과 상여금·연차수당 넣는 법",
+      "slug": "severance-pay-calculation-2026",
+      "keyword": "퇴직금 계산",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "25900",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/severance-pay-calculation-2026.md"
     }
   ],
   "backlog": {
