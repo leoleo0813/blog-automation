@@ -35,7 +35,7 @@ figure_plan: "1: 가정 가격 78일 종가+MACD·시그널·히스토그램(①
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-30</p>
 
-<p>MACD는 <mark>12일 지수이동평균(EMA)에서 26일 지수이동평균을 뺀 값</mark>이고, 이 MACD를 다시 9일 지수이동평균한 선을 <b>시그널선</b>이라고 불러요. 두 선이 교차하거나 MACD가 0을 넘는 순간을 보면 짧은 추세와 긴 추세가 언제 엇갈리는지 알 수 있어요.</p>
+<p>MACD는 <span style="background-color:#fff3a3;padding:0 2px;">12일 지수이동평균(EMA)에서 26일 지수이동평균을 뺀 값</span>이고, 이 MACD를 다시 9일 지수이동평균한 선을 <b>시그널선</b>이라고 불러요. 두 선이 교차하거나 MACD가 0을 넘는 순간을 보면 짧은 추세와 긴 추세가 언제 엇갈리는지 알 수 있어요.</p>
 
 <p>공식만 보면 막막하니, 가정 가격 78일치로 MACD를 처음부터 직접 계산하고, 같은 가격에서 이동평균선 골든크로스와 어느 쪽이 먼저 신호를 냈는지, 가짜 신호는 어디서 나왔는지까지 비교해 볼게요.</p>
 
@@ -63,7 +63,7 @@ figure_plan: "1: 가정 가격 78일 종가+MACD·시그널·히스토그램(①
 
 <p>MACD는 이동평균 두 개의 <b>거리</b>를 재는 지표예요. 짧은 평균(12일)이 긴 평균(26일)보다 위에 있으면 MACD는 플러스, 아래면 마이너스예요. 거리가 벌어지면(발산) 추세가 세지고, 좁혀지면(수렴) 약해진다고 읽어요. 이름 Moving Average Convergence Divergence가 바로 이 뜻이에요.</p>
 
-<p>여기서 쓰는 평균은 단순평균이 아니라 <mark>지수이동평균(EMA)</mark>이에요. 최근 가격에 가중치를 더 줘서 단순평균보다 빨리 움직여요.</p>
+<p>여기서 쓰는 평균은 단순평균이 아니라 <span style="background-color:#fff3a3;padding:0 2px;">지수이동평균(EMA)</span>이에요. 최근 가격에 가중치를 더 줘서 단순평균보다 빨리 움직여요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -99,8 +99,8 @@ figure_plan: "1: 가정 가격 78일 종가+MACD·시그널·히스토그램(①
     <tr><td style="border:1px solid #ddd;padding:8px;">종가</td><td style="border:1px solid #ddd;padding:8px;">—</td><td style="border:1px solid #ddd;padding:8px;">9,760원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">12일 EMA</td><td style="border:1px solid #ddd;padding:8px;">9,857.1 + 0.154 × (9,760 − 9,857.1)</td><td style="border:1px solid #ddd;padding:8px;">9,842.2</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">26일 EMA</td><td style="border:1px solid #ddd;padding:8px;">10,068.1 + 0.074 × (9,760 − 10,068.1)</td><td style="border:1px solid #ddd;padding:8px;">10,045.2</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>MACD</mark></td><td style="border:1px solid #ddd;padding:8px;">9,842.2 − 10,045.2</td><td style="border:1px solid #ddd;padding:8px;"><b>−203.1</b></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>시그널</mark></td><td style="border:1px solid #ddd;padding:8px;">−210.4 + 0.2 × (−203.1 − (−210.4))</td><td style="border:1px solid #ddd;padding:8px;"><b>−208.9</b></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">MACD</span></td><td style="border:1px solid #ddd;padding:8px;">9,842.2 − 10,045.2</td><td style="border:1px solid #ddd;padding:8px;"><b>−203.1</b></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">시그널</span></td><td style="border:1px solid #ddd;padding:8px;">−210.4 + 0.2 × (−203.1 − (−210.4))</td><td style="border:1px solid #ddd;padding:8px;"><b>−208.9</b></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">히스토그램</td><td style="border:1px solid #ddd;padding:8px;">−203.1 − (−208.9)</td><td style="border:1px solid #ddd;padding:8px;">+5.9</td></tr>
   </tbody>
 </table>
@@ -141,7 +141,7 @@ figure_plan: "1: 가정 가격 78일 종가+MACD·시그널·히스토그램(①
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/macd-calculation-signal-line-2.png" alt="같은 가격에서 MACD 시그널 교차, 이동평균선 골든크로스, MACD 0선 교차, 데드크로스가 나온 순서" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">오를 때도 꺾일 때도 MACD와 시그널의 교차가 가장 먼저 나왔어요.</figcaption></figure>
 
 <ul style="line-height:1.9;">
-  <li><b>오르기 시작할 때:</b> MACD·시그널 교차(39일째) → 5·20일 골든크로스(44일째) → MACD 0선 돌파(48일째) 순이었어요. 0선 돌파는 사실 <mark>12일·26일 EMA의 골든크로스</mark>와 같은 사건이라, 평균 기간이 긴 만큼 늦게 나와요.</li>
+  <li><b>오르기 시작할 때:</b> MACD·시그널 교차(39일째) → 5·20일 골든크로스(44일째) → MACD 0선 돌파(48일째) 순이었어요. 0선 돌파는 사실 <span style="background-color:#fff3a3;padding:0 2px;">12일·26일 EMA의 골든크로스</span>와 같은 사건이라, 평균 기간이 긴 만큼 늦게 나와요.</li>
   <li><b>꺾일 때:</b> MACD가 시그널 아래로 내려간 날(64일째)이 5·20일 데드크로스(71일째)보다 7거래일 빨랐어요.</li>
   <li>대신 39일째 신호가 나온 날의 종가 9,760원과 0선 돌파 날의 10,340원은 580원(약 6%) 차이예요. 빠른 신호는 일찍 알려 주는 대신, 아래 같은 가짜 신호도 같이 내요.</li>
 </ul>

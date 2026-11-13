@@ -139,7 +139,7 @@ self_check: |
   AI 티 점검(RULES.md 「★ AI 글쓰기 티 제거」) — 발행 본문(YAML 제외)에서
   "—" 0개 확인. "다만" 1회만 사용(출처 안내문에서 1번, 본문 전환어는
   "그런데"·"단,"·"반면"으로 분산해 반복 없음).
-  본문 `<mark>` 총 3개(3~5개 기준 충족). FAQ 5개(6개 고정 탈피). 핵심요약
+  본문 `<span style="background-color:#fff3a3;padding:0 2px;">` 총 3개(3~5개 기준 충족). FAQ 5개(6개 고정 탈피). 핵심요약
   박스 제목을 "🔍 비상장주식 세금, 이것부터"로, 색상은 시안 계열
   (#ecfeff/#0891b2)로 최근 게시물(오렌지·인디고·바이올렛·그린)과 겹치지
   않게 골랐다. 목차 제외 본문 H2 6개 중 서술형 4개("비상장주식 양도소득세율",
@@ -168,7 +168,7 @@ user_todo:
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-09-20</p>
 
-<p>비상장주식은 상장주식과 달리 소액주주라도 <mark>원칙적으로 전부 양도소득세를 내야</mark> 합니다. 세율은 중소기업 여부와 대주주 여부에 따라 10%에서 27.5%까지 벌어지므로, 팔기 전에 어느 구간에 속하는지부터 확인해야 합니다.</p>
+<p>비상장주식은 상장주식과 달리 소액주주라도 <span style="background-color:#fff3a3;padding:0 2px;">원칙적으로 전부 양도소득세를 내야</span> 합니다. 세율은 중소기업 여부와 대주주 여부에 따라 10%에서 27.5%까지 벌어지므로, 팔기 전에 어느 구간에 속하는지부터 확인해야 합니다.</p>
 
 <div style="background:#ecfeff;border:2px solid #0891b2;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#0e7490;font-size:18px;">🔍 비상장주식 세금, 이것부터</strong>
@@ -229,7 +229,7 @@ user_todo:
     </tr>
     <tr>
       <td style="border:1px solid #ddd;padding:8px;">대주주, 과세표준 3억 원 초과분</td>
-      <td style="border:1px solid #ddd;padding:8px;"><mark>25%</mark></td>
+      <td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">25%</span></td>
       <td style="border:1px solid #ddd;padding:8px;">27.5%</td>
     </tr>
   </tbody>
@@ -292,7 +292,7 @@ user_todo:
   <li>양도차익: 8,000만 원 − 5,000만 원 = 3,000만 원</li>
   <li>기본공제: 250만 원(연 1회, 다른 주식 양도가 없었다고 가정)</li>
   <li>과세표준: 3,000만 원 − 250만 원 = 2,750만 원</li>
-  <li>산출세액: 2,750만 원 × 10% = <mark>275,000원</mark></li>
+  <li>산출세액: 2,750만 원 × 10% = <span style="background-color:#fff3a3;padding:0 2px;">275,000원</span></li>
   <li>지방소득세(산출세액의 10%): 27,500원</li>
   <li>총 납부세액: 302,500원</li>
 </ul>

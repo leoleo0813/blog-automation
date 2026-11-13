@@ -39,7 +39,7 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-09</p>
 
-<p>휴면예금과 숨은 보험금은 <mark>어카운트인포, 휴면예금 찾아줌, 내보험찾아줌 세 곳</mark>에서 조회하고, 건강보험료 환급금은 <mark>The건강보험 앱</mark>에서 따로 봐야 해요. 네 곳을 차례로 돌면 5분 안팎이면 끝나요.</p>
+<p>휴면예금과 숨은 보험금은 <span style="background-color:#fff3a3;padding:0 2px;">어카운트인포, 휴면예금 찾아줌, 내보험찾아줌 세 곳</span>에서 조회하고, 건강보험료 환급금은 <span style="background-color:#fff3a3;padding:0 2px;">The건강보험 앱</span>에서 따로 봐야 해요. 네 곳을 차례로 돌면 5분 안팎이면 끝나요.</p>
 
 <p>이렇게 주인이 찾아가지 않은 금융자산이 작년 말 기준 14조원이 넘어요. 그중 보험금과 건보 환급금은 3년이 지나면 권리가 사라질 수 있어서, 기한부터 알고 찾는 게 좋아요. 순서대로 정리할게요.</p>
 
@@ -67,7 +67,7 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">휴면예금이란 무엇이고, 얼마나 쌓여 있나요?</h2>
 
-<p>휴면예금은 <mark>오랫동안 거래가 없어 주인이 찾아가지 않은 예금·보험금</mark>을 말해요. 일정 기간이 지나면 서민금융진흥원으로 넘어가는데, 넘어간 뒤에도 원래 주인은 찾아갈 수 있어요.</p>
+<p>휴면예금은 <span style="background-color:#fff3a3;padding:0 2px;">오랫동안 거래가 없어 주인이 찾아가지 않은 예금·보험금</span>을 말해요. 일정 기간이 지나면 서민금융진흥원으로 넘어가는데, 넘어간 뒤에도 원래 주인은 찾아갈 수 있어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dormant-deposit-hidden-money-2026-1.png" alt="숨은 금융자산 14조1,857억원 구성: 예·적금 7조4,342억원, 보험금 5조1,895억원, 그 밖 1조5,620억원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">'그 밖'은 전체에서 예·적금과 보험금을 뺀 계산값이에요.</figcaption></figure>
 
@@ -76,10 +76,10 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">구분</th><th style="border:1px solid #ddd;padding:8px;">금액</th><th style="border:1px solid #ddd;padding:8px;">출처</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">숨은 금융자산 전체(작년 말)</td><td style="border:1px solid #ddd;padding:8px;"><mark>14조1,857억원</mark> (3억4,191만 계좌)</td><td style="border:1px solid #ddd;padding:8px;">금감원 자료</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">숨은 금융자산 전체(작년 말)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">14조1,857억원</span> (3억4,191만 계좌)</td><td style="border:1px solid #ddd;padding:8px;">금감원 자료</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">그중 예·적금</td><td style="border:1px solid #ddd;padding:8px;">7조4,342억원</td><td style="border:1px solid #ddd;padding:8px;">금감원 자료</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">그중 보험금</td><td style="border:1px solid #ddd;padding:8px;">5조1,895억원</td><td style="border:1px solid #ddd;padding:8px;">금감원 자료</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">서금원이 올해 상반기 돌려준 돈</td><td style="border:1px solid #ddd;padding:8px;"><mark>2,058억원</mark> (41만4천 건, 상반기 역대 최대)</td><td style="border:1px solid #ddd;padding:8px;">서민금융진흥원 발표</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">서금원이 올해 상반기 돌려준 돈</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2,058억원</span> (41만4천 건, 상반기 역대 최대)</td><td style="border:1px solid #ddd;padding:8px;">서민금융진흥원 발표</td></tr>
   </tbody>
 </table>
 
@@ -107,7 +107,7 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">건강보험료 환급금은 어떻게 조회하나요?</h2>
 
-<p>건강보험료 환급금은 금융 서비스에서 안 나와요. <mark>The건강보험 앱이나 국민건강보험공단 누리집</mark>의 환급금 조회 메뉴에서 따로 확인해야 해요.</p>
+<p>건강보험료 환급금은 금융 서비스에서 안 나와요. <span style="background-color:#fff3a3;padding:0 2px;">The건강보험 앱이나 국민건강보험공단 누리집</span>의 환급금 조회 메뉴에서 따로 확인해야 해요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>자주 생기는 경우:</b> 보험료를 두 번 낸 경우(퇴직·이직 무렵), 피부양자로 바뀐 뒤에도 지역보험료가 나간 경우, 1년 병원비 본인부담금이 상한액을 넘은 경우(본인부담상한제 초과금)</li>
@@ -118,7 +118,7 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">언제까지 찾아야 하나요: 돈 종류별 기한</h2>
 
-<p>건강보험료 환급금과 보험금은 <mark>보통 3년</mark>이 지나면 권리가 사라질 수 있어요. 반면 서민금융진흥원으로 넘어간 휴면예금은 넘어간 뒤에도 원래 주인이 청구할 수 있다고 안내돼요.</p>
+<p>건강보험료 환급금과 보험금은 <span style="background-color:#fff3a3;padding:0 2px;">보통 3년</span>이 지나면 권리가 사라질 수 있어요. 반면 서민금융진흥원으로 넘어간 휴면예금은 넘어간 뒤에도 원래 주인이 청구할 수 있다고 안내돼요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/dormant-deposit-hidden-money-2026-3.png" alt="돈 종류별 기한: 건강보험료 환급금 3년, 보험금 청구 보통 3년, 휴면예금은 서민금융진흥원 이관 뒤에도 청구 가능" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">기한이 짧은 것부터 먼저 확인하세요.</figcaption></figure>
 
@@ -127,8 +127,8 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">돈 종류</th><th style="border:1px solid #ddd;padding:8px;">기한</th><th style="border:1px solid #ddd;padding:8px;">근거·설명</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">건강보험료 환급금</td><td style="border:1px solid #ddd;padding:8px;"><mark>3년</mark></td><td style="border:1px solid #ddd;padding:8px;">국민건강보험법 제91조. 권리를 행사할 수 있는 때부터 3년</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">보험금</td><td style="border:1px solid #ddd;padding:8px;"><mark>보통 3년</mark></td><td style="border:1px solid #ddd;padding:8px;">보험금 청구권 소멸시효. 지나면 휴면보험금으로 넘어가요</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">건강보험료 환급금</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">3년</span></td><td style="border:1px solid #ddd;padding:8px;">국민건강보험법 제91조. 권리를 행사할 수 있는 때부터 3년</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">보험금</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">보통 3년</span></td><td style="border:1px solid #ddd;padding:8px;">보험금 청구권 소멸시효. 지나면 휴면보험금으로 넘어가요</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">휴면예금·휴면보험금</td><td style="border:1px solid #ddd;padding:8px;">이관 뒤에도 청구 가능</td><td style="border:1px solid #ddd;padding:8px;">서민금융진흥원 '휴면예금 찾아줌'에서 원래 주인이 지급 신청</td></tr>
   </tbody>
 </table>
@@ -137,7 +137,7 @@ figure_plan: "3장(팝): 1 숨은 금융자산 구성 막대 / 2 4곳 조회 순
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">휴면예금 찾기 사기 문자 구별법</h2>
 
-<p>공식 기관은 <mark>수수료를 요구하거나, 문자 링크로 계좌 비밀번호·인증번호를 묻지 않아요.</mark> 이런 연락은 사기로 보면 돼요.</p>
+<p>공식 기관은 <span style="background-color:#fff3a3;padding:0 2px;">수수료를 요구하거나, 문자 링크로 계좌 비밀번호·인증번호를 묻지 않아요.</span> 이런 연락은 사기로 보면 돼요.</p>
 
 <ul style="line-height:1.9;">
   <li>"숨은 돈을 찾아 드릴 테니 수수료를 먼저 내라" → 사기. 위 서비스는 모두 무료예요.</li>

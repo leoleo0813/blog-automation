@@ -57,6 +57,11 @@ def lint(path, series):
         if w in text:
             fails.append(f"작업용 표현 노출: '{w}'")
 
+    # <mark>는 티스토리 편집기에 붙이면 형광펜 부분이 따로 떨어져 한 줄이 된다(2026-11-13 사용자 캡처).
+    # 강조는 <span style="background-color:#fff3a3;padding:0 2px;">로 쓴다.
+    if '<mark' in body:
+        fails.append("<mark> 사용(티스토리에서 줄이 끊김) — <span style=\"background-color:#fff3a3;padding:0 2px;\">로 바꿀 것")
+
     # 글 번호("4편", "61편과")는 독자에게 보이지 않는 내부 번호다(2026-10-03 발행 글 18편에서 발견).
     nums = re.findall(r'\b\d{1,3}편', text)
     if nums:

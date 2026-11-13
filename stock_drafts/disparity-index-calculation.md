@@ -38,7 +38,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-12</p>
 
-<p>이격도는 <mark>주가가 이동평균선에서 얼마나 떨어져 있는지를 %로 나타낸 지표</mark>예요. 공식은 <mark>주가 ÷ 이동평균 × 100</mark> 한 줄이고, 100이면 주가가 이동평균선과 같은 자리, 105면 5% 위, 95면 5% 아래예요.</p>
+<p>이격도는 <span style="background-color:#fff3a3;padding:0 2px;">주가가 이동평균선에서 얼마나 떨어져 있는지를 %로 나타낸 지표</span>예요. 공식은 <span style="background-color:#fff3a3;padding:0 2px;">주가 ÷ 이동평균 × 100</span> 한 줄이고, 100이면 주가가 이동평균선과 같은 자리, 105면 5% 위, 95면 5% 아래예요.</p>
 
 <p>숫자는 간단하지만 "105면 많이 오른 거니까 곧 내려간다"처럼 오해하기 쉬운 지표이기도 해요. 가정 차트로 20일 이격도를 직접 계산하고, 같은 날인데 기간마다 값이 왜 다른지, 어디서 틀리는지까지 볼게요.</p>
 
@@ -80,7 +80,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">이격도는 무엇인가요?</h2>
 
-<p>이격도는 <mark>오늘 주가를 이동평균으로 나눠 100을 곱한 값</mark>이에요. 이동평균이 '최근 평균 가격'이니, 이격도는 지금 가격이 평균에서 몇 % 벌어져 있는지를 알려 줘요.</p>
+<p>이격도는 <span style="background-color:#fff3a3;padding:0 2px;">오늘 주가를 이동평균으로 나눠 100을 곱한 값</span>이에요. 이동평균이 '최근 평균 가격'이니, 이격도는 지금 가격이 평균에서 몇 % 벌어져 있는지를 알려 줘요.</p>
 
 <p>이동평균선을 차트에 그려 놓으면 주가가 선 위에 있는지 아래에 있는지는 눈으로 보이지만, <b>얼마나</b> 떨어졌는지는 종목마다 가격이 달라 비교가 어려워요. 1만원짜리 주식이 500원 위에 있는 것과 10만원짜리 주식이 500원 위에 있는 건 전혀 다르죠. 이격도는 이걸 %로 바꿔서 같은 눈금으로 보게 해 줘요.</p>
 
@@ -101,7 +101,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">20일 이격도는 어떻게 계산하나요?</h2>
 
-<p>20일 이격도는 <mark>최근 20일 종가 평균을 구한 뒤, 오늘 종가를 그 평균으로 나누고 100을 곱하면</mark> 돼요. 아래 가정 차트(실제 종목 아님)의 60일째로 직접 해 볼게요.</p>
+<p>20일 이격도는 <span style="background-color:#fff3a3;padding:0 2px;">최근 20일 종가 평균을 구한 뒤, 오늘 종가를 그 평균으로 나누고 100을 곱하면</span> 돼요. 아래 가정 차트(실제 종목 아님)의 60일째로 직접 해 볼게요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/disparity-index-calculation-1.png" alt="가정 차트 100일: 40일까지 약 10,000원 옆걸음, 70일 11,800원까지 상승, 84일 10,235원까지 급락 뒤 옆걸음" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산을 보여 주기 위한 가정 종가예요. 실제 종목이 아니에요.</figcaption></figure>
 
@@ -110,7 +110,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
   ① 41~60일 종가 20개 더하기: <b>212,600원</b><br>
   ② 20으로 나누기: 212,600 ÷ 20 = <b>20일선 10,630원</b><br>
   ③ 오늘 종가 ÷ 20일선: 11,160 ÷ 10,630 = <b>1.0499</b><br>
-  ④ × 100 = <mark><b>이격도 105.0</b></mark> → 20일선보다 약 5% 위
+  ④ × 100 = <span style="background-color:#fff3a3;padding:0 2px;"><b>이격도 105.0</b></span> → 20일선보다 약 5% 위
 </div>
 
 <p>다음 날에는 41일 종가를 빼고 61일 종가를 넣어 20일선을 새로 구한 뒤 같은 계산을 해요. 그래서 이격도는 주가가 그대로여도 20일선이 움직이면 바뀌어요. 주가가 같은 자리에 멈춰 있어도 평균이 따라 올라오면 이격도는 100 쪽으로 내려와요.</p>
@@ -119,7 +119,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">이격도 105와 95는 무슨 뜻인가요?</h2>
 
-<p>이격도 105는 <mark>주가가 이동평균보다 5% 위</mark>, 95는 <mark>5% 아래</mark>라는 '거리'예요. 많은 자료에서 20일 이격도 105 이상을 평균보다 많이 올라온 상태, 95 이하를 많이 내려간 상태로 소개하지만, 기준 숫자는 자료마다 달라요.</p>
+<p>이격도 105는 <span style="background-color:#fff3a3;padding:0 2px;">주가가 이동평균보다 5% 위</span>, 95는 <span style="background-color:#fff3a3;padding:0 2px;">5% 아래</span>라는 '거리'예요. 많은 자료에서 20일 이격도 105 이상을 평균보다 많이 올라온 상태, 95 이하를 많이 내려간 상태로 소개하지만, 기준 숫자는 자료마다 달라요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -138,7 +138,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">5일·20일·60일 이격도는 왜 다르게 나오나요?</h2>
 
-<p>이격도는 <mark>나누는 이동평균의 기간이 다르면 같은 날에도 값이 달라져요.</mark> 기간이 길수록 평균이 주가를 늦게 따라와서, 오르는 중에는 이격도가 더 크게 나와요.</p>
+<p>이격도는 <span style="background-color:#fff3a3;padding:0 2px;">나누는 이동평균의 기간이 다르면 같은 날에도 값이 달라져요.</span> 기간이 길수록 평균이 주가를 늦게 따라와서, 오르는 중에는 이격도가 더 크게 나와요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/disparity-index-calculation-3.png" alt="가정 차트 65일째 종가 11,540원 기준 5일 이격도 101.3, 20일 이격도 105.6, 60일 이격도 111.7" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">같은 날, 같은 종가인데 기간만 바꿨어요.</figcaption></figure>
 
@@ -148,7 +148,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">5일</td><td style="border:1px solid #ddd;padding:8px;">11,388원</td><td style="border:1px solid #ddd;padding:8px;">101.3</td><td style="border:1px solid #ddd;padding:8px;">며칠 사이 움직임</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">20일</td><td style="border:1px solid #ddd;padding:8px;">10,932원</td><td style="border:1px solid #ddd;padding:8px;"><mark>105.6</mark></td><td style="border:1px solid #ddd;padding:8px;">한 달 흐름</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">20일</td><td style="border:1px solid #ddd;padding:8px;">10,932원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">105.6</span></td><td style="border:1px solid #ddd;padding:8px;">한 달 흐름</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">60일</td><td style="border:1px solid #ddd;padding:8px;">10,331원</td><td style="border:1px solid #ddd;padding:8px;">111.7</td><td style="border:1px solid #ddd;padding:8px;">석 달 흐름</td></tr>
   </tbody>
 </table>
@@ -157,7 +157,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">이격도가 105를 넘으면 바로 내려가나요?</h2>
 
-<p>아니에요. <mark>강하게 오르는 동안에는 이격도가 105 근처에 오래 머물 수 있어요.</mark> 가정 차트에서 이격도는 53일째(종가 10,820원)에 처음 105를 넘었는데, 주가는 70일째 11,800원까지 <b>980원(약 9%) 더 올랐어요.</b></p>
+<p>아니에요. <span style="background-color:#fff3a3;padding:0 2px;">강하게 오르는 동안에는 이격도가 105 근처에 오래 머물 수 있어요.</span> 가정 차트에서 이격도는 53일째(종가 10,820원)에 처음 105를 넘었는데, 주가는 70일째 11,800원까지 <b>980원(약 9%) 더 올랐어요.</b></p>
 
 <p>이유는 계산식에 있어요. 주가가 매일 비슷한 속도로 오르면 20일선도 같은 속도로 따라오기 때문에, 둘 사이 거리가 거의 일정해져요. 그래서 이격도는 계속 105 언저리에 있고, 언제 꺾일지는 알려 주지 않아요.</p>
 
@@ -169,7 +169,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
     <tr><td style="border:1px solid #ddd;padding:8px;">53일째</td><td style="border:1px solid #ddd;padding:8px;">10,820원</td><td style="border:1px solid #ddd;padding:8px;">105.3 (처음 105 이상)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">53~70일</td><td style="border:1px solid #ddd;padding:8px;">10,820 → 11,800원</td><td style="border:1px solid #ddd;padding:8px;">104.7~105.8 사이를 오르내림</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">70일째(최고)</td><td style="border:1px solid #ddd;padding:8px;">11,800원</td><td style="border:1px solid #ddd;padding:8px;">105.1</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">84일째</td><td style="border:1px solid #ddd;padding:8px;">10,235원</td><td style="border:1px solid #ddd;padding:8px;"><mark>91.6 (가장 낮음)</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">84일째</td><td style="border:1px solid #ddd;padding:8px;">10,235원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">91.6 (가장 낮음)</span></td></tr>
   </tbody>
 </table>
 
@@ -177,7 +177,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">HTS에서 이격도 켜는 법 따라 하기</h2>
 
-<p>이격도는 <mark>대부분의 HTS·MTS에 기본 보조지표로 들어 있어요.</mark> 증권사마다 메뉴 이름이 조금 다르니 비슷한 이름을 찾으면 돼요.</p>
+<p>이격도는 <span style="background-color:#fff3a3;padding:0 2px;">대부분의 HTS·MTS에 기본 보조지표로 들어 있어요.</span> 증권사마다 메뉴 이름이 조금 다르니 비슷한 이름을 찾으면 돼요.</p>
 
 <ol style="line-height:2;">
   <li>차트 화면을 열고 <b>[보조지표]</b> 또는 <b>[지표 추가]</b>를 눌러요.</li>
@@ -189,7 +189,7 @@ figure_plan: "3장(팝·forest): 1 가정 주가 100일 / 2 같은 기간 20일 
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #173a33;padding-left:12px;margin-top:36px;">자주 하는 오해 5가지</h2>
 
-<p>이격도에서 생기는 오해는 대부분 <mark>거리를 신호로 착각해서</mark> 생겨요.</p>
+<p>이격도에서 생기는 오해는 대부분 <span style="background-color:#fff3a3;padding:0 2px;">거리를 신호로 착각해서</span> 생겨요.</p>
 
 <div style="background:#fff4f1;border:2px solid #ff6f59;border-radius:10px;padding:14px 18px;margin:20px 0;">
   <strong style="font-size:16px;">⚠️ 이것만 피하세요</strong>

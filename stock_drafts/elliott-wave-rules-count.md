@@ -35,7 +35,7 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 파동 카운트 / 2 3가지
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-09</p>
 
-<p>엘리어트 파동은 <mark>주가가 오르는 다섯 번의 움직임(1~5파)과 되돌리는 세 번의 움직임(A·B·C)이 반복된다</mark>고 보는 이론이에요. 어떻게 셀지는 사람마다 달라도, <mark>절대 깨지면 안 되는 규칙 3가지</mark>가 있어서 그걸로 틀린 카운트를 걸러낼 수 있어요.</p>
+<p>엘리어트 파동은 <span style="background-color:#fff3a3;padding:0 2px;">주가가 오르는 다섯 번의 움직임(1~5파)과 되돌리는 세 번의 움직임(A·B·C)이 반복된다</span>고 보는 이론이에요. 어떻게 셀지는 사람마다 달라도, <span style="background-color:#fff3a3;padding:0 2px;">절대 깨지면 안 되는 규칙 3가지</span>가 있어서 그걸로 틀린 카운트를 걸러낼 수 있어요.</p>
 
 <p>이론 소개보다 실제로 쓸 수 있는 부분에 집중할게요. 가정 차트로 1~5파를 직접 세 보고, 규칙 3가지로 그 카운트가 맞는지 숫자로 검사하는 방법을 볼게요.</p>
 
@@ -89,9 +89,9 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 파동 카운트 / 2 3가지
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">규칙</th><th style="border:1px solid #ddd;padding:8px;">검사하는 식(상승 기준)</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1. 2파 바닥</td><td style="border:1px solid #ddd;padding:8px;"><mark>2파 저점 &gt; 1파 출발점</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">2. 3파 길이</td><td style="border:1px solid #ddd;padding:8px;"><mark>3파 길이 ≠ 1·3·5파 중 최솟값</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">3. 4파 바닥</td><td style="border:1px solid #ddd;padding:8px;"><mark>4파 저점 &gt; 1파 고점</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1. 2파 바닥</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2파 저점 &gt; 1파 출발점</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2. 3파 길이</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">3파 길이 ≠ 1·3·5파 중 최솟값</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">3. 4파 바닥</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">4파 저점 &gt; 1파 고점</span></td></tr>
   </tbody>
 </table>
 
@@ -108,9 +108,9 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 파동 카운트 / 2 3가지
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">검사</th><th style="border:1px solid #ddd;padding:8px;">숫자</th><th style="border:1px solid #ddd;padding:8px;">결과</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">규칙 1</td><td style="border:1px solid #ddd;padding:8px;">2파 저점 10,500 &gt; 출발점 10,000</td><td style="border:1px solid #ddd;padding:8px;"><mark>통과</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">규칙 2</td><td style="border:1px solid #ddd;padding:8px;">1파 1,200 · 3파 2,400 · 5파 900 → 3파가 가장 김</td><td style="border:1px solid #ddd;padding:8px;"><mark>통과</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">규칙 3</td><td style="border:1px solid #ddd;padding:8px;">4파 저점 12,100 &gt; 1파 고점 11,200</td><td style="border:1px solid #ddd;padding:8px;"><mark>통과</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">규칙 1</td><td style="border:1px solid #ddd;padding:8px;">2파 저점 10,500 &gt; 출발점 10,000</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">통과</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">규칙 2</td><td style="border:1px solid #ddd;padding:8px;">1파 1,200 · 3파 2,400 · 5파 900 → 3파가 가장 김</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">통과</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">규칙 3</td><td style="border:1px solid #ddd;padding:8px;">4파 저점 12,100 &gt; 1파 고점 11,200</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">통과</span></td></tr>
   </tbody>
 </table>
 
@@ -127,9 +127,9 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 파동 카운트 / 2 3가지
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">만약 이랬다면</th><th style="border:1px solid #ddd;padding:8px;">어긴 규칙</th><th style="border:1px solid #ddd;padding:8px;">판정</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">4파가 <b>11,100원</b>까지 내려옴</td><td style="border:1px solid #ddd;padding:8px;">규칙 3 (1파 고점 11,200원 아래로 겹침)</td><td style="border:1px solid #ddd;padding:8px;"><mark>틀린 카운트</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">2파가 <b>9,900원</b>까지 내려옴</td><td style="border:1px solid #ddd;padding:8px;">규칙 1 (출발점 10,000원 아래)</td><td style="border:1px solid #ddd;padding:8px;"><mark>틀린 카운트</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">3파가 <b>800원</b>만 오름(1파 1,200·5파 900)</td><td style="border:1px solid #ddd;padding:8px;">규칙 2 (3파가 가장 짧음)</td><td style="border:1px solid #ddd;padding:8px;"><mark>틀린 카운트</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">4파가 <b>11,100원</b>까지 내려옴</td><td style="border:1px solid #ddd;padding:8px;">규칙 3 (1파 고점 11,200원 아래로 겹침)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">틀린 카운트</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2파가 <b>9,900원</b>까지 내려옴</td><td style="border:1px solid #ddd;padding:8px;">규칙 1 (출발점 10,000원 아래)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">틀린 카운트</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">3파가 <b>800원</b>만 오름(1파 1,200·5파 900)</td><td style="border:1px solid #ddd;padding:8px;">규칙 2 (3파가 가장 짧음)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">틀린 카운트</span></td></tr>
   </tbody>
 </table>
 
@@ -154,7 +154,7 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 파동 카운트 / 2 3가지
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">한계: 같은 차트, 다른 카운트</h2>
 
-<p>엘리어트 파동의 가장 큰 약점은 <mark>같은 차트를 두고도 사람마다 다르게 셀 수 있다</mark>는 점이에요. 세 규칙은 틀린 카운트를 걸러 줄 뿐, 맞는 카운트를 하나로 정해 주지는 않아요.</p>
+<p>엘리어트 파동의 가장 큰 약점은 <span style="background-color:#fff3a3;padding:0 2px;">같은 차트를 두고도 사람마다 다르게 셀 수 있다</span>는 점이에요. 세 규칙은 틀린 카운트를 걸러 줄 뿐, 맞는 카운트를 하나로 정해 주지는 않아요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>지금 몇 파인지는 나중에야 확실해져요.</b> 3파라고 생각했는데 더 큰 그림에서는 1파의 일부였던 경우가 흔해요.</li>

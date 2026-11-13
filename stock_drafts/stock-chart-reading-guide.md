@@ -35,7 +35,7 @@ figure_plan: "3장: 1 캔들 구조(손그림) / 2 질문별 지표 지도(손�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-02</p>
 
-<p>주식 차트는 <mark>캔들(양봉·음봉)로 하루 가격을 보고, 이동평균선으로 방향을, 보조지표로 속도와 과열을 보는 순서</mark>로 읽으면 돼요. 캔들 하나에는 시가·고가·저가·종가 네 숫자가 들어 있고, 한국 차트는 오른 날을 빨간 양봉, 내린 날을 파란 음봉으로 그려요.</p>
+<p>주식 차트는 <span style="background-color:#fff3a3;padding:0 2px;">캔들(양봉·음봉)로 하루 가격을 보고, 이동평균선으로 방향을, 보조지표로 속도와 과열을 보는 순서</span>로 읽으면 돼요. 캔들 하나에는 시가·고가·저가·종가 네 숫자가 들어 있고, 한국 차트는 오른 날을 빨간 양봉, 내린 날을 파란 음봉으로 그려요.</p>
 
 <p>보조지표는 수십 가지지만 대답하는 질문은 세 가지뿐이에요. "방향이 어디냐", "바뀌는 중이냐", "너무 갔냐". 같은 가정 가격 하나로 지표들을 계산해서, 각 지표가 같은 장면을 어떻게 다르게 말하는지까지 볼게요.</p>
 
@@ -74,8 +74,8 @@ figure_plan: "3장: 1 캔들 구조(손그림) / 2 질문별 지표 지도(손�
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>양봉</mark></td><td style="border:1px solid #ddd;padding:8px;">종가 &gt; 시가</td><td style="border:1px solid #ddd;padding:8px;">빨강</td><td style="border:1px solid #ddd;padding:8px;">초록</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>음봉</mark></td><td style="border:1px solid #ddd;padding:8px;">종가 &lt; 시가</td><td style="border:1px solid #ddd;padding:8px;">파랑</td><td style="border:1px solid #ddd;padding:8px;">빨강</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">양봉</span></td><td style="border:1px solid #ddd;padding:8px;">종가 &gt; 시가</td><td style="border:1px solid #ddd;padding:8px;">빨강</td><td style="border:1px solid #ddd;padding:8px;">초록</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">음봉</span></td><td style="border:1px solid #ddd;padding:8px;">종가 &lt; 시가</td><td style="border:1px solid #ddd;padding:8px;">파랑</td><td style="border:1px solid #ddd;padding:8px;">빨강</td></tr>
   </tbody>
 </table>
 
@@ -145,8 +145,8 @@ figure_plan: "3장: 1 캔들 구조(손그림) / 2 질문별 지표 지도(손�
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">A 15~80일째</td><td style="border:1px solid #ddd;padding:8px;">RSI 30 아래 66일 연속(과매도)</td><td style="border:1px solid #ddd;padding:8px;">11,260원 → 9,860원, <mark>1,400원 더 내림</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">B 91~112일째</td><td style="border:1px solid #ddd;padding:8px;">RSI 70 위 22일 연속(과매수)</td><td style="border:1px solid #ddd;padding:8px;">10,560원 → 최고 11,640원, <mark>1,080원 더 오름</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">A 15~80일째</td><td style="border:1px solid #ddd;padding:8px;">RSI 30 아래 66일 연속(과매도)</td><td style="border:1px solid #ddd;padding:8px;">11,260원 → 9,860원, <span style="background-color:#fff3a3;padding:0 2px;">1,400원 더 내림</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">B 91~112일째</td><td style="border:1px solid #ddd;padding:8px;">RSI 70 위 22일 연속(과매수)</td><td style="border:1px solid #ddd;padding:8px;">10,560원 → 최고 11,640원, <span style="background-color:#fff3a3;padding:0 2px;">1,080원 더 오름</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">C 87일째</td><td style="border:1px solid #ddd;padding:8px;">종가가 볼린저밴드 상단 위로</td><td style="border:1px solid #ddd;padding:8px;">오름이 막 시작된 자리였어요</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">D 143일째</td><td style="border:1px solid #ddd;padding:8px;">밴드 폭이 145일 중 가장 좁음</td><td style="border:1px solid #ddd;padding:8px;">가격이 좁게 오가는 구간</td></tr>
   </tbody>

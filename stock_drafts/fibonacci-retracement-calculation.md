@@ -36,7 +36,7 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-04</p>
 
-<p>피보나치 되돌림은 <mark>주가가 한 방향으로 크게 움직인 뒤, 그 움직임의 몇 %를 되돌렸는지</mark>를 23.6%·38.2%·50%·61.8%·78.6% 선으로 표시하는 방법이에요. 상승 뒤라면 가격은 <mark>고점 − 비율 × (고점 − 저점)</mark>으로 구해요.</p>
+<p>피보나치 되돌림은 <span style="background-color:#fff3a3;padding:0 2px;">주가가 한 방향으로 크게 움직인 뒤, 그 움직임의 몇 %를 되돌렸는지</span>를 23.6%·38.2%·50%·61.8%·78.6% 선으로 표시하는 방법이에요. 상승 뒤라면 가격은 <span style="background-color:#fff3a3;padding:0 2px;">고점 − 비율 × (고점 − 저점)</span>으로 구해요.</p>
 
 <p>HTS에서 선을 그어 주긴 하지만, 식을 알면 어떤 고점·저점을 잡았는지에 따라 선이 얼마나 달라지는지 바로 보여요. 계산법, 비율이 나온 곳, 그리고 이 선을 믿기 어려운 이유까지 숫자로 볼게요.</p>
 
@@ -70,9 +70,9 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">23.6%</td><td style="border:1px solid #ddd;padding:8px;">오른 폭의 4분의 1 정도만 내줌</td><td style="border:1px solid #ddd;padding:8px;">73,392원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">38.2%</td><td style="border:1px solid #ddd;padding:8px;">얕은 되돌림</td><td style="border:1px solid #ddd;padding:8px;"><mark>69,304원</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">50%</td><td style="border:1px solid #ddd;padding:8px;">오른 폭의 절반</td><td style="border:1px solid #ddd;padding:8px;"><mark>66,000원</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">61.8%</td><td style="border:1px solid #ddd;padding:8px;">깊은 되돌림</td><td style="border:1px solid #ddd;padding:8px;"><mark>62,696원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">38.2%</td><td style="border:1px solid #ddd;padding:8px;">얕은 되돌림</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">69,304원</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">50%</td><td style="border:1px solid #ddd;padding:8px;">오른 폭의 절반</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">66,000원</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">61.8%</td><td style="border:1px solid #ddd;padding:8px;">깊은 되돌림</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">62,696원</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">78.6%</td><td style="border:1px solid #ddd;padding:8px;">오른 폭 대부분을 내줌</td><td style="border:1px solid #ddd;padding:8px;">57,992원</td></tr>
   </tbody>
 </table>
@@ -120,9 +120,9 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">되돌림</th><th style="border:1px solid #ddd;padding:8px;">52,000→80,000원 가격</th><th style="border:1px solid #ddd;padding:8px;">고점 대비 하락률</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">38.2%</td><td style="border:1px solid #ddd;padding:8px;">69,304원</td><td style="border:1px solid #ddd;padding:8px;"><mark>−13.4%</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">50%</td><td style="border:1px solid #ddd;padding:8px;">66,000원</td><td style="border:1px solid #ddd;padding:8px;"><mark>−17.5%</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">61.8%</td><td style="border:1px solid #ddd;padding:8px;">62,696원</td><td style="border:1px solid #ddd;padding:8px;"><mark>−21.6%</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">38.2%</td><td style="border:1px solid #ddd;padding:8px;">69,304원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−13.4%</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">50%</td><td style="border:1px solid #ddd;padding:8px;">66,000원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−17.5%</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">61.8%</td><td style="border:1px solid #ddd;padding:8px;">62,696원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−21.6%</span></td></tr>
   </tbody>
 </table>
 
@@ -146,7 +146,7 @@ figure_plan: "3장(팝): 1 가정 가격 차트 위 피보나치 선 / 2 계산 
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">한계: 선이 많으면 늘 맞아 보여요</h2>
 
-<p>위 예시에서 다섯 선 각각의 위아래 ±1%를 "선 근처"로 치면, 그 띠들이 저점~고점 사이 가격의 <mark>30.2%</mark>를 덮어요. 아무 자리에서나 멈춰도 열에 세 번은 "피보나치 선 근처에서 멈췄다"고 말할 수 있다는 뜻이에요.</p>
+<p>위 예시에서 다섯 선 각각의 위아래 ±1%를 "선 근처"로 치면, 그 띠들이 저점~고점 사이 가격의 <span style="background-color:#fff3a3;padding:0 2px;">30.2%</span>를 덮어요. 아무 자리에서나 멈춰도 열에 세 번은 "피보나치 선 근처에서 멈췄다"고 말할 수 있다는 뜻이에요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>고점·저점 선택이 주관적이에요.</b> 기준을 바꾸면 선이 수천 원씩 움직여요(2단계 예시).</li>

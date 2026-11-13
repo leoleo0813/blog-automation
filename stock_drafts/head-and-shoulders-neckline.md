@@ -36,7 +36,7 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-10</p>
 
-<p>헤드앤숄더는 <mark>왼쪽 어깨 → 더 높은 머리 → 왼쪽과 비슷한 오른쪽 어깨</mark> 모양의 세 봉우리가 생긴 뒤, <mark>두 골짜기를 이은 넥라인 아래로 가격이 내려가면</mark> 완성되는 차트 패턴이에요. 상승이 꺾이는 신호로 흔히 해석해요.</p>
+<p>헤드앤숄더는 <span style="background-color:#fff3a3;padding:0 2px;">왼쪽 어깨 → 더 높은 머리 → 왼쪽과 비슷한 오른쪽 어깨</span> 모양의 세 봉우리가 생긴 뒤, <span style="background-color:#fff3a3;padding:0 2px;">두 골짜기를 이은 넥라인 아래로 가격이 내려가면</span> 완성되는 차트 패턴이에요. 상승이 꺾이는 신호로 흔히 해석해요.</p>
 
 <p>모양만 보고 판단하면 너무 일찍 단정하기 쉬워요. 넥라인을 숫자로 긋는 법, 완성됐는지 확인하는 3가지, 그리고 흔히 쓰는 '측정 폭' 계산이 왜 예측이 될 수 없는지까지 가정 차트로 볼게요.</p>
 
@@ -84,11 +84,11 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">넥라인은 어떻게 긋나요?</h2>
 
-<p>넥라인은 <mark>머리 양옆의 두 저점을 이은 직선</mark>이에요. 두 저점 높이가 다르면 기울어진 선이 되고, 기울기는 추세선처럼 계산해요.</p>
+<p>넥라인은 <span style="background-color:#fff3a3;padding:0 2px;">머리 양옆의 두 저점을 이은 직선</span>이에요. 두 저점 높이가 다르면 기울어진 선이 되고, 기울기는 추세선처럼 계산해요.</p>
 
 <ol style="line-height:1.9;">
   <li><b>두 저점:</b> 17일 10,800원, 35일 10,900원</li>
-  <li><b>기울기:</b> (10,900 − 10,800) ÷ 18일 = <mark>하루 약 5.6원</mark></li>
+  <li><b>기울기:</b> (10,900 − 10,800) ÷ 18일 = <span style="background-color:#fff3a3;padding:0 2px;">하루 약 5.6원</span></li>
   <li><b>그날 넥라인 가격:</b> 10,800 + 5.6 × (그날 − 17). 48일이면 약 <b>10,972원</b></li>
 </ol>
 
@@ -96,7 +96,7 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">헤드앤숄더 완성은 어떻게 확인하나요?</h2>
 
-<p>세 가지가 모두 갖춰져야 완성으로 봐요. 가장 중요한 건 마지막, <mark>넥라인 아래로 마감했는지</mark>예요.</p>
+<p>세 가지가 모두 갖춰져야 완성으로 봐요. 가장 중요한 건 마지막, <span style="background-color:#fff3a3;padding:0 2px;">넥라인 아래로 마감했는지</span>예요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/head-and-shoulders-neckline-2.png" alt="헤드앤숄더 확인 3가지: 머리 12,000원이 양 어깨보다 550~600원 높음, 두 어깨 11,400원과 11,450원 차이 0.44%, 48일 종가 10,940원이 넥라인 10,972원 아래" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">세 번째 조건이 생기기 전까지는 '후보'예요.</figcaption></figure>
 
@@ -105,8 +105,8 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">이탈 기준(예)</th><th style="border:1px solid #ddd;padding:8px;">가정 차트 판단일</th><th style="border:1px solid #ddd;padding:8px;">종가 vs 넥라인</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 넥라인 아래 1번</td><td style="border:1px solid #ddd;padding:8px;"><mark>48일</mark></td><td style="border:1px solid #ddd;padding:8px;">10,940원 vs 10,972원 (−0.29%)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 넥라인보다 1% 이상 아래</td><td style="border:1px solid #ddd;padding:8px;"><mark>49일</mark></td><td style="border:1px solid #ddd;padding:8px;">10,810원 vs 약 10,978원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 넥라인 아래 1번</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">48일</span></td><td style="border:1px solid #ddd;padding:8px;">10,940원 vs 10,972원 (−0.29%)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 넥라인보다 1% 이상 아래</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">49일</span></td><td style="border:1px solid #ddd;padding:8px;">10,810원 vs 약 10,978원</td></tr>
   </tbody>
 </table>
 
@@ -114,7 +114,7 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">'측정 폭' 계산은 믿어도 될까요?</h2>
 
-<p>흔히 <b>머리에서 넥라인까지의 높이만큼 넥라인 아래로 더 내려갈 수 있다</b>고 계산하는데, 이건 <mark>예측이 아니라 관행적인 어림셈</mark>이에요. 가정 차트에서도 맞지 않았어요.</p>
+<p>흔히 <b>머리에서 넥라인까지의 높이만큼 넥라인 아래로 더 내려갈 수 있다</b>고 계산하는데, 이건 <span style="background-color:#fff3a3;padding:0 2px;">예측이 아니라 관행적인 어림셈</span>이에요. 가정 차트에서도 맞지 않았어요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -123,7 +123,7 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">머리 − 그 시점 넥라인</td><td style="border:1px solid #ddd;padding:8px;">12,000 − 약 10,856 = 약 1,144원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">이탈 시점 넥라인 − 높이</td><td style="border:1px solid #ddd;padding:8px;">약 10,972 − 1,144 = <b>약 9,828원</b></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">가정 차트의 실제 최저</td><td style="border:1px solid #ddd;padding:8px;"><mark>10,400원</mark> (어림셈과 약 570원 차이)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">가정 차트의 실제 최저</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">10,400원</span> (어림셈과 약 570원 차이)</td></tr>
   </tbody>
 </table>
 
@@ -131,7 +131,7 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">역헤드앤숄더는 뭐가 다른가요?</h2>
 
-<p>역헤드앤숄더는 <mark>헤드앤숄더를 위아래로 뒤집은 모양</mark>이에요. 하락 뒤 바닥에서 세 골짜기가 생기고, 두 고점을 이은 넥라인 위로 올라서면 완성으로 봐요.</p>
+<p>역헤드앤숄더는 <span style="background-color:#fff3a3;padding:0 2px;">헤드앤숄더를 위아래로 뒤집은 모양</span>이에요. 하락 뒤 바닥에서 세 골짜기가 생기고, 두 고점을 이은 넥라인 위로 올라서면 완성으로 봐요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/head-and-shoulders-neckline-3.png" alt="헤드앤숄더는 상승 뒤 꼭대기에서 넥라인 아래로 이탈, 역헤드앤숄더는 하락 뒤 바닥에서 넥라인 위로 돌파" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">확인 방법은 같고 방향만 반대예요.</figcaption></figure>
 
@@ -148,7 +148,7 @@ figure_plan: "3장(팝): 1 가정 차트 위 헤드앤숄더·넥라인 / 2 확�
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">한계: 완성 전엔 패턴이 아니에요</h2>
 
-<p>헤드앤숄더의 가장 큰 함정은 <mark>오른어깨가 생기는 중에 미리 패턴이라고 단정하는 것</mark>이에요. 넥라인을 넘지 않고 다시 오르면 그냥 출렁임이었던 거예요.</p>
+<p>헤드앤숄더의 가장 큰 함정은 <span style="background-color:#fff3a3;padding:0 2px;">오른어깨가 생기는 중에 미리 패턴이라고 단정하는 것</span>이에요. 넥라인을 넘지 않고 다시 오르면 그냥 출렁임이었던 거예요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>끝나고 보면 다 그럴듯해요.</b> 지난 차트에서 찾으면 잘 보이지만, 진행 중에는 여러 해석이 가능해요.</li>

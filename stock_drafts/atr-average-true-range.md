@@ -37,7 +37,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-11</p>
 
-<p>ATR(Average True Range, 평균 진폭)은 <mark>주가가 하루에 평균 얼마나 크게 움직이는지를 원 단위로 보여 주는 지표</mark>예요. 하루의 진짜 변동폭(TR)을 구한 뒤 보통 <mark>14일 동안 평균</mark>을 내서 계산해요.</p>
+<p>ATR(Average True Range, 평균 진폭)은 <span style="background-color:#fff3a3;padding:0 2px;">주가가 하루에 평균 얼마나 크게 움직이는지를 원 단위로 보여 주는 지표</span>예요. 하루의 진짜 변동폭(TR)을 구한 뒤 보통 <span style="background-color:#fff3a3;padding:0 2px;">14일 동안 평균</span>을 내서 계산해요.</p>
 
 <p>이름은 어려워 보이지만 생각은 단순해요. "이 종목은 하루에 보통 이 정도는 오르내린다"를 숫자 하나로 알려 주는 거예요. 방향(오를지 내릴지)은 알려 주지 않고, <b>얼마나 출렁이는지</b>만 알려 줘요. 가정 가격으로 TR부터 ATR까지 직접 계산해 볼게요.</p>
 
@@ -77,7 +77,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #2d1e4a;padding-left:12px;margin-top:36px;">ATR이란 무엇인가요?</h2>
 
-<p>ATR은 <mark>최근 일정 기간(보통 14일) 동안 하루 변동폭의 평균</mark>이에요. 1970년대 웰스 와일더가 만든 지표로, RSI를 만든 사람과 같은 사람이에요.</p>
+<p>ATR은 <span style="background-color:#fff3a3;padding:0 2px;">최근 일정 기간(보통 14일) 동안 하루 변동폭의 평균</span>이에요. 1970년대 웰스 와일더가 만든 지표로, RSI를 만든 사람과 같은 사람이에요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/atr-average-true-range-1.png" alt="가정 가격 100거래일: 1~40일 잔잔한 상승, 41~80일 크게 출렁임, 55일 갭 하락, 81~100일 다시 잔잔" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">실제 종목이 아닌 가정 가격이에요. 가운데 구간에서 하루 폭이 서너 배로 커져요.</figcaption></figure>
 
@@ -87,7 +87,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #2d1e4a;padding-left:12px;margin-top:36px;">TR은 어떻게 구하나요? 갭 하락일로 계산</h2>
 
-<p>TR은 <mark>세 가지 값 중 가장 큰 값</mark>이에요. 보통은 '고가 − 저가'가 가장 크지만, 갭이 생긴 날은 전일 종가와의 차이가 더 커질 수 있어요.</p>
+<p>TR은 <span style="background-color:#fff3a3;padding:0 2px;">세 가지 값 중 가장 큰 값</span>이에요. 보통은 '고가 − 저가'가 가장 크지만, 갭이 생긴 날은 전일 종가와의 차이가 더 커질 수 있어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/atr-average-true-range-2.png" alt="55일 갭 하락일 TR 계산: 고가−저가 200원, |고가−전일 종가| 80원, |저가−전일 종가| 280원, TR은 가장 큰 280원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">전날 종가 10,280원, 오늘 고가 10,200원·저가 10,000원.</figcaption></figure>
 
@@ -98,7 +98,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">① 고가 − 저가</td><td style="border:1px solid #ddd;padding:8px;">10,200 − 10,000</td><td style="border:1px solid #ddd;padding:8px;">200원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">② |고가 − 전일 종가|</td><td style="border:1px solid #ddd;padding:8px;">|10,200 − 10,280|</td><td style="border:1px solid #ddd;padding:8px;">80원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">③ |저가 − 전일 종가|</td><td style="border:1px solid #ddd;padding:8px;">|10,000 − 10,280|</td><td style="border:1px solid #ddd;padding:8px;"><mark>280원 ← TR</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">③ |저가 − 전일 종가|</td><td style="border:1px solid #ddd;padding:8px;">|10,000 − 10,280|</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">280원 ← TR</span></td></tr>
   </tbody>
 </table>
 
@@ -106,7 +106,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2d1e4a;padding-left:12px;margin-top:36px;">ATR 14일은 어떻게 계산하나요?</h2>
 
-<p>첫 ATR은 <mark>처음 14일 TR의 단순 평균</mark>이고, 그다음 날부터는 <mark>(어제 ATR × 13 + 오늘 TR) ÷ 14</mark>로 조금씩 갱신해요.</p>
+<p>첫 ATR은 <span style="background-color:#fff3a3;padding:0 2px;">처음 14일 TR의 단순 평균</span>이고, 그다음 날부터는 <span style="background-color:#fff3a3;padding:0 2px;">(어제 ATR × 13 + 오늘 TR) ÷ 14</span>로 조금씩 갱신해요.</p>
 
 <ol style="line-height:2;">
   <li><b>매일 TR 구하기:</b> 가정 차트 1~14일의 TR은 100~130원 사이였어요.</li>
@@ -119,7 +119,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #2d1e4a;padding-left:12px;margin-top:36px;">가정 차트로 본 ATR의 변화</h2>
 
-<p>가정 차트에서 ATR은 <mark>잔잔할 때 약 115원, 크게 출렁일 때 최고 499원</mark>까지 올라갔다가, 출렁임이 끝난 뒤 천천히 내려왔어요.</p>
+<p>가정 차트에서 ATR은 <span style="background-color:#fff3a3;padding:0 2px;">잔잔할 때 약 115원, 크게 출렁일 때 최고 499원</span>까지 올라갔다가, 출렁임이 끝난 뒤 천천히 내려왔어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/atr-average-true-range-3.png" alt="ATR 14일 변화: 40일 115원(1.1%), 80일 499원(5.0%), 90일 298원으로 천천히 하락" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">81일부터 하루 폭은 다시 100원 안팎인데, ATR은 90일에도 298원이에요.</figcaption></figure>
 
@@ -128,9 +128,9 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
     <tr style="background:#2d1e4a;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">날짜</th><th style="border:1px solid #ddd;padding:8px;">종가</th><th style="border:1px solid #ddd;padding:8px;">ATR(14)</th><th style="border:1px solid #ddd;padding:8px;">ATR%</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">40일(잔잔)</td><td style="border:1px solid #ddd;padding:8px;">10,580원</td><td style="border:1px solid #ddd;padding:8px;">115원</td><td style="border:1px solid #ddd;padding:8px;"><mark>1.1%</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">40일(잔잔)</td><td style="border:1px solid #ddd;padding:8px;">10,580원</td><td style="border:1px solid #ddd;padding:8px;">115원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">1.1%</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">60일(출렁)</td><td style="border:1px solid #ddd;padding:8px;">10,220원</td><td style="border:1px solid #ddd;padding:8px;">410원</td><td style="border:1px solid #ddd;padding:8px;">4.0%</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">80일(출렁 끝)</td><td style="border:1px solid #ddd;padding:8px;">10,020원</td><td style="border:1px solid #ddd;padding:8px;">499원</td><td style="border:1px solid #ddd;padding:8px;"><mark>5.0%</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">80일(출렁 끝)</td><td style="border:1px solid #ddd;padding:8px;">10,020원</td><td style="border:1px solid #ddd;padding:8px;">499원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">5.0%</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">90일(다시 잔잔)</td><td style="border:1px solid #ddd;padding:8px;">10,265원</td><td style="border:1px solid #ddd;padding:8px;">298원</td><td style="border:1px solid #ddd;padding:8px;">2.9%</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">100일</td><td style="border:1px solid #ddd;padding:8px;">10,345원</td><td style="border:1px solid #ddd;padding:8px;">197원</td><td style="border:1px solid #ddd;padding:8px;">1.9%</td></tr>
   </tbody>
@@ -140,7 +140,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #2d1e4a;padding-left:12px;margin-top:36px;">내 종목에 쓰면? ATR%로 비교하기</h2>
 
-<p>ATR은 원 단위라서 <mark>주가가 다른 종목끼리는 ATR%(ATR ÷ 주가)로 바꿔서 비교</mark>해야 해요. 상황별로 계산해 볼게요.</p>
+<p>ATR은 원 단위라서 <span style="background-color:#fff3a3;padding:0 2px;">주가가 다른 종목끼리는 ATR%(ATR ÷ 주가)로 바꿔서 비교</span>해야 해요. 상황별로 계산해 볼게요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -171,7 +171,7 @@ figure_plan: "3장(팝·plum): 1 가정 가격 잔잔·출렁·잔잔 / 2 갭일
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #2d1e4a;padding-left:12px;margin-top:36px;">자주 하는 오해 5가지와 한계</h2>
 
-<p>ATR은 계산이 단순한 만큼 <mark>"방향을 알려 준다"는 오해</mark>가 가장 흔해요. 아래 다섯 가지만 기억하면 잘못 읽을 일이 줄어요.</p>
+<p>ATR은 계산이 단순한 만큼 <span style="background-color:#fff3a3;padding:0 2px;">"방향을 알려 준다"는 오해</span>가 가장 흔해요. 아래 다섯 가지만 기억하면 잘못 읽을 일이 줄어요.</p>
 
 <div style="background:#fff3f5;border:2px solid #ff7a90;border-radius:10px;padding:14px 18px;margin:20px 0;">
   <strong style="font-size:16px;">⚠️ 이렇게 읽으면 안 돼요</strong>

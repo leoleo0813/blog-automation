@@ -35,7 +35,7 @@ figure_plan: "3장: 1 145일 계산 그림(구름·선·①~④) / 2 선이 그�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-10-30</p>
 
-<p>일목균형표는 <mark>전환선(9일)·기준선(26일)·선행스팬1·선행스팬2(52일)·후행스팬</mark> 다섯 선으로 가격의 균형을 보는 지표예요. 선행스팬 두 개 사이를 칠한 <b>구름(구름대)</b> 위에 가격이 있으면 오름 쪽, 아래면 내림 쪽 균형으로 읽어요.</p>
+<p>일목균형표는 <span style="background-color:#fff3a3;padding:0 2px;">전환선(9일)·기준선(26일)·선행스팬1·선행스팬2(52일)·후행스팬</span> 다섯 선으로 가격의 균형을 보는 지표예요. 선행스팬 두 개 사이를 칠한 <b>구름(구름대)</b> 위에 가격이 있으면 오름 쪽, 아래면 내림 쪽 균형으로 읽어요.</p>
 
 <p>다른 지표와 가장 다른 점은 <b>선이 그려지는 칸이 오늘이 아니라는 것</b>이에요. 가정 가격 145일치로 다섯 선을 직접 계산하고, 같은 가격에서 MACD·이동평균선보다 신호가 언제 나왔는지 비교해 볼게요.</p>
 
@@ -71,8 +71,8 @@ figure_plan: "3장: 1 145일 계산 그림(구름·선·①~④) / 2 선이 그�
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">전환선</td><td style="border:1px solid #ddd;padding:8px;">(최근 9일 최고가 + 최저가) ÷ 2</td><td style="border:1px solid #ddd;padding:8px;">오늘</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">기준선</td><td style="border:1px solid #ddd;padding:8px;">(최근 26일 최고가 + 최저가) ÷ 2</td><td style="border:1px solid #ddd;padding:8px;">오늘</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>선행스팬1</mark></td><td style="border:1px solid #ddd;padding:8px;">(전환선 + 기준선) ÷ 2</td><td style="border:1px solid #ddd;padding:8px;"><b>26일 앞</b></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>선행스팬2</mark></td><td style="border:1px solid #ddd;padding:8px;">(최근 52일 최고가 + 최저가) ÷ 2</td><td style="border:1px solid #ddd;padding:8px;"><b>26일 앞</b></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">선행스팬1</span></td><td style="border:1px solid #ddd;padding:8px;">(전환선 + 기준선) ÷ 2</td><td style="border:1px solid #ddd;padding:8px;"><b>26일 앞</b></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">선행스팬2</span></td><td style="border:1px solid #ddd;padding:8px;">(최근 52일 최고가 + 최저가) ÷ 2</td><td style="border:1px solid #ddd;padding:8px;"><b>26일 앞</b></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">후행스팬</td><td style="border:1px solid #ddd;padding:8px;">오늘 종가 그대로</td><td style="border:1px solid #ddd;padding:8px;"><b>26일 뒤</b></td></tr>
   </tbody>
 </table>
@@ -102,7 +102,7 @@ figure_plan: "3장: 1 145일 계산 그림(구름·선·①~④) / 2 선이 그�
   </tbody>
 </table>
 
-<p>이날 <mark>전환선(10,115)이 기준선(10,090)을 처음 넘었고</mark>, 후행스팬(10,310)도 26일 전 종가(10,260) 위로 올라섰어요. 하지만 88일째 칸에 걸린 구름은 26일 전에 계산된 10,468~10,835라서, 종가 10,310은 <b>아직 구름 아래</b>예요. 단기 균형은 바뀌었는데 큰 균형은 아직 안 바뀐 상태예요.</p>
+<p>이날 <span style="background-color:#fff3a3;padding:0 2px;">전환선(10,115)이 기준선(10,090)을 처음 넘었고</span>, 후행스팬(10,310)도 26일 전 종가(10,260) 위로 올라섰어요. 하지만 88일째 칸에 걸린 구름은 26일 전에 계산된 10,468~10,835라서, 종가 10,310은 <b>아직 구름 아래</b>예요. 단기 균형은 바뀌었는데 큰 균형은 아직 안 바뀐 상태예요.</p>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2f6f4f;padding-left:12px;margin-top:36px;">구름대 보는 법: 위·안·아래</h2>
 
@@ -150,7 +150,7 @@ figure_plan: "3장: 1 145일 계산 그림(구름·선·①~④) / 2 선이 그�
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">MACD·시그널 교차</td><td style="border:1px solid #ddd;padding:8px;">81일째(9,960원)</td><td style="border:1px solid #ddd;padding:8px;">113일째</td><td style="border:1px solid #ddd;padding:8px;"><mark>10번</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">MACD·시그널 교차</td><td style="border:1px solid #ddd;padding:8px;">81일째(9,960원)</td><td style="border:1px solid #ddd;padding:8px;">113일째</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">10번</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">5·20일 이평 교차</td><td style="border:1px solid #ddd;padding:8px;">85일째(10,200원)</td><td style="border:1px solid #ddd;padding:8px;">120일째</td><td style="border:1px solid #ddd;padding:8px;">0번</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">전환선·기준선 교차</td><td style="border:1px solid #ddd;padding:8px;">88일째(10,310원)</td><td style="border:1px solid #ddd;padding:8px;">126일째</td><td style="border:1px solid #ddd;padding:8px;">0번</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">구름 돌파·진입</td><td style="border:1px solid #ddd;padding:8px;">95일째(10,800원)</td><td style="border:1px solid #ddd;padding:8px;">137일째(구름 안)</td><td style="border:1px solid #ddd;padding:8px;">0번(구름은 78일째부터 생김)</td></tr>

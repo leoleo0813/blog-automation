@@ -34,7 +34,7 @@ figure_plan: "3장: 1 같은 가격 종가·스토캐스틱·RSI 3단 / 2 14일 
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-04</p>
 
-<p>스토캐스틱은 <mark>오늘 종가가 최근 14일 최고가와 최저가 사이 어디쯤 있는지를 0~100으로 나타낸 지표</mark>예요. 80 위면 범위의 꼭대기 근처, 20 아래면 바닥 근처라는 뜻이고, 보통 이 값을 한 번 더 부드럽게 만든 <b>스토캐스틱 슬로우</b>를 봐요.</p>
+<p>스토캐스틱은 <span style="background-color:#fff3a3;padding:0 2px;">오늘 종가가 최근 14일 최고가와 최저가 사이 어디쯤 있는지를 0~100으로 나타낸 지표</span>예요. 80 위면 범위의 꼭대기 근처, 20 아래면 바닥 근처라는 뜻이고, 보통 이 값을 한 번 더 부드럽게 만든 <b>스토캐스틱 슬로우</b>를 봐요.</p>
 
 <p>RSI와 똑같이 "과열"을 본다고 알려져 있지만, 둘은 묻는 질문이 달라요. 같은 가정 가격으로 두 지표를 나란히 계산해서, 어디서 같은 말을 하고 어디서 갈리는지 볼게요.</p>
 
@@ -70,8 +70,8 @@ figure_plan: "3장: 1 같은 가격 종가·스토캐스틱·RSI 3단 / 2 14일 
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">패스트 %K</td><td style="border:1px solid #ddd;padding:8px;">(오늘 종가 − 14일 최저가) ÷ (14일 최고가 − 14일 최저가) × 100</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">패스트 %D = <mark>슬로우 %K</mark></td><td style="border:1px solid #ddd;padding:8px;">패스트 %K의 3일 평균</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>슬로우 %D</mark></td><td style="border:1px solid #ddd;padding:8px;">슬로우 %K의 3일 평균</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">패스트 %D = <span style="background-color:#fff3a3;padding:0 2px;">슬로우 %K</span></td><td style="border:1px solid #ddd;padding:8px;">패스트 %K의 3일 평균</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">슬로우 %D</span></td><td style="border:1px solid #ddd;padding:8px;">슬로우 %K의 3일 평균</td></tr>
   </tbody>
 </table>
 
@@ -117,7 +117,7 @@ figure_plan: "3장: 1 같은 가격 종가·스토캐스틱·RSI 3단 / 2 14일 
     <tr><td style="border:1px solid #ddd;padding:8px;">재료</td><td style="border:1px solid #ddd;padding:8px;">매일 종가의 오른 폭·내린 폭</td><td style="border:1px solid #ddd;padding:8px;">종가 + 14일 최고가·최저가</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">질문</td><td style="border:1px solid #ddd;padding:8px;">최근 오름이 내림보다 얼마나 셌나</td><td style="border:1px solid #ddd;padding:8px;">오늘 종가가 최근 범위 어디쯤인가</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">흔히 쓰는 기준</td><td style="border:1px solid #ddd;padding:8px;">70 위·30 아래</td><td style="border:1px solid #ddd;padding:8px;">80 위·20 아래</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">반응 속도</td><td style="border:1px solid #ddd;padding:8px;">느린 편</td><td style="border:1px solid #ddd;padding:8px;"><mark>빠른 편</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">반응 속도</td><td style="border:1px solid #ddd;padding:8px;">느린 편</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">빠른 편</span></td></tr>
   </tbody>
 </table>
 
@@ -139,7 +139,7 @@ figure_plan: "3장: 1 같은 가격 종가·스토캐스틱·RSI 3단 / 2 14일 
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">천천히 내림(15~80일째)</td><td style="border:1px solid #ddd;padding:8px;">30 아래 66일 연속</td><td style="border:1px solid #ddd;padding:8px;">20 아래를 7번 들락날락(합계 29일)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">오르기 시작</td><td style="border:1px solid #ddd;padding:8px;">91일째 70 위</td><td style="border:1px solid #ddd;padding:8px;"><mark>87일째 80 위</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">오르기 시작</td><td style="border:1px solid #ddd;padding:8px;">91일째 70 위</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">87일째 80 위</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">과열 구간 머문 기간</td><td style="border:1px solid #ddd;padding:8px;">91~112일째(22일)</td><td style="border:1px solid #ddd;padding:8px;">87~112일째(26일)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">%K·%D 교차 횟수</td><td style="border:1px solid #ddd;padding:8px;">—</td><td style="border:1px solid #ddd;padding:8px;">50번(내림 28·오름 8·횡보 14)</td></tr>
   </tbody>

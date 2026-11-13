@@ -38,7 +38,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-13</p>
 
-<p>엔벨로프는 <mark>이동평균선 위아래로 같은 퍼센트만큼 떨어진 선 두 개를 그린 지표</mark>예요. 봉투(envelope)처럼 주가를 감싼다고 해서 붙은 이름이고, 20일 이동평균에 <mark>±6%</mark>를 쓰는 설정이 국내 증권사 기본값으로 흔해요.</p>
+<p>엔벨로프는 <span style="background-color:#fff3a3;padding:0 2px;">이동평균선 위아래로 같은 퍼센트만큼 떨어진 선 두 개를 그린 지표</span>예요. 봉투(envelope)처럼 주가를 감싼다고 해서 붙은 이름이고, 20일 이동평균에 <span style="background-color:#fff3a3;padding:0 2px;">±6%</span>를 쓰는 설정이 국내 증권사 기본값으로 흔해요.</p>
 
 <p>계산은 곱하기 한 번이면 끝나지만, 퍼센트를 얼마로 잡느냐에 따라 같은 차트에서도 결과가 크게 달라져요. 가정 차트로 상단·하단을 직접 구하고, 2.5·6·10%를 나란히 비교한 뒤, 볼린저밴드와 무엇이 다른지까지 볼게요.</p>
 
@@ -80,7 +80,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">엔벨로프는 무엇인가요?</h2>
 
-<p>엔벨로프는 <mark>이동평균을 가운데 두고, 위아래로 같은 비율만큼 떨어진 곳에 선을 그은 것</mark>이에요. 주가가 평균에서 얼마나 벌어졌는지를 차트 위에 울타리처럼 보여 줘요.</p>
+<p>엔벨로프는 <span style="background-color:#fff3a3;padding:0 2px;">이동평균을 가운데 두고, 위아래로 같은 비율만큼 떨어진 곳에 선을 그은 것</span>이에요. 주가가 평균에서 얼마나 벌어졌는지를 차트 위에 울타리처럼 보여 줘요.</p>
 
 <p>이동평균선만 있으면 주가가 선 위에 있는지 아래에 있는지만 보여요. 엔벨로프는 여기에 "평균에서 6%쯤 벌어진 자리"를 선으로 그려 둬서, 지금 주가가 평균에서 꽤 멀리 나갔는지 한눈에 보게 해 줘요. 숫자로 바꾸면 20일 이격도와 같은 이야기예요. ±6% 상단은 이격도 106, 하단은 이격도 94인 자리예요.</p>
 
@@ -99,7 +99,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">20일 ±6% 엔벨로프는 어떻게 계산하나요?</h2>
 
-<p>20일 ±6% 엔벨로프는 <mark>20일 종가 평균을 구하고, 1.06을 곱하면 상단, 0.94를 곱하면 하단</mark>이에요. 아래 가정 차트(실제 종목 아님)의 60일째로 계산해 볼게요.</p>
+<p>20일 ±6% 엔벨로프는 <span style="background-color:#fff3a3;padding:0 2px;">20일 종가 평균을 구하고, 1.06을 곱하면 상단, 0.94를 곱하면 하단</span>이에요. 아래 가정 차트(실제 종목 아님)의 60일째로 계산해 볼게요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/envelope-indicator-calculation-1.png" alt="가정 차트 120일에 20일 ±6% 엔벨로프: 잔잔할 때는 밴드 안, 49일 상단 돌파 후 71일까지 밖, 101~120일 하단 밖" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산을 보여 주기 위한 가정 종가예요. 실제 종목이 아니에요.</figcaption></figure>
 
@@ -108,14 +108,14 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
   ① 41~60일 종가 20개 더하기: <b>220,000원</b><br>
   ② 20으로 나누기: <b>20일선 11,000원</b><br>
   ③ 상단: 11,000 × 1.06 = <b>11,660원</b> · 하단: 11,000 × 0.94 = <b>10,340원</b><br>
-  ④ 종가 11,870원 > 상단 11,660원 → <mark><b>상단 밖(위)</b></mark> (이격도로는 107.9)
+  ④ 종가 11,870원 > 상단 11,660원 → <span style="background-color:#fff3a3;padding:0 2px;"><b>상단 밖(위)</b></span> (이격도로는 107.9)
 </div>
 
 <p>다음 날에는 41일 종가를 빼고 61일 종가를 넣어 20일선을 다시 구하고, 같은 비율을 곱해요. 그래서 엔벨로프는 이동평균을 그대로 따라 움직이고, 두 선 사이 간격은 늘 이동평균의 12%(위 6% + 아래 6%)예요.</p>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">퍼센트를 바꾸면 무엇이 달라지나요?</h2>
 
-<p>퍼센트를 바꾸면 <mark>같은 차트에서도 밴드 밖에 나가는 날 수가 크게 달라져요.</mark> 가정 차트의 19~120일(102일)로 세어 봤어요.</p>
+<p>퍼센트를 바꾸면 <span style="background-color:#fff3a3;padding:0 2px;">같은 차트에서도 밴드 밖에 나가는 날 수가 크게 달라져요.</span> 가정 차트의 19~120일(102일)로 세어 봤어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/envelope-indicator-calculation-2.png" alt="같은 가정 차트 102일 중 밴드 밖에 나간 날: ±2.5% 70일, ±6% 48일, ±10% 14일" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">퍼센트가 좁을수록 자주 닿고, 넓을수록 드물게 닿아요.</figcaption></figure>
 
@@ -125,7 +125,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">±2.5%</td><td style="border:1px solid #ddd;padding:8px;">37일</td><td style="border:1px solid #ddd;padding:8px;">33일</td><td style="border:1px solid #ddd;padding:8px;"><b>70일</b></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">±6% (기본값)</td><td style="border:1px solid #ddd;padding:8px;">23일</td><td style="border:1px solid #ddd;padding:8px;">25일</td><td style="border:1px solid #ddd;padding:8px;"><mark><b>48일</b></mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">±6% (기본값)</td><td style="border:1px solid #ddd;padding:8px;">23일</td><td style="border:1px solid #ddd;padding:8px;">25일</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;"><b>48일</b></span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">±10%</td><td style="border:1px solid #ddd;padding:8px;">0일</td><td style="border:1px solid #ddd;padding:8px;">14일</td><td style="border:1px solid #ddd;padding:8px;"><b>14일</b></td></tr>
   </tbody>
 </table>
@@ -136,7 +136,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">볼린저밴드와는 무엇이 다른가요?</h2>
 
-<p>가장 큰 차이는 <mark>엔벨로프는 폭이 고정이고, 볼린저밴드는 변동성에 따라 폭이 변한다</mark>는 점이에요. 볼린저밴드는 고정 폭 엔벨로프의 이 약점을 보완하려고 만들어졌다고 알려져 있어요.</p>
+<p>가장 큰 차이는 <span style="background-color:#fff3a3;padding:0 2px;">엔벨로프는 폭이 고정이고, 볼린저밴드는 변동성에 따라 폭이 변한다</span>는 점이에요. 볼린저밴드는 고정 폭 엔벨로프의 이 약점을 보완하려고 만들어졌다고 알려져 있어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/envelope-indicator-calculation-3.png" alt="20일선 대비 밴드 폭: 30일째 잔잔할 때 엔벨로프 12%, 볼린저 1.7% / 110일째 출렁일 때 엔벨로프 12%, 볼린저 28.4%" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">엔벨로프 ±6%는 늘 12%, 볼린저밴드(20일, 표준편차 2)는 변동성을 따라 변해요.</figcaption></figure>
 
@@ -154,7 +154,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">상단을 뚫으면 곧 내려오나요?</h2>
 
-<p>아니에요. <mark>강한 추세에서는 주가가 밴드 밖에 오래 머물 수 있어요.</mark> 가정 차트에서 주가는 49일째 상단을 뚫은 뒤 71일째까지 <b>23일 내내</b> 상단 밖에 있었고, 그사이 13,020원까지 더 올랐어요.</p>
+<p>아니에요. <span style="background-color:#fff3a3;padding:0 2px;">강한 추세에서는 주가가 밴드 밖에 오래 머물 수 있어요.</span> 가정 차트에서 주가는 49일째 상단을 뚫은 뒤 71일째까지 <b>23일 내내</b> 상단 밖에 있었고, 그사이 13,020원까지 더 올랐어요.</p>
 
 <p>하락 구간도 같아요. 101일째부터 120일째까지 20일 동안 하단 아래에 머물며 계속 내려갔어요. 엔벨로프는 이동평균을 기준으로 그린 선이라, 주가가 한 방향으로 계속 가면 평균이 늦게 따라오면서 밴드도 뒤따라 움직일 뿐이에요.</p>
 
@@ -162,7 +162,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">HTS에서 엔벨로프 켜는 법 따라 하기</h2>
 
-<p>엔벨로프는 <mark>대부분의 HTS·MTS에 기본 보조지표로 들어 있어요.</mark> 차트 위에 바로 겹쳐 그려지는 지표(가격 지표)로 분류돼요.</p>
+<p>엔벨로프는 <span style="background-color:#fff3a3;padding:0 2px;">대부분의 HTS·MTS에 기본 보조지표로 들어 있어요.</span> 차트 위에 바로 겹쳐 그려지는 지표(가격 지표)로 분류돼요.</p>
 
 <ol style="line-height:2;">
   <li>차트 화면에서 <b>[지표 추가]</b> 또는 <b>[보조지표]</b>를 눌러요.</li>
@@ -174,7 +174,7 @@ figure_plan: "3장(팝·navy): 1 가정 차트 + 20일 ±6% 엔벨로프 / 2 2.5
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">자주 하는 오해 5가지</h2>
 
-<p>엔벨로프에서 생기는 오해는 대부분 <mark>울타리를 반드시 돌아오는 벽으로 착각해서</mark> 생겨요.</p>
+<p>엔벨로프에서 생기는 오해는 대부분 <span style="background-color:#fff3a3;padding:0 2px;">울타리를 반드시 돌아오는 벽으로 착각해서</span> 생겨요.</p>
 
 <div style="background:#fff4f1;border:2px solid #ff6f59;border-radius:10px;padding:14px 18px;margin:20px 0;">
   <strong style="font-size:16px;">⚠️ 이것만 피하세요</strong>

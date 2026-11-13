@@ -38,7 +38,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-05</p>
 
-<p>2026년 아동수당은 <mark>만 9세 미만</mark> 아이에게 매달 지급되고, 사는 지역에 따라 <mark>월 10만~12만원</mark>이에요. 작년까지는 만 8세 미만이었는데 한 살 늘었고, 법에 따라 2030년까지 해마다 한 살씩 더 늘어나요.</p>
+<p>2026년 아동수당은 <span style="background-color:#fff3a3;padding:0 2px;">만 9세 미만</span> 아이에게 매달 지급되고, 사는 지역에 따라 <span style="background-color:#fff3a3;padding:0 2px;">월 10만~12만원</span>이에요. 작년까지는 만 8세 미만이었는데 한 살 늘었고, 법에 따라 2030년까지 해마다 한 살씩 더 늘어나요.</p>
 
 <p>그래서 "우리 아이는 언제까지 받나"의 답이 작년과 달라졌어요. 지역별 금액, 연도별 대상 나이, 1년에 받는 총액, 신청할 때 놓치기 쉬운 기한까지 정리할게요.</p>
 
@@ -65,7 +65,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">2026년 아동수당 대상: 만 9세 미만</h2>
 
-<p>2026년 3월 20일 개정된 아동수당법에 따라 지급 대상이 <mark>만 8세 미만에서 만 9세 미만</mark>으로 넓어졌어요. 개정이 3월에 이뤄져서, 그사이 만 8세가 되어 수당이 끊겼던 아이에게는 <b>1~3월분을 소급해 3월 24일에</b> 한꺼번에 지급했어요.</p>
+<p>2026년 3월 20일 개정된 아동수당법에 따라 지급 대상이 <span style="background-color:#fff3a3;padding:0 2px;">만 8세 미만에서 만 9세 미만</span>으로 넓어졌어요. 개정이 3월에 이뤄져서, 그사이 만 8세가 되어 수당이 끊겼던 아이에게는 <b>1~3월분을 소급해 3월 24일에</b> 한꺼번에 지급했어요.</p>
 
 <p>부모의 소득이나 재산은 따지지 않아요. 대한민국 국적에 주민등록번호가 있는 만 9세 미만 아이라면 대상이에요.</p>
 
@@ -80,10 +80,10 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">지역 구분</th><th style="border:1px solid #ddd;padding:8px;">월 금액</th><th style="border:1px solid #ddd;padding:8px;">1년(12개월) 총액</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">수도권(서울·경기·인천)</td><td style="border:1px solid #ddd;padding:8px;"><mark>10만원</mark></td><td style="border:1px solid #ddd;padding:8px;">120만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">비수도권</td><td style="border:1px solid #ddd;padding:8px;"><mark>10만5천원</mark></td><td style="border:1px solid #ddd;padding:8px;">126만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">인구감소지역(우대)</td><td style="border:1px solid #ddd;padding:8px;"><mark>11만원</mark></td><td style="border:1px solid #ddd;padding:8px;">132만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">인구감소지역(특별)</td><td style="border:1px solid #ddd;padding:8px;"><mark>12만원</mark></td><td style="border:1px solid #ddd;padding:8px;">144만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">수도권(서울·경기·인천)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">10만원</span></td><td style="border:1px solid #ddd;padding:8px;">120만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">비수도권</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">10만5천원</span></td><td style="border:1px solid #ddd;padding:8px;">126만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">인구감소지역(우대)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">11만원</span></td><td style="border:1px solid #ddd;padding:8px;">132만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">인구감소지역(특별)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">12만원</span></td><td style="border:1px solid #ddd;padding:8px;">144만원</td></tr>
   </tbody>
 </table>
 
@@ -91,7 +91,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">아동수당 몇 살까지 받나요?</h2>
 
-<p>개정법은 대상 나이를 <mark>2030년까지 해마다 한 살씩</mark> 올리도록 정했어요.</p>
+<p>개정법은 대상 나이를 <span style="background-color:#fff3a3;padding:0 2px;">2030년까지 해마다 한 살씩</span> 올리도록 정했어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/child-allowance-2026-age-amount-2.png" alt="아동수당 연도별 대상 나이: 2026년 9세 미만, 2027년 10세 미만, 2028년 11세 미만, 2029년 12세 미만, 2030년 13세 미만" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">아이가 한 살 먹을 때 기준도 한 살 올라가요.</figcaption></figure>
 
@@ -100,7 +100,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">연도</th><th style="border:1px solid #ddd;padding:8px;">2026</th><th style="border:1px solid #ddd;padding:8px;">2027</th><th style="border:1px solid #ddd;padding:8px;">2028</th><th style="border:1px solid #ddd;padding:8px;">2029</th><th style="border:1px solid #ddd;padding:8px;">2030</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">대상 나이</td><td style="border:1px solid #ddd;padding:8px;"><mark>9세 미만</mark></td><td style="border:1px solid #ddd;padding:8px;">10세 미만</td><td style="border:1px solid #ddd;padding:8px;">11세 미만</td><td style="border:1px solid #ddd;padding:8px;">12세 미만</td><td style="border:1px solid #ddd;padding:8px;">13세 미만</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">대상 나이</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">9세 미만</span></td><td style="border:1px solid #ddd;padding:8px;">10세 미만</td><td style="border:1px solid #ddd;padding:8px;">11세 미만</td><td style="border:1px solid #ddd;padding:8px;">12세 미만</td><td style="border:1px solid #ddd;padding:8px;">13세 미만</td></tr>
   </tbody>
 </table>
 
@@ -123,7 +123,7 @@ figure_plan: "3장(팝): 1 지역별 월 금액 막대 / 2 연도별 대상 연�
   <li><b>방문:</b> 아이 주소지 읍·면·동 주민센터에서 신청해요.</li>
 </ul>
 
-<p>가장 중요한 건 기한이에요. <mark>출생일을 포함해 60일 안에</mark> 신청하면 태어난 달부터 소급해서 받지만, 그보다 늦으면 <b>신청한 달부터</b> 받아요. 늦은 만큼 그대로 못 받는 거라 출생신고 때 같이 하는 게 가장 안전해요.</p>
+<p>가장 중요한 건 기한이에요. <span style="background-color:#fff3a3;padding:0 2px;">출생일을 포함해 60일 안에</span> 신청하면 태어난 달부터 소급해서 받지만, 그보다 늦으면 <b>신청한 달부터</b> 받아요. 늦은 만큼 그대로 못 받는 거라 출생신고 때 같이 하는 게 가장 안전해요.</p>
 
 <p>지급일은 보통 <b>매달 25일</b>이고, 신청할 때 정한 보호자 계좌로 들어와요.</p>
 

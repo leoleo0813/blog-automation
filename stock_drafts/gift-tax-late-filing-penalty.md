@@ -128,12 +128,12 @@ user_todo:
   if_skipped: 계속 발행 보류입니다.
 ---
 
-<p>증여세 신고기한(증여받은 달 말일부터 3개월)을 넘기면 <mark>무신고가산세와 납부지연가산세가 추가로 붙지만</mark>, 국세청이 결정·통지하기 전에 스스로 기한후신고를 하면 그중 일부를 감면받을 수 있습니다.</p>
+<p>증여세 신고기한(증여받은 달 말일부터 3개월)을 넘기면 <span style="background-color:#fff3a3;padding:0 2px;">무신고가산세와 납부지연가산세가 추가로 붙지만</span>, 국세청이 결정·통지하기 전에 스스로 기한후신고를 하면 그중 일부를 감면받을 수 있습니다.</p>
 
 <div style="background:#eef6ff;border:2px solid #4a90d9;border-radius:10px;padding:16px 20px;margin:24px 0;">
   <strong style="color:#2f4f7f;font-size:18px;">📌 핵심만 먼저 보기</strong>
   <ul style="margin:10px 0 0 0;padding-left:20px;line-height:1.9;">
-    <li>기한후신고는 <mark>신고기한(3개월)을 넘긴 뒤</mark> 국세청 결정·통지 전에 스스로 신고하는 것입니다.</li>
+    <li>기한후신고는 <span style="background-color:#fff3a3;padding:0 2px;">신고기한(3개월)을 넘긴 뒤</span> 국세청 결정·통지 전에 스스로 신고하는 것입니다.</li>
     <li>아예 신고를 안 하면 <b>무신고가산세 20%</b>(부정행위는 40%)가, 적게 신고하면 <b>과소신고가산세 10%</b>(부당은 40%)가 붙습니다.</li>
     <li>빨리 신고할수록 무신고가산세 일부를 감면받을 수 있지만, <b>정확한 감면율 구간은 원문 확인 중</b>이라 이 글에서는 확정된 값만 표기합니다.</li>
     <li>가산세와 별도로 늦게 낸 세액에는 <b>납부지연가산세</b>가 매일 붙습니다.</li>
@@ -152,7 +152,7 @@ user_todo:
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">증여세 기한후신고란 무엇인가요</h2>
 
-<p>증여세는 <mark>재산을 증여받은 날이 속하는 달의 말일부터 3개월 이내</mark>에 신고해야 합니다. 기본적인 신고 대상·계산 방법은 <a href="https://sensitiveboss3.tistory.com/entry/stock-gift-tax" target="_blank" rel="noopener">이전 글(주식 증여세 계산 방법)</a>에서 다뤘습니다.</p>
+<p>증여세는 <span style="background-color:#fff3a3;padding:0 2px;">재산을 증여받은 날이 속하는 달의 말일부터 3개월 이내</span>에 신고해야 합니다. 기본적인 신고 대상·계산 방법은 <a href="https://sensitiveboss3.tistory.com/entry/stock-gift-tax" target="_blank" rel="noopener">이전 글(주식 증여세 계산 방법)</a>에서 다뤘습니다.</p>
 
 <p>이 기한을 넘긴 뒤 <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청</a>이 세액을 결정·통지하기 전에 스스로 신고하는 것이 "기한후신고"입니다. 아예 신고하지 않고 버티다 국세청이 먼저 알아내는 경우보다 가산세 부담이 가볍습니다.</p>
 
@@ -202,7 +202,7 @@ user_todo:
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">빨리 신고하면 가산세를 감면받을 수 있나요</h2>
 
-<p>네, 국세청이 결정·통지하기 전에 스스로 기한후신고를 하면 <mark>무신고가산세 중 일부를 감면</mark>받을 수 있습니다(<a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 국세기본법 제48조). 신고가 늦어질수록 감면율이 줄어드는 구조입니다.</p>
+<p>네, 국세청이 결정·통지하기 전에 스스로 기한후신고를 하면 <span style="background-color:#fff3a3;padding:0 2px;">무신고가산세 중 일부를 감면</span>받을 수 있습니다(<a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a> 국세기본법 제48조). 신고가 늦어질수록 감면율이 줄어드는 구조입니다.</p>
 
 <div style="background:#f6f6f4;border-left:4px solid #999;padding:14px 18px;margin:20px 0;line-height:1.9;">
   <b>구간별 정확한 감면율은 원문 확인 중입니다</b>
@@ -240,7 +240,7 @@ user_todo:
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #4a90d9;padding-left:12px;margin-top:36px;">신고와 별도로 붙는 납부지연가산세는 무엇인가요</h2>
 
-<p>납부지연가산세는 <mark>내야 할 세금을 늦게 낸 기간만큼</mark> 매일 붙는 이자 성격의 가산세로, 무신고가산세·과소신고가산세와는 별개로 부과됩니다.</p>
+<p>납부지연가산세는 <span style="background-color:#fff3a3;padding:0 2px;">내야 할 세금을 늦게 낸 기간만큼</span> 매일 붙는 이자 성격의 가산세로, 무신고가산세·과소신고가산세와는 별개로 부과됩니다.</p>
 
 <div style="background:#fdeaea;border-left:4px solid #d9534f;padding:14px 18px;margin:20px 0;line-height:1.8;">
   <b>2026-07-01부터 계산 방식이 바뀌었을 수 있습니다</b>

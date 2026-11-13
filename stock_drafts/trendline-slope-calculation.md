@@ -36,7 +36,7 @@ figure_plan: "3장(팝): 1 가정 가격 위 추세선과 재접촉·이탈 / 2 
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-09</p>
 
-<p>추세선은 <mark>상승할 때는 저점끼리, 하락할 때는 고점끼리 이은 직선</mark>이에요. 두 점만 있으면 기울기를 숫자로 구할 수 있고, <mark>추세선 가격 = 첫 저점 + 기울기 × 지난 날짜</mark>로 미래 날짜의 선 위치까지 계산할 수 있어요.</p>
+<p>추세선은 <span style="background-color:#fff3a3;padding:0 2px;">상승할 때는 저점끼리, 하락할 때는 고점끼리 이은 직선</span>이에요. 두 점만 있으면 기울기를 숫자로 구할 수 있고, <span style="background-color:#fff3a3;padding:0 2px;">추세선 가격 = 첫 저점 + 기울기 × 지난 날짜</span>로 미래 날짜의 선 위치까지 계산할 수 있어요.</p>
 
 <p>눈대중으로 긋는 대신 숫자로 구하면, 지금 가격이 선에 닿았는지, 뚫고 내려갔는지를 더 분명하게 말할 수 있어요. 가정 차트로 기울기, 연장선 가격, 이탈 판단까지 계산해 볼게요.</p>
 
@@ -86,8 +86,8 @@ figure_plan: "3장(팝): 1 가정 가격 위 추세선과 재접촉·이탈 / 2 
 
 <ol style="line-height:1.9;">
   <li><b>저점 두 개 고르기:</b> 5일 10,000원, 25일 10,800원</li>
-  <li><b>기울기:</b> (10,800 − 10,000) ÷ (25 − 5) = 800 ÷ 20 = <mark>하루 40원</mark></li>
-  <li><b>연장:</b> 그날 추세선 가격 = 10,000 + 40 × (그날 − 5). 45일이면 10,000 + 40 × 40 = <mark>11,600원</mark></li>
+  <li><b>기울기:</b> (10,800 − 10,000) ÷ (25 − 5) = 800 ÷ 20 = <span style="background-color:#fff3a3;padding:0 2px;">하루 40원</span></li>
+  <li><b>연장:</b> 그날 추세선 가격 = 10,000 + 40 × (그날 − 5). 45일이면 10,000 + 40 × 40 = <span style="background-color:#fff3a3;padding:0 2px;">11,600원</span></li>
 </ol>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -110,9 +110,9 @@ figure_plan: "3장(팝): 1 가정 가격 위 추세선과 재접촉·이탈 / 2 
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">날짜</th><th style="border:1px solid #ddd;padding:8px;">종가</th><th style="border:1px solid #ddd;padding:8px;">추세선</th><th style="border:1px solid #ddd;padding:8px;">차이</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">45일(재접촉)</td><td style="border:1px solid #ddd;padding:8px;">11,580원</td><td style="border:1px solid #ddd;padding:8px;">11,600원</td><td style="border:1px solid #ddd;padding:8px;"><mark>−0.17%</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">59일(첫 이탈)</td><td style="border:1px solid #ddd;padding:8px;">12,040원</td><td style="border:1px solid #ddd;padding:8px;">12,160원</td><td style="border:1px solid #ddd;padding:8px;"><mark>−0.99%</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">60일</td><td style="border:1px solid #ddd;padding:8px;">11,950원</td><td style="border:1px solid #ddd;padding:8px;">12,200원</td><td style="border:1px solid #ddd;padding:8px;"><mark>−2.05%</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">45일(재접촉)</td><td style="border:1px solid #ddd;padding:8px;">11,580원</td><td style="border:1px solid #ddd;padding:8px;">11,600원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−0.17%</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">59일(첫 이탈)</td><td style="border:1px solid #ddd;padding:8px;">12,040원</td><td style="border:1px solid #ddd;padding:8px;">12,160원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−0.99%</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">60일</td><td style="border:1px solid #ddd;padding:8px;">11,950원</td><td style="border:1px solid #ddd;padding:8px;">12,200원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−2.05%</span></td></tr>
   </tbody>
 </table>
 
@@ -120,7 +120,7 @@ figure_plan: "3장(팝): 1 가정 가격 위 추세선과 재접촉·이탈 / 2 
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">추세선 이탈은 언제로 볼까요?</h2>
 
-<p>정해진 정답은 없고, <mark>어떤 기준을 쓰느냐에 따라 '이탈한 날'이 달라져요.</mark> 그래서 기준을 미리 정해 두고 똑같이 적용하는 게 중요해요.</p>
+<p>정해진 정답은 없고, <span style="background-color:#fff3a3;padding:0 2px;">어떤 기준을 쓰느냐에 따라 '이탈한 날'이 달라져요.</span> 그래서 기준을 미리 정해 두고 똑같이 적용하는 게 중요해요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -128,8 +128,8 @@ figure_plan: "3장(팝): 1 가정 가격 위 추세선과 재접촉·이탈 / 2 
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">종가가 선 아래 1번이라도</td><td style="border:1px solid #ddd;padding:8px;">45일(−0.17%)</td><td style="border:1px solid #ddd;padding:8px;">가장 빠르지만 가짜 이탈도 잦아요</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 선보다 0.5% 이상 아래</td><td style="border:1px solid #ddd;padding:8px;"><mark>59일</mark>(−0.99%)</td><td style="border:1px solid #ddd;padding:8px;">작은 흔들림은 걸러요</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 선보다 2% 이상 아래</td><td style="border:1px solid #ddd;padding:8px;"><mark>60일</mark>(−2.05%)</td><td style="border:1px solid #ddd;padding:8px;">확실하지만 한발 늦어요</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 선보다 0.5% 이상 아래</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">59일</span>(−0.99%)</td><td style="border:1px solid #ddd;padding:8px;">작은 흔들림은 걸러요</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">종가가 선보다 2% 이상 아래</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">60일</span>(−2.05%)</td><td style="border:1px solid #ddd;padding:8px;">확실하지만 한발 늦어요</td></tr>
   </tbody>
 </table>
 
@@ -144,14 +144,14 @@ figure_plan: "3장(팝): 1 가정 가격 위 추세선과 재접촉·이탈 / 2 
 <ul style="line-height:1.9;">
   <li><b>직선:</b> 하루 +40원. 80일 추세선 가격 13,000원</li>
   <li><b>비율:</b> 20일에 8% 올랐으니 하루 약 +0.386%. 80일 추세선 가격 13,346원</li>
-  <li><b>차이:</b> 45일 64원 → 60일 157원 → 80일 <mark>346원</mark></li>
+  <li><b>차이:</b> 45일 64원 → 60일 157원 → 80일 <span style="background-color:#fff3a3;padding:0 2px;">346원</span></li>
 </ul>
 
 <p>가격이 몇 배씩 오르는 긴 기간 차트일수록 비율(로그) 눈금이 더 자연스럽다고 보는 사람이 많아요. 짧은 기간이면 둘의 차이가 작아요.</p>
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">한계: 어디를 잇느냐에 따라 달라져요</h2>
 
-<p>추세선의 가장 큰 약점은 <mark>어떤 저점을 고르느냐에 따라 선이 완전히 달라진다</mark>는 점이에요.</p>
+<p>추세선의 가장 큰 약점은 <span style="background-color:#fff3a3;padding:0 2px;">어떤 저점을 고르느냐에 따라 선이 완전히 달라진다</span>는 점이에요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>점 선택이 주관적이에요.</b> 5일 대신 0일 가격을 쓰거나 장중 저가를 쓰면 기울기가 바뀌어요.</li>

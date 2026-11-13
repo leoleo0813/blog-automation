@@ -40,7 +40,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-12</p>
 
-<p>퇴직금 계산은 <mark>1일 평균임금 × 30일 × (재직일수 ÷ 365)</mark> 공식 하나로 끝나요. 퇴직금은 같은 회사에서 1년 이상 일하고 그만둘 때 회사가 주는 돈으로, 대략 <b>1년 일할 때마다 한 달 치 월급</b>이 쌓인다고 보면 돼요.</p>
+<p>퇴직금 계산은 <span style="background-color:#fff3a3;padding:0 2px;">1일 평균임금 × 30일 × (재직일수 ÷ 365)</span> 공식 하나로 끝나요. 퇴직금은 같은 회사에서 1년 이상 일하고 그만둘 때 회사가 주는 돈으로, 대략 <b>1년 일할 때마다 한 달 치 월급</b>이 쌓인다고 보면 돼요.</p>
 
 <p>그런데 '한 달 치'가 정확히 얼마인지는 상여금을 넣느냐, 퇴사 전 3개월이 며칠이냐에 따라 달라져요. 월급 300만원, 3년 다닌 경우를 놓고 한 줄씩 직접 계산해 볼게요.</p>
 
@@ -82,15 +82,15 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">퇴직금은 누가 받을 수 있나요?</h2>
 
-<p>퇴직금은 <mark>같은 회사에서 1년 이상 일했고, 4주를 평균해 일주일에 15시간 이상 일한 사람</mark>이면 받아요. 근로자퇴직급여보장법(<a href="https://www.law.go.kr/법령/근로자퇴직급여보장법" target="_blank" rel="noopener">국가법령정보센터</a>)에 정해진 회사의 의무라서, 정규직·계약직·아르바이트를 가리지 않아요.</p>
+<p>퇴직금은 <span style="background-color:#fff3a3;padding:0 2px;">같은 회사에서 1년 이상 일했고, 4주를 평균해 일주일에 15시간 이상 일한 사람</span>이면 받아요. 근로자퇴직급여보장법(<a href="https://www.law.go.kr/법령/근로자퇴직급여보장법" target="_blank" rel="noopener">국가법령정보센터</a>)에 정해진 회사의 의무라서, 정규직·계약직·아르바이트를 가리지 않아요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">내 상황</th><th style="border:1px solid #ddd;padding:8px;">퇴직금</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">정규직 3년 근무 후 퇴사</td><td style="border:1px solid #ddd;padding:8px;"><mark>받음</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">편의점 알바, 주 20시간씩 1년 2개월</td><td style="border:1px solid #ddd;padding:8px;"><mark>받음</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">정규직 3년 근무 후 퇴사</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">받음</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">편의점 알바, 주 20시간씩 1년 2개월</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">받음</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">계약직 11개월 근무 후 계약 종료</td><td style="border:1px solid #ddd;padding:8px;">못 받음 (1년 미만)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">주 12시간씩 2년 근무</td><td style="border:1px solid #ddd;padding:8px;">못 받음 (주 15시간 미만)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">1년 계약 끝나고 같은 회사와 재계약해 계속 근무</td><td style="border:1px solid #ddd;padding:8px;">기간을 합쳐서 계산</td></tr>
@@ -103,7 +103,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">퇴직금 계산 공식은 어떻게 되나요?</h2>
 
-<p>퇴직금 공식은 <mark>1일 평균임금 × 30일 × (재직일수 ÷ 365)</mark>예요. 하루치 임금으로 '한 달 치'를 만들고, 일한 햇수만큼 곱한다고 이해하면 쉬워요.</p>
+<p>퇴직금 공식은 <span style="background-color:#fff3a3;padding:0 2px;">1일 평균임금 × 30일 × (재직일수 ÷ 365)</span>예요. 하루치 임금으로 '한 달 치'를 만들고, 일한 햇수만큼 곱한다고 이해하면 쉬워요.</p>
 
 <ol style="line-height:2;">
   <li><b>3개월 임금 총액 구하기:</b> 퇴직일 전 3개월 동안 받은 월급·수당(세금 떼기 전)을 모두 더해요.</li>
@@ -117,7 +117,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">월급 300만원, 3년 다니면 퇴직금은 얼마인가요?</h2>
 
-<p>상여금 없이 월급 300만원을 받고 3년(1,095일) 일했다면 퇴직금은 <mark>약 880만원(세전)</mark>이에요. 퇴직일이 11월 1일이라 퇴직 전 3개월이 8~10월(92일)인 경우로 계산했어요.</p>
+<p>상여금 없이 월급 300만원을 받고 3년(1,095일) 일했다면 퇴직금은 <span style="background-color:#fff3a3;padding:0 2px;">약 880만원(세전)</span>이에요. 퇴직일이 11월 1일이라 퇴직 전 3개월이 8~10월(92일)인 경우로 계산했어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/severance-pay-calculation-2026-1.png" alt="월급 300만원 기준 근속연수별 퇴직금: 1년 293만원, 3년 880만원, 5년 1,467만원, 10년 2,935만원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">월급 300만원·3개월 92일 기준. 평균임금 계산이며 세금 떼기 전 금액이에요.</figcaption></figure>
 
@@ -126,7 +126,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
   ① 3개월 임금: 300만 × 3 = <b>900만원</b><br>
   ② 1일 평균임금: 900만 ÷ 92일 = <b>97,826원</b><br>
   ③ 한 달 치: 97,826원 × 30일 = <b>약 293만원</b><br>
-  ④ 3년치: 293만 × 1,095 ÷ 365 = <mark><b>약 880만원</b></mark>
+  ④ 3년치: 293만 × 1,095 ÷ 365 = <span style="background-color:#fff3a3;padding:0 2px;"><b>약 880만원</b></span>
 </div>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -144,7 +144,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">상여금·연차수당은 어떻게 넣나요?</h2>
 
-<p>상여금과 연차수당은 <mark>1년 동안 받은 금액의 3/12만 3개월 임금에 더해요.</mark> 상여금을 받은 달에 몰아서 넣으면 퇴직 시점에 따라 금액이 들쭉날쭉해지니, 1년치를 12로 나눠 3개월분만 넣도록 정해 둔 거예요.</p>
+<p>상여금과 연차수당은 <span style="background-color:#fff3a3;padding:0 2px;">1년 동안 받은 금액의 3/12만 3개월 임금에 더해요.</span> 상여금을 받은 달에 몰아서 넣으면 퇴직 시점에 따라 금액이 들쭉날쭉해지니, 1년치를 12로 나눠 3개월분만 넣도록 정해 둔 거예요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/severance-pay-calculation-2026-2.png" alt="월급 300만원 3년 근무 퇴직금 비교: 월급만 880만원, 상여금·연차수당 포함 964만원, 3개월이 89일이면 910만원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">같은 사람도 계산에 넣는 항목과 퇴사 시점에 따라 금액이 달라져요.</figcaption></figure>
 
@@ -157,7 +157,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
     <tr><td style="border:1px solid #ddd;padding:8px;">상여금(1년 300만원)</td><td style="border:1px solid #ddd;padding:8px;">300만 × 3/12</td><td style="border:1px solid #ddd;padding:8px;">+75만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">연차수당(확정 40만원)</td><td style="border:1px solid #ddd;padding:8px;">40만 × 3/12</td><td style="border:1px solid #ddd;padding:8px;">+10만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;"><b>합계 ÷ 92일</b></td><td style="border:1px solid #ddd;padding:8px;">1일 평균임금</td><td style="border:1px solid #ddd;padding:8px;"><b>107,065원</b></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><b>3년 퇴직금</b></td><td style="border:1px solid #ddd;padding:8px;">× 30 × 3</td><td style="border:1px solid #ddd;padding:8px;"><mark><b>약 964만원</b></mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><b>3년 퇴직금</b></td><td style="border:1px solid #ddd;padding:8px;">× 30 × 3</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;"><b>약 964만원</b></span></td></tr>
   </tbody>
 </table>
 
@@ -165,7 +165,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">퇴사 날짜에 따라 퇴직금이 달라지나요?</h2>
 
-<p>네, <mark>퇴직 전 3개월의 날짜 수에 따라 1일 평균임금이 달라져요.</mark> 같은 900만원을 92일로 나누느냐, 89일로 나누느냐의 차이예요.</p>
+<p>네, <span style="background-color:#fff3a3;padding:0 2px;">퇴직 전 3개월의 날짜 수에 따라 1일 평균임금이 달라져요.</span> 같은 900만원을 92일로 나누느냐, 89일로 나누느냐의 차이예요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -173,7 +173,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">11월 1일</td><td style="border:1px solid #ddd;padding:8px;">8월·9월·10월</td><td style="border:1px solid #ddd;padding:8px;">92일</td><td style="border:1px solid #ddd;padding:8px;">약 880만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">5월 1일</td><td style="border:1px solid #ddd;padding:8px;">2월·3월·4월(평년)</td><td style="border:1px solid #ddd;padding:8px;">89일</td><td style="border:1px solid #ddd;padding:8px;"><mark>약 910만원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">5월 1일</td><td style="border:1px solid #ddd;padding:8px;">2월·3월·4월(평년)</td><td style="border:1px solid #ddd;padding:8px;">89일</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">약 910만원</span></td></tr>
   </tbody>
 </table>
 
@@ -183,7 +183,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">퇴직금은 언제, 어떻게 받나요?</h2>
 
-<p>회사는 <mark>퇴직한 날부터 14일 안에</mark> 퇴직금을 줘야 해요. 특별한 사정이 있으면 서로 합의해서 미룰 수 있지만, 늦어진 날만큼 <b>연 20%</b>의 지연이자가 붙어요.</p>
+<p>회사는 <span style="background-color:#fff3a3;padding:0 2px;">퇴직한 날부터 14일 안에</span> 퇴직금을 줘야 해요. 특별한 사정이 있으면 서로 합의해서 미룰 수 있지만, 늦어진 날만큼 <b>연 20%</b>의 지연이자가 붙어요.</p>
 
 <ol style="line-height:2;">
   <li><b>퇴사 전:</b> 은행·증권사 앱에서 본인 명의 <b>IRP 계좌</b>를 만들어 회사에 알려요. 55세 미만이면 원칙적으로 이 계좌로 받아요.</li>
@@ -199,7 +199,7 @@ figure_plan: "2장(팝·navy): 1 근속연수별 퇴직금 막대 / 2 월급만�
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">자주 하는 실수 5가지</h2>
 
-<p>퇴직금을 덜 받는 경우는 대부분 <mark>계산에 들어갈 항목을 빠뜨리거나 날짜를 잘못 세서</mark> 생겨요.</p>
+<p>퇴직금을 덜 받는 경우는 대부분 <span style="background-color:#fff3a3;padding:0 2px;">계산에 들어갈 항목을 빠뜨리거나 날짜를 잘못 세서</span> 생겨요.</p>
 
 <div style="background:#fff4f1;border:2px solid #ff6f59;border-radius:10px;padding:14px 18px;margin:20px 0;">
   <strong style="font-size:16px;">⚠️ 이것만 피하세요</strong>

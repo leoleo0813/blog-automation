@@ -36,7 +36,7 @@ figure_plan: "3장: 1 무료 대상 카드 / 2 대상별 시작일 일정 / 3 �
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-04</p>
 
-<p>2026~2027절기 독감 무료 예방접종은 <mark>생후 6개월~14세 어린이, 임신부, 65세 이상 어르신</mark>이 대상이고, <mark>2027년 4월 30일</mark>까지 전국 위탁의료기관과 보건소에서 받을 수 있어요. 올해부터 무료 대상 어린이가 13세에서 14세로 넓어져 2012년생도 무료예요.</p>
+<p>2026~2027절기 독감 무료 예방접종은 <span style="background-color:#fff3a3;padding:0 2px;">생후 6개월~14세 어린이, 임신부, 65세 이상 어르신</span>이 대상이고, <span style="background-color:#fff3a3;padding:0 2px;">2027년 4월 30일</span>까지 전국 위탁의료기관과 보건소에서 받을 수 있어요. 올해부터 무료 대상 어린이가 13세에서 14세로 넓어져 2012년생도 무료예요.</p>
 
 <p>아직 안 맞았다면 지금 맞아도 늦지 않아요. 우리 집에서 누가 무료인지, 아이가 두 번 맞아야 하는지, 어디서 맞는지 순서대로 볼게요.</p>
 
@@ -72,7 +72,7 @@ figure_plan: "3장: 1 무료 대상 카드 / 2 대상별 시작일 일정 / 3 �
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>어린이</mark></td><td style="border:1px solid #ddd;padding:8px;">생후 6개월~14세(2012.1.1.~2026.8.31. 출생)</td><td style="border:1px solid #ddd;padding:8px;">보호자와 함께 방문</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">어린이</span></td><td style="border:1px solid #ddd;padding:8px;">생후 6개월~14세(2012.1.1.~2026.8.31. 출생)</td><td style="border:1px solid #ddd;padding:8px;">보호자와 함께 방문</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">임신부</td><td style="border:1px solid #ddd;padding:8px;">임신이 확인된 사람, 임신 주수 상관없음</td><td style="border:1px solid #ddd;padding:8px;">산모수첩 또는 임신확인서</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">어르신</td><td style="border:1px solid #ddd;padding:8px;">65세 이상</td><td style="border:1px solid #ddd;padding:8px;">신분증</td></tr>
   </tbody>
@@ -97,13 +97,13 @@ figure_plan: "3장: 1 무료 대상 카드 / 2 대상별 시작일 일정 / 3 �
     <tr><td style="border:1px solid #ddd;padding:8px;">9월 21일(월)</td><td style="border:1px solid #ddd;padding:8px;">2회 접종 대상 어린이, 임신부</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">9월 28일(월)</td><td style="border:1px solid #ddd;padding:8px;">1회 접종 대상 어린이</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">10월 12일(월)~</td><td style="border:1px solid #ddd;padding:8px;">75세 이상부터 연령대별로 순차 시작</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>2027년 4월 30일</mark></td><td style="border:1px solid #ddd;padding:8px;">모든 대상 무료 접종 종료</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2027년 4월 30일</span></td><td style="border:1px solid #ddd;padding:8px;">모든 대상 무료 접종 종료</td></tr>
   </tbody>
 </table>
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #2f6f4f;padding-left:12px;margin-top:36px;">아이가 두 번 맞아야 하는 경우</h2>
 
-<p>생후 6개월 이상 9세 미만 아이 중 <mark>독감 백신을 한 번도 안 맞았거나, 예전에 1회만 맞은 아이</mark>는 이번 절기에 두 번 맞아요. 처음 맞는 해에는 한 번으로 면역이 충분히 생기지 않기 때문이에요.</p>
+<p>생후 6개월 이상 9세 미만 아이 중 <span style="background-color:#fff3a3;padding:0 2px;">독감 백신을 한 번도 안 맞았거나, 예전에 1회만 맞은 아이</span>는 이번 절기에 두 번 맞아요. 처음 맞는 해에는 한 번으로 면역이 충분히 생기지 않기 때문이에요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/flu-vaccine-free-2026-2027-3.png" alt="처음 맞는 9세 미만 아이 2회 접종 예시: 11월 9일 1차, 12월 7일 2차, 12월 21일쯤 면역" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">보통 4주 간격으로 맞아요. 정확한 간격은 접종하는 의료기관 안내를 따르면 돼요.</figcaption></figure>
 
@@ -115,8 +115,8 @@ figure_plan: "3장: 1 무료 대상 카드 / 2 대상별 시작일 일정 / 3 �
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">9세 미만, 독감 백신 처음</td><td style="border:1px solid #ddd;padding:8px;"><mark>2회</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">9세 미만, 예전에 1회만 맞음</td><td style="border:1px solid #ddd;padding:8px;"><mark>2회</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">9세 미만, 독감 백신 처음</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2회</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">9세 미만, 예전에 1회만 맞음</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2회</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">9세 미만, 예전에 2회 이상 맞음</td><td style="border:1px solid #ddd;padding:8px;">1회</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">9세 이상 ~ 14세</td><td style="border:1px solid #ddd;padding:8px;">1회</td></tr>
   </tbody>

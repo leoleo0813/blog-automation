@@ -37,7 +37,7 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-09</p>
 
-<p>2026년 부모급여는 <mark>0세(0~11개월) 월 100만원, 1세(12~23개월) 월 50만원</mark>이에요. 소득·재산과 상관없이 만 2세 미만이면 받고, 어린이집에 보내면 보육료를 뺀 나머지만 현금으로 들어와요.</p>
+<p>2026년 부모급여는 <span style="background-color:#fff3a3;padding:0 2px;">0세(0~11개월) 월 100만원, 1세(12~23개월) 월 50만원</span>이에요. 소득·재산과 상관없이 만 2세 미만이면 받고, 어린이집에 보내면 보육료를 뺀 나머지만 현금으로 들어와요.</p>
 
 <p>그래서 같은 부모급여라도 집에서 키우는지, 어린이집에 보내는지에 따라 통장에 들어오는 돈이 크게 달라요. 경우별 금액과 2년 총액, 그리고 국회에서 논의 중인 2027년 개편안까지 정리할게요.</p>
 
@@ -65,15 +65,15 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">부모급여란 무엇이고 2026년엔 얼마인가요?</h2>
 
-<p>부모급여는 <mark>만 2세 미만 아이를 키우는 가정에 매달 주는 현금 지원</mark>이에요. 2026년 금액은 작년과 같아요.</p>
+<p>부모급여는 <span style="background-color:#fff3a3;padding:0 2px;">만 2세 미만 아이를 키우는 가정에 매달 주는 현금 지원</span>이에요. 2026년 금액은 작년과 같아요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">나이</th><th style="border:1px solid #ddd;padding:8px;">월 금액</th><th style="border:1px solid #ddd;padding:8px;">1년 합계</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">0세(0~11개월)</td><td style="border:1px solid #ddd;padding:8px;"><mark>100만원</mark></td><td style="border:1px solid #ddd;padding:8px;">1,200만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1세(12~23개월)</td><td style="border:1px solid #ddd;padding:8px;"><mark>50만원</mark></td><td style="border:1px solid #ddd;padding:8px;">600만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">0세(0~11개월)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">100만원</span></td><td style="border:1px solid #ddd;padding:8px;">1,200만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1세(12~23개월)</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">50만원</span></td><td style="border:1px solid #ddd;padding:8px;">600만원</td></tr>
   </tbody>
 </table>
 
@@ -81,7 +81,7 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">어린이집 보내면 부모급여는 얼마 받나요?</h2>
 
-<p>어린이집에 다니면 부모급여에서 <mark>보육료가 먼저 빠지고, 남는 금액만 현금</mark>으로 들어와요. 0세는 41만6천원이 남지만, 1세는 보육료가 부모급여보다 많아서 현금이 0원이에요.</p>
+<p>어린이집에 다니면 부모급여에서 <span style="background-color:#fff3a3;padding:0 2px;">보육료가 먼저 빠지고, 남는 금액만 현금</span>으로 들어와요. 0세는 41만6천원이 남지만, 1세는 보육료가 부모급여보다 많아서 현금이 0원이에요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/parental-benefit-2026-daycare-amount-1.png" alt="부모급여 월 현금: 가정양육 0세 100만원, 어린이집 0세 41만6천원, 가정양육 1세 50만원, 어린이집 1세 0원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">어린이집 보육료는 바우처로 어린이집에 바로 지급돼요. 그래서 '못 받는' 게 아니라 '보육료로 쓰인' 거예요.</figcaption></figure>
 
@@ -90,10 +90,10 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">경우</th><th style="border:1px solid #ddd;padding:8px;">부모급여</th><th style="border:1px solid #ddd;padding:8px;">보육료(바우처)</th><th style="border:1px solid #ddd;padding:8px;">현금으로 받는 돈</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">0세 · 집에서</td><td style="border:1px solid #ddd;padding:8px;">100만원</td><td style="border:1px solid #ddd;padding:8px;">—</td><td style="border:1px solid #ddd;padding:8px;"><mark>100만원</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">0세 · 어린이집</td><td style="border:1px solid #ddd;padding:8px;">100만원</td><td style="border:1px solid #ddd;padding:8px;">58만4천원</td><td style="border:1px solid #ddd;padding:8px;"><mark>41만6천원</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1세 · 집에서</td><td style="border:1px solid #ddd;padding:8px;">50만원</td><td style="border:1px solid #ddd;padding:8px;">—</td><td style="border:1px solid #ddd;padding:8px;"><mark>50만원</mark></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1세 · 어린이집</td><td style="border:1px solid #ddd;padding:8px;">50만원</td><td style="border:1px solid #ddd;padding:8px;">51만5천원</td><td style="border:1px solid #ddd;padding:8px;"><mark>0원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">0세 · 집에서</td><td style="border:1px solid #ddd;padding:8px;">100만원</td><td style="border:1px solid #ddd;padding:8px;">—</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">100만원</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">0세 · 어린이집</td><td style="border:1px solid #ddd;padding:8px;">100만원</td><td style="border:1px solid #ddd;padding:8px;">58만4천원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">41만6천원</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1세 · 집에서</td><td style="border:1px solid #ddd;padding:8px;">50만원</td><td style="border:1px solid #ddd;padding:8px;">—</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">50만원</span></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1세 · 어린이집</td><td style="border:1px solid #ddd;padding:8px;">50만원</td><td style="border:1px solid #ddd;padding:8px;">51만5천원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">0원</span></td></tr>
   </tbody>
 </table>
 
@@ -101,7 +101,7 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">2년 동안 모두 얼마 받을까: 총액 비교</h2>
 
-<p>2년(0~23개월) 동안 집에서 키우면 현금으로 <mark>1,800만원</mark>, 0세부터 어린이집에 보내면 현금은 <mark>499만2천원</mark>이에요. 나머지는 보육료로 어린이집에 들어가요.</p>
+<p>2년(0~23개월) 동안 집에서 키우면 현금으로 <span style="background-color:#fff3a3;padding:0 2px;">1,800만원</span>, 0세부터 어린이집에 보내면 현금은 <span style="background-color:#fff3a3;padding:0 2px;">499만2천원</span>이에요. 나머지는 보육료로 어린이집에 들어가요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/parental-benefit-2026-daycare-amount-2.png" alt="부모급여 2년 총액 비교: 집에서 2년 현금 1,800만원, 1세부터 어린이집 현금 1,200만원, 0세부터 어린이집 현금 499만2천원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">계산: 월 현금 × 12개월. 2026년 금액이 2년 내내 같다고 가정했어요.</figcaption></figure>
 
@@ -110,7 +110,7 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
     <tr style="background:#1b2a4e;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">키우는 방식</th><th style="border:1px solid #ddd;padding:8px;">계산</th><th style="border:1px solid #ddd;padding:8px;">2년 현금 합계</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">2년 모두 집에서</td><td style="border:1px solid #ddd;padding:8px;">100만 × 12 + 50만 × 12</td><td style="border:1px solid #ddd;padding:8px;"><mark>1,800만원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">2년 모두 집에서</td><td style="border:1px solid #ddd;padding:8px;">100만 × 12 + 50만 × 12</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">1,800만원</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">0세 집 → 1세 어린이집</td><td style="border:1px solid #ddd;padding:8px;">100만 × 12 + 0 × 12</td><td style="border:1px solid #ddd;padding:8px;">1,200만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">0세부터 어린이집</td><td style="border:1px solid #ddd;padding:8px;">41.6만 × 12 + 0 × 12</td><td style="border:1px solid #ddd;padding:8px;">499만2천원</td></tr>
   </tbody>
@@ -120,7 +120,7 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">신청은 언제, 어디서 하나요?</h2>
 
-<p>출생일을 포함해 <mark>60일 안에</mark> 신청하면 태어난 달부터 받고, 늦으면 신청한 달부터 받아요. 출생신고 때 아동수당과 함께 신청하는 게 가장 편해요.</p>
+<p>출생일을 포함해 <span style="background-color:#fff3a3;padding:0 2px;">60일 안에</span> 신청하면 태어난 달부터 받고, 늦으면 신청한 달부터 받아요. 출생신고 때 아동수당과 함께 신청하는 게 가장 편해요.</p>
 
 <ul style="line-height:1.9;">
   <li><b>온라인:</b> 복지로 누리집·앱, 또는 정부24의 출산 서비스 통합 신청</li>
@@ -130,7 +130,7 @@ figure_plan: "3장(팝): 1 가정·어린이집 월 현금 막대 / 2 2년 총�
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #1b2a4e;padding-left:12px;margin-top:36px;">2027년엔 바뀌나요: 개편안(정부안) 정리</h2>
 
-<p>정부는 2027년 예산안에 <b>첫만남이용권과 부모급여를 '아이맞이지원금'으로 합치는 개편안</b>을 담았어요. 다만 <mark>국회 예산 심의와 법 개정 전이라 확정이 아니에요.</mark></p>
+<p>정부는 2027년 예산안에 <b>첫만남이용권과 부모급여를 '아이맞이지원금'으로 합치는 개편안</b>을 담았어요. 다만 <span style="background-color:#fff3a3;padding:0 2px;">국회 예산 심의와 법 개정 전이라 확정이 아니에요.</span></p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/parental-benefit-2026-daycare-amount-3.png" alt="2027 개편안(정부안): 아이맞이지원금 첫째 1,000만원 둘째 1,200만원 셋째 이상 1,500만원, 아동기본수당, 국회 확정 전" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">언론 보도 기준 정부안이에요. 12월 국회 심의에서 바뀔 수 있어요.</figcaption></figure>
 

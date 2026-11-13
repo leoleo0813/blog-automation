@@ -38,7 +38,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-13</p>
 
-<p>육아휴직급여는 육아휴직을 쓰는 동안 고용보험에서 매달 주는 돈이에요. 2026년에는 <mark>1~3개월째 월 최대 250만원, 4~6개월째 200만원, 7개월째부터 160만원</mark>을 받아요. 하한은 모든 달 월 70만원이에요.</p>
+<p>육아휴직급여는 육아휴직을 쓰는 동안 고용보험에서 매달 주는 돈이에요. 2026년에는 <span style="background-color:#fff3a3;padding:0 2px;">1~3개월째 월 최대 250만원, 4~6개월째 200만원, 7개월째부터 160만원</span>을 받아요. 하한은 모든 달 월 70만원이에요.</p>
 
 <p>상한이 석 달마다 바뀌어서 "그래서 1년이면 총 얼마?"가 바로 안 나오죠. 통상임금별로 12개월 총액을 계산하고, 부모가 함께 쓰는 6+6 제도로 바꾸면 얼마나 더 받는지도 같은 숫자로 비교해 볼게요.</p>
 
@@ -80,14 +80,14 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">2026년 육아휴직급여는 얼마인가요?</h2>
 
-<p>2026년 육아휴직급여는 <mark>휴직 시작부터 6개월까지 통상임금의 100%, 7개월째부터 80%</mark>를 주되, 달마다 정해진 상한과 하한 안에서 줘요. 2025년에 크게 오른 기준이 2026년에도 그대로 적용되고 있어요.</p>
+<p>2026년 육아휴직급여는 <span style="background-color:#fff3a3;padding:0 2px;">휴직 시작부터 6개월까지 통상임금의 100%, 7개월째부터 80%</span>를 주되, 달마다 정해진 상한과 하한 안에서 줘요. 2025년에 크게 오른 기준이 2026년에도 그대로 적용되고 있어요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#24262b;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">기간</th><th style="border:1px solid #ddd;padding:8px;">지급률</th><th style="border:1px solid #ddd;padding:8px;">상한</th><th style="border:1px solid #ddd;padding:8px;">하한</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1~3개월째</td><td style="border:1px solid #ddd;padding:8px;">통상임금 100%</td><td style="border:1px solid #ddd;padding:8px;"><mark>월 250만원</mark></td><td style="border:1px solid #ddd;padding:8px;">월 70만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1~3개월째</td><td style="border:1px solid #ddd;padding:8px;">통상임금 100%</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">월 250만원</span></td><td style="border:1px solid #ddd;padding:8px;">월 70만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">4~6개월째</td><td style="border:1px solid #ddd;padding:8px;">통상임금 100%</td><td style="border:1px solid #ddd;padding:8px;">월 200만원</td><td style="border:1px solid #ddd;padding:8px;">월 70만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">7개월째부터</td><td style="border:1px solid #ddd;padding:8px;">통상임금 80%</td><td style="border:1px solid #ddd;padding:8px;">월 160만원</td><td style="border:1px solid #ddd;padding:8px;">월 70만원</td></tr>
   </tbody>
@@ -97,7 +97,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">달마다 상한이 어떻게 바뀌나요?</h2>
 
-<p>상한은 <mark>석 달 단위로 250만원 → 200만원 → 160만원으로 내려가요.</mark> 휴직 초기에 돈이 더 필요하다는 점을 반영해 앞쪽을 두텁게 줘요.</p>
+<p>상한은 <span style="background-color:#fff3a3;padding:0 2px;">석 달 단위로 250만원 → 200만원 → 160만원으로 내려가요.</span> 휴직 초기에 돈이 더 필요하다는 점을 반영해 앞쪽을 두텁게 줘요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/parental-leave-pay-2026-calculation-2.png" alt="육아휴직급여 기간별 기준: 1~3개월째 100% 상한 250만원, 4~6개월째 100% 상한 200만원, 7개월째부터 80% 상한 160만원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">하한은 모든 달 70만원이에요.</figcaption></figure>
 
@@ -107,7 +107,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">내 통상임금이면 12개월에 얼마 받나요?</h2>
 
-<p>통상임금이 <mark>월 250만원 이상이면 12개월 총액은 2,310만원으로 모두 같아요.</mark> 모든 달이 상한에 걸리기 때문이에요. 그보다 적으면 통상임금에 따라 줄어요.</p>
+<p>통상임금이 <span style="background-color:#fff3a3;padding:0 2px;">월 250만원 이상이면 12개월 총액은 2,310만원으로 모두 같아요.</span> 모든 달이 상한에 걸리기 때문이에요. 그보다 적으면 통상임금에 따라 줄어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/parental-leave-pay-2026-calculation-1.png" alt="통상임금별 12개월 육아휴직급여: 월 150만원 1,620만원, 200만원 2,160만원, 250만원 2,310만원, 400만원 2,310만원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">일반 육아휴직 12개월 기준, 세금 없음.</figcaption></figure>
 
@@ -116,7 +116,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
   ① 1~3개월: 300만원 → 상한 250만원 × 3 = <b>750만원</b><br>
   ② 4~6개월: 300만원 → 상한 200만원 × 3 = <b>600만원</b><br>
   ③ 7~12개월: 300만원 × 80% = 240만원 → 상한 160만원 × 6 = <b>960만원</b><br>
-  ④ 합계: 750 + 600 + 960 = <mark><b>2,310만원</b></mark> (한 달 평균 약 192만원)
+  ④ 합계: 750 + 600 + 960 = <span style="background-color:#fff3a3;padding:0 2px;"><b>2,310만원</b></span> (한 달 평균 약 192만원)
 </div>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -126,7 +126,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">150만원</td><td style="border:1px solid #ddd;padding:8px;">150만 × 3</td><td style="border:1px solid #ddd;padding:8px;">150만 × 3</td><td style="border:1px solid #ddd;padding:8px;">120만 × 6</td><td style="border:1px solid #ddd;padding:8px;"><b>1,620만원</b></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">200만원</td><td style="border:1px solid #ddd;padding:8px;">200만 × 3</td><td style="border:1px solid #ddd;padding:8px;">200만 × 3</td><td style="border:1px solid #ddd;padding:8px;">160만 × 6</td><td style="border:1px solid #ddd;padding:8px;"><b>2,160만원</b></td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">250만원 이상</td><td style="border:1px solid #ddd;padding:8px;">250만 × 3</td><td style="border:1px solid #ddd;padding:8px;">200만 × 3</td><td style="border:1px solid #ddd;padding:8px;">160만 × 6</td><td style="border:1px solid #ddd;padding:8px;"><mark><b>2,310만원</b></mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">250만원 이상</td><td style="border:1px solid #ddd;padding:8px;">250만 × 3</td><td style="border:1px solid #ddd;padding:8px;">200만 × 3</td><td style="border:1px solid #ddd;padding:8px;">160만 × 6</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;"><b>2,310만원</b></span></td></tr>
   </tbody>
 </table>
 
@@ -134,7 +134,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">부모가 함께 쓰면(6+6) 얼마나 더 받나요?</h2>
 
-<p>부모가 함께 쓰면 <mark>첫 6개월 동안 통상임금 100%를 주고, 상한이 1개월째 200만원에서 6개월째 450만원까지 50만원씩 올라가요.</mark> 자녀가 생후 18개월 안일 때 부모가 동시에 또는 차례로 휴직하면 해당돼요.</p>
+<p>부모가 함께 쓰면 <span style="background-color:#fff3a3;padding:0 2px;">첫 6개월 동안 통상임금 100%를 주고, 상한이 1개월째 200만원에서 6개월째 450만원까지 50만원씩 올라가요.</span> 자녀가 생후 18개월 안일 때 부모가 동시에 또는 차례로 휴직하면 해당돼요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/parental-leave-pay-2026-calculation-3.png" alt="첫 6개월 부모 한 사람 기준 일반 육아휴직과 6+6 비교: 통상임금 300만원 1,350만원 대 1,650만원, 400만원 1,350만원 대 1,900만원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">부모 한 사람 기준이에요. 둘 다 쓰면 두 사람 모두 이 금액을 받아요.</figcaption></figure>
 
@@ -149,7 +149,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
     <tr><td style="border:1px solid #ddd;padding:8px;">4개월째</td><td style="border:1px solid #ddd;padding:8px;">350만원</td><td style="border:1px solid #ddd;padding:8px;">300만원</td><td style="border:1px solid #ddd;padding:8px;">350만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">5개월째</td><td style="border:1px solid #ddd;padding:8px;">400만원</td><td style="border:1px solid #ddd;padding:8px;">300만원</td><td style="border:1px solid #ddd;padding:8px;">400만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">6개월째</td><td style="border:1px solid #ddd;padding:8px;">450만원</td><td style="border:1px solid #ddd;padding:8px;">300만원</td><td style="border:1px solid #ddd;padding:8px;">400만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><b>합계</b></td><td style="border:1px solid #ddd;padding:8px;"></td><td style="border:1px solid #ddd;padding:8px;"><b>1,650만원</b></td><td style="border:1px solid #ddd;padding:8px;"><mark><b>1,900만원</b></mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><b>합계</b></td><td style="border:1px solid #ddd;padding:8px;"></td><td style="border:1px solid #ddd;padding:8px;"><b>1,650만원</b></td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;"><b>1,900만원</b></span></td></tr>
   </tbody>
 </table>
 
@@ -157,7 +157,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">육아휴직을 1년 6개월로 늘리려면?</h2>
 
-<p>육아휴직은 자녀 1명당 <mark>기본 1년</mark>이고, <mark>부모가 같은 자녀로 각각 3개월 이상 쓰면 6개월이 늘어나 1년 6개월</mark>까지 쓸 수 있어요. 한부모 가정의 부모, 중증 장애 아동의 부모도 늘릴 수 있어요.</p>
+<p>육아휴직은 자녀 1명당 <span style="background-color:#fff3a3;padding:0 2px;">기본 1년</span>이고, <span style="background-color:#fff3a3;padding:0 2px;">부모가 같은 자녀로 각각 3개월 이상 쓰면 6개월이 늘어나 1년 6개월</span>까지 쓸 수 있어요. 한부모 가정의 부모, 중증 장애 아동의 부모도 늘릴 수 있어요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -165,7 +165,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">한 사람만 사용</td><td style="border:1px solid #ddd;padding:8px;">1년</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">부모 모두 각각 3개월 이상 사용</td><td style="border:1px solid #ddd;padding:8px;"><mark>각자 1년 6개월</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">부모 모두 각각 3개월 이상 사용</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">각자 1년 6개월</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">한 명이 3개월 미만 사용</td><td style="border:1px solid #ddd;padding:8px;">1년 (연장 안 됨)</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">한부모·중증 장애 아동 부모</td><td style="border:1px solid #ddd;padding:8px;">1년 6개월</td></tr>
   </tbody>
@@ -175,7 +175,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">육아휴직급여는 어떻게 신청하나요?</h2>
 
-<p>육아휴직급여는 <mark>고용24에서 휴직 시작 1개월이 지난 뒤부터 매달 신청하고, 휴직이 끝난 뒤 12개월 안에 신청해야</mark> 받을 수 있어요.</p>
+<p>육아휴직급여는 <span style="background-color:#fff3a3;padding:0 2px;">고용24에서 휴직 시작 1개월이 지난 뒤부터 매달 신청하고, 휴직이 끝난 뒤 12개월 안에 신청해야</span> 받을 수 있어요.</p>
 
 <ol style="line-height:2;">
   <li><b>회사에 휴직 신청:</b> 휴직 시작 30일 전까지 회사에 신청해요.</li>
@@ -189,7 +189,7 @@ figure_plan: "3장(팝·charcoal): 1 통상임금별 12개월 총액 막대 / 2 
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">자주 하는 실수 5가지</h2>
 
-<p>육아휴직급여를 덜 받거나 놓치는 경우는 대부분 <mark>상한·지급률을 잘못 알거나 신청 기한을 넘겨서</mark> 생겨요.</p>
+<p>육아휴직급여를 덜 받거나 놓치는 경우는 대부분 <span style="background-color:#fff3a3;padding:0 2px;">상한·지급률을 잘못 알거나 신청 기한을 넘겨서</span> 생겨요.</p>
 
 <div style="background:#fff4f1;border:2px solid #ff6f59;border-radius:10px;padding:14px 18px;margin:20px 0;">
   <strong style="font-size:16px;">⚠️ 이것만 피하세요</strong>

@@ -35,7 +35,7 @@ figure_plan: "3장: 1 같은 가격 5·20·60일선과 교차 표시 / 2 골든�
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-04</p>
 
-<p>골든크로스는 <mark>짧은 기간 이동평균선이 긴 기간 이동평균선을 아래에서 위로 뚫고 올라가는 것</mark>이고, 데드크로스는 반대로 위에서 아래로 내려가는 것이에요. 최근 평균값이 오래된 평균값을 앞질렀다는 뜻이라, 가격 흐름이 바뀌었다는 표시로 읽어요.</p>
+<p>골든크로스는 <span style="background-color:#fff3a3;padding:0 2px;">짧은 기간 이동평균선이 긴 기간 이동평균선을 아래에서 위로 뚫고 올라가는 것</span>이고, 데드크로스는 반대로 위에서 아래로 내려가는 것이에요. 최근 평균값이 오래된 평균값을 앞질렀다는 뜻이라, 가격 흐름이 바뀌었다는 표시로 읽어요.</p>
 
 <p>다만 "골든크로스"라고 다 같은 게 아니에요. 5일·20일, 20일·60일, MACD 0선까지 어떤 선을 쓰느냐에 따라 같은 가격에서도 신호가 며칠씩 차이 나요. 가정 가격으로 세 종류를 모두 계산해서, 얼마나 늦게 나오고 얼마나 자주 속는지 비교해 볼게요.</p>
 
@@ -73,8 +73,8 @@ figure_plan: "3장: 1 같은 가격 5·20·60일선과 교차 표시 / 2 골든�
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>골든크로스</mark></td><td style="border:1px solid #ddd;padding:8px;">짧은 선 ≤ 긴 선</td><td style="border:1px solid #ddd;padding:8px;">짧은 선 &gt; 긴 선</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>데드크로스</mark></td><td style="border:1px solid #ddd;padding:8px;">짧은 선 ≥ 긴 선</td><td style="border:1px solid #ddd;padding:8px;">짧은 선 &lt; 긴 선</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">골든크로스</span></td><td style="border:1px solid #ddd;padding:8px;">짧은 선 ≤ 긴 선</td><td style="border:1px solid #ddd;padding:8px;">짧은 선 &gt; 긴 선</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">데드크로스</span></td><td style="border:1px solid #ddd;padding:8px;">짧은 선 ≥ 긴 선</td><td style="border:1px solid #ddd;padding:8px;">짧은 선 &lt; 긴 선</td></tr>
   </tbody>
 </table>
 
@@ -96,7 +96,7 @@ figure_plan: "3장: 1 같은 가격 5·20·60일선과 교차 표시 / 2 골든�
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">84일째</td><td style="border:1px solid #ddd;padding:8px;">10,070원</td><td style="border:1px solid #ddd;padding:8px;">9,984원</td><td style="border:1px solid #ddd;padding:8px;">10,026.5원</td><td style="border:1px solid #ddd;padding:8px;">5일선이 아래</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">85일째</td><td style="border:1px solid #ddd;padding:8px;">10,200원</td><td style="border:1px solid #ddd;padding:8px;">10,052원</td><td style="border:1px solid #ddd;padding:8px;">10,025원</td><td style="border:1px solid #ddd;padding:8px;"><mark>골든크로스</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">85일째</td><td style="border:1px solid #ddd;padding:8px;">10,200원</td><td style="border:1px solid #ddd;padding:8px;">10,052원</td><td style="border:1px solid #ddd;padding:8px;">10,025원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">골든크로스</span></td></tr>
   </tbody>
 </table>
 
@@ -145,7 +145,7 @@ figure_plan: "3장: 1 같은 가격 5·20·60일선과 교차 표시 / 2 골든�
   </thead>
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">71일째</td><td style="border:1px solid #ddd;padding:8px;">11,000원</td><td style="border:1px solid #ddd;padding:8px;">10,860원</td><td style="border:1px solid #ddd;padding:8px;">10,879원</td><td style="border:1px solid #ddd;padding:8px;">데드크로스</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">74일째</td><td style="border:1px solid #ddd;padding:8px;">10,780원</td><td style="border:1px solid #ddd;padding:8px;">10,916원</td><td style="border:1px solid #ddd;padding:8px;">10,909원</td><td style="border:1px solid #ddd;padding:8px;"><mark>골든크로스(차이 7원)</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">74일째</td><td style="border:1px solid #ddd;padding:8px;">10,780원</td><td style="border:1px solid #ddd;padding:8px;">10,916원</td><td style="border:1px solid #ddd;padding:8px;">10,909원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">골든크로스(차이 7원)</span></td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">75일째</td><td style="border:1px solid #ddd;padding:8px;">10,740원</td><td style="border:1px solid #ddd;padding:8px;">10,892원</td><td style="border:1px solid #ddd;padding:8px;">10,902원</td><td style="border:1px solid #ddd;padding:8px;">다시 데드크로스</td></tr>
   </tbody>
 </table>

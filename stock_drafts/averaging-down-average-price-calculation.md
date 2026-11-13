@@ -34,7 +34,7 @@ figure_plan: "3장: 1 손실률별 회복 상승률 막대 / 2 세 선택 평단
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-04</p>
 
-<p>물타기는 <mark>가지고 있는 주식이 산 가격보다 내렸을 때 더 사서 평균 매입단가(평단가)를 낮추는 것</mark>이에요. 평단가는 <mark>(먼저 산 금액 + 추가로 산 금액) ÷ 전체 수량</mark>으로 계산하고, 평단이 낮아지는 만큼 본전까지 올라야 하는 폭이 줄어요.</p>
+<p>물타기는 <span style="background-color:#fff3a3;padding:0 2px;">가지고 있는 주식이 산 가격보다 내렸을 때 더 사서 평균 매입단가(평단가)를 낮추는 것</span>이에요. 평단가는 <span style="background-color:#fff3a3;padding:0 2px;">(먼저 산 금액 + 추가로 산 금액) ÷ 전체 수량</span>으로 계산하고, 평단이 낮아지는 만큼 본전까지 올라야 하는 폭이 줄어요.</p>
 
 <p>대신 같은 종목에 들어간 돈이 커지기 때문에, 더 내리면 손실도 같이 커져요. 평단가 계산법, 원하는 평단을 만들려면 몇 주를 사야 하는지 거꾸로 구하는 식, 그리고 물타기 전후로 무엇이 바뀌고 무엇이 그대로인지 숫자로 볼게요.</p>
 
@@ -71,7 +71,7 @@ figure_plan: "3장: 1 손실률별 회복 상승률 막대 / 2 세 선택 평단
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">전체 매입금액</td><td style="border:1px solid #ddd;padding:8px;">10,000원 × 100주 + 7,000원 × 100주</td><td style="border:1px solid #ddd;padding:8px;">170만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">전체 수량</td><td style="border:1px solid #ddd;padding:8px;">100주 + 100주</td><td style="border:1px solid #ddd;padding:8px;">200주</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>새 평단가</mark></td><td style="border:1px solid #ddd;padding:8px;">170만원 ÷ 200주</td><td style="border:1px solid #ddd;padding:8px;"><b>8,500원</b></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">새 평단가</span></td><td style="border:1px solid #ddd;padding:8px;">170만원 ÷ 200주</td><td style="border:1px solid #ddd;padding:8px;"><b>8,500원</b></td></tr>
   </tbody>
 </table>
 
@@ -94,7 +94,7 @@ figure_plan: "3장: 1 손실률별 회복 상승률 막대 / 2 세 선택 평단
     <tr><td style="border:1px solid #ddd;padding:8px;">9,000원</td><td style="border:1px solid #ddd;padding:8px;">100 × 1,000 ÷ 2,000</td><td style="border:1px solid #ddd;padding:8px;">50주</td><td style="border:1px solid #ddd;padding:8px;">35만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">8,500원</td><td style="border:1px solid #ddd;padding:8px;">100 × 1,500 ÷ 1,500</td><td style="border:1px solid #ddd;padding:8px;">100주</td><td style="border:1px solid #ddd;padding:8px;">70만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">8,000원</td><td style="border:1px solid #ddd;padding:8px;">100 × 2,000 ÷ 1,000</td><td style="border:1px solid #ddd;padding:8px;">200주</td><td style="border:1px solid #ddd;padding:8px;">140만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">7,500원</td><td style="border:1px solid #ddd;padding:8px;">100 × 2,500 ÷ 500</td><td style="border:1px solid #ddd;padding:8px;"><mark>500주</mark></td><td style="border:1px solid #ddd;padding:8px;"><mark>350만원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">7,500원</td><td style="border:1px solid #ddd;padding:8px;">100 × 2,500 ÷ 500</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">500주</span></td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">350만원</span></td></tr>
   </tbody>
 </table>
 
@@ -106,7 +106,7 @@ figure_plan: "3장: 1 손실률별 회복 상승률 막대 / 2 세 선택 평단
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/averaging-down-average-price-calculation-1.png" alt="손실률별 원금 회복에 필요한 상승률: -10%는 11.1%, -30%는 42.9%, -50%는 100%, -70%는 233.3%" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">50% 내리면 두 배가 올라야 본전이에요.</figcaption></figure>
 
-<p>계산은 <mark>필요 상승률 = 손실률 ÷ (100 − 손실률) × 100</mark>이에요. 30% 내린 7,000원에서 10,000원으로 돌아가려면 3,000원 ÷ 7,000원 = 42.9%가 올라야 해요.</p>
+<p>계산은 <span style="background-color:#fff3a3;padding:0 2px;">필요 상승률 = 손실률 ÷ (100 − 손실률) × 100</span>이에요. 30% 내린 7,000원에서 10,000원으로 돌아가려면 3,000원 ÷ 7,000원 = 42.9%가 올라야 해요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/averaging-down-average-price-calculation-2.png" alt="7,000원에서 그대로 두면 본전까지 42.9%, 같은 수량 더 사면 21.4%, 두 배 수량 더 사면 14.3%" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">평단이 내려간 만큼 본전까지 필요한 상승률이 줄어요.</figcaption></figure>
 
@@ -126,7 +126,7 @@ figure_plan: "3장: 1 손실률별 회복 상승률 막대 / 2 세 선택 평단
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">들어간 돈</td><td style="border:1px solid #ddd;padding:8px;">100만원</td><td style="border:1px solid #ddd;padding:8px;">170만원</td><td style="border:1px solid #ddd;padding:8px;">240만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">평가금액</td><td style="border:1px solid #ddd;padding:8px;">70만원</td><td style="border:1px solid #ddd;padding:8px;">140만원</td><td style="border:1px solid #ddd;padding:8px;">210만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;"><mark>평가손실</mark></td><td style="border:1px solid #ddd;padding:8px;">−30만원</td><td style="border:1px solid #ddd;padding:8px;">−30만원</td><td style="border:1px solid #ddd;padding:8px;">−30만원</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">평가손실</span></td><td style="border:1px solid #ddd;padding:8px;">−30만원</td><td style="border:1px solid #ddd;padding:8px;">−30만원</td><td style="border:1px solid #ddd;padding:8px;">−30만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">수익률 표시</td><td style="border:1px solid #ddd;padding:8px;">−30.0%</td><td style="border:1px solid #ddd;padding:8px;">−17.6%</td><td style="border:1px solid #ddd;padding:8px;">−12.5%</td></tr>
   </tbody>
 </table>

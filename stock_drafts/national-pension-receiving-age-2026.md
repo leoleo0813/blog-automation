@@ -39,7 +39,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <p style="font-size:13px;color:#888;">최종 검토일: 2026-11-11</p>
 
-<p>국민연금 수령나이는 국민연금(노령연금)을 받기 시작할 수 있는 나이예요. 지금은 <mark>출생연도에 따라 만 63~65세</mark>로 정해져 있어요. 1961~64년생은 63세, 1965~68년생은 64세, <mark>1969년생부터는 65세</mark>예요.</p>
+<p>국민연금 수령나이는 국민연금(노령연금)을 받기 시작할 수 있는 나이예요. 지금은 <span style="background-color:#fff3a3;padding:0 2px;">출생연도에 따라 만 63~65세</span>로 정해져 있어요. 1961~64년생은 63세, 1965~68년생은 64세, <span style="background-color:#fff3a3;padding:0 2px;">1969년생부터는 65세</span>예요.</p>
 
 <p>여기에 선택지가 두 개 더 있어요. 최대 5년 일찍 받는 대신 깎이는 <b>조기수령</b>, 최대 5년 늦게 받는 대신 늘어나는 <b>연기</b>예요. 내 출생연도로 언제부터 받는지, 일찍 받거나 늦게 받으면 금액이 얼마나 달라지는지 같은 금액을 놓고 계산해 볼게요.</p>
 
@@ -81,7 +81,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-1" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">국민연금 수령나이는 몇 살인가요?</h2>
 
-<p>국민연금 수령나이는 <mark>출생연도별로 만 61세에서 65세까지 단계적으로 올라가도록</mark> 법에 정해져 있어요. 예전에는 60세였는데, 2013년부터 5년마다 한 살씩 늦춰졌어요.</p>
+<p>국민연금 수령나이는 <span style="background-color:#fff3a3;padding:0 2px;">출생연도별로 만 61세에서 65세까지 단계적으로 올라가도록</span> 법에 정해져 있어요. 예전에는 60세였는데, 2013년부터 5년마다 한 살씩 늦춰졌어요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/national-pension-receiving-age-2026-1.png" alt="출생연도별 국민연금 수령나이: 1953~56년생 61세, 1957~60년생 62세, 1961~64년생 63세, 1965~68년생 64세, 1969년생 이후 65세" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">1969년 이후 출생자는 모두 65세예요.</figcaption></figure>
 
@@ -92,9 +92,9 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">1953~1956년생</td><td style="border:1px solid #ddd;padding:8px;">61세</td><td style="border:1px solid #ddd;padding:8px;">56세</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">1957~1960년생</td><td style="border:1px solid #ddd;padding:8px;">62세</td><td style="border:1px solid #ddd;padding:8px;">57세</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1961~1964년생</td><td style="border:1px solid #ddd;padding:8px;"><mark>63세</mark></td><td style="border:1px solid #ddd;padding:8px;">58세</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1965~1968년생</td><td style="border:1px solid #ddd;padding:8px;"><mark>64세</mark></td><td style="border:1px solid #ddd;padding:8px;">59세</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1969년생 이후</td><td style="border:1px solid #ddd;padding:8px;"><mark>65세</mark></td><td style="border:1px solid #ddd;padding:8px;">60세</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1961~1964년생</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">63세</span></td><td style="border:1px solid #ddd;padding:8px;">58세</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1965~1968년생</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">64세</span></td><td style="border:1px solid #ddd;padding:8px;">59세</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1969년생 이후</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">65세</span></td><td style="border:1px solid #ddd;padding:8px;">60세</td></tr>
   </tbody>
 </table>
 
@@ -102,17 +102,17 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-2" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">내 출생연도면 몇 년도부터 받나요?</h2>
 
-<p>받기 시작하는 해는 <mark>출생연도 + 수령나이</mark>로 바로 계산돼요. 실제 지급은 생일이 지난 다음 달부터 시작돼요.</p>
+<p>받기 시작하는 해는 <span style="background-color:#fff3a3;padding:0 2px;">출생연도 + 수령나이</span>로 바로 계산돼요. 실제 지급은 생일이 지난 다음 달부터 시작돼요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
     <tr style="background:#24262b;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">내가 이렇다면</th><th style="border:1px solid #ddd;padding:8px;">수령나이</th><th style="border:1px solid #ddd;padding:8px;">받기 시작하는 해</th><th style="border:1px solid #ddd;padding:8px;">조기수령 가능한 해</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1963년생</td><td style="border:1px solid #ddd;padding:8px;">63세</td><td style="border:1px solid #ddd;padding:8px;"><mark>2026년</mark> (올해)</td><td style="border:1px solid #ddd;padding:8px;">2021년부터</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1965년생</td><td style="border:1px solid #ddd;padding:8px;">64세</td><td style="border:1px solid #ddd;padding:8px;"><mark>2029년</mark></td><td style="border:1px solid #ddd;padding:8px;">2024년부터</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1969년생</td><td style="border:1px solid #ddd;padding:8px;">65세</td><td style="border:1px solid #ddd;padding:8px;"><mark>2034년</mark></td><td style="border:1px solid #ddd;padding:8px;">2029년부터</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">1975년생</td><td style="border:1px solid #ddd;padding:8px;">65세</td><td style="border:1px solid #ddd;padding:8px;"><mark>2040년</mark></td><td style="border:1px solid #ddd;padding:8px;">2035년부터</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1963년생</td><td style="border:1px solid #ddd;padding:8px;">63세</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2026년</span> (올해)</td><td style="border:1px solid #ddd;padding:8px;">2021년부터</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1965년생</td><td style="border:1px solid #ddd;padding:8px;">64세</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2029년</span></td><td style="border:1px solid #ddd;padding:8px;">2024년부터</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1969년생</td><td style="border:1px solid #ddd;padding:8px;">65세</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2034년</span></td><td style="border:1px solid #ddd;padding:8px;">2029년부터</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">1975년생</td><td style="border:1px solid #ddd;padding:8px;">65세</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">2040년</span></td><td style="border:1px solid #ddd;padding:8px;">2035년부터</td></tr>
   </tbody>
 </table>
 
@@ -122,7 +122,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-3" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">조기수령하면 얼마나 깎이나요?</h2>
 
-<p>조기수령(조기노령연금)은 <mark>1년 앞당길 때마다 6%씩, 한 달로는 0.5%씩 깎여요.</mark> 최대 5년까지 앞당길 수 있고, 그러면 30%가 깎인 금액을 <b>평생</b> 받아요.</p>
+<p>조기수령(조기노령연금)은 <span style="background-color:#fff3a3;padding:0 2px;">1년 앞당길 때마다 6%씩, 한 달로는 0.5%씩 깎여요.</span> 최대 5년까지 앞당길 수 있고, 그러면 30%가 깎인 금액을 <b>평생</b> 받아요.</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/national-pension-receiving-age-2026-2.png" alt="제때 받으면 월 100만원인 사람 기준: 5년 조기 70만원, 3년 조기 82만원, 제때 100만원, 3년 연기 121만6천원, 5년 연기 136만원" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">제때 받으면 월 100만원인 사람을 가정한 계산이에요.</figcaption></figure>
 
@@ -133,7 +133,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">1년</td><td style="border:1px solid #ddd;padding:8px;">−6%</td><td style="border:1px solid #ddd;padding:8px;">월 94만원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">3년</td><td style="border:1px solid #ddd;padding:8px;">−18%</td><td style="border:1px solid #ddd;padding:8px;">월 82만원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">5년</td><td style="border:1px solid #ddd;padding:8px;"><mark>−30%</mark></td><td style="border:1px solid #ddd;padding:8px;"><mark>월 70만원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">5년</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">−30%</span></td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">월 70만원</span></td></tr>
   </tbody>
 </table>
 
@@ -141,7 +141,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-4" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">연기하면 얼마나 늘어나나요?</h2>
 
-<p>연기연금은 반대로 <mark>1년 미룰 때마다 7.2%씩, 한 달로는 0.6%씩 늘어나요.</mark> 최대 5년 미루면 36%가 늘어난 금액을 평생 받아요.</p>
+<p>연기연금은 반대로 <span style="background-color:#fff3a3;padding:0 2px;">1년 미룰 때마다 7.2%씩, 한 달로는 0.6%씩 늘어나요.</span> 최대 5년 미루면 36%가 늘어난 금액을 평생 받아요.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
   <thead>
@@ -150,7 +150,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
   <tbody>
     <tr><td style="border:1px solid #ddd;padding:8px;">1년</td><td style="border:1px solid #ddd;padding:8px;">+7.2%</td><td style="border:1px solid #ddd;padding:8px;">월 107만2천원</td></tr>
     <tr><td style="border:1px solid #ddd;padding:8px;">3년</td><td style="border:1px solid #ddd;padding:8px;">+21.6%</td><td style="border:1px solid #ddd;padding:8px;">월 121만6천원</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">5년</td><td style="border:1px solid #ddd;padding:8px;"><mark>+36%</mark></td><td style="border:1px solid #ddd;padding:8px;"><mark>월 136만원</mark></td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">5년</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">+36%</span></td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">월 136만원</span></td></tr>
   </tbody>
 </table>
 
@@ -158,7 +158,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-5" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">일찍·제때·늦게, 누적 금액은 언제 같아지나요?</h2>
 
-<p>일찍 받으면 먼저 받은 만큼 앞서가지만 매달 적게 받아서, <mark>어느 시점부터는 제때 받은 쪽의 누적 금액이 더 많아져요.</mark> 그 시점을 계산해 봤어요(물가에 따른 인상과 세금은 뺀 단순 계산이에요).</p>
+<p>일찍 받으면 먼저 받은 만큼 앞서가지만 매달 적게 받아서, <span style="background-color:#fff3a3;padding:0 2px;">어느 시점부터는 제때 받은 쪽의 누적 금액이 더 많아져요.</span> 그 시점을 계산해 봤어요(물가에 따른 인상과 세금은 뺀 단순 계산이에요).</p>
 
 <figure style="margin:24px 0;"><img src="https://raw.githubusercontent.com/leoleo0813/blog-automation/main/assets/figures/national-pension-receiving-age-2026-3.png" alt="누적 수령액이 같아지는 시점: 5년 조기와 제때는 정상 수령나이 후 11년 8개월, 5년 연기와 제때는 18년 11개월 뒤" style="max-width:100%;"><figcaption style="font-size:13px;color:#888;">수령나이 65세 기준으로는 약 76세 8개월, 83세 11개월이에요.</figcaption></figure>
 
@@ -167,8 +167,8 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
     <tr style="background:#24262b;color:#fff;"><th style="border:1px solid #ddd;padding:8px;">비교</th><th style="border:1px solid #ddd;padding:8px;">계산</th><th style="border:1px solid #ddd;padding:8px;">누적 금액이 같아지는 때</th></tr>
   </thead>
   <tbody>
-    <tr><td style="border:1px solid #ddd;padding:8px;">5년 조기(70만) vs 제때(100만)</td><td style="border:1px solid #ddd;padding:8px;">먼저 받은 70만 × 60개월 = 4,200만원 ÷ 매달 차이 30만원</td><td style="border:1px solid #ddd;padding:8px;"><mark>수령나이 후 11년 8개월</mark><br>(65세 기준 약 76세 8개월)</td></tr>
-    <tr><td style="border:1px solid #ddd;padding:8px;">제때(100만) vs 5년 연기(136만)</td><td style="border:1px solid #ddd;padding:8px;">먼저 받은 100만 × 60개월 = 6,000만원 ÷ 매달 차이 36만원 + 미룬 5년</td><td style="border:1px solid #ddd;padding:8px;"><mark>수령나이 후 18년 11개월</mark><br>(65세 기준 약 83세 11개월)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">5년 조기(70만) vs 제때(100만)</td><td style="border:1px solid #ddd;padding:8px;">먼저 받은 70만 × 60개월 = 4,200만원 ÷ 매달 차이 30만원</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">수령나이 후 11년 8개월</span><br>(65세 기준 약 76세 8개월)</td></tr>
+    <tr><td style="border:1px solid #ddd;padding:8px;">제때(100만) vs 5년 연기(136만)</td><td style="border:1px solid #ddd;padding:8px;">먼저 받은 100만 × 60개월 = 6,000만원 ÷ 매달 차이 36만원 + 미룬 5년</td><td style="border:1px solid #ddd;padding:8px;"><span style="background-color:#fff3a3;padding:0 2px;">수령나이 후 18년 11개월</span><br>(65세 기준 약 83세 11개월)</td></tr>
   </tbody>
 </table>
 
@@ -178,7 +178,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-6" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">내 예상 연금액 조회하고 신청하는 법</h2>
 
-<p>내가 받을 금액은 <mark>국민연금공단 누리집이나 '내 곁에 국민연금' 앱</mark>에서 바로 조회할 수 있어요. 메뉴 이름은 바뀔 수 있으니 비슷한 이름을 찾으면 돼요.</p>
+<p>내가 받을 금액은 <span style="background-color:#fff3a3;padding:0 2px;">국민연금공단 누리집이나 '내 곁에 국민연금' 앱</span>에서 바로 조회할 수 있어요. 메뉴 이름은 바뀔 수 있으니 비슷한 이름을 찾으면 돼요.</p>
 
 <ol style="line-height:2;">
   <li><a href="https://www.nps.or.kr" target="_blank" rel="noopener">국민연금공단 누리집(nps.or.kr)</a> 또는 '내 곁에 국민연금' 앱에 간편인증으로 로그인해요.</li>
@@ -192,7 +192,7 @@ figure_plan: "3장(팝·charcoal): 1 출생연도별 수령나이 막대 / 2 월
 
 <h2 id="sec-7" style="scroll-margin-top:72px;border-left:6px solid #24262b;padding-left:12px;margin-top:36px;">자주 하는 실수 5가지</h2>
 
-<p>국민연금에서 손해를 보는 경우는 대부분 <mark>나이와 감액을 잘못 알고 결정해서</mark> 생겨요. 아래 다섯 가지만 확인하세요.</p>
+<p>국민연금에서 손해를 보는 경우는 대부분 <span style="background-color:#fff3a3;padding:0 2px;">나이와 감액을 잘못 알고 결정해서</span> 생겨요. 아래 다섯 가지만 확인하세요.</p>
 
 <div style="background:#fff4f1;border:2px solid #ff6f59;border-radius:10px;padding:14px 18px;margin:20px 0;">
   <strong style="font-size:16px;">⚠️ 이것만 피하세요</strong>
