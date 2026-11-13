@@ -3895,6 +3895,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/basic-pension-2026-amount.md"
+    },
+    {
+      "id": 197,
+      "order": 197,
+      "title": "육아휴직급여 2026 계산, 월 250만·200만·160만 상한으로 12개월 받는 금액과 6+6 비교",
+      "slug": "parental-leave-pay-2026-calculation",
+      "keyword": "육아휴직급여",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "82000 (PC 22600 / 모바일 59400)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/parental-leave-pay-2026-calculation.md"
     }
   ],
   "backlog": {
