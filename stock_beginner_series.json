@@ -3923,6 +3923,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/envelope-indicator-calculation.md"
+    },
+    {
+      "id": 199,
+      "order": 199,
+      "title": "주휴수당 계산 2026, 최저시급 10,320원으로 주 15·20·40시간이면 얼마? 조건과 월급 환산",
+      "slug": "weekly-holiday-pay-calculation-2026",
+      "keyword": "주휴수당 계산",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "3380 (PC 1140 / 모바일 2240)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/weekly-holiday-pay-calculation-2026.md"
     }
   ],
   "backlog": {

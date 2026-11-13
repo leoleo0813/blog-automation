@@ -125,7 +125,7 @@ def card_svg(c, i, n, tag):
         s += t
         cy = yb + 230
         bw = _w(c['big'], 120)
-        s.append(f'<ellipse cx="{180 + bw / 2:.0f}" cy="{cy - 42}" rx="{min(bw / 2 + 34, 180 + bw / 2 - 118):.0f}" ry="82" fill="none" '
+        s.append(f'<ellipse cx="{180 + bw / 2:.0f}" cy="{cy - 42}" rx="{min(bw / 2 + 34, 180 + bw / 2 - 140):.0f}" ry="82" fill="none" '
                  f'stroke="#e0523f" stroke-width="5" transform="rotate(-3 {180 + bw / 2:.0f} {cy - 42})"/>')
         s.append(_t(180, cy, c['big'], 120, INK, SERIF, 900))
         s.append(_t(150, cy + 110, c['formula'], 36, SOFT, SANS, 500))
