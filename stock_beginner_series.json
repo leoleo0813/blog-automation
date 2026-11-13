@@ -3909,6 +3909,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/parental-leave-pay-2026-calculation.md"
+    },
+    {
+      "id": 198,
+      "order": 198,
+      "title": "엔벨로프 지표 뜻과 계산법, 20일 ±6% 직접 구하기와 2.5·6·10% 설정 비교 (볼린저밴드 차이·한계)",
+      "slug": "envelope-indicator-calculation",
+      "keyword": "엔벨로프",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "4080 (PC 970 / 모바일 3110)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/envelope-indicator-calculation.md"
     }
   ],
   "backlog": {
