@@ -3937,6 +3937,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/weekly-holiday-pay-calculation-2026.md"
+    },
+    {
+      "id": 200,
+      "order": 200,
+      "title": "도지캔들 뜻과 종류, 몸통 비율 계산으로 십자형·잠자리형·비석형 구분하기 (5%·10% 기준 비교)",
+      "slug": "doji-candle-meaning",
+      "keyword": "도지캔들",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "660 (PC 180 / 모바일 480)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/doji-candle-meaning.md"
     }
   ],
   "backlog": {
