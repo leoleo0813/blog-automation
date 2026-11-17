@@ -3951,6 +3951,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/doji-candle-meaning.md"
+    },
+    {
+      "id": 201,
+      "order": 201,
+      "title": "연차수당 계산 2026, 월급 300만원이면 하루 114,832원? 미사용 연차 5일·10일 금액과 근속별 연차 일수",
+      "slug": "annual-leave-pay-calculation-2026",
+      "keyword": "연차수당 계산",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "2350 (PC 1820 / 모바일 530)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/annual-leave-pay-calculation-2026.md"
     }
   ],
   "backlog": {
