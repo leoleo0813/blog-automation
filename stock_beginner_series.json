@@ -3979,6 +3979,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/vwap-calculation.md"
+    },
+    {
+      "id": 203,
+      "order": 203,
+      "title": "국가장학금 신청기간 2027년 1학기 1차, 11월 24일~1월 7일 45일간 · 재학생이 1차에 꼭 해야 하는 이유",
+      "slug": "national-scholarship-2027-first-application",
+      "keyword": "국가장학금 신청기간",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "9730 (PC 1610 / 모바일 8120)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/national-scholarship-2027-first-application.md"
     }
   ],
   "backlog": {
