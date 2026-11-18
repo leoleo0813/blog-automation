@@ -3965,6 +3965,20 @@
       "gate_pass": true,
       "status": "drafted",
       "draft_path": "stock_drafts/annual-leave-pay-calculation-2026.md"
+    },
+    {
+      "id": 202,
+      "order": 202,
+      "title": "VWAP 뜻과 계산법, 거래량가중평균가격 직접 구하기와 단순평균과 80원 차이 나는 이유 (내 평균 매수가 비교)",
+      "slug": "vwap-calculation",
+      "keyword": "VWAP",
+      "type": "차트·지표(기법)",
+      "track": "chart",
+      "monthly_search_volume": "570 (PC 280 / 모바일 290)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/vwap-calculation.md"
     }
   ],
   "backlog": {
