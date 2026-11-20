@@ -42,7 +42,7 @@ def make_video(slug, out_mp4, theme='navy', sec=3.5, fade=0.5, card_dir=CAROUSEL
         filters.append(f'[{last}][v{i}]xfade=transition=slideleft:duration={fade}:offset={off:.2f}[x{i}]')
         last = f'x{i}'
     Path(out_mp4).parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', *inputs, '-filter_complex', ';'.join(filters),
+    subprocess.run([__import__('blog_automation.render_env', fromlist=['ffmpeg']).ffmpeg(), '-y', '-loglevel', 'error', *inputs, '-filter_complex', ';'.join(filters),
                     '-map', f'[{last}]', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', str(out_mp4)],
                    check=True)
     return str(out_mp4)

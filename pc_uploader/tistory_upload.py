@@ -31,6 +31,8 @@ LOGS = HERE / 'logs'
 STATE = HERE / 'state.json'
 AUTH = HERE / 'auth.json'   # 로그인 쿠키(이 PC에만, 저장소에 올라가지 않음)
 RAW = 'https://raw.githubusercontent.com/leoleo0813/blog-automation/main/'
+MOD = 'Meta' if sys.platform == 'darwin' else 'Control'   # Mac은 Cmd, Windows는 Ctrl
+SHARED = REPO / 'office' / 'uploaded.json'   # 여러 PC(Windows·Mac)가 같이 보는 '올린 글' 기록(저장소에 올라감)
 IMG_TOKEN = re.compile(r'\[##_Image\|.*?_##\]', re.S)
 
 
@@ -51,7 +53,26 @@ def shot(page, name):
 
 
 def load_state():
-    return json.loads(STATE.read_text(encoding='utf-8')) if STATE.exists() else {'done': {}}
+    st = json.loads(STATE.read_text(encoding='utf-8')) if STATE.exists() else {'done': {}}
+    if SHARED.exists():   # 다른 PC가 올린 글도 '완료'로 본다
+        for k, v in json.loads(SHARED.read_text(encoding='utf-8')).items():
+            st['done'].setdefault(k, v)
+    return st
+
+
+def share_done(slug, info):
+    """비공개 발행 성공을 저장소(office/uploaded.json)에 기록하고 올린다 → 다른 PC가 같은 글을 또 올리지 않는다."""
+    import platform
+    import subprocess
+    g = lambda *a: subprocess.run(['git', '-C', str(REPO), *a], capture_output=True, text=True)
+    g('pull', '--rebase', '--autostash', '-q')
+    d = json.loads(SHARED.read_text(encoding='utf-8')) if SHARED.exists() else {}
+    d[slug] = dict(info, machine=platform.node())
+    SHARED.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    g('add', str(SHARED))
+    g('commit', '-q', '-m', f'업로드 기록: {slug} 비공개 발행')
+    r = g('push', '-q')
+    log('올린 글 기록 공유: ' + ('완료' if r.returncode == 0 else '실패(나중에 git push 해 주세요) ' + r.stderr[-120:]))
 
 
 def save_state(st):
@@ -102,15 +123,61 @@ def build_parts(path):
 CDP_URL = CFG.get('cdp_url', 'http://127.0.0.1:9222')
 
 
-def open_browser(p):
-    """start_chrome.bat으로 띄운 '일반 크롬'(사람이 로그인한 창)에 연결한다. 연결이 안 되면 예전 방식으로 연다."""
+def chrome_path():
+    import shutil
+    if sys.platform == 'darwin':
+        cands = ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+                 str(Path.home() / 'Applications/Google Chrome.app/Contents/MacOS/Google Chrome')]
+    elif sys.platform.startswith('win'):
+        import os
+        cands = [str(Path(os.environ.get(k, '')) / 'Google/Chrome/Application/chrome.exe')
+                 for k in ('PROGRAMFILES', 'PROGRAMFILES(X86)', 'LOCALAPPDATA')]
+    else:
+        cands = [shutil.which('google-chrome') or '', shutil.which('chromium') or '']
+    return next((c for c in cands if c and Path(c).is_file()), None)
+
+
+def start_chrome():
+    """업로드용 '일반 크롬'(chrome-profile 폴더, 9222 포트)을 띄운다. Windows·Mac 공통. 이미 떠 있으면 그대로 쓴다."""
+    import subprocess
+    import urllib.request
     try:
-        browser = p.chromium.connect_over_cdp(CDP_URL, timeout=5000)
+        urllib.request.urlopen(CDP_URL + '/json/version', timeout=2)
+        return True
+    except Exception:
+        pass
+    c = chrome_path()
+    if not c:
+        log('크롬을 찾지 못했어요. 크롬을 설치해 주세요.')
+        return False
+    subprocess.Popen([c, '--remote-debugging-port=9222', f'--user-data-dir={HERE / "chrome-profile"}', '--no-first-run',
+                      f'https://{BLOG}.tistory.com/manage'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    for _ in range(30):
+        time.sleep(1)
+        try:
+            urllib.request.urlopen(CDP_URL + '/json/version', timeout=2)
+            log('업로드용 크롬을 띄웠어요.')
+            time.sleep(2)
+            return True
+        except Exception:
+            continue
+    return False
+
+
+def open_browser(p):
+    """업로드용 '일반 크롬'(사람이 로그인한 창)에 연결한다. 꺼져 있으면 직접 띄운다."""
+    start_chrome()
+    try:
+        browser = p.chromium.connect_over_cdp(CDP_URL, timeout=8000)
         ctx = browser.contexts[0] if browser.contexts else browser.new_context()
+        try:
+            ctx.grant_permissions(['clipboard-read', 'clipboard-write'], origin=f'https://{BLOG}.tistory.com')
+        except Exception:
+            pass
         log('일반 크롬에 연결했어요.')
         return ctx, (lambda: None)   # 사람이 쓰는 크롬이니 닫지 않는다
     except Exception:
-        log('일반 크롬을 찾지 못했어요. start_chrome.bat 을 먼저 실행해 주세요. (예전 방식으로 시도)')
+        log('일반 크롬에 연결하지 못했어요. (예전 방식으로 시도)')
         ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=bool(CFG.get('headless', False)),
                                                    channel=CFG.get('browser_channel') or None,
                                                    permissions=['clipboard-read', 'clipboard-write'])
@@ -221,8 +288,8 @@ def html_set(page, html):
     """보이는 HTML 칸에 실제 붙여넣기(Ctrl+V)로 넣는다. 티스토리 편집기는 붙여넣기로 넣어야 내용을 받는다(2026-11-20 확인)."""
     page.evaluate("t => navigator.clipboard.writeText(t)", html)
     page.locator('.CodeMirror:visible').first.click()
-    page.keyboard.press('Control+A')
-    page.keyboard.press('Control+V')
+    page.keyboard.press(f'{MOD}+A')
+    page.keyboard.press(f'{MOD}+V')
     time.sleep(2)
     n = len(html_get(page) or '')
     log(f'HTML 칸 붙여넣기: {n}자')
@@ -471,6 +538,8 @@ def run(mode, slug=None, keep_open=False):
         if mode == 'private':   # 시험(임시저장)은 기록하지 않는다 → 나중에 자동 실행 때 다시 올라간다
             st['done'][s] = {'mode': mode, 'at': datetime.datetime.now().isoformat(timespec='minutes')}
             save_state(st)
+            if not slug:   # 시험(--slug 지정)은 공유 기록에 남기지 않는다
+                share_done(s, st['done'][s])
         log(f'완료: {s} ({mode})')
         if keep_open:
             input('창을 확인한 뒤 Enter를 누르면 닫혀요...')
@@ -518,7 +587,13 @@ if __name__ == '__main__':
     ap.add_argument('--keep-open', action='store_true')
     ap.add_argument('--mark-done', nargs='*', help='이미 직접 올린 글의 슬러그(자동 업로드 대상에서 뺌)')
     ap.add_argument('--list', action='store_true', help='다음에 올릴 순서 보기')
+    ap.add_argument('--chrome', action='store_true', help='업로드용 크롬만 띄우기(처음 로그인할 때)')
     a = ap.parse_args()
+    if a.chrome:
+        ok = start_chrome()
+        print('업로드용 크롬이 열렸어요. 그 창에서 티스토리에 직접 로그인해 두세요(창은 닫아도 로그인은 유지돼요).' if ok
+              else '크롬을 띄우지 못했어요. 크롬이 설치되어 있는지 확인해 주세요.')
+        sys.exit(0 if ok else 1)
     if a.mark_done is not None:
         st = load_state()
         for x in a.mark_done:

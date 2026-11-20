@@ -16,7 +16,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STATUS = ROOT / 'office' / 'status.json'
+STATUS = ROOT / 'office' / 'status.json'          # PC마다 따로(저장소에 안 올라감)
+EXAMPLE = ROOT / 'office' / 'status.example.json'
 TEMPLATE = ROOT / 'office' / 'template.html'
 OUT = ROOT / 'office' / 'index.html'
 SERIES = ROOT / 'stock_beginner_series.json'
@@ -30,7 +31,10 @@ def now():
 
 
 def load():
-    return json.loads(STATUS.read_text(encoding='utf-8'))
+    try:
+        return json.loads(STATUS.read_text(encoding='utf-8'))
+    except Exception:   # 처음이거나 깨졌으면 기본 상태로 시작
+        return json.loads(EXAMPLE.read_text(encoding='utf-8'))
 
 
 def save(st):
@@ -42,13 +46,15 @@ def counts():
     d = json.loads(SERIES.read_text(encoding='utf-8'))
     items = d['items']
     pub = [i for i in items if i.get('status') == 'published']
+    today = datetime.now(KST).strftime('%Y-%m-%d')
+    made_today = sum(1 for i in items if str(i.get('made_at', '')).startswith(today))   # 모든 PC 공통(저장소 기록)
     new = [i for i in items if isinstance(i['id'], int) and i['id'] >= 194]
     waiting = [i for i in new if i.get('status') != 'published']
     last = items[-1]
     recent = [i.get('track') for i in items[-2:]]
     nxt = 'chart' if recent == ['life', 'life'] else 'life'   # 생활정보:차트 = 2:1
     return {
-        'published': len(pub), 'total': len(items), 'waiting_upload': len(waiting),
+        'published': len(pub), 'total': len(items), 'made_today': made_today, 'waiting_upload': len(waiting),
         'last': {'id': last['id'], 'title': last['title'], 'track': last.get('track')},
         'next_track': nxt,
         'recent': [{'id': i['id'], 'title': i['title'], 'track': i.get('track'), 'status': i.get('status')}
@@ -56,12 +62,23 @@ def counts():
     }
 
 
+HEAD = ('<!doctype html><html lang="ko"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
+        '<style>body{margin:0}</style></head><body>')
+
+
+def render(st, standalone=True):
+    """standalone=True: PC에서 바로 여는 완전한 문서. False: Artifact 게시용(뼈대는 게시할 때 붙음)."""
+    html = TEMPLATE.read_text(encoding='utf-8')
+    data = json.dumps(st, ensure_ascii=False).replace('</', '<\\/')
+    html = html.replace('__OFFICE_DATA__', data)
+    return HEAD + html + '</body></html>' if standalone else html
+
+
 def build():
     st = load()
     st['counts'] = counts()
-    html = TEMPLATE.read_text(encoding='utf-8')
-    data = json.dumps(st, ensure_ascii=False).replace('</', '<\\/')
-    OUT.write_text(html.replace('__OFFICE_DATA__', data), encoding='utf-8')
+    OUT.write_text(render(st), encoding='utf-8')
     return str(OUT)
 
 

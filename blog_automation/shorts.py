@@ -78,7 +78,7 @@ def make_shorts(out_mp4, scenes, frame_dir, fade=0.35, fps=30):
         filters.append(f'[{last}][v{i}]xfade=transition=fade:duration={fade}:offset={t - fade:.2f}[x{i}]')
         last, t = f'x{i}', t - fade + scenes[i]['sec']
     Path(out_mp4).parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', *inputs, '-filter_complex', ';'.join(filters),
+    subprocess.run([__import__('blog_automation.render_env', fromlist=['ffmpeg']).ffmpeg(), '-y', '-loglevel', 'error', *inputs, '-filter_complex', ';'.join(filters),
                     '-map', f'[{last}]', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-r', str(fps),
                     '-movflags', '+faststart', str(out_mp4)], check=True)
     return str(out_mp4), round(t, 2)

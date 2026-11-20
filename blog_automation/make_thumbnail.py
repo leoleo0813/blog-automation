@@ -133,16 +133,8 @@ def _build_points_block(points, accent, bg):
 
 
 def _find_chrome():
-    import os
-    browsers_path = os.environ.get('PLAYWRIGHT_BROWSERS_PATH', '/opt/pw-browsers')
-    for candidate in sorted(Path(browsers_path).glob('chromium-*/chrome-linux*/chrome'), reverse=True):
-        if candidate.is_file():
-            return str(candidate)
-    for name in ('chromium', 'chromium-browser', 'google-chrome', 'google-chrome-stable'):
-        found = shutil.which(name)
-        if found:
-            return found
-    return None
+    from blog_automation.render_env import find_chrome
+    return find_chrome()
 
 
 def _ensure_pillow():
@@ -177,14 +169,8 @@ def _rasterize_to_png_bytes(svg_text):
         svg_path.write_text(svg_text, encoding='utf-8')
         raw_png = Path(td) / 'raw.png'
         try:
-            subprocess.run(
-                [
-                    chrome, '--headless', '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
-                    f'--window-size={WIDTH},{HEIGHT + 300}', '--virtual-time-budget=3000',
-                    f'--screenshot={raw_png}', f'file://{svg_path}',
-                ],
-                check=True, timeout=30, capture_output=True,
-            )
+            from blog_automation.render_env import chrome_shot
+            chrome_shot(chrome, svg_path, raw_png, WIDTH, HEIGHT)
             cropped = Path(td) / 'cropped.png'
             Image.open(raw_png).crop((0, 0, WIDTH, HEIGHT)).save(cropped)
             return cropped.read_bytes()

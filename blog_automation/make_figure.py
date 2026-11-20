@@ -17,6 +17,7 @@ import tempfile
 from pathlib import Path
 
 from blog_automation.make_thumbnail import _ensure_pillow, _find_chrome
+from blog_automation.render_env import chrome_shot
 
 
 def _size(svg_text):
@@ -40,14 +41,7 @@ def main():
     png_path = svg_path.with_suffix('.png')
     with tempfile.TemporaryDirectory() as td:
         raw_png = Path(td) / 'raw.png'
-        subprocess.run(
-            [
-                chrome, '--headless', '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
-                f'--window-size={width},{height + 300}', '--virtual-time-budget=3000',
-                f'--screenshot={raw_png}', f'file://{svg_path.resolve()}',
-            ],
-            check=True, timeout=30, capture_output=True,
-        )
+        chrome_shot(chrome, svg_path, raw_png, width, height)
         Image.open(raw_png).crop((0, 0, width, height)).save(png_path)
     print(png_path)
 

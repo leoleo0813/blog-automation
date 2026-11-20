@@ -23,4 +23,6 @@
 - `office/index.html` 한 장에 층마다 팀원 상태(대기·일하는 중·완료·막힘)와 하는 일, 사람 할 일, 최근 글, 작업 기록을 보여 준다.
 - 각 역할은 일을 시작할 때와 끝낼 때 상태를 적는다. 그러면 화면도 같이 다시 만들어진다.
   `python -m blog_automation.office --set writer working "원고 쓰는 중"` → 끝나면 `--set writer done "3,812자 완료"`
-- 멈춤 규칙에 걸리면 `blocked`로 적고 이유를 남긴다. 배포 커밋에 office/ 변경을 같이 넣는다.
+- 멈춤 규칙에 걸리면 `blocked`로 적고 이유를 남긴다. status.json·index.html은 PC마다 따로 두고 커밋하지 않는다.
+- **PC 실행(Windows·Mac)**: `office/start_tower.bat`(Windows) / `office/start_tower.command`(Mac) → 7층 [기획 시작] → Claude Code가 office/PRODUCE.md 순서로 1편 → 끝나면 업로더가 비공개 발행. 설치는 office/SETUP.md.
+- 여러 PC 공통 기록: office/lock.json(제작 중 표시, 2시간 지나면 무시), office/uploaded.json(올린 글), 시리즈 JSON의 made_at(하루 2편 제한).

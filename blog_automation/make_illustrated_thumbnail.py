@@ -25,7 +25,11 @@ TRACKS = {
 
 
 def _install_fonts():
-    """Chromium이 fontconfig로 찾도록 저장소의 글꼴을 사용자 글꼴 폴더에 둔다."""
+    """Chromium이 fontconfig로 찾도록 저장소의 글꼴을 사용자 글꼴 폴더에 둔다.
+    Mac·Windows는 render_env.prepare_svg가 @font-face로 직접 넣으므로 여기서는 하지 않는다."""
+    import platform
+    if platform.system() != 'Linux':
+        return
     dest = Path.home() / '.fonts'
     dest.mkdir(exist_ok=True)
     copied = False
