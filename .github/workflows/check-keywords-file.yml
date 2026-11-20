@@ -38,9 +38,18 @@ jobs:
           NAVER_AD_ACCESS_LICENSE: ${{ secrets.NAVER_AD_ACCESS_LICENSE }}
           NAVER_AD_SECRET_KEY: ${{ secrets.NAVER_AD_SECRET_KEY }}
       - name: Commit result
+        # 측정 스크립트가 다른 파일(캐시 등)을 건드려도 상관없게: 결과만 따로 빼 두고 최신 main 위에 그 파일 하나만 올린다.
         run: |
           git config user.name "keyword-bot"
           git config user.email "keyword-bot@users.noreply.github.com"
-          git add keyword_requests/result.txt
-          git commit -m "검색량 측정 결과 [skip ci]" || exit 0
-          git pull --rebase --autostash origin main && git push origin main
+          cp keyword_requests/result.txt "$RUNNER_TEMP/result.txt"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp "$RUNNER_TEMP/result.txt" keyword_requests/result.txt
+            git add keyword_requests/result.txt
+            git commit -q -m "검색량 측정 결과 [skip ci]" || exit 0
+            git push -q origin HEAD:main && exit 0
+            sleep $((i * 3))
+          done
+          exit 1
