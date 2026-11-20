@@ -173,8 +173,8 @@ def click_first(page, selectors, what, timeout=4000):
     """여러 후보 중 화면에 보이는 첫 번째를 누른다. 누른 후보를 기록한다."""
     for sel in selectors:
         try:
-            loc = page.locator(sel).first
-            if loc.count() and loc.is_visible():
+            loc = page.locator(sel).locator('visible=true').first
+            if loc.count():
                 loc.click(timeout=timeout)
                 log(f'{what}: {sel}')
                 return True
@@ -242,35 +242,55 @@ def img_count(page):
     return page.evaluate("() => tinymce.activeEditor.getBody().querySelectorAll('img').length")
 
 
+ATTACH_BTN = ['#attach-layer-btn', '#mceu_0 button', '#mceu_0', 'button[aria-label*="첨부"]', 'button[aria-label*="사진"]',
+              '[class*=attach] button', '[class*=attach]', '[class*=image] button[class*=open]']
+
+
+def open_attach_menu(page):
+    """도구 막대 맨 왼쪽 그림 버튼(옆에 ▾)을 눌러 [사진 / 파일 / 슬라이드쇼] 메뉴를 연다(2026-11-20 사용자 캡처)."""
+    if click_first(page, ATTACH_BTN, '첨부(그림) 버튼'):
+        return True
+    # 이름으로 못 찾으면: 굵게(B) 버튼보다 왼쪽에 있는, 도구 막대 줄의 맨 왼쪽 버튼을 누른다
+    box = page.evaluate("""() => {
+        const vis = e => e.offsetWidth && e.offsetHeight;
+        const bold = [...document.querySelectorAll('button, [role=button], div[class*=btn]')].find(e => vis(e) &&
+            /굵게|bold/i.test((e.getAttribute('aria-label') || '') + (e.title || '') + e.className));
+        if (!bold) return null;
+        const r = bold.getBoundingClientRect(), y = r.top + r.height / 2;
+        const cands = [...document.querySelectorAll('button, [role=button], div[class*=btn], span[class*=btn]')].filter(e => {
+            if (!vis(e)) return false; const q = e.getBoundingClientRect();
+            return Math.abs(q.top + q.height / 2 - y) < 12 && q.right < r.left && q.width < 80; });
+        cands.sort((p, q) => p.getBoundingClientRect().left - q.getBoundingClientRect().left);
+        if (!cands.length) return null;
+        const q = cands[0].getBoundingClientRect();
+        return {x: q.left + q.width / 2, y: q.top + q.height / 2, html: cands[0].outerHTML.slice(0, 300)}; }""")
+    if not box:
+        return False
+    (LOGS / 'attach-info.json').write_text(json.dumps(box, ensure_ascii=False, indent=2), encoding='utf-8')
+    page.mouse.click(box['x'], box['y'])
+    log('첨부(그림) 버튼: 위치로 누름')
+    return True
+
+
 def upload_image(page, file):
-    """기본모드에서 사진 1장을 올린다. 숨은 파일 입력 칸에 바로 넣고(버튼 클릭 없음), 안 되면 False."""
+    """기본모드에서 사진 1장을 올린다. [그림 버튼 ▾] → [사진] → 파일 선택 창에 파일을 넣는다."""
     before = img_count(page)
-    inputs = page.locator('input[type=file]')
-    order = sorted(range(inputs.count()), key=lambda i: 0 if 'image' in (inputs.nth(i).get_attribute('accept') or '') else 1)
-    if not order:   # 숨은 칸이 없으면 [첨부] → [사진]을 눌러 뜨는 파일 선택 창을 가로챈다
-        try:
-            with page.expect_file_chooser(timeout=8000) as fc:
-                click_first(page, ['#attach-layer-btn', 'button[aria-label*="첨부"]', 'button:has-text("첨부")'], '첨부 버튼')
-                time.sleep(0.8)
-                click_first(page, ['#attach-image', '[id*=attach-image]', 'text="사진"'], '사진 메뉴')
-            fc.value.set_files(str(file))
-            page.wait_for_function(f"() => tinymce.activeEditor.getBody().querySelectorAll('img').length > {before}", timeout=30000)
-            time.sleep(1)
-            return True
-        except Exception as e:
-            log(f'첨부 메뉴로 올리기 실패: {str(e).splitlines()[0][:100]}')
+    try:
+        if not open_attach_menu(page):
             return False
-    for i in order:
-        try:
-            inputs.nth(i).set_input_files(str(file))
-            page.wait_for_function(f"() => tinymce.activeEditor.getBody().querySelectorAll('img').length > {before}", timeout=20000)
-            time.sleep(1)
-            return True
-        except Exception as e:
-            log(f'파일 칸 {i}번 실패: {str(e).splitlines()[0][:80]}')
-            if page.is_closed():
-                return False
-    return False
+        time.sleep(0.8)
+        with page.expect_file_chooser(timeout=10000) as fc:
+            if not click_first(page, ['#attach-image', '[id*=attach-image]', 'text="사진"', 'li:has-text("사진")',
+                                      'button:has-text("사진")'], '사진 메뉴'):
+                raise RuntimeError('사진 메뉴 없음')
+        fc.value.set_files(str(file))
+        page.wait_for_function(f"() => tinymce.activeEditor.getBody().querySelectorAll('img').length > {before}", timeout=40000)
+        time.sleep(1.5)
+        return True
+    except Exception as e:
+        log(f'사진 올리기 실패: {str(e).splitlines()[0][:120]}')
+        page.keyboard.press('Escape')
+        return False
 
 
 def set_permalink(page, slug):
@@ -295,30 +315,23 @@ def set_permalink(page, slug):
         shot(page, 'notfound-URL')
 
 
-def set_cover(page, slug):
-    """발행 창 [대표이미지 추가] → 본문 그림 목록에서 첫 줄 썸네일을 고른다(사용자 확인 방식, 2026-11-20)."""
-    layer = page.evaluate("""() => {
-        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
-        return [...document.querySelectorAll('*')].filter(e => vis(e) && e.children.length <= 3 && /대표|이미지|썸네일/.test(e.innerText || ''))
-            .map(e => ({tag: e.tagName, id: e.id, cls: String(e.className).slice(0, 80), text: (e.innerText || '').trim().slice(0, 30)})).slice(0, 40); }""")
-    (LOGS / 'layer-info.json').write_text(json.dumps(layer, ensure_ascii=False, indent=2), encoding='utf-8')
-    if not click_first(page, ['text=/대표이미지/', '[class*=thumbnail] button', '[class*=thumb]', '[class*=represent]'], '대표이미지 추가'):
+def set_cover(page, thumb):
+    """발행 창 오른쪽 [+ 대표이미지 추가]를 누르면 파일 선택 창이 바로 뜬다 → 첫 줄과 같은 썸네일 파일을 넣는다(2026-11-20 사용자 캡처)."""
+    if not thumb or not Path(thumb).exists():
+        log('대표이미지: 썸네일 파일이 없어 건너뜀')
         return
-    time.sleep(1.5)
-    shot(page, 'cover-picker')
-    r = page.evaluate("""(slug) => {
-        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
-        const imgs = [...document.querySelectorAll('img')].filter(vis);
-        const pick = imgs.find(i => (i.src || '').includes('thumbnails/' + slug)) ||
-                     imgs.find(i => (i.src || '').includes('thumbnails/')) ||
-                     imgs.find(i => (i.src || '').includes(slug));
-        if (!pick) return 'none:' + imgs.length;
-        (pick.closest('button, a, li, label') || pick).click();
-        return 'ok:' + pick.src.slice(-60); }""", slug)
-    log(f'대표이미지 고르기: {r}')
-    time.sleep(1)
-    click_first(page, ['button:visible:has-text("확인")', 'button:visible:has-text("선택")', 'button:visible:has-text("적용")'], '대표이미지 확인')
-    time.sleep(1)
+    try:
+        with page.expect_file_chooser(timeout=10000) as fc:
+            if not click_first(page, ['text=대표이미지 추가', '[class*=thumbnail] button', '[class*=thumb] button',
+                                      '[class*=thumb]', 'text=/대표이미지/'], '대표이미지 추가'):
+                raise RuntimeError('대표이미지 칸 없음')
+        fc.value.set_files(str(thumb))
+        time.sleep(4)   # 업로드·미리보기 표시 대기
+        shot(page, 'cover-set')
+        log(f'대표이미지 올림: {Path(thumb).name}')
+    except Exception as e:
+        log(f'대표이미지 실패: {str(e).splitlines()[0][:120]} — 발행 뒤 글 수정에서 직접 넣어 주세요.')
+        shot(page, 'notfound-cover')
 
 
 def publish(page, fm, mode, thumb=None):
@@ -341,7 +354,7 @@ def publish(page, fm, mode, thumb=None):
         raise RuntimeError('비공개를 선택하지 못했어요')
     time.sleep(0.8)
     set_permalink(page, fm.get('slug', ''))
-    set_cover(page, fm.get('slug', ''))
+    set_cover(page, thumb)
     shot(page, 'publish-layer')
     if not click_first(page, ['button:visible:has-text("비공개 발행")', 'button:visible:has-text("비공개 저장")',
                               '#publish-btn', 'button:visible:has-text("발행")'], '발행 버튼'):
@@ -380,6 +393,10 @@ def run(mode, slug=None, keep_open=False):
         files = ([thumb] if thumb.exists() else []) + [f for _, f in figs]
         info = upload_info(page)
         log(f'파일 입력 칸 {len(info["files"])}개 발견')
+        try:
+            page.evaluate('() => tinymce.activeEditor.focus()')   # 커서를 본문으로(제목 칸에 머물지 않게)
+        except Exception:
+            pass
         uploaded = True
         for f in files:
             if not upload_image(page, f):
