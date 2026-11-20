@@ -130,7 +130,21 @@ def handle_dialogs(page):
 
 
 def wait_editor(page):
-    page.wait_for_function("window.tinymce && tinymce.activeEditor && tinymce.activeEditor.initialized", timeout=60000)
+    try:
+        page.wait_for_function("window.tinymce && tinymce.activeEditor && tinymce.activeEditor.initialized", timeout=25000)
+    except Exception:
+        info = page.evaluate("""() => ({
+            title: document.title,
+            keys: Object.keys(window).filter(k => /editor|tiny|mce|tx|kakao/i.test(k)).slice(0, 30),
+            iframes: [...document.querySelectorAll('iframe')].map(f => f.id || f.name || f.src).slice(0, 10),
+            buttons: [...document.querySelectorAll('button')].map(b => (b.id || '') + ':' + (b.innerText || '').trim()).filter(x => x.length > 1).slice(0, 40),
+            inputs: [...document.querySelectorAll('input,textarea')].map(i => (i.id || i.name || '') + ':' + (i.placeholder || '')).slice(0, 20),
+            modal: [...document.querySelectorAll('[role=dialog], .layer_popup, .modal')].map(m => (m.innerText || '').trim().slice(0, 80)).slice(0, 5)
+        })""")
+        (LOGS / 'editor-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
+        log('편집기를 찾지 못했어요. logs/editor-info.json 과 최근 사진을 보내 주세요.')
+        shot(page, 'editor-not-found')
+        raise
 
 
 def set_mode(page, mode):
@@ -338,4 +352,12 @@ if __name__ == '__main__':
         sys.exit(0)
     if a.login:
         sys.exit(login())
-    sys.exit(run(a.mode, a.slug, a.keep_open))
+    try:
+        sys.exit(run(a.mode, a.slug, a.keep_open))
+    except SystemExit:
+        raise
+    except Exception:
+        import traceback
+        log('오류로 멈췄어요:\n' + traceback.format_exc())
+        input('이 창 내용을 캡처해서 보내 주세요. Enter를 누르면 닫혀요...')
+        sys.exit(1)
