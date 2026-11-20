@@ -169,12 +169,45 @@ def wait_editor(page):
         raise
 
 
+def click_first(page, selectors, what, timeout=4000):
+    """여러 후보 중 화면에 보이는 첫 번째를 누른다. 누른 후보를 기록한다."""
+    for sel in selectors:
+        try:
+            loc = page.locator(sel).first
+            if loc.count() and loc.is_visible():
+                loc.click(timeout=timeout)
+                log(f'{what}: {sel}')
+                return True
+        except Exception:
+            continue
+    log(f'{what}: 버튼을 찾지 못했어요')
+    shot(page, f'notfound-{what}')
+    return False
+
+
 def set_mode(page, mode):
-    """mode: '기본모드' 또는 'HTML'. 오른쪽 위 모드 선택 메뉴를 연다."""
-    btn = page.locator('#editor-mode-layer-btn-open, button:has-text("기본모드"), button:has-text("HTML"), button:has-text("마크다운")').first
-    btn.click()
-    page.locator(f'#editor-mode-{"html" if mode == "HTML" else "kakao"}, .mce-menu-item:has-text("{mode}"), li:has-text("{mode}")').first.click()
-    time.sleep(1.5)
+    """mode: '기본모드' 또는 'HTML'. 오른쪽 위 모드 메뉴를 열고 고른다."""
+    click_first(page, ['#editor-mode-layer-btn-open', 'button:has-text("기본모드")', 'button:has-text("HTML")',
+                       'button:has-text("마크다운")', '[class*=mode] button'], '모드 메뉴 열기')
+    time.sleep(0.8)
+    target = ['#editor-mode-html', '[id*=mode-html]', 'text="HTML"'] if mode == 'HTML' else \
+             ['#editor-mode-kakao', '[id*=mode-kakao]', 'text="기본모드"']
+    if not click_first(page, target, f'{mode} 고르기'):
+        raise RuntimeError(f'{mode} 모드로 바꾸지 못했어요')
+    time.sleep(2)
+
+
+def dump_page_info(page):
+    info = page.evaluate("""() => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        const pick = e => ({tag: e.tagName, id: e.id, cls: (e.className && e.className.baseVal === undefined ? e.className : '').toString().slice(0, 60),
+                            text: (e.innerText || e.value || '').trim().slice(0, 30), label: e.getAttribute('aria-label') || '', vis: vis(e)});
+        return {
+            ids: [...document.querySelectorAll('[id]')].filter(e => /mode|attach|publish|category|tag|title|open|image|photo/i.test(e.id)).map(pick).slice(0, 80),
+            buttons: [...document.querySelectorAll('button')].filter(vis).map(pick).slice(0, 80),
+            codemirror: !!document.querySelector('.CodeMirror')
+        }; }""")
+    (LOGS / 'page-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
 
 
 def html_get(page):
@@ -218,6 +251,19 @@ def upload_image(page, file):
     before = img_count(page)
     inputs = page.locator('input[type=file]')
     order = sorted(range(inputs.count()), key=lambda i: 0 if 'image' in (inputs.nth(i).get_attribute('accept') or '') else 1)
+    if not order:   # 숨은 칸이 없으면 [첨부] → [사진]을 눌러 뜨는 파일 선택 창을 가로챈다
+        try:
+            with page.expect_file_chooser(timeout=8000) as fc:
+                click_first(page, ['#attach-layer-btn', 'button[aria-label*="첨부"]', 'button:has-text("첨부")'], '첨부 버튼')
+                time.sleep(0.8)
+                click_first(page, ['#attach-image', '[id*=attach-image]', 'text="사진"'], '사진 메뉴')
+            fc.value.set_files(str(file))
+            page.wait_for_function(f"() => tinymce.activeEditor.getBody().querySelectorAll('img').length > {before}", timeout=30000)
+            time.sleep(1)
+            return True
+        except Exception as e:
+            log(f'첨부 메뉴로 올리기 실패: {str(e).splitlines()[0][:100]}')
+            return False
     for i in order:
         try:
             inputs.nth(i).set_input_files(str(file))
@@ -286,6 +332,7 @@ def run(mode, slug=None, keep_open=False):
             return 2
         dismiss_resume_popup(page)
         wait_editor(page)
+        dump_page_info(page)
         shot(page, '1-editor')
         page.locator('#post-title-inp, textarea[placeholder*="제목"], input[placeholder*="제목"]').first.fill(fm.get('title', s))
 
