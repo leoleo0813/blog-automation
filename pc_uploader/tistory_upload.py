@@ -210,27 +210,27 @@ def dump_page_info(page):
     (LOGS / 'page-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
 
 
+VISIBLE_CM = """() => [...document.querySelectorAll('.CodeMirror')].filter(e => e.offsetWidth || e.offsetHeight || e.getClientRects().length)"""
+
+
 def html_get(page):
-    return page.evaluate("""() => {
-        const cm = document.querySelector('.CodeMirror');
-        if (cm && cm.CodeMirror) return cm.CodeMirror.getValue();
-        const ta = document.querySelector('textarea.html-editor, #html-editor textarea');
-        return ta ? ta.value : null; }""")
+    return page.evaluate(f"""() => {{ const cms = ({VISIBLE_CM})(); return cms.length && cms[0].CodeMirror ? cms[0].CodeMirror.getValue() : null; }}""")
 
 
 def html_set(page, html):
-    ok = page.evaluate("""(html) => {
-        const cm = document.querySelector('.CodeMirror');
-        if (cm && cm.CodeMirror) { cm.CodeMirror.setValue(html); cm.CodeMirror.save && cm.CodeMirror.save(); return 'codemirror'; }
-        return null; }""", html)
-    if not ok:  # CodeMirror를 못 찾으면 실제 붙여넣기처럼 입력(편집기가 입력을 알아채도록)
-        box = page.locator('.CodeMirror textarea, textarea').first
-        box.click()
-        page.keyboard.press('Control+A')
-        page.evaluate("t => navigator.clipboard.writeText(t)", html)
-        page.keyboard.press('Control+V')
-        ok = 'paste'
-    return ok
+    """화면에 보이는 HTML 입력 칸(CodeMirror)에 넣는다. 안 들어가면 실제 붙여넣기(Ctrl+V)로 다시 넣는다."""
+    n = page.evaluate(f"""(html) => {{ const cms = ({VISIBLE_CM})();
+        if (!cms.length || !cms[0].CodeMirror) return -1;
+        const cm = cms[0].CodeMirror; cm.focus(); cm.setValue(html); cm.save && cm.save(); return cm.getValue().length; }}""", html)
+    log(f'보이는 HTML 칸에 입력: {n}자')
+    if n is not None and n > 1000:
+        return 'codemirror'
+    page.evaluate("t => navigator.clipboard.writeText(t)", html)
+    page.locator('.CodeMirror:visible').first.click()
+    page.keyboard.press('Control+A')
+    page.keyboard.press('Control+V')
+    time.sleep(2)
+    return 'paste'
 
 
 def upload_info(page):
@@ -369,6 +369,16 @@ def run(mode, slug=None, keep_open=False):
         log(f'본문 입력 방식: {how}')
         set_mode(page, '기본모드')
         n = page.evaluate("() => tinymce.activeEditor.getContent({format:'text'}).length")
+        if n < 1000 and how == 'codemirror':   # 칸에는 들어갔지만 편집기가 못 받은 경우 → 실제 붙여넣기로 재시도
+            log(f'기본모드 본문 {n}자 → 붙여넣기로 다시 넣어요.')
+            set_mode(page, 'HTML')
+            page.evaluate("t => navigator.clipboard.writeText(t)", html)
+            page.locator('.CodeMirror:visible').first.click()
+            page.keyboard.press('Control+A')
+            page.keyboard.press('Control+V')
+            time.sleep(2)
+            set_mode(page, '기본모드')
+            n = page.evaluate("() => tinymce.activeEditor.getContent({format:'text'}).length")
         shot(page, '3-body')
         if n < 1000:
             log(f'본문이 {n}자뿐이에요. 저장하지 않고 멈춰요.')
