@@ -247,8 +247,9 @@ def run(mode, slug=None, keep_open=False):
         log(f'본문 확인: {n}자')
         publish(page, fm, mode)
         shot(page, '4-saved')
-        st['done'][s] = {'mode': mode, 'at': datetime.datetime.now().isoformat(timespec='minutes')}
-        save_state(st)
+        if mode == 'private':   # 시험(임시저장)은 기록하지 않는다 → 나중에 자동 실행 때 다시 올라간다
+            st['done'][s] = {'mode': mode, 'at': datetime.datetime.now().isoformat(timespec='minutes')}
+            save_state(st)
         log(f'완료: {s} ({mode})')
         if keep_open:
             input('창을 확인한 뒤 Enter를 누르면 닫혀요...')
