@@ -3865,8 +3865,8 @@
       "monthly_search_volume": "25900",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/severance-pay-calculation-2026.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/severance-pay-calculation-2026.md"
     },
     {
       "id": 195,
@@ -3879,8 +3879,8 @@
       "monthly_search_volume": "510 (PC 170 / 모바일 340)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/disparity-index-calculation.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/disparity-index-calculation.md"
     },
     {
       "id": 196,
@@ -3893,8 +3893,8 @@
       "monthly_search_volume": "15760",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/basic-pension-2026-amount.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/basic-pension-2026-amount.md"
     },
     {
       "id": 197,
@@ -3907,8 +3907,8 @@
       "monthly_search_volume": "82000 (PC 22600 / 모바일 59400)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/parental-leave-pay-2026-calculation.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/parental-leave-pay-2026-calculation.md"
     },
     {
       "id": 198,
@@ -3921,8 +3921,8 @@
       "monthly_search_volume": "4080 (PC 970 / 모바일 3110)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/envelope-indicator-calculation.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/envelope-indicator-calculation.md"
     },
     {
       "id": 199,
@@ -3935,8 +3935,8 @@
       "monthly_search_volume": "3380 (PC 1140 / 모바일 2240)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/weekly-holiday-pay-calculation-2026.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/weekly-holiday-pay-calculation-2026.md"
     },
     {
       "id": 200,
@@ -3949,8 +3949,8 @@
       "monthly_search_volume": "660 (PC 180 / 모바일 480)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/doji-candle-meaning.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/doji-candle-meaning.md"
     },
     {
       "id": 201,
@@ -3963,8 +3963,8 @@
       "monthly_search_volume": "2350 (PC 1820 / 모바일 530)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/annual-leave-pay-calculation-2026.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/annual-leave-pay-calculation-2026.md"
     },
     {
       "id": 202,
@@ -3977,8 +3977,8 @@
       "monthly_search_volume": "570 (PC 280 / 모바일 290)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/vwap-calculation.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/vwap-calculation.md"
     },
     {
       "id": 203,
@@ -3991,8 +3991,8 @@
       "monthly_search_volume": "9730 (PC 1610 / 모바일 8120)",
       "gate1_pass": true,
       "gate_pass": true,
-      "status": "drafted",
-      "draft_path": "stock_drafts/national-scholarship-2027-first-application.md"
+      "status": "published",
+      "draft_path": "stock_drafts/발행완료/national-scholarship-2027-first-application.md"
     }
   ],
   "backlog": {

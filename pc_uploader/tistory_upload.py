@@ -79,6 +79,8 @@ def pick_post(st, slug=None):
         if not slug and (int(p.get('id') or 0) < min_id or s in st['done'] or p.get('status') != 'drafted' or not p.get('gate_pass')):
             continue
         path = REPO / 'stock_drafts' / f'{s}.md'
+        if slug and not path.exists():   # 시험용: 이미 발행한 글도 --slug로 지정하면 쓸 수 있게
+            path = REPO / 'stock_drafts' / '발행완료' / f'{s}.md'
         if path.exists():
             return s, path
     return None, None
