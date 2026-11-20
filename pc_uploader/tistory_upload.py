@@ -208,7 +208,9 @@ def run(mode, slug=None, keep_open=False):
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         handle_dialogs(page)
         page.goto(f'https://{BLOG}.tistory.com/manage/newpost/?type=post&returnURL=ENTRY', wait_until='domcontentloaded')
-        if 'login' in page.url or 'accounts.kakao' in page.url:
+        time.sleep(3)
+        log(f'열린 주소: {page.url} · 저장된 로그인 정보: {"있음" if AUTH.exists() else "없음"}')
+        if 'auth/login' in page.url or 'accounts.kakao' in page.url:
             log('로그인이 풀렸어요. --login 으로 다시 로그인해 주세요.')
             shot(page, 'need-login')
             ctx.close()
@@ -272,7 +274,8 @@ def login():
         input('로그인이 끝나 티스토리 화면이 보이면 여기서 Enter를 누르세요...')
         page.goto(f'https://{BLOG}.tistory.com/manage/newpost/?type=post&returnURL=ENTRY', wait_until='domcontentloaded')
         time.sleep(3)
-        if 'login' in page.url or 'accounts.kakao' in page.url:
+        log(f'확인 주소: {page.url}')
+        if 'auth/login' in page.url or 'accounts.kakao' in page.url:
             log('아직 로그인되지 않았어요. 다시 setup.bat 또는 --login 을 실행해 주세요.')
             shot(page, 'login-failed')
             ctx.close()
