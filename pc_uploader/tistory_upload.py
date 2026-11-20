@@ -295,18 +295,25 @@ def set_permalink(page, slug):
         shot(page, 'notfound-URL')
 
 
-def set_cover(page, thumb):
-    """발행 창의 [대표이미지 추가]로 썸네일을 올린다."""
-    if not thumb.exists():
+def set_cover(page, slug):
+    """발행 창 [대표이미지 추가] → 본문 그림 목록에서 첫 줄 썸네일을 고른다(사용자 확인 방식, 2026-11-20)."""
+    if not click_first(page, ['text="대표이미지 추가"', 'button:has-text("대표이미지")', '[class*=thumb] button'], '대표이미지 추가'):
         return
-    try:
-        with page.expect_file_chooser(timeout=8000) as fc:
-            click_first(page, ['text="대표이미지 추가"', 'button:has-text("대표이미지")', '[class*=thumb] button'], '대표이미지 추가')
-        fc.value.set_files(str(thumb))
-        time.sleep(3)
-        log('대표이미지: 썸네일 업로드')
-    except Exception as e:
-        log(f'대표이미지 업로드 실패(직접 지정 필요): {str(e).splitlines()[0][:100]}')
+    time.sleep(1.5)
+    shot(page, 'cover-picker')
+    r = page.evaluate("""(slug) => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        const imgs = [...document.querySelectorAll('img')].filter(vis);
+        const pick = imgs.find(i => (i.src || '').includes('thumbnails/' + slug)) ||
+                     imgs.find(i => (i.src || '').includes('thumbnails/')) ||
+                     imgs.find(i => (i.src || '').includes(slug));
+        if (!pick) return 'none:' + imgs.length;
+        (pick.closest('button, a, li, label') || pick).click();
+        return 'ok:' + pick.src.slice(-60); }""", slug)
+    log(f'대표이미지 고르기: {r}')
+    time.sleep(1)
+    click_first(page, ['button:visible:has-text("확인")', 'button:visible:has-text("선택")', 'button:visible:has-text("적용")'], '대표이미지 확인')
+    time.sleep(1)
 
 
 def publish(page, fm, mode, thumb=None):
@@ -329,7 +336,7 @@ def publish(page, fm, mode, thumb=None):
         raise RuntimeError('비공개를 선택하지 못했어요')
     time.sleep(0.8)
     set_permalink(page, fm.get('slug', ''))
-    set_cover(page, thumb or Path('-'))
+    set_cover(page, fm.get('slug', ''))
     shot(page, 'publish-layer')
     if not click_first(page, ['button:visible:has-text("비공개 발행")', 'button:visible:has-text("비공개 저장")',
                               '#publish-btn', 'button:visible:has-text("발행")'], '발행 버튼'):
