@@ -29,6 +29,7 @@ BLOG = CFG.get('blog', 'sensitiveboss3')
 PROFILE = HERE / 'profile'
 LOGS = HERE / 'logs'
 STATE = HERE / 'state.json'
+AUTH = HERE / 'auth.json'   # 로그인 쿠키(이 PC에만, 저장소에 올라가지 않음)
 RAW = 'https://raw.githubusercontent.com/leoleo0813/blog-automation/main/'
 IMG_TOKEN = re.compile(r'\[##_Image\|.*?_##\]', re.S)
 
@@ -203,6 +204,7 @@ def run(mode, slug=None, keep_open=False):
         ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=bool(CFG.get('headless', False)),
                                                    channel=CFG.get('browser_channel') or None,
                                                    permissions=['clipboard-read', 'clipboard-write'])
+        restore_cookies(ctx)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         handle_dialogs(page)
         page.goto(f'https://{BLOG}.tistory.com/manage/newpost/?type=post&returnURL=ENTRY', wait_until='domcontentloaded')
@@ -260,14 +262,34 @@ def run(mode, slug=None, keep_open=False):
 
 
 def login():
+    """사람이 직접 로그인 → 글쓰기 화면이 열리는지 확인 → 로그인 쿠키를 auth.json에 저장(브라우저를 닫아도 유지)."""
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=False, channel=CFG.get('browser_channel') or None)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto('https://www.tistory.com/auth/login')
-        input('열린 창에서 티스토리(카카오)에 직접 로그인한 뒤, 여기서 Enter를 누르세요...')
+        print('열린 창에서 [카카오계정으로 로그인] → 아이디·비밀번호 입력 시 "로그인 상태 유지"를 꼭 체크하세요.')
+        input('로그인이 끝나 티스토리 화면이 보이면 여기서 Enter를 누르세요...')
+        page.goto(f'https://{BLOG}.tistory.com/manage/newpost/?type=post&returnURL=ENTRY', wait_until='domcontentloaded')
+        time.sleep(3)
+        if 'login' in page.url or 'accounts.kakao' in page.url:
+            log('아직 로그인되지 않았어요. 다시 setup.bat 또는 --login 을 실행해 주세요.')
+            shot(page, 'login-failed')
+            ctx.close()
+            return 1
+        ctx.storage_state(path=str(AUTH))
+        log('로그인 확인 완료: 글쓰기 화면이 열렸어요. 로그인 정보를 저장했어요.')
+        shot(page, 'login-ok')
         ctx.close()
-    log('로그인 상태를 profile/ 폴더에 저장했어요.')
+    return 0
+
+
+def restore_cookies(ctx):
+    if AUTH.exists():
+        try:
+            ctx.add_cookies(json.loads(AUTH.read_text(encoding='utf-8')).get('cookies', []))
+        except Exception as e:
+            log(f'저장된 로그인 정보를 불러오지 못했어요: {e}')
 
 
 if __name__ == '__main__':
@@ -296,6 +318,5 @@ if __name__ == '__main__':
             st['done'][s] = {}
         sys.exit(0)
     if a.login:
-        login()
-        sys.exit(0)
+        sys.exit(login())
     sys.exit(run(a.mode, a.slug, a.keep_open))
