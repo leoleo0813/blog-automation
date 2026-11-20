@@ -297,7 +297,12 @@ def set_permalink(page, slug):
 
 def set_cover(page, slug):
     """발행 창 [대표이미지 추가] → 본문 그림 목록에서 첫 줄 썸네일을 고른다(사용자 확인 방식, 2026-11-20)."""
-    if not click_first(page, ['text="대표이미지 추가"', 'button:has-text("대표이미지")', '[class*=thumb] button'], '대표이미지 추가'):
+    layer = page.evaluate("""() => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        return [...document.querySelectorAll('*')].filter(e => vis(e) && e.children.length <= 3 && /대표|이미지|썸네일/.test(e.innerText || ''))
+            .map(e => ({tag: e.tagName, id: e.id, cls: String(e.className).slice(0, 80), text: (e.innerText || '').trim().slice(0, 30)})).slice(0, 40); }""")
+    (LOGS / 'layer-info.json').write_text(json.dumps(layer, ensure_ascii=False, indent=2), encoding='utf-8')
+    if not click_first(page, ['text=/대표이미지/', '[class*=thumbnail] button', '[class*=thumb]', '[class*=represent]'], '대표이미지 추가'):
         return
     time.sleep(1.5)
     shot(page, 'cover-picker')
