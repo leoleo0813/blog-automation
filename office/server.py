@@ -23,6 +23,10 @@ try:   # Windows 검은 창에서 한글·기호가 깨지거나 멈추지 않�
 except Exception:
     pass
 CHILD_ENV = dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1')
+# Claude Code는 ANTHROPIC_API_KEY 등이 있으면 Pro 로그인보다 그걸 먼저 쓴다(쓴 만큼 요금·잘못된 키면 즉시 실패).
+# 타워는 Pro 구독 로그인으로만 돌린다 → 제작용 환경에서는 빼고 실행.
+CLAUDE_ENV = {k: v for k, v in CHILD_ENV.items()
+              if k not in ('ANTHROPIC_API_KEY', 'ANTHROPIC_AUTH_TOKEN', 'CLAUDE_CODE_USE_BEDROCK', 'CLAUDE_CODE_USE_VERTEX')}
 from datetime import datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -207,7 +211,7 @@ def produce(topic):
         cmd = [claude_bin(), '-p', prompt, '--output-format', 'stream-json', '--verbose',
                '--allowedTools', 'Bash', 'Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebSearch', 'WebFetch', 'TodoWrite']
         p = subprocess.Popen(cmd, cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL,
-                             text=True, encoding='utf-8', errors='replace', env=CHILD_ENV)
+                             text=True, encoding='utf-8', errors='replace', env=CLAUDE_ENV if not cfg().get('keep_api_key') else CHILD_ENV)
         job['proc'] = p
         final = stream(p)
         p.wait()
@@ -216,6 +220,8 @@ def produce(topic):
         ok = p.returncode == 0 and made
         if final:
             say('📋 ' + final.replace('\n', ' ')[:600])
+        if 'login' in final.lower() or 'api key' in final.lower():
+            say('⚠ Claude Code 로그인이 필요해요: 검은 창에서 claude → /login → "Claude account with subscription"(Pro) 선택')
         if not made:
             say('⚠ 글이 만들어지지 않았어요(office/result.json 없음). 위 진행 글과 사용자_할일.md를 확인해 주세요.')
         record_run(ok, json.loads(RESULT.read_text(encoding='utf-8')).get('title', '') if made else '제작 실패/보류')
