@@ -316,29 +316,55 @@ def set_permalink(page, slug):
 
 
 def set_cover(page, thumb):
-    """발행 창 오른쪽 [+ 대표이미지 추가]를 누르면 파일 선택 창이 바로 뜬다 → 첫 줄과 같은 썸네일 파일을 넣는다(2026-11-20 사용자 캡처)."""
+    """발행 창 오른쪽 [대표이미지 추가](.box_thumb).
+    본문이 비어 있으면 파일 선택 창이 뜨고, 본문에 그림이 있으면 본문 그림 고르는 창이 뜬다(2026-11-20 확인).
+    → 파일 창이면 썸네일 파일을 넣고, 고르는 창이면 첫 번째 그림(= 본문 첫 줄 썸네일)을 고른다."""
     if not thumb or not Path(thumb).exists():
         log('대표이미지: 썸네일 파일이 없어 건너뜀')
         return
+    chosen = []
+    def on_chooser(fc):
+        try:
+            fc.set_files(str(thumb)); chosen.append(1)
+        except Exception as e:
+            log(f'대표이미지 파일 넣기 실패: {e}')
+    page.on('filechooser', on_chooser)
     try:
-        box = page.locator('.box_thumb input[type=file]')
-        if box.count():   # 칸 안에 숨은 파일 입력이 있으면 바로 넣는다
-            box.first.set_input_files(str(thumb))
-            time.sleep(4)
-            shot(page, 'cover-set')
-            log(f'대표이미지 올림(입력 칸): {Path(thumb).name}')
+        before = page.evaluate("() => [...document.querySelectorAll('img')].filter(i => i.offsetWidth).map(i => i.src)")
+        if not click_first(page, ['.box_thumb .txt_thumb', '.box_thumb .inner_box', '.box_thumb', 'text=대표이미지 추가'], '대표이미지 추가'):
             return
-        with page.expect_file_chooser(timeout=10000) as fc:
-            if not click_first(page, ['.box_thumb .txt_thumb', '.box_thumb .inner_box', '.box_thumb', 'text=대표이미지 추가', '[class*=thumbnail] button', '[class*=thumb] button',
-                                      '[class*=thumb]', 'text=/대표이미지/'], '대표이미지 추가'):
-                raise RuntimeError('대표이미지 칸 없음')
-        fc.value.set_files(str(thumb))
-        time.sleep(4)   # 업로드·미리보기 표시 대기
+        time.sleep(3)
+        if chosen:
+            time.sleep(3)
+            shot(page, 'cover-set')
+            log(f'대표이미지 올림(파일): {Path(thumb).name}')
+            return
+        shot(page, 'cover-picker')
+        info = page.evaluate("""(before) => {
+            const vis = e => e.offsetWidth && e.offsetHeight;
+            const imgs = [...document.querySelectorAll('img')].filter(vis);
+            const fresh = imgs.filter(i => !before.includes(i.src) || i.closest('[class*=thumb], [class*=layer], [class*=Modal]'));
+            return {count: imgs.length, fresh: fresh.slice(0, 12).map(i => ({src: i.src.slice(-90), cls: String(i.className),
+                    parent: String(i.parentElement && i.parentElement.className).slice(0, 60)})),
+                    buttons: [...document.querySelectorAll('button')].filter(vis).map(b => (b.innerText || '').trim()).filter(Boolean).slice(-15)}; }""", before)
+        (LOGS / 'cover-layer.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
+        r = page.evaluate("""() => {
+            const vis = e => e.offsetWidth && e.offsetHeight;
+            const modal = [...document.querySelectorAll('.ReactModal__Content, [class*=layer]')].filter(vis).pop() || document;
+            const img = [...modal.querySelectorAll('img')].filter(vis).find(i => !i.closest('.box_thumb'));
+            if (!img) return 'none';
+            (img.closest('button, a, li, label') || img).click();
+            return 'ok:' + img.src.slice(-70); }""")
+        log(f'대표이미지 고르기: {r}')
+        time.sleep(1)
+        click_first(page, ['button:has-text("확인")', 'button:has-text("선택")', 'button:has-text("적용")', 'button:has-text("등록")'], '대표이미지 확인')
+        time.sleep(2)
         shot(page, 'cover-set')
-        log(f'대표이미지 올림: {Path(thumb).name}')
     except Exception as e:
         log(f'대표이미지 실패: {str(e).splitlines()[0][:120]} — 발행 뒤 글 수정에서 직접 넣어 주세요.')
         shot(page, 'notfound-cover')
+    finally:
+        page.remove_listener('filechooser', on_chooser)
 
 
 def publish(page, fm, mode, thumb=None):
