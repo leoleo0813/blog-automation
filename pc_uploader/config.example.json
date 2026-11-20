@@ -1,0 +1,11 @@
+{
+  "blog": "sensitiveboss3",
+  "repo_path": "",
+  "min_id": 194,
+  "headless": false,
+  "browser_channel": "chrome",
+  "categories": {
+    "life": "생활정보",
+    "chart": "주식공부"
+  }
+}
