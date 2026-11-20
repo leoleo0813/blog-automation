@@ -60,7 +60,11 @@ def now():
     return datetime.now(KST)
 
 
+last_line = {'at': time.time()}
+
+
 def say(msg):
+    last_line['at'] = time.time()
     t = now().strftime('%H:%M:%S')
     lines.append(f'{t} {msg}')
     del lines[:-60]
@@ -251,7 +255,8 @@ def status_payload():
     st['counts'] = office.counts()
     st['live'] = {'phase': job['phase'], 'started': job['started'], 'topic': job['topic'], 'lines': lines[-25:],
                   'machine': MACHINE, 'today': today_count(), 'limit': cfg()['daily_limit'],
-                  'claude': bool(claude_bin()), 'auto_upload': cfg()['auto_upload']}
+                  'claude': bool(claude_bin()), 'auto_upload': cfg()['auto_upload'],
+                  'quiet_sec': int(time.time() - last_line['at']) if job['phase'] != 'idle' else 0}
     if RESULT.exists():
         res = json.loads(RESULT.read_text(encoding='utf-8'))
         tp = ROOT / res.get('threads', '')

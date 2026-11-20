@@ -327,7 +327,9 @@ function render(D) {
   TEAM.forEach(([k]) => { if (!pos[k]) pos[k] = { seat: k, say: '', cls: M[k]?.state === 'working' ? 'work' : '' }; });
 
   // 알람 띠
-  document.getElementById('alarms').innerHTML = blocked.map(k => `<div class="alarm" role="alert"><span class="siren"></span>
+  const quiet = live && live.quiet_sec >= 240 ? `<div class="alarm" role="status" style="background:var(--warn)"><span class="siren"></span>
+    <div class="msg">${Math.floor(live.quiet_sec / 60)}분째 새 진행이 없어요 <span>· 무언가를 기다리는 중일 수 있어요. 10분 넘게 그대로면 [멈춤] 후 다시 시작해 주세요.</span></div></div>` : '';
+  document.getElementById('alarms').innerHTML = quiet + blocked.map(k => `<div class="alarm" role="alert"><span class="siren"></span>
     <div class="msg">${NAME[k]} 막힘 <span>· ${esc(M[k].task)} (${fmt(M[k].at)})</span></div>
     <button type="button" data-ack="${esc(k + '|' + M[k].at)}">확인했어요</button></div>`).join('');
 

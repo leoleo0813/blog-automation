@@ -22,7 +22,11 @@ python -m blog_automation.office --set planner done "‘국가장학금 신청�
 ## TEAM.md 역할 순서
 - **기획**: 후보 8~10개(주제를 받았으면 그 주제의 키워드 변형 5개)를 keyword_requests/request.txt에 쉼표로 적어 main에 커밋·푸시하면,
   GitHub Actions(check-keywords-file.yml)가 약 1분 뒤 keyword_requests/result.txt를 "검색량 측정 결과" 커밋으로 올린다.
-  1분 간격으로 git pull 해서 result.txt 첫 줄의 '요청 커밋'이 내 커밋과 같아지면 읽는다(최대 5분).
+  **20초 간격**으로 git pull 해서 result.txt 첫 줄의 '요청 커밋'이 내 커밋과 같아지면 읽는다. 결과는 보통 40초~1분 30초 안에 온다.
+  기다리는 동안 매번 측정 작업 상태도 함께 본다(공개 저장소라 로그인 없이 됨):
+  `curl -s "https://api.github.com/repos/leoleo0813/blog-automation/actions/workflows/check-keywords-file.yml/runs?per_page=1"`
+  → 내 커밋(head_sha)의 `conclusion`이 `failure`면 **기다리지 말고 즉시** 1번만 다시 요청(request.txt 끝에 공백 하나 추가해 커밋·푸시)하고,
+  또 실패하면 `planner blocked "검색량 측정 실패 — 액션 로그 확인 필요"`로 적고 멈춘다. 3분이 지나도 결과·상태가 없으면 같은 방식으로 다시 요청 1번.
   월 500 이상, 기존 stock_drafts·stock_drafts/발행완료 글과 겹치지 않는 것 중 가장 높은 것을 고른다. 차트는 매매 신호·목표가로 흐를 주제는 피한다.
 - **리서치**: WebSearch로 숫자·날짜를 2곳 이상 같은 값으로 확인. 확인 못 한 숫자는 쓰지 않는다. 날짜가 공식 공고 전이면 그 주제를 보류한다.
 - **작가**: 최근 편(stock_drafts/발행완료/annual-leave-pay-calculation-2026.md, vwap-calculation.md)과 같은 구조·문체로 front matter와 본문을 쓴다.
