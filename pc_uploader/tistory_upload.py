@@ -129,6 +129,28 @@ def handle_dialogs(page):
     page.on('dialog', on_dialog)
 
 
+def dismiss_resume_popup(page):
+    """'작성 중인 글이 있습니다. 이어서 쓰시겠어요?' 안내 창(웹 화면 안의 창)이 뜨면 새로 쓰기를 고른다."""
+    for _ in range(6):
+        try:
+            box = page.locator('text=/이어서|작성 중인 글|저장된 글/').first
+            if box.count() and box.is_visible():
+                for label in ('취소', '아니요', '아니오', '새로 작성', '새 글', '새로쓰기'):
+                    btn = page.locator(f'button:has-text("{label}"), a:has-text("{label}")').first
+                    if btn.count() and btn.is_visible():
+                        btn.click()
+                        log(f'이어 쓰기 안내 창 → [{label}]')
+                        time.sleep(1.5)
+                        return True
+                shot(page, 'resume-popup')
+                log('이어 쓰기 안내 창의 버튼을 찾지 못했어요. 최근 사진을 보내 주세요.')
+                return False
+        except Exception:
+            pass
+        time.sleep(1)
+    return False
+
+
 def wait_editor(page):
     try:
         page.wait_for_function("window.tinymce && tinymce.activeEditor && tinymce.activeEditor.initialized", timeout=25000)
@@ -245,6 +267,7 @@ def run(mode, slug=None, keep_open=False):
             shot(page, 'need-login')
             page.close(); close()
             return 2
+        dismiss_resume_popup(page)
         wait_editor(page)
         shot(page, '1-editor')
         page.locator('#post-title-inp, textarea[placeholder*="제목"], input[placeholder*="제목"]').first.fill(fm.get('title', s))
