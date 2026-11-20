@@ -291,12 +291,8 @@ def set_permalink(page, slug):
         r = page.evaluate(js, slug)
     log(f'URL 설정: {r}')
     if not str(r).startswith('ok'):
-        try:   # 입력 칸이 키보드 입력만 받는 경우
-            row_input = page.locator('input:visible').filter(has_text='').last
-            row_input.click(); page.keyboard.press('Control+A'); page.keyboard.type(slug)
-            log('URL 설정: 키보드로 입력')
-        except Exception as e:
-            log(f'URL 설정 실패(직접 확인 필요): {e}')
+        log('URL 입력 칸을 찾지 못했어요. 발행 뒤 글 수정에서 URL을 직접 바꿔 주세요.')
+        shot(page, 'notfound-URL')
 
 
 def set_cover(page, thumb):
