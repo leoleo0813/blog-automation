@@ -242,7 +242,7 @@ def img_count(page):
     return page.evaluate("() => tinymce.activeEditor.getBody().querySelectorAll('img').length")
 
 
-ATTACH_BTN = ['#attach-layer-btn', '#mceu_0 button', '#mceu_0', 'button[aria-label*="첨부"]', 'button[aria-label*="사진"]',
+ATTACH_BTN = ['#mceu_0-open', '#mceu_0 button', '#attach-layer-btn', '#mceu_0', 'button[aria-label*="첨부"]', 'button[aria-label*="사진"]',
               '[class*=attach] button', '[class*=attach]', '[class*=image] button[class*=open]']
 
 
@@ -321,8 +321,15 @@ def set_cover(page, thumb):
         log('대표이미지: 썸네일 파일이 없어 건너뜀')
         return
     try:
+        box = page.locator('.box_thumb input[type=file]')
+        if box.count():   # 칸 안에 숨은 파일 입력이 있으면 바로 넣는다
+            box.first.set_input_files(str(thumb))
+            time.sleep(4)
+            shot(page, 'cover-set')
+            log(f'대표이미지 올림(입력 칸): {Path(thumb).name}')
+            return
         with page.expect_file_chooser(timeout=10000) as fc:
-            if not click_first(page, ['text=대표이미지 추가', '[class*=thumbnail] button', '[class*=thumb] button',
+            if not click_first(page, ['.box_thumb .txt_thumb', '.box_thumb .inner_box', '.box_thumb', 'text=대표이미지 추가', '[class*=thumbnail] button', '[class*=thumb] button',
                                       '[class*=thumb]', 'text=/대표이미지/'], '대표이미지 추가'):
                 raise RuntimeError('대표이미지 칸 없음')
         fc.value.set_files(str(thumb))
