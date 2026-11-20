@@ -99,6 +99,25 @@ def build_parts(path):
 
 # ---------------- 브라우저 조작 ----------------
 
+CDP_URL = CFG.get('cdp_url', 'http://127.0.0.1:9222')
+
+
+def open_browser(p):
+    """start_chrome.bat으로 띄운 '일반 크롬'(사람이 로그인한 창)에 연결한다. 연결이 안 되면 예전 방식으로 연다."""
+    try:
+        browser = p.chromium.connect_over_cdp(CDP_URL, timeout=5000)
+        ctx = browser.contexts[0] if browser.contexts else browser.new_context()
+        log('일반 크롬에 연결했어요.')
+        return ctx, (lambda: None)   # 사람이 쓰는 크롬이니 닫지 않는다
+    except Exception:
+        log('일반 크롬을 찾지 못했어요. start_chrome.bat 을 먼저 실행해 주세요. (예전 방식으로 시도)')
+        ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=bool(CFG.get('headless', False)),
+                                                   channel=CFG.get('browser_channel') or None,
+                                                   permissions=['clipboard-read', 'clipboard-write'])
+        restore_cookies(ctx)
+        return ctx, ctx.close
+
+
 def handle_dialogs(page):
     def on_dialog(d):
         msg = d.message or ''
@@ -201,11 +220,8 @@ def run(mode, slug=None, keep_open=False):
     fm, body, thumb, figs = build_parts(path)
     log(f'시작: {s} ({mode}) · 그림 {len(figs)}장 + 썸네일 {"있음" if thumb.exists() else "없음"}')
     with sync_playwright() as p:
-        ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=bool(CFG.get('headless', False)),
-                                                   channel=CFG.get('browser_channel') or None,
-                                                   permissions=['clipboard-read', 'clipboard-write'])
-        restore_cookies(ctx)
-        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        ctx, close = open_browser(p)
+        page = ctx.new_page()
         handle_dialogs(page)
         page.goto(f'https://{BLOG}.tistory.com/manage/newpost/?type=post&returnURL=ENTRY', wait_until='domcontentloaded')
         time.sleep(3)
@@ -213,7 +229,7 @@ def run(mode, slug=None, keep_open=False):
         if 'auth/login' in page.url or 'accounts.kakao' in page.url:
             log('로그인이 풀렸어요. --login 으로 다시 로그인해 주세요.')
             shot(page, 'need-login')
-            ctx.close()
+            page.close(); close()
             return 2
         wait_editor(page)
         shot(page, '1-editor')
@@ -248,7 +264,7 @@ def run(mode, slug=None, keep_open=False):
         if n < 1000:
             log(f'본문이 {n}자뿐이에요. 저장하지 않고 멈춰요.')
             if not keep_open:
-                ctx.close()
+                page.close(); close()
             return 3
         log(f'본문 확인: {n}자')
         publish(page, fm, mode)
@@ -259,7 +275,7 @@ def run(mode, slug=None, keep_open=False):
         log(f'완료: {s} ({mode})')
         if keep_open:
             input('창을 확인한 뒤 Enter를 누르면 닫혀요...')
-        ctx.close()
+        page.close(); close()
     return 0
 
 
