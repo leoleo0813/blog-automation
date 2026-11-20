@@ -273,35 +273,71 @@ def upload_image(page, file):
     return False
 
 
-def publish(page, fm, mode):
+def set_permalink(page, slug):
+    """발행 창의 URL 줄에서 입력 칸을 찾아 영어 고유주소로 바꾼다."""
+    js = """(slug) => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        const label = [...document.querySelectorAll('dt, th, strong, span, div, label')].find(e => vis(e) && e.innerText && e.innerText.trim() === 'URL');
+        if (!label) return 'URL 줄 없음';
+        let row = label; for (let i = 0; i < 4 && row && !row.querySelector('input'); i++) row = row.parentElement;
+        const inp = row && [...row.querySelectorAll('input')].find(vis);
+        if (!inp) { const span = row && [...row.querySelectorAll('span, a, div')].find(e => vis(e) && /entry/.test(e.innerText || '')); if (span) span.click(); return 'retry'; }
+        const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set;
+        inp.focus(); set.call(inp, slug); inp.dispatchEvent(new Event('input', {bubbles: true})); inp.dispatchEvent(new Event('change', {bubbles: true}));
+        return 'ok:' + inp.value; }"""
+    r = page.evaluate(js, slug)
+    if r == 'retry':
+        time.sleep(0.8)
+        r = page.evaluate(js, slug)
+    log(f'URL 설정: {r}')
+    if not str(r).startswith('ok'):
+        try:   # 입력 칸이 키보드 입력만 받는 경우
+            row_input = page.locator('input:visible').filter(has_text='').last
+            row_input.click(); page.keyboard.press('Control+A'); page.keyboard.type(slug)
+            log('URL 설정: 키보드로 입력')
+        except Exception as e:
+            log(f'URL 설정 실패(직접 확인 필요): {e}')
+
+
+def set_cover(page, thumb):
+    """발행 창의 [대표이미지 추가]로 썸네일을 올린다."""
+    if not thumb.exists():
+        return
+    try:
+        with page.expect_file_chooser(timeout=8000) as fc:
+            click_first(page, ['text="대표이미지 추가"', 'button:has-text("대표이미지")', '[class*=thumb] button'], '대표이미지 추가')
+        fc.value.set_files(str(thumb))
+        time.sleep(3)
+        log('대표이미지: 썸네일 업로드')
+    except Exception as e:
+        log(f'대표이미지 업로드 실패(직접 지정 필요): {str(e).splitlines()[0][:100]}')
+
+
+def publish(page, fm, mode, thumb=None):
     tags = [t.strip() for t in (fm.get('tags') or '').split(',') if t.strip()]
-    tag_in = page.locator('#tagText, input[placeholder*="태그"]').first
-    for t in tags:
-        tag_in.fill(t)
-        tag_in.press('Enter')
+    try:
+        tag_in = page.locator('#tagText, input[placeholder*="태그"]').first
+        for t in tags:
+            tag_in.fill(t)
+            tag_in.press('Enter')
+        log(f'태그 {len(tags)}개 입력')
+    except Exception as e:
+        log(f'태그 입력 실패: {str(e).splitlines()[0][:80]}')
     if mode == 'draft':
-        page.locator('button:has-text("임시저장"), a:has-text("임시저장")').first.click()
+        click_first(page, ['button:has-text("임시저장")', 'a:has-text("임시저장")'], '임시저장')
         time.sleep(3)
         return
-    page.locator('#publish-layer-btn, button:has-text("완료")').first.click()
-    time.sleep(1.5)
-    page.locator('label:has-text("비공개"), #open0').first.click()
-    cat = CFG.get('categories', {}).get(fm.get('track', ''), '')
-    if cat:
-        try:
-            page.locator('#category-btn, button:has-text("카테고리")').first.click()
-            page.locator(f'.mce-menu-item:has-text("{cat}"), li:has-text("{cat}"), span:has-text("{cat}")').first.click()
-        except Exception as e:
-            log(f'카테고리 선택 실패(직접 지정 필요): {e}')
-    slug = fm.get('slug', '')
-    try:
-        url_in = page.locator('input[placeholder*="URL"], #post-permalink, input[name="slogan"]').first
-        if url_in.count():
-            url_in.fill(slug)
-    except Exception as e:
-        log(f'고유주소 입력 실패(직접 확인 필요): {e}')
+    click_first(page, ['#publish-layer-btn', 'button:has-text("완료")'], '완료(발행 창 열기)')
+    time.sleep(2)
+    if not click_first(page, ['label:visible:has-text("비공개")', 'text="비공개"', 'input#open0 + label'], '비공개 선택'):
+        raise RuntimeError('비공개를 선택하지 못했어요')
+    time.sleep(0.8)
+    set_permalink(page, fm.get('slug', ''))
+    set_cover(page, thumb or Path('-'))
     shot(page, 'publish-layer')
-    page.locator('#publish-btn, button:has-text("비공개 저장"), button:has-text("저장"), button:has-text("발행")').last.click()
+    if not click_first(page, ['button:visible:has-text("비공개 발행")', 'button:visible:has-text("비공개 저장")',
+                              '#publish-btn', 'button:visible:has-text("발행")'], '발행 버튼'):
+        raise RuntimeError('발행 버튼을 찾지 못했어요')
     time.sleep(4)
 
 
@@ -372,7 +408,7 @@ def run(mode, slug=None, keep_open=False):
                 page.close(); close()
             return 3
         log(f'본문 확인: {n}자')
-        publish(page, fm, mode)
+        publish(page, fm, mode, thumb)
         shot(page, '4-saved')
         if mode == 'private':   # 시험(임시저장)은 기록하지 않는다 → 나중에 자동 실행 때 다시 올라간다
             st['done'][s] = {'mode': mode, 'at': datetime.datetime.now().isoformat(timespec='minutes')}
