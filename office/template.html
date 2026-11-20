@@ -92,6 +92,14 @@ dialog::backdrop { background: rgb(0 0 0 / .45) }
 dialog h2 { margin: 0 0 6px; font-family: var(--display); font-weight: 400; font-size: 26px }
 dialog label { display: block; font-size: 13px; color: var(--soft); margin: 14px 0 6px }
 dialog input { width: 100%; font: inherit; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink) }
+.rm { display: grid; gap: 10px; margin-top: 8px }
+.rm .who { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-weight: 700 }
+.rm .task { font-family: var(--hand); font-size: 15px; margin-top: 2px }
+.rm .when { font-family: var(--mono); font-size: 11.5px; color: var(--soft) }
+.steps { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; max-height: 260px; overflow: auto }
+.steps li { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 8px; font-size: 13px; padding-bottom: 6px; border-bottom: 1px dashed var(--line) }
+.steps time { font-family: var(--mono); font-size: 11.5px; color: var(--soft) }
+#roomDlg { width: min(520px, calc(100vw - 32px)) }
 .err { color: var(--bad); font-size: 13px; min-height: 1.2em; margin-top: 8px }
 @media (prefers-reduced-motion: no-preference) { .alarm .siren { animation: blink 1s steps(2, start) infinite } }
 @keyframes blink { to { opacity: .25 } }
@@ -129,6 +137,15 @@ dialog input { width: 100%; font: inherit; padding: 10px 12px; border-radius: 8p
     </aside>
   </div>
 </div>
+
+<dialog id="roomDlg" aria-labelledby="roomTitle">
+  <h2 id="roomTitle"></h2>
+  <div id="roomBody"></div>
+  <div class="row" style="justify-content:flex-end;margin-top:14px">
+    <button class="btn primary" type="button" id="roomStart" hidden>기획 시작</button>
+    <button class="btn" type="button" id="roomClose">닫기</button>
+  </div>
+</dialog>
 
 <dialog id="startDlg">
   <form method="dialog">
@@ -405,6 +422,7 @@ function render(D) {
   document.getElementById('log').innerHTML = (D.log || []).slice(0, 8).map(l => `<li><time>${fmt(l.at)}</time><span><b>${NAME[l.who] || esc(l.who)}</b> ${esc(l.msg)}</span></li>`).join('');
   document.querySelectorAll('[data-ack]').forEach(b => b.onclick = () => ack(b.dataset.ack));
   document.querySelectorAll('[data-retry]').forEach(b => b.onclick = openStart);
+  const rd = document.getElementById('roomDlg'); if (rd.open && rd.dataset.room) openRoom(rd.dataset.room);
   if (live) renderLive(D);
 }
 
@@ -445,23 +463,50 @@ async function post(path, body) {
   return j;
 }
 async function poll() { try { const r = await fetch('/api/status', { cache: 'no-store' }); if (r.ok) render(await r.json()); } catch (e) {} }
-function pickRoom(ev) {   // 기획팀 방 바닥을 누르면 시작
-  if (!scene || !window._D?.live) return;
+const ROOM_JOB = { plan: '차례 판단 · 검색량 측정 · 숫자 2곳 확인', meet: '팀끼리 일을 넘기는 곳', design: '그림 3장 · 캐러셀 6장 · 썸네일 · 네이버 묶음',
+  write: '원고 3,500자 이상', review: 'lint · 숫자 대조 · 푸시 · 쓰레드 문구', upload: '티스토리 비공개 발행(PC)', owner: '최종 확인 · 공개 · 네이버 업로드' };
+const hm = iso => { const f = fmt(iso); return f ? f.split(' ')[1] : ''; };
+function openRoom(room) {
+  const D = window._D || {}, M = D.members || {};
+  const who = room === 'owner' ? [] : room === 'meet' ? [] : TEAM.filter(t => t[2] === room).map(t => t[0]);
+  document.getElementById('roomTitle').textContent = ROOMS[room].name;
+  let html = `<div style="color:var(--soft);font-size:13.5px">${ROOM_JOB[room]}</div><div class="rm">`;
+  who.forEach(k => { const m = M[k] || { state: 'idle', task: '' };
+    html += `<div><div class="who">${NAME[k]} <span class="tag" data-s="${m.state}">${S[m.state]}</span><span class="when">${fmt(m.at)}</span></div><div class="task">${esc(m.task)}</div></div>`; });
+  if (room === 'owner') html += `<div><b>오늘 할 일</b><ol style="margin:6px 0 0;padding-left:18px">${(D.todo || []).map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`;
+  html += '</div>';
+  const keys = room === 'meet' ? ORDER : room === 'owner' ? ['human', 'uploader', 'deploy'] : who;
+  const steps = (D.log || []).filter(l => keys.includes(l.who)).slice(0, 30);
+  const feed = room === 'meet' ? (D.log || []).filter(l => / → .+에게 넘김/.test(l.msg)).slice(0, 20) : steps;
+  html += `<b style="display:block;margin-top:14px;font-size:13px;color:var(--soft)">${room === 'meet' ? '인계 기록' : '진행 기록'}</b>`;
+  html += feed.length ? `<ul class="steps">${feed.map(l => `<li><time>${hm(l.at)}</time><span>${room === 'meet' || who.length > 1 || room === 'owner' ? `<b>${NAME[l.who] || esc(l.who)}</b> ` : ''}${esc(l.msg)}</span></li>`).join('')}</ul>`
+    : '<div style="color:var(--soft);font-size:13px;margin-top:6px">아직 기록이 없어요.</div>';
+  document.getElementById('roomBody').innerHTML = html;
+  const rs = document.getElementById('roomStart');
+  rs.hidden = !(room === 'plan' && D.live); rs.disabled = document.getElementById('openStart').disabled;
+  const dlg = document.getElementById('roomDlg'); dlg.dataset.room = room;
+  if (!dlg.open) dlg.showModal();
+}
+function pickRoom(ev) {   // 방 바닥을 누르면 그 방의 진행 상황
+  if (!scene) return;
   const rect = renderer.domElement.getBoundingClientRect();
   const ray = new THREE.Raycaster(); ray.setFromCamera({ x: (ev.clientX - rect.left) / rect.width * 2 - 1, y: -(ev.clientY - rect.top) / rect.height * 2 + 1 }, camera);
-  if (ray.intersectObject(roomFx.plan.floor).length) openStart();
+  const hit = ray.intersectObjects(Object.values(roomFx).map(f => f.floor))[0];
+  if (hit) openRoom(Object.keys(roomFx).find(k => roomFx[k].floor === hit.object));
 }
+document.getElementById('roomClose').onclick = () => document.getElementById('roomDlg').close();
+document.getElementById('roomStart').onclick = () => { document.getElementById('roomDlg').close(); openStart(); };
 
 initThree();
 const D0 = JSON.parse(document.getElementById('data').textContent);
 render(D0);
 document.getElementById('viewTop').onclick = () => setView('top');
 document.getElementById('viewReset').onclick = () => setView('reset');
-if (D0.live && location.protocol.startsWith('http')) {
-  document.getElementById('hint').textContent = '끌어서 돌리기 · 휠로 확대 · 기획팀 방을 누르면 시작';
-  let down = null;
+{ let down = null;
   stage.addEventListener('pointerdown', e => down = [e.clientX, e.clientY]);
-  stage.addEventListener('pointerup', e => { if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5) pickRoom(e); down = null; });
+  stage.addEventListener('pointerup', e => { if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5) pickRoom(e); down = null; }); }
+document.getElementById('hint').textContent = '끌어서 돌리기 · 휠로 확대 · 방을 누르면 진행 상황';
+if (D0.live && location.protocol.startsWith('http')) {
   document.getElementById('openStart').onclick = openStart;
   document.getElementById('startGo').onclick = async () => {
     try { await post('/api/start', { topic: document.getElementById('topic').value }); document.getElementById('startDlg').close(); poll(); }

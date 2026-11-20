@@ -74,6 +74,25 @@ def say(msg):
     print(f'{t} {msg}', flush=True)
 
 
+def kill_tree(p):
+    """프로그램과 그 하위 프로그램(bash·python 등)을 함께 끈다."""
+    try:
+        if os.name == 'nt':
+            subprocess.run(['taskkill', '/PID', str(p.pid), '/T', '/F'], capture_output=True)
+        else:
+            os.killpg(os.getpgid(p.pid), 15)
+    except Exception:
+        try:
+            p.terminate()
+        except Exception:
+            pass
+
+
+def popen_kw():
+    """하위 프로그램을 한 묶음으로 띄워서 멈춤 때 한꺼번에 끌 수 있게."""
+    return {'creationflags': subprocess.CREATE_NEW_PROCESS_GROUP} if os.name == 'nt' else {'start_new_session': True}
+
+
 def git(*a):
     return subprocess.run(['git', '-C', str(ROOT), *a], capture_output=True, text=True, encoding='utf-8', errors='replace')
 
@@ -164,7 +183,7 @@ def run_upload():
     say('업로드 시작: pc_uploader/tistory_upload.py --mode private')
     p = subprocess.Popen([sys.executable, str(ROOT / 'pc_uploader' / 'tistory_upload.py'), '--mode', 'private'],
                          cwd=str(ROOT / 'pc_uploader'), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                         stdin=subprocess.DEVNULL, text=True, encoding='utf-8', errors='replace', env=CHILD_ENV)
+                         stdin=subprocess.DEVNULL, text=True, encoding='utf-8', errors='replace', env=CHILD_ENV, **popen_kw())
     job['proc'] = p
     for ln in p.stdout:
         if ln.strip():
@@ -182,14 +201,14 @@ def office_set(role, state, task):
     st = office.load()
     st['members'][role] = {'state': state, 'task': task, 'at': now().isoformat(timespec='seconds')}
     st['log'].insert(0, {'at': now().isoformat(timespec='seconds'), 'who': role, 'msg': task})
-    st['log'] = st['log'][:30]
+    st['log'] = st['log'][:80]
     office.save(st)
     office.build()
 
 
 def produce(topic):
     RUNS.mkdir(parents=True, exist_ok=True)
-    job.update(phase='produce', started=now().isoformat(timespec='seconds'), topic=topic,
+    job.update(stopped=False, phase='produce', started=now().isoformat(timespec='seconds'), topic=topic,
                log=str(RUNS / f'{now():%Y%m%d-%H%M%S}.log'))
     lines.clear()
     ok = False
@@ -213,9 +232,9 @@ def produce(topic):
                   f'이 PC의 파이썬은 "{sys.executable}" 이다(python 명령이 안 되면 이것을 쓴다). '
                   f'stock_beginner_series.json 새 항목에 "made_at": "{now():%Y-%m-%d}"를 넣는다.')
         cmd = [claude_bin(), '-p', prompt, '--output-format', 'stream-json', '--verbose',
-               '--allowedTools', 'Bash', 'Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebSearch', 'WebFetch', 'TodoWrite']
+               '--allowedTools', 'Bash', 'Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebSearch', 'WebFetch', 'TodoWrite', 'Task', 'Agent']
         p = subprocess.Popen(cmd, cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL,
-                             text=True, encoding='utf-8', errors='replace', env=CLAUDE_ENV if not cfg().get('keep_api_key') else CHILD_ENV)
+                             text=True, encoding='utf-8', errors='replace', env=CLAUDE_ENV if not cfg().get('keep_api_key') else CHILD_ENV, **popen_kw())
         job['proc'] = p
         final = stream(p)
         p.wait()
@@ -226,7 +245,9 @@ def produce(topic):
             say('📋 ' + final.replace('\n', ' ')[:600])
         if 'login' in final.lower() or 'api key' in final.lower():
             say('⚠ Claude Code 로그인이 필요해요: 검은 창에서 claude → /login → "Claude account with subscription"(Pro) 선택')
-        if not made:
+        if job.get('stopped'):
+            say('멈춤으로 이번 편은 중단했어요. 다시 시작하면 처음부터 만들어요.')
+        elif not made:
             say('⚠ 글이 만들어지지 않았어요(office/result.json 없음). 위 진행 글과 사용자_할일.md를 확인해 주세요.')
         record_run(ok, json.loads(RESULT.read_text(encoding='utf-8')).get('title', '') if made else '제작 실패/보류')
         if ok and cfg().get('auto_upload'):
@@ -242,7 +263,7 @@ def produce(topic):
                 st['members'][r_] = {'state': 'done' if ok else 'blocked', 'task': '끝' if ok else '끝나지 않고 멈춤 — 조종석 기록 확인',
                                      'at': now().isoformat(timespec='seconds')}
         st['production'] = 'paused'
-        st['production_note'] = '7층 [기획 시작]을 누르면 1편을 만들어요.'
+        st['production_note'] = '기획팀 방이나 [기획 시작]을 누르면 1편을 만들어요.'
         office.save(st)
         office.build()
         set_lock(False)
@@ -287,7 +308,10 @@ class H(BaseHTTPRequestHandler):
 
     def do_POST(self):
         n = int(self.headers.get('Content-Length') or 0)
-        body = json.loads(self.rfile.read(n) or b'{}')
+        try:
+            body = json.loads(self.rfile.read(n) or b'{}')
+        except Exception:
+            body = {}
         if (self.headers.get('Host') or '').split(':')[0] not in ('127.0.0.1', 'localhost'):
             return self.send(403, '{}')
         if self.headers.get('Origin') not in (None, f'http://127.0.0.1:{PORT}', f'http://localhost:{PORT}'):  # PORT는 main()에서 실제 번호로 바뀜
@@ -303,11 +327,13 @@ class H(BaseHTTPRequestHandler):
             if lk:
                 return self.send(409, json.dumps({'error': f'{lk["machine"]}에서 제작 중이에요({lk["at"][11:16]} 시작)'}, ensure_ascii=False))
             topic = str(body.get('topic') or '').strip()[:100]
+            job['phase'] = 'produce'   # 스레드가 뜨기 전에 먼저 '일하는 중'으로(두 번 눌러도 한 판만)
             threading.Thread(target=produce, args=(topic,), daemon=True).start()
             return self.send(200, '{"ok":true}')
         if self.path == '/api/upload':
             if job['phase'] != 'idle':
                 return self.send(409, json.dumps({'error': '이미 일하는 중이에요'}, ensure_ascii=False))
+            job['phase'] = 'upload'
             def up():
                 job['log'] = str(RUNS / f'{now():%Y%m%d-%H%M%S}-upload.log')
                 RUNS.mkdir(parents=True, exist_ok=True)
@@ -320,8 +346,9 @@ class H(BaseHTTPRequestHandler):
         if self.path == '/api/stop':
             p = job.get('proc')
             if p and p.poll() is None:
-                p.terminate()
+                job['stopped'] = True
                 say('사람이 멈춤을 눌렀어요.')
+                kill_tree(p)
             return self.send(200, '{"ok":true}')
         self.send(404, '{}')
 

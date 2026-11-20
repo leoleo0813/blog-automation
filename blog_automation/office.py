@@ -24,6 +24,7 @@ SERIES = ROOT / 'stock_beginner_series.json'
 KST = timezone(timedelta(hours=9))
 ROLES = ['planner', 'research', 'writer', 'designer', 'reviewer', 'deploy', 'uploader', 'human']
 THEMES = ['navy', 'forest', 'plum', 'charcoal']
+KO = {'planner': '기획', 'research': '리서치', 'writer': '작가', 'designer': '디자이너', 'reviewer': '검수', 'deploy': '배포', 'uploader': '업로드', 'human': '주인님'}
 
 
 def now():
@@ -86,17 +87,24 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--set', nargs=3, metavar=('ROLE', 'STATE', 'TASK'))
     ap.add_argument('--log', nargs=2, metavar=('ROLE', 'MSG'))
+    ap.add_argument('--handoff', nargs=3, metavar=('FROM', 'TO', 'MSG'), help='FROM 완료 + TO 바로 시작(한 번에)')
     a = ap.parse_args()
-    if a.set or a.log:
+    if a.set or a.log or a.handoff:
         st = load()
         if a.set:
             role, state, task = a.set
             assert role in ROLES and state in ('idle', 'working', 'done', 'blocked'), (role, state)
             st['members'][role] = {'state': state, 'task': task, 'at': now()}
             st['log'].insert(0, {'at': now(), 'who': role, 'msg': task})
+        if a.handoff:
+            fr, to, msg = a.handoff
+            assert fr in ROLES and to in ROLES, (fr, to)
+            st['members'][fr] = {'state': 'done', 'task': msg, 'at': now()}
+            st['members'][to] = {'state': 'working', 'task': f'{msg} → 받아서 시작', 'at': now()}
+            st['log'].insert(0, {'at': now(), 'who': fr, 'msg': f'{msg} → {KO[to]}에게 넘김'})
         if a.log:
             st['log'].insert(0, {'at': now(), 'who': a.log[0], 'msg': a.log[1]})
-        st['log'] = st['log'][:30]
+        st['log'] = st['log'][:80]
         save(st)
     print(build())
 
