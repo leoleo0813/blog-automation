@@ -240,7 +240,10 @@ def produce(topic):
         p.wait()
         git('pull', '--rebase', '--autostash', '-q')
         made = RESULT.exists()
-        ok = p.returncode == 0 and made
+        # 글이 저장소에 올라왔으면(result.json) 성공으로 본다 — Claude Code 종료 코드는 사소한 이유로 0이 아닐 때가 있다
+        ok = made and not job.get('stopped')
+        if made and p.returncode != 0:
+            say(f'(Claude Code 종료 코드 {p.returncode} — 글은 만들어져서 업로드로 넘어가요)')
         if final:
             say('📋 ' + final.replace('\n', ' ')[:600])
         if 'login' in final.lower() or 'api key' in final.lower():
@@ -252,6 +255,8 @@ def produce(topic):
         record_run(ok, json.loads(RESULT.read_text(encoding='utf-8')).get('title', '') if made else '제작 실패/보류')
         if ok and cfg().get('auto_upload'):
             run_upload()
+        elif ok:
+            say('자동 업로드가 꺼져 있어요(office/local.json). [업로드만 다시]로 올려 주세요.')
     except FileNotFoundError:
         say('⚠ Claude Code(claude)를 찾지 못했어요. 설치 안내(office/SETUP.md)를 따라 설치해 주세요.')
     except Exception as e:
