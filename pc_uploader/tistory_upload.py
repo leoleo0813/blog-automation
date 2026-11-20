@@ -200,18 +200,35 @@ def html_set(page, html):
     return ok
 
 
+def upload_info(page):
+    info = page.evaluate("""() => ({
+        files: [...document.querySelectorAll('input[type=file]')].map(i => ({id: i.id, name: i.name, accept: i.accept, cls: i.className})),
+        buttons: [...document.querySelectorAll('button')].map(b => (b.id || '') + '|' + (b.getAttribute('aria-label') || '') + '|' + (b.innerText || '').trim()).filter(x => x.length > 2).slice(0, 60)
+    })""")
+    (LOGS / 'upload-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
+    return info
+
+
+def img_count(page):
+    return page.evaluate("() => tinymce.activeEditor.getBody().querySelectorAll('img').length")
+
+
 def upload_image(page, file):
-    """기본모드에서 사진 1장을 올린다. 파일 선택 창은 Playwright가 직접 채운다."""
-    before = page.evaluate("() => tinymce.activeEditor.getBody().querySelectorAll('img').length")
-    try:
-        with page.expect_file_chooser(timeout=8000) as fc:
-            page.locator('#attach-layer-btn, button[aria-label*="첨부"], button:has-text("첨부")').first.click()
-            page.locator('#attach-image, li:has-text("사진"), button:has-text("사진")').first.click()
-        fc.value.set_files(str(file))
-    except Exception:
-        page.locator('input[type=file][accept*="image"], input[type=file]').first.set_input_files(str(file))
-    page.wait_for_function(f"() => tinymce.activeEditor.getBody().querySelectorAll('img').length > {before}", timeout=60000)
-    time.sleep(1)
+    """기본모드에서 사진 1장을 올린다. 숨은 파일 입력 칸에 바로 넣고(버튼 클릭 없음), 안 되면 False."""
+    before = img_count(page)
+    inputs = page.locator('input[type=file]')
+    order = sorted(range(inputs.count()), key=lambda i: 0 if 'image' in (inputs.nth(i).get_attribute('accept') or '') else 1)
+    for i in order:
+        try:
+            inputs.nth(i).set_input_files(str(file))
+            page.wait_for_function(f"() => tinymce.activeEditor.getBody().querySelectorAll('img').length > {before}", timeout=20000)
+            time.sleep(1)
+            return True
+        except Exception as e:
+            log(f'파일 칸 {i}번 실패: {str(e).splitlines()[0][:80]}')
+            if page.is_closed():
+                return False
+    return False
 
 
 def publish(page, fm, mode):
@@ -272,18 +289,24 @@ def run(mode, slug=None, keep_open=False):
         shot(page, '1-editor')
         page.locator('#post-title-inp, textarea[placeholder*="제목"], input[placeholder*="제목"]').first.fill(fm.get('title', s))
 
-        # ① 그림 업로드(썸네일 먼저, 그다음 본문 그림 순서) → HTML 모드에서 티스토리 그림 표시를 순서대로 모은다
+        # ① 그림 업로드(썸네일 먼저, 그다음 본문 그림 순서). 하나라도 실패하면 저장소 주소 그림으로 대신한다.
         files = ([thumb] if thumb.exists() else []) + [f for _, f in figs]
+        info = upload_info(page)
+        log(f'파일 입력 칸 {len(info["files"])}개 발견')
+        uploaded = True
         for f in files:
-            upload_image(page, f)
+            if not upload_image(page, f):
+                uploaded = False
+                log(f'그림 업로드 실패({f.name}) → 저장소 주소 그림으로 대신해요.')
+                shot(page, 'upload-failed')
+                break
             log(f'업로드: {f.name}')
-        shot(page, '2-uploaded')
         set_mode(page, 'HTML')
-        tokens = IMG_TOKEN.findall(html_get(page) or '')
-        if len(tokens) < len(files):
+        tokens = IMG_TOKEN.findall(html_get(page) or '') if uploaded else []
+        if uploaded and len(tokens) < len(files):
             log(f'그림 표시를 {len(tokens)}개만 찾았어요(필요 {len(files)}개). 저장소 주소 그림으로 대신해요.')
             tokens = []
-        # ② 본문 조립: 첫 줄 썸네일, figure 자리마다 업로드한 그림
+        # ② 본문 조립: 첫 줄 썸네일, figure 자리마다 업로드한 그림(실패 시 저장소 주소 그대로)
         html = body
         if tokens:
             k = 0
@@ -293,6 +316,8 @@ def run(mode, slug=None, keep_open=False):
             for (orig, _), tok in zip(figs, tokens[k:]):
                 cap = re.search(r'<figcaption[^>]*>(.*?)</figcaption>', orig, re.S)
                 html = html.replace(orig, f'<p>{tok}</p>' + (f'\n<p style="font-size:13px;color:#888;text-align:center;">{cap.group(1)}</p>' if cap else ''), 1)
+        elif thumb.exists():
+            html = f'<p style="text-align:center;"><img src="{RAW}assets/thumbnails/{s}.png" alt="{fm.get("title", s)}" style="max-width:100%;"></p>\n' + html
         how = html_set(page, html)
         log(f'본문 입력 방식: {how}')
         set_mode(page, '기본모드')
