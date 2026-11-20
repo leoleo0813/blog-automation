@@ -37,6 +37,7 @@ LOCAL = ROOT / 'office' / 'local.json'      # 이 PC 설정(저장소에 안 올
 LOCK = ROOT / 'office' / 'lock.json'        # 여러 PC 공통 '제작 중' 표시(저장소에 올라감)
 RESULT = ROOT / 'office' / 'result.json'
 PORT = 8765
+PORTS = [8765, 18765, 28765, 38765, 47865, 51765]   # Windows가 막아 둔 번호면 다음 번호로
 MACHINE = platform.node() or platform.system()
 DEFAULTS = {'auto_upload': True, 'daily_limit': 2, 'claude': ''}
 
@@ -278,7 +279,7 @@ class H(BaseHTTPRequestHandler):
         body = json.loads(self.rfile.read(n) or b'{}')
         if (self.headers.get('Host') or '').split(':')[0] not in ('127.0.0.1', 'localhost'):
             return self.send(403, '{}')
-        if self.headers.get('Origin') not in (None, f'http://127.0.0.1:{PORT}', f'http://localhost:{PORT}'):
+        if self.headers.get('Origin') not in (None, f'http://127.0.0.1:{PORT}', f'http://localhost:{PORT}'):  # PORT는 main()에서 실제 번호로 바뀜
             return self.send(403, '{"error":"다른 사이트에서 온 요청은 받지 않아요"}')
         if self.path == '/api/start':
             if job['phase'] != 'idle':
@@ -316,7 +317,27 @@ class H(BaseHTTPRequestHandler):
 
 def main():
     office.build()
-    srv = ThreadingHTTPServer(('127.0.0.1', PORT), H)
+    global PORT
+    import urllib.request
+    srv = None
+    for port in PORTS:
+        try:   # 이미 켜진 타워가 있으면 그 화면만 연다
+            with urllib.request.urlopen(f'http://127.0.0.1:{port}/api/status', timeout=1) as r:
+                if b'members' in r.read(4000):
+                    print(f'AI 타워가 이미 켜져 있어요: http://127.0.0.1:{port}')
+                    webbrowser.open(f'http://127.0.0.1:{port}')
+                    return
+        except Exception:
+            pass
+        try:
+            srv = ThreadingHTTPServer(('127.0.0.1', port), H)
+            PORT = port
+            break
+        except OSError as e:
+            print(f'{port}번은 쓸 수 없어요({e.__class__.__name__}) → 다음 번호로')
+    if not srv:
+        print('비어 있는 번호를 찾지 못했어요. PC를 다시 켠 뒤 시도해 주세요.')
+        return
     url = f'http://127.0.0.1:{PORT}'
     print(f'AI 타워가 열렸어요: {url}  (이 창을 닫으면 타워도 꺼져요)')
     if '--no-browser' not in sys.argv:
