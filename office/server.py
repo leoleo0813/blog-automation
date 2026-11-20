@@ -43,7 +43,7 @@ RESULT = ROOT / 'office' / 'result.json'
 PORT = 8765
 PORTS = [8765, 18765, 28765, 38765, 47865, 51765]   # Windows가 막아 둔 번호면 다음 번호로
 MACHINE = platform.node() or platform.system()
-DEFAULTS = {'auto_upload': True, 'daily_limit': 2, 'claude': ''}
+DEFAULTS = {'auto_upload': True, 'daily_limit': 2, 'claude': '', 'model': 'sonnet'}   # model: sonnet(빠르고 사용량 적게) / opus / '' (계정 기본)
 
 job = {'proc': None, 'phase': 'idle', 'started': None, 'log': None, 'topic': ''}
 lines = []   # 화면에 보여 줄 최근 진행 글
@@ -231,7 +231,7 @@ def produce(topic):
                   f'이번 주제: {topic if topic else "(비어 있음 — 기획이 차례대로 고름)"}. '
                   f'이 PC의 파이썬은 "{sys.executable}" 이다(python 명령이 안 되면 이것을 쓴다). '
                   f'stock_beginner_series.json 새 항목에 "made_at": "{now():%Y-%m-%d}"를 넣는다.')
-        cmd = [claude_bin(), '-p', prompt, '--output-format', 'stream-json', '--verbose',
+        cmd = [claude_bin(), '-p', prompt, '--output-format', 'stream-json', '--verbose'] + (['--model', cfg()['model']] if cfg().get('model') else []) + [
                '--allowedTools', 'Bash', 'Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebSearch', 'WebFetch', 'TodoWrite', 'Task', 'Agent']
         p = subprocess.Popen(cmd, cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL,
                              text=True, encoding='utf-8', errors='replace', env=CLAUDE_ENV if not cfg().get('keep_api_key') else CHILD_ENV, **popen_kw())
@@ -246,7 +246,14 @@ def produce(topic):
             say(f'(Claude Code 종료 코드 {p.returncode} — 글은 만들어져서 업로드로 넘어가요)')
         if final:
             say('📋 ' + final.replace('\n', ' ')[:600])
-        if 'login' in final.lower() or 'api key' in final.lower():
+        low = final.lower()
+        if 'limit' in low and ('hit' in low or 'reset' in low):   # Pro 사용량 한도
+            st_ = office.load()
+            who = next((r_ for r_ in ('planner', 'research', 'writer', 'designer', 'reviewer', 'deploy')
+                        if st_['members'].get(r_, {}).get('state') == 'working'), 'planner')
+            office_set(who, 'blocked', f'Claude 사용량 한도에 걸렸어요 — {final.strip()[:80]}. 풀린 뒤 다시 시작해 주세요(업로드는 지금도 돼요)')
+            say('⚠ Claude Pro 사용량 한도예요. 표시된 시각 이후에 다시 시작해 주세요. 업로드는 사용량과 상관없어서 지금도 돼요.')
+        if 'login' in low or 'api key' in low:
             say('⚠ Claude Code 로그인이 필요해요: 검은 창에서 claude → /login → "Claude account with subscription"(Pro) 선택')
         if job.get('stopped'):
             say('멈춤으로 이번 편은 중단했어요. 다시 시작하면 처음부터 만들어요.')
