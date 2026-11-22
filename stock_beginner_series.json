@@ -4008,6 +4008,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/monthly-rent-tax-credit-2026.md",
       "made_at": "2026-11-20"
+    },
+    {
+      "id": 205,
+      "order": 205,
+      "title": "OBV 지표 뜻과 계산법, 종가 비교로 거래량 더하고 빼기 8일 직접 계산과 다이버전스 보는 법",
+      "slug": "obv-on-balance-volume",
+      "keyword": "OBV",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "560 (PC 160 / 모바일 400)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/obv-on-balance-volume.md",
+      "made_at": "2026-11-23"
     }
   ],
   "backlog": {
