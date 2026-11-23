@@ -4038,6 +4038,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/donation-tax-credit-2026.md",
       "made_at": "2026-11-23"
+    },
+    {
+      "id": 207,
+      "order": 207,
+      "title": "의료비 세액공제 2026, 총급여 3% 넘는 만큼 15%? 한도와 계산 예시",
+      "slug": "medical-expense-tax-credit-2026",
+      "keyword": "의료비 세액공제",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "1730 (PC 390 / 모바일 1340)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/medical-expense-tax-credit-2026.md",
+      "made_at": "2026-11-23"
     }
   ],
   "backlog": {
