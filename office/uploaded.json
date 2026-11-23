@@ -18,5 +18,10 @@
     "mode": "private",
     "at": "2026-11-23T13:13",
     "machine": "HK-QC-1-PC"
+  },
+  "adx-average-directional-index": {
+    "mode": "private",
+    "at": "2026-11-23T13:34",
+    "machine": "HK-QC-1-PC"
   }
 }
