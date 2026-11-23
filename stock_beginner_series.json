@@ -4023,6 +4023,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/obv-on-balance-volume.md",
       "made_at": "2026-11-23"
+    },
+    {
+      "id": 206,
+      "order": 206,
+      "title": "기부금 세액공제 2026, 1천만원 넘으면 30%? 종류별 한도와 계산 예시",
+      "slug": "donation-tax-credit-2026",
+      "keyword": "기부금 세액공제",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "3870 (PC 1060 / 모바일 2810)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/donation-tax-credit-2026.md",
+      "made_at": "2026-11-23"
     }
   ],
   "backlog": {
