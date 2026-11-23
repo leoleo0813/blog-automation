@@ -349,6 +349,9 @@ def naver_page(slug):
             return f'<p style="text-align:center"><img src="{RAW}naver_packs/{slug}/{name}" alt="{name}" style="max-width:100%"></p>'
         return f'<div class="slot" contenteditable="false">{m.group(0)[18:-6]}</div>'
     body = _re.sub(r'<div class="slot">.*?<b>(.*?)</b>.*?</div>', slot, body, flags=_re.S)
+    # 소제목에 색: 네이버 에디터는 붙여넣을 때 CSS를 버리고 글자 색·굵기만 남기므로 글자에 직접 색을 입힌다
+    body = _re.sub(r'<h2>(.*?)</h2>', lambda m: f'<h2 style="color:#03a94f;font-weight:700"><span style="color:#03a94f">▶ {m.group(1)}</span></h2>', body, flags=_re.S)
+    body = _re.sub(r'<h3>(.*?)</h3>', lambda m: f'<h3 style="color:#1e7f4f;font-weight:700"><span style="color:#1e7f4f">· {m.group(1)}</span></h3>', body, flags=_re.S)
     files = sorted(f.name for f in d.iterdir() if f.suffix.lower() in ('.png', '.jpg', '.mp4'))
     style = raw.split('<style>', 1)[-1].split('</style>', 1)[0] if '<style>' in raw else ''
     esc = lambda t: str(t).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')

@@ -65,7 +65,7 @@ def naver_html(title, blocks, out_html, tags=()):
         if k == 'p':
             s.append(f'<p>{b[1]}</p>')
         elif k == 'h':
-            s.append(f'<h2>{_esc(b[1])}</h2>')
+            s.append(f'<h2 style="color:#03a94f;font-weight:700"><span style="color:#03a94f">▶ {_esc(b[1])}</span></h2>')
         elif k == 'q':
             s.append(f'<blockquote>{b[1]}</blockquote>')
         elif k == 'ul':
