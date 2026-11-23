@@ -173,7 +173,7 @@ const TEAM = [   // 키, 이름, 방, 몸 색, 머리 색
   ['planner', '기획', 'plan', 0x3a6fb0, 0x2b2118], ['research', '리서치', 'plan', 0x2f8f8a, 0x5a3a22],
   ['writer', '작가', 'write', 0x8a5cb8, 0x1d1d1d], ['designer', '디자이너', 'design', 0xd0663a, 0xc9893f],
   ['reviewer', '검수', 'review', 0x2f8f5b, 0x2b2118], ['deploy', '배포', 'review', 0xb08a2f, 0x3b2a1a],
-  ['uploader', '업로드', 'upload', 0x546170, 0x1d1d1d],
+  ['uploader', '업로드', 'upload', 0x546170, 0x1d1d1d], ['naver', '네이버', 'naver', 0x03c75a, 0x2b2118],
 ];
 const ORDER = TEAM.map(t => t[0]);
 const NAME = Object.fromEntries(TEAM.map(t => [t[0], t[1]])); NAME.human = '주인님';
@@ -189,23 +189,29 @@ const ROOMS = {
   review: { name: '검수·배포실', x: 10, z: 0, w: 9.4, d: 5.8, floor: 0xd9b98c },
   upload: { name: '업로드실', x: -10, z: 6, w: 9.4, d: 5.8, floor: 0xd9b98c },
   owner:  { name: '주인님 룸', x: 5, z: 6, w: 19.4, d: 5.8, floor: 0xc8aedb },
+  naver:  { name: '네이버실 (아래층)', x: 0, z: 15, w: 30, d: 7, y: -2.6, floor: 0xbfe6cc },
 };
 const DOORS = { 'plan|meet': [-4.85, -6], 'write|meet': [-4.85, 0], 'design|meet': [4.85, -6], 'review|meet': [4.85, 0],
   'owner|meet': [0, 3.05], 'upload|owner': [-4.85, 6] };
+const STAIRS = { 'upload|naver': [[-10, 8.9, 0], [-10, 9.3, 0], [-10, 11.3, -2.6]] };   // 업로드실 앞 → 계단 → 아래층
+Object.keys(STAIRS).forEach(k => DOORS[k] = STAIRS[k][0]);
+const WALL_GAPS = [...Object.values(DOORS).map(d => [d[0], d[1]]), [-10, 11.5]];
 const LINKS = {}; Object.keys(DOORS).forEach(k => { const [a, b] = k.split('|'); (LINKS[a] = LINKS[a] || []).push(b); (LINKS[b] = LINKS[b] || []).push(a); });
-const door = (a, b) => DOORS[a + '|' + b] || DOORS[b + '|' + a];
+const door = (a, b) => STAIRS[a + '|' + b] || (STAIRS[b + '|' + a] ? [...STAIRS[b + '|' + a]].reverse() : [[...(DOORS[a + '|' + b] || DOORS[b + '|' + a]), 0]]);
+const roomY = r => ROOMS[r].y || 0;
 // 자리: [x, z, 방, 바라보는 방향(라디안, 0 = 화면 쪽)]
 const SEATS = {
   planner: [-12, -6.6, 'plan', 0], research: [-8, -6.6, 'plan', 0], designer: [10, -6.6, 'design', 0],
   writer: [-10, -0.6, 'write', 0], reviewer: [8, -0.6, 'review', 0], deploy: [12, -0.6, 'review', 0], uploader: [-10, 5.4, 'upload', 0],
   me: [5, 5.0, 'owner', 0], v1: [3.6, 7.6, 'owner', Math.PI], v2: [6.4, 7.6, 'owner', Math.PI],
   m1: [-1.9, -3, 'meet', Math.PI / 2], m2: [1.9, -3, 'meet', -Math.PI / 2],
+  naver: [-3, 14.2, 'naver', 0],
 };
 function route(fromRoom, toRoom) {   // 방 사이 문 순서(너비 우선 탐색)
   if (fromRoom === toRoom) return [];
   const prev = { [fromRoom]: null }, q = [fromRoom];
   while (q.length) { const r = q.shift(); if (r === toRoom) break; (LINKS[r] || []).forEach(n => { if (!(n in prev)) { prev[n] = r; q.push(n); } }); }
-  const path = []; let c = toRoom; while (prev[c] != null) { path.unshift(door(prev[c], c)); c = prev[c]; }
+  const path = []; let c = toRoom; while (prev[c] != null) { path.unshift(...door(prev[c], c)); c = prev[c]; }
   return path;
 }
 
@@ -219,52 +225,61 @@ function mat(color, extra) { return new THREE.MeshStandardMaterial(Object.assign
 function box(w, h, d, color, x, y, z) { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat(color)); m.position.set(x, y, z); m.castShadow = m.receiveShadow = true; scene.add(m); return m; }
 
 function buildOffice() {
-  const g = new THREE.Mesh(new THREE.PlaneGeometry(80, 60), mat(0x8f8a80)); g.rotation.x = -Math.PI / 2; g.position.y = -0.02; g.receiveShadow = true; scene.add(g);
+  const g = new THREE.Mesh(new THREE.PlaneGeometry(42, 20.2), mat(0x8f8a80)); g.rotation.x = -Math.PI / 2; g.position.set(0, -0.02, -0.9); g.receiveShadow = true; scene.add(g);
+  const g2 = new THREE.Mesh(new THREE.PlaneGeometry(42, 14), mat(0x7b776e)); g2.rotation.x = -Math.PI / 2; g2.position.set(0, -2.62, 16); g2.receiveShadow = true; scene.add(g2);
+  box(31.1, 2.6, .3, 0x6f6a61, 5.45, -1.3, 9.35); box(10.1, 2.6, .3, 0x6f6a61, -15.95, -1.3, 9.35);   // 위층 앞 벽(계단 자리 비움)
+  for (let i = 0; i < 8; i++) { const h = 2.6 - i * .325; box(1.8, h, .26, 0xcfc6b5, -10, -2.6 + h / 2, 9.48 + i * .26); }   // 계단
   Object.entries(ROOMS).forEach(([k, r]) => {
-    const fl = new THREE.Mesh(new THREE.BoxGeometry(r.w, .12, r.d), mat(r.floor)); fl.position.set(r.x, .06, r.z); fl.receiveShadow = true; scene.add(fl);
+    const fl = new THREE.Mesh(new THREE.BoxGeometry(r.w, .12, r.d), mat(r.floor)); fl.position.set(r.x, .06 + (r.y || 0), r.z); fl.receiveShadow = true; scene.add(fl);
     // 벽(문 자리는 비움). 앞쪽(+z) 벽은 낮게 해서 안이 보이게
     const H = 1.5, T = .16, sides = [
       { x1: r.x - r.w / 2, z1: r.z - r.d / 2, x2: r.x + r.w / 2, z2: r.z - r.d / 2, h: H },
       { x1: r.x - r.w / 2, z1: r.z + r.d / 2, x2: r.x + r.w / 2, z2: r.z + r.d / 2, h: .35 },
       { x1: r.x - r.w / 2, z1: r.z - r.d / 2, x2: r.x - r.w / 2, z2: r.z + r.d / 2, h: H },
       { x1: r.x + r.w / 2, z1: r.z - r.d / 2, x2: r.x + r.w / 2, z2: r.z + r.d / 2, h: H }];
-    const gaps = Object.values(DOORS);
+    const gaps = WALL_GAPS, oy = r.y || 0;
     sides.forEach(s => {
       const horiz = s.z1 === s.z2, a = horiz ? s.x1 : s.z1, b = horiz ? s.x2 : s.z2, fixed = horiz ? s.z1 : s.x1;
       const cuts = gaps.filter(([gx, gz]) => horiz ? Math.abs(gz - fixed) < .3 && gx > a && gx < b : Math.abs(gx - fixed) < .3 && gz > a && gz < b)
         .map(([gx, gz]) => horiz ? gx : gz).sort((p, q) => p - q);
       let start = a; [...cuts, null].forEach(c => { const end = c == null ? b : c - .9; if (end - start > .05) {
         const len = end - start, mid = (start + end) / 2;
-        horiz ? box(len, s.h, T, 0xe8e4dc, mid, s.h / 2, fixed) : box(T, s.h, len, 0xe8e4dc, fixed, s.h / 2, mid); }
+        horiz ? box(len, s.h, T, 0xe8e4dc, mid, s.h / 2 + oy, fixed) : box(T, s.h, len, 0xe8e4dc, fixed, s.h / 2 + oy, mid); }
         if (c != null) start = c + .9; });
     });
     // 경광등(막힘 때 깜빡임)
-    const bc = new THREE.Mesh(new THREE.SphereGeometry(.22, 16, 12), mat(0x661111, { emissive: 0x000000 })); bc.position.set(r.x + r.w / 2 - .5, H + .25, r.z - r.d / 2 + .3); scene.add(bc);
-    const pl = new THREE.PointLight(0xff3020, 0, 6); pl.position.set(r.x, 2.4, r.z); scene.add(pl);
+    const bc = new THREE.Mesh(new THREE.SphereGeometry(.22, 16, 12), mat(0x661111, { emissive: 0x000000 })); bc.position.set(r.x + r.w / 2 - .5, H + .25 + oy, r.z - r.d / 2 + .3); scene.add(bc);
+    const pl = new THREE.PointLight(0xff3020, 0, 6); pl.position.set(r.x, 2.4 + oy, r.z); scene.add(pl);
     roomFx[k] = { floor: fl, beacon: bc, light: pl, screens: [] };
     const el = document.createElement('div'); el.className = 'lbl rlbl'; el.textContent = r.name; labels.appendChild(el);
-    roomLbl[k] = { el, pos: new THREE.Vector3(r.x - r.w / 2 + 1.6, H + .6, r.z - r.d / 2) };
+    roomLbl[k] = { el, pos: new THREE.Vector3(r.x - r.w / 2 + 1.6, H + .6 + oy, r.z - r.d / 2) };
   });
   // 책상(팀원 자리 앞 +z쪽)
   Object.entries(SEATS).forEach(([k, [x, z, room]]) => {
     if (/^[mv]\d$/.test(k)) return;   // 미팅·방문 자리는 책상 없음
-    const big = k === 'me';
-    box(big ? 2.6 : 1.6, .08, big ? 1.1 : .8, big ? 0x6b4226 : 0xb9895a, x, .82, z + .75);
-    [[-1, -1], [1, -1], [-1, 1], [1, 1]].forEach(([sx, sz]) => box(.07, .78, .07, 0x3b3f46, x + sx * (big ? 1.2 : .7), .43, z + .75 + sz * (big ? .45 : .3)));
+    const big = k === 'me', y = roomY(room);
+    box(big ? 2.6 : 1.6, .08, big ? 1.1 : .8, big ? 0x6b4226 : 0xb9895a, x, .82 + y, z + .75);
+    [[-1, -1], [1, -1], [-1, 1], [1, 1]].forEach(([sx, sz]) => box(.07, .78, .07, 0x3b3f46, x + sx * (big ? 1.2 : .7), .43 + y, z + .75 + sz * (big ? .45 : .3)));
     if (!big) {
-      box(.08, .5, .08, 0x23272e, x + .35, 1.1, z + .95);
-      box(.75, .48, .05, 0x23272e, x + .35, 1.42, z + .95);
-      const face = new THREE.Mesh(new THREE.PlaneGeometry(.66, .4), mat(0x1c2a38, { emissive: 0x000000 })); face.position.set(x + .35, 1.42, z + .92); face.rotation.y = Math.PI; scene.add(face);
+      box(.08, .5, .08, 0x23272e, x + .35, 1.1 + y, z + .95);
+      box(.75, .48, .05, 0x23272e, x + .35, 1.42 + y, z + .95);
+      const face = new THREE.Mesh(new THREE.PlaneGeometry(.66, .4), mat(0x1c2a38, { emissive: 0x000000 })); face.position.set(x + .35, 1.42 + y, z + .92); face.rotation.y = Math.PI; scene.add(face);
       roomFx[room].screens.push(face);
-      box(.5, .03, .2, 0xdddddd, x - .2, .88, z + .6);
+      box(.5, .03, .2, 0xdddddd, x - .2, .88 + y, z + .6);
     } else {
-      box(.5, .3, .35, 0x2f5d8a, x + .7, 1.0, z + .75); // 노트북
+      box(.5, .3, .35, 0x2f5d8a, x + .7, 1.0 + y, z + .75); // 노트북
     }
-    box(.55, .08, .55, 0x3b3f46, x, .5, z - .15); box(.55, .6, .08, 0x3b3f46, x, .82, z - .42); // 의자
+    box(.55, .08, .55, 0x3b3f46, x, .5 + y, z - .15); box(.55, .6, .08, 0x3b3f46, x, .82 + y, z - .42); // 의자
   });
   const tb = new THREE.Mesh(new THREE.CylinderGeometry(1.4, 1.4, .1, 32), mat(0xc9a77d)); tb.position.set(0, .8, -3); tb.castShadow = tb.receiveShadow = true; scene.add(tb);
   box(.15, .75, .15, 0x3b3f46, 0, .4, -3);
   box(3.2, 1.6, .06, 0xffffff, 0, 1.6, -8.75); // 화이트보드
+  { const c = document.createElement('canvas'); c.width = 256; c.height = 128; const x = c.getContext('2d');
+    x.fillStyle = '#03c75a'; x.fillRect(0, 0, 256, 128); x.fillStyle = '#fff'; x.font = 'bold 96px sans-serif'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText('N', 64, 68);
+    x.font = 'bold 34px sans-serif'; x.fillText('BLOG', 172, 68);
+    const sign = new THREE.Mesh(new THREE.PlaneGeometry(3.2, 1.6), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c) })); sign.position.set(4, -1.0, 11.6); scene.add(sign);
+    roomFx.naver.stack = [];
+    for (let i = 0; i < 5; i++) { const b = box(.9, .5, .7, 0x8fd3a8, 6.5 + (i % 3) * 1.0, -2.3 + Math.floor(i / 3) * .52, 15.6); b.visible = false; roomFx.naver.stack.push(b); } }
   [[-14.3, -8.4], [14.3, -8.4], [-4.3, 8.4], [14.3, 8.4]].forEach(([x, z]) => { const p = new THREE.Mesh(new THREE.ConeGeometry(.4, 1, 10), mat(0x2f8f5b)); p.position.set(x, .9, z); p.castShadow = true; scene.add(p); box(.5, .4, .5, 0x9a6b45, x, .26, z); });
 }
 
@@ -314,25 +329,25 @@ function initThree() {
   renderer.setAnimationLoop(tick);
 }
 function addMini(k, name, obj, seat) {
-  obj.position.set(seat[0], .12, seat[1]); obj.rotation.y = seat[3];
+  obj.position.set(seat[0], .12 + roomY(seat[2]), seat[1]); obj.rotation.y = seat[3];
   const tag = document.createElement('div'); tag.className = 'lbl'; tag.innerHTML = `<div class="say" hidden></div><div class="nm">${name}</div>`;
   labels.appendChild(tag);
-  minis[k] = { obj, tag, say: tag.querySelector('.say'), path: [], seat: k, mode: '', face: seat[3], room: seat[2] };
+  minis[k] = { obj, tag, say: tag.querySelector('.say'), path: [], seat: k, mode: '', face: seat[3], room: seat[2], baseY: .12 + roomY(seat[2]) };
 }
 function setView(v) {
   if (!camera) return;
   const narrow = stage.clientWidth < 640;
-  if (v === 'top') camera.position.set(0, 50, 4); else camera.position.set(0, narrow ? 40 : 21, narrow ? 44 : 23);
-  controls.target.set(0, 0, .5); controls.update();
+  if (v === 'top') camera.position.set(0, 58, 8); else camera.position.set(0, narrow ? 46 : 25, narrow ? 56 : 33);
+  controls.target.set(0, -1, 3.5); controls.update();
 }
 function resize() { if (!renderer) return; const w = stage.clientWidth, h = stage.clientHeight; renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix(); }
 
 function goTo(k, seatId) {
   const m = minis[k]; if (!m || m.seat === seatId) return;
   const s = SEATS[seatId];
-  const pts = route(m.room, s[2]).map(([x, z]) => new THREE.Vector3(x, .12, z));
-  pts.push(new THREE.Vector3(s[0], .12, s[1]));
-  if (REDUCED) { m.obj.position.copy(pts[pts.length - 1]); m.path = []; } else m.path = pts;
+  const pts = route(m.room, s[2]).map(([x, z, y]) => new THREE.Vector3(x, .12 + (y || 0), z));
+  pts.push(new THREE.Vector3(s[0], .12 + roomY(s[2]), s[1]));
+  if (REDUCED) { m.obj.position.copy(pts[pts.length - 1]); m.baseY = pts[pts.length - 1].y; m.path = []; } else m.path = pts;
   m.seat = seatId; m.room = s[2]; m.face = s[3];
 }
 function tick() {
@@ -343,14 +358,14 @@ function tick() {
     if (m.path.length) {
       const target = m.path[0], dx = target.x - o.position.x, dz = target.z - o.position.z, dist = Math.hypot(dx, dz), step = 3.2 * dt;
       o.rotation.y = Math.atan2(dx, dz);
-      if (dist <= step) { o.position.x = target.x; o.position.z = target.z; m.path.shift(); } else { o.position.x += dx / dist * step; o.position.z += dz / dist * step; }
+      if (dist <= step) { o.position.x = target.x; o.position.z = target.z; m.baseY = target.y; m.path.shift(); } else { o.position.x += dx / dist * step; o.position.z += dz / dist * step; m.baseY += (target.y - m.baseY) * step / dist; }
       const sw = Math.sin(t * 12) * .6; u.legL.rotation.x = sw; u.legR.rotation.x = -sw; u.armL.rotation.x = -sw * .8; u.armR.rotation.x = sw * .8; u.head.rotation.x = 0;
-      o.position.y = .12 + Math.abs(Math.sin(t * 12)) * .06;
+      o.position.y = m.baseY + Math.abs(Math.sin(t * 12)) * .06;
     } else {
       let d = m.face - o.rotation.y; d = Math.atan2(Math.sin(d), Math.cos(d)); o.rotation.y += d * Math.min(1, dt * 6);
-      u.legL.rotation.x = u.legR.rotation.x = 0; o.position.y = .12;
+      u.legL.rotation.x = u.legR.rotation.x = 0; o.position.y = m.baseY;
       if (m.mode === 'work') { u.armL.rotation.x = -1.1 + Math.sin(t * 14) * .2; u.armR.rotation.x = -1.1 - Math.sin(t * 14) * .2; u.head.rotation.x = .15 + Math.sin(t * 3) * .04; }
-      else if (m.mode === 'alert') { u.armR.rotation.x = Math.PI - .3 + Math.sin(t * 8) * .25; u.armL.rotation.x = 0; u.head.rotation.x = -.1; o.position.y = .12 + Math.abs(Math.sin(t * 6)) * .05; }
+      else if (m.mode === 'alert') { u.armR.rotation.x = Math.PI - .3 + Math.sin(t * 8) * .25; u.armL.rotation.x = 0; u.head.rotation.x = -.1; o.position.y = m.baseY + Math.abs(Math.sin(t * 6)) * .05; }
       else { u.armL.rotation.x = u.armR.rotation.x = 0; u.head.rotation.x = 0; o.scale.y = 1 + Math.sin(t * 2 + o.position.x) * .015; }
     }
   });
@@ -405,6 +420,7 @@ function render(D) {
         const lab = st.includes('blocked') ? '<i class="b">막힘</i>' : st.includes('working') ? '<i class="w">일하는 중</i>' : st.every(s => s === 'done') ? '<i class="d">완료</i>' : '';
         roomLbl[room].el.innerHTML = esc(ROOMS[room].name) + lab; }
     });
+    if (roomFx.naver && roomFx.naver.stack) roomFx.naver.stack.forEach((b, i) => b.visible = i < (D.naver || []).length);   // 올릴 글 상자
     scene.background = new THREE.Color(css('--panel') || '#f4efe4');
   }
 
@@ -416,6 +432,8 @@ function render(D) {
   let inbox = blocked.map(k => `<div class="report"><b>${NAME[k]}의 보고 · ${fmt(M[k].at)}</b>${esc(M[k].task)}
     <div class="row">${live ? '<button class="btn small primary" type="button" data-retry="1">다시 시도</button>' : ''}<button class="btn small" type="button" data-ack="${esc(k + '|' + M[k].at)}">확인</button></div></div>`).join('');
   if (R && !acks[resId]) inbox += `<div class="report good"><b>배포의 완성 보고</b>${esc(R.title || R.slug)}<div class="row"><button class="btn small" type="button" data-ack="${esc(resId)}">확인</button></div></div>`;
+  if ((D.naver || []).length) inbox += `<div class="report good"><b>네이버실의 보고 · 올릴 글 ${D.naver.length}편</b>${esc(D.naver[0].title)}
+    <div class="row">${live ? `<a class="btn small primary" href="/naver/${encodeURIComponent(D.naver[0].slug)}" target="_blank" rel="noopener">네이버 올리기 화면</a>` : '<span style="color:var(--soft);font-size:12.5px">PC의 AI 오피스에서 열어 주세요</span>'}</div></div>`;
   document.getElementById('inbox').innerHTML = inbox;
   document.getElementById('team').innerHTML = TEAM.map(([k, n, , col]) => { const m = M[k] || { state: 'idle', task: '' };
     return `<li><span class="sw" style="background:#${col.toString(16).padStart(6, '0')}"></span><b>${n}</b><span class="tag" data-s="${m.state}">${S[m.state]}</span><span class="t" title="${esc(m.task)}">${esc(m.task)}</span></li>`; }).join('');
@@ -464,7 +482,7 @@ async function post(path, body) {
 }
 async function poll() { try { const r = await fetch('/api/status', { cache: 'no-store' }); if (r.ok) render(await r.json()); } catch (e) {} }
 const ROOM_JOB = { plan: '차례 판단 · 검색량 측정 · 숫자 2곳 확인', meet: '팀끼리 일을 넘기는 곳', design: '그림 3장 · 캐러셀 6장 · 썸네일 · 네이버 묶음',
-  write: '원고 3,500자 이상', review: 'lint · 숫자 대조 · 푸시 · 쓰레드 문구', upload: '티스토리 비공개 발행(PC)', owner: '최종 확인 · 공개 · 네이버 업로드' };
+  naver: '네이버 묶음 반자동 업로드(붙여넣기·발행은 주인님)', write: '원고 3,500자 이상', review: 'lint · 숫자 대조 · 푸시 · 쓰레드 문구', upload: '티스토리 비공개 발행(PC)', owner: '최종 확인 · 공개 · 네이버 업로드' };
 const hm = iso => { const f = fmt(iso); return f ? f.split(' ')[1] : ''; };
 function openRoom(room) {
   const D = window._D || {}, M = D.members || {};
@@ -473,6 +491,8 @@ function openRoom(room) {
   let html = `<div style="color:var(--soft);font-size:13.5px">${ROOM_JOB[room]}</div><div class="rm">`;
   who.forEach(k => { const m = M[k] || { state: 'idle', task: '' };
     html += `<div><div class="who">${NAME[k]} <span class="tag" data-s="${m.state}">${S[m.state]}</span><span class="when">${fmt(m.at)}</span></div><div class="task">${esc(m.task)}</div></div>`; });
+  if (room === 'naver') { const nv = D.naver || [];
+    html += nv.length ? `<div><b>올릴 글 ${nv.length}편</b><ul style="margin:6px 0 0;padding-left:18px">${nv.map(x => `<li>${D.live ? `<a href="/naver/${encodeURIComponent(x.slug)}" target="_blank" rel="noopener">${esc(x.title)}</a>` : esc(x.title)}</li>`).join('')}</ul>${D.live ? '' : '<div style="color:var(--soft);font-size:12.5px;margin-top:4px">PC의 AI 오피스에서 누르면 네이버 올리기 화면이 열려요.</div>'}</div>` : '<div>네이버에 올릴 글이 없어요.</div>'; }
   if (room === 'owner') html += `<div><b>오늘 할 일</b><ol style="margin:6px 0 0;padding-left:18px">${(D.todo || []).map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`;
   html += '</div>';
   const keys = room === 'meet' ? ORDER : room === 'owner' ? ['human', 'uploader', 'deploy'] : who;

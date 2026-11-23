@@ -26,3 +26,6 @@
 - 멈춤 규칙에 걸리면 `blocked`로 적고 이유를 남긴다. status.json·index.html은 PC마다 따로 두고 커밋하지 않는다.
 - **PC 실행(Windows·Mac)**: `office/start_tower.bat`(Windows) / `office/start_tower.command`(Mac) → 7층 [기획 시작] → Claude Code가 office/PRODUCE.md 순서로 1편 → 끝나면 업로더가 비공개 발행. 설치는 office/SETUP.md.
 - 여러 PC 공통 기록: office/lock.json(제작 중 표시, 2시간 지나면 무시), office/uploaded.json(올린 글), 시리즈 JSON의 made_at(하루 2편 제한).
+- **네이버실(아래층, 반자동)**: AI 오피스가 만든 글의 네이버 묶음을 모아 보여 준다. 네이버실 방이나 주인님 보고함의 [네이버 올리기 화면] →
+  ① 제목 복사 ② 네이버 글쓰기 열기 ③ 본문 복사 ④ 그림·영상 폴더 열기 → 붙여넣기·발행은 사람이 직접 → ⑤ 올림 완료(office/naver_done.json, 여러 PC 공통).
+  네이버 약관상 자동 게시는 하지 않는다.
