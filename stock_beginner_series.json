@@ -4053,6 +4053,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/medical-expense-tax-credit-2026.md",
       "made_at": "2026-11-23"
+    },
+    {
+      "id": 208,
+      "order": 208,
+      "title": "ADX 지표 뜻과 계산법, +DM·-DM에서 DX까지 11일 직접 계산과 25 기준 보는 법",
+      "slug": "adx-average-directional-index",
+      "keyword": "ADX 지표",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "610 (PC 190 / 모바일 420)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/adx-average-directional-index.md",
+      "made_at": "2026-11-23"
     }
   ],
   "backlog": {

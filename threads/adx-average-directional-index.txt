@@ -1,0 +1,12 @@
+[본문]
+ADX 값이 67에서 54로 내려갔는데 추세가 꺾인 걸까?
+
+📌 TR·+DM·-DM으로 하루 움직임 재기
+📌 +DI와 -DI 차이가 DX가 되는 과정
+📌 ADX는 DX를 천천히 따라가는 후행 지표
+
+가정 11일 데이터로 직접 계산해 봤어요. 모르면 25선만 보고 오해하기 쉬워요.
+(자세한 내용은 댓글 링크 참고 👇)
+
+[첫 댓글]
+https://sensitiveboss3.tistory.com/entry/adx-average-directional-index
