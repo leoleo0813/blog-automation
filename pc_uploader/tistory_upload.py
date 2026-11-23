@@ -434,7 +434,80 @@ def set_cover(page, thumb):
         page.remove_listener('filechooser', on_chooser)
 
 
-def publish(page, fm, mode, thumb=None):
+SCHEDULE = REPO / 'office' / 'schedule.json'   # 예약해 둔 시간(여러 PC 공통)
+DEFAULT_SLOTS = ['토 09:00', '토 19:00', '일 09:00', '일 19:00']   # 주말 예약 기본값(config.json의 schedule_slots로 바꿀 수 있음)
+WD = '월화수목금토일'
+
+
+def next_slot():
+    """아직 비어 있는 다음 예약 시간(지금부터 30분 이후). office/schedule.json에 잡힌 시간은 건너뛴다."""
+    taken = set()
+    if SCHEDULE.exists():
+        taken = {v.get('at') for v in json.loads(SCHEDULE.read_text(encoding='utf-8')).values()}
+    slots = CFG.get('schedule_slots') or DEFAULT_SLOTS
+    now = datetime.datetime.now()
+    for day in range(0, 60):
+        d = now.date() + datetime.timedelta(days=day)
+        for sl in slots:
+            wd, hm = sl.split()
+            if WD[d.weekday()] != wd and wd != '매일':
+                continue
+            h, m = map(int, hm.split(':'))
+            at = datetime.datetime(d.year, d.month, d.day, h, m)
+            if at > now + datetime.timedelta(minutes=30) and at.strftime('%Y-%m-%d %H:%M') not in taken:
+                return at
+    return None
+
+
+def share_schedule(slug, at):
+    import platform
+    import subprocess
+    g = lambda *a: subprocess.run(['git', '-C', str(REPO), *a], capture_output=True, text=True)
+    g('pull', '--rebase', '--autostash', '-q')
+    d = json.loads(SCHEDULE.read_text(encoding='utf-8')) if SCHEDULE.exists() else {}
+    d[slug] = {'at': at.strftime('%Y-%m-%d %H:%M'), 'machine': platform.node()}
+    SCHEDULE.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    g('add', str(SCHEDULE)); g('commit', '-q', '-m', f'예약 발행 기록: {slug} {d[slug]["at"]}'); g('push', '-q')
+
+
+def set_schedule(page, at):
+    """발행 창: [공개] → 발행일 [예약] → 날짜·시간 입력. 확인되면 True. 화면 정보는 logs/schedule-info.json."""
+    if not click_first(page, ['label:visible:text-is("공개")', 'input#open20 + label', 'text="공개"'], '공개 선택'):
+        return False
+    time.sleep(0.6)
+    if not click_first(page, ['label:visible:text-is("예약")', 'button:visible:text-is("예약")', 'text="예약"'], '예약 선택'):
+        return False
+    time.sleep(1)
+    info = page.evaluate("""() => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        const m = [...document.querySelectorAll('.ReactModal__Content, [class*=layer]')].filter(vis).pop() || document;
+        return { inputs: [...m.querySelectorAll('input, select')].filter(vis).map(e => ({ tag: e.tagName, type: e.type, id: e.id, name: e.name,
+                   cls: String(e.className).slice(0, 60), val: e.value, ph: e.placeholder || '',
+                   opts: e.tagName === 'SELECT' ? [...e.options].slice(0, 5).map(o => o.value) : [] })),
+                 text: (m.innerText || '').slice(0, 600) }; }""")
+    (LOGS / 'schedule-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
+    r = page.evaluate("""([ymd, hh, mm]) => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        const m = [...document.querySelectorAll('.ReactModal__Content, [class*=layer]')].filter(vis).pop() || document;
+        const setv = (e, v) => { const proto = e.tagName === 'SELECT' ? HTMLSelectElement.prototype : HTMLInputElement.prototype;
+            Object.getOwnPropertyDescriptor(proto, 'value').set.call(e, v); e.dispatchEvent(new Event('input', {bubbles: true})); e.dispatchEvent(new Event('change', {bubbles: true})); };
+        const els = [...m.querySelectorAll('input, select')].filter(vis);
+        let date = false, h = false, mi = false;
+        for (const e of els) {
+            const v = e.value || '', key = (e.id + e.name + e.className + e.placeholder).toLowerCase();
+            if (!date && (e.type === 'date' || /\d{4}[.\-/]\s?\d{1,2}[.\-/]\s?\d{1,2}/.test(v) || /date|day|날짜/.test(key))) {
+                const sep = (v.match(/\d{4}([.\-/]\s?)/) || [0, e.type === 'date' ? '-' : '-'])[1];
+                setv(e, e.type === 'date' ? ymd : ymd.replace(/-/g, sep)); date = true; continue; }
+            if (!h && /hour|시/.test(key)) { setv(e, e.tagName === 'SELECT' && [...e.options].some(o => o.value === hh) ? hh : String(+hh)); h = true; continue; }
+            if (!mi && /min|분/.test(key)) { setv(e, e.tagName === 'SELECT' && [...e.options].some(o => o.value === mm) ? mm : String(+mm)); mi = true; continue; }
+        }
+        return {date, h, mi, text: (m.innerText || '').slice(0, 300)}; }""", [at.strftime('%Y-%m-%d'), at.strftime('%H'), at.strftime('%M')])
+    log(f'예약 시간 입력: {r.get("date")}/{r.get("h")}/{r.get("mi")}')
+    shot(page, 'schedule')
+    return bool(r.get('date') and r.get('h') and r.get('mi'))
+
+
+def publish(page, fm, mode, thumb=None, at=None):
     tags = [t.strip() for t in (fm.get('tags') or '').split(',') if t.strip()]
     try:
         tag_in = page.locator('#tagText, input[placeholder*="태그"]').first
@@ -450,19 +523,31 @@ def publish(page, fm, mode, thumb=None):
         return
     click_first(page, ['#publish-layer-btn', 'button:has-text("완료")'], '완료(발행 창 열기)')
     time.sleep(2)
-    if not click_first(page, ['label:visible:has-text("비공개")', 'text="비공개"', 'input#open0 + label'], '비공개 선택'):
-        raise RuntimeError('비공개를 선택하지 못했어요')
+    scheduled = False
+    if mode == 'schedule' and at:
+        scheduled = set_schedule(page, at)
+        if not scheduled:   # 예약 시간을 못 넣었으면 절대 바로 공개하지 않고 비공개로 저장
+            log('예약 시간을 넣지 못해서 비공개로 저장해요. logs/schedule-info.json과 schedule.png를 보내 주세요.')
+    if not scheduled:
+        if not click_first(page, ['label:visible:has-text("비공개")', 'text="비공개"', 'input#open0 + label'], '비공개 선택'):
+            raise RuntimeError('비공개를 선택하지 못했어요')
     time.sleep(0.8)
     set_permalink(page, fm.get('slug', ''))
     set_cover(page, thumb)
     shot(page, 'publish-layer')
-    if not click_first(page, ['button:visible:has-text("비공개 발행")', 'button:visible:has-text("비공개 저장")',
-                              '#publish-btn', 'button:visible:has-text("발행")'], '발행 버튼'):
+    btns = (['button:visible:has-text("예약 발행")', 'button:visible:has-text("공개 예약")', 'button:visible:has-text("예약")',
+             '#publish-btn'] if scheduled else
+            ['button:visible:has-text("비공개 발행")', 'button:visible:has-text("비공개 저장")', '#publish-btn', 'button:visible:has-text("발행")'])
+    if not click_first(page, btns, '발행 버튼'):
         raise RuntimeError('발행 버튼을 찾지 못했어요')
     time.sleep(4)
+    return scheduled
 
 
 def run(mode, slug=None, keep_open=False):
+    at = next_slot() if mode == 'schedule' else None
+    if mode == 'schedule':
+        log(f'예약 시간: {at:%Y-%m-%d %H:%M} ({WD[at.weekday()]})' if at else '빈 예약 시간이 없어요 → 비공개로 저장')
     from playwright.sync_api import sync_playwright
     st = load_state()
     s, path = pick_post(st, slug)
@@ -533,9 +618,12 @@ def run(mode, slug=None, keep_open=False):
                 page.close(); close()
             return 3
         log(f'본문 확인: {n}자')
-        publish(page, fm, mode, thumb)
+        scheduled = publish(page, fm, mode, thumb, at)
+        if scheduled:
+            share_schedule(s, at)
+            log(f'예약 발행 완료: {at:%m/%d %H:%M} 공개 예정')
         shot(page, '4-saved')
-        if mode == 'private':   # 시험(임시저장)은 기록하지 않는다 → 나중에 자동 실행 때 다시 올라간다
+        if mode in ('private', 'schedule'):   # 시험(임시저장)은 기록하지 않는다 → 나중에 자동 실행 때 다시 올라간다
             st['done'][s] = {'mode': mode, 'at': datetime.datetime.now().isoformat(timespec='minutes')}
             save_state(st)
             if not slug:   # 시험(--slug 지정)은 공유 기록에 남기지 않는다
@@ -582,7 +670,7 @@ def restore_cookies(ctx):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--login', action='store_true')
-    ap.add_argument('--mode', choices=['draft', 'private'], default='draft')
+    ap.add_argument('--mode', choices=['draft', 'private', 'schedule'], default='draft')
     ap.add_argument('--slug')
     ap.add_argument('--keep-open', action='store_true')
     ap.add_argument('--mark-done', nargs='*', help='이미 직접 올린 글의 슬러그(자동 업로드 대상에서 뺌)')

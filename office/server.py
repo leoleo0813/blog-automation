@@ -42,11 +42,13 @@ LOCK = ROOT / 'office' / 'lock.json'        # 여러 PC 공통 '제작 중' 표�
 RESULT = ROOT / 'office' / 'result.json'
 PACKS = ROOT / 'naver_packs'
 NAVER_DONE = ROOT / 'office' / 'naver_done.json'   # 네이버에 올린 글(여러 PC 공통, 저장소에 올라감)
+SCHEDULE = ROOT / 'office' / 'schedule.json'
+RAW = 'https://raw.githubusercontent.com/leoleo0813/blog-automation/main/'
 NAVER_WRITE = 'https://blog.naver.com/GoBlogWrite.naver'   # 로그인된 내 블로그 글쓰기로 이동
 PORT = 8765
 PORTS = [8765, 18765, 28765, 38765, 47865, 51765]   # Windows가 막아 둔 번호면 다음 번호로
 MACHINE = platform.node() or platform.system()
-DEFAULTS = {'auto_upload': True, 'daily_limit': 2, 'claude': '', 'model': 'sonnet'}   # model: sonnet(빠르고 사용량 적게) / opus / '' (계정 기본)
+DEFAULTS = {'auto_upload': True, 'daily_limit': 0, 'upload_mode': 'private', 'claude': '', 'model': 'sonnet'}   # model: sonnet(빠르고 사용량 적게) / opus / '' (계정 기본)
 
 job = {'proc': None, 'phase': 'idle', 'started': None, 'log': None, 'topic': ''}
 lines = []   # 화면에 보여 줄 최근 진행 글
@@ -180,11 +182,20 @@ def stream(proc):
     return final
 
 
+def save_local(**kw):
+    c = {}
+    if LOCAL.exists():
+        c = json.loads(LOCAL.read_text(encoding='utf-8'))
+    c.update(kw)
+    LOCAL.write_text(json.dumps(c, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+
 def run_upload():
     job['phase'] = 'upload'
-    office_set('uploader', 'working', '티스토리 비공개 발행 중')
-    say('업로드 시작: pc_uploader/tistory_upload.py --mode private')
-    p = subprocess.Popen([sys.executable, str(ROOT / 'pc_uploader' / 'tistory_upload.py'), '--mode', 'private'],
+    mode = 'schedule' if cfg().get('upload_mode') == 'schedule' else 'private'
+    office_set('uploader', 'working', '티스토리 예약 발행 중(다음 빈 시간)' if mode == 'schedule' else '티스토리 비공개 발행 중')
+    say(f'업로드 시작: pc_uploader/tistory_upload.py --mode {mode}')
+    p = subprocess.Popen([sys.executable, str(ROOT / 'pc_uploader' / 'tistory_upload.py'), '--mode', mode],
                          cwd=str(ROOT / 'pc_uploader'), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                          stdin=subprocess.DEVNULL, text=True, encoding='utf-8', errors='replace', env=CHILD_ENV, **popen_kw())
     job['proc'] = p
@@ -193,7 +204,7 @@ def run_upload():
             say('⬆ ' + ln.strip()[:200])
     p.wait()
     ok = p.returncode == 0
-    office_set('uploader', 'done' if ok else 'blocked', '비공개 발행 완료 — 티스토리에서 확인 후 공개해 주세요' if ok else
+    office_set('uploader', 'done' if ok else 'blocked', ('예약 발행 완료 — 예약 일정 칸에서 시간 확인' if mode == 'schedule' else '비공개 발행 완료 — 티스토리에서 확인 후 공개해 주세요') if ok else
                f'업로드 멈춤(코드 {p.returncode}) — pc_uploader/logs 확인')
     if ok:
         office_set('human', 'working', '비공개 글 확인 → 공개, 쓰레드 올리기, 네이버 직접 업로드')
@@ -334,8 +345,9 @@ def naver_page(slug):
     def slot(m):
         name = _re.sub(r'<.*?>', '', m.group(1)).strip()
         f = d / name
-        prev = f'<img src="/pack/{slug}/{name}" alt="" style="max-width:240px;display:block;margin-top:6px;border-radius:6px">' if f.suffix == '.png' and f.exists() else ''
-        return f'<div class="slot" contenteditable="false">{m.group(0)[18:-6]}{prev}</div>'
+        if f.suffix == '.png' and f.exists():   # 그림은 공개 주소로 → 본문 복사·붙여넣기 때 네이버가 같이 가져간다
+            return f'<p style="text-align:center"><img src="{RAW}naver_packs/{slug}/{name}" alt="{name}" style="max-width:100%"></p>'
+        return f'<div class="slot" contenteditable="false">{m.group(0)[18:-6]}</div>'
     body = _re.sub(r'<div class="slot">.*?<b>(.*?)</b>.*?</div>', slot, body, flags=_re.S)
     files = sorted(f.name for f in d.iterdir() if f.suffix.lower() in ('.png', '.jpg', '.mp4'))
     style = raw.split('<style>', 1)[-1].split('</style>', 1)[0] if '<style>' in raw else ''
@@ -358,7 +370,7 @@ body{{max-width:820px;background:#f6faf7}}.bar{{position:sticky;top:0;z-index:5;
 <div class="steps"><b>순서 (약 2분)</b><ol>
 <li>① 제목 복사 → ② 네이버 글쓰기에서 제목 칸에 붙여넣기</li>
 <li>③ 본문 복사 → 본문 칸에 붙여넣기(서식이 같이 들어가요)</li>
-<li>노란 상자 자리마다 상자 글자를 지우고, 사진 버튼으로 ④ 폴더의 그 파일을 올리기. 영상은 [동영상] 버튼으로</li>
+<li>그림은 본문과 같이 들어가요. 혹시 빠진 그림만 ④ 폴더에서 사진 버튼으로 올리기. 영상(노란 상자)은 [동영상] 버튼으로</li>
 <li>발행 → 여기서 ⑤ 올림 완료(오피스 네이버실 미니미가 완료로 바뀌어요)</li></ol>
 <div style="color:#666;font-size:13px;margin-top:6px">네이버 약관상 자동 게시는 하지 않아요. 붙여넣기와 발행은 직접 해 주세요.</div></div>
 <h1 id="ttl" style="margin-top:18px">{esc(title)}</h1>
@@ -384,6 +396,9 @@ def status_payload():
     st['live'] = {'phase': job['phase'], 'started': job['started'], 'topic': job['topic'], 'lines': lines[-25:],
                   'machine': MACHINE, 'today': today_count(), 'limit': cfg()['daily_limit'],
                   'claude': bool(claude_bin()), 'auto_upload': cfg()['auto_upload'],
+                  'upload_mode': cfg().get('upload_mode', 'private'),
+                  'schedule': sorted(((k, v.get('at', '')) for k, v in (json.loads(SCHEDULE.read_text(encoding='utf-8')) if SCHEDULE.exists() else {}).items()
+                                      if v.get('at', '') >= now().strftime('%Y-%m-%d %H:%M')), key=lambda kv: kv[1]),
                   'quiet_sec': int(time.time() - last_line['at']) if job['phase'] != 'idle' else 0}
     packs = naver_packs()
     st['naver'] = [{'slug': x['slug'], 'title': x['title']} for x in packs]
@@ -456,7 +471,7 @@ class H(BaseHTTPRequestHandler):
                 return self.send(409, json.dumps({'error': '이미 일하는 중이에요'}, ensure_ascii=False))
             if not claude_bin():
                 return self.send(400, json.dumps({'error': 'Claude Code가 설치되어 있지 않아요. office/SETUP.md를 봐 주세요.'}, ensure_ascii=False))
-            if today_count() >= cfg()['daily_limit']:
+            if cfg()['daily_limit'] and today_count() >= cfg()['daily_limit']:
                 return self.send(429, json.dumps({'error': f'오늘은 이미 {cfg()["daily_limit"]}편을 만들었어요(하루 제한)'}, ensure_ascii=False))
             lk = other_lock()
             if lk:
@@ -477,6 +492,11 @@ class H(BaseHTTPRequestHandler):
                 finally:
                     job.update(proc=None, phase='idle')
             threading.Thread(target=up, daemon=True).start()
+            return self.send(200, '{"ok":true}')
+        if self.path == '/api/settings':
+            um = body.get('upload_mode')
+            if um in ('private', 'schedule'):
+                save_local(upload_mode=um)
             return self.send(200, '{"ok":true}')
         if self.path == '/api/naver/folder':
             slug = str(body.get('slug', ''))
