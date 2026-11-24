@@ -4098,6 +4098,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/year-end-tax-simplified-service-2026.md",
       "made_at": "2026-11-24"
+    },
+    {
+      "id": 211,
+      "order": 211,
+      "title": "컵앤핸들 패턴, 핸들 조정폭과 돌파 거래량 기준",
+      "slug": "cup-and-handle-pattern",
+      "keyword": "컵앤핸들",
+      "type": "차트·지표",
+      "track": "chart",
+      "monthly_search_volume": "710 (PC 150 / 모바일 560)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/cup-and-handle-pattern.md",
+      "made_at": "2026-11-24"
     }
   ],
   "backlog": {
