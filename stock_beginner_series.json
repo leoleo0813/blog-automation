@@ -4068,6 +4068,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/adx-average-directional-index.md",
       "made_at": "2026-11-23"
+    },
+    {
+      "id": 209,
+      "order": 209,
+      "title": "연말정산 인적공제 조건 2026, 부모님·배우자 소득 기준과 추가공제 850만원 계산",
+      "slug": "year-end-tax-personal-deduction-2026",
+      "keyword": "연말정산 인적공제",
+      "type": "세금·제도",
+      "track": "life",
+      "monthly_search_volume": "3130 (PC 1710 / 모바일 1420)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-personal-deduction-2026.md",
+      "made_at": "2026-11-24"
     }
   ],
   "backlog": {
