@@ -4083,6 +4083,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/year-end-tax-personal-deduction-2026.md",
       "made_at": "2026-11-24"
+    },
+    {
+      "id": 210,
+      "order": 210,
+      "title": "연말정산 간소화 서비스 조회 방법, 안 뜨는 자료 7가지와 직접 챙길 서류 (2026년 귀속)",
+      "slug": "year-end-tax-simplified-service-2026",
+      "keyword": "연말정산 간소화 서비스",
+      "type": "세금·제도",
+      "track": "life",
+      "monthly_search_volume": "4080 (PC 2880 / 모바일 1200)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-simplified-service-2026.md",
+      "made_at": "2026-11-24"
     }
   ],
   "backlog": {
