@@ -194,8 +194,10 @@ def run_upload():
     job['phase'] = 'upload'
     mode = 'schedule' if cfg().get('upload_mode') == 'schedule' else 'private'
     office_set('uploader', 'working', '티스토리 예약 발행 중(다음 빈 시간)' if mode == 'schedule' else '티스토리 비공개 발행 중')
-    say(f'업로드 시작: pc_uploader/tistory_upload.py --mode {mode}')
-    p = subprocess.Popen([sys.executable, str(ROOT / 'pc_uploader' / 'tistory_upload.py'), '--mode', mode],
+    at = cfg().get('schedule_at') if mode == 'schedule' else ''
+    extra = ['--at', at] if at else []
+    say(f'업로드 시작: pc_uploader/tistory_upload.py --mode {mode}' + (f' --at {at}' if at else ''))
+    p = subprocess.Popen([sys.executable, str(ROOT / 'pc_uploader' / 'tistory_upload.py'), '--mode', mode, *extra],
                          cwd=str(ROOT / 'pc_uploader'), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                          stdin=subprocess.DEVNULL, text=True, encoding='utf-8', errors='replace', env=CHILD_ENV, **popen_kw())
     job['proc'] = p
@@ -204,6 +206,8 @@ def run_upload():
             say('⬆ ' + ln.strip()[:200])
     p.wait()
     ok = p.returncode == 0
+    if ok and at:
+        save_local(schedule_at='')   # 지정한 시간은 한 번 쓰면 비운다(다음 글은 새로 고르거나 자동)
     office_set('uploader', 'done' if ok else 'blocked', ('예약 발행 완료 — 예약 일정 칸에서 시간 확인' if mode == 'schedule' else '비공개 발행 완료 — 티스토리에서 확인 후 공개해 주세요') if ok else
                f'업로드 멈춤(코드 {p.returncode}) — pc_uploader/logs 확인')
     if ok:
@@ -399,7 +403,7 @@ def status_payload():
     st['live'] = {'phase': job['phase'], 'started': job['started'], 'topic': job['topic'], 'lines': lines[-25:],
                   'machine': MACHINE, 'today': today_count(), 'limit': cfg()['daily_limit'],
                   'claude': bool(claude_bin()), 'auto_upload': cfg()['auto_upload'],
-                  'upload_mode': cfg().get('upload_mode', 'private'),
+                  'upload_mode': cfg().get('upload_mode', 'private'), 'schedule_at': cfg().get('schedule_at', ''),
                   'schedule': sorted(((k, v.get('at', '')) for k, v in (json.loads(SCHEDULE.read_text(encoding='utf-8')) if SCHEDULE.exists() else {}).items()
                                       if v.get('at', '') >= now().strftime('%Y-%m-%d %H:%M')), key=lambda kv: kv[1]),
                   'quiet_sec': int(time.time() - last_line['at']) if job['phase'] != 'idle' else 0}
@@ -500,6 +504,15 @@ class H(BaseHTTPRequestHandler):
             um = body.get('upload_mode')
             if um in ('private', 'schedule'):
                 save_local(upload_mode=um)
+            if 'schedule_at' in body:
+                sa = str(body.get('schedule_at') or '').replace('T', ' ')[:16]
+                if sa:
+                    try:
+                        if datetime.strptime(sa, '%Y-%m-%d %H:%M').replace(tzinfo=KST) < now() + timedelta(minutes=10):
+                            return self.send(400, json.dumps({'error': '지금부터 10분 이후 시간만 고를 수 있어요'}, ensure_ascii=False))
+                    except ValueError:
+                        return self.send(400, json.dumps({'error': '시간 형식이 맞지 않아요'}, ensure_ascii=False))
+                save_local(schedule_at=sa)
             return self.send(200, '{"ok":true}')
         if self.path == '/api/naver/folder':
             slug = str(body.get('slug', ''))

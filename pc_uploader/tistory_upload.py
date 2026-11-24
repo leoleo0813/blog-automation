@@ -544,8 +544,21 @@ def publish(page, fm, mode, thumb=None, at=None):
     return scheduled
 
 
-def run(mode, slug=None, keep_open=False):
-    at = next_slot() if mode == 'schedule' else None
+def parse_at(txt):
+    """'2026-11-29 10:00' 또는 '2026-11-29T10:00' → datetime. 30분 이내·지난 시간이면 None."""
+    try:
+        at = datetime.datetime.strptime(txt.replace('T', ' ')[:16], '%Y-%m-%d %H:%M')
+    except Exception:
+        return None
+    return at if at > datetime.datetime.now() + datetime.timedelta(minutes=10) else None
+
+
+def run(mode, slug=None, keep_open=False, at_txt=None):
+    at = None
+    if mode == 'schedule':
+        at = parse_at(at_txt) if at_txt else next_slot()
+        if at_txt and not at:
+            log(f'예약 시간 {at_txt}은 지났거나 너무 가까워요(10분 이후만 가능) → 비공개로 저장')
     if mode == 'schedule':
         log(f'예약 시간: {at:%Y-%m-%d %H:%M} ({WD[at.weekday()]})' if at else '빈 예약 시간이 없어요 → 비공개로 저장')
     from playwright.sync_api import sync_playwright
@@ -671,6 +684,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--login', action='store_true')
     ap.add_argument('--mode', choices=['draft', 'private', 'schedule'], default='draft')
+    ap.add_argument('--at', help='예약 시간 "YYYY-MM-DD HH:MM"(없으면 다음 빈 주말 시간)')
     ap.add_argument('--slug')
     ap.add_argument('--keep-open', action='store_true')
     ap.add_argument('--mark-done', nargs='*', help='이미 직접 올린 글의 슬러그(자동 업로드 대상에서 뺌)')
@@ -701,7 +715,7 @@ if __name__ == '__main__':
     if a.login:
         sys.exit(login())
     try:
-        sys.exit(run(a.mode, a.slug, a.keep_open))
+        sys.exit(run(a.mode, a.slug, a.keep_open, a.at))
     except SystemExit:
         raise
     except Exception:

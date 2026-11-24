@@ -128,7 +128,14 @@ dialog input { width: 100%; font: inherit; padding: 10px 12px; border-radius: 8p
         <div class="row" style="margin-top:10px;font-size:13.5px" role="radiogroup" aria-label="업로드 방식">
           <b style="font-size:12.5px;color:var(--soft)">업로드 방식</b>
           <label><input type="radio" name="um" id="umPrivate" value="private"> 비공개 저장</label>
-          <label><input type="radio" name="um" id="umSchedule" value="schedule"> 예약 발행(주말 빈 시간)</label>
+          <label><input type="radio" name="um" id="umSchedule" value="schedule"> 예약 발행</label>
+        </div>
+        <div class="row" id="atRow" style="margin-top:6px;font-size:13.5px" hidden>
+          <label for="schedAt" style="font-size:12.5px;color:var(--soft);font-weight:700">다음 글 공개 시간</label>
+          <input type="datetime-local" id="schedAt" step="600" style="font:inherit;font-size:13.5px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)">
+          <button class="btn small" type="button" id="atSave">이 시간으로</button>
+          <button class="btn small" type="button" id="atAuto">자동(주말 빈 시간)</button>
+          <span id="atMsg" style="flex-basis:100%;color:var(--soft);font-size:12.5px"></span>
         </div>
         <div id="sched" style="font-size:13px;margin-top:6px"></div>
         <div class="feed" id="feed" aria-live="polite"></div>
@@ -462,9 +469,17 @@ function renderLive(D) {
   document.getElementById('btnStop').disabled = !busy;
   const um = L.upload_mode === 'schedule' ? 'umSchedule' : 'umPrivate';
   if (document.activeElement?.name !== 'um') document.getElementById(um).checked = true;
+  document.getElementById('atRow').hidden = L.upload_mode !== 'schedule';
+  const si = document.getElementById('schedAt');
+  if (document.activeElement !== si && L.schedule_at) si.value = L.schedule_at.replace(' ', 'T');
+  if (document.activeElement !== si && !L.schedule_at && !si.dataset.touched) si.value = '';
+  const DAYS = '일월화수목금토';
+  document.getElementById('atMsg').textContent = L.schedule_at
+    ? `다음에 올리는 글은 ${L.schedule_at.slice(5, 10).replace('-', '/')}(${DAYS[new Date(L.schedule_at.replace(' ', 'T')).getDay()]}) ${L.schedule_at.slice(11)}에 공개돼요. 한 번 쓰면 비워져요.`
+    : '시간을 고르지 않으면 주말 빈 시간(토·일 09:00/19:00)에 차례로 잡혀요.';
   const sc = L.schedule || [];
   document.getElementById('sched').innerHTML = sc.length ? `<b style="font-size:12.5px;color:var(--soft)">예약 일정</b> ` + sc.map(([slug, at]) => `<span class="tag" data-s="working" style="margin:2px 4px 0 0">${esc(at.slice(5))} · ${esc(slug)}</span>`).join('')
-    : (L.upload_mode === 'schedule' ? '<span style="color:var(--soft)">예약된 글이 없어요. 다음 업로드부터 주말 빈 시간(토·일 09:00/19:00)에 차례로 잡혀요.</span>' : '');
+    : (L.upload_mode === 'schedule' ? '<span style="color:var(--soft)">아직 예약된 글이 없어요.</span>' : '');
   const feed = document.getElementById('feed'), atBottom = feed.scrollTop + feed.clientHeight >= feed.scrollHeight - 20;
   feed.textContent = (L.lines || []).join('\n') || '아직 기록이 없어요. [기획 시작]을 누르면 진행 상황이 여기에 나와요.';
   if (atBottom) feed.scrollTop = feed.scrollHeight;
@@ -547,6 +562,12 @@ if (D0.live && location.protocol.startsWith('http')) {
   document.getElementById('btnUpload').onclick = () => post('/api/upload').then(poll, e => alert(e.message));
   document.getElementById('btnStop').onclick = () => post('/api/stop').then(poll);
   document.querySelectorAll('input[name="um"]').forEach(r => r.onchange = () => post('/api/settings', { upload_mode: r.value }).then(poll));
+  const si = document.getElementById('schedAt');
+  si.oninput = () => si.dataset.touched = '1';
+  { const d = new Date(Date.now() + 60 * 60e3); si.min = new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 16); }
+  document.getElementById('atSave').onclick = () => { if (!si.value) { document.getElementById('atMsg').textContent = '날짜와 시간을 먼저 골라 주세요.'; return; }
+    post('/api/settings', { schedule_at: si.value }).then(() => { si.dataset.touched = ''; poll(); }, e => document.getElementById('atMsg').textContent = e.message); };
+  document.getElementById('atAuto').onclick = () => post('/api/settings', { schedule_at: '' }).then(() => { si.value = ''; si.dataset.touched = ''; poll(); });
   setInterval(poll, 3000);
 }
 </script>
