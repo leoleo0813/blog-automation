@@ -35,9 +35,10 @@
     "machine": "HK-QC-1-PC"
   },
   "cup-and-handle-pattern": {
-    "mode": "private",
+    "mode": "public",
     "at": "2026-11-24T14:38",
-    "machine": "HK-QC-1-PC"
+    "machine": "HK-QC-1-PC",
+    "public_at": "2026-11-25 10:20"
   },
   "year-end-tax-refund-lookup-2026": {
     "mode": "public",
