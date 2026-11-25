@@ -38,5 +38,10 @@
     "mode": "private",
     "at": "2026-11-24T14:38",
     "machine": "HK-QC-1-PC"
+  },
+  "year-end-tax-refund-lookup-2026": {
+    "mode": "schedule",
+    "at": "2026-11-25T09:17",
+    "machine": "HK-QC-1-PC"
   }
 }
