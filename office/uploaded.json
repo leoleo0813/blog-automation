@@ -25,9 +25,10 @@
     "machine": "HK-QC-1-PC"
   },
   "year-end-tax-personal-deduction-2026": {
-    "mode": "private",
+    "mode": "public",
     "at": "2026-11-24T13:14",
-    "machine": "HK-QC-1-PC"
+    "machine": "HK-QC-1-PC",
+    "public_at": "2026-11-25 10:21"
   },
   "year-end-tax-simplified-service-2026": {
     "mode": "private",
