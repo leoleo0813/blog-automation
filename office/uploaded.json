@@ -43,5 +43,10 @@
     "mode": "schedule",
     "at": "2026-11-25T09:18",
     "machine": "HK-QC-1-PC"
+  },
+  "housing-subscription-income-deduction-2026": {
+    "mode": "schedule",
+    "at": "2026-11-25T09:30",
+    "machine": "HK-QC-1-PC"
   }
 }
