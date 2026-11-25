@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "slug": "52-week-high-stock",
+  "at": "2026-11-25T10:15",
+  "intro": "실수형",
+  "flow": "단계 따라가기",
+  "heading": "번호+질문",
+  "box": "제목 띠 상자",
+  "palette": "보라",
+  "font": "본명조",
+  "list_style": "문단 위주",
+  "ending": "한 줄 정리",
+  "qa": 5,
+  "figures": "비교+단계+막대",
+  "tone": "다정한 해요체"
+ }
+]

@@ -4173,6 +4173,22 @@
       "status": "drafted",
       "draft_path": "stock_drafts/k-pass-refund-2026.md",
       "made_at": "2026-11-25"
+    },
+    {
+      "id": 216,
+      "order": 216,
+      "title": "52주 신고가 뜻, 종가·장중 기준과 확인법",
+      "slug": "52-week-high-stock",
+      "keyword": "52주 신고가",
+      "type": "주식",
+      "track": "chart",
+      "monthly_search_volume": "1910 (PC 570 / 모바일 1340)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/52-week-high-stock.md",
+      "style": "실수형 도입·단계 따라가기·번호+질문·다정한 해요체·표1+문단·한 줄 정리·Q&A5·보라·본명조·비교+단계+막대(forest)",
+      "made_at": "2026-11-25"
     }
   ],
   "backlog": {
