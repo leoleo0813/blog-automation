@@ -4143,6 +4143,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/housing-subscription-income-deduction-2026.md",
       "made_at": "2026-11-25"
+    },
+    {
+      "id": 214,
+      "order": 214,
+      "title": "연말정산 신용카드 공제 안 되는 항목 2026",
+      "slug": "year-end-tax-credit-card-excluded-items-2026",
+      "keyword": "연말정산 신용카드",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "660 (PC 320 / 모바일 340)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-credit-card-excluded-items-2026.md",
+      "made_at": "2026-11-25"
     }
   ],
   "backlog": {
