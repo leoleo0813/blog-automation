@@ -389,6 +389,10 @@ def set_cover(page, thumb):
     if not thumb or not Path(thumb).exists():
         log('대표이미지: 썸네일 파일이 없어 건너뜀')
         return
+    has = page.evaluate("() => { const b = document.querySelector('.box_thumb'); return !!(b && [...b.querySelectorAll('img')].some(i => i.offsetWidth || i.naturalWidth)); }")
+    if has:
+        log('대표이미지: 이미 들어가 있어요(본문 첫 그림 = 썸네일) → 그대로 둠')
+        return
     chosen = []
     def on_chooser(fc):
         try:
@@ -478,33 +482,52 @@ def set_schedule(page, at):
     if not click_first(page, ['label:visible:text-is("예약")', 'button:visible:text-is("예약")', 'text="예약"'], '예약 선택'):
         return False
     time.sleep(1)
-    info = page.evaluate("""() => {
+    # '발행일' 줄 안의 입력 칸(날짜·시·분) — 2026-11-25 사용자 캡처: [2026-11-25] [10] : [16] 현재 | 예약
+    row_js = """() => {
         const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
-        const m = [...document.querySelectorAll('.ReactModal__Content, [class*=layer]')].filter(vis).pop() || document;
-        return { inputs: [...m.querySelectorAll('input, select')].filter(vis).map(e => ({ tag: e.tagName, type: e.type, id: e.id, name: e.name,
-                   cls: String(e.className).slice(0, 60), val: e.value, ph: e.placeholder || '',
-                   opts: e.tagName === 'SELECT' ? [...e.options].slice(0, 5).map(o => o.value) : [] })),
-                 text: (m.innerText || '').slice(0, 600) }; }""")
+        const lab = [...document.querySelectorAll('dt, th, strong, span, div, label, p')].find(e => vis(e) && (e.innerText || '').trim() === '발행일');
+        if (!lab) return null;
+        let row = lab; for (let i = 0; i < 5 && row && row.querySelectorAll('input').length < 3; i++) row = row.parentElement;
+        return row; }"""
+    info = page.evaluate("""() => { const row = (""" + row_js + """)(); if (!row) return {found: false};
+        return {found: true, html: row.outerHTML.slice(0, 3000),
+                inputs: [...row.querySelectorAll('input, select')].map(e => ({tag: e.tagName, type: e.type, cls: String(e.className).slice(0, 60),
+                         val: e.value, ro: e.readOnly, vis: !!(e.offsetWidth || e.offsetHeight)}))}; }""")
     (LOGS / 'schedule-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
-    r = page.evaluate("""([ymd, hh, mm]) => {
-        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
-        const m = [...document.querySelectorAll('.ReactModal__Content, [class*=layer]')].filter(vis).pop() || document;
+    if not info.get('found'):
+        log('발행일 줄을 찾지 못했어요')
+        shot(page, 'schedule')
+        return False
+    want = [at.strftime('%Y-%m-%d'), at.strftime('%H'), at.strftime('%M')]
+    # 1) 사람이 치듯 입력(가능하면) 2) 안 되면 값 직접 넣기(React가 알아듣게 input·change 이벤트)
+    page.evaluate("""([want]) => { const row = (""" + row_js + """)();
+        const els = [...row.querySelectorAll('input, select')].filter(e => e.offsetWidth || e.offsetHeight);
+        els.slice(0, 3).forEach((e, i) => { e.setAttribute('data-sched', String(i)); }); }""", [want])
+    for i, v in enumerate(want):
+        loc = page.locator(f'[data-sched="{i}"]')
+        if not loc.count():
+            continue
+        try:
+            if loc.evaluate('e => e.tagName') == 'SELECT':
+                loc.select_option(v if loc.locator(f'option[value="{v}"]').count() else str(int(v)))
+            elif not loc.evaluate('e => e.readOnly'):
+                loc.click(); loc.fill(''); loc.type(v if i == 0 else v, delay=40); loc.press('Tab')
+        except Exception:
+            pass
+        time.sleep(0.3)
+    r = page.evaluate("""([want]) => {
         const setv = (e, v) => { const proto = e.tagName === 'SELECT' ? HTMLSelectElement.prototype : HTMLInputElement.prototype;
-            Object.getOwnPropertyDescriptor(proto, 'value').set.call(e, v); e.dispatchEvent(new Event('input', {bubbles: true})); e.dispatchEvent(new Event('change', {bubbles: true})); };
-        const els = [...m.querySelectorAll('input, select')].filter(vis);
-        let date = false, h = false, mi = false;
-        for (const e of els) {
-            const v = e.value || '', key = (e.id + e.name + e.className + e.placeholder).toLowerCase();
-            if (!date && (e.type === 'date' || /\d{4}[.\-/]\s?\d{1,2}[.\-/]\s?\d{1,2}/.test(v) || /date|day|날짜/.test(key))) {
-                const sep = (v.match(/\d{4}([.\-/]\s?)/) || [0, e.type === 'date' ? '-' : '-'])[1];
-                setv(e, e.type === 'date' ? ymd : ymd.replace(/-/g, sep)); date = true; continue; }
-            if (!h && /hour|시/.test(key)) { setv(e, e.tagName === 'SELECT' && [...e.options].some(o => o.value === hh) ? hh : String(+hh)); h = true; continue; }
-            if (!mi && /min|분/.test(key)) { setv(e, e.tagName === 'SELECT' && [...e.options].some(o => o.value === mm) ? mm : String(+mm)); mi = true; continue; }
-        }
-        return {date, h, mi, text: (m.innerText || '').slice(0, 300)}; }""", [at.strftime('%Y-%m-%d'), at.strftime('%H'), at.strftime('%M')])
-    log(f'예약 시간 입력: {r.get("date")}/{r.get("h")}/{r.get("mi")}')
+            Object.getOwnPropertyDescriptor(proto, 'value').set.call(e, v);
+            ['input', 'change', 'blur'].forEach(t => e.dispatchEvent(new Event(t, {bubbles: true}))); };
+        const norm = v => String(v).replace(/[^0-9]/g, '').replace(/^0+(?=\\d)/, '');
+        const out = [];
+        [0, 1, 2].forEach(i => { const e = document.querySelector(`[data-sched="${i}"]`); if (!e) { out.push(false); return; }
+            if (norm(e.value) !== norm(want[i])) setv(e, i === 0 && /\\./.test(e.value) ? want[i].replace(/-/g, '.') : want[i]);
+            out.push(norm(e.value) === norm(want[i])); });
+        return out; }""", [want])
+    log(f'예약 시간 입력: 날짜 {r[0]} / 시 {r[1]} / 분 {r[2]} → {want[0]} {want[1]}:{want[2]}')
     shot(page, 'schedule')
-    return bool(r.get('date') and r.get('h') and r.get('mi'))
+    return all(r)
 
 
 def publish(page, fm, mode, thumb=None, at=None):
@@ -535,7 +558,7 @@ def publish(page, fm, mode, thumb=None, at=None):
     set_permalink(page, fm.get('slug', ''))
     set_cover(page, thumb)
     shot(page, 'publish-layer')
-    btns = (['button:visible:has-text("예약 발행")', 'button:visible:has-text("공개 예약")', 'button:visible:has-text("예약")',
+    btns = (['button:visible:text-is("예약 발행")', 'button:visible:text-is("공개 예약")', 'button:visible:text-is("공개 발행")',
              '#publish-btn'] if scheduled else
             ['button:visible:has-text("비공개 발행")', 'button:visible:has-text("비공개 저장")', '#publish-btn', 'button:visible:has-text("발행")'])
     if not click_first(page, btns, '발행 버튼'):
