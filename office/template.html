@@ -100,6 +100,7 @@ dialog input { width: 100%; font: inherit; padding: 10px 12px; border-radius: 8p
 .steps li { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 8px; font-size: 13px; padding-bottom: 6px; border-bottom: 1px dashed var(--line) }
 .steps time { font-family: var(--mono); font-size: 11.5px; color: var(--soft) }
 #roomDlg { width: min(520px, calc(100vw - 32px)) }
+.tin { font: inherit; font-size: 13.5px; padding: 5px 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-variant-numeric: tabular-nums }
 .err { color: var(--bad); font-size: 13px; min-height: 1.2em; margin-top: 8px }
 @media (prefers-reduced-motion: no-preference) { .alarm .siren { animation: blink 1s steps(2, start) infinite } }
 @keyframes blink { to { opacity: .25 } }
@@ -132,7 +133,11 @@ dialog input { width: 100%; font: inherit; padding: 10px 12px; border-radius: 8p
         </div>
         <div class="row" id="atRow" style="margin-top:6px;font-size:13.5px" hidden>
           <label for="schedAt" style="font-size:12.5px;color:var(--soft);font-weight:700">다음 글 공개 시간</label>
-          <input type="datetime-local" id="schedAt" step="600" style="font:inherit;font-size:13.5px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)">
+          <span id="schedAt" style="display:inline-flex;align-items:center;gap:4px">
+            <input type="date" id="schedDate" aria-label="날짜" class="tin" style="width:9.5em">
+            <select id="schedH" aria-label="시(24시 기준)" class="tin"></select><b>:</b>
+            <select id="schedM" aria-label="분" class="tin"></select>
+          </span>
           <button class="btn small" type="button" id="atSave">이 시간으로</button>
           <button class="btn small" type="button" id="atAuto">자동(주말 빈 시간)</button>
           <span id="atMsg" style="flex-basis:100%;color:var(--soft);font-size:12.5px"></span>
@@ -471,8 +476,11 @@ function renderLive(D) {
   if (document.activeElement?.name !== 'um') document.getElementById(um).checked = true;
   document.getElementById('atRow').hidden = L.upload_mode !== 'schedule';
   const si = document.getElementById('schedAt');
-  if (document.activeElement !== si && L.schedule_at) si.value = L.schedule_at.replace(' ', 'T');
-  if (document.activeElement !== si && !L.schedule_at && !si.dataset.touched) si.value = '';
+  if (!si.contains(document.activeElement) && !si.dataset.touched) {
+    if (L.schedule_at) { document.getElementById('schedDate').value = L.schedule_at.slice(0, 10);
+      document.getElementById('schedH').value = L.schedule_at.slice(11, 13); document.getElementById('schedM').value = L.schedule_at.slice(14, 16); }
+    else document.getElementById('schedDate').value = '';
+  }
   const DAYS = '일월화수목금토';
   document.getElementById('atMsg').textContent = L.schedule_at
     ? `다음에 올리는 글은 ${L.schedule_at.slice(5, 10).replace('-', '/')}(${DAYS[new Date(L.schedule_at.replace(' ', 'T')).getDay()]}) ${L.schedule_at.slice(11)}에 공개돼요. 한 번 쓰면 비워져요.`
@@ -562,12 +570,16 @@ if (D0.live && location.protocol.startsWith('http')) {
   document.getElementById('btnUpload').onclick = () => post('/api/upload').then(poll, e => alert(e.message));
   document.getElementById('btnStop').onclick = () => post('/api/stop').then(poll);
   document.querySelectorAll('input[name="um"]').forEach(r => r.onchange = () => post('/api/settings', { upload_mode: r.value }).then(poll));
-  const si = document.getElementById('schedAt');
-  si.oninput = () => si.dataset.touched = '1';
-  { const d = new Date(Date.now() + 60 * 60e3); si.min = new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 16); }
-  document.getElementById('atSave').onclick = () => { if (!si.value) { document.getElementById('atMsg').textContent = '날짜와 시간을 먼저 골라 주세요.'; return; }
-    post('/api/settings', { schedule_at: si.value }).then(() => { si.dataset.touched = ''; poll(); }, e => document.getElementById('atMsg').textContent = e.message); };
-  document.getElementById('atAuto').onclick = () => post('/api/settings', { schedule_at: '' }).then(() => { si.value = ''; si.dataset.touched = ''; poll(); });
+  const si = document.getElementById('schedAt'), sd = document.getElementById('schedDate'), sh = document.getElementById('schedH'), sm = document.getElementById('schedM');
+  const pad = n => String(n).padStart(2, '0');
+  sh.innerHTML = Array.from({ length: 24 }, (_, i) => `<option value="${pad(i)}">${pad(i)}시</option>`).join('');
+  sm.innerHTML = Array.from({ length: 12 }, (_, i) => `<option value="${pad(i * 5)}">${pad(i * 5)}분</option>`).join('');
+  sh.value = '09'; sm.value = '00';
+  { const d = new Date(); sd.min = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; }
+  [sd, sh, sm].forEach(e => e.addEventListener('input', () => si.dataset.touched = '1'));
+  document.getElementById('atSave').onclick = () => { if (!sd.value) { document.getElementById('atMsg').textContent = '날짜를 먼저 골라 주세요.'; return; }
+    post('/api/settings', { schedule_at: `${sd.value} ${sh.value}:${sm.value}` }).then(() => { si.dataset.touched = ''; poll(); }, e => document.getElementById('atMsg').textContent = e.message); };
+  document.getElementById('atAuto').onclick = () => post('/api/settings', { schedule_at: '' }).then(() => { sd.value = ''; si.dataset.touched = ''; poll(); });
   setInterval(poll, 3000);
 }
 </script>
