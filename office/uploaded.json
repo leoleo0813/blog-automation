@@ -24,9 +24,10 @@
     "public_at": "2026-11-25 10:21"
   },
   "adx-average-directional-index": {
-    "mode": "private",
+    "mode": "public",
     "at": "2026-11-23T13:34",
-    "machine": "HK-QC-1-PC"
+    "machine": "HK-QC-1-PC",
+    "public_at": "2026-11-25 10:21"
   },
   "year-end-tax-personal-deduction-2026": {
     "mode": "public",
