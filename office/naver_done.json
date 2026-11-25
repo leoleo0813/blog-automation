@@ -18,5 +18,9 @@
   "year-end-tax-refund-lookup-2026": {
     "at": "2026-11-25T09:15:13+09:00",
     "machine": "HK-QC-1-PC"
+  },
+  "housing-subscription-income-deduction-2026": {
+    "at": "2026-11-25T09:26:58+09:00",
+    "machine": "HK-QC-1-PC"
   }
 }
