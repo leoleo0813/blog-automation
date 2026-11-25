@@ -2,5 +2,9 @@
   "year-end-tax-credit-card-excluded-items-2026": {
     "at": "2026-11-28 09:00",
     "machine": "HK-QC-1-PC"
+  },
+  "k-pass-refund-2026": {
+    "at": "2026-11-25 12:00",
+    "machine": "HK-QC-1-PC"
   }
 }
