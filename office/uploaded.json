@@ -48,5 +48,10 @@
     "mode": "schedule",
     "at": "2026-11-25T09:30",
     "machine": "HK-QC-1-PC"
+  },
+  "year-end-tax-credit-card-excluded-items-2026": {
+    "mode": "schedule",
+    "at": "2026-11-25T09:38",
+    "machine": "HK-QC-1-PC"
   }
 }
