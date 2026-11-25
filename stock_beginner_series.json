@@ -4128,6 +4128,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/year-end-tax-refund-lookup-2026.md",
       "made_at": "2026-11-25"
+    },
+    {
+      "id": 213,
+      "order": 213,
+      "title": "주택청약 소득공제 2026, 연 300만원 납입하면 120만원 공제",
+      "slug": "housing-subscription-income-deduction-2026",
+      "keyword": "주택청약 소득공제",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "680 (PC 170 / 모바일 510)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/housing-subscription-income-deduction-2026.md",
+      "made_at": "2026-11-25"
     }
   ],
   "backlog": {
