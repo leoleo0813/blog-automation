@@ -239,7 +239,7 @@ def produce(topic):
         st = office.load()
         st['production'] = 'running'
         st['production_note'] = f'{MACHINE}에서 제작 중'
-        for r_ in ('planner', 'research', 'writer', 'designer', 'reviewer', 'deploy', 'uploader'):
+        for r_ in ('planner', 'writer', 'designer', 'reviewer', 'uploader', 'auditor'):
             st['members'][r_] = {'state': 'idle', 'task': '차례 기다리는 중', 'at': now().isoformat(timespec='seconds')}
         st['members']['planner'] = {'state': 'working', 'task': '시작 — 차례·후보 정하는 중', 'at': now().isoformat(timespec='seconds')}
         office.save(st)
@@ -267,7 +267,7 @@ def produce(topic):
         low = final.lower()
         if 'limit' in low and ('hit' in low or 'reset' in low):   # Pro 사용량 한도
             st_ = office.load()
-            who = next((r_ for r_ in ('planner', 'research', 'writer', 'designer', 'reviewer', 'deploy')
+            who = next((r_ for r_ in ('planner', 'writer', 'designer', 'reviewer', 'auditor')
                         if st_['members'].get(r_, {}).get('state') == 'working'), 'planner')
             office_set(who, 'blocked', f'Claude 사용량 한도에 걸렸어요 — {final.strip()[:80]}. 풀린 뒤 다시 시작해 주세요(업로드는 지금도 돼요)')
             say('⚠ Claude Pro 사용량 한도예요. 표시된 시각 이후에 다시 시작해 주세요. 업로드는 사용량과 상관없어서 지금도 돼요.')
@@ -288,7 +288,7 @@ def produce(topic):
         say(f'⚠ 오류: {e}')
     finally:
         st = office.load()
-        for r_ in ('planner', 'research', 'writer', 'designer', 'reviewer', 'deploy'):   # 끝났는데 '일하는 중'으로 남은 층 정리
+        for r_ in ('planner', 'writer', 'designer', 'reviewer', 'auditor'):   # 끝났는데 '일하는 중'으로 남은 층 정리
             if st['members'].get(r_, {}).get('state') == 'working':
                 st['members'][r_] = {'state': 'done' if ok else 'blocked', 'task': '끝' if ok else '끝나지 않고 멈춤 — 조종석 기록 확인',
                                      'at': now().isoformat(timespec='seconds')}
@@ -397,6 +397,44 @@ document.getElementById('done').onclick=()=>post('/api/naver/done',{{slug:'{slug
 </script></body></html>'''
 
 
+UPLOADED = ROOT / 'office' / 'uploaded.json'
+
+
+def _jload(p):
+    try:
+        return json.loads(p.read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+
+
+def board():
+    """AI 오피스가 만든 글(made_at)의 발행 현황: 티스토리(업로드 전/비공개/예약/공개) + 네이버(대기/완료/없음)."""
+    try:
+        items = json.loads((ROOT / 'stock_beginner_series.json').read_text(encoding='utf-8'))['items']
+    except Exception:
+        return []
+    up, sch, nd = _jload(UPLOADED), _jload(SCHEDULE), naver_done()
+    t_now = now().strftime('%Y-%m-%d %H:%M')
+    rows = []
+    for i in items:
+        if not i.get('made_at'):
+            continue
+        s_ = i['slug']
+        if s_ in sch:
+            at = sch[s_].get('at', '')
+            tis = ('공개됨', at) if at <= t_now else ('예약', at)
+        elif up.get(s_, {}).get('mode') == 'public':
+            tis = ('공개됨', up[s_].get('public_at', ''))
+        elif s_ in up:
+            tis = ('비공개', up[s_].get('at', '')[:16].replace('T', ' '))
+        else:
+            tis = ('업로드 전', '')
+        nav = '완료' if s_ in nd else ('대기' if (PACKS / s_).is_dir() else '없음')
+        rows.append({'id': i.get('id'), 'slug': s_, 'title': i.get('title', ''), 'track': i.get('track', ''),
+                     'tistory': tis[0], 'tistory_at': tis[1], 'naver': nav})
+    return sorted(rows, key=lambda r: -int(r['id'] or 0))
+
+
 def status_payload():
     st = office.load()
     st['counts'] = office.counts()
@@ -407,6 +445,7 @@ def status_payload():
                   'schedule': sorted(((k, v.get('at', '')) for k, v in (json.loads(SCHEDULE.read_text(encoding='utf-8')) if SCHEDULE.exists() else {}).items()
                                       if v.get('at', '') >= now().strftime('%Y-%m-%d %H:%M')), key=lambda kv: kv[1]),
                   'quiet_sec': int(time.time() - last_line['at']) if job['phase'] != 'idle' else 0}
+    st['board'] = board()
     packs = naver_packs()
     st['naver'] = [{'slug': x['slug'], 'title': x['title']} for x in packs]
     nd = naver_done()
@@ -513,6 +552,16 @@ class H(BaseHTTPRequestHandler):
                     except ValueError:
                         return self.send(400, json.dumps({'error': '시간 형식이 맞지 않아요'}, ensure_ascii=False))
                 save_local(schedule_at=sa)
+            return self.send(200, '{"ok":true}')
+        if self.path == '/api/mark_public':
+            slug = str(body.get('slug', ''))
+            git('pull', '--rebase', '--autostash', '-q')
+            d = _jload(UPLOADED)
+            if slug not in d:
+                return self.send(404, json.dumps({'error': '업로드 기록이 없는 글이에요'}, ensure_ascii=False))
+            d[slug].update(mode='public', public_at=now().strftime('%Y-%m-%d %H:%M'))
+            UPLOADED.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            git('add', str(UPLOADED)); git('commit', '-q', '-m', f'공개 전환 기록: {slug}'); git('push', '-q')
             return self.send(200, '{"ok":true}')
         if self.path == '/api/naver/folder':
             slug = str(body.get('slug', ''))

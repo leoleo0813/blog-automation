@@ -22,9 +22,9 @@ TEMPLATE = ROOT / 'office' / 'template.html'
 OUT = ROOT / 'office' / 'index.html'
 SERIES = ROOT / 'stock_beginner_series.json'
 KST = timezone(timedelta(hours=9))
-ROLES = ['planner', 'research', 'writer', 'designer', 'reviewer', 'deploy', 'uploader', 'human']
+ROLES = ['planner', 'research', 'writer', 'designer', 'reviewer', 'deploy', 'uploader', 'human', 'auditor', 'naver']
 THEMES = ['navy', 'forest', 'plum', 'charcoal']
-KO = {'planner': '기획', 'research': '리서치', 'writer': '작가', 'designer': '디자이너', 'reviewer': '검수', 'deploy': '배포', 'uploader': '업로드', 'human': '주인님'}
+KO = {'auditor': '구조검토', 'naver': '네이버', 'planner': '기획', 'research': '리서치', 'writer': '작가', 'designer': '디자이너', 'reviewer': '검수', 'deploy': '배포', 'uploader': '업로드', 'human': '주인님'}
 
 
 def now():
