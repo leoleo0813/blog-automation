@@ -4113,6 +4113,21 @@
       "status": "drafted",
       "draft_path": "stock_drafts/cup-and-handle-pattern.md",
       "made_at": "2026-11-24"
+    },
+    {
+      "id": 212,
+      "order": 212,
+      "title": "연말정산 환급금 조회 2026, 언제 들어오고 내 환급액 어디서 보나",
+      "slug": "year-end-tax-refund-lookup-2026",
+      "keyword": "연말정산 환급금 조회",
+      "type": "생활정보",
+      "track": "life",
+      "monthly_search_volume": "7310 (PC 3280 / 모바일 4030)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-refund-lookup-2026.md",
+      "made_at": "2026-11-25"
     }
   ],
   "backlog": {
