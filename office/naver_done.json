@@ -14,5 +14,9 @@
   "year-end-tax-simplified-service-2026": {
     "at": "2026-11-24T13:50:49+09:00",
     "machine": "HK-QC-1-PC"
+  },
+  "year-end-tax-refund-lookup-2026": {
+    "at": "2026-11-25T09:15:13+09:00",
+    "machine": "HK-QC-1-PC"
   }
 }
