@@ -6,9 +6,10 @@
     "public_at": "2026-11-25 10:21"
   },
   "obv-on-balance-volume": {
-    "mode": "private",
+    "mode": "public",
     "at": "2026-11-23T09:44",
-    "machine": "HK-QC-1-PC"
+    "machine": "HK-QC-1-PC",
+    "public_at": "2026-11-25 10:21"
   },
   "donation-tax-credit-2026": {
     "mode": "private",
