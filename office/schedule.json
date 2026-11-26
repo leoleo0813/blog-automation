@@ -14,5 +14,9 @@
   "year-end-tax-disabled-deduction-2026": {
     "at": "2026-11-26 11:00",
     "machine": "HK-QC-1-PC"
+  },
+  "minimum-wage-2027-monthly": {
+    "at": "2026-11-26 13:00",
+    "machine": "HK-QC-1-PC"
   }
 }
