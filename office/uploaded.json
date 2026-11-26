@@ -82,5 +82,10 @@
     "mode": "schedule",
     "at": "2026-11-26T09:20",
     "machine": "HK-QC-1-PC"
+  },
+  "minimum-wage-2027-monthly": {
+    "mode": "schedule",
+    "at": "2026-11-26T09:36",
+    "machine": "HK-QC-1-PC"
   }
 }
