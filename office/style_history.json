@@ -43,5 +43,20 @@
   "qa": 4,
   "figures": "비교+막대",
   "tone": "담백한 설명체"
+ },
+ {
+  "slug": "year-end-tax-disabled-deduction-2026",
+  "at": "2026-11-26T09:15",
+  "intro": "사례형",
+  "flow": "비교 중심",
+  "heading": "질문 위주",
+  "box": "점선 메모",
+  "palette": "바다",
+  "font": "나눔고딕",
+  "list_style": "목록 위주",
+  "ending": "다음 단계",
+  "qa": 3,
+  "figures": "막대+단계",
+  "tone": "담백한 설명체"
  }
 ]

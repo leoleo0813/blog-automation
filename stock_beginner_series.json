@@ -4205,6 +4205,22 @@
       "draft_path": "stock_drafts/year-end-tax-education-expense-2026.md",
       "style": "질문형 도입·결론 먼저·질문 위주 소제목·옆자리 선배 해요체·표1+목록·체크리스트 마무리·Q&A6·숲(forest)·나눔명조·단계+막대+비교",
       "made_at": "2026-11-26"
+    },
+    {
+      "id": 218,
+      "order": 218,
+      "title": "연말정산 장애인 공제 조건과 금액 2026",
+      "slug": "year-end-tax-disabled-deduction-2026",
+      "keyword": "연말정산 장애인 공제",
+      "type": "주식",
+      "track": "life",
+      "monthly_search_volume": "410 (PC 130 / 모바일 280)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-disabled-deduction-2026.md",
+      "style": "사례형 도입·비교 중심·질문 위주 소제목·담백한 설명체·표1+목록·다음 단계 마무리·Q&A3·바다(navy)·나눔고딕·막대+단계",
+      "made_at": "2026-11-26"
     }
   ],
   "backlog": {
