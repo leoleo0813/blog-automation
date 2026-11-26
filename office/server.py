@@ -1,6 +1,6 @@
 """AI 타워 PC 서버 (Windows·Mac 공통) — 2026-11-20 사용자 요청 "7층 기획을 누르면 시작".
 
-    python office/server.py          → 브라우저에 http://127.0.0.1:8765 이 열린다
+    python office/server.py          → 브라우저에 http://127.0.0.1:39871 이 열린다
 
 - 7층 [기획 시작] → git pull → Claude Code(`claude -p`)가 office/PRODUCE.md 순서로 글 1편 제작
   → 끝나면 pc_uploader로 티스토리 비공개 발행(설정에서 끌 수 있음)
@@ -45,8 +45,9 @@ NAVER_DONE = ROOT / 'office' / 'naver_done.json'   # 네이버에 올린 글(여
 SCHEDULE = ROOT / 'office' / 'schedule.json'
 RAW = 'https://raw.githubusercontent.com/leoleo0813/blog-automation/main/'
 NAVER_WRITE = 'https://blog.naver.com/GoBlogWrite.naver'   # 로그인된 내 블로그 글쓰기로 이동
-PORT = 8765
-PORTS = [8765, 18765, 28765, 38765, 47865, 51765]   # Windows가 막아 둔 번호면 다음 번호로
+PORT = 39871
+# 다른 프로그램(예: 부적합 일일보고 시스템)이 흔히 쓰는 8000·8080·8765 등은 피한다. local.json의 "port"로 바꿀 수 있다.
+PORTS = [39871, 39881, 41871, 43871, 45871, 49871]
 MACHINE = platform.node() or platform.system()
 DEFAULTS = {'auto_upload': True, 'daily_limit': 0, 'upload_mode': 'private', 'claude': '', 'model': 'sonnet'}   # model: sonnet(빠르고 사용량 적게) / opus / '' (계정 기본)
 
@@ -608,7 +609,8 @@ def main():
     global PORT
     import urllib.request
     srv = None
-    for port in PORTS:
+    ports = ([int(cfg()['port'])] if cfg().get('port') else []) + PORTS
+    for port in ports:
         try:   # 이미 켜진 타워가 있으면 그 화면만 연다
             with urllib.request.urlopen(f'http://127.0.0.1:{port}/api/status', timeout=1) as r:
                 if b'members' in r.read(4000):
