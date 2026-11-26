@@ -87,5 +87,10 @@
     "mode": "schedule",
     "at": "2026-11-26T09:36",
     "machine": "HK-QC-1-PC"
+  },
+  "glasses-medical-expense-tax-credit-2026": {
+    "mode": "schedule",
+    "at": "2026-11-26T09:49",
+    "machine": "HK-QC-1-PC"
   }
 }
