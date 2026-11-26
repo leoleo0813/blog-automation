@@ -498,6 +498,23 @@ def choose_open(page, want):
     return False
 
 
+def schedule_values(page):
+    """발행일 줄의 [날짜, 시, 분] 현재 값."""
+    return page.evaluate("""() => {
+        const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+        const lab = [...document.querySelectorAll('dt, th, strong, span, div, label, p')].find(e => vis(e) && (e.innerText || '').trim() === '발행일');
+        if (!lab) return [];
+        let row = lab; for (let i = 0; i < 5 && row && row.querySelectorAll('input').length < 3; i++) row = row.parentElement;
+        return [...row.querySelectorAll('input, select')].filter(vis).slice(0, 3).map(e => e.value); }""")
+
+
+def schedule_ok(page, at):
+    v = schedule_values(page)
+    want = [at.strftime('%Y-%m-%d'), at.strftime('%H'), at.strftime('%M')]
+    norm = lambda x: ''.join(ch for ch in str(x) if ch.isdigit()).lstrip('0') or '0'
+    return len(v) >= 3 and all(norm(a) == norm(b) for a, b in zip(v, want)), v
+
+
 def publish_button_text(page):
     try:
         return page.locator('#publish-btn').first.inner_text(timeout=2000).strip()
@@ -505,11 +522,12 @@ def publish_button_text(page):
         return ''
 
 
-def set_schedule(page, at):
+def set_schedule(page, at, skip_open=False):
     """발행 창: [공개] → 발행일 [예약] → 날짜·시간 입력. 확인되면 True. 화면 정보는 logs/schedule-info.json."""
-    if not choose_open(page, '공개'):
-        return False
-    time.sleep(0.4)
+    if not skip_open:
+        if not choose_open(page, '공개'):
+            return False
+        time.sleep(0.4)
     if not click_first(page, ['label:visible:text-is("예약")', 'button:visible:text-is("예약")', 'text="예약"'], '예약 선택'):
         return False
     time.sleep(1)
@@ -588,18 +606,26 @@ def publish(page, fm, mode, thumb=None, at=None):
     time.sleep(0.8)
     set_permalink(page, fm.get('slug', ''))
     # 대표이미지: 티스토리가 본문 첫 그림(= 첫 줄 썸네일)을 자동으로 쓴다(2026-11-25 확인). 칸을 누르면 발행 창 상태가 흔들려서 건드리지 않는다.
-    if scheduled:   # 발행 직전에 공개+예약 상태 다시 확인
+    if scheduled:   # 발행 직전: 공개인지 + 예약 시간이 그대로인지 확인(공개를 다시 누르면 발행일이 '현재'로 돌아가므로 순서 주의)
         bt = publish_button_text(page)
         log(f'발행 버튼 글자: {bt!r}')
-        if '비공개' in bt or not page.evaluate(VIS_JS, '공개').get('ok'):
-            log('공개가 풀려 있어요 → 다시 공개 선택')
+        if '비공개' in bt:
+            log('공개가 풀려 있어요 → 공개 다시 선택 후 예약 시간도 다시 입력')
             choose_open(page, '공개')
             time.sleep(0.5)
-            bt = publish_button_text(page)
-            log(f'발행 버튼 글자(다시): {bt!r}')
-            if '비공개' in bt:
-                log('공개로 바꾸지 못해 이번 글은 비공개로 저장해요. schedule.png를 보내 주세요.')
-                scheduled = False
+            set_schedule(page, at, skip_open=True)
+        ok, vals = schedule_ok(page, at)
+        if not ok:
+            log(f'예약 시간이 바뀌어 있어요({vals}) → 다시 입력')
+            set_schedule(page, at, skip_open=True)
+            time.sleep(0.5)
+            ok, vals = schedule_ok(page, at)
+        bt = publish_button_text(page)
+        log(f'최종 확인: 버튼 {bt!r} · 발행일 {vals}')
+        if not ok or '비공개' in bt:
+            log('예약 상태를 확정하지 못해서 바로 공개하지 않고 비공개로 저장해요. schedule.png를 보내 주세요.')
+            choose_open(page, '비공개')
+            scheduled = False
     shot(page, 'publish-layer')
     btns = (['button:visible:text-is("예약 발행")', 'button:visible:text-is("공개 예약")', 'button:visible:text-is("공개 발행")',
              '#publish-btn'] if scheduled else
