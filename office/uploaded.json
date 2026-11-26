@@ -97,5 +97,10 @@
     "mode": "schedule",
     "at": "2026-11-26T10:07",
     "machine": "HK-QC-1-PC"
+  },
+  "child-tax-credit-2026": {
+    "mode": "schedule",
+    "at": "2026-11-26T10:35",
+    "machine": "HK-QC-1-PC"
   }
 }
