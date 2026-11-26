@@ -4189,6 +4189,22 @@
       "draft_path": "stock_drafts/52-week-high-stock.md",
       "style": "실수형 도입·단계 따라가기·번호+질문·다정한 해요체·표1+문단·한 줄 정리·Q&A5·보라·본명조·비교+단계+막대(forest)",
       "made_at": "2026-11-25"
+    },
+    {
+      "id": 217,
+      "order": 217,
+      "title": "교육비 세액공제 2026, 자녀 학원비·대학 등록금 한도와 공제 계산",
+      "slug": "year-end-tax-education-expense-2026",
+      "keyword": "교육비 세액공제",
+      "type": "주식",
+      "track": "life",
+      "monthly_search_volume": "790 (PC 290 / 모바일 500)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/year-end-tax-education-expense-2026.md",
+      "style": "질문형 도입·결론 먼저·질문 위주 소제목·옆자리 선배 해요체·표1+목록·체크리스트 마무리·Q&A6·숲(forest)·나눔명조·단계+막대+비교",
+      "made_at": "2026-11-26"
     }
   ],
   "backlog": {

@@ -13,5 +13,35 @@
   "qa": 5,
   "figures": "비교+단계+막대",
   "tone": "다정한 해요체"
+ },
+ {
+  "slug": "year-end-tax-education-expense-2026",
+  "at": "2026-11-25T10:29",
+  "intro": "질문형",
+  "flow": "결론 먼저",
+  "heading": "질문 위주",
+  "box": "왼쪽 줄 상자",
+  "palette": "숲",
+  "font": "나눔명조",
+  "list_style": "목록 위주",
+  "ending": "체크리스트",
+  "qa": 6,
+  "figures": "단계+막대+비교",
+  "tone": "옆자리 선배"
+ },
+ {
+  "slug": "child-tax-credit-2026",
+  "at": "2026-11-25T10:38",
+  "intro": "대화형",
+  "flow": "질문 사다리",
+  "heading": "키워드+질문",
+  "box": "그림자 카드",
+  "palette": "노을",
+  "font": "본고딕",
+  "list_style": "표 위주",
+  "ending": "요약표",
+  "qa": 4,
+  "figures": "비교+막대",
+  "tone": "담백한 설명체"
  }
 ]
