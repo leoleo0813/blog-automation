@@ -77,5 +77,10 @@
     "mode": "schedule",
     "at": "2026-11-26T09:11",
     "machine": "HK-QC-1-PC"
+  },
+  "year-end-tax-disabled-deduction-2026": {
+    "mode": "schedule",
+    "at": "2026-11-26T09:20",
+    "machine": "HK-QC-1-PC"
   }
 }
