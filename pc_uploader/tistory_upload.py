@@ -497,32 +497,68 @@ def open_state(page):
     return '', bt
 
 
+OPEN_POS_JS = """(want) => {
+    // '기본' 줄 안에서 글자가 정확히 want인 가장 작은 보이는 요소의 화면 위치(사람이 누르는 자리)
+    const vis = e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; };
+    const lab = [...document.querySelectorAll('dt, th, strong, span, div, label')].find(e => vis(e) && (e.innerText || '').trim() === '기본');
+    let row = lab; for (let i = 0; i < 5 && row && !/비공개/.test(row.innerText || ''); i++) row = row.parentElement;
+    const scope = row || document;
+    const hits = [...scope.querySelectorAll('*')].filter(e => vis(e) && (e.innerText || '').replace(/\\s+/g, '') === want)
+        .sort((a, b) => a.getBoundingClientRect().width - b.getBoundingClientRect().width);
+    if (!hits.length) return null;
+    const r = hits[0].getBoundingClientRect();
+    return {x: r.left + r.width / 2, y: r.top + r.height / 2, left: r.left, html: (row ? row.outerHTML : '').slice(0, 2500)}; }"""
+
+
 def choose_open(page, want):
-    """발행 창의 공개 범위(공개/비공개)를 누르고, 발행 버튼 글자로 실제로 바뀌었는지 확인."""
-    cands = [f'label:visible:text-is("{want}")', f'text="{want}"', f'span:visible:text-is("{want}")']
-    for i in range(3):
+    """공개 범위(공개/비공개)를 실제 마우스로 누르고(글자 → 동그라미 순), 발행 버튼 글자로 바뀌었는지 확인."""
+    for i in range(4):
         cur, bt = open_state(page)
         if cur == want:
             log(f'공개 범위: {want} 확인(버튼 {bt!r})')
             return True
-        try:   # 1) 라디오 칸이 있으면 그 라벨을 누른다
-            r = page.evaluate(VIS_JS, want)
-            if not r.get('found'):
-                raise RuntimeError
-        except Exception:
-            click_first(page, cands[i % len(cands):] + cands[:i % len(cands)], f'{want} 선택')
-        time.sleep(0.6)
+        pos = page.evaluate(OPEN_POS_JS, want)
+        if pos:
+            if i == 0:
+                (LOGS / 'open-info.html').write_text(pos.get('html') or '', encoding='utf-8')
+            x = pos['x'] if i % 2 == 0 else pos['left'] - 14   # 글자 가운데 → 왼쪽 동그라미
+            page.mouse.click(x, pos['y'])
+            log(f'{want} 클릭(마우스 {int(x)},{int(pos["y"])})')
+        else:
+            click_first(page, [f'label:visible:text-is("{want}")', f'text="{want}"'], f'{want} 선택')
+        time.sleep(0.7)
     cur, bt = open_state(page)
-    if cur != want:
-        info = page.evaluate("""() => { const vis = e => !!(e.offsetWidth || e.offsetHeight);
-            const lab = [...document.querySelectorAll('dt, th, strong, span, div')].find(e => vis(e) && (e.innerText || '').trim() === '기본');
-            let row = lab; for (let i = 0; i < 4 && row && !/비공개/.test(row.innerText || ''); i++) row = row.parentElement;
-            return row ? row.outerHTML.slice(0, 2500) : ''; }""")
-        (LOGS / 'open-info.html').write_text(info or '', encoding='utf-8')
-        log(f'공개 범위 {want} 선택 실패 — 버튼 {bt!r} (logs/open-info.html 기록)')
-        return False
-    log(f'공개 범위: {want} 확인(버튼 {bt!r})')
-    return True
+    if cur == want:
+        log(f'공개 범위: {want} 확인(버튼 {bt!r})')
+        return True
+    log(f'공개 범위 {want} 선택 실패 — 버튼 {bt!r} (logs/open-info.html 기록)')
+    return False
+
+
+def verify_in_manage(page, title, slug):
+    """발행 뒤 '글 관리' 목록에서 이 글의 실제 상태(예약/비공개/공개)를 읽는다. 못 읽으면 ''."""
+    try:
+        page.goto(f'https://{BLOG}.tistory.com/manage/posts/', wait_until='domcontentloaded')
+        time.sleep(3)
+        key = title[:18]
+        st = page.evaluate("""([key]) => {
+            const vis = e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; };
+            const a = [...document.querySelectorAll('a, strong, span, div')].find(e => vis(e) && (e.innerText || '').includes(key) && (e.innerText || '').length < 200);
+            if (!a) return {found: false};
+            let row = a; for (let i = 0; i < 6 && row && !/(예약|비공개|공개|보호)/.test(row.innerText || ''); i++) row = row.parentElement;
+            const t = row ? row.innerText : '';
+            return {found: true, text: t.slice(0, 300)}; }""", [key])
+        shot(page, '5-manage')
+        if not st.get('found'):
+            log('글 관리에서 이 글을 찾지 못했어요(상태 확인 생략)')
+            return ''
+        t = st.get('text', '')
+        status = '예약' if '예약' in t else ('비공개' if '비공개' in t else ('보호' if '보호' in t else ('공개' if '공개' in t else '')))
+        log(f'글 관리 확인: {status or "알 수 없음"} — {t[:80]!r}')
+        return status
+    except Exception as e:
+        log(f'글 관리 확인 실패: {str(e).splitlines()[0][:100]}')
+        return ''
 
 
 def schedule_values(page):
@@ -751,16 +787,25 @@ def run(mode, slug=None, keep_open=False, at_txt=None):
             return 3
         log(f'본문 확인: {n}자')
         scheduled = publish(page, fm, mode, thumb, at)
-        if scheduled:
-            share_schedule(s, at)
-            log(f'예약 발행 완료: {at:%m/%d %H:%M} 공개 예정')
         shot(page, '4-saved')
+        real = verify_in_manage(page, fm.get('title', s), s) if mode == 'schedule' else ''
+        if scheduled and real in ('예약', ''):
+            share_schedule(s, at)
+            log(f'예약 발행 완료: {at:%m/%d %H:%M} 공개 예정' + ('' if real else ' (글 관리 확인은 못 함)'))
+        elif mode == 'schedule':
+            log(f'⚠ 예약이 되지 않았어요(실제 상태: {real or "비공개 저장"}). 티스토리에서 직접 예약해 주세요.')
+            schedule_failed = True
         if mode in ('private', 'schedule'):   # 시험(임시저장)은 기록하지 않는다 → 나중에 자동 실행 때 다시 올라간다
             st['done'][s] = {'mode': mode, 'at': datetime.datetime.now().isoformat(timespec='minutes')}
             save_state(st)
             if not slug:   # 시험(--slug 지정)은 공유 기록에 남기지 않는다
                 share_done(s, st['done'][s])
         log(f'완료: {s} ({mode})')
+        if locals().get('schedule_failed'):
+            if keep_open:
+                input('창을 확인한 뒤 Enter를 누르면 닫혀요...')
+            page.close(); close()
+            return 4   # 오피스가 '막힘'으로 보고
         if keep_open:
             input('창을 확인한 뒤 Enter를 누르면 닫혀요...')
         page.close(); close()

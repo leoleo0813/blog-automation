@@ -209,8 +209,9 @@ def run_upload():
     ok = p.returncode == 0
     if ok and at:
         save_local(schedule_at='')   # 지정한 시간은 한 번 쓰면 비운다(다음 글은 새로 고르거나 자동)
-    office_set('uploader', 'done' if ok else 'blocked', ('예약 발행 완료 — 예약 일정 칸에서 시간 확인' if mode == 'schedule' else '비공개 발행 완료 — 티스토리에서 확인 후 공개해 주세요') if ok else
-               f'업로드 멈춤(코드 {p.returncode}) — pc_uploader/logs 확인')
+    fail_msg = ('예약이 안 되고 비공개로 저장됐어요 — 티스토리에서 수정→공개→예약으로 직접 예약해 주세요(logs/open-info.html 보내 주세요)'
+                if p.returncode == 4 else f'업로드 멈춤(코드 {p.returncode}) — pc_uploader/logs 확인')
+    office_set('uploader', 'done' if ok else 'blocked', ('예약 발행 완료(글 관리에서 예약 확인) — 예약 일정 칸에서 시간 확인' if mode == 'schedule' else '비공개 발행 완료 — 티스토리에서 확인 후 공개해 주세요') if ok else fail_msg)
     if ok:
         office_set('human', 'working', '비공개 글 확인 → 공개, 쓰레드 올리기, 네이버 직접 업로드')
     return ok
