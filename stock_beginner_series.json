@@ -4221,6 +4221,22 @@
       "draft_path": "stock_drafts/year-end-tax-disabled-deduction-2026.md",
       "style": "사례형 도입·비교 중심·질문 위주 소제목·담백한 설명체·표1+목록·다음 단계 마무리·Q&A3·바다(navy)·나눔고딕·막대+단계",
       "made_at": "2026-11-26"
+    },
+    {
+      "id": 219,
+      "order": 219,
+      "title": "2027 최저임금 월급 223만 6,300원 계산 방법",
+      "slug": "minimum-wage-2027-monthly",
+      "keyword": "2027 최저임금 월급",
+      "type": "주식",
+      "track": "life",
+      "monthly_search_volume": "750 (PC 320 / 모바일 430)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/minimum-wage-2027-monthly.md",
+      "style": "실수형 도입·단계 따라가기·번호+질문 소제목·다정한 해요체·표1+문단·한 줄 정리 마무리·Q&A5·먹색 박스(plum 그림)·비교+단계+막대",
+      "made_at": "2026-11-26"
     }
   ],
   "backlog": {
