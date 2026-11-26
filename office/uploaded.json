@@ -72,5 +72,10 @@
     "mode": "schedule",
     "at": "2026-11-25T10:26",
     "machine": "HK-QC-1-PC"
+  },
+  "year-end-tax-education-expense-2026": {
+    "mode": "schedule",
+    "at": "2026-11-26T09:11",
+    "machine": "HK-QC-1-PC"
   }
 }
