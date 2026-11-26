@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#24262b"/>
+<circle cx="1010" cy="640" r="360" fill="#30333a"/>
+<circle cx="960" cy="600" r="250" fill="#ffb84d"/>
+<circle cx="1120" cy="210" r="18" fill="#ff6f59"/>
+<rect x="630" y="760" width="36" height="36" rx="8" fill="#5aa9e6" transform="rotate(20 648 778)"/>
+<path d="M590 560 h34 M607 543 v34" stroke="#7bd389" stroke-width="10" stroke-linecap="round"/>
+<rect x="80" y="86" width="196" height="64" rx="32" fill="#ffb84d"/>
+<text x="178" y="131" font-family="Do Hyeon" font-size="38" fill="#24262b" text-anchor="middle" >생활정보</text>
+<text x="1120" y="131" font-family="Do Hyeon" font-size="28" fill="#a2a6b0" text-anchor="end" >나도!지식 한입만</text>
+<text x="84" y="300" font-family="Black Han Sans" font-size="104" fill="#ffffff" text-anchor="start" >자녀 세액공제</text>
+<text x="84" y="434" font-family="Black Han Sans" font-size="104" fill="#ffb84d" text-anchor="start" >1명 25만원</text>
+<ellipse cx="900" cy="764" rx="110" ry="36" fill="#000000" fill-opacity="0.18"/>
+<ellipse cx="900" cy="750" rx="110" ry="36" fill="#ffd966"/>
+<ellipse cx="900" cy="726" rx="110" ry="36" fill="#000000" fill-opacity="0.18"/>
+<ellipse cx="900" cy="712" rx="110" ry="36" fill="#ffd966"/>
+<ellipse cx="900" cy="688" rx="110" ry="36" fill="#000000" fill-opacity="0.18"/>
+<ellipse cx="900" cy="674" rx="110" ry="36" fill="#ffd966"/>
+<ellipse cx="900" cy="650" rx="110" ry="36" fill="#000000" fill-opacity="0.18"/>
+<ellipse cx="900" cy="636" rx="110" ry="36" fill="#ffd966"/>
+<ellipse cx="900" cy="612" rx="110" ry="36" fill="#000000" fill-opacity="0.18"/>
+<ellipse cx="900" cy="598" rx="110" ry="36" fill="#ffd966"/>
+<circle cx="1050" cy="510" r="120" fill="#ffffff"/>
+<text x="1050" y="550" font-family="Black Han Sans" font-size="64" fill="#24262b" text-anchor="middle" >25만</text>
+<rect x="80" y="740" width="475" height="76" rx="38" fill="#ffffff" fill-opacity="0.12"/>
+<circle cx="118" cy="778" r="12" fill="#ff6f59"/>
+<text x="144" y="792" font-family="Do Hyeon" font-size="42" fill="#ffffff" text-anchor="start" >만 8세 이상 20세 이하</text>
+</svg>

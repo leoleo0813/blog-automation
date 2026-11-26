@@ -4269,6 +4269,22 @@
       "draft_path": "stock_drafts/dependent-deduction-duplicate-2026.md",
       "style": "사례형 도입·사례 3개·질문 위주 소제목·담백한 설명체·목록 위주(표 1)·체크리스트 마무리·Q&A4·노을 색(나눔명조)·비교+막대",
       "made_at": "2026-11-26"
+    },
+    {
+      "id": 222,
+      "order": 222,
+      "title": "연말정산 자녀 세액공제 1명 25만원, 3명 95만원",
+      "slug": "child-tax-credit-2026",
+      "keyword": "연말정산 자녀 세액공제",
+      "type": "주식",
+      "track": "life",
+      "monthly_search_volume": "220 (PC 130 / 모바일 90)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/child-tax-credit-2026.md",
+      "style": "숫자형 도입·비교 중심·번호+질문 소제목·옆자리 선배 말투·표 위주·다음 단계 마무리·Q&A3·바다 색(본고딕)·막대+단계",
+      "made_at": "2026-11-26"
     }
   ],
   "backlog": {

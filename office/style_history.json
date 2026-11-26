@@ -118,5 +118,20 @@
   "qa": 4,
   "figures": "비교+막대",
   "tone": "담백한 설명체"
+ },
+ {
+  "slug": "child-tax-credit-2026",
+  "at": "2026-11-26T10:17",
+  "intro": "숫자형",
+  "flow": "비교 중심",
+  "heading": "번호+질문",
+  "box": "점선 메모",
+  "palette": "바다",
+  "font": "본고딕",
+  "list_style": "표 위주",
+  "ending": "다음 단계",
+  "qa": 3,
+  "figures": "막대+단계",
+  "tone": "옆자리 선배"
  }
 ]
