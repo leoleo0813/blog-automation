@@ -4253,6 +4253,22 @@
       "draft_path": "stock_drafts/glasses-medical-expense-tax-credit-2026.md",
       "style": "질문형 도입·질문 사다리·키워드+질문 소제목·옆자리 선배 해요체·표 위주·요약표 마무리·Q&A6·숲 색(본명조)·막대+비교+단계",
       "made_at": "2026-11-26"
+    },
+    {
+      "id": 221,
+      "order": 221,
+      "title": "연말정산 부양가족 공제 중복 150만원, 누가 받나",
+      "slug": "dependent-deduction-duplicate-2026",
+      "keyword": "연말정산 부양가족 공제",
+      "type": "주식",
+      "track": "life",
+      "monthly_search_volume": "430 (PC 140 / 모바일 290)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/dependent-deduction-duplicate-2026.md",
+      "style": "사례형 도입·사례 3개·질문 위주 소제목·담백한 설명체·목록 위주(표 1)·체크리스트 마무리·Q&A4·노을 색(나눔명조)·비교+막대",
+      "made_at": "2026-11-26"
     }
   ],
   "backlog": {
