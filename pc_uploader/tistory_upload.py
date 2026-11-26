@@ -474,11 +474,42 @@ def share_schedule(slug, at):
     g('add', str(SCHEDULE)); g('commit', '-q', '-m', f'예약 발행 기록: {slug} {d[slug]["at"]}'); g('push', '-q')
 
 
+VIS_JS = """(want) => {
+    const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+    const radios = [...document.querySelectorAll('input[type=radio]')];
+    const labelOf = r => { const l = r.id && document.querySelector(`label[for="${r.id}"]`) || r.closest('label') || r.parentElement;
+        return ((l && l.innerText) || '').replace(/\\s+/g, ''); };
+    const r = radios.find(x => labelOf(x) === want);
+    if (!r) return {found: false, checked: radios.filter(x => x.checked).map(labelOf)};
+    if (want && !r.checked) { const l = r.id && document.querySelector(`label[for="${r.id}"]`) || r.closest('label'); (l && vis(l) ? l : r).click(); }
+    return {found: true, ok: r.checked, checked: radios.filter(x => x.checked).map(labelOf)}; }"""
+
+
+def choose_open(page, want):
+    """발행 창의 공개 범위 라디오(공개/공개(보호)/비공개)를 고르고 실제로 선택됐는지 확인."""
+    for _ in range(3):
+        r = page.evaluate(VIS_JS, want)
+        time.sleep(0.4)
+        r = page.evaluate(VIS_JS, want)
+        if r.get('ok'):
+            log(f'공개 범위: {want} 선택 확인')
+            return True
+    log(f'공개 범위 {want} 선택 실패 — 지금 선택: {r.get("checked")}')
+    return False
+
+
+def publish_button_text(page):
+    try:
+        return page.locator('#publish-btn').first.inner_text(timeout=2000).strip()
+    except Exception:
+        return ''
+
+
 def set_schedule(page, at):
     """발행 창: [공개] → 발행일 [예약] → 날짜·시간 입력. 확인되면 True. 화면 정보는 logs/schedule-info.json."""
-    if not click_first(page, ['label:visible:text-is("공개")', 'input#open20 + label', 'text="공개"'], '공개 선택'):
+    if not choose_open(page, '공개'):
         return False
-    time.sleep(0.6)
+    time.sleep(0.4)
     if not click_first(page, ['label:visible:text-is("예약")', 'button:visible:text-is("예약")', 'text="예약"'], '예약 선택'):
         return False
     time.sleep(1)
@@ -552,11 +583,23 @@ def publish(page, fm, mode, thumb=None, at=None):
         if not scheduled:   # 예약 시간을 못 넣었으면 절대 바로 공개하지 않고 비공개로 저장
             log('예약 시간을 넣지 못해서 비공개로 저장해요. logs/schedule-info.json과 schedule.png를 보내 주세요.')
     if not scheduled:
-        if not click_first(page, ['label:visible:has-text("비공개")', 'text="비공개"', 'input#open0 + label'], '비공개 선택'):
+        if not choose_open(page, '비공개') and not click_first(page, ['label:visible:has-text("비공개")', 'text="비공개"'], '비공개 선택'):
             raise RuntimeError('비공개를 선택하지 못했어요')
     time.sleep(0.8)
     set_permalink(page, fm.get('slug', ''))
-    set_cover(page, thumb)
+    # 대표이미지: 티스토리가 본문 첫 그림(= 첫 줄 썸네일)을 자동으로 쓴다(2026-11-25 확인). 칸을 누르면 발행 창 상태가 흔들려서 건드리지 않는다.
+    if scheduled:   # 발행 직전에 공개+예약 상태 다시 확인
+        bt = publish_button_text(page)
+        log(f'발행 버튼 글자: {bt!r}')
+        if '비공개' in bt or not page.evaluate(VIS_JS, '공개').get('ok'):
+            log('공개가 풀려 있어요 → 다시 공개 선택')
+            choose_open(page, '공개')
+            time.sleep(0.5)
+            bt = publish_button_text(page)
+            log(f'발행 버튼 글자(다시): {bt!r}')
+            if '비공개' in bt:
+                log('공개로 바꾸지 못해 이번 글은 비공개로 저장해요. schedule.png를 보내 주세요.')
+                scheduled = False
     shot(page, 'publish-layer')
     btns = (['button:visible:text-is("예약 발행")', 'button:visible:text-is("공개 예약")', 'button:visible:text-is("공개 발행")',
              '#publish-btn'] if scheduled else
