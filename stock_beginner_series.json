@@ -4237,6 +4237,22 @@
       "draft_path": "stock_drafts/minimum-wage-2027-monthly.md",
       "style": "실수형 도입·단계 따라가기·번호+질문 소제목·다정한 해요체·표1+문단·한 줄 정리 마무리·Q&A5·먹색 박스(plum 그림)·비교+단계+막대",
       "made_at": "2026-11-26"
+    },
+    {
+      "id": 220,
+      "order": 220,
+      "title": "연말정산 안경 공제 한도 50만원 영수증 챙기는 법",
+      "slug": "glasses-medical-expense-tax-credit-2026",
+      "keyword": "연말정산 안경 공제",
+      "type": "주식",
+      "track": "life",
+      "monthly_search_volume": "270 (PC 50 / 모바일 220)",
+      "gate1_pass": true,
+      "gate_pass": true,
+      "status": "drafted",
+      "draft_path": "stock_drafts/glasses-medical-expense-tax-credit-2026.md",
+      "style": "질문형 도입·질문 사다리·키워드+질문 소제목·옆자리 선배 해요체·표 위주·요약표 마무리·Q&A6·숲 색(본명조)·막대+비교+단계",
+      "made_at": "2026-11-26"
     }
   ],
   "backlog": {
