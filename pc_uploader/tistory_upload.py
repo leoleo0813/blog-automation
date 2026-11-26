@@ -485,17 +485,44 @@ VIS_JS = """(want) => {
     return {found: true, ok: r.checked, checked: radios.filter(x => x.checked).map(labelOf)}; }"""
 
 
+def open_state(page):
+    """지금 공개 범위: 발행 버튼 글자로 판단('공개 발행'/'비공개 저장'/'예약 …'). 티스토리 라디오는 직접 그린 단추라 버튼 글자가 가장 확실하다."""
+    bt = publish_button_text(page)
+    if '비공개' in bt:
+        return '비공개', bt
+    if '보호' in bt:
+        return '공개(보호)', bt
+    if '공개' in bt or '예약' in bt or '발행' in bt:
+        return '공개', bt
+    return '', bt
+
+
 def choose_open(page, want):
-    """발행 창의 공개 범위 라디오(공개/공개(보호)/비공개)를 고르고 실제로 선택됐는지 확인."""
-    for _ in range(3):
-        r = page.evaluate(VIS_JS, want)
-        time.sleep(0.4)
-        r = page.evaluate(VIS_JS, want)
-        if r.get('ok'):
-            log(f'공개 범위: {want} 선택 확인')
+    """발행 창의 공개 범위(공개/비공개)를 누르고, 발행 버튼 글자로 실제로 바뀌었는지 확인."""
+    cands = [f'label:visible:text-is("{want}")', f'text="{want}"', f'span:visible:text-is("{want}")']
+    for i in range(3):
+        cur, bt = open_state(page)
+        if cur == want:
+            log(f'공개 범위: {want} 확인(버튼 {bt!r})')
             return True
-    log(f'공개 범위 {want} 선택 실패 — 지금 선택: {r.get("checked")}')
-    return False
+        try:   # 1) 라디오 칸이 있으면 그 라벨을 누른다
+            r = page.evaluate(VIS_JS, want)
+            if not r.get('found'):
+                raise RuntimeError
+        except Exception:
+            click_first(page, cands[i % len(cands):] + cands[:i % len(cands)], f'{want} 선택')
+        time.sleep(0.6)
+    cur, bt = open_state(page)
+    if cur != want:
+        info = page.evaluate("""() => { const vis = e => !!(e.offsetWidth || e.offsetHeight);
+            const lab = [...document.querySelectorAll('dt, th, strong, span, div')].find(e => vis(e) && (e.innerText || '').trim() === '기본');
+            let row = lab; for (let i = 0; i < 4 && row && !/비공개/.test(row.innerText || ''); i++) row = row.parentElement;
+            return row ? row.outerHTML.slice(0, 2500) : ''; }""")
+        (LOGS / 'open-info.html').write_text(info or '', encoding='utf-8')
+        log(f'공개 범위 {want} 선택 실패 — 버튼 {bt!r} (logs/open-info.html 기록)')
+        return False
+    log(f'공개 범위: {want} 확인(버튼 {bt!r})')
+    return True
 
 
 def schedule_values(page):
